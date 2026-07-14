@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="YouTube 1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="r2" name="shot-01-wet-pavement-streetlights" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-01-wet-pavement-streetlights.mp4" start="0s" duration="25s" hasVideo="1" format="r1"/>
+    <asset id="r3" name="shot-02-timeline-clock" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-02-timeline-clock.mp4" start="0s" duration="60s" hasVideo="1" format="r1"/>
+    <asset id="r4" name="shot-03-public-records-desk" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-03-public-records-desk.mp4" start="0s" duration="91720/1000s" hasVideo="1" format="r1"/>
+    <asset id="r5" name="shot-04-empty-workspace-monitors" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-04-empty-workspace-monitors.mp4" start="0s" duration="11690/1000s" hasVideo="1" format="r1"/>
+    <asset id="r6" name="shot-05-documents-review" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-05-documents-review.mp4" start="0s" duration="79160/1000s" hasVideo="1" format="r1"/>
+    <asset id="r7" name="shot-06-dispatch-desk" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-06-dispatch-desk.mp4" start="0s" duration="13760/1000s" hasVideo="1" format="r1"/>
+    <asset id="r8" name="shot-07-rain-on-pavement" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-07-rain-on-pavement.mp4" start="0s" duration="10047/1000s" hasVideo="1" format="r1"/>
+    <asset id="r9" name="shot-08-empty-office" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-08-empty-office.mp4" start="0s" duration="9258/1000s" hasVideo="1" format="r1"/>
+    <asset id="r10" name="shot-09-neutral-record-on-desk" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-09-neutral-record-on-desk.mp4" start="0s" duration="11520/1000s" hasVideo="1" format="r1"/>
+    <asset id="r11" name="shot-10-rural-winter-trees" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-10-rural-winter-trees.mp4" start="0s" duration="16016/1000s" hasVideo="1" format="r1"/>
+    <asset id="r12" name="shot-11-sealed-envelope" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-11-sealed-envelope.mp4" start="0s" duration="18027/1000s" hasVideo="1" format="r1"/>
+    <asset id="r13" name="shot-12-legal-documents" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-12-legal-documents.mp4" start="0s" duration="12800/1000s" hasVideo="1" format="r1"/>
+    <asset id="r14" name="shot-13-neighborhood-dusk" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-13-neighborhood-dusk.mp4" start="0s" duration="20458/1000s" hasVideo="1" format="r1"/>
+    <asset id="r15" name="shot-14-foggy-lake" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage/shot-14-foggy-lake.mp4" start="0s" duration="30507/1000s" hasVideo="1" format="r1"/>
+    <asset id="r16" name="Mia narration - Script Final" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/tts_At_ro_20260709_192446.mp3" start="0s" duration="326766/1000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100"/>
+  </resources>
+  <library><event name="Cold Truth - Jodi Huisentruit"><project name="Jodi Huisentruit - Long-form Preview v2 (Unrendered)"><sequence format="r1" duration="326766/1000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k"><spine>
+    <asset-clip name="01 Exact opening: 4:10 call" ref="r3" offset="0s" start="0s" duration="5479/1000s"><marker start="0s" duration="0s" value="4:10 A.M. — colleague calls Jodi"/></asset-clip>
+    <asset-clip name="02 Morning anchor / missed work" ref="r5" offset="5479/1000s" start="0s" duration="5467/1000s"/>
+    <asset-clip name="03 7:13 welfare-check dispatch" ref="r7" offset="10946/1000s" start="0s" duration="6329/1000s"><marker start="0s" duration="0s" value="7:13 A.M. — welfare check dispatched"/></asset-clip>
+    <asset-clip name="04 Reported drag marks" ref="r2" offset="17275/1000s" start="0s" duration="4106/1000s"/>
+    <asset-clip name="05 Reported parking-lot items" ref="r4" offset="21381/1000s" start="0s" duration="5119/1000s"><marker start="0s" duration="0s" value="Documented public details"/></asset-clip>
+    <asset-clip name="06 Item list continues" ref="r6" offset="26500/1000s" start="12000/1000s" duration="5737/1000s"/>
+    <asset-clip name="07 Last known contact" ref="r3" offset="32237/1000s" start="15000/1000s" duration="5085/1000s"><marker start="0s" duration="0s" value="Last known contact: June 27, 1995"/></asset-clip>
+    <asset-clip name="08 Case remains active" ref="r14" offset="37322/1000s" start="7000/1000s" duration="4064/1000s"><marker start="0s" duration="0s" value="Investigation remains active"/></asset-clip>
+    <asset-clip name="09 Firm details / no explanation" ref="r10" offset="41386/1000s" start="0s" duration="7647/1000s"/>
+    <asset-clip name="10 Jodi's role" ref="r5" offset="49033/1000s" start="5500/1000s" duration="5125/1000s"/>
+    <asset-clip name="11 June 27 missed shift" ref="r3" offset="54158/1000s" start="26000/1000s" duration="5303/1000s"/>
+    <asset-clip name="12 Confirmed sequence" ref="r4" offset="59461/1000s" start="8000/1000s" duration="5263/1000s"/>
+    <asset-clip name="13 Called / welfare check requested" ref="r9" offset="64724/1000s" start="0s" duration="5623/1000s"/>
+    <asset-clip name="14 Dispatch record" ref="r7" offset="70347/1000s" start="5000/1000s" duration="7084/1000s"/>
+    <asset-clip name="15 Physical evidence described" ref="r6" offset="77431/1000s" start="26000/1000s" duration="4622/1000s"/>
+    <asset-clip name="16 Question left unanswered" ref="r15" offset="82053/1000s" start="0s" duration="5324/1000s"/>
+    <asset-clip name="17 Theory boundary" ref="r10" offset="87377/1000s" start="2500/1000s" duration="7406/1000s"/>
+    <asset-clip name="18 Documented timeline" ref="r4" offset="94783/1000s" start="18000/1000s" duration="5944/1000s"/>
+    <asset-clip name="19 Confirmed time vs explanation" ref="r3" offset="100727/1000s" start="35000/1000s" duration="5801/1000s"/>
+    <asset-clip name="20 What is documented" ref="r6" offset="106528/1000s" start="38000/1000s" duration="6882/1000s"/>
+    <asset-clip name="21 What remains unknown" ref="r15" offset="113410/1000s" start="9000/1000s" duration="8141/1000s"/>
+    <asset-clip name="22 Early-morning timeline resumes" ref="r9" offset="121551/1000s" start="1500/1000s" duration="7145/1000s"/>
+    <asset-clip name="23 Welfare check at apartment" ref="r7" offset="128696/1000s" start="1000/1000s" duration="6241/1000s"/>
+    <asset-clip name="24 Drag marks reported" ref="r8" offset="134937/1000s" start="0s" duration="5661/1000s"/>
+    <asset-clip name="25 Reported personal items" ref="r4" offset="140598/1000s" start="35000/1000s" duration="8662/1000s"/>
+    <asset-clip name="26 Record, not identification" ref="r6" offset="149260/1000s" start="49000/1000s" duration="6241/1000s"/>
+    <asset-clip name="27 Where she went remains unknown" ref="r15" offset="155501/1000s" start="18000/1000s" duration="4463/1000s"/>
+    <asset-clip name="28 Expected at work" ref="r5" offset="159964/1000s" start="0s" duration="5536/1000s"/>
+    <asset-clip name="29 Welfare check within hours" ref="r7" offset="165500/1000s" start="7000/1000s" duration="6311/1000s"/>
+    <asset-clip name="30 Active missing-person record" ref="r10" offset="171811/1000s" start="3800/1000s" duration="5689/1000s"><marker start="0s" duration="0s" value="Information: Mason City Police / Iowa DCI"/></asset-clip>
+    <asset-clip name="31 Contact directions" ref="r6" offset="177500/1000s" start="60000/1000s" duration="6598/1000s"/>
+    <asset-clip name="32 Leads still pursued" ref="r4" offset="184098/1000s" start="50000/1000s" duration="4923/1000s"/>
+    <asset-clip name="33 Winsted search, November 2025" ref="r11" offset="189021/1000s" start="0s" duration="6745/1000s"><marker start="0s" duration="0s" value="Winsted, Minnesota — November 2025"/></asset-clip>
+    <asset-clip name="34 Search found nothing significant" ref="r6" offset="195766/1000s" start="12000/1000s" duration="4634/1000s"/>
+    <asset-clip name="35 Ongoing-investigation limit" ref="r10" offset="200400/1000s" start="6500/1000s" duration="4731/1000s"/>
+    <asset-clip name="36 Public record limit" ref="r15" offset="205131/1000s" start="24000/1000s" duration="3503/1000s"/>
+    <asset-clip name="37 2017 GPS warrant" ref="r13" offset="208634/1000s" start="0s" duration="8586/1000s"><marker start="0s" duration="0s" value="Partly unsealed in 2025"/></asset-clip>
+    <asset-clip name="38 Affidavit remains sealed" ref="r12" offset="217220/1000s" start="0s" duration="8326/1000s"><marker start="0s" duration="0s" value="Affidavit remains sealed"/></asset-clip>
+    <asset-clip name="39 Warrant is not proof" ref="r10" offset="225546/1000s" start="2500/1000s" duration="3023/1000s"><marker start="0s" duration="0s" value="A warrant is not proof"/></asset-clip>
+    <asset-clip name="40 Sealed record cannot answer case" ref="r15" offset="228569/1000s" start="5000/1000s" duration="7886/1000s"/>
+    <asset-clip name="41 Investigation continues" ref="r6" offset="236455/1000s" start="30000/1000s" duration="8426/1000s"/>
+    <asset-clip name="42 Restraint is accuracy" ref="r13" offset="244881/1000s" start="2000/1000s" duration="5619/1000s"/>
+    <asset-clip name="43 Significant is not proof" ref="r4" offset="250500/1000s" start="60000/1000s" duration="5544/1000s"/>
+    <gap name="44 Static case card — no resolution" offset="256044/1000s" duration="2781/1000s"><marker start="0s" duration="0s" value="There is no resolution to offer."/></gap>
+    <asset-clip name="45 31st anniversary lead-in" ref="r3" offset="258825/1000s" start="52000/1000s" duration="4675/1000s"><marker start="0s" duration="0s" value="31st anniversary — June 2026"/></asset-clip>
+    <asset-clip name="46 Case remains active" ref="r14" offset="263500/1000s" start="11000/1000s" duration="4988/1000s"><marker start="0s" duration="0s" value="Case remains active — June 2026"/></asset-clip>
+    <asset-clip name="47 No promise of an answer" ref="r15" offset="268488/1000s" start="4000/1000s" duration="4512/1000s"/>
+    <asset-clip name="48 Still asking for information" ref="r4" offset="273000/1000s" start="70000/1000s" duration="5010/1000s"/>
+    <asset-clip name="49 Active is not solved" ref="r10" offset="278010/1000s" start="5000/1000s" duration="5490/1000s"/>
+    <asset-clip name="50 Information could still matter" ref="r15" offset="283500/1000s" start="12000/1000s" duration="6033/1000s"/>
+    <asset-clip name="51 Still missing" ref="r14" offset="289533/1000s" start="14000/1000s" duration="6121/1000s"/>
+    <asset-clip name="52 Times, lot, items" ref="r3" offset="295654/1000s" start="46000/1000s" duration="6184/1000s"/>
+    <asset-clip name="53 The rest remains unknown" ref="r15" offset="301838/1000s" start="20000/1000s" duration="2602/1000s"/>
+    <asset-clip name="54 Tip-line lead-in" ref="r10" offset="304440/1000s" start="1000/1000s" duration="4560/1000s"/>
+    <asset-clip name="55 Tip-line information" ref="r6" offset="309000/1000s" start="70000/1000s" duration="5577/1000s"><marker start="0s" duration="0s" value="Mason City Police / Iowa DCI"/></asset-clip>
+    <asset-clip name="56 Remember Jodi" ref="r14" offset="314577/1000s" start="9000/1000s" duration="4252/1000s"/>
+    <asset-clip name="57 Closing CTA" ref="r15" offset="318829/1000s" start="22000/1000s" duration="7937/1000s"/>
+    <asset-clip name="Mia narration - Script Final" ref="r16" offset="0s" start="0s" duration="326766/1000s" lane="-1"/>
+  </spine></sequence></project></event></library>
+</fcpxml>

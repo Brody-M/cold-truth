@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.upload-manager",
+  "contract_version": "1.0.0",
+  "agent": "Upload Manager",
+  "required_inputs": [
+    {"name": "Script_Final.md", "type": "approved_script", "required": true},
+    {"name": "Research_Source_Ledger.md", "type": "verified_claim_ledger", "required": true},
+    {"name": "validated_local_renders", "type": "render_manifest", "required_for_final_package": true}
+  ],
+  "allowed_actions": ["create factual title options", "write 150-250-word description", "create tags and thumbnail copy", "record recommended settings", "include required credits", "create local metadata audit artifact"],
+  "required_outputs": [
+    {"name": "Upload_Package.md", "type": "metadata_package"},
+    {"name": "metadata_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": ["all metadata fields are present", "facts match approved script and ledger", "required asset credits are included", "titles are under 60 characters", "publishing_enabled is false"],
+  "failure_criteria": ["placeholder remains", "unsupported or sensational claim", "missing required credit", "script/render hash mismatch", "publishing capability requested"],
+  "prohibited_actions": ["edit scripts", "upload", "schedule", "publish", "contact platform APIs", "use OAuth tokens", "enable paid promotion"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["script_sha256", "render_hashes", "title_count", "description_word_count", "tag_count", "thumbnail_copy_count", "credits", "publishing_enabled"]},
+  "autonomy": {"may_proceed": true, "human_checkpoint_required": false, "publishing_enabled": false, "terminal_stage": "metadata_and_audit_ready"}
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "fixture_only": true,
+  "idempotency_key": "120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43",
+  "handoff_sha256": "2512383244b31d5e41b5e48ebc5158a9b3510be63d6a7dd4f21c8cc565614f23",
+  "record_path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_codex_fixture_workspace\\output\\c1_remote_normalized_final_run\\agent_runs\\120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43\\attempt-001\\record.json",
+  "real_production_enabled": false,
+  "publishing_enabled": false
+}

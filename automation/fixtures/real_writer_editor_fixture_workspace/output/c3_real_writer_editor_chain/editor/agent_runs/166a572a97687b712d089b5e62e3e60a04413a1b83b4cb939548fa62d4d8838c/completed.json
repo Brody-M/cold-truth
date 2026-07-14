@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "idempotency_key": "166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c",
+  "attempt_count": 1,
+  "handoff_path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-001\\output\\strategist_handoff.json",
+  "handoff_sha256": "b7a52f22457d427f9a2666ea3a949ed35f8ff9511073897fab793beb4df30ec7",
+  "output_root": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-001\\output",
+  "record_path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-001\\record.json"
+}

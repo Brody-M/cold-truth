@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "approval_id": "C5-SYNTHETIC-APPROVAL-ONLY-0001",
+  "case_id": "glass-river-writing-fixture",
+  "upstream_editor_handoff_hash": "b7a52f22457d427f9a2666ea3a949ed35f8ff9511073897fab793beb4df30ec7",
+  "upstream_writer_handoff_hash": "fa74fa01838651b8e893159c1c689e443588a3b3cfb2db553aae1f27506db1fb",
+  "decision": "approve",
+  "decision_timestamp_utc": "2026-07-12T12:00:00Z",
+  "reviewer_role": "human_owner",
+  "reviewer_note": "Synthetic fixture decision for offline C5 preflight tests only; no narration is authorized.",
+  "approved_script_hash": "c8a2e0685425f8c82a033f245ada23162ffea714c53d6fd65bd3d6f053c1e609",
+  "permitted_next_stage": "narration_preflight_only",
+  "narration_authorized": false,
+  "asset_authorized": false,
+  "rendering_authorized": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

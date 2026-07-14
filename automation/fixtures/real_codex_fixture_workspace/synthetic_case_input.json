@@ -1,0 +1,19 @@
+{
+  "fixture": true,
+  "case_id": "glass-harbor-fixture",
+  "case_name": "Glass Harbor Fixture",
+  "claim_ids": [
+    "SYN-C1-01",
+    "SYN-C1-02",
+    "SYN-C1-03"
+  ],
+  "synthetic_viability": "Standard long-form viable",
+  "score_total": 30,
+  "score_breakdown": {
+    "long_form_source_depth": 5,
+    "clear_chronological_narrative": 4,
+    "legal_and_misinformation_risk": 5
+  },
+  "risk_level": "synthetic-none",
+  "recommended_disposition": "select"
+}

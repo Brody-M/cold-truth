@@ -1,0 +1,18 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-writing-fixture",
+  "allowed_claim_ids": ["SYN-RV-01", "SYN-RV-02", "SYN-RV-03"],
+  "excluded_claim_ids": ["SYN-RV-X1", "SYN-RV-X2", "SYN-RV-X3"],
+  "required_sentences": [
+    "A fictional official record fixes the event date as April 17, 2042.",
+    "A second fictional official record places the event at Glass River Annex in Example District.",
+    "A fictional archive records a current-status update dated September 8, 2044."
+  ],
+  "word_count_minimum": 30,
+  "word_count_maximum": 60,
+  "external_research_allowed": false,
+  "tools_allowed": false,
+  "calls_to_action_allowed": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

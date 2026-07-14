@@ -1,0 +1,12 @@
+{
+  "final_authorization_relative_path": "fixtures/real_writer_editor_fixture_workspace/narration_preflight/future_c8/disposable_output/c8_isolated_synthetic_connectivity.mp3",
+  "exists": false,
+  "byte_count": 0,
+  "sha256": null,
+  "extension": ".mp3",
+  "contained": true,
+  "mcp_operation_count": 1,
+  "finalization_action_type": "none",
+  "finalization_count": 0,
+  "success": false
+}

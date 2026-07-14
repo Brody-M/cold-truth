@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.editor",
+  "contract_version": "1.0.0",
+  "agent": "Editor",
+  "required_inputs": [
+    {"name": "Script_Draft.md", "type": "draft_script", "required": true},
+    {"name": "Research_Source_Ledger.md", "type": "verified_claim_ledger", "required": true},
+    {"name": "writer_handoff.json", "type": "common_handoff", "required": true}
+  ],
+  "allowed_actions": ["edit tone, pacing, clarity, and attribution", "scan repetition", "verify ledger alignment", "create source-bound reverse outline", "reject structurally incoherent drafts"],
+  "required_outputs": [
+    {"name": "Editorial_Notes.md", "type": "editorial_notes"},
+    {"name": "Reverse_Outline.md", "type": "source_bound_reverse_outline"},
+    {"name": "Script_Draft_Reviewed.md", "type": "reviewed_draft"},
+    {"name": "checkpoint_1_packet.json", "type": "approval_packet"}
+  ],
+  "success_criteria": ["reverse outline includes purpose, claim IDs, transition, and exclusions for every section", "draft is coherent for a first-time background listener", "repetition adds new information or is removed", "no-padding and source thresholds pass", "checkpoint packet binds exact hashes"],
+  "failure_criteria": ["disconnected fact-card structure", "unsupported factual edit", "repetition remains without purpose", "projected narration is under eight minutes without approved exception", "required reverse-outline field is missing"],
+  "prohibited_actions": ["invent facts", "approve its own work", "create Script_Final before human approval", "generate narration", "source visuals", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["editorial_status", "reverse_outline_sha256", "reviewed_draft_sha256", "ledger_sha256", "repetition_changes", "blocking_flags"]},
+  "autonomy": {"may_proceed": true, "must_stop_at": "Human Checkpoint 1", "resume_requires": "valid script_approval.json matching both hashes"}
+}

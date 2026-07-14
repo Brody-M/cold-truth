@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.strategist",
+  "contract_version": "1.0.0",
+  "agent": "Strategist",
+  "required_inputs": [
+    {"name": "candidate_queue", "type": "backlog_or_queue", "required": true},
+    {"name": "batch_size", "type": "integer", "minimum": 1, "required": true},
+    {"name": "content_standard", "type": "policy_document", "required": true}
+  ],
+  "allowed_actions": ["discover public candidate cases", "collect approved source classes", "create claim-level draft ledgers", "create risk notes", "apply long-form viability gate", "score and rank candidates"],
+  "required_outputs": [
+    {"name": "Source_Ledger_Draft.md", "type": "claim_ledger"},
+    {"name": "Strategist_Viability_Assessment_v1.md", "type": "viability_assessment"},
+    {"name": "Case_Risk_Notes.md", "type": "risk_assessment"},
+    {"name": "Candidate_Scorecard.md", "type": "scorecard"},
+    {"name": "strategist_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": ["sources are traceable and claim-level", "confirmed facts, allegations, leads, and unknowns are separated", "exactly one viability result is recorded", "scorecard is complete and reproducible", "no-padding viability is assessed"],
+  "failure_criteria": ["insufficient verifiable source depth", "unresolved source conflict affects the narrative spine", "case requires theory or repetition to reach runtime", "scorecard fields are missing"],
+  "prohibited_actions": ["write a script", "use creator scripts or transcripts", "promote an uncorroborated suspect claim", "generate or source media", "select by public interest alone", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["candidate_id", "viability", "score_total", "score_breakdown", "risk_level", "artifact_hashes", "recommended_disposition"]},
+  "autonomy": {"may_proceed": true, "stop_for_human": false, "next_contract": "cold-truth.research-verifier"}
+}

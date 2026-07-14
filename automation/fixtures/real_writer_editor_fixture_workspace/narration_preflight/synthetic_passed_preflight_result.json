@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "request_id": "C5-PREFLIGHT-C6-FIXTURE-0001",
+  "approval_id": "C5-SYNTHETIC-APPROVAL-ONLY-0001",
+  "case_id": "glass-river-writing-fixture",
+  "state": "NARRATION_PREFLIGHT_PASSED",
+  "reason": "all_fixture_preflight_checks_passed",
+  "requested_output_path": "proposed/synthetic_mia_narration.mp3",
+  "output_format": "mp3_44100_128",
+  "voice_profile_name": "Mia",
+  "narration_generation_authorized": false,
+  "network_authorized": false,
+  "output_file_created": false,
+  "next_required_authorization": "separate_human_authorization_for_synthetic_narration_test",
+  "asset_authorized": false,
+  "assembly_authorized": false,
+  "rendering_authorized": false,
+  "upload_authorized": false,
+  "scheduling_authorized": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

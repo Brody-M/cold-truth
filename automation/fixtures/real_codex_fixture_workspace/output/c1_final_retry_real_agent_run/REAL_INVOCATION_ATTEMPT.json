@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "fixture_only": true,
+  "real_production_enabled": false,
+  "publishing_enabled": false,
+  "blocker": "Agent exited with code 1; record: C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_codex_fixture_workspace\\output\\c1_final_retry_real_agent_run\\agent_runs\\120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43\\attempt-001\\record.json"
+}

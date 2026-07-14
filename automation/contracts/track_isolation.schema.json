@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cold-truth-track-isolation.schema.json",
+  "title": "Cold Truth zero-intersection visual-track result",
+  "type": "object",
+  "required": [
+    "schema_version", "longform_track", "shorts_track", "longform_manifest_sha256",
+    "shorts_manifest_sha256", "longform_asset_count", "shorts_asset_count",
+    "shared_asset_count", "shared_asset_identities", "shared_assets_allowed", "passed",
+    "media_inspected", "media_created"
+  ],
+  "properties": {
+    "schema_version": {"const": "cold_truth.track_isolation.v1"},
+    "longform_track": {"const": "youtube-longform"},
+    "shorts_track": {"const": "shorts"},
+    "shared_asset_count": {"type": "integer", "minimum": 0},
+    "shared_asset_identities": {"type": "array"},
+    "shared_assets_allowed": {"const": false},
+    "passed": {"type": "boolean"},
+    "media_inspected": {"const": false},
+    "media_created": {"const": false}
+  },
+  "additionalProperties": false
+}

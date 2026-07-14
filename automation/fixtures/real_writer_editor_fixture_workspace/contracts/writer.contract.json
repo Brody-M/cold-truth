@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0", "contract_id": "cold-truth.writer", "contract_version": "1.0.0-c3-fixture", "agent": "Writer",
+  "required_inputs": [
+    {"name": "synthetic_research_verifier_handoff", "type": "verified_fixture_handoff", "required": true},
+    {"name": "synthetic_case_brief", "type": "synthetic_case_brief", "required": true},
+    {"name": "synthetic_writer_boundaries", "type": "synthetic_writer_boundaries", "required": true}
+  ],
+  "allowed_actions": ["compose supplied synthetic claims", "attach supplied claim attribution", "enforce supplied synthetic exclusions"],
+  "required_outputs": [{"name": "writer_handoff.json", "type": "common_handoff"}],
+  "success_criteria": ["only approved claims appear", "every factual sentence has attribution", "all exclusions remain absent", "ready for Editor only"],
+  "failure_criteria": ["unsupported fact appears", "attribution is missing", "excluded claim appears", "external or production activity is declared"],
+  "prohibited_actions": ["research", "browse", "call tools", "write metadata", "request narration", "generate media", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["upstream_research_verifier_handoff_hash", "approved_claim_ids", "excluded_claim_ids", "script_sections", "narration_text", "claim_attribution_map", "unsupported_claim_check", "external_research_used", "artifact_hashes", "ready_for_editor"]},
+  "autonomy": {"may_proceed": true, "stop_for_human": false, "stop_on_failure": true, "next_contract": "cold-truth.editor"}
+}

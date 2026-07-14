@@ -1,0 +1,16 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-writing-fixture",
+  "approved_claim_ids": ["SYN-RV-01", "SYN-RV-02", "SYN-RV-03"],
+  "rejected_claims": [
+    {"claim_id": "SYN-RV-X1", "reason_code": "unverified_unnamed_allegation"},
+    {"claim_id": "SYN-RV-X2", "reason_code": "unverified_online_theory"},
+    {"claim_id": "SYN-RV-X3", "reason_code": "source_ledger_conflict"}
+  ],
+  "source_conflicts": ["SYN-RV-X3: source_ledger_conflict"],
+  "unsupported_or_creator_derived_material": ["SYN-RV-X1", "SYN-RV-X2"],
+  "verification_status": "approved_with_exclusions",
+  "proceed_to_writer": true,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

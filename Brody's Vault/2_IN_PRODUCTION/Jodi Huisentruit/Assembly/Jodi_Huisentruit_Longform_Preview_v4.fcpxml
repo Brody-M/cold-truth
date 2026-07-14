@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="YouTube 1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r2" name="beat-01-pexels-855782" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-01-pexels-855782.mp4" start="0s" duration="25s" hasVideo="1" format="r1" />
+    <asset id="r3" name="beat-02-pexels-6955105" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-02-pexels-6955105.mp4" start="0s" duration="13s" hasVideo="1" format="r1" />
+    <asset id="r4" name="beat-03-pexels-30231836" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-03-pexels-30231836.mp4" start="0s" duration="8s" hasVideo="1" format="r1" />
+    <asset id="r5" name="beat-04-pexels-6005572" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-04-pexels-6005572.mp4" start="0s" duration="12s" hasVideo="1" format="r1" />
+    <asset id="r6" name="beat-05-pexels-8382395" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-05-pexels-8382395.mp4" start="0s" duration="19s" hasVideo="1" format="r1" />
+    <asset id="r7" name="beat-06-pexels-6186872" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-06-pexels-6186872.mp4" start="0s" duration="29s" hasVideo="1" format="r1" />
+    <asset id="r8" name="beat-07-pexels-9057559" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-07-pexels-9057559.mp4" start="0s" duration="11s" hasVideo="1" format="r1" />
+    <asset id="r9" name="beat-08-pexels-36392511" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-08-pexels-36392511.mp4" start="0s" duration="9s" hasVideo="1" format="r1" />
+    <asset id="r10" name="beat-09-pexels-30117913" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-09-pexels-30117913.mp4" start="0s" duration="21s" hasVideo="1" format="r1" />
+    <asset id="r11" name="beat-10-pexels-3433789" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-10-pexels-3433789.mp4" start="0s" duration="20s" hasVideo="1" format="r1" />
+    <asset id="r12" name="beat-11-pexels-1793371" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-11-pexels-1793371.mp4" start="0s" duration="15s" hasVideo="1" format="r1" />
+    <asset id="r13" name="beat-12-pexels-6101309" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-12-pexels-6101309.mp4" start="0s" duration="29s" hasVideo="1" format="r1" />
+    <asset id="r14" name="beat-13-pexels-8347240" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-13-pexels-8347240.mp4" start="0s" duration="9s" hasVideo="1" format="r1" />
+    <asset id="r15" name="beat-14-pexels-8691678" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-14-pexels-8691678.mp4" start="0s" duration="41s" hasVideo="1" format="r1" />
+    <asset id="r16" name="beat-15-pexels-8382393" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-15-pexels-8382393.mp4" start="0s" duration="15s" hasVideo="1" format="r1" />
+    <asset id="r17" name="beat-16-pexels-6081600" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-16-pexels-6081600.mp4" start="0s" duration="30s" hasVideo="1" format="r1" />
+    <asset id="r18" name="beat-17-pexels-8382394" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-17-pexels-8382394.mp4" start="0s" duration="20s" hasVideo="1" format="r1" />
+    <asset id="r19" name="beat-18-pexels-8369882" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-18-pexels-8369882.mp4" start="0s" duration="55s" hasVideo="1" format="r1" />
+    <asset id="r20" name="beat-19-pexels-6980363" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-19-pexels-6980363.mp4" start="0s" duration="25s" hasVideo="1" format="r1" />
+    <asset id="r21" name="beat-20-pexels-6538454" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-20-pexels-6538454.mp4" start="0s" duration="30s" hasVideo="1" format="r1" />
+    <asset id="r22" name="beat-21-pexels-35077009" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-21-pexels-35077009.mp4" start="0s" duration="25s" hasVideo="1" format="r1" />
+    <asset id="r23" name="beat-22-pexels-6375967" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-22-pexels-6375967.mp4" start="0s" duration="16s" hasVideo="1" format="r1" />
+    <asset id="r24" name="beat-24-pexels-6408465" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-24-pexels-6408465.mp4" start="0s" duration="25s" hasVideo="1" format="r1" />
+    <asset id="r25" name="beat-25-pexels-4933890" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-25-pexels-4933890.mp4" start="0s" duration="23s" hasVideo="1" format="r1" />
+    <asset id="r26" name="beat-26-pexels-8371858" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-26-pexels-8371858.mp4" start="0s" duration="79s" hasVideo="1" format="r1" />
+    <asset id="r27" name="beat-27-pexels-35830059" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-27-pexels-35830059.mp4" start="0s" duration="89s" hasVideo="1" format="r1" />
+    <asset id="r28" name="beat-28-pexels-8346903" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-28-pexels-8346903.mp4" start="0s" duration="12s" hasVideo="1" format="r1" />
+    <asset id="r29" name="beat-29-pexels-7581246" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-29-pexels-7581246.mp4" start="0s" duration="9s" hasVideo="1" format="r1" />
+    <asset id="r30" name="beat-54-pexels-7710597" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-54-pexels-7710597.mp4" start="0s" duration="13s" hasVideo="1" format="r1" />
+    <asset id="r31" name="beat-31-pexels-8298004" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-31-pexels-8298004.mp4" start="0s" duration="35s" hasVideo="1" format="r1" />
+    <asset id="r32" name="beat-32-pexels-8371851" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-32-pexels-8371851.mp4" start="0s" duration="31s" hasVideo="1" format="r1" />
+    <asset id="r33" name="beat-33-pexels-10737792" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-33-pexels-10737792.mp4" start="0s" duration="33s" hasVideo="1" format="r1" />
+    <asset id="r34" name="beat-34-pexels-6538597" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-34-pexels-6538597.mp4" start="0s" duration="18s" hasVideo="1" format="r1" />
+    <asset id="r35" name="beat-35-pexels-6549976" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-35-pexels-6549976.mp4" start="0s" duration="22s" hasVideo="1" format="r1" />
+    <asset id="r36" name="beat-36-pexels-9029219" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-36-pexels-9029219.mp4" start="0s" duration="14s" hasVideo="1" format="r1" />
+    <asset id="r37" name="beat-37-pexels-8061370" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-37-pexels-8061370.mp4" start="0s" duration="9s" hasVideo="1" format="r1" />
+    <asset id="r38" name="beat-38-pexels-5916730" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-38-pexels-5916730.mp4" start="0s" duration="18s" hasVideo="1" format="r1" />
+    <asset id="r39" name="beat-39-pexels-7685212" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-39-pexels-7685212.mp4" start="0s" duration="25s" hasVideo="1" format="r1" />
+    <asset id="r40" name="beat-40-pexels-5562992" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-40-pexels-5562992.mp4" start="0s" duration="41s" hasVideo="1" format="r1" />
+    <asset id="r41" name="beat-41-pexels-8369280" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-41-pexels-8369280.mp4" start="0s" duration="30s" hasVideo="1" format="r1" />
+    <asset id="r42" name="beat-42-pexels-7841862" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-42-pexels-7841862.mp4" start="0s" duration="8s" hasVideo="1" format="r1" />
+    <asset id="r43" name="beat-43-pexels-7947448" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-43-pexels-7947448.mp4" start="0s" duration="12s" hasVideo="1" format="r1" />
+    <asset id="r44" name="beat-45-pexels-19798272" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-45-pexels-19798272.mp4" start="0s" duration="13s" hasVideo="1" format="r1" />
+    <asset id="r45" name="beat-46-pexels-5345135" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-46-pexels-5345135.mp4" start="0s" duration="30s" hasVideo="1" format="r1" />
+    <asset id="r46" name="beat-47-pexels-30541076" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-47-pexels-30541076.mp4" start="0s" duration="21s" hasVideo="1" format="r1" />
+    <asset id="r47" name="beat-48-pexels-35241592" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-48-pexels-35241592.mp4" start="0s" duration="10s" hasVideo="1" format="r1" />
+    <asset id="r48" name="beat-49-pexels-8371852" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3_second_pass/beat-49-pexels-8371852.mp4" start="0s" duration="53s" hasVideo="1" format="r1" />
+    <asset id="r49" name="beat-50-pexels-8744871" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-50-pexels-8744871.mp4" start="0s" duration="12s" hasVideo="1" format="r1" />
+    <asset id="r50" name="beat-52-pexels-31568471" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-52-pexels-31568471.mp4" start="0s" duration="14s" hasVideo="1" format="r1" />
+    <asset id="r51" name="beat-53-pexels-8950671" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-53-pexels-8950671.mp4" start="0s" duration="11s" hasVideo="1" format="r1" />
+    <asset id="r52" name="beat-55-pexels-7735903" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-55-pexels-7735903.mp4" start="0s" duration="16s" hasVideo="1" format="r1" />
+    <asset id="r53" name="beat-56-pexels-30220795" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-56-pexels-30220795.mp4" start="0s" duration="8s" hasVideo="1" format="r1" />
+    <asset id="r54" name="beat-57-pexels-3151449" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/footage_v3/beat-57-pexels-3151449.mp4" start="0s" duration="28s" hasVideo="1" format="r1" />
+    <asset id="r55" name="Mia narration - Script Final v2" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/tts_At_ro_20260710_213842.mp3" start="0s" duration="325079/1000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100" />
+  </resources>
+  <library>
+    <event name="Cold Truth - Jodi Huisentruit">
+      <project name="Jodi Huisentruit - Long-form Preview v4 (Unrendered)">
+        <sequence format="r1" duration="325079/1000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip name="01 4:10 colleague call" offset="0/1000s" duration="5795/1000s" ref="r2" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 1." />
+            </asset-clip>
+            <asset-clip name="02 Morning anchor absent" offset="5795/1000s" duration="4063/1000s" ref="r14" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 13." />
+            </asset-clip>
+            <asset-clip name="03 Parking lot beside car" offset="9858/1000s" duration="6744/1000s" ref="r5" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 4." />
+            </asset-clip>
+            <asset-clip name="04 Drag marks and belongings" offset="16602/1000s" duration="5344/1000s" ref="r16" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 15." />
+            </asset-clip>
+            <asset-clip name="05 Thirty years unanswered" offset="21946/1000s" duration="6005/1000s" ref="r17" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 16." />
+            </asset-clip>
+            <asset-clip name="06 KIMT role in Mason City" offset="27951/1000s" duration="5424/1000s" ref="r11" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 10." />
+            </asset-clip>
+            <asset-clip name="07 June 27 missed shift" offset="33375/1000s" duration="5123/1000s" ref="r8" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 7." />
+            </asset-clip>
+            <asset-clip name="08 Morning television begins early" offset="38498/1000s" duration="4961/1000s" ref="r28" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 28." />
+            </asset-clip>
+            <asset-clip name="09 Live-broadcast preparation" offset="43459/1000s" duration="9402/1000s" ref="r3" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 2." />
+            </asset-clip>
+            <asset-clip name="10 Urgency without explanation" offset="52861/1000s" duration="6222/1000s" ref="r9" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 8." />
+            </asset-clip>
+            <asset-clip name="11 Evidence boundary" offset="59083/1000s" duration="2881/1000s" ref="r10" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 9." />
+            </asset-clip>
+            <asset-clip name="12 Timeline evidence and official updates" offset="61964/1000s" duration="7042/1000s" ref="r13" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 12." />
+            </asset-clip>
+            <asset-clip name="13 Theories versus verified facts" offset="69006/1000s" duration="6987/1000s" ref="r18" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 17." />
+            </asset-clip>
+            <asset-clip name="14 Records establish times" offset="75993/1000s" duration="6006/1000s" ref="r20" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 19." />
+            </asset-clip>
+            <asset-clip name="15 Records cannot explain destination" offset="81999/1000s" duration="4184/1000s" ref="r22" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 21." />
+            </asset-clip>
+            <asset-clip name="16 Timeline and early call" offset="86183/1000s" duration="7865/1000s" ref="r23" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 22." />
+            </asset-clip>
+            <asset-clip name="17 Welfare-check request" offset="94048/1000s" duration="5363/1000s" ref="r4" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 3." />
+            </asset-clip>
+            <asset-clip name="18 7:13 dispatch record" offset="99411/1000s" duration="11246/1000s" ref="r15" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 14." />
+            </asset-clip>
+            <asset-clip name="19 Limits of dispatch record" offset="110657/1000s" duration="8103/1000s" ref="r29" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 29." />
+            </asset-clip>
+            <asset-clip name="20 Reported drag marks" offset="118760/1000s" duration="4201/1000s" ref="r24" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 24." />
+            </asset-clip>
+            <asset-clip name="21 Bent key and red heels" offset="122961/1000s" duration="4962/1000s" ref="r25" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 25." />
+            </asset-clip>
+            <asset-clip name="22 Remaining reported belongings" offset="127923/1000s" duration="5125/1000s" ref="r7" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 6." />
+            </asset-clip>
+            <asset-clip name="23 Reported-findings documentation" offset="133048/1000s" duration="3663/1000s" ref="r6" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 5." />
+            </asset-clip>
+            <asset-clip name="24 No person motive or destination established" offset="136711/1000s" duration="9162/1000s" ref="r26" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 26." />
+            </asset-clip>
+            <asset-clip name="25 Clearinghouse and official contacts" offset="145873/1000s" duration="12987/1000s" ref="r31" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 31." />
+            </asset-clip>
+            <asset-clip name="26 Investigators pursue leads" offset="158860/1000s" duration="3903/1000s" ref="r32" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 32." />
+            </asset-clip>
+            <asset-clip name="27 Winsted search" offset="162763/1000s" duration="6683/1000s" ref="r33" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 33." />
+            </asset-clip>
+            <asset-clip name="28 Search not from new tip" offset="169446/1000s" duration="6404/1000s" ref="r34" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 34." />
+            </asset-clip>
+            <asset-clip name="29 Nothing significant found" offset="175850/1000s" duration="2541/1000s" ref="r40" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 40." />
+            </asset-clip>
+            <asset-clip name="30 2017 GPS warrant" offset="178391/1000s" duration="8765/1000s" ref="r37" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 37." />
+            </asset-clip>
+            <asset-clip name="31 Vehicle connection and sealed affidavit" offset="187156/1000s" duration="12145/1000s" ref="r35" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 35." />
+            </asset-clip>
+            <asset-clip name="32 Warrant chronology" offset="199301/1000s" duration="7503/1000s" ref="r12" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 11." />
+            </asset-clip>
+            <asset-clip name="33 Material unavailable publicly" offset="206804/1000s" duration="8783/1000s" ref="r36" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 36." />
+            </asset-clip>
+            <asset-clip name="34 Connection does not establish guilt" offset="215587/1000s" duration="3201/1000s" ref="r39" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 39." />
+            </asset-clip>
+            <asset-clip name="35 Sealed affidavit is not public proof" offset="218788/1000s" duration="10303/1000s" ref="r38" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 38." />
+            </asset-clip>
+            <asset-clip name="36 Two investigative steps" offset="229091/1000s" duration="5021/1000s" ref="r19" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 18." />
+            </asset-clip>
+            <asset-clip name="37 Physical search and legal effort" offset="234112/1000s" duration="5245/1000s" ref="r43" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 43." />
+            </asset-clip>
+            <asset-clip name="38 No public resolution" offset="239357/1000s" duration="3143/1000s" ref="r49" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 50." />
+            </asset-clip>
+            <asset-clip name="39 Activity is not proof" offset="242500/1000s" duration="7147/1000s" ref="r42" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 42." />
+            </asset-clip>
+            <asset-clip name="40 Incomplete public picture" offset="249647/1000s" duration="8029/1000s" ref="r41" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 41." />
+            </asset-clip>
+            <asset-clip name="41 Activity is not explanation" offset="257676/1000s" duration="4464/1000s" ref="r21" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 20." />
+            </asset-clip>
+            <gap name="42 No resolution" offset="262140/1000s" duration="2883/1000s">
+              <marker start="0s" duration="0s" value="Intentional static case card: There is no resolution to offer." />
+            </gap>
+            <asset-clip name="43 June 2026 active status" offset="265023/1000s" duration="8963/1000s" ref="r44" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 45." />
+            </asset-clip>
+            <asset-clip name="44 Limited meaning of active" offset="273986/1000s" duration="2401/1000s" ref="r48" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 49." />
+            </asset-clip>
+            <asset-clip name="45 Still seeking information" offset="276387/1000s" duration="6022/1000s" ref="r47" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 48." />
+            </asset-clip>
+            <asset-clip name="46 No promised answer" offset="282409/1000s" duration="4462/1000s" ref="r46" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 47." />
+            </asset-clip>
+            <asset-clip name="47 Central fact unchanged" offset="286871/1000s" duration="4861/1000s" ref="r45" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 46." />
+            </asset-clip>
+            <asset-clip name="48 Still missing" offset="291732/1000s" duration="2001/1000s" ref="r51" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 53." />
+            </asset-clip>
+            <asset-clip name="49 Clock parking lot belongings" offset="293733/1000s" duration="8184/1000s" ref="r50" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 52." />
+            </asset-clip>
+            <asset-clip name="50 Everything after remains unknown" offset="301917/1000s" duration="3002/1000s" ref="r27" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 27." />
+            </asset-clip>
+            <asset-clip name="51 Official contact information" offset="304919/1000s" duration="9866/1000s" ref="r30" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 54." />
+            </asset-clip>
+            <asset-clip name="52 Remember Jodi" offset="314785/1000s" duration="4111/1000s" ref="r53" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 56." />
+            </asset-clip>
+            <asset-clip name="53 Comment invitation" offset="318896/1000s" duration="3972/1000s" ref="r52" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 55." />
+            </asset-clip>
+            <asset-clip name="54 Cold Truth sign-off" offset="322868/1000s" duration="2211/1000s" ref="r54" start="0s">
+              <marker start="0s" duration="0s" value="Retimed subject match from approved v3 beat 57." />
+            </asset-clip>
+            <asset-clip name="Mia narration - Script Final v2" ref="r55" offset="0s" start="0s" duration="325079/1000s" lane="-1" />
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

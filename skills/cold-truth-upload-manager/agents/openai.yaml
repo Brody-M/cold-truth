@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Upload Manager"
+  short_description: "Write accurate YouTube metadata and settings"
+  default_prompt: "Use $cold-truth-upload-manager to create a publish-ready metadata package."

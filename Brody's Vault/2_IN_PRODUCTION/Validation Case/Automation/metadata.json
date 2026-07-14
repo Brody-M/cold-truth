@@ -1,0 +1,43 @@
+{
+  "status": "draft_requires_fact_check",
+  "case": "Validation Case",
+  "titles": [
+    "The Forty-Minute Gap",
+    "The Overlooked Clue in The Forty-Minute Gap",
+    "Inside the Mystery of The Forty-Minute Gap"
+  ],
+  "description": "The Forty-Minute Gap is examined in this calm, source-led Cold Truth episode. A witness changed their account, revealing an overlooked gap in the timeline. We follow the verified timeline, investigation, and remaining questions, clearly separating confirmed facts from unresolved details. This episode is presented respectfully and avoids graphic material.\n\nCold Truth covers carefully researched true-crime cases with context, chronology, and restraint. Sources and corrections should be reviewed against the final research brief before publishing.\n\nLocation: [verify] | Year: [verify]",
+  "tags": [
+    "true crime",
+    "true crime documentary",
+    "unsolved mystery",
+    "cold case",
+    "crime story",
+    "Cold Truth",
+    "documentary",
+    "crime investigation",
+    "mystery documentary",
+    "case timeline",
+    "female true crime audience",
+    "true crime YouTube",
+    "criminal investigation",
+    "missing clues",
+    "real cases"
+  ],
+  "thumbnail_text_options": [
+    "THE CLUE",
+    "HIDDEN TRUTH"
+  ],
+  "recommended_settings": {
+    "schedule": "Tuesday or Thursday, 10 AM-12 PM ET",
+    "category": "News & Politics",
+    "made_for_kids": false,
+    "comments": true,
+    "end_screen": true,
+    "cards_at_percent": [
+      20,
+      60
+    ]
+  },
+  "publish": false
+}

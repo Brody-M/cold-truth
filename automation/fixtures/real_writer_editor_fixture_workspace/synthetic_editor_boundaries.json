@@ -1,0 +1,17 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-writing-fixture",
+  "required_claim_ids": ["SYN-RV-01", "SYN-RV-02", "SYN-RV-03"],
+  "excluded_claim_ids": ["SYN-RV-X1", "SYN-RV-X2", "SYN-RV-X3"],
+  "redundancy_rules": {
+    "duplicate_sentence_maximum": 0,
+    "near_duplicate_normalized_sentence_maximum": 0,
+    "claim_restatement_across_sections_maximum": 0,
+    "repeated_date_location_or_entity_phrase_maximum": 0,
+    "repeated_hook_summary_or_closing_maximum": 0
+  },
+  "simulated_human_checkpoint_required": true,
+  "narration_or_asset_progression_allowed": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

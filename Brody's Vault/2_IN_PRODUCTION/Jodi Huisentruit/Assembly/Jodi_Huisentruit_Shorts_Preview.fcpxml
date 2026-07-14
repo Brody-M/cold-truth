@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="Shorts 810x1440p30" frameDuration="1/30s" width="810" height="1440" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="r2" name="Orbital Minecraft parkour - licensed" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4" start="0s" duration="18511786666/10000000s" hasVideo="1" format="r1"/>
+    <asset id="r3" name="Mia Shorts narration" src="file:///C:/Youtube%20Automation%20Obsidian/Brody%27s%20Vault/2_IN_PRODUCTION/Jodi%20Huisentruit/tts_Befor_20260709_192610.mp3" start="0s" duration="378774375/10000000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100"/>
+  </resources>
+  <library><event name="Cold Truth - Jodi Huisentruit"><project name="Jodi Huisentruit - Shorts Preview (Unrendered)"><sequence format="r1" duration="378774375/10000000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k"><spine>
+    <asset-clip name="Orbital Minecraft parkour - 9:16 crop" ref="r2" offset="0s" start="0s" duration="378774375/10000000s"><adjust-crop mode="trim" left="0.3418" right="0.3418" top="0" bottom="0"/><marker start="191/1000s" duration="0s" value="OVERLAY: 4:10 A.M. | audio anchor: 4.10"/><marker start="1652/1000s" duration="0s" value="OVERLAY: Jodi Huisentruit | audio anchor: Jodi"/><marker start="5494/1000s" duration="0s" value="OVERLAY: KIMT morning anchor | audio anchor: KIMT"/><marker start="10277/1000s" duration="0s" value="OVERLAY: 7:13 A.M. | audio anchor: A welfare check"/><marker start="17762/1000s" duration="0s" value="OVERLAY: Bent key. Red heels. Earrings. Blow dryer. | audio anchor: bent"/><marker start="23147/1000s" duration="0s" value="OVERLAY: Last known contact: June 27, 1995 | audio anchor: More"/><marker start="25153/1000s" duration="0s" value="OVERLAY: Case remains active | audio anchor: case"/><marker start="33458/1000s" duration="0s" value="OVERLAY: What happened next? | audio anchor: What"/><marker start="35183/1000s" duration="0s" value="OVERLAY: Full case on Cold Truth | audio anchor: The full"/></asset-clip>
+    <asset-clip name="Mia Shorts narration" ref="r3" offset="0s" start="0s" duration="378774375/10000000s" lane="-1"/>
+  </spine></sequence></project></event></library>
+</fcpxml>

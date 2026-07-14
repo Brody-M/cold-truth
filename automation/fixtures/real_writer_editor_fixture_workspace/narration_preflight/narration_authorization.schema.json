@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "narration_authorization_id", "approval_id", "case_id", "upstream_writer_handoff_hash", "upstream_editor_handoff_hash", "approved_script_hash", "narration_preflight_result_hash", "locked_profile_hash", "decision", "reviewer_role", "decision_timestamp_utc", "permitted_action", "requested_output_relative_path", "requested_output_path_hash", "requested_output_format", "network_authorized", "narration_generation_authorized", "asset_authorized", "assembly_authorized", "rendering_authorized", "upload_authorized", "scheduling_authorized", "publishing_enabled", "real_production_enabled"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "narration_authorization_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{7,95}$"},
+    "approval_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{7,79}$"},
+    "case_id": {"type": "string", "enum": ["glass-river-writing-fixture"]},
+    "upstream_writer_handoff_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "upstream_editor_handoff_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "approved_script_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "narration_preflight_result_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "locked_profile_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "decision": {"type": "string", "enum": ["approve_synthetic_narration_test"]},
+    "reviewer_role": {"type": "string", "enum": ["human_owner"]},
+    "decision_timestamp_utc": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"},
+    "permitted_action": {"type": "string", "enum": ["synthetic_narration_generation_only"]},
+    "requested_output_relative_path": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_./-]*\\.mp3$"},
+    "requested_output_path_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "requested_output_format": {"type": "string", "enum": ["mp3_44100_128"]},
+    "network_authorized": {"type": "boolean", "enum": [false]},
+    "narration_generation_authorized": {"type": "boolean", "enum": [true]},
+    "asset_authorized": {"type": "boolean", "enum": [false]},
+    "assembly_authorized": {"type": "boolean", "enum": [false]},
+    "rendering_authorized": {"type": "boolean", "enum": [false]},
+    "upload_authorized": {"type": "boolean", "enum": [false]},
+    "scheduling_authorized": {"type": "boolean", "enum": [false]},
+    "publishing_enabled": {"type": "boolean", "enum": [false]},
+    "real_production_enabled": {"type": "boolean", "enum": [false]}
+  },
+  "additionalProperties": false
+}

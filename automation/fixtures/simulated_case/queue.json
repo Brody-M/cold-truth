@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "fixture": true,
+  "candidates": [
+    {
+      "candidate_id": "cedar-grove-placeholder",
+      "case_name": "Cedar Grove Placeholder",
+      "verification_status": "pass",
+      "viability": "Standard long-form viable",
+      "total_score": 31,
+      "score_breakdown": {
+        "long_form_source_depth": 5,
+        "legal_and_misinformation_risk": 4,
+        "clear_chronological_narrative": 5
+      }
+    },
+    {
+      "candidate_id": "riverbend-placeholder",
+      "case_name": "Riverbend Placeholder",
+      "verification_status": "pass",
+      "viability": "Standard long-form viable",
+      "total_score": 31,
+      "score_breakdown": {
+        "long_form_source_depth": 4,
+        "legal_and_misinformation_risk": 5,
+        "clear_chronological_narrative": 5
+      }
+    },
+    {
+      "candidate_id": "northbridge-placeholder",
+      "case_name": "Northbridge Placeholder",
+      "verification_status": "fail",
+      "viability": "Backlog — insufficient long-form material",
+      "total_score": 24,
+      "score_breakdown": {
+        "long_form_source_depth": 2,
+        "legal_and_misinformation_risk": 4,
+        "clear_chronological_narrative": 3
+      }
+    }
+  ],
+  "synthetic_stage_data": {
+    "script_draft": "# Synthetic Draft\n\nThis is non-case fixture text used only to exercise the Writer handoff. It contains no real person, allegation, or production narration.",
+    "reverse_outline": "# Synthetic Reverse Outline\n\n- Hook: fixture purpose; claims SYN-01; transition to setup.\n- Setup: fixture purpose; claims SYN-02; transition to chronology.\n- Chronology: fixture purpose; claims SYN-03; transition to investigation.\n- Investigation: fixture purpose; claims SYN-04; transition to status.\n- Status: fixture purpose; claims SYN-05; transition to closing.\n- Closing: fixture purpose; claims SYN-06; no theory invitation.",
+    "reviewed_draft": "# Synthetic Reviewed Draft\n\nThis is approved-fixture candidate text. It is deliberately content-free and exists only so hash-bound approval and invalidation behavior can be tested.",
+    "narration_duration_seconds": 510.0,
+    "word_timestamps": [
+      {"word": "synthetic", "start": 0.0, "end": 0.4},
+      {"word": "fixture", "start": 0.4, "end": 0.8}
+    ],
+    "longform_assets": [
+      {"asset_id": "pexels-synthetic-001", "source_identity": "pexels-record:synthetic-001", "track": "youtube-longform", "asset_class": "case_broll", "status": "ready", "local_record": true, "licensed_record": true},
+      {"asset_id": "pexels-synthetic-002", "source_identity": "case-graphic-record:synthetic-002", "track": "youtube-longform", "asset_class": "case_graphic", "status": "ready", "local_record": true, "licensed_record": true}
+    ],
+    "shorts": {
+      "duration_seconds": 45.0,
+      "license_verified": true,
+      "credit_line": "Synthetic licensed gameplay credit",
+      "assets": [
+        {"asset_id": "orbital-synthetic-001", "source_identity": "orbital-license-record:synthetic-001", "track": "shorts", "asset_class": "orbital_gameplay", "status": "ready", "local_record": true, "licensed_record": true}
+      ]
+    }
+  }
+}

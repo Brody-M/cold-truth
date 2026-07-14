@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Shorts Editor"
+  short_description: "Extract vertical Shorts with separate visuals"
+  default_prompt: "Use $cold-truth-shorts-editor to extract short scripts from this approved episode."

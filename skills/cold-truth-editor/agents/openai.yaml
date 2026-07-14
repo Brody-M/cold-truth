@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Editor"
+  short_description: "Edit narration scripts for clarity and pace"
+  default_prompt: "Use $cold-truth-editor to review and improve this Cold Truth script."

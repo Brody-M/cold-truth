@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.narration-preflight",
+  "contract_version": "1.0.0-c5-fixture",
+  "fixture_only": true,
+  "required_inputs": [
+    "synthetic_writer_canonical_handoff",
+    "synthetic_editor_canonical_handoff",
+    "synthetic_valid_script_approval",
+    "synthetic_locked_narration_profile",
+    "fixture_local_requested_output_path"
+  ],
+  "allowed_result_states": ["NARRATION_PREFLIGHT_PASSED", "NARRATION_PREFLIGHT_BLOCKED"],
+  "pass_state_next_authorization": "separate_human_authorization_for_synthetic_narration_test",
+  "prohibited_actions": [
+    "read secrets or voice identifiers",
+    "invoke a narration provider",
+    "use network access",
+    "create audio",
+    "authorize assets or assembly",
+    "render or publish",
+    "enable real production"
+  ],
+  "all_production_permissions": false
+}

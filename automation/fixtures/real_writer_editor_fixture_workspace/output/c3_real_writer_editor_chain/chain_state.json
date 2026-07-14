@@ -1,0 +1,7 @@
+{
+  "state": "AWAITING_SCRIPT_APPROVAL",
+  "simulated_human_checkpoint_required": true,
+  "narration_authorized": false,
+  "assets_authorized": false,
+  "real_production_enabled": false
+}

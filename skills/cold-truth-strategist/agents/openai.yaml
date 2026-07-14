@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Strategist"
+  short_description: "Find and evaluate fitting true-crime cases"
+  default_prompt: "Use $cold-truth-strategist to generate and rank Cold Truth case ideas."

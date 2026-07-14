@@ -1,0 +1,635 @@
+{
+  "case": "Jodi Huisentruit",
+  "manifest_version": 1,
+  "purpose": "Record direct/manual generation and planning actions so the automation folder can reconstruct this run.",
+  "entries": [
+    {
+      "stage": "editor_pass",
+      "tool": "Codex formal Editor pass",
+      "timestamp_local": "2026-07-09",
+      "inputs": [
+        "../Jodi_Huisentruit_Script_v1.md",
+        "../Research_Source_Ledger.md",
+        "../../../0_ADMIN/ROLE_EDITOR.md"
+      ],
+      "outputs": [
+        "../Script_Draft.md",
+        "../Script_Final.md",
+        "../Editorial_Notes.md"
+      ],
+      "settings": {
+        "audience": "women 25-45, especially background listeners and mothers",
+        "source_policy": "Corroborated suspect claims only; PI/tip/speculation claims must be explicitly labeled unverified."
+      }
+    },
+    {
+      "stage": "long_form_narration_regeneration",
+      "tool": "ElevenLabs MCP text_to_speech",
+      "timestamp_local": "2026-07-09T23:23:55-04:00",
+      "input": "../Script_Final.md",
+      "output": "../tts_At_ro_20260709_192446.mp3",
+      "settings": {
+        "voice_name": "Mia",
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model": "eleven_multilingual_v2",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 0.94,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "verification": {
+        "file_size_bytes": 5228295,
+        "result": "non-empty"
+      }
+    },
+    {
+      "stage": "gap_closure_planning",
+      "tool": "Codex document update",
+      "timestamp_local": "2026-07-09",
+      "outputs": [
+        "../Shorts_Package.md",
+        "../YouTube_Visual_Timeline.md",
+        "../Metadata.md",
+        "../../../1_IDEAS/Backlog.md",
+        "../Production_Summary.md",
+        "../Research_Source_Ledger.md"
+      ],
+      "settings": {
+        "assets_generated": false,
+        "pexels_downloads": false,
+        "gameplay_recorded": false,
+        "video_rendered": false
+      }
+    },
+    {
+      "stage": "long_form_pexels_asset_collection",
+      "tool": "Pexels MCP searchVideos and downloadVideo; Pexels-hosted downloads",
+      "timestamp_local": "2026-07-10T00:18:36-04:00",
+      "input": "../YouTube_Visual_Timeline.md",
+      "outputs_folder": "../footage",
+      "settings": {
+        "track": "YouTube long-form only",
+        "candidate_queries_checked_per_shot": 4,
+        "requested_quality": "hd where available",
+        "assets_downloaded": 12,
+        "no_good_match_found": [4, 9],
+        "shorts_gameplay_sourced": false,
+        "video_assembled": false,
+        "video_rendered": false
+      },
+      "source_record": "Per-shot Pexels IDs, creators, and output filenames are recorded in ../Production_Summary.md."
+    },
+    {
+      "stage": "targeted_pexels_gap_and_resolution_pass",
+      "tool": "Pexels MCP searchVideos and downloadVideo; Pexels-hosted downloads",
+      "timestamp_local": "2026-07-10T00:44:57-04:00",
+      "inputs": {
+        "gap_shots": [4, 9],
+        "resolution_review_shots": [2, 3, 13]
+      },
+      "results": {
+        "shot_4": "Matched Video 8346903: unoccupied computer monitors/workspace.",
+        "shot_9": "Matched Video 7651532: neutral document on a desk; no identifiable missing-person imagery.",
+        "shot_2": "No HD-downloadable alternative found; retained existing lower-resolution clock clip.",
+        "shot_3": "Replaced with HD Video 10567300.",
+        "shot_13": "Replaced with HD Video 19959745.",
+        "shorts_gameplay_sourced": false,
+        "video_assembled": false,
+        "video_rendered": false
+      },
+      "source_record": "Final per-shot Pexels IDs, creators, flags, and output filenames are recorded in ../Production_Summary.md."
+    },
+    {
+      "stage": "shorts_gameplay_acquisition_and_verification",
+      "tool": "User-authorized official Orbital Ko-fi purchase download via creator-provided Google Drive link",
+      "timestamp_local": "2026-07-10T01:31:05-04:00",
+      "input": "../Shorts_Package.md",
+      "output": "../shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+      "license_and_credit": {
+        "creator": "Orbital - No Copyright Gameplay",
+        "creator_product": "Minecraft Parkour Gameplay (No Copyright) 30 mins - 1440p",
+        "creator_stated_reuse": "Permitted for monetized YouTube Shorts, videos, and TikTok with credit.",
+        "required_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+        "credit_record": "../Shorts_Metadata.md"
+      },
+      "verification": {
+        "file_size_bytes": 12182660536,
+        "duration_seconds": 1851.1786666,
+        "resolution": "2560x1440",
+        "frame_rate_fps": 60,
+        "short_runtime_target_seconds": 53,
+        "overlay_markers_mapped": 9,
+        "shorts_only_asset": true,
+        "shared_with_long_form": false,
+        "assembled": false,
+        "rendered": false
+      }
+    },
+    {
+      "stage": "unrendered_timeline_assembly",
+      "tool": "Codex editable FCPXML assembly",
+      "timestamp_local": "2026-07-10T01:42:36-04:00",
+      "inputs": [
+        "../tts_At_ro_20260709_192446.mp3",
+        "../tts_Befor_20260709_192610.mp3",
+        "../YouTube_Visual_Timeline.md",
+        "../Shorts_Visual_Timeline.md",
+        "../footage/*.mp4",
+        "../shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4"
+      ],
+      "outputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview.fcpxml",
+        "../Assembly/Jodi_Huisentruit_Shorts_Preview.fcpxml",
+        "../Assembly/Assembly_Review.md"
+      ],
+      "settings": {
+        "long_form_sequence": "1920x1080 30fps, 326.766 seconds",
+        "shorts_sequence": "810x1440 30fps, 41.770 seconds",
+        "long_form_source_clips": 14,
+        "shorts_overlay_markers": 9,
+        "shared_assets": false,
+        "rendered": false,
+        "exported": false,
+        "uploaded": false,
+        "published": false
+      },
+      "review_flags": [
+        "Long-form visual estimate exceeded narration by 28.234 seconds; visual timing was scaled.",
+        "Seven non-human/vehicle long-form clips use editable speed holds; Shot 6 and Shot 11 use static case-card placeholders after normal-speed footage.",
+        "Shorts narration is 41.770 seconds and does not match the approved Shorts_Package.md; regenerate then perform word-level overlay alignment before render.",
+        "Shorts source is landscape and uses an editable 9:16 crop."
+      ]
+    },
+    {
+      "stage": "shorts_narration_regeneration",
+      "tool": "ElevenLabs MCP text_to_speech",
+      "timestamp_local": "2026-07-10T01:55:53-04:00",
+      "input": "../Shorts_Package.md",
+      "output": "../tts_Befor_20260709_192610.mp3",
+      "settings": {
+        "voice_name": "Mia",
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model": "eleven_multilingual_v2",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 0.94,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "verification": {
+        "file_size_bytes": 606084,
+        "duration_seconds": 37.8774375,
+        "transcript_opening": "At 4:10 in the morning",
+        "opening_matches_approved_package": true,
+        "generation_attempts": 2,
+        "first_attempt": "No usable output saved because the provider-derived filename contained a Windows-invalid colon.",
+        "forced_alignment": "completed locally by WhisperX; see subsequent local_whisperx_forced_alignment entry"
+      }
+    },
+    {
+      "stage": "local_whisperx_forced_alignment",
+      "tool": "WhisperX local CPU/int8 transcription and word alignment",
+      "timestamp_local": "2026-07-10T05:50:33-04:00",
+      "input": "../tts_Befor_20260709_192610.mp3",
+      "output": "../Assembly/WhisperX/tts_Befor_20260709_192610.json",
+      "settings": {
+        "whisper_model": "small.en",
+        "alignment_model": "wav2vec2_fairseq_base_ls960_asr_ls960",
+        "compute_type": "int8",
+        "language": "en",
+        "runs_on_device": true,
+        "audio_uploaded_to_external_service": false
+      },
+      "verification": {
+        "narration_duration_seconds": 37.8774375,
+        "overlay_markers_aligned": 9,
+        "shorts_preview_rebuilt": "../Assembly/Jodi_Huisentruit_Shorts_Preview.fcpxml",
+        "rendered": false
+      }
+    },
+    {
+      "stage": "final_local_render",
+      "tool": "Local FFmpeg (imageio-ffmpeg binary)",
+      "timestamp_local": "2026-07-10T06:05:00-04:00",
+      "inputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview.fcpxml",
+        "../Assembly/Jodi_Huisentruit_Shorts_Preview.fcpxml",
+        "../tts_At_ro_20260709_192446.mp3",
+        "../tts_Befor_20260709_192610.mp3",
+        "../footage/*.mp4",
+        "../shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4"
+      ],
+      "outputs": [
+        "../Renders/Jodi_Huisentruit_Longform_1920x1080.mp4",
+        "../Renders/Jodi_Huisentruit_Shorts_810x1440.mp4"
+      ],
+      "settings": {
+        "long_form": "1920x1080, 30 fps, H.264/AAC, 326.766-second FCPXML sequence",
+        "shorts": "810x1440, 30 fps, H.264/AAC, 37.8774375-second FCPXML audio sequence",
+        "final_timing_normalization": "end-frame hold plus silence only; no clip-order, narration, cue-point, or marker change",
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "long_form": {
+          "file_size_bytes": 189105106,
+          "video": "1920x1080, 30 fps, 9803 frames, 326.7667 seconds",
+          "audio_duration_seconds": 326.766009,
+          "preview_match": "yes; sub-frame/AAC packet rounding only"
+        },
+        "shorts": {
+          "file_size_bytes": 39832533,
+          "video": "810x1440, 30 fps, 1137 frames, 37.900 seconds",
+          "audio_duration_seconds": 37.877007,
+          "preview_match": "yes; video ends at nearest 30 fps frame boundary (0.0226 seconds after audio target)"
+        },
+        "shared_visual_assets": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "long_form_whisperx_alignment_and_preview_v2",
+      "tool": "WhisperX local CPU/int8 transcription and word alignment; editable FCPXML assembly",
+      "timestamp_local": "2026-07-10T06:26:14-04:00",
+      "input": "../tts_At_ro_20260709_192446.mp3",
+      "outputs": [
+        "../Assembly/WhisperX/tts_At_ro_20260709_192446.json",
+        "../YouTube_Visual_Timeline_v2.md",
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v2.fcpxml"
+      ],
+      "settings": {
+        "whisper_model": "small.en",
+        "alignment_model": "wav2vec2_fairseq_base_ls960_asr_ls960",
+        "compute_type": "int8",
+        "language": "en",
+        "runs_on_device": true,
+        "audio_uploaded_to_external_service": false,
+        "sequence": "1920x1080, 30 fps, 326.766 seconds",
+        "visual_beats": 57,
+        "average_visual_beat_seconds": 5.73,
+        "existing_long_form_assets_reused": 14,
+        "new_b_roll_sourced": 0,
+        "shorts_assets_used": false,
+        "rendered": false
+      },
+      "verification": {
+        "shot_1_anchor_seconds": 0.0,
+        "shot_1_spoken_cue": "At roughly 4:10 in the morning, a colleague called Jodi.",
+        "shot_1_visual": "existing analog clock footage",
+        "drag_marks_anchor_seconds": 17.275,
+        "visual_coverage": "contiguous 0.000-326.766 seconds; no gaps or overlaps; final repeated-asset audit found no returns within 10 seconds",
+        "fcpxml_xml_valid": true,
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "final_local_render_long_form_v2",
+      "tool": "Local FFmpeg 8.1.1 (installed WinGet executable)",
+      "timestamp_local": "2026-07-10T06:43:18-04:00",
+      "inputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v2.fcpxml",
+        "../tts_At_ro_20260709_192446.mp3",
+        "../footage/*.mp4"
+      ],
+      "output": "../Renders/Jodi_Huisentruit_Longform_v2_1920x1080.mp4",
+      "settings": {
+        "sequence": "1920x1080, 30 fps, 326.766 seconds",
+        "video_codec": "H.264 / libx264, CRF 18",
+        "audio_codec": "AAC 192 kbps",
+        "source": "approved long-form FCPXML v2",
+        "timeline_limit": "final concatenated video trim at 326.766 seconds",
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "file_size_bytes": 198465439,
+        "video": "1920x1080, 30 fps, 9803 frames, 326.7667 seconds",
+        "audio_duration_seconds": 326.766009,
+        "preview_match": "yes; video and audio differ from the exact FCPXML endpoint only by sub-frame/AAC packet rounding",
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "expanded_pexels_sourcing_and_preview_v3",
+      "tool": "Pexels API direct sourcing utility plus local visual contact-sheet QC",
+      "timestamp_local": "2026-07-10T07:05:46-04:00",
+      "inputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v2.fcpxml",
+        "../Assembly/WhisperX/tts_At_ro_20260709_192446.json"
+      ],
+      "outputs": [
+        "../footage_v3/*.mp4",
+        "../Assembly/Pexels_Sourcing_v3.json",
+        "../YouTube_Visual_Timeline_v3.md",
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v3.fcpxml",
+        "../Assembly/Pexels_Contact_Sheet_v3_*.jpg"
+      ],
+      "settings": {
+        "queries_per_moving_beat": 3,
+        "orientation": "landscape",
+        "minimum_download_resolution": "1280x720",
+        "automatic_candidates_downloaded": 56,
+        "visual_qc": "contact-sheet review; unsafe or unrelated candidates replaced with explicit gaps",
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "selected_unique_pexels_clips": 45,
+        "new_to_prior_library": 41,
+        "prior_library_reused_once": 4,
+        "unmatched_after_visual_qc": [3,4,8,23,24,25,30,36,48,49,51],
+        "intentional_case_card": 44,
+        "visual_coverage": "contiguous 0.000-326.766 seconds; unmatched beats are explicit gaps",
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "checkpoint_11_broadened_pexels_resolution",
+      "tool": "Pexels API broadened second pass plus local contact-sheet visual QC",
+      "timestamp_local": "2026-07-10T07:15:00-04:00",
+      "inputs": [
+        "../Assembly/Pexels_Sourcing_v3.json",
+        "../Assembly/WhisperX/tts_At_ro_20260709_192446.json"
+      ],
+      "outputs": [
+        "../footage_v3_second_pass/*.mp4",
+        "../Assembly/Pexels_Sourcing_v3_second_pass.json",
+        "../Assembly/Pexels_Contact_Sheet_v3_second_pass.jpg",
+        "../YouTube_Visual_Timeline_v3.md",
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v3.fcpxml"
+      ],
+      "settings": {
+        "broadened_searches_per_unmatched_beat": 3,
+        "second_pass_candidates_reviewed": 11,
+        "second_pass_new_clips_accepted": 8,
+        "genuine_existing_thematic_reuses": 3,
+        "intentional_case_cards": 1,
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "moving_visual_beats": 56,
+        "unique_pexels_assets": 53,
+        "timeline_coverage": "contiguous 0.000-326.766 seconds; no overlaps",
+        "repeat_returns_under_10_seconds": 0,
+        "visual_qc_contact_sheets_reviewed": true,
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "final_local_render_long_form_v3",
+      "tool": "Local FFmpeg 8.1.1 (installed WinGet executable)",
+      "timestamp_local": "2026-07-10T18:54:32-04:00",
+      "inputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v3.fcpxml",
+        "../tts_At_ro_20260709_192446.mp3",
+        "../footage_v3/*.mp4",
+        "../footage_v3_second_pass/*.mp4"
+      ],
+      "output": "../Renders/Jodi_Huisentruit_Longform_v3_1920x1080.mp4",
+      "settings": {
+        "sequence": "1920x1080, 30 fps, 326.766 seconds",
+        "video_codec": "H.264 / libx264, CRF 18",
+        "audio_codec": "AAC 192 kbps",
+        "source": "approved long-form FCPXML v3",
+        "final_video_trim_seconds": 326.75,
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "file_size_bytes": 214557340,
+        "video": "1920x1080, 30 fps, 9803 frames, 326.766016 seconds",
+        "audio_duration_seconds": 326.766009,
+        "preview_match": "yes; frame/AAC packet precision",
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "checkpoint_12_script_redundancy_audio_and_alignment",
+      "tool": "Cold Truth editor pass; ElevenLabs MCP text_to_speech; local WhisperX CPU/int8 alignment",
+      "timestamp_local": "2026-07-10T21:43:49-04:00",
+      "inputs": [
+        "../Script_Final.md",
+        "../../../2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+      ],
+      "outputs": [
+        "../Script_Final_v2.md",
+        "../Narration_v2.txt",
+        "../tts_At_ro_20260710_213842.mp3",
+        "../Assembly/WhisperX/tts_At_ro_20260710_213842.json",
+        "../YouTube_Visual_Timeline_v4.md"
+      ],
+      "settings": {
+        "voice_name": "Mia",
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model": "eleven_multilingual_v2",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 0.94,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128",
+        "generation_attempts": 1,
+        "whisper_model": "small.en",
+        "whisper_compute": "CPU/int8",
+        "audio_uploaded_for_alignment": false,
+        "fcpxml_rebuilt": false,
+        "rendered": false
+      },
+      "verification": {
+        "original_narration_words": 754,
+        "revised_narration_words": 719,
+        "word_delta": -35,
+        "audio_file_size_bytes": 5202382,
+        "audio_duration_seconds": 325.079365,
+        "whisperx_segments": 58,
+        "retimed_visual_beats": 54,
+        "average_visual_beat_seconds": 6.02,
+        "fcpxml_rebuilt": false,
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "checkpoint_13_v4_fcpxml_rebuild",
+      "tool": "Codex local FCPXML assembly from WhisperX-aligned v4 timeline",
+      "timestamp_local": "2026-07-10T22:09:12-04:00",
+      "inputs": [
+        "../Script_Final_v2.md",
+        "../tts_At_ro_20260710_213842.mp3",
+        "../Assembly/WhisperX/tts_At_ro_20260710_213842.json",
+        "../YouTube_Visual_Timeline_v4.md",
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v3.fcpxml",
+        "../Shorts_Package.md",
+        "../Assembly/Jodi_Huisentruit_Shorts_Preview.fcpxml"
+      ],
+      "outputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v4.fcpxml",
+        "../Production_Summary.md",
+        "../Assembly/Assembly_Review.md"
+      ],
+      "settings": {
+        "long_form_sequence": "1920x1080, 30 fps, 325.079 seconds",
+        "long_form_beats": 54,
+        "moving_beats": 53,
+        "intentional_case_cards": 1,
+        "shorts_regenerated": false,
+        "shorts_reason": "Shorts_Package.md is separately authored and unchanged by Script_Final_v2.md",
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      },
+      "verification": {
+        "valid_unique_pexels_resources_from_v3_pool": 53,
+        "unmatched_beats": 0,
+        "source_duration_overruns": 0,
+        "timeline_coverage": "contiguous 0.000-325.079 seconds; no overlaps",
+        "shorts_sequence_seconds": 37.8774375,
+        "shorts_markers": 9,
+        "pi_or_suspect_claim_in_active_script": false,
+        "fcpxml_xml_valid": true,
+        "rendered": false,
+        "uploaded": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "final_local_render_long_form_v4",
+      "tool": "Local FFmpeg 8.1.1 (installed WinGet executable)",
+      "timestamp_local": "2026-07-10T22:16:08-04:00",
+      "inputs": [
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v4.fcpxml",
+        "../tts_At_ro_20260710_213842.mp3",
+        "../footage_v3/*.mp4",
+        "../footage_v3_second_pass/*.mp4"
+      ],
+      "output": "../Renders/Jodi_Huisentruit_Longform_v4_1920x1080.mp4",
+      "settings": {
+        "sequence": "1920x1080, 30 fps, 325.079365 seconds",
+        "video_codec": "H.264 / libx264, CRF 18",
+        "audio_codec": "AAC 192 kbps",
+        "source": "approved long-form FCPXML v4",
+        "shorts_touched_or_rendered": false,
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "verification": {
+        "file_size_bytes": 225738589,
+        "video": "1920x1080, 30 fps, 9753 frames, 325.100 seconds",
+        "audio": "AAC mono, 44100 Hz, 325.079002 seconds",
+        "fcpxml_and_narration_duration_seconds": 325.079365,
+        "preview_match": "yes; AAC packet precision and enclosing complete 30 fps frame boundary",
+        "prior_long_form_masters": "fully superseded; audit only",
+        "active_long_form_master": "v4",
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      }
+    },
+    {
+      "stage": "checkpoint_14_creative_rejection_and_narrative_reopen",
+      "tool": "Human creative review recorded by Codex; no media tool invoked",
+      "timestamp_local": "2026-07-10T22:27:19-04:00",
+      "inputs": [
+        "../Script_Final_v2.md",
+        "../Assembly/Jodi_Huisentruit_Longform_Preview_v4.fcpxml",
+        "../Renders/Jodi_Huisentruit_Longform_v4_1920x1080.mp4"
+      ],
+      "outputs": [
+        "../Production_Summary.md",
+        "../Assembly/Assembly_Review.md"
+      ],
+      "settings": {
+        "media_files_modified": false,
+        "shorts_touched": false,
+        "narration_generated": false,
+        "alignment_run": false,
+        "assets_sourced": false,
+        "fcpxml_rebuilt": false,
+        "rendered": false,
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "verification": {
+        "v4_technical_status": "valid",
+        "v4_creative_status": "rejected",
+        "v4_release_status": "audit-only; not approved for upload, scheduling, publishing, or release",
+        "active_long_form_release_master": null,
+        "existing_files_preserved": true,
+        "shorts_status": "technically separate and unchanged",
+        "june_2026_pi_material": "excluded"
+      }
+    },
+    {
+      "stage": "jodi_structural_rewrite_v3_draft_and_narrative_gate",
+      "tool": "Cold Truth Strategist/Writer/Editor skills applied locally by Codex; no media tool invoked",
+      "timestamp_local": "2026-07-10T22:33:59-04:00",
+      "inputs": [
+        "../Research_Source_Ledger.md",
+        "../Script_Draft.md",
+        "../Script_Final.md",
+        "../Script_Final_v2.md",
+        "../Editorial_Notes.md",
+        "../Production_Summary.md",
+        "../Assembly/Assembly_Review.md",
+        "../../../../AGENTS.md",
+        "../../../2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+        "../../../../skills/cold-truth-editor/SKILL.md"
+      ],
+      "outputs": [
+        "../Editorial/Narrative_Failure_Analysis.md",
+        "../Editorial/Story_Outline_v3.md",
+        "../Script_Draft_v3.md",
+        "../Editorial/Narrative_QA_v3.md",
+        "../Production_Summary.md",
+        "../Assembly/Assembly_Review.md",
+        "../../../../AGENTS.md",
+        "../../../2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+        "../../../../skills/cold-truth-editor/SKILL.md"
+      ],
+      "settings": {
+        "rewrite_method": "from zero after completed failure analysis and source-bound outline",
+        "approved_claim_ids": ["JH-01", "JH-02", "JH-03", "JH-04", "JH-05", "JH-06", "JH-07"],
+        "excluded_claim_ids": ["JH-PI-01"],
+        "target_spoken_words": "700-850",
+        "media_files_modified": false,
+        "shorts_touched": false,
+        "narration_generated": false,
+        "alignment_run": false,
+        "assets_sourced": false,
+        "fcpxml_rebuilt": false,
+        "rendered": false,
+        "uploaded": false,
+        "scheduled": false,
+        "published": false
+      },
+      "verification": {
+        "spoken_word_count": 714,
+        "required_story_sections": 6,
+        "claim_level_references_present": true,
+        "june_2026_pi_material_present": false,
+        "suspect_implication_present": false,
+        "draft_self_qa": "pass; human paired outline/final-script gate still required",
+        "script_final_v3_created": false,
+        "downstream_production_authorized": false
+      }
+    }
+  ]
+}

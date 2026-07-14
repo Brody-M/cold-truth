@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.synthetic-narration-authorization",
+  "contract_version": "1.0.0-c6-fixture",
+  "fixture_only": true,
+  "valid_decision": "approve_synthetic_narration_test",
+  "valid_reviewer_role": "human_owner",
+  "permitted_action": "synthetic_narration_generation_only",
+  "binding_requirements": [
+    "writer_handoff_sha256",
+    "editor_handoff_sha256",
+    "narration_text_sha256",
+    "passed_c5_preflight_result_sha256",
+    "locked_profile_sha256",
+    "requested_relative_output_path_sha256"
+  ],
+  "single_use": true,
+  "provider_call_authorized": false,
+  "network_authorized": false,
+  "audio_creation_authorized_during_c6": false,
+  "next_required_authorization": "separate_human_authorization_for_one_synthetic_provider_call"
+}

@@ -1,0 +1,10 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-writing-fixture",
+  "fixture_title": "Glass River Synthetic File",
+  "approved_facts": {
+    "SYN-RV-01": "A fictional official record fixes the fictional event date as April 17, 2042.",
+    "SYN-RV-02": "A fictional official record fixes the fictional location as Glass River Annex in Example District.",
+    "SYN-RV-03": "A fictional archive records a fictional current-status update dated September 8, 2044."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "phase-c3-editor-fixture",
+  "case_id": "glass-river-writing-fixture",
+  "stage": "editor_fixture",
+  "contract_id": "cold-truth.editor",
+  "contract_version": "1.0.0-c3-fixture",
+  "inputs": [
+    {
+      "name": "synthetic_editor_boundaries",
+      "type": "synthetic_editor_boundaries",
+      "kind": "file",
+      "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\synthetic_editor_boundaries.json",
+      "sha256": "fe7e6e3f7f4d74d5041f49e79b995c46dbd2d3757816905caf033971846c1e89",
+      "size_bytes": 640
+    },
+    {
+      "name": "synthetic_writer_handoff",
+      "type": "writer_fixture_handoff",
+      "kind": "file",
+      "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\writer\\agent_runs\\04948410dca1bb01a98a4cf02410d7e9d959885b98f004c2d602925b5f33274c\\attempt-001\\output\\strategist_handoff.json",
+      "sha256": "fa74fa01838651b8e893159c1c689e443588a3b3cfb2db553aae1f27506db1fb",
+      "size_bytes": 3663
+    }
+  ],
+  "permissions": {
+    "allowed_actions": [
+      "verify supplied sentence attribution",
+      "enforce supplied exclusions",
+      "apply deterministic redundancy checks",
+      "return simulated human checkpoint decision"
+    ],
+    "network": false,
+    "external_commands": false,
+    "external_tools": false,
+    "media_creation": false,
+    "publishing": false,
+    "platform_api": false,
+    "secrets": "[REDACTED]"
+  },
+  "mode": "controlled-real-fixture",
+  "provider_id": "codex-exec-controlled-editor-fixture-v1",
+  "failure_mode": null,
+  "reset_token": "[REDACTED]",
+  "idempotency_key": "166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c",
+  "output_root": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-output",
+  "execution_origin": "orchestrated_agent"
+}

@@ -1,0 +1,18 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-research-fixture",
+  "accepted_claims": [
+    {"claim_id": "SYN-RV-01", "basis": "synthetic_official_record", "required_decision": "approve"},
+    {"claim_id": "SYN-RV-02", "basis": "synthetic_official_record", "required_decision": "approve"},
+    {"claim_id": "SYN-RV-03", "basis": "synthetic_archived_report", "required_decision": "approve"}
+  ],
+  "rejected_claims": [
+    {"claim_id": "SYN-RV-X1", "reason_code": "unverified_unnamed_allegation", "required_decision": "reject"},
+    {"claim_id": "SYN-RV-X2", "reason_code": "unverified_online_theory", "required_decision": "reject"},
+    {"claim_id": "SYN-RV-X3", "reason_code": "source_ledger_conflict", "required_decision": "reject"}
+  ],
+  "external_research_allowed": false,
+  "tools_allowed": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

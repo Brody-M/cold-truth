@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "voice_profile_name": "Mia",
+  "stability": 0.72,
+  "similarity_boost": 0.76,
+  "style": 0.05,
+  "speed": 0.94,
+  "use_speaker_boost": true,
+  "output_format": "mp3_44100_128",
+  "audio_generation_authorized": false,
+  "network_authorized": false,
+  "api_key_required_for_generation": true,
+  "real_production_enabled": false,
+  "publishing_enabled": false
+}

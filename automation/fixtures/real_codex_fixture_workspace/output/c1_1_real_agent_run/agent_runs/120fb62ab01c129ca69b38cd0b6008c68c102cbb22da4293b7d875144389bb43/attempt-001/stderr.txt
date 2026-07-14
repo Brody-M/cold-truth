@@ -1,0 +1,6 @@
+error: unexpected argument 'Obsidian\automation\fixtures\real_codex_fixture_workspace"' found
+
+Usage: codex exec [OPTIONS] [PROMPT]
+       codex exec [OPTIONS] <COMMAND> [ARGS]
+
+For more information, try '--help'.

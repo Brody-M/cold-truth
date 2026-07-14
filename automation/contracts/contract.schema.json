@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cold-truth-agent-contract.schema.json",
+  "title": "Cold Truth agent contract",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "contract_id",
+    "contract_version",
+    "agent",
+    "required_inputs",
+    "allowed_actions",
+    "required_outputs",
+    "success_criteria",
+    "failure_criteria",
+    "prohibited_actions",
+    "handoff_schema",
+    "autonomy"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_id": {"type": "string", "minLength": 1},
+    "contract_version": {"type": "string", "minLength": 1},
+    "agent": {"type": "string", "minLength": 1},
+    "required_inputs": {"type": "array", "items": {"type": "object"}},
+    "allowed_actions": {"type": "array", "items": {"type": "string"}},
+    "required_outputs": {"type": "array", "items": {"type": "object"}},
+    "success_criteria": {"type": "array", "items": {"type": "string"}},
+    "failure_criteria": {"type": "array", "items": {"type": "string"}},
+    "prohibited_actions": {"type": "array", "items": {"type": "string"}},
+    "handoff_schema": {"type": "object"},
+    "autonomy": {"type": "object"}
+  },
+  "additionalProperties": true
+}

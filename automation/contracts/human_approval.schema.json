@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cold-truth-human-approval.schema.json",
+  "title": "Cold Truth single-use human approval",
+  "type": "object",
+  "required": [
+    "schema_version", "approval_id", "purpose", "run_id", "case_id", "episode_id",
+    "checkpoint", "reviewer_role", "human_approved", "approved_by", "reason",
+    "issued_at_utc", "expires_at_utc", "status", "single_use", "consumed",
+    "consumption_count", "only_allowed_next_state", "publishing_enabled",
+    "real_production_enabled"
+  ],
+  "properties": {
+    "schema_version": {"const": "cold_truth.human_approval.v1"},
+    "approval_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{7,127}$"},
+    "purpose": {"enum": ["approve_script_for_canonicalization", "approve_assembly_for_dry_run_render_plan"]},
+    "run_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "episode_id": {"type": "string", "minLength": 1},
+    "checkpoint": {"enum": ["script", "assembly"]},
+    "reviewer_role": {"const": "human_owner"},
+    "human_approved": {"const": true},
+    "approved_by": {"type": "string", "minLength": 1},
+    "reason": {"type": "string", "minLength": 1},
+    "issued_at_utc": {"type": "string", "format": "date-time"},
+    "expires_at_utc": {"type": "string", "format": "date-time"},
+    "status": {"const": "active"},
+    "single_use": {"const": true},
+    "consumed": {"const": false},
+    "consumption_count": {"const": 0},
+    "only_allowed_next_state": {"enum": ["SCRIPT_APPROVED", "ASSEMBLY_APPROVED"]},
+    "publishing_enabled": {"const": false},
+    "real_production_enabled": {"const": false},
+    "reverse_outline_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "script_draft_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "longform_assembly_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "shorts_assembly_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "render_authorized": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

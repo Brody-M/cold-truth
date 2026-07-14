@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "default_mode": "synthetic",
+  "real_production_enabled": false,
+  "publishing_enabled": false,
+  "runtime_command_env": "COLD_TRUTH_CODEX_RUNTIME_COMMAND",
+  "providers": {
+    "synthetic": {
+      "enabled": true,
+      "type": "in_process_fixture"
+    },
+    "codex": {
+      "enabled": false,
+      "type": "future_generic_provider"
+    }
+  },
+  "future_adapters": {
+    "research": false,
+    "narration": false,
+    "alignment": false,
+    "long_form_assets": false,
+    "shorts_assets": false,
+    "assembly": false,
+    "render": false
+  }
+}

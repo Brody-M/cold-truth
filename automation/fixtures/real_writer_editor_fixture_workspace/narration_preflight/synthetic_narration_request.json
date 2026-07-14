@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "request_id": "C6-SYNTHETIC-REQUEST-0001",
+  "case_id": "glass-river-writing-fixture",
+  "requested_action": "synthetic_narration_generation_only",
+  "requested_output_relative_path": "proposed/synthetic_mia_narration.mp3",
+  "requested_output_format": "mp3_44100_128",
+  "write_fake_artifact": false,
+  "invoke_actual_narration": false,
+  "invoke_provider": false,
+  "network_requested": false,
+  "asset_authorized": false,
+  "assembly_authorized": false,
+  "rendering_authorized": false,
+  "upload_authorized": false,
+  "scheduling_authorized": false,
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

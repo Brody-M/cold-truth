@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0", "contract_id": "cold-truth.editor", "contract_version": "1.0.0-c3-fixture", "agent": "Editor",
+  "required_inputs": [
+    {"name": "synthetic_writer_handoff", "type": "writer_fixture_handoff", "required": true},
+    {"name": "synthetic_editor_boundaries", "type": "synthetic_editor_boundaries", "required": true}
+  ],
+  "allowed_actions": ["verify supplied sentence attribution", "enforce supplied exclusions", "apply deterministic redundancy checks", "return simulated human checkpoint decision"],
+  "required_outputs": [{"name": "editor_handoff.json", "type": "common_handoff"}],
+  "success_criteria": ["attribution and exclusions pass", "redundancy and coherence pass", "handoff stops at human script review"],
+  "failure_criteria": ["unsupported material appears", "repetition exceeds fixture threshold", "claim is missing", "later-stage progression is declared"],
+  "prohibited_actions": ["research", "browse", "call tools", "rewrite with new facts", "request narration", "generate media", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["upstream_writer_handoff_hash", "approved_claim_ids_seen", "excluded_claim_ids_absent", "factual_attribution_check", "unsupported_material_check", "redundancy_check", "redundancy_findings", "narrative_coherence_check", "editor_decision", "simulated_human_checkpoint_required", "handoff_to_human_review", "artifact_hashes"]},
+  "autonomy": {"may_proceed": false, "stop_for_human": true, "stop_on_failure": true, "next_contract": null}
+}

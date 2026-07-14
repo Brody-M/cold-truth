@@ -1,0 +1,27 @@
+{
+  "status": "blocked_under_8_minimum",
+  "case": "Jodi Huisentruit",
+  "target_format": "youtube-longform",
+  "narration_file": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\tts_At_ro_20260710_213842.mp3",
+  "narration_duration_seconds": 325.079365,
+  "duration_source": "ffprobe_audio_stream",
+  "word_count_used_for_duration": false,
+  "assembly_allowed": false,
+  "flags": [
+    "under_8_minimum",
+    "explicit human approval metadata is required"
+  ],
+  "rule": {
+    "target_seconds": [
+      480.0,
+      600.0
+    ],
+    "preferred_seconds": [
+      495.0,
+      630.0
+    ],
+    "release_minimum_seconds": 480.0,
+    "exception_type": "short-format"
+  },
+  "approval_metadata": null
+}

@@ -1,0 +1,9 @@
+{
+  "fixture": true,
+  "case_id": "glass-river-research-fixture",
+  "candidate_name": "Glass River Synthetic File",
+  "candidate_status": "selected_for_synthetic_verification",
+  "claim_ids": ["SYN-RV-01", "SYN-RV-02", "SYN-RV-03", "SYN-RV-X1", "SYN-RV-X2", "SYN-RV-X3"],
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.research-verifier",
+  "contract_version": "1.0.0-c2-fixture",
+  "agent": "Research Verifier",
+  "required_inputs": [
+    {"name": "synthetic_strategist_handoff", "type": "synthetic_strategist_handoff", "required": true},
+    {"name": "synthetic_source_ledger", "type": "synthetic_source_ledger", "required": true},
+    {"name": "synthetic_research_boundaries", "type": "synthetic_research_boundaries", "required": true}
+  ],
+  "allowed_actions": [
+    "compare supplied synthetic claims to supplied synthetic sources",
+    "apply supplied synthetic research boundaries",
+    "classify supplied synthetic claims as approved or rejected"
+  ],
+  "required_outputs": [
+    {"name": "research_verifier_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": [
+    "three supplied supported claims are approved",
+    "three supplied prohibited claims are rejected with exact reason codes",
+    "the X3 ledger conflict is recorded exactly once in source_conflicts",
+    "only X1 and X2 are classified as unsupported material",
+    "no external research or tool activity is declared",
+    "publishing and real production remain disabled"
+  ],
+  "failure_criteria": [
+    "claim or conflict classification differs from supplied boundaries",
+    "input hash chain differs from request",
+    "external source or tool activity is declared",
+    "publishing or real production is enabled"
+  ],
+  "prohibited_actions": ["browse", "research externally", "call tools", "write scripts", "generate media", "publish"],
+  "handoff_schema": {
+    "envelope": "common_handoff_v1",
+    "result_fields": [
+      "upstream_strategist_handoff_hash", "ledger_hash", "boundaries_hash",
+      "approved_claim_ids", "rejected_claims", "source_conflicts",
+      "unsupported_or_creator_derived_material", "verification_status",
+      "proceed_to_writer", "required_human_escalation", "artifact_hashes"
+    ]
+  },
+  "autonomy": {"may_proceed": false, "stop_for_human": true, "stop_on_failure": true, "next_contract": null}
+}

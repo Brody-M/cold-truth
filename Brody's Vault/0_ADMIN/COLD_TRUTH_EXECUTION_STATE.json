@@ -1,0 +1,143 @@
+{
+  "schema_version": "cold_truth.execution_state.v1",
+  "updated_at": "2026-07-14",
+  "channel": "Cold Truth",
+  "owner": "Brody",
+  "coordinator": "Codex",
+  "plan": {
+    "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+    "version": "1.0",
+    "status": "APPROVED_V1_0_CURRENT_HASH",
+    "approval_id": "brody-chat-2026-07-14-plan-v1.0-hash-reconciliation",
+    "approval_record": "Brody's Vault/0_ADMIN/MASTER_PLAN_V1_0_HASH_APPROVAL_RECORD.json",
+    "approval_record_sha256": "44906F011660C349EEF1DA014BA7BBDB51F1DE15CE9CF0ECE2F6A031322BC253",
+    "approved_hash": "8BDF81DDB9B03B411F2D1BF3FC48C0B0DE56312C8584962BA5C4C2F332FFC417"
+  },
+  "operating_mode": "PLANNING_DOCUMENTATION_AND_SEPARATELY_AUTHORIZED_OFFLINE_ENGINEERING_ONLY",
+  "capabilities": {
+    "planning_enabled": true,
+    "dry_run_orchestration_available": true,
+    "synthetic_test_harness_available": true,
+    "synthetic_runtime_execution_authorized": false,
+    "real_research_provider_enabled": false,
+    "real_narration_enabled": false,
+    "real_media_sourcing_enabled": false,
+    "real_alignment_enabled": false,
+    "real_assembly_enabled": false,
+    "real_rendering_enabled": false,
+    "upload_enabled": false,
+    "scheduling_enabled": false,
+    "publishing_enabled": false,
+    "real_production_enabled": false
+  },
+  "tracks": {
+    "governance": {
+      "state": "MASTER_PLAN_V1_0_CURRENT_HASH_APPROVED",
+      "next_gate": "COMPLETE"
+    },
+    "documentation": {
+      "state": "MAINTAINED_DOCUMENTATION_NORMALIZED",
+      "report": "Brody's Vault/0_ADMIN/MASTER_PLAN_ADOPTION_LEGACY_DOCUMENT_NORMALIZATION_REPORT.md",
+      "next_gate": "COMPLETE"
+    },
+    "orchestrator": {
+      "state": "FOUNDATION_2_CONTROL_PLANE_REGRESSION_CERTIFIED",
+      "report": "automation/PHASE_H10_CONTROL_PLANE_FOUNDATION_CLOSEOUT_REPORT.md",
+      "production_state": "DISABLED"
+    },
+    "control_plane": {
+      "state": "FOUNDATION_2_REGRESSION_CERTIFIED_AND_COMPLETE",
+      "report": "automation/PHASE_H10_CONTROL_PLANE_FOUNDATION_CLOSEOUT_REPORT.md",
+      "report_sha256": "6F0A3EDF237BAA952327E97697807A7AFC9EEE515C9F842FC8024CF1D9CAA131",
+      "latest_cumulative_methods_total": 95,
+      "latest_cumulative_methods_passed": 95,
+      "latest_cumulative_methods_failed": 0,
+      "next_gate": "BRODY_BRAND_GOVERNANCE_KIT_AUTHORIZATION"
+    },
+    "brand_governance": {
+      "state": "H11_LOCAL_KIT_APPROVED",
+      "report": "automation/PHASE_H11_LOCAL_BRAND_GOVERNANCE_KIT_REPORT.md",
+      "approved_report_sha256": "9A085A8AA9E8937943ECF8F4CBE425917CCCCFC9A0BDB54813B44C5DC52398EB",
+      "approval_id": "brody-chat-2026-07-14-h11-brand-governance-kit",
+      "approval_record": "Brody's Vault/0_ADMIN/H11_BRAND_GOVERNANCE_KIT_APPROVAL_RECORD.json",
+      "approval_record_sha256": "6F31C34AB417212B053BA0EE881C986751C32CAEF3C620D2470E273F88B0D963",
+      "documents": [
+        "Brody's Vault/0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+        "Brody's Vault/0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md",
+        "Brody's Vault/0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md",
+        "Brody's Vault/0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md",
+        "Brody's Vault/0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md"
+      ],
+      "production_state": "DISABLED",
+      "next_gate": "EDITORIAL_PILOT_SCOPE_AUTHORIZATION_REQUIRED"
+    },
+    "real_adapters": {
+      "state": "NOT_PRODUCTION_READY"
+    },
+    "l7f": {
+      "state": "REGRESSION_CERTIFIED",
+      "report": "automation/PHASE_L7F_EXECUTION_ORDER_AUDIT_ALIGNMENT_REPAIR_REPORT.md",
+      "methods_total": 373,
+      "methods_passed": 373,
+      "methods_failed": 0,
+      "next_gate": "COMPLETE"
+    },
+    "l7g": {
+      "state": "REGRESSION_CERTIFIED",
+      "report": "automation/PHASE_L7G_ORDER_ASSERTION_REPAIR_CERTIFICATION_REPORT.md",
+      "methods_total": 381,
+      "methods_passed": 381,
+      "methods_failed": 0,
+      "next_gate": "COMPLETE"
+    },
+    "l7h": {
+      "state": "REGRESSION_CERTIFIED",
+      "report": "automation/PHASE_L7H_CANONICAL_ONE_TIME_CALLER_REPORT.md",
+      "methods_total": 389,
+      "methods_passed": 389,
+      "methods_failed": 0,
+      "next_gate": "FRESH_EXPLICIT_L8_HUMAN_AUTHORIZATION_OPTIONAL"
+    },
+    "l8": {
+      "state": "BLOCKED_NO_FRESH_AUTHORIZATION",
+      "attempt_authorized": false,
+      "production_voice_approval": false
+    },
+    "c3_synthetic_fixture": {
+      "state": "AWAITING_SCRIPT_APPROVAL",
+      "is_real_episode_approval": false
+    },
+    "c4": {
+      "state": "NOT_CREATED",
+      "created": false,
+      "consumed": false
+    },
+    "channel_production": {
+      "state": "DISABLED_PENDING_BRAND_GOVERNANCE_ADAPTERS_AND_EXPLICIT_PHASE_2_AUTHORIZATION"
+    },
+    "publishing": {
+      "state": "DISABLED"
+    }
+  },
+  "active_episode": null,
+  "next_required_human_action": {
+    "action": "AUTHORIZE_EDITORIAL_PILOT_SCOPE_BEFORE_CASE_SELECTION_OR_RESEARCH",
+    "artifact": "Brody's Vault/0_ADMIN/H11_BRAND_GOVERNANCE_KIT_APPROVAL_RECORD.json"
+  },
+  "next_task_after_h11_approval": {
+    "name": "EDITORIAL_PILOT_SCOPE_AUTHORIZATION",
+    "scope": "SEPARATE_EXPLICIT_TASK_REQUIRED_BEFORE_CASE_SELECTION_OR_RESEARCH",
+    "requires_separate_task": true
+  },
+  "global_blocks": [
+    "NO_INFERRED_HUMAN_APPROVAL",
+    "NO_CASE_PRODUCTION_BEFORE_VERIFIED_VIABILITY_AND_PAIRED_SCRIPT_APPROVAL",
+    "NO_NARRATION_WITHOUT_EXACT_SEPARATE_AUTHORIZATION",
+    "NO_VISUAL_ASSET_SHARING_BETWEEN_LONGFORM_AND_SHORTS",
+    "NO_FINAL_MEDIA_OR_RENDER_WITHOUT_EXPLICIT_PHASE_2_AUTHORIZATION",
+    "NO_UPLOAD_SCHEDULE_OR_PUBLISH_WITHOUT_EXACT_SEPARATE_AUTHORIZATION",
+    "NO_PROVIDER_FALLBACK",
+    "NO_SECRETS_IN_VAULT",
+    "NO_RETRY_OR_SCOPE_EXPANSION_WITHOUT_AUTHORITY"
+  ]
+}

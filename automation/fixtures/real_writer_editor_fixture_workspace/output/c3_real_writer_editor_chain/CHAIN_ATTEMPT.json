@@ -1,0 +1,12 @@
+{
+  "status": "PASSED",
+  "fixture_only": true,
+  "editor_invoked": true,
+  "writer_record": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\writer\\agent_runs\\04948410dca1bb01a98a4cf02410d7e9d959885b98f004c2d602925b5f33274c\\attempt-001\\record.json",
+  "editor_record": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-001\\record.json",
+  "writer_handoff": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\writer\\agent_runs\\04948410dca1bb01a98a4cf02410d7e9d959885b98f004c2d602925b5f33274c\\attempt-001\\output\\strategist_handoff.json",
+  "editor_handoff": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\output\\c3_real_writer_editor_chain\\editor\\agent_runs\\166a572a97687b712d089b5e62e3e60a04413a1b83b4cb939548fa62d4d8838c\\attempt-001\\output\\strategist_handoff.json",
+  "final_state": "AWAITING_SCRIPT_APPROVAL",
+  "real_production_enabled": false,
+  "publishing_enabled": false
+}

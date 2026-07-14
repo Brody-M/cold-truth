@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "request_id", "approval_id", "case_id", "state", "reason", "requested_output_path", "output_format", "voice_profile_name", "narration_generation_authorized", "network_authorized", "output_file_created", "next_required_authorization", "asset_authorized", "assembly_authorized", "rendering_authorized", "upload_authorized", "scheduling_authorized", "publishing_enabled", "real_production_enabled"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "request_id": {"type": "string"},
+    "approval_id": {"type": "string"},
+    "case_id": {"type": "string", "enum": ["glass-river-writing-fixture"]},
+    "state": {"type": "string", "enum": ["NARRATION_PREFLIGHT_PASSED", "NARRATION_PREFLIGHT_BLOCKED"]},
+    "reason": {"type": "string"},
+    "requested_output_path": {"type": "string"},
+    "output_format": {"type": "string"},
+    "voice_profile_name": {"type": "string"},
+    "narration_generation_authorized": {"type": "boolean", "enum": [false]},
+    "network_authorized": {"type": "boolean", "enum": [false]},
+    "output_file_created": {"type": "boolean", "enum": [false]},
+    "next_required_authorization": {"type": "string", "enum": ["separate_human_authorization_for_synthetic_narration_test"]},
+    "asset_authorized": {"type": "boolean", "enum": [false]},
+    "assembly_authorized": {"type": "boolean", "enum": [false]},
+    "rendering_authorized": {"type": "boolean", "enum": [false]},
+    "upload_authorized": {"type": "boolean", "enum": [false]},
+    "scheduling_authorized": {"type": "boolean", "enum": [false]},
+    "publishing_enabled": {"type": "boolean", "enum": [false]},
+    "real_production_enabled": {"type": "boolean", "enum": [false]}
+  },
+  "additionalProperties": false
+}

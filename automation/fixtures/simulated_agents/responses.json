@@ -1,0 +1,111 @@
+{
+  "cold-truth.strategist": {
+    "outputs": [
+      {"name": "Source_Ledger_Draft.md", "content": "# Synthetic Source Ledger Draft\n\nSYN-01 through SYN-06 are fixture-only claims with synthetic official-source records. No real person or case is represented.\n"},
+      {"name": "Strategist_Viability_Assessment_v1.md", "content": "# Synthetic Viability\n\nStandard long-form viable. Fixture architecture contains six distinct source-bound sections.\n"},
+      {"name": "Case_Risk_Notes.md", "content": "# Synthetic Risk Notes\n\nNo real allegations. Suspect claims, theories, and publishing are prohibited.\n"},
+      {"name": "Candidate_Scorecard.md", "content": "# Synthetic Scorecard\n\nTotal: 31/35. Source depth 5; chronology 5; legal safety 4.\n"}
+    ],
+    "result": {
+      "candidate_id": "cedar-grove-placeholder",
+      "viability": "Standard long-form viable",
+      "score_total": 31,
+      "score_breakdown": {"long_form_source_depth": 5, "clear_chronological_narrative": 5, "legal_and_misinformation_risk": 4},
+      "risk_level": "synthetic-low",
+      "artifact_hashes": "$ALL_OUTPUT_HASHES",
+      "recommended_disposition": "select"
+    }
+  },
+  "cold-truth.research-verifier": {
+    "outputs": [
+      {"name": "Research_Verification.json", "json_content": {"verification_status": "pass", "synthetic": true, "claim_count": 6, "blocking_errors": []}},
+      {"name": "Research_Source_Ledger.md", "content": "# Synthetic Verified Source Ledger\n\nSYN-01 through SYN-06 passed fixture provenance, claim coverage, and suspect-threshold checks.\n"}
+    ],
+    "result": {
+      "verification_status": "pass",
+      "ledger_sha256": "$OUTPUT_SHA256:Research_Source_Ledger.md",
+      "source_count": 6,
+      "source_quality_breakdown": {"synthetic_official": 6},
+      "claim_count": 6,
+      "excluded_claim_ids": [],
+      "blocking_errors": []
+    }
+  },
+  "cold-truth.writer": {
+    "outputs": [
+      {"name": "Script_Draft.md", "content": "# Synthetic Script Draft\n\n## Hook\nFixture hook supported by SYN-01.\n\n## Essential Setup\nFixture setup supported by SYN-02.\n\n## Chronological Events\nFixture chronology supported by SYN-03.\n\n## Evidence and Investigation\nFixture context supported by SYN-04.\n\n## Present Status\nFixture status supported by SYN-05.\n\n## Closing\nFixture close supported by SYN-06.\n"}
+    ],
+    "result": {
+      "script_draft_sha256": "$OUTPUT_SHA256:Script_Draft.md",
+      "word_count": 1200,
+      "ledger_claim_ids_used": ["SYN-01", "SYN-02", "SYN-03", "SYN-04", "SYN-05", "SYN-06"],
+      "uncertainty_flags": [],
+      "padding_check": "pass",
+      "projected_runtime_editorial_only": 510
+    }
+  },
+  "cold-truth.editor": {
+    "outputs": [
+      {"name": "Editorial_Notes.md", "content": "# Synthetic Editorial Notes\n\nCoherence, repetition, source alignment, and no-padding fixture checks passed.\n"},
+      {"name": "Reverse_Outline.md", "content": "# Synthetic Reverse Outline\n\n1. Hook — purpose: establish stakes; claims SYN-01; transition to setup; exclusions: theories.\n2. Setup — purpose: orient listener; claims SYN-02; transition to chronology; exclusions: unsupported biography.\n3. Chronology — purpose: ordered events; claims SYN-03; transition to evidence; exclusions: speculation.\n4. Investigation — purpose: explain evidence; claims SYN-04; transition to status; exclusions: suspects.\n5. Status — purpose: current record; claims SYN-05; transition to closing; exclusions: prediction.\n6. Closing — purpose: respectful close; claims SYN-06; exclusions: theory invitation.\n"},
+      {"name": "Script_Draft_Reviewed.md", "content": "# Synthetic Reviewed Draft\n\n## Hook\nFixture hook supported by SYN-01.\n\n## Essential Setup\nFixture setup supported by SYN-02.\n\n## Chronological Events\nFixture chronology supported by SYN-03.\n\n## Evidence and Investigation\nFixture context supported by SYN-04.\n\n## Present Status\nFixture status supported by SYN-05.\n\n## Closing\nFixture close supported by SYN-06.\n"},
+      {"name": "checkpoint_1_packet.json", "json_content": {"synthetic": true, "checkpoint": "script", "reverse_outline_sha256": "$OUTPUT_SHA256:Reverse_Outline.md", "script_draft_sha256": "$OUTPUT_SHA256:Script_Draft_Reviewed.md"}}
+    ],
+    "result": {
+      "editorial_status": "pass_pending_human_approval",
+      "reverse_outline_sha256": "$OUTPUT_SHA256:Reverse_Outline.md",
+      "reviewed_draft_sha256": "$OUTPUT_SHA256:Script_Draft_Reviewed.md",
+      "ledger_sha256": "$INPUT_SHA256:Research_Source_Ledger.md",
+      "repetition_changes": [],
+      "blocking_flags": []
+    }
+  },
+  "cold-truth.visual-producer": {
+    "outputs": [
+      {"name": "YouTube_Visual_Timeline.md", "content": "# Synthetic YouTube Visual Timeline\n\nTwo timestamped fixture beats. No media, downloads, or real imagery.\n"},
+      {"name": "longform_assets.json", "json_content": {"schema_version": "cold_truth.asset_manifest.v1", "synthetic": true, "media_created": false, "track": "youtube-longform", "shared_assets_allowed": false, "assets": [{"asset_id": "pexels-fixture-record-001", "source_identity": "pexels-record:fixture-001", "track": "youtube-longform", "asset_class": "case_broll", "status": "ready", "local_record": true, "licensed_record": true}, {"asset_id": "pexels-fixture-record-002", "source_identity": "case-graphic-record:fixture-002", "track": "youtube-longform", "asset_class": "case_graphic", "status": "ready", "local_record": true, "licensed_record": true}]}}
+    ],
+    "result": {
+      "alignment_sha256": "$INPUT_SHA256:longform_alignment.json",
+      "beat_count": 2,
+      "matched_count": 2,
+      "unmatched_beats": [],
+      "asset_manifest_sha256": "$OUTPUT_SHA256:longform_assets.json",
+      "asset_hashes": ["pexels-fixture-record-001", "pexels-fixture-record-002"],
+      "license_status": "synthetic-records-pass",
+      "track": "youtube-longform"
+    }
+  },
+  "cold-truth.shorts-editor": {
+    "outputs": [
+      {"name": "Shorts_Package.md", "content": "# Synthetic Shorts Package\n\n[OVERLAY: Synthetic case] Fixture-only 45-second source-backed Short.\n"},
+      {"name": "Shorts_Visual_Timeline.md", "content": "# Synthetic Shorts Timeline\n\nOverlay mapped to synthetic gameplay record. No media exists.\n"},
+      {"name": "shorts_assets.json", "json_content": {"schema_version": "cold_truth.asset_manifest.v1", "synthetic": true, "media_created": false, "track": "shorts", "shared_assets_allowed": false, "license_verified": true, "credit_line": "Synthetic fixture credit only", "assets": [{"asset_id": "orbital-fixture-record-001", "source_identity": "orbital-license-record:fixture-001", "track": "shorts", "asset_class": "orbital_gameplay", "status": "ready", "local_record": true, "licensed_record": true}]}}
+    ],
+    "result": {
+      "short_count": 1,
+      "script_hashes": ["$OUTPUT_SHA256:Shorts_Package.md"],
+      "audio_preflight_hashes": ["synthetic-shorts-preflight"],
+      "alignment_hashes": ["synthetic-shorts-alignment"],
+      "gameplay_license": "synthetic-record-pass",
+      "asset_hashes": ["orbital-fixture-record-001"],
+      "shared_asset_count": 0,
+      "credit_line": "Synthetic fixture credit only"
+    }
+  },
+  "cold-truth.upload-manager": {
+    "outputs": [
+      {"name": "Upload_Package.md", "content": "# Synthetic Metadata Package\n\nThree fixture titles, a synthetic description, fixture tags, thumbnail copy, and publishing disabled.\n"}
+    ],
+    "result": {
+      "script_sha256": "$INPUT_SHA256:Script_Final.md",
+      "render_hashes": ["synthetic-render-record"],
+      "title_count": 3,
+      "description_word_count": 180,
+      "tag_count": 17,
+      "thumbnail_copy_count": 2,
+      "credits": ["Synthetic fixture credit only"],
+      "publishing_enabled": false
+    }
+  }
+}

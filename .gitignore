@@ -1,0 +1,53 @@
+# Secrets and local environment
+.env
+.env.*
+**/API_KEYS.md
+*.key
+*.pem
+
+# Python/runtime caches
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated media and large binary assets
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+Renders/
+**/Renders/
+footage/
+**/footage/
+shorts_gameplay/
+**/shorts_gameplay/
+voice_samples/
+
+# Editor/project caches and temporary files
+.codex/
+.claude/
+**/.obsidian/
+**/.claudian/
+Brody's Vault/1_LIFE/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+*.autosave
+
+# Local credentials and platform sessions
+*oauth*.json
+*credentials*.json
+*token*.json
+automation/private/c8_one_time_provider_config.json

@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "fixture_only": true,
+  "real_production_enabled": false,
+  "publishing_enabled": false,
+  "blocker": "AgentRunBlocked: Agent exited with code 65; record: C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_research_verifier_fixture_workspace\\output\\c2_real_research_verifier_run\\agent_runs\\57d635e020bf5dd7c5a963b3700f02f55e1224d78b1313a42442cf50115e310f\\attempt-001\\record.json"
+}

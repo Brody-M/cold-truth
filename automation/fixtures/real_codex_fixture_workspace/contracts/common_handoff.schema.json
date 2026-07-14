@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cold-truth-c1-common-handoff.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version", "contract_id", "contract_version", "run_id", "case_id",
+    "stage", "attempt", "idempotency_key", "status", "started_at", "completed_at",
+    "inputs", "outputs", "result", "decisions", "warnings", "errors", "retryable",
+    "tool_calls", "runtime", "publishing_enabled"
+  ],
+  "additionalProperties": false
+}

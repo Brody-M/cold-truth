@@ -1,0 +1,214 @@
+{
+  "source": "Pexels API broadened second pass",
+  "assets": [
+    {
+      "beat": 3,
+      "cue": "At 7:13 that morning, dispatch sent a welfare check to her apartment complex.",
+      "queries": [
+        "office desk telephone keyboard",
+        "generic call center headset",
+        "emergency radio desk"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "office desk telephone keyboard",
+      "pexels_video_id": 30231836,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-03-pexels-30231836.mp4",
+      "bytes": 2481556,
+      "duration": 8,
+      "width": 1280,
+      "height": 720,
+      "creator": "MultiLumix Creative details",
+      "page": "https://www.pexels.com/video/businesswoman-using-office-phone-in-modern-workspace-30231836/"
+    },
+    {
+      "beat": 4,
+      "cue": "Public reporting described drag marks beside Jodi's car.",
+      "queries": [
+        "wet asphalt close up",
+        "rain pavement abstract",
+        "empty parking lot rainfall"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "wet asphalt close up",
+      "pexels_video_id": 6005572,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-04-pexels-6005572.mp4",
+      "bytes": 4116561,
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "creator": "Yusuf \u00c7elik",
+      "page": "https://www.pexels.com/video/rain-falling-on-the-road-6005572/"
+    },
+    {
+      "beat": 8,
+      "cue": "More than thirty years later, the investigation remains active.",
+      "queries": [
+        "dark office desk lamp",
+        "closed case file table",
+        "empty streetlights evening"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "dark office desk lamp",
+      "pexels_video_id": 36392511,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-08-pexels-36392511.mp4",
+      "bytes": 685972,
+      "duration": 9,
+      "width": 1280,
+      "height": 720,
+      "creator": "Mihman Du\u011fanl\u0131",
+      "page": "https://www.pexels.com/video/nighttime-video-editing-setup-with-dual-screens-36392511/"
+    },
+    {
+      "beat": 23,
+      "cue": "Later that morning, police were dispatched to her apartment complex for a welfare check.",
+      "queries": [
+        "empty apartment hallway",
+        "telephone on office desk",
+        "intercom desk close up"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "empty apartment hallway",
+      "pexels_video_id": 10577994,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-23-pexels-10577994.mp4",
+      "bytes": 11216330,
+      "duration": 39,
+      "width": 1280,
+      "height": 720,
+      "creator": "Vincuk Konan",
+      "page": "https://www.pexels.com/video/woman-closing-door-and-walking-on-corridor-10577994/"
+    },
+    {
+      "beat": 24,
+      "cue": "Reporting later described drag marks and several personal items in the parking lot.",
+      "queries": [
+        "dark wet pavement texture",
+        "rain puddle asphalt close up",
+        "empty parking lot ground"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "dark wet pavement texture",
+      "pexels_video_id": 6408465,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-24-pexels-6408465.mp4",
+      "bytes": 4743844,
+      "duration": 25,
+      "width": 1280,
+      "height": 720,
+      "creator": "Artyom Saqib",
+      "page": "https://www.pexels.com/video/close-up-view-of-the-wet-road-at-night-6408465/"
+    },
+    {
+      "beat": 25,
+      "cue": "They included a red pair of heels, earrings, a blow dryer, hairspray, and a bent key for Jodi's Miata.",
+      "queries": [
+        "keys personal belongings table",
+        "hairbrush and keys desk",
+        "women accessories flat lay"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "keys personal belongings table",
+      "pexels_video_id": 4933890,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-25-pexels-4933890.mp4",
+      "bytes": 5329243,
+      "duration": 23,
+      "width": 1280,
+      "height": 720,
+      "creator": "David Roberts",
+      "page": "https://www.pexels.com/video/personal-belongings-on-a-desk-4933890/"
+    },
+    {
+      "beat": 30,
+      "cue": "Iowa's Missing Person Information Clearinghouse still lists Jodi and directs anyone with information to Mason City Police or the Iowa Division of Criminal Investigation.",
+      "queries": [
+        "community bulletin board notices",
+        "information flyer board office",
+        "public notice board papers"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "community bulletin board notices",
+      "pexels_video_id": 7710864,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-30-pexels-7710864.mp4",
+      "bytes": 3134146,
+      "duration": 13,
+      "width": 1366,
+      "height": 720,
+      "creator": "www.kaboompics.com",
+      "page": "https://www.pexels.com/video/a-person-putting-sticky-notes-on-the-wall-7710864/"
+    },
+    {
+      "beat": 36,
+      "cue": "There is also a limit on what the public can review.",
+      "queries": [
+        "locked filing cabinet close up",
+        "closed archive drawer",
+        "restricted documents folder"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "locked filing cabinet close up",
+      "pexels_video_id": 9029219,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-36-pexels-9029219.mp4",
+      "bytes": 3092793,
+      "duration": 14,
+      "width": 1280,
+      "height": 720,
+      "creator": "Vincuk Konan",
+      "page": "https://www.pexels.com/video/close-up-shot-of-drawers-9029219/"
+    },
+    {
+      "beat": 48,
+      "cue": "It does mean the case has not been closed and investigators are still asking for information.",
+      "queries": [
+        "telephone message desk",
+        "contact information flyer",
+        "tip line phone office"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "telephone message desk",
+      "pexels_video_id": 35241592,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-48-pexels-35241592.mp4",
+      "bytes": 967175,
+      "duration": 10,
+      "width": 1280,
+      "height": 720,
+      "creator": "Chris D",
+      "page": "https://www.pexels.com/video/organized-desk-in-office-workspace-35241592/"
+    },
+    {
+      "beat": 49,
+      "cue": "Active is not the same as solved.",
+      "queries": [
+        "closed case file desk",
+        "unanswered paperwork desk",
+        "empty folder table"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "closed case file desk",
+      "pexels_video_id": 8371852,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-49-pexels-8371852.mp4",
+      "bytes": 8901070,
+      "duration": 53,
+      "width": 1366,
+      "height": 720,
+      "creator": "cottonbro studio",
+      "page": "https://www.pexels.com/video/person-looking-at-files-inside-a-cardboard-box-8371852/"
+    },
+    {
+      "beat": 51,
+      "cue": "For the people who knew Jodi, the central fact has not changed. She is still missing.",
+      "queries": [
+        "empty street dusk no cars",
+        "lonely road fog",
+        "porch light night empty"
+      ],
+      "status": "candidate_downloaded",
+      "selected_query": "empty street dusk no cars",
+      "pexels_video_id": 16657004,
+      "local_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\footage_v3_second_pass\\beat-51-pexels-16657004.mp4",
+      "bytes": 1973452,
+      "duration": 10,
+      "width": 1280,
+      "height": 720,
+      "creator": "Erik Mclean",
+      "page": "https://www.pexels.com/video/a-black-and-white-photo-of-a-street-at-night-16657004/"
+    }
+  ]
+}

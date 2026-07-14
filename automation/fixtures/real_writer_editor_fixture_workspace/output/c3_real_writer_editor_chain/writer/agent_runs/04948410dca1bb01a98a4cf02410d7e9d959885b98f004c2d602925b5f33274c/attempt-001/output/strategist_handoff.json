@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.writer",
+  "contract_version": "1.0.0-c3-fixture",
+  "run_id": "phase-c3-writer-fixture",
+  "case_id": "glass-river-writing-fixture",
+  "stage": "writer_fixture",
+  "attempt": 1,
+  "idempotency_key": "04948410dca1bb01a98a4cf02410d7e9d959885b98f004c2d602925b5f33274c",
+  "status": "success",
+  "started_at": "2026-07-12T00:00:00Z",
+  "completed_at": "2026-07-12T00:00:00Z",
+  "inputs": [
+    {
+      "name": "synthetic_case_brief",
+      "type": "synthetic_case_brief",
+      "kind": "file",
+      "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\synthetic_case_brief.json",
+      "sha256": "161003b478772e58c15ae723253d66947731eed70accf3deb0a8c05f3165a076",
+      "size_bytes": 465
+    },
+    {
+      "name": "synthetic_research_verifier_handoff",
+      "type": "verified_fixture_handoff",
+      "kind": "file",
+      "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\synthetic_research_verifier_handoff.json",
+      "sha256": "d64929bbec319213f9736154f2128e2e0e6b317e7fa5fc2b04024e9abfbadce5",
+      "size_bytes": 666
+    },
+    {
+      "name": "synthetic_writer_boundaries",
+      "type": "synthetic_writer_boundaries",
+      "kind": "file",
+      "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_writer_editor_fixture_workspace\\synthetic_writer_boundaries.json",
+      "sha256": "ab8725edb8b31b375474b695b0aa6f9bc1803f84079591ca0bbc4ae18e26eb11",
+      "size_bytes": 708
+    }
+  ],
+  "outputs": [],
+  "result": {
+    "upstream_research_verifier_handoff_hash": "d64929bbec319213f9736154f2128e2e0e6b317e7fa5fc2b04024e9abfbadce5",
+    "narration_text": "A fictional official record fixes the event date as April 17, 2042. A second fictional official record places the event at Glass River Annex in Example District. A fictional archive records a current-status update dated September 8, 2044.",
+    "word_count": 38,
+    "unsupported_claim_check": "passed",
+    "external_research_used": false,
+    "browser_used": false,
+    "mcp_used": false,
+    "network_used": false,
+    "artifact_hashes": {},
+    "ready_for_editor": true,
+    "approved_claim_ids": [
+      "SYN-RV-01",
+      "SYN-RV-02",
+      "SYN-RV-03"
+    ],
+    "excluded_claim_ids": [
+      "SYN-RV-X1",
+      "SYN-RV-X2",
+      "SYN-RV-X3"
+    ],
+    "script_sections": [
+      {
+        "section": "event_date",
+        "sentence": "A fictional official record fixes the event date as April 17, 2042."
+      },
+      {
+        "section": "event_location",
+        "sentence": "A second fictional official record places the event at Glass River Annex in Example District."
+      },
+      {
+        "section": "current_status",
+        "sentence": "A fictional archive records a current-status update dated September 8, 2044."
+      }
+    ],
+    "claim_attribution_map": [
+      {
+        "sentence_index": 1,
+        "claim_id": "SYN-RV-01"
+      },
+      {
+        "sentence_index": 2,
+        "claim_id": "SYN-RV-02"
+      },
+      {
+        "sentence_index": 3,
+        "claim_id": "SYN-RV-03"
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "rule": "synthetic_writer_only",
+      "result": "pass"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "retryable": false,
+  "tool_calls": [],
+  "runtime": {
+    "provider": "codex-exec",
+    "runtime": "controlled-real-fixture",
+    "model": "not-reported",
+    "version": "not-reported"
+  },
+  "publishing_enabled": false,
+  "real_production_enabled": false
+}

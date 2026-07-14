@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.research-verifier",
+  "contract_version": "1.0.0",
+  "agent": "Research Verifier",
+  "required_inputs": [
+    {"name": "Source_Ledger_Draft.md", "type": "claim_ledger", "required": true},
+    {"name": "Case_Risk_Notes.md", "type": "risk_assessment", "required": true},
+    {"name": "source_threshold_policy", "type": "policy_document", "required": true}
+  ],
+  "allowed_actions": ["validate source identity and provenance", "check claim-to-source coverage", "classify claim reliability", "detect source conflicts", "enforce suspect-claim threshold", "return correction requests"],
+  "required_outputs": [
+    {"name": "Research_Verification.json", "type": "verification_result"},
+    {"name": "Research_Source_Ledger.md", "type": "verified_claim_ledger", "conditional": "pass"}
+  ],
+  "success_criteria": ["every narration-eligible claim has source support", "source classes meet policy", "suspect and speculative claims are excluded or correctly bounded", "unknowns remain explicit", "ledger hash is recorded"],
+  "failure_criteria": ["dead or unverifiable source for an essential claim", "creator-derived source detected", "material conflict unresolved", "suspect claim fails corroboration", "claim IDs are missing or duplicated"],
+  "prohibited_actions": ["add narrative prose", "resolve conflicts by assumption", "research a suspect beyond the authorized source boundary", "write scripts", "generate media", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["verification_status", "ledger_sha256", "source_count", "source_quality_breakdown", "claim_count", "excluded_claim_ids", "blocking_errors"]},
+  "autonomy": {"may_proceed": true, "stop_for_human": false, "stop_on_failure": true, "next_contract": "cold-truth.writer"}
+}

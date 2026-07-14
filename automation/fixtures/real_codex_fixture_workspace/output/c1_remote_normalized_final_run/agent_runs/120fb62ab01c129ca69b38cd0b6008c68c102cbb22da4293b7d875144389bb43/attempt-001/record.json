@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "execution_origin": "orchestrated_agent",
+  "idempotency_key": "120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43",
+  "attempt": 1,
+  "contract_id": "cold-truth.strategist",
+  "run_id": "phase-c1-real-codex-fixture",
+  "case_id": "glass-harbor-fixture",
+  "stage": "strategist_fixture",
+  "mode": "controlled-real-fixture",
+  "provider_id": "codex-exec-controlled-fixture-v1",
+  "started_at": "2026-07-11T22:00:08.825208+00:00",
+  "completed_at": "2026-07-11T22:00:30.605758+00:00",
+  "duration_ms": 21781,
+  "exit_code": 0,
+  "retryable": false,
+  "runtime": {
+    "node_path_present": true,
+    "npm_wrapper_path_present": true,
+    "child_environment_mode": "minimal_allowlist",
+    "inherited_environment": false,
+    "provider": "codex-exec-controlled-fixture-v1",
+    "runtime": "codex-exec",
+    "model": "not-reported",
+    "version": "not-reported",
+    "command_shape": [
+      "<node.exe>",
+      "<codex-entry.js>",
+      "exec",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "<fixture-root>",
+      "--json",
+      "--output-schema",
+      "<schema>",
+      "--output-last-message",
+      "<attempt-output>/strategist_handoff.json",
+      "--ephemeral",
+      "-"
+    ],
+    "timeout_seconds": 120.0,
+    "sandbox": "workspace-write",
+    "working_directory": "<fixture-root>",
+    "jsonl_events": true,
+    "output_schema": true,
+    "ephemeral": true,
+    "thread_ids": [
+      "019f5331-ee45-7831-9e84-808bf97e10c5"
+    ],
+    "command_value_logged": false,
+    "remote_output_normalized": true,
+    "normalization_kind": "fixture_claim_fields_to_claim_ids",
+    "output_schema_validation": "pass"
+  },
+  "validation": {
+    "status": "pass",
+    "errors": []
+  },
+  "handoff": {
+    "path": "C:\\Youtube Automation Obsidian\\automation\\fixtures\\real_codex_fixture_workspace\\output\\c1_remote_normalized_final_run\\agent_runs\\120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43\\attempt-001\\output\\strategist_handoff.json",
+    "sha256": "2512383244b31d5e41b5e48ebc5158a9b3510be63d6a7dd4f21c8cc565614f23",
+    "size_bytes": 2752
+  },
+  "publishing_enabled": false
+}

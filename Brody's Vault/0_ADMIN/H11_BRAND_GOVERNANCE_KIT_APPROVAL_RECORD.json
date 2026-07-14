@@ -1,0 +1,30 @@
+{
+  "schema_version": "cold_truth.governance_approval.v1",
+  "approval_id": "brody-chat-2026-07-14-h11-brand-governance-kit",
+  "purpose": "approve_h11_local_brand_governance_kit",
+  "approved_by": "Brody",
+  "reviewer_role": "human_owner",
+  "approval_source": "explicit_brody_chat_statement",
+  "approval_statement": "I approve the H11 Local Brand and Governance Kit as bound by report SHA-256 9A085A8AA9E8937943ECF8F4CBE425917CCCCFC9A0BDB54813B44C5DC52398EB.",
+  "approval_date": "2026-07-14",
+  "approved_report_path": "automation/PHASE_H11_LOCAL_BRAND_GOVERNANCE_KIT_REPORT.md",
+  "approved_report_sha256": "9A085A8AA9E8937943ECF8F4CBE425917CCCCFC9A0BDB54813B44C5DC52398EB",
+  "approved_document_count": 5,
+  "scope": "local_brand_governance_documentation_only",
+  "does_not_authorize": [
+    "case_selection",
+    "research",
+    "active_episode_creation",
+    "c3_or_c4_approval",
+    "provider_or_network_access",
+    "l8_execution",
+    "narration_or_audio_qa",
+    "asset_sourcing_or_media_generation",
+    "rendering",
+    "account_or_platform_mutation",
+    "upload",
+    "scheduling",
+    "publishing",
+    "production"
+  ]
+}

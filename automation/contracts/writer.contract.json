@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.writer",
+  "contract_version": "1.0.0",
+  "agent": "Writer",
+  "required_inputs": [
+    {"name": "Research_Source_Ledger.md", "type": "verified_claim_ledger", "required": true},
+    {"name": "Research_Verification.json", "type": "verification_result", "required": true, "required_status": "pass"},
+    {"name": "viability_result", "type": "enum", "allowed": ["Standard long-form viable", "Short-Format exception — requires human approval"], "required": true},
+    {"name": "content_standard", "type": "policy_document", "required": true}
+  ],
+  "allowed_actions": ["draft source-bound narration", "create safe B-roll markers", "record claim and uncertainty references", "return to Strategist when source depth fails"],
+  "required_outputs": [
+    {"name": "Script_Draft.md", "type": "draft_script"},
+    {"name": "writer_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": ["cohesive six-part spoken narrative", "all facts trace to ledger claim IDs", "normal long-form range is 1150-1450 distinct words", "no prohibited padding", "suspect threshold is preserved", "no Script_Final is created"],
+  "failure_criteria": ["viability prerequisite absent", "unverified claim presented as fact", "runtime depends on padding", "ledger lacks a coherent narrative spine", "draft includes creator-derived language"],
+  "prohibited_actions": ["research outside the verified ledger", "create Script_Final.md", "self-approve", "generate narration", "source assets", "write metadata", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["script_draft_sha256", "word_count", "ledger_claim_ids_used", "uncertainty_flags", "padding_check", "projected_runtime_editorial_only"]},
+  "autonomy": {"may_proceed": true, "stop_for_human": false, "next_contract": "cold-truth.editor"}
+}

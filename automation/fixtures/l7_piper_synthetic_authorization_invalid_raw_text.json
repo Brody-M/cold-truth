@@ -1,0 +1,5 @@
+{
+  "fixture_base": "l7_piper_synthetic_authorization_valid.json",
+  "fixture_patch_only": true,
+  "text": null
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ready_for_image_generation",
+  "video_id": "validation-case-001",
+  "output_folder": "C:\\Youtube Automation Obsidian\\thumbnails\\validation-case-001",
+  "variants": [
+    {
+      "variant": 1,
+      "filename": "variant-1.png",
+      "prompt": "Use case: ads-marketing. Asset type: 16:9 YouTube true-crime thumbnail. Primary request: create a rain-streaked evidence board with red string and a blurred silhouette. Topic: The Forty-Minute Gap. Hook: A witness changed their account, revealing an overlooked gap in the timeline.. Text (verbatim): 'THE CLUE'. Composition: cinematic subject right, large readable text left, bold high-contrast condensed sans-serif. Lighting/mood: tense, elegant documentary. Constraints: no real victim likeness, no gore, no crime-scene photos, no logos, no watermark, no extra text."
+    },
+    {
+      "variant": 2,
+      "filename": "variant-2.png",
+      "prompt": "Use case: ads-marketing. Asset type: 16:9 YouTube true-crime thumbnail. Primary request: create an empty suburban street at blue hour with distant police lights. Topic: The Forty-Minute Gap. Hook: A witness changed their account, revealing an overlooked gap in the timeline.. Text (verbatim): 'WHAT HAPPENED'. Composition: cinematic subject right, large readable text left, bold high-contrast condensed sans-serif. Lighting/mood: tense, elegant documentary. Constraints: no real victim likeness, no gore, no crime-scene photos, no logos, no watermark, no extra text."
+    },
+    {
+      "variant": 3,
+      "filename": "variant-3.png",
+      "prompt": "Use case: ads-marketing. Asset type: 16:9 YouTube true-crime thumbnail. Primary request: create a sealed case file beside a shadowed doorway. Topic: The Forty-Minute Gap. Hook: A witness changed their account, revealing an overlooked gap in the timeline.. Text (verbatim): 'HIDDEN TRUTH'. Composition: cinematic subject right, large readable text left, bold high-contrast condensed sans-serif. Lighting/mood: tense, elegant documentary. Constraints: no real victim likeness, no gore, no crime-scene photos, no logos, no watermark, no extra text."
+    }
+  ],
+  "publish": false,
+  "video_render": false
+}

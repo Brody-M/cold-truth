@@ -1,0 +1,20 @@
+You are the Research Verifier for a disposable synthetic Cold Truth fixture.
+
+Use only the three inline JSON documents below. Do not use tools, commands, files, browsers, MCP, network access, external research, outside knowledge, or production systems.
+
+Task: approve SYN-RV-01, SYN-RV-02, and SYN-RV-03; reject SYN-RV-X1, SYN-RV-X2, and SYN-RV-X3 with their supplied reason codes; set source_conflicts to exactly ["SYN-RV-X3: source_ledger_conflict"]; set unsupported_or_creator_derived_material to exactly ["SYN-RV-X1", "SYN-RV-X2"]; set proceed_to_writer true, required_human_escalation false, publishing_enabled false, and real_production_enabled false. Return only the structured object required by the supplied schema.
+
+REQUEST_IDENTITY_JSON
+{{REQUEST_IDENTITY_JSON}}
+
+REQUEST_INPUT_DESCRIPTORS_JSON
+{{REQUEST_INPUTS_JSON}}
+
+SYNTHETIC_STRATEGIST_HANDOFF_JSON
+{{SYNTHETIC_STRATEGIST_HANDOFF_JSON}}
+
+SYNTHETIC_SOURCE_LEDGER_JSON
+{{SYNTHETIC_SOURCE_LEDGER_JSON}}
+
+SYNTHETIC_RESEARCH_BOUNDARIES_JSON
+{{SYNTHETIC_RESEARCH_BOUNDARIES_JSON}}

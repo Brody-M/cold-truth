@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.shorts-editor",
+  "contract_version": "1.0.0",
+  "agent": "Shorts Editor",
+  "required_inputs": [
+    {"name": "Script_Final.md", "type": "approved_script", "required": true},
+    {"name": "Research_Source_Ledger.md", "type": "verified_claim_ledger", "required": true},
+    {"name": "script_approval.json", "type": "approval_metadata", "required": true},
+    {"name": "licensed_gameplay_record", "type": "license_record", "required_for_assembly": true}
+  ],
+  "allowed_actions": ["select 3-5 standalone moments", "write separate source-backed Shorts scripts", "insert inline overlays", "generate separate narration after approval", "run Shorts preflight and WhisperX alignment", "map licensed Orbital gameplay segments", "create vertical assembly"],
+  "required_outputs": [
+    {"name": "Shorts_Package.md", "type": "shorts_scripts"},
+    {"name": "Shorts_Visual_Timeline.md", "type": "overlay_timeline"},
+    {"name": "shorts_assets.json", "type": "asset_manifest"},
+    {"name": "shorts_editor_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": ["each Short is 30-60 seconds by actual audio unless approved exception", "every key fact has an exact word-aligned overlay", "scripts are standalone and source-backed", "gameplay license and credit are recorded", "asset intersection with long-form equals zero"],
+  "failure_criteria": ["unsupported context or theory invitation", "uncorroborated suspect implication", "audio over 60 seconds without approval", "missing gameplay license", "shared long-form asset", "overlay mismatch"],
+  "prohibited_actions": ["reuse Pexels or case graphics", "use an unlicensed public gameplay video", "change long-form script", "invite theories", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["short_count", "script_hashes", "audio_preflight_hashes", "alignment_hashes", "gameplay_license", "asset_hashes", "shared_asset_count", "credit_line"]},
+  "autonomy": {"may_proceed": true, "stop_on_failure": true, "next_stage": "shorts_assembly"}
+}

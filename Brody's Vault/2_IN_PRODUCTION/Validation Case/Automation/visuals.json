@@ -1,0 +1,111 @@
+{
+  "status": "planned",
+  "video_id": "validation-case-001",
+  "runtime_estimate_seconds": 27,
+  "rules": {
+    "youtube": "Pexels B-roll/case graphics only",
+    "shorts": "Minecraft parkour or Subway Surfers background only",
+    "shared_assets": false,
+    "video_render": false
+  },
+  "youtube_timeline": [
+    {
+      "segment": 1,
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "narration": "At dusk, investigators revisited a quiet street after a key witness changed their account.",
+      "track": "youtube_longform",
+      "visual_type": "pexels_broll_or_case_graphic",
+      "pexels_query": "investigators revisited quiet street documentary",
+      "orientation": "landscape",
+      "asset_status": "search_reference_only",
+      "downloads": false
+    },
+    {
+      "segment": 2,
+      "start_seconds": 6,
+      "end_seconds": 12,
+      "narration": "The timeline showed a gap of forty minutes that had never been fully explained.",
+      "track": "youtube_longform",
+      "visual_type": "pexels_broll_or_case_graphic",
+      "pexels_query": "timeline showed forty minutes documentary",
+      "orientation": "landscape",
+      "asset_status": "search_reference_only",
+      "downloads": false
+    },
+    {
+      "segment": 3,
+      "start_seconds": 12,
+      "end_seconds": 19,
+      "narration": "Detectives returned to the original notes and found a detail that shifted the direction of the case.",
+      "track": "youtube_longform",
+      "visual_type": "pexels_broll_or_case_graphic",
+      "pexels_query": "detectives returned original notes documentary",
+      "orientation": "landscape",
+      "asset_status": "search_reference_only",
+      "downloads": false
+    },
+    {
+      "segment": 4,
+      "start_seconds": 19,
+      "end_seconds": 27,
+      "narration": "The record remains incomplete, so this plan treats every open question as an overlay prompt rather than a fact.",
+      "track": "youtube_longform",
+      "visual_type": "pexels_broll_or_case_graphic",
+      "pexels_query": "record remains incomplete treats documentary",
+      "orientation": "landscape",
+      "asset_status": "search_reference_only",
+      "downloads": false
+    }
+  ],
+  "shorts_timeline": [
+    {
+      "segment": 1,
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "narration": "At dusk, investigators revisited a quiet street after a key witness changed their account.",
+      "track": "shorts_vertical",
+      "visual_type": "gameplay_background_reference",
+      "background_reference": "minecraft_parkour_gameplay_reference",
+      "overlay_text": "At dusk, investigators revisited a quiet street after a key witness changed their account.",
+      "asset_status": "reference_only",
+      "shared_with_youtube": false
+    },
+    {
+      "segment": 2,
+      "start_seconds": 6,
+      "end_seconds": 12,
+      "narration": "The timeline showed a gap of forty minutes that had never been fully explained.",
+      "track": "shorts_vertical",
+      "visual_type": "gameplay_background_reference",
+      "background_reference": "subway_surfers_gameplay_reference",
+      "overlay_text": "The timeline showed a gap of forty minutes that had never been fully explained.",
+      "asset_status": "reference_only",
+      "shared_with_youtube": false
+    },
+    {
+      "segment": 3,
+      "start_seconds": 12,
+      "end_seconds": 19,
+      "narration": "Detectives returned to the original notes and found a detail that shifted the direction of the case.",
+      "track": "shorts_vertical",
+      "visual_type": "gameplay_background_reference",
+      "background_reference": "minecraft_parkour_gameplay_reference",
+      "overlay_text": "Detectives returned to the original notes and found a detail that shifted the direction of",
+      "asset_status": "reference_only",
+      "shared_with_youtube": false
+    },
+    {
+      "segment": 4,
+      "start_seconds": 19,
+      "end_seconds": 27,
+      "narration": "The record remains incomplete, so this plan treats every open question as an overlay prompt rather than a fact.",
+      "track": "shorts_vertical",
+      "visual_type": "gameplay_background_reference",
+      "background_reference": "subway_surfers_gameplay_reference",
+      "overlay_text": "The record remains incomplete, so this plan treats every open question as an overlay promp",
+      "asset_status": "reference_only",
+      "shared_with_youtube": false
+    }
+  ]
+}

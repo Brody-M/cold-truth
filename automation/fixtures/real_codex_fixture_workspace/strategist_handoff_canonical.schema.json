@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version", "contract_id", "contract_version", "run_id", "case_id",
+    "stage", "attempt", "idempotency_key", "status", "started_at", "completed_at",
+    "inputs", "outputs", "result", "decisions", "warnings", "errors", "retryable",
+    "tool_calls", "runtime", "publishing_enabled"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "contract_id": {"type": "string", "enum": ["cold-truth.strategist"]},
+    "contract_version": {"type": "string", "enum": ["1.0.0-c1-fixture"]},
+    "run_id": {"type": "string", "enum": ["phase-c1-real-codex-fixture"]},
+    "case_id": {"type": "string", "enum": ["glass-harbor-fixture"]},
+    "stage": {"type": "string", "enum": ["strategist_fixture"]},
+    "attempt": {"type": "integer", "enum": [1]},
+    "idempotency_key": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "status": {"type": "string", "enum": ["success"]},
+    "started_at": {"type": "string", "enum": ["2026-07-11T00:00:00Z"]},
+    "completed_at": {"type": "string", "enum": ["2026-07-11T00:00:00Z"]},
+    "inputs": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "required": ["name", "type", "kind", "value", "sha256"],
+            "properties": {
+              "name": {"type": "string", "enum": ["batch_size"]},
+              "type": {"type": "string", "enum": ["integer"]},
+              "kind": {"type": "string", "enum": ["value"]},
+              "value": {"type": "integer", "enum": [1]},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": ["name", "type", "kind", "value", "sha256"],
+            "properties": {
+              "name": {"type": "string", "enum": ["candidate_queue"]},
+              "type": {"type": "string", "enum": ["backlog_or_queue"]},
+              "kind": {"type": "string", "enum": ["value"]},
+              "value": {
+                "type": "object",
+                "required": ["fixture", "case_id", "case_name", "claim_ids", "synthetic_viability", "score_total", "score_breakdown", "risk_level", "recommended_disposition"],
+                "properties": {
+                  "fixture": {"type": "boolean", "enum": [true]},
+                  "case_id": {"type": "string", "enum": ["glass-harbor-fixture"]},
+                  "case_name": {"type": "string"},
+                  "claim_ids": {
+                    "type": "array",
+                    "const": ["SYN-C1-01", "SYN-C1-02", "SYN-C1-03"],
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {"type": "string", "enum": ["SYN-C1-01", "SYN-C1-02", "SYN-C1-03"]}
+                  },
+                  "synthetic_viability": {"type": "string", "enum": ["Standard long-form viable"]},
+                  "score_total": {"type": "integer", "enum": [30]},
+                  "score_breakdown": {
+                    "type": "object",
+                    "required": ["long_form_source_depth", "clear_chronological_narrative", "legal_and_misinformation_risk"],
+                    "properties": {
+                      "long_form_source_depth": {"type": "integer", "enum": [5]},
+                      "clear_chronological_narrative": {"type": "integer", "enum": [4]},
+                      "legal_and_misinformation_risk": {"type": "integer", "enum": [5]}
+                    },
+                    "additionalProperties": false
+                  },
+                  "risk_level": {"type": "string", "enum": ["synthetic-none"]},
+                  "recommended_disposition": {"type": "string", "enum": ["select"]}
+                },
+                "additionalProperties": false
+              },
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": ["name", "type", "kind", "value", "sha256"],
+            "properties": {
+              "name": {"type": "string", "enum": ["content_standard"]},
+              "type": {"type": "string", "enum": ["policy_document"]},
+              "kind": {"type": "string", "enum": ["value"]},
+              "value": {"type": "string"},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "maxItems": 0,
+      "items": {"type": "object", "required": [], "properties": {}, "additionalProperties": false}
+    },
+    "result": {
+      "type": "object",
+      "required": ["candidate_id", "claim_ids", "viability", "score_total", "score_breakdown", "risk_level", "artifact_hashes", "recommended_disposition"],
+      "properties": {
+        "candidate_id": {"type": "string", "enum": ["glass-harbor-fixture"]},
+        "claim_ids": {
+          "type": "array",
+          "const": ["SYN-C1-01", "SYN-C1-02", "SYN-C1-03"],
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {"type": "string", "enum": ["SYN-C1-01", "SYN-C1-02", "SYN-C1-03"]}
+        },
+        "viability": {"type": "string", "enum": ["Standard long-form viable"]},
+        "score_total": {"type": "integer", "enum": [30]},
+        "score_breakdown": {
+          "type": "object",
+          "required": ["long_form_source_depth", "clear_chronological_narrative", "legal_and_misinformation_risk"],
+          "properties": {
+            "long_form_source_depth": {"type": "integer", "enum": [5]},
+            "clear_chronological_narrative": {"type": "integer", "enum": [4]},
+            "legal_and_misinformation_risk": {"type": "integer", "enum": [5]}
+          },
+          "additionalProperties": false
+        },
+        "risk_level": {"type": "string", "enum": ["synthetic-none"]},
+        "artifact_hashes": {"type": "object", "required": [], "properties": {}, "additionalProperties": false},
+        "recommended_disposition": {"type": "string", "enum": ["select"]}
+      },
+      "additionalProperties": false
+    },
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["rule", "result"],
+        "properties": {
+          "rule": {"type": "string", "enum": ["fixture_input_only"]},
+          "result": {"type": "string", "enum": ["pass"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "warnings": {"type": "array", "maxItems": 0, "items": {"type": "string"}},
+    "errors": {"type": "array", "maxItems": 0, "items": {"type": "string"}},
+    "retryable": {"type": "boolean", "enum": [false]},
+    "tool_calls": {
+      "type": "array",
+      "maxItems": 0,
+      "items": {"type": "object", "required": [], "properties": {}, "additionalProperties": false}
+    },
+    "runtime": {
+      "type": "object",
+      "required": ["provider", "runtime", "model", "version"],
+      "properties": {
+        "provider": {"type": "string", "enum": ["codex-exec"]},
+        "runtime": {"type": "string", "enum": ["controlled-real-fixture"]},
+        "model": {"type": "string", "enum": ["not-reported"]},
+        "version": {"type": "string", "enum": ["not-reported"]}
+      },
+      "additionalProperties": false
+    },
+    "publishing_enabled": {"type": "boolean", "enum": [false]}
+  },
+  "additionalProperties": false
+}

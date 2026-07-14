@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.strategist",
+  "contract_version": "1.0.0-c1-fixture",
+  "agent": "Strategist Fixture",
+  "required_inputs": [
+    {"name": "candidate_queue", "type": "backlog_or_queue", "required": true},
+    {"name": "batch_size", "type": "integer", "minimum": 1, "required": true},
+    {"name": "content_standard", "type": "policy_document", "required": true}
+  ],
+  "allowed_actions": [
+    "select supplied synthetic candidate",
+    "list supplied synthetic claim ids",
+    "assign supplied synthetic viability status"
+  ],
+  "required_outputs": [
+    {"name": "strategist_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": [
+    "selected candidate equals supplied synthetic case",
+    "claim IDs exactly equal supplied claim IDs",
+    "viability equals supplied synthetic status",
+    "no other output files are created"
+  ],
+  "failure_criteria": [
+    "extra claim or fact",
+    "missing claim ID",
+    "output outside assigned directory",
+    "tool or platform action"
+  ],
+  "prohibited_actions": [
+    "inspect parent directories",
+    "use tools",
+    "create media",
+    "contact platforms",
+    "publish"
+  ],
+  "handoff_schema": {
+    "envelope": "common_handoff_v1",
+    "result_fields": [
+      "candidate_id", "claim_ids", "viability", "score_total", "score_breakdown",
+      "risk_level", "artifact_hashes", "recommended_disposition"
+    ]
+  },
+  "autonomy": {
+    "may_proceed": false,
+    "fixture_only": true,
+    "next_contract": null
+  }
+}

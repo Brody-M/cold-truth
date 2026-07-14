@@ -1,0 +1,13 @@
+{
+  "phase": "C1",
+  "status": "BLOCKED_BEFORE_PROCESS_START",
+  "real_codex_invocation_started": false,
+  "fixture_only": true,
+  "blocker_category": "session_usage_limit_and_execution_approval",
+  "blocker_summary": "The execution approval layer rejected the one authorized command because the current Codex session had reached its usage limit. The Python runner and nested Codex process did not start.",
+  "retry_attempted": false,
+  "alternative_tool_used": false,
+  "permissions_broadened": false,
+  "real_production_enabled": false,
+  "publishing_enabled": false
+}

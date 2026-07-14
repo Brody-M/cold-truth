@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "cold-truth.visual-producer",
+  "contract_version": "1.0.0",
+  "agent": "Visual Producer",
+  "required_inputs": [
+    {"name": "Script_Final.md", "type": "approved_script", "required": true},
+    {"name": "script_approval.json", "type": "approval_metadata", "required": true},
+    {"name": "longform_preflight.json", "type": "audio_preflight", "required": true, "required_field": "assembly_allowed=true"},
+    {"name": "longform_alignment.json", "type": "whisperx_word_alignment", "required": true}
+  ],
+  "allowed_actions": ["create word-timestamped beat list", "search approved stock providers", "download selected landscape assets when production mode is enabled", "record licenses and credits", "create safe case cards", "validate pacing and subject match"],
+  "required_outputs": [
+    {"name": "YouTube_Visual_Timeline.md", "type": "timestamped_shot_list"},
+    {"name": "longform_assets.json", "type": "asset_manifest"},
+    {"name": "visual_producer_handoff.json", "type": "common_handoff"}
+  ],
+  "success_criteria": ["every beat maps to exact spoken content", "average cut pacing is 5-8 seconds unless an emphasis beat is documented", "every required asset exists locally", "license/source/hash metadata is complete", "all beats are matched", "no Shorts asset appears"],
+  "failure_criteria": ["unmatched beat", "loosely related substitution", "missing local asset", "missing license/source record", "identifiable-person or harmful-location risk", "long-form/Shorts asset collision"],
+  "prohibited_actions": ["change narration", "use victim/crime-scene imagery", "use Orbital gameplay", "assemble or render before contract success", "publish"],
+  "handoff_schema": {"envelope": "common_handoff_v1", "result_fields": ["alignment_sha256", "beat_count", "matched_count", "unmatched_beats", "asset_manifest_sha256", "asset_hashes", "license_status", "track"]},
+  "autonomy": {"may_proceed": true, "stop_on_failure": true, "next_stage": "longform_assembly"}
+}

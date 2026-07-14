@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Writer"
+  short_description: "Write respectful faceless true-crime scripts"
+  default_prompt: "Use $cold-truth-writer to draft a Cold Truth narration script from this research brief."

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "execution_origin": "orchestrated_agent",
+  "idempotency_key": "57d635e020bf5dd7c5a963b3700f02f55e1224d78b1313a42442cf50115e310f",
+  "attempt": 1,
+  "contract_id": "cold-truth.research-verifier",
+  "run_id": "phase-c2-research-verifier-fixture",
+  "case_id": "glass-river-research-fixture",
+  "stage": "research_verification_fixture",
+  "mode": "controlled-real-fixture",
+  "provider_id": "codex-exec-controlled-research-verifier-v1",
+  "started_at": "2026-07-12T05:53:28.626404+00:00",
+  "completed_at": "2026-07-12T05:53:49.207817+00:00",
+  "duration_ms": 20578,
+  "exit_code": 65,
+  "retryable": false,
+  "runtime": {
+    "node_path_present": true,
+    "npm_wrapper_path_present": true,
+    "child_environment_mode": "minimal_allowlist",
+    "inherited_environment": false,
+    "provider": "codex-exec-controlled-research-verifier-v1",
+    "runtime": "codex-exec",
+    "model": "not-reported",
+    "version": "not-reported",
+    "command_shape": [
+      "<node.exe>",
+      "<codex-entry.js>",
+      "exec",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "<fixture-root>",
+      "--json",
+      "--output-schema",
+      "<schema>",
+      "--output-last-message",
+      "<attempt-output>/strategist_handoff.json",
+      "--ephemeral",
+      "-"
+    ],
+    "timeout_seconds": 120.0,
+    "sandbox": "workspace-write",
+    "working_directory": "<fixture-root>",
+    "jsonl_events": true,
+    "output_schema": true,
+    "ephemeral": true,
+    "thread_ids": [
+      "019f54e3-46fe-7340-a0f8-41c3dce2fd90"
+    ],
+    "command_value_logged": false,
+    "remote_output_normalized": false,
+    "normalization_kind": "not-run",
+    "output_schema_validation": "failed"
+  },
+  "validation": {
+    "status": "blocked_provider_failure",
+    "errors": [
+      "Agent exited with code 65"
+    ]
+  },
+  "handoff": null,
+  "publishing_enabled": false
+}

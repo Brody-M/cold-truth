@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "approval_id", "case_id", "upstream_editor_handoff_hash", "upstream_writer_handoff_hash", "decision", "decision_timestamp_utc", "reviewer_role", "reviewer_note", "approved_script_hash", "rejection_reason_code", "required_return_stage", "narration_authorized", "asset_authorized", "rendering_authorized", "publishing_enabled", "real_production_enabled"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "approval_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{7,79}$"},
+    "case_id": {"type": "string", "enum": ["glass-river-writing-fixture"]},
+    "upstream_editor_handoff_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "upstream_writer_handoff_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "decision": {"type": "string", "enum": ["reject"]},
+    "decision_timestamp_utc": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"},
+    "reviewer_role": {"type": "string", "enum": ["human_owner"]},
+    "reviewer_note": {"type": "string"},
+    "approved_script_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "rejection_reason_code": {"type": "string", "enum": ["factual_clarity_revision", "redundancy_revision", "narrative_coherence_revision", "human_editorial_preference"]},
+    "required_return_stage": {"type": "string", "enum": ["WRITER_REVISION_REQUIRED"]},
+    "narration_authorized": {"type": "boolean", "enum": [false]},
+    "asset_authorized": {"type": "boolean", "enum": [false]},
+    "rendering_authorized": {"type": "boolean", "enum": [false]},
+    "publishing_enabled": {"type": "boolean", "enum": [false]},
+    "real_production_enabled": {"type": "boolean", "enum": [false]}
+  },
+  "additionalProperties": false
+}

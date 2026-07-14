@@ -1,0 +1,26 @@
+{
+  "schema_version": "cold_truth.plan_approval.v1",
+  "approval_id": "brody-chat-2026-07-14-plan-v1.0-hash-reconciliation",
+  "plan_path": "Brody's Vault/0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+  "plan_version": "1.0",
+  "approved_sha256": "8BDF81DDB9B03B411F2D1BF3FC48C0B0DE56312C8584962BA5C4C2F332FFC417",
+  "approved_by": "Brody",
+  "reviewer_role": "human_owner",
+  "approval_source": "explicit_brody_chat_statement",
+  "approval_statement": "I approve Cold Truth Master Execution Plan v1.0 at SHA-256 8BDF81DDB9B03B411F2D1BF3FC48C0B0DE56312C8584962BA5C4C2F332FFC417.",
+  "approval_date": "2026-07-14",
+  "previous_recorded_sha256": "81C5B55132EB0BE13D20190E5C25E977EDB4CB6474863586C9333BA3488607A4",
+  "scope": "governing_plan_approval_only",
+  "does_not_authorize": [
+    "provider_access",
+    "narration",
+    "media_generation",
+    "rendering",
+    "account_or_platform_mutation",
+    "upload",
+    "scheduling",
+    "publishing",
+    "production",
+    "l8_execution"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Truth Visual Producer"
+  short_description: "Create safe B-roll shot lists for episodes"
+  default_prompt: "Use $cold-truth-visual-producer to create a YouTube B-roll shot list from this approved script."

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "execution_origin": "orchestrated_agent",
+  "idempotency_key": "120fb62ab01c129ca69b38cd0b6008c68c102cbb22da4293b7d875144389bb43",
+  "attempt": 1,
+  "contract_id": "cold-truth.strategist",
+  "run_id": "phase-c1-real-codex-fixture",
+  "case_id": "glass-harbor-fixture",
+  "stage": "strategist_fixture",
+  "mode": "controlled-real-fixture",
+  "provider_id": "codex-exec-controlled-fixture-v1",
+  "started_at": "2026-07-11T21:24:23.702474+00:00",
+  "completed_at": "2026-07-11T21:24:23.730504+00:00",
+  "duration_ms": 31,
+  "exit_code": 1,
+  "retryable": false,
+  "runtime": {
+    "provider": "codex-exec-controlled-fixture-v1",
+    "runtime": "codex-exec",
+    "model": "not-reported",
+    "version": "not-reported",
+    "command_shape": [
+      "codex",
+      "exec",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "<fixture-root>",
+      "--json",
+      "--output-schema",
+      "<schema>",
+      "--output-last-message",
+      "<attempt-output>/strategist_handoff.json",
+      "--ephemeral",
+      "-"
+    ],
+    "timeout_seconds": 120.0,
+    "sandbox": "workspace-write",
+    "working_directory": "<fixture-root>",
+    "jsonl_events": true,
+    "output_schema": true,
+    "ephemeral": true,
+    "thread_ids": [],
+    "command_value_logged": false,
+    "output_schema_validation": "not-run"
+  },
+  "validation": {
+    "status": "blocked_provider_failure",
+    "errors": [
+      "Agent exited with code 1"
+    ]
+  },
+  "handoff": null,
+  "publishing_enabled": false
+}
