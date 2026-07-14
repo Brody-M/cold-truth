@@ -1,84 +1,69 @@
 # Cold Truth
 
-> A safety-first editorial system and local automation toolkit for a faceless true-crime YouTube channel.
+### A structured creative-production toolkit for research-led video storytelling.
 
-Cold Truth is built for calm, reliable storytelling for women 25–45, including background listeners and mothers. It combines an Obsidian-friendly production vault with a Python control plane that makes editorial gates, approvals, handoffs, and audit records explicit.
+Cold Truth brings together an Obsidian-friendly editorial workspace, reusable role guides, and a local Python automation layer. It is designed to make a complex video workflow easier to understand, review, and maintain—from early research through approved production planning.
 
-The project is intentionally **not** an autonomous publishing system. Media generation, rendering, uploads, scheduling, and production-provider access remain blocked unless a human provides the required, documented authorization.
+> **Project status:** local-first and safety-conscious. The repository documents and validates the workflow; it does not publish content or perform production actions automatically.
 
-## What is here
+## What it includes
 
-| Area | Purpose |
-| --- | --- |
-| [`Brody's Vault/`](<Brody's Vault/>) | The editorial workspace: channel rules, ideas, research, scripts, production packets, and templates. |
-| [`automation/`](automation/) | The Python control plane, contracts, fixture suites, safety gates, and local validation utilities. |
-| [`skills/`](skills/) | Reusable Codex role skills for research strategy, writing, editing, visuals, Shorts, and metadata. |
-| [`thumbnails/`](thumbnails/) | Non-production thumbnail prompt fixtures. |
-| [`AGENTS.md`](AGENTS.md) | Project-wide operating rules for people and agents. |
+| | Area | What it does |
+| :--: | --- | --- |
+| 🗂️ | **Editorial vault** | Organizes ideas, research, scripts, production packets, templates, and channel documentation in Markdown. |
+| ⚙️ | **Automation layer** | Validates structured handoffs, workflow state, approvals, asset separation, and audit records. |
+| 🧩 | **Role skills** | Provides focused instructions for strategy, writing, editing, visual planning, short-form work, and metadata. |
+| 🧪 | **Fixture suite** | Exercises workflow rules with synthetic, disposable examples rather than live production work. |
 
-## The production model
+## How it works
 
 ```mermaid
 flowchart LR
-    A[Research & source ledger] --> B{Strategist viability gate}
-    B -->|Standard long-form viable| C[Writer draft]
-    B -->|Human-approved exception| C
-    B -->|Insufficient material| Z[Backlog]
-    C --> D[Editor reverse outline + review]
-    D --> E{Paired human approval}
-    E -->|Approved| F[Script_Final.md]
-    E -->|Not approved| C
-    F --> G[Narration preflight]
-    G -->|Audio + approval pass| H[Separate visual plans]
-    H --> I[Local metadata package]
-    I --> J[Human-authorized production only]
+    A[Research] --> B[Story planning]
+    B --> C[Writing & editorial review]
+    C --> D[Human approval]
+    D --> E[Preflight & production planning]
+    E --> F[Human-authorized production]
 ```
 
-Two visual tracks are mandatory and never share assets:
+The system is built around a few simple principles:
 
-- **YouTube long-form:** case-appropriate B-roll and case graphics.
-- **TikTok / YouTube Shorts:** separately licensed Orbital gameplay plus factual text overlays.
+- Keep research, drafts, and approvals traceable.
+- Treat quality gates as explicit checkpoints, not assumptions.
+- Keep long-form and short-form visual assets in separate tracks.
+- Validate local workflow behavior with reproducible fixtures.
+- Require human authorization before any real production action.
 
-Read the full workflow in [docs/CONTENT_WORKFLOW.md](docs/CONTENT_WORKFLOW.md).
+## Explore the project
 
-## Safety and editorial guarantees
+- [Architecture guide](docs/ARCHITECTURE.md) — a map of the vault, control plane, contracts, and safety boundaries.
+- [Editorial workflow](docs/CONTENT_WORKFLOW.md) — the path from a research package to an approved production plan.
+- [Testing guide](docs/TESTING.md) — safe local checks and the scope of the fixture suite.
+- [Automation reference](automation/README.md) — implementation notes and phase-by-phase validation history.
+- [Vault index](<Brody's Vault/0_ADMIN/VAULT_INDEX.md>) — a guide to the editorial workspace.
 
-- Suspect claims require law-enforcement, charging-document, or court corroboration. Tips, rumors, and private-investigator claims must be explicitly labeled unverified.
-- Long-form narration normally requires at least **480 seconds** of the exact approved audio; word count never substitutes for measured duration.
-- The Editor must create a source-bound reverse outline, and a human must approve that outline and the full draft together before `Script_Final.md` exists.
-- Weak cases are not padded. They are either documented as a human-approved Short-Format exception or returned to the backlog.
-- The automation suite is designed to fail closed: no implicit credentials, broad filesystem access, provider fallback, publishing, or production action.
+## Repository layout
 
-The controlling rules live in [`Brody's Vault/0_ADMIN/CONTENT_FORMAT_STANDARD.md`](<Brody's Vault/0_ADMIN/CONTENT_FORMAT_STANDARD.md>) and [`AGENTS.md`](AGENTS.md).
+```text
+├── Brody's Vault/   Editorial workspace and production templates
+├── automation/      Python control plane, schemas, fixtures, and tests
+├── skills/          Reusable role-specific Codex skills
+├── thumbnails/      Thumbnail prompt fixtures
+└── docs/            Public-facing project guides
+```
 
-## Repository guide
+## Local validation
 
-Start with the document that matches what you need:
-
-- [Repository architecture](docs/ARCHITECTURE.md) — components, contracts, state, and safety boundaries.
-- [Editorial workflow](docs/CONTENT_WORKFLOW.md) — how a case moves from idea to a human-approved production packet.
-- [Testing guide](docs/TESTING.md) — safe local checks and the scope of the fixture suites.
-- [Automation README](automation/README.md) — implementation-level notes and phase-by-phase validation history.
-- [Vault index](<Brody's Vault/0_ADMIN/VAULT_INDEX.md>) — the editorial workspace map.
-
-## Quick validation
-
-The test suite is stdlib-oriented and uses disposable synthetic fixtures. From the repository root:
+The project uses standalone Python test modules and synthetic fixture data. A few useful starting points:
 
 ```powershell
 python -B automation/test_orchestrator.py
-python -B automation/test_agent_runtime_orchestration.py
 python -B automation/test_track_isolation.py
 python -B automation/test_script_approval_gate.py
-python -B automation/test_narration_preflight_gate.py
 ```
 
-See [docs/TESTING.md](docs/TESTING.md) for the broader validation matrix. These checks do not create media, call a live provider, or publish content.
-
-## Status
-
-The repository contains a documented local control plane and synthetic validation coverage. It is **not production-enabled**: `automation/runtime_config.json` keeps production execution disabled, and the project’s governing documents require explicit human authorization before any real narration, media acquisition, rendering, upload, or scheduling.
+For the broader validation matrix and runtime notes, see [docs/TESTING.md](docs/TESTING.md).
 
 ## Contributing
 
-Keep the guardrails intact. Do not add credentials, generated media, production-provider settings, or publishing credentials to the repository. Review [`AGENTS.md`](AGENTS.md), preserve the two-track visual rule, and run the relevant fixture tests before proposing a change.
+Contributions that improve clarity, workflow safety, documentation, or fixture coverage are welcome. Before proposing a change, review [`AGENTS.md`](AGENTS.md), keep generated media and credentials out of version control, and run the relevant local checks.
