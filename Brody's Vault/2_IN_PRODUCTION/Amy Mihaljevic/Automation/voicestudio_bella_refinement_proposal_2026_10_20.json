@@ -1,0 +1,54 @@
+{
+  "schema_version": "cold_truth.neutral_voice_refinement_proposal.v1",
+  "prepared_at_utc": "2026-10-21T01:15:45.236500+00:00",
+  "status": "PREPARED_NOT_AUTHORIZED_OR_EXECUTED",
+  "reason": "Tentative Bella preference with unresolved slow/grainy delivery; separate model output from mastering before changing engines.",
+  "classification": "AI_GENERATED_NEUTRAL_INTERNAL_TRIAL_NOT_EPISODE_NARRATION",
+  "target_format": "youtube-longform",
+  "assembly_allowed": false,
+  "compute": "CPUExecutionProvider only",
+  "application_source": "Installed stable VoiceStudio Electron 0.5.6 unmodified KittenTTSBackend adapter",
+  "engine_library": "kittentts 0.8.1",
+  "model": "KittenML/kitten-tts-mini-0.8",
+  "model_revision": "c02725660cea441db4c383af69f1f26f5cd00947",
+  "voice_id": "expr-voice-2-f",
+  "voice_alias": "Bella",
+  "speed": 1.15,
+  "test_text": "This is a local narration test for Cold Truth. A calm, clear voice should make dates, names, and changes in a timeline easy to follow. At eight fifteen in the morning, a short note was added to the record. It confirmed the time without suggesting anything beyond the evidence.",
+  "input_is_approved_episode_text": false,
+  "maximum_new_tts_generation_calls": 1,
+  "automatic_retry_allowed": false,
+  "method": "Call the exact installed adapter directly once at speed 1.15; retain that single generated waveform. Create two listening files from the same take. No patching installed application source.",
+  "comparison_outputs": [
+    {
+      "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_raw.wav",
+      "processing": "No high-pass, compressor, denoiser, reverb or added saturation; gain adjustment only for comparison."
+    },
+    {
+      "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_mastered.wav",
+      "processing": "Same generated take through the installed VoiceStudio mastering chain (60 Hz high-pass and 1.5:1 compressor), then comparison gain."
+    }
+  ],
+  "comparison_level_matching": "Match both to the same achievable RMS level, nominal -20 dBFS, lowering the common target if either would exceed -1 dBFS peak. Record achieved levels and all gains; do not hide level differences.",
+  "output_format": "24 kHz mono PCM 16-bit WAV; preserve native sample rate; no upsampling claim",
+  "maximum_additional_disk_bytes": 16777216,
+  "retain_original_10_gib_trial_storage_ceiling": true,
+  "limits": {
+    "new_downloads": false,
+    "new_installs": false,
+    "paid_services": false,
+    "cloud_synthesis": false,
+    "cloning": false,
+    "case_narration": false,
+    "visuals": false,
+    "rendering_or_publishing": false
+  },
+  "measurements_required": [
+    "Exact model/voice/provider and source hashes",
+    "One generation-call boundary before synthesis, no retry",
+    "Both output paths, SHA-256, durations, RMS, peak, common gain target and wall time",
+    "Actual storage growth and listening feedback"
+  ],
+  "next_after_comparison": "If raw and mastered both remain grainy, do not keep stacking effects. Prepare one alternative-engine quality comparison with its exact model, terms, resources and applicable scope.",
+  "does_not_reuse_exhausted_trial_grant": true
+}

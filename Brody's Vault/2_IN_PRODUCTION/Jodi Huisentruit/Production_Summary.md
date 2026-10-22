@@ -1,5 +1,8 @@
 # Production Summary - Jodi Huisentruit
 
+> [!IMPORTANT]
+> **Current routing, 2026-10-16: historical/backlog.** The later [[2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1|viability assessment]] finds insufficient material under the current source boundary and recommends backlog. “Ready now,” “active draft,” “current Shorts” and completion labels below describe earlier checkpoints, not a present production or release decision. Amy is the current [[2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary|editorial focus]]. No old approval is revived by this notice.
+
 **Episode status:** Long-form development has reopened at the narrative stage. `Script_Final_v2.md` and `Jodi_Huisentruit_Longform_v4_1920x1080.mp4` are technically valid but creatively rejected, audit-only, and not approved for upload, scheduling, publishing, or release. No active long-form release master exists. Every existing long-form render, narration, alignment, timeline, FCPXML, source, and manifest is preserved for auditability. The separately authored Shorts package remains technically separate and unchanged; it is not approved for publication in this task. Nothing has been uploaded or published.
 
 ## Ready now

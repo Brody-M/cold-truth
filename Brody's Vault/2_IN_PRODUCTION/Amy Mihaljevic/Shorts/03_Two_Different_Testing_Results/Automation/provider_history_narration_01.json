@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-22T02:33:32.383383+00:00",
+  "source": "Authenticated read-only official ElevenLabs history; only exact approved-script matches retained",
+  "case_id": "amy-mihaljevic-short-03",
+  "history_item_id": "pQ5vnVmeKNhNTDmz2HNx",
+  "request_id": "hJpKhKkjjDQ30QeAnwQN",
+  "voice_id": "nPpkc230TdYdntJKFNby",
+  "model_id": "eleven_multilingual_v2",
+  "voice_name": "Mia - Clear & Emotive Female Narrator ",
+  "date_unix": 1792635997,
+  "text_matches_approved_input": true,
+  "approved_narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+    "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+    "bytes": 633
+  },
+  "settings": {
+    "stability": 0.72,
+    "speed": 1.0,
+    "style": 0.05,
+    "use_speaker_boost": true,
+    "similarity_boost": 0.76
+  },
+  "state": "created",
+  "character_count_change_from": 2043,
+  "character_count_change_to": 2182
+}

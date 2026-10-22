@@ -1,0 +1,101 @@
+{
+  "schema_version": "cold_truth.local_alignment_tooling_assessment.v1",
+  "created_at_utc": "2026-10-21T04:41:45.909108+00:00",
+  "status": "LOCAL_MACHINE_ALIGNMENT_DRAFT_CREATED_TIMING_REVIEW_PENDING",
+  "python": "C:\\Youtube Automation Obsidian\\voice_samples\\voicestudio_trial_01\\runtime\\Scripts\\python.exe",
+  "installed_packages": {
+    "whisperx": "3.4.5",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "torch": "2.8.0+cpu",
+    "torchaudio": "2.8.0+cpu",
+    "transformers": "5.15.1"
+  },
+  "source_bindings": {
+    "approved_audio": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "bytes": 75485286,
+      "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+    },
+    "approved_text": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\Narration_Text.txt",
+      "bytes": 7835,
+      "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+    },
+    "audio_preflight": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\preflight.json",
+      "bytes": 2580,
+      "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46"
+    },
+    "m6_authority": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\approvals\\phase_2_m6_preparation_2026_10_21.json",
+      "bytes": 3198,
+      "sha256": "0bd021509c14d2dc3136ad2e11c45dc3ebc9f334082161ebe73d3cdbf3bf8dbe"
+    }
+  },
+  "asr_model": {
+    "path": "C:\\Users\\brody\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small.en\\snapshots\\d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+    "files": [
+      {
+        "path": "C:\\Users\\brody\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small.en\\snapshots\\d1d751a5f8271d482d14ca55d9e2deeebbae577f\\config.json",
+        "bytes": 2657,
+        "sha256": "666a9605530ac1f61fa8177f3702b4dacec9966749e42610839fcc32661d5fae"
+      },
+      {
+        "path": "C:\\Users\\brody\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small.en\\snapshots\\d1d751a5f8271d482d14ca55d9e2deeebbae577f\\model.bin",
+        "bytes": 483545366,
+        "sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a"
+      },
+      {
+        "path": "C:\\Users\\brody\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small.en\\snapshots\\d1d751a5f8271d482d14ca55d9e2deeebbae577f\\tokenizer.json",
+        "bytes": 2128466,
+        "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+      },
+      {
+        "path": "C:\\Users\\brody\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small.en\\snapshots\\d1d751a5f8271d482d14ca55d9e2deeebbae577f\\vocabulary.txt",
+        "bytes": 422309,
+        "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+      }
+    ]
+  },
+  "ctc_alignment_model": {
+    "path": "C:\\Users\\brody\\.cache\\torch\\hub\\checkpoints\\wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+    "bytes": 377664473,
+    "sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d"
+  },
+  "historical_procedure": {
+    "reference": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/Automation/direct_generation_manifest.json",
+    "settings": "small.en CPU/int8 plus wav2vec2_fairseq_base_ls960_asr_ls960",
+    "reused_timestamps": false,
+    "note": "Historical evidence only; current live model loads tested successfully offline."
+  },
+  "constraints": {
+    "cpu_threads": 2,
+    "asr_workers": 1,
+    "gpu_used": false,
+    "network_allowed": false,
+    "model_downloads": 0,
+    "software_installs": 0,
+    "provider_calls": 0,
+    "local_files_only": true
+  },
+  "timing_reviewed": false,
+  "draft_path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\alignment_draft.json",
+  "assembly_allowed": false,
+  "new_media_bytes": 0,
+  "completed_at_utc": "2026-10-21T04:48:03.387759+00:00",
+  "wall_seconds": 375.85,
+  "result": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\alignment_draft.json",
+    "bytes": 599539,
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+  },
+  "word_sequence_preserved": true,
+  "timed_word_count": 1267,
+  "source_word_count": 1267,
+  "canonical_asr_anchor_match_fraction": 0.9857932123125493,
+  "qa_flags": [
+    "Low CTC confidence words require focused review"
+  ],
+  "concrete_remaining_blocker": "Human timing review of current machine draft, particularly proper names/dates/numbers/low scores, before final alignment.json."
+}

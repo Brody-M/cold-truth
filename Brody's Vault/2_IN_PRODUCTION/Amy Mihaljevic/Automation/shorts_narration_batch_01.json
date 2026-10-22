@@ -1,0 +1,106 @@
+{
+  "schema_version": "cold_truth.bounded_short_narration_batch.v1",
+  "started_at_utc": "2026-10-22T02:10:35.803632+00:00",
+  "status": "ALL_THREE_GENERATED_BILLING_RECONCILED_AUDIO_QA_PENDING",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4",
+    "bytes": 2292
+  },
+  "rate_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_current_bounded_rate_2026_10_21.json",
+    "sha256": "49345e58ca10ec8e26cc2e5b86b5ef7347d77b15915a9d265e37252c9096dc20",
+    "bytes": 1072
+  },
+  "total_credit_cap": 2500,
+  "initial_character_count": 1783,
+  "initial_credit_limit": 10000,
+  "initial_available_credits": 8217,
+  "conservative_total_credit_upper_bound": 1812,
+  "credits_used": 399,
+  "attempts_submitted": 3,
+  "automatic_retry": false,
+  "entries": [
+    {
+      "case_id": "amy-mihaljevic-short-01",
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+        "bytes": 3203
+      },
+      "characters": 617,
+      "upper_bound_credits": 617,
+      "attempts_submitted": 1,
+      "status": "GENERATED_RECONCILED",
+      "submitted_at_utc": "2026-10-22T02:20:57.966550+00:00",
+      "before_character_count": 1783,
+      "after_character_count": 1919,
+      "billing": {
+        "before": 1783,
+        "after": 1919,
+        "actual_credits_used": 136,
+        "source": "Connector check_subscription immediately after request01"
+      },
+      "provider_file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/provider_attempt_01/tts_A_gif_20261021_222058.mp3",
+        "sha256": "ccf5711533bfda85f4d7a52bc3e6f02ffebfce4a52d12a68c25fe3a379d01b80",
+        "bytes": 714335
+      }
+    },
+    {
+      "case_id": "amy-mihaljevic-short-02",
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1",
+        "bytes": 3217
+      },
+      "characters": 564,
+      "upper_bound_credits": 564,
+      "attempts_submitted": 1,
+      "status": "GENERATED_RECONCILED",
+      "submitted_at_utc": "2026-10-22T02:23:28.509430+00:00",
+      "before_character_count": 1919,
+      "after_character_count": 2043,
+      "billing": {
+        "before": 1919,
+        "after": 2043,
+        "actual_credits_used": 124,
+        "source": "Connector check_subscription immediately after request02"
+      },
+      "provider_file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/provider_attempt_01/tts_A_tur_20261021_222329.mp3",
+        "sha256": "7174de6e1c833766f9b55a72cd356b6311ef63b6ff9d5a1c7c7472728e4e19d7",
+        "bytes": 667523
+      }
+    },
+    {
+      "case_id": "amy-mihaljevic-short-03",
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "f41db7334ee7cec2fce8b82cd0e17166594f642c9ea8e5b1d235f7aef6e0ac0d",
+        "bytes": 3266
+      },
+      "characters": 631,
+      "upper_bound_credits": 631,
+      "attempts_submitted": 1,
+      "status": "GENERATED_RECONCILED",
+      "submitted_at_utc": "2026-10-22T02:26:27.203824+00:00",
+      "before_character_count": 2043,
+      "after_character_count": 2182,
+      "billing": {
+        "before": 2043,
+        "after": 2182,
+        "actual_credits_used": 139,
+        "source": "Connector check_subscription immediately after request03"
+      },
+      "provider_file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/provider_attempt_01/tts_Two_t_20261021_222628.mp3",
+        "sha256": "2d9d6aa42d9254b5139227c24bf8549e592993a5704a896ecc92cb1329f41cc3",
+        "bytes": 793329
+      }
+    }
+  ],
+  "remaining_existing_credits": 7818,
+  "attempts_remaining": 0,
+  "completed_generation_at_utc": "2026-10-22T02:27:58.033800+00:00"
+}

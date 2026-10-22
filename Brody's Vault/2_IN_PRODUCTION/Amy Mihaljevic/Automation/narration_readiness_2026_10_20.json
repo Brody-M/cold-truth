@@ -1,0 +1,73 @@
+{
+  "schema_version": "cold_truth.narration_readiness.v1",
+  "checked_on": "2026-10-20",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "status": "AWAITING_EXACT_VOICE_CREDIT_MULTIPLIER",
+  "phase_2_narration_approval": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_approval.json",
+  "generation_attempts_submitted": 0,
+  "attempt_consumed": false,
+  "subscription": {
+    "status": "active",
+    "tier": "payg",
+    "character_count": 0,
+    "character_limit": 10000,
+    "reported_remaining_quota": 10000,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false,
+    "max_credit_limit_extension": 0,
+    "current_overage": {
+      "amount": "0",
+      "currency": "usd"
+    }
+  },
+  "voice": {
+    "id": "nPpkc230TdYdntJKFNby",
+    "name": "Mia - Clear & Emotive Female Narrator ",
+    "category": "professional",
+    "eleven_multilingual_v2": "fine_tuned"
+  },
+  "input_characters": 7835,
+  "approved_credit_ceiling": 8000,
+  "confirmed_voice_multiplier": null,
+  "confirmed_total_credit_cost": null,
+  "base_credit_estimate_at_1x": 7835,
+  "base_estimate_is_not_final_quote": true,
+  "production_submission_allowed": false,
+  "unresolved": "The connector's voice/library tools omit custom rates. Official docs say a professional shared voice can have a plan-dependent credit multiplier. Browser fallback reached sign-in; no authenticated rate visible. Need the exact current Mia rate/quote before the single authorized request.",
+  "sources": [
+    {
+      "tool": "mcp__elevenlabs__check_subscription",
+      "mode": "read-only"
+    },
+    {
+      "tool": "mcp__elevenlabs__get_voice",
+      "mode": "read-only"
+    },
+    {
+      "tool": "mcp__elevenlabs__search_voice_library",
+      "mode": "read-only"
+    },
+    {
+      "url": "https://elevenlabs.io/docs/overview/intro"
+    },
+    {
+      "url": "https://elevenlabs.io/docs/help-center/product/voices/voice-library/what-are-custom-rates-and-credit-multipliers"
+    },
+    {
+      "url": "https://elevenlabs.io/docs/speech-synthesis/voice-settings",
+      "verified_input_limit": 10000
+    }
+  ],
+  "media_created": false,
+  "additional_spend_authorized": false,
+  "visual_production_authorized": false,
+  "publishing_authorized": false,
+  "recorded_at_utc": "2026-10-20T21:45:15.901842+00:00",
+  "approval_binding": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_approval.json",
+    "sha256": "dd82e03a745f4ec5f6451745b8e8eed77751ac0d155e31aa3b1c4042f2c3545a",
+    "bytes": 2977
+  },
+  "grant_and_proposal_hashes_verified": true
+}

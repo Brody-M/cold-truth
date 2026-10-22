@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-10-21T04:54:15.015863+00:00",
+  "creator": "Cold Truth / Codex",
+  "method": "Original typography and SVG/Pillow layout; system Segoe UI font used for rendered lettering.",
+  "third_party_case_images_used": false,
+  "ledger_and_claim_map": "Approved Amy narration and source-bound claim map",
+  "graphics_record": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/case_graphics_01.json",
+    "bytes": 9948,
+    "sha256": "05f279e312510b566cc4ad265549525b87b7f95443c2f0838bee44b23c390c7c"
+  },
+  "status": "ORIGINAL_TEXT_CARDS_PENDING_CONTENT_AND_FINAL_USE_REVIEW",
+  "human_approved": false
+}

@@ -1,0 +1,132 @@
+{
+  "recorded_at_utc": "2026-10-22T04:22:20.718Z",
+  "authority": "Same user-directed free B-roll replacement and continue-without-credits instruction.",
+  "reason": "Measured two archive clips still occupy182seconds in provisional edit. Four finite scene-specific replacements reduce that concentration; no further acquisition planned in this pass.",
+  "maximum_candidates": 4,
+  "combined_all_revision_stock_bytes_cap": 786432000,
+  "paid_spending": 0,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-19897022",
+      "provider_id": 19897022,
+      "source_identity": "pexels:video:19897022",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/impresora-19897022/",
+      "creator": {
+        "id": 623572721,
+        "name": "LISTOS PARA RODAR | Productora",
+        "url": "https://www.pexels.com/@listos-para-rodar-productora-623572721"
+      },
+      "preview_image": "https://images.pexels.com/videos/19897022/documents-leaf-office-printer-19897022.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 8756673,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/19897022/19897022-hd_1920_1080_25fps.mp4",
+        "size": 7024025
+      },
+      "candidate_paragraphs": [
+        "P06"
+      ],
+      "depiction_boundary": "Illustrative document printing; no actual case poster or private personal information",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_19897022_hd.mp4",
+      "human_use_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8888977",
+      "provider_id": 8888977,
+      "source_identity": "pexels:video:8888977",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-typing-on-a-keyboard-8888977/",
+      "creator": {
+        "id": 30039676,
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
+      },
+      "preview_image": "https://images.pexels.com/videos/8888977/pexels-photo-8888977.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 10993114,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8888977/8888977-hd_2048_1080_25fps.mp4",
+        "size": 12056792
+      },
+      "candidate_paragraphs": [
+        "P07"
+      ],
+      "depiction_boundary": "Anonymous keyboard detail; no actual police system, on-screen case data or dated-equipment claim",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8888977_hd.mp4",
+      "human_use_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-17136728",
+      "provider_id": 17136728,
+      "source_identity": "pexels:video:17136728",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-writing-on-a-notebook-with-a-pen-17136728/",
+      "creator": {
+        "id": 3302622,
+        "name": "PinkWitch 诸葛筱暖",
+        "url": "https://www.pexels.com/@pinkwitch-3302622"
+      },
+      "preview_image": "https://images.pexels.com/videos/17136728/pexels-photo-17136728.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 7090640,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/17136728/17136728-hd_1920_1080_30fps.mp4",
+        "size": 14705767
+      },
+      "candidate_paragraphs": [
+        "P11",
+        "P12"
+      ],
+      "depiction_boundary": "Anonymous note-taking; no actual investigator or case notes",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_17136728_hd.mp4",
+      "human_use_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8085793",
+      "provider_id": 8085793,
+      "source_identity": "pexels:video:8085793",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-making-notes-8085793/",
+      "creator": {
+        "id": 22992178,
+        "name": "Ron Lach",
+        "url": "https://www.pexels.com/@ron-lach"
+      },
+      "preview_image": "https://images.pexels.com/videos/8085793/pexels-photo-8085793.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 10686612,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8085793/8085793-hd_2048_1080_25fps.mp4",
+        "size": 14052576
+      },
+      "candidate_paragraphs": [
+        "P12",
+        "P17"
+      ],
+      "depiction_boundary": "Alternate note-taking context; no identification or real case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8085793_hd.mp4",
+      "human_use_approved": false
+    }
+  ]
+}

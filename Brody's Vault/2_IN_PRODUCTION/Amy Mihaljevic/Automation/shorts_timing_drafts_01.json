@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-10-22T02:30:02.318540+00:00",
+  "tool_source": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_short_timing_drafts_01.py",
+    "sha256": "0f66d864d87a06a8b1bd60cf6c7d21a13b231f5f1fa8c153bce1e725849b8423",
+    "bytes": 4770
+  },
+  "checkpoint": "C:\\Users\\brody\\.cache\\torch\\hub\\checkpoints\\wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+  "cached_model_only": true,
+  "cpu_threads": 2,
+  "entries": [
+    {
+      "short": 1,
+      "alignment": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/alignment_draft.json",
+        "sha256": "7f310cca78ea1d8af03c19b84a94b2b33103aba5f1ac13d2e6b625b9eac1f1f5",
+        "bytes": 28718
+      },
+      "sequence_preserved": true,
+      "invalid_word_intervals": 0,
+      "low_confidence_words": 1
+    },
+    {
+      "short": 2,
+      "alignment": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/alignment_draft.json",
+        "sha256": "5715624734dda849b67e730175f33d4077ae05b4aadaa9df2b78d1382609017b",
+        "bytes": 27763
+      },
+      "sequence_preserved": true,
+      "invalid_word_intervals": 0,
+      "low_confidence_words": 2
+    },
+    {
+      "short": 3,
+      "alignment": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/alignment_draft.json",
+        "sha256": "f50f396e402cfcd2b55371eca9b3ed9d472ed3ce3297b436b6910a1d3699fbd7",
+        "bytes": 28262
+      },
+      "sequence_preserved": true,
+      "invalid_word_intervals": 0,
+      "low_confidence_words": 1
+    }
+  ],
+  "actual_audio_and_timing_reviews_pending": true,
+  "assembly_allowed": false
+}

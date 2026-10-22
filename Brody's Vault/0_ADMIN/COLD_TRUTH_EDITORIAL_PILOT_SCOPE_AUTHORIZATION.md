@@ -114,6 +114,8 @@ Where a later separately authorized executable stage becomes relevant:
 - Provider, model, voice, format, path, entrypoint, tool, or command fallback is prohibited.
 - Exhausted budget, provider mismatch, nonretryable failure, or ambiguous authority causes a permanent stop.
 
+The exact H9 request fields are `provider_id` (one fixed, nonempty identity), `max_retries` (integer 0 through 2), `max_attempts` (integer 1 through 3, equal to `max_retries + 1`), `provider_fallback: false`, and `retry_requires_provider_retryable: true`. Boolean, fractional, negative, missing, or unbounded budgets are invalid. Request, runtime-result, handoff, and handoff-runtime provider identities must match. Changing the budget or provider requires a new authorized request and idempotency identity; it cannot widen an existing request.
+
 H12 authorizes no provider, tool, command, attempt, or execution.
 
 ## C3 and C4 boundaries

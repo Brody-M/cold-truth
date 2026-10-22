@@ -1,0 +1,126 @@
+{
+  "schema_version": "cold_truth.local_audio_provenance.v1",
+  "not_a_new_tts_attempt": true,
+  "source_generation_manifest": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_attempt_01.json",
+    "bytes": 3916,
+    "sha256": "485626c088787063489f8fc464a65738736408d62285bb11a9d9afc7290b0520"
+  },
+  "processing_chain": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_processing_01.json",
+      "bytes": 13709,
+      "sha256": "76de1a8c25d55afcc09606bc314eca8ccdca3844cefef7d4c1dffc28f2e06558"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/audio_correction_02_receipt.json",
+      "bytes": 33267,
+      "sha256": "e874b8ab2b19265a95d3c573e84194ec3cf1e3f8488cc716fd268a1281b717d5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/audio_correction_03_receipt.json",
+      "bytes": 83929,
+      "sha256": "0fcb706afcca9bee3a7ebec48c45f9ab9f5f775acdd606c61ceb392bd369bd11"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/full_repair_05_receipt.json",
+      "bytes": 27211,
+      "sha256": "bc23a3c87bf3cf960424a7f8cd97e5c606e71a033fb5f6feb9bb5daed54be964"
+    }
+  ],
+  "entries": [
+    {
+      "event_id": "amy-existing-take-repair-and-paced-candidate05",
+      "case_id": "amy-mihaljevic",
+      "target_format": "youtube-longform",
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+        "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+        "bytes": 10247
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+        "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+        "bytes": 7835
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/local_audio_postproduction_05_authority.json",
+        "bytes": 4442,
+        "sha256": "d36911302ed2cdff80bfc00b68354c84bea4adfa957694dcb8461f5fa3c1d067"
+      },
+      "recorded_at_utc": "2026-10-22T03:47:21.037035+00:00",
+      "tool": "Installed Python/numpy/scipy/soundfile and FFmpeg/FFprobe; local processing only",
+      "settings": {
+        "action_kind": "offline-existing-take-postproduction",
+        "tts_generation_authorized": false,
+        "provider_calls": 0,
+        "additional_global_gain_db": 0,
+        "base_audio": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+          "bytes": 75485228,
+          "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25"
+        },
+        "manual_gain_windows": [
+          {
+            "type": "manual_onset_clip_gain",
+            "justification": "Exact human-marked abrupt onset, not a generic plosive classifier or full-track peak threshold",
+            "start_seconds": 2.16,
+            "full_reduction_start_seconds": 2.175,
+            "full_reduction_end_seconds": 2.26,
+            "end_seconds": 2.32,
+            "start_sample": 95256,
+            "end_sample_exclusive": 102312,
+            "maximum_reduction_db": 8,
+            "envelope": "half cosine ramps in dB domain"
+          },
+          {
+            "type": "one_standalone_gap_noise_clip_gain",
+            "justification": "Noise-like event in protected interval after her. and before An; modest trial only",
+            "start_seconds": 6.05,
+            "full_reduction_start_seconds": 6.075,
+            "full_reduction_end_seconds": 6.26,
+            "end_seconds": 6.285,
+            "start_sample": 266805,
+            "end_sample_exclusive": 277168,
+            "maximum_reduction_db": 6,
+            "envelope": "half cosine ramps in dB domain"
+          }
+        ],
+        "separate_pacing_candidate": {
+          "cut_map": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/pacing_cut_map_draft.json",
+            "bytes": 188051,
+            "sha256": "33ee5ca07a643a335cf7514534a3a38db354dbdc31db6f9f66d816d06acd2a12"
+          },
+          "cuts": 104,
+          "removed_samples": 968805,
+          "no_spoken_word_pcm_changes": true,
+          "no_speedup_or_padding": true
+        }
+      },
+      "outputs": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+          "bytes": 75485228,
+          "sha256": "62f9dc80d959ca2c67eafbb0f0519076e111e174177c98fbdf4a7484a9664faf"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3",
+          "bytes": 13694894,
+          "sha256": "f4cf206aaab789f15a1e95aba5f040306cfa9439d621583391036f3883485d0a"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+          "bytes": 72578814,
+          "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3",
+          "bytes": 13167639,
+          "sha256": "002cd16d8d10b47617e4e93c2edbfed3e47431b4b4ba3f9212db4df319f635aa"
+        }
+      ],
+      "new_tts_or_paid_provider_calls": 0
+    }
+  ]
+}

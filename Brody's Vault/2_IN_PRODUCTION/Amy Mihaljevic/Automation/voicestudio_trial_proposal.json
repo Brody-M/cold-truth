@@ -1,0 +1,62 @@
+{
+  "schema_version": "cold_truth.local_voice_trial_proposal.v1",
+  "status": "PREPARED_NOT_EXECUTED_OR_AUTHORIZED_FOR_GENERATION",
+  "prepared_on": "2026-10-20",
+  "classification": "synthetic_neutral_voice_evaluation_not_episode_narration",
+  "target_format": "youtube-longform",
+  "assembly_allowed": false,
+  "application": "debpalash/VoiceStudio",
+  "release_candidate": "v0.5.6 Electron Windows x64; verify official asset/checksum before execution",
+  "compute": "CPU; Radeon acceleration not assumed",
+  "engine": "kittentts",
+  "model": "KittenML/kitten-tts-mini-0.8",
+  "model_revision": "Must resolve and pin before download",
+  "model_download_estimate_bytes": 80000000,
+  "model_license_metadata": "Apache-2.0; preserve exact component/voice evidence before use",
+  "maximum_total_disk_increase_bytes": 10737418240,
+  "maximum_test_generations": 2,
+  "candidate_voices": [
+    {
+      "alias": "Bella",
+      "engine_id": "expr-voice-2-f"
+    },
+    {
+      "alias": "Luna",
+      "engine_id": "expr-voice-3-f"
+    }
+  ],
+  "speed": 1.0,
+  "expected_output": "24 kHz mono WAV; verify actual file",
+  "test_text": "This is a local narration test for Cold Truth. A calm, clear voice should make dates, names, and changes in a timeline easy to follow. At eight fifteen in the morning, a short note was added to the record. It confirmed the time without suggesting anything beyond the evidence.",
+  "input_is_approved_episode_text": false,
+  "target_sample_duration_seconds": [
+    20,
+    30
+  ],
+  "limits": {
+    "paid_services_allowed": false,
+    "cloud_generation_allowed": false,
+    "automatic_generation_retry_allowed": false,
+    "voice_cloning_allowed": false,
+    "case_narration_allowed": false,
+    "visual_production_allowed": false,
+    "publishing_allowed": false,
+    "additional_models_allowed": false
+  },
+  "proposed_trial_root": "voice_samples/voicestudio_trial_01",
+  "proposed_outputs": [
+    "voice_samples/voicestudio_trial_01/bella_01.wav",
+    "voice_samples/voicestudio_trial_01/luna_01.wav"
+  ],
+  "acceptance": [
+    "Verify actual release health/catalog and CPU engine",
+    "Confirm exact model revision and actual voice IDs; reject fallback",
+    "Record every tool/settings/timestamp/input/output/hash and license evidence",
+    "Measure exact audio and wall-clock time/resource use",
+    "Brody reviews calm delivery, intelligibility and consistency before choosing any production replacement"
+  ],
+  "installation_completed": false,
+  "model_download_completed": false,
+  "generation_completed": false,
+  "does_not_consume_or_reuse_mia_grant": true
+}

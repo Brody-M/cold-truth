@@ -1,0 +1,14 @@
+{
+  "schema_version": "cold_truth.voice_refinement_listening_feedback.v1",
+  "recorded_at_utc": "2026-10-21T01:43:46.565440+00:00",
+  "human_quote": "they sound like excactrly the same and are still pretty slow and grainy sounding idk if this is the play maybe go bacvk elevern labs or keep tinkering idk",
+  "human_comparison": "No meaningful perceived difference; both still slow/grainy",
+  "quality_accepted_for_production": false,
+  "user_provider_choice": "Undecided; considering ElevenLabs or more tuning",
+  "assistant_recommendation": "Park this Kitten mini 0.8 / Bella configuration after unsuccessful refinement; evaluate existing Mia on ElevenLabs next. Do not generalize this result to all VoiceStudio engines.",
+  "causal_inference": "Perceived similarity of raw/mastered copies weakens the hypothesis that light mastering is the main problem; it does not prove a specific cause.",
+  "new_generation_authorized": false,
+  "new_generation_calls": 0,
+  "elevenlabs_episode_hold_lifted": false,
+  "software_uninstalled": false
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "amy-mihaljevic",
+  "case_name": "Amy Mihaljevic",
+  "target_format": "youtube-longform",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json",
+    "bytes": 2030,
+    "sha256": "a83356765965d9baef5e1f6aabd19c6367798a4aa283ad411a1a37dc0cdd51f8"
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "phase_2_scope": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_resumed_mia_normal_2026_10_20.json",
+    "bytes": 4345,
+    "sha256": "154d32612d651d0dddbfca1d75bfbc322dfe206da3ef44c60f219947904556db"
+  },
+  "generation_manifest": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_attempt_01.json",
+    "bytes": 3916,
+    "sha256": "485626c088787063489f8fc464a65738736408d62285bb11a9d9afc7290b0520"
+  },
+  "generation_event_id": "amy-mia-full-narration-attempt01-2026-10-20",
+  "audio_qa": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_qa_01.json",
+    "bytes": 1496,
+    "sha256": "4fea5a10a3edcc345541dfaa5f6590d37c282bc1f54421571b4d8f9857b74e57"
+  }
+}

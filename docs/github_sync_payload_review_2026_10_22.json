@@ -1,0 +1,2330 @@
+{
+  "repository": "https://github.com/Brody-M/cold-truth",
+  "proposed_branch": "codex/amy-review-02",
+  "file_count": 459,
+  "total_bytes": 9691541,
+  "extensions": {
+    ".md": 92,
+    ".canvas": 1,
+    ".json": 296,
+    ".srt": 4,
+    ".py": 33,
+    ".csv": 3,
+    ".html": 4,
+    ".js": 1,
+    ".txt": 5,
+    ".ass": 4,
+    ".svg": 16
+  },
+  "secret_pattern_findings": [
+    {
+      "path": "automation/PHASE_H12_EDITORIAL_PILOT_SCOPE_AUTHORIZATION_REPORT.md",
+      "pattern_id": 4
+    }
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8310,
+      "sha256": "5db3ce1f5b303ad86202b077e861d42e44d7f4df21eb78d68a80b7f9551ffd54"
+    },
+    {
+      "path": "Brody's Vault/00_START_HERE.md",
+      "bytes": 2070,
+      "sha256": "1372b1e6de696bf58408e1216001d0e52cbb6a8feaad3ea147c0cffe6420b942"
+    },
+    {
+      "path": "Brody's Vault/00_WORKFLOW.canvas",
+      "bytes": 5486,
+      "sha256": "bd95bfa2f42e55133b98768424511a89a0a5c907d4b916b58646412226d63a5a"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "bytes": 9465,
+      "sha256": "3b6cdeff036be6e4dd20f00227ce392fa1427f3eef22d3d26c38792967835d3e"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "bytes": 14219,
+      "sha256": "80009fc157ac6102e4606f4c6e370980962cf51cba7c7295396c2bc35f8bf3eb"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_STATE.json",
+      "bytes": 48815,
+      "sha256": "fb04061ffccc19fce76ab06b95379083ab86d145889d5c7e0fe95664b60e4c46"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "bytes": 5808,
+      "sha256": "b47e368c67836ccb5c9dc1d8668d0bf32e3ea54a5fb5a00ce220f34e5c5e599a"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "bytes": 4636,
+      "sha256": "61f3fa5061cfd582c000b5f2121e77d44b5e9827a9c7581fc24868c259fb259b"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/CONTENT_FORMAT_STANDARD.md",
+      "bytes": 8783,
+      "sha256": "c55eea17b6b26b23b4ddc615e35b3668fb384e799c25a0f18beb10666c44ecad"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "bytes": 10456,
+      "sha256": "071e9d711218c673732b2a9ca1c30664e700aa1687d0603a6abb3c42537b64b7"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/MIA_AUDIO_EDIT_2026_10_20.md",
+      "bytes": 9319,
+      "sha256": "1bb5fc0197521b02e40eeae503a9cddcfacbff87f7ff91e35bf19892c33cfeec"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROJECT_DASHBOARD.md",
+      "bytes": 5566,
+      "sha256": "1895293fc6939c62f15d665617311fecd1e2be16766b07817d783cbbadf64cb0"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROJECT_MEMORY.md",
+      "bytes": 6770,
+      "sha256": "f4b0a6cb6f478f2f596e7b8eda04ec8b3b02113e3f3e1292d5a1964df7d6611b"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "bytes": 8723,
+      "sha256": "ad832ef2376b13b617fd779124bf0dd406939cb7ab8713c15340bec5feae6d73"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "bytes": 10272,
+      "sha256": "ea16062d4031ce3082ea58e54f7ca3a860051a5b26edeca40ad6d3cb9c58667a"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "bytes": 1271,
+      "sha256": "282b2821dbac068f85e1751fedaf877a900d0fe003e5479a65ea01cbbdfb1d63"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md",
+      "bytes": 1307,
+      "sha256": "f58d997693b6ae498dabd5dbcab4c1aab457376282d3b9c4f604d15c1df788e2"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "bytes": 1150,
+      "sha256": "d956325846a57dc8a12e209af689195a63cada0f5bab9112b8ed512a2dcd60b8"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md",
+      "bytes": 1064,
+      "sha256": "0e500de0d27fff0d8214db1a37e4806607090d05059779856d5618a5d49aaa4f"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md",
+      "bytes": 1363,
+      "sha256": "f362aadccf684a59cb0f1293b24adf62da607ac153be46a68ae6bb4983e2db77"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "bytes": 1463,
+      "sha256": "42ac068cd20e18c098de814c09e1b50c5d7b21caf4e73bcbd5932c8d0123c279"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_EDITOR.md",
+      "bytes": 3118,
+      "sha256": "7c1149c5b866e56486db159dc98f9b34d39e7b69d3148395d4a6cf9999be02d0"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_FILMER.md",
+      "bytes": 1641,
+      "sha256": "f1bf12c332cb570a1fdaa6eb821883db03ac7797743b06d540a823db5d338378"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_HUB.md",
+      "bytes": 1456,
+      "sha256": "cf5bd3e78f507f98dba3cd597d166413aed2e5b7aa107c805261a6f5ae6d4c54"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "bytes": 1971,
+      "sha256": "759379fc4963113b82c04b8eba459125c4cfec686a337dc4a857ddc3f3041d24"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_STRATEGIST.md",
+      "bytes": 2088,
+      "sha256": "d81ae097622f6df1c6a11ae98c91389ea507d6faa689d75f2dc1a90064de632d"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_UPLOAD_MANAGER.md",
+      "bytes": 2336,
+      "sha256": "5d6f9e7e7760d5342e580aec1d8758644d5be125b5dba35713476909dbad904a"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/ROLE_WRITER.md",
+      "bytes": 2372,
+      "sha256": "21796a9ac67b8bc2c8a02feaefcfd2193d697a9130496cc2e1e7b51b9515fd4b"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/VAULT_INDEX.md",
+      "bytes": 9629,
+      "sha256": "828effc00867f9de9ac19f047b203db15e4f6b9bf4346307dcbc41b347641083"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "bytes": 11836,
+      "sha256": "9909e637ba100b638c4788353ed546451251472daab2fdf67c7b9a97f63651df"
+    },
+    {
+      "path": "Brody's Vault/0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "bytes": 8391,
+      "sha256": "168fcc355a394c946b2701b407188934dcb012dcfd5323c7ffdc63ccc3f8e45b"
+    },
+    {
+      "path": "Brody's Vault/1_IDEAS/Backlog.md",
+      "bytes": 4278,
+      "sha256": "53249b55a906ba5c1880b811bb335526a7915987d5db6ec6b8cc90ef04bd6577"
+    },
+    {
+      "path": "Brody's Vault/1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "bytes": 3933,
+      "sha256": "af1c519207083d46eba8d6befabc9a139936688a19f185bd865e4dc60c8e762b"
+    },
+    {
+      "path": "Brody's Vault/1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md",
+      "bytes": 5383,
+      "sha256": "201d08a2de9bcbcff39074b5ad6489ebba4a8e38bd6893c64c71aadd616f0cda"
+    },
+    {
+      "path": "Brody's Vault/1_IDEAS/RESEARCH_HUB.md",
+      "bytes": 2403,
+      "sha256": "698e6b8b41d56cc98e52a916196ad609e8d6bc971c8f87396f6f2f518de2f05e"
+    },
+    {
+      "path": "Brody's Vault/2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "bytes": 13220,
+      "sha256": "b4a1d59b02e6a3c0a509580200d04f3cbc68b9bf09c5d71c07779d7eb8f2bf3f"
+    },
+    {
+      "path": "Brody's Vault/2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
+      "bytes": 4910,
+      "sha256": "d711b3d83e3afdbcddbd0f789dcc22cda330bfa3d353b3dbcd5ab9ef225cdf11"
+    },
+    {
+      "path": "Brody's Vault/2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "bytes": 5578,
+      "sha256": "221aca594b0bef0d3b969b741018fca0c397969ef6af4b152218e8a63fbee1e7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic.srt",
+      "bytes": 12905,
+      "sha256": "e4c0bdddec17bb7efc5e0c1928cf1002ba2ca8c4e122bb867bf49497729f947a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/Audio_Correction_02_Report.md",
+      "bytes": 2309,
+      "sha256": "cc0c664ccef8618f321c889124c53cd9f384ce172307b7f88bc2e7908bc37129"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/apply_correction_02.py",
+      "bytes": 15865,
+      "sha256": "52cf35977305da92870aa4555999fb0efda0d81534be94834be1e072107ea643"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/audio_correction_02_receipt.json",
+      "bytes": 33267,
+      "sha256": "e874b8ab2b19265a95d3c573e84194ec3cf1e3f8488cc716fd268a1281b717d5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/candidate_plosive_events.csv",
+      "bytes": 99487,
+      "sha256": "84c289e05ee690640b0198f12b02c275ddb285eef0a4e654be0b8075048686ca"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/Audio_Correction_03_Report.md",
+      "bytes": 2336,
+      "sha256": "3bf3f900d9da9d518a72fb4359c22c073bec3cc9aa074427edf032655764d954"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/apply_correction_03.py",
+      "bytes": 15856,
+      "sha256": "412ccdb9578a18959a0d35331f429aa2d29f8d7af38a511ea0acc9fd290ab331"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/audio_correction_03_receipt.json",
+      "bytes": 83929,
+      "sha256": "0fcb706afcca9bee3a7ebec48c45f9ab9f5f775acdd606c61ceb392bd369bd11"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/pilot_pause_cuts.csv",
+      "bytes": 3895,
+      "sha256": "c962b5ab0abafaa3e3d65835c73aa7ce793b768c1d249764a45943d80bf53791"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/Diagnostic_04_Report.md",
+      "bytes": 2252,
+      "sha256": "61505273365acd6ce0266f8c626f77b7f2ef077af6fe1bf879a85ef97fcc3ddc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/diagnostic_04_receipt.json",
+      "bytes": 18182,
+      "sha256": "bd7818e77572be88df133f070c84e646a813d81ceddbb3991dd97796b5621013"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/repair_marked_onset_04.py",
+      "bytes": 13021,
+      "sha256": "9c2235167b9fe9752acabdf1db2963f8fade729bca08c46ceb334b319ba7539b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Full_Repair_05_Report.md",
+      "bytes": 2524,
+      "sha256": "285db8daac07f4bb4e9a357a0406c6c62a584abeb80fbd5b6adcaf77bce094c1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/build_full_candidates_05.py",
+      "bytes": 23178,
+      "sha256": "2e9d981cf0126b8659ccbd6d7982497c95b9295605d9aca251c1fcabda429a4c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/full_repair_05_receipt.json",
+      "bytes": 27211,
+      "sha256": "bc23a3c87bf3cf960424a7f8cd97e5c606e71a033fb5f6feb9bb5daed54be964"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/pacing_cut_map_draft.json",
+      "bytes": 188051,
+      "sha256": "33ee5ca07a643a335cf7514534a3a38db354dbdc31db6f9f66d816d06acd2a12"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/pacing_cuts.csv",
+      "bytes": 34557,
+      "sha256": "53941f297dc25dfc3f34f2e535a29e2f1234019ee074401185889595b2630e9c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+      "bytes": 440322,
+      "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Candidate_05_Review.html",
+      "bytes": 439905,
+      "sha256": "1834462c89ce82dba093604a6c3435cd956631b37360c75fe0380d63aabc7a92"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Candidate_05_Review.script.js",
+      "bytes": 337942,
+      "sha256": "641e344894764dd7f6787fac352a450c2158bd68fabb5502e55db16d67f714e5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Pacing_Revision_03.md",
+      "bytes": 4471,
+      "sha256": "ad878cc7b3090d1ec81607fb3537bf682bdb2e7600f4da6c5533fdcb78098ff4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "bytes": 4953,
+      "sha256": "cb78039c44214d675df9a84eedc964db9f9cf42ac749267751b97fcdc31b933b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
+      "bytes": 5256,
+      "sha256": "11df15b08bd231182cfe45bd336ece249de09452e261e293283490b34095864c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Media_Revision_02.md",
+      "bytes": 6543,
+      "sha256": "34c9f39fbd3d80e79708c19ce1a2466766cf25ba9351e17b8549da0e58f5a408"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+      "bytes": 7835,
+      "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Next_Production_Scope.md",
+      "bytes": 3506,
+      "sha256": "fd50b1e5dacb3053d00180dd0a2dfa38a257fc87d252ac572a0480183752ad81"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "bytes": 15378,
+      "sha256": "b48fff4b55ffda2aa19d4ab72cde1a2ed6aadff0db5199617a42a664bc87c289"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md",
+      "bytes": 3568,
+      "sha256": "acb6ba2df4d3ffb7100e152b37d420e1fd8af1b26ef4dc270d9ef5b4cfd2841e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Professional_Audio_Reassessment_04.md",
+      "bytes": 5165,
+      "sha256": "1b07484efd8b44190eb649a04e091d3939fd2d803ad3006d253d2e856eca2c65"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Review_Package_05.md",
+      "bytes": 5249,
+      "sha256": "99c82a0a11e8d3435950050543e33b63589f27b637aa18a7617b05534753eeac"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.html",
+      "bytes": 103579,
+      "sha256": "e5a2925a06824e3972b07ed859d43add9a7854d512afc75a373a52a09aec958e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md",
+      "bytes": 2818,
+      "sha256": "f04483cd4084c2d81fbe762fba80ad2948eea55fe10ac196a6e610169754c63d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment.json",
+      "bytes": 32290,
+      "sha256": "f83dacd9c118e2d2be91d347edcbc99bc607b11b4e628d6baa7accb899dea0d3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_check.json",
+      "bytes": 3400,
+      "sha256": "626d5fef3fb714ad36e24125c8a2d35c1faa5cd0f6592270c25edab472bd90f0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_draft.json",
+      "bytes": 599539,
+      "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_tooling_assessment_2026_10_21.json",
+      "bytes": 4904,
+      "sha256": "56ea853abdb6342a1b6ef3daaccd4c09c630bae13c949a51222d54b042d810f4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/amy_full_audio_listening_approval_2026_10_21.json",
+      "bytes": 1415,
+      "sha256": "416dee0dd860f293ff2566082951efa63c60cddf39cea4e07300901a95924058"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+      "bytes": 1686,
+      "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/elevenlabs_mia_neutral_comparison_approval_2026_10_20.json",
+      "bytes": 995,
+      "sha256": "7ce5207149f2ac3f47fd76a27c051d29a947d306aece2f12dc47cd2d71157eb0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/local_audio_postproduction_05_authority.json",
+      "bytes": 4442,
+      "sha256": "d36911302ed2cdff80bfc00b68354c84bea4adfa957694dcb8461f5fa3c1d067"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+      "bytes": 5512,
+      "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/mia_neutral_audio_edit_authorization_2026_10_20.json",
+      "bytes": 1382,
+      "sha256": "399e3bf66bf89bf134e03a1876bb5314dabf6960b00410ef317b462677a558ed"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/mia_sample_listening_acceptance_2026_10_20.json",
+      "bytes": 1146,
+      "sha256": "9ef833fbf41ae0a91d01419e9cd723e59f473b9e133466e711a9dc8a88af9ed8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_m6_preparation_2026_10_21.json",
+      "bytes": 3198,
+      "sha256": "0bd021509c14d2dc3136ad2e11c45dc3ebc9f334082161ebe73d3cdbf3bf8dbe"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_approval.json",
+      "bytes": 2977,
+      "sha256": "dd82e03a745f4ec5f6451745b8e8eed77751ac0d155e31aa3b1c4042f2c3545a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_resumed_mia_normal_2026_10_20.json",
+      "bytes": 4345,
+      "sha256": "154d32612d651d0dddbfca1d75bfbc322dfe206da3ef44c60f219947904556db"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+      "bytes": 2292,
+      "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json",
+      "bytes": 2030,
+      "sha256": "a83356765965d9baef5e1f6aabd19c6367798a4aa283ad411a1a37dc0cdd51f8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/voicestudio_bella_refinement_approval_2026_10_20.json",
+      "bytes": 1663,
+      "sha256": "ad4e683ccaee08c3aab85eeebb103128b9e2ebc4a5998dee9aaaa58db37410a6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/voicestudio_cpu_trial_approval_2026_10_20.json",
+      "bytes": 3792,
+      "sha256": "583986a7a704107d4f7800d83542800c0b6c6160ffbaa2d4c44e6d7ba335c034"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/asset_readiness_before_review_approval_2026_10_21.json",
+      "bytes": 2299,
+      "sha256": "2d6db87c76f0fa26adebcfb52bb940b2ca38766da26ada8b21ee159617fe6421"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/audio_preflight_request_before_full_listen.json",
+      "bytes": 1803,
+      "sha256": "c72ae019abbc72f04e1a8de040f8786b2de9bd7e4b2481f96b4071ac36a138ed"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/audio_qa_01_before_full_listen.json",
+      "bytes": 1496,
+      "sha256": "4fea5a10a3edcc345541dfaa5f6590d37c282bc1f54421571b4d8f9857b74e57"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/Amy_Mihaljevic.srt",
+      "bytes": 13349,
+      "sha256": "ef9965f5988cc9f7461405037746e97cf9e7e126c17b7f36037043b3cfb10050"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/alignment.json",
+      "bytes": 21406,
+      "sha256": "2e810fce2aacc71505e6419268a0e0992f1ffa8947a7658cff2a24c606f612bc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/asset_registry.json",
+      "bytes": 19009,
+      "sha256": "39da675c4baf192d158393e8898b4a8e605e7179f0cb96167e33943a647c11ac"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/audio_preflight_request.json",
+      "bytes": 1803,
+      "sha256": "6adaded23a5781d071689e92f4bdb557f35459e6cb33f89452a5f40405469d28"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/direct_generation_manifest.json",
+      "bytes": 287205,
+      "sha256": "6a8a15b841424e99f9d4374abf14b6558e52e43cf0e2028b7f3fcacf96aade1d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/preflight.json",
+      "bytes": 2580,
+      "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/direct_generation_manifest_before_m6_2026_10_21.json",
+      "bytes": 106832,
+      "sha256": "1fb311137a0c8da2dd06df0bd185b88dcef6cc971eac6f769dc99bfccbc6448a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/direct_generation_manifest_before_review_closeout_2026_10_21.json",
+      "bytes": 159688,
+      "sha256": "b95e67ddaab6fdbfc2421335b1f084b405c25381a08f3060da88dd251b8e91e0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/direct_generation_manifest_before_review_outputs_2026_10_21.json",
+      "bytes": 195044,
+      "sha256": "f2efaa8885107d2242188055f1b245a76ebabc3d1337545767df81cd7038924f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/pexels_download_receipt_header_stop_2026_10_21.json",
+      "bytes": 4128,
+      "sha256": "8884686bc865045feb44c2552510f17000b0d882c8fb6a6546ce129efe9db8ef"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/preflight_pending_full_listen.json",
+      "bytes": 3199,
+      "sha256": "4b70751f44442e4709c4fb90206667956e36929159d3f9193ca5af8d2dfb2920"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/render_longform_review_01_before_empty_log_fix.py",
+      "bytes": 10290,
+      "sha256": "8a7b15043ac30fb7b6e733497ef77232385f06872bd3b0787a0cdb40c1debade"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_check.json",
+      "bytes": 431,
+      "sha256": "0ceb713245a23c273e6620f1258f598f23152763551676e8aba3bea15039668f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_readiness.json",
+      "bytes": 6618,
+      "sha256": "4d3ee9ff38df7b2d30f864ccf9ef0a88d05c3f122358897fbd4f42050543f66e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+      "bytes": 33007,
+      "sha256": "723fa58811c0e7784a337673237bf66192618788a07e5392d4e6ee53c350284a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry_draft.json",
+      "bytes": 18332,
+      "sha256": "7504d389f79a332da284b1e5c23800ebdde5956325bbefe502b4c86555c861f8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_correction_review_02.json",
+      "bytes": 2734,
+      "sha256": "3d76db144242ff28d7fa26d455954b82c71894ae5467cc89414a442a944e8586"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_diagnostic_04_execution_check.json",
+      "bytes": 1810,
+      "sha256": "df9bf689f3ce7f5d3ebf036aab8176e6b672268cfbb0bef09fd457c7a573e0b4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_diagnostic_review_04.json",
+      "bytes": 2316,
+      "sha256": "fb6e1f1706496648485d3f28296b0c0c69831f677dd32f1c79ba0f1120b816aa"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_fault_disappeared_2026_10_21.json",
+      "bytes": 1790,
+      "sha256": "e611dacb5a5707a8ac9ad04d4f44b057e460fad313984d04d0d70c5c56886c74"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_feedback_correction02_2026_10_21.json",
+      "bytes": 1763,
+      "sha256": "fc581b092809a86bbf58b0b7f3ec0c72315c610261d89626f34e0f77f5a73fc7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_feedback_revision03_2026_10_21.json",
+      "bytes": 1296,
+      "sha256": "559d18d8e996848321f1806153160e32be8928bc96141aa1afe822c8391060fd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_pacing_03_execution_check.json",
+      "bytes": 1851,
+      "sha256": "2d5323e4b1248027a5d4f60086a6d1b51732ab5a39b438931ade85a6a59284ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_pacing_review_03.json",
+      "bytes": 2905,
+      "sha256": "01ffa1af5a54576a9e1bced981f98c662f6f3ac71ffa8637316df332e182066b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_postproduction_05_provenance.json",
+      "bytes": 5720,
+      "sha256": "df3e843c75abaf0b2d3127022c7ecf1b4aa37ce2b344e587de29653e90a8a90b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_preflight_request.json",
+      "bytes": 1847,
+      "sha256": "e9ff02112f45ef751aaabfe6fbbcb7e74e3cae0a01451ad33f6518c4b2a35f97"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_preflight_request_candidate_05_original_timing.json",
+      "bytes": 1860,
+      "sha256": "d28376ae7f1891a87f4ad01b0e40d8ef3709a653c9dc5cedd6a247e4dcf0db4f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_preflight_request_candidate_05_paced.json",
+      "bytes": 1851,
+      "sha256": "70469952c17110d97f1ca2a98c63794d311a0b0da8f3fa0ff2f643096eba4552"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_processing_01.json",
+      "bytes": 13709,
+      "sha256": "76de1a8c25d55afcc09606bc314eca8ccdca3844cefef7d4c1dffc28f2e06558"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_qa_01.json",
+      "bytes": 1815,
+      "sha256": "7c77a2aa47a860996e1084f9373184ec2d9108f2c9777ff49eaa87691c1b67ca"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_qa_approved_05.json",
+      "bytes": 2271,
+      "sha256": "a6c403f6f001a24751a703edca9261e3e6d0b80e9db2afb090a1ce4f4e368523"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_qa_pending_05_original_timing.json",
+      "bytes": 840,
+      "sha256": "999df0c83293bf22e95c667cf6d0d104b8766bbb976680a3fde93900225c8026"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_qa_pending_05_paced.json",
+      "bytes": 841,
+      "sha256": "72c9c67e0b1e878328152ad1778c39099e4b112b240b62663033fdd66d6da6ab"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_revision_02_execution_check.json",
+      "bytes": 1936,
+      "sha256": "6444ea358f5ddf6db121cdbe32ad79db7605473190791c64bc9194b24d46692e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision05_window_variant_failed.json",
+      "bytes": 351,
+      "sha256": "be2d188bf2632461ac3cdc87e33ec42fdae59ba61c095c47b756b39448fa118b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision05_window_variant_reconciliation.json",
+      "bytes": 989,
+      "sha256": "9e8decdfd9bd3be8f5efb74cef63c8bd311ea4832651c7ccc29ca0b52bd612b8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_content_review.json",
+      "bytes": 33445,
+      "sha256": "170bcc6cfa557be6fdf46495738b9756a49f2cdc60c468f8994ab9915a6d3386"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_content_review_combined.json",
+      "bytes": 85453,
+      "sha256": "c3dffb8f9ae9d49513deaf6ec94e3cdec8c630f4f637c82544b79a88f124470a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_downloads.json",
+      "bytes": 11958,
+      "sha256": "309cb33adddfb8d30c5e7a5c706bbf2b1e0c7249e6599e5629babe816c508069"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_gap_downloads.json",
+      "bytes": 4099,
+      "sha256": "80b1687639cdca1dab6b47413d6822a2acdf54b3d306fad13b8fc7264a96f7b6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_gap_technical_qc.json",
+      "bytes": 29511,
+      "sha256": "55c02cfe6ce35d21f68390b4930f671b8e75a3b25f1dbcbc7e5eabdda19f5a59"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_technical_qc.json",
+      "bytes": 103365,
+      "sha256": "f4f9ae604dd9d9c871f77c7966d5192c8b641b56b886a1867831435cecc12a5a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_variety_qc.json",
+      "bytes": 37690,
+      "sha256": "ea69e9413c029ac4e47735c3db2a73158269b1e01f5d09b629a8644176cb411f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/build_visual_revision_05.py",
+      "bytes": 14197,
+      "sha256": "5f1757ee6edb79e2911d168690e43dc519f41742310ce6c4d58ced87f693e50b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/candidate05_promotion_check.json",
+      "bytes": 3564,
+      "sha256": "e79bb09aeddad1e653ef95efccc0609ad0cc333abbf7570a03cb33b803562e72"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/candidate05_review_packet.json",
+      "bytes": 11190,
+      "sha256": "4a8419e4f15c7a6b8348f58b8d10c56eca12dabbc9015599f1585a4e8040f397"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/candidate_review_05_preparation.json",
+      "bytes": 2456,
+      "sha256": "c84e1db9f38d16f1ea3532c3fa8840cd43b4780e1dbed432d39c1f989588c914"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/case_graphics_01.json",
+      "bytes": 9948,
+      "sha256": "05f279e312510b566cc4ad265549525b87b7f95443c2f0838bee44b23c390c7c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/direct_generation_manifest.json",
+      "bytes": 401866,
+      "sha256": "65054eb0067aa0ad1e93f9fb3ad31bb7ee0dddedb5244b4ce6812ccc6487b9bd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/download_broll_revision_05.py",
+      "bytes": 4715,
+      "sha256": "a85eab0573f83e99b0400170ae9284909be0655ec818a24fff6d12d2c51917f9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/download_pexels_01.py",
+      "bytes": 5275,
+      "sha256": "49c5a6528585067c9b9fb17af8b80b4d86abdc642faa948277edc9dd3a1efb3f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/elevenlabs_mia_neutral_attempt_01.json",
+      "bytes": 4045,
+      "sha256": "b852f5cc2ad64eaf78c87829d35abe5c5f88ced0d40f66a327285153f3f64365"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/elevenlabs_mia_neutral_comparison_proposal_2026_10_20.json",
+      "bytes": 2552,
+      "sha256": "a6a6857fa7bf67f7952b767d71e62b9bd7dac614af834b203f7a1317b442b7a7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/elevenlabs_mia_neutral_provider_history_2026_10_20.json",
+      "bytes": 1616,
+      "sha256": "00d75bc28bdd2c4aeb451f85e32053e16f425914263ffa844437a57355c47e2c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/elevenlabs_mia_neutral_readiness_2026_10_20.json",
+      "bytes": 1397,
+      "sha256": "cdcb0dcf11a7caf2f44a4df275d016406ad7a5e338ef4acc90e827cb0d3237ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/finalize_candidate_05.py",
+      "bytes": 6872,
+      "sha256": "5d098b44580310e842f4ff6df95b31dc5a2d403061bdba78deb96d91683b97f9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_01_probe.json",
+      "bytes": 3898,
+      "sha256": "df5a6d240f6fe6f93855bd6e5e3ee43671052bcafed8dd0ad779a0291fffb2c0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_01_qc.json",
+      "bytes": 7277,
+      "sha256": "a1559a65d1e5b0c3518860b96a868dcbadec6f1edad5ffd8d014f51fd69fdab4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_01.json",
+      "bytes": 111797,
+      "sha256": "b5b3fe545b4a9beb2608fc63d19b7c06644d4d50925ea49415f44078834c636e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_02.json",
+      "bytes": 19797,
+      "sha256": "28cda3d90b0b502a06777ad3f5a966303c9fe60f207e9d872012a7eceb3af88f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/m6_preparation_scope_2026_10_21.json",
+      "bytes": 3962,
+      "sha256": "bde2ba3163c2857d73652b7dba50bf9bb01be005192103ea9a06c80a4963b91e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/m6_preparation_validation_2026_10_21.json",
+      "bytes": 12041,
+      "sha256": "157548a400390acf9763b269aa2b3893b49aed9da648bbabcc3bc8f872201944"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/m6_review_closeout_2026_10_21.json",
+      "bytes": 3330,
+      "sha256": "accb1cef886af4cf8bcfa2a50a867147d186ea64df56f30e580f1b7360c50037"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/m6_review_request_2026_10_21.json",
+      "bytes": 2811,
+      "sha256": "d57d9a1b163df1ae84d5dc928bb1385f742fafe654da70fabb4866fe822f9e67"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/media_feedback_review_01_2026_10_21.json",
+      "bytes": 2713,
+      "sha256": "dd7b067f97523d4b09de5adb15e5658cc11ad83a3836684871de5ed055a983b5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_current_voice_rate_metadata_2026_10_21.json",
+      "bytes": 674,
+      "sha256": "3e7b45920dae50e6d90d27fc3aee6171c37e198a1c4beafb51c1700fb6d0aedb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_full_narration_quote_2026_10_20.json",
+      "bytes": 740,
+      "sha256": "8c2f2be7efea09f79b1deb707b19416fcfd37990902611dd5e3664c72a933bc8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_full_narration_readonly_2026_10_20.json",
+      "bytes": 917,
+      "sha256": "9ff786e7bf45bcca6b77bb1a64f1f649f6863f0e868064a2666693ff5412ffc5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_neutral_audio_edit_validation_2026_10_20.json",
+      "bytes": 3634,
+      "sha256": "6080d7efb87b56020c674ac7bb5d254385ecda327a381a44e9f16f4c822fa90d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_normal_audio_profile_2026_10_20.json",
+      "bytes": 1244,
+      "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_attempt_01.json",
+      "bytes": 3916,
+      "sha256": "485626c088787063489f8fc464a65738736408d62285bb11a9d9afc7290b0520"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_attempt_01_boundary.json",
+      "bytes": 1828,
+      "sha256": "f5adb6e50469002f5da4fac1b000a99529ca3c725ad6a7decfd4b5ccf2d2d99b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_billing_01.json",
+      "bytes": 825,
+      "sha256": "8e91aa2c743a571cf5b7f5114d304cb05e6ea15a85807a46746cb0c606026d44"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_readiness_2026_10_20.json",
+      "bytes": 2640,
+      "sha256": "ebbb6534c0a6ec1f2ddf59ab39508caedba97c89eee65d3cb4206e48124da523"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_scope_mia_normal_2026_10_20.json",
+      "bytes": 3230,
+      "sha256": "5a2142b9bb3026a91c975a5e100006e2e77f1f671490ac34a450bc2a6da17920"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_scope_proposal.json",
+      "bytes": 2717,
+      "sha256": "f98f9d1711a6c86af18f3e43e0faed60bd785d03183d963b072cbf1abbd55b7c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_tool_response_01.json",
+      "bytes": 384,
+      "sha256": "69093a066be90c5e8c62b3db0f04f122db53ed7bc062628170685d3bb3d396b7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/next_production_readonly_2026_10_21.json",
+      "bytes": 2442,
+      "sha256": "cc00d635b1e1af2abe83c86cf267af1e1731ace0e70cb429b9cbe15a0ad3107e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/next_production_scope_2026_10_21.json",
+      "bytes": 20032,
+      "sha256": "30bc433ea240d97f5433b5a71d6f37598036105ae2c9fa7e6b2229f19b381f51"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/no_cost_broll_gap_addendum_05.json",
+      "bytes": 873,
+      "sha256": "7fc8f09bcba4229369b03fbee1135057cadb957dc477c877d06fb1f909df2ce0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/no_cost_continuation_scope_2026_10_21.json",
+      "bytes": 1913,
+      "sha256": "ba5af116ac88b5759292546c7e67757a94546ff39e6f991ab983e0f450a3c05f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/orbital_file_verification_2026_10_21.json",
+      "bytes": 1244,
+      "sha256": "489aebd64227d4847b165a762305e1f23e97921ca50f7558c7909a5adc0cecc7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/orbital_sampled_frame_qc_01.json",
+      "bytes": 1845,
+      "sha256": "1ddd72c26f777a9a75b4ae18557e1539a32772ae8e9c0ff18e0703090216f1ac"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/orbital_source_assessment_2026_10_21.json",
+      "bytes": 3450,
+      "sha256": "0c80f5c4a4016c99979510f0aee9f4be6b8c37bce52dcbd4f3250b4d8a28bed1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pending_media_review_01.json",
+      "bytes": 1549,
+      "sha256": "a0241ecc4d07b57891e81206d874d04afa1e06c25a952f4b9caf3a6221a6868c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_gap_searches.json",
+      "bytes": 273759,
+      "sha256": "808eeccce062f9e970838cdd8a6e1db81b1814f8d94bfdb125d1c7a4945447d2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_gap_selected.json",
+      "bytes": 5279,
+      "sha256": "576a2a4ced5675811e92471b2b5a516d4362c16f7ac4d3f3ecde27b4b4e21634"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_searches.json",
+      "bytes": 502912,
+      "sha256": "fa26f04fff9d34d7dc678072284895b3cb16983fd7b9591c794e7dec0288921d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_selected.json",
+      "bytes": 16039,
+      "sha256": "0e8896c2090f0e455ce2a9c48d636cac6c578364571fe2bb8ae8e2e1081c4045"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_variety_searches.json",
+      "bytes": 136291,
+      "sha256": "0fb55d182ef69b9ab9d75c8471bc40cb487ee8132f6119a8e1060101075658cd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_variety_selected.json",
+      "bytes": 5417,
+      "sha256": "75f8286409096f249beed29a5356b61a39d22b384378350cb12024c2aad8e712"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_download_receipt_01.json",
+      "bytes": 13318,
+      "sha256": "9e86f9863cb9c1969dbf6a768b8fbbfe2babd3384bd31131a76089e6d9a53304"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_selected_sources_2026_10_21.json",
+      "bytes": 18000,
+      "sha256": "e8c7bf8a2f46fb50704fd64b5747c326be41b7fb625166d5c7d57761443ad818"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_visual_qc_01.json",
+      "bytes": 24735,
+      "sha256": "82b990e216cb02ea8ff02d891039c16d2e12c173657d9ec2315754ebf5a30ca2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+      "bytes": 2647,
+      "sha256": "6a149952469166fbbcccc81da4081bb69fbed5acaaf552293da3890b4b3cc60c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight_pending_05_original_timing.json",
+      "bytes": 677,
+      "sha256": "ee03ec096d5040de89960a278f7643fec64ecbd856eb9e0b779d99f360738261"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight_pending_05_paced.json",
+      "bytes": 657,
+      "sha256": "ad37519607c93fe308377836d59cb7aaf93fd4dd7d1e14036c9549ad4d1ae347"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_broll_gap_batch_05.py",
+      "bytes": 4083,
+      "sha256": "bc31ae202d95b3bdddf94b8f12811f5f0f6be4709502c4fab8ab52c43fc0cb8d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_broll_revision_05.py",
+      "bytes": 4676,
+      "sha256": "d6a39ec4895968f1d06e6b01cafd24cb73f58ccca5c67dc7b16587cf278c1b2f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_broll_variety_05.py",
+      "bytes": 4026,
+      "sha256": "dbeedbb47848072615a15f1137c4177d07b303dda04c18146aa46b12fa3c2edd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_candidate_review_05.py",
+      "bytes": 13608,
+      "sha256": "a71b567055d9fbcb2b7600ddbf69261d8758468a5bb10ed36bcea5626f13066c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_m6_review_01.py",
+      "bytes": 8998,
+      "sha256": "912e8d6f47739f7cb86c20d62ddd2c4de76b7cadb85ebd518315ee9ae26f9a0d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_short_timing_drafts_01.py",
+      "bytes": 4770,
+      "sha256": "0f66d864d87a06a8b1bd60cf6c7d21a13b231f5f1fa8c153bce1e725849b8423"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_visual_assets_01.py",
+      "bytes": 9078,
+      "sha256": "d778098bbe75d7fa59edb03dae5b01d0f10e4059dd8315513d7ef52501a0681b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/process_short_audio_01.py",
+      "bytes": 8768,
+      "sha256": "ccdf5adbacf43f3babd3221edce3590e2d8d098fedec26e346758607a2eb0a41"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/professional_audio_reassessment_04.json",
+      "bytes": 3381,
+      "sha256": "e300b0da782dab0b0f646c9e1d2febd81e22b510e8d9adf0572b2cab1d0e7e8e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/provider_evaluation_decision_2026_10_20.json",
+      "bytes": 1771,
+      "sha256": "3511e2d3f924e9c118405a7dc692ade6b67befd14e0b5466a2868368d4c4450e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/provider_history_narration_01.json",
+      "bytes": 8569,
+      "sha256": "54f77f751eaabb05e8af87575f8466d24ccc7ed8ae0f0dbdd9137f0079237e63"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/render_longform_review_01.py",
+      "bytes": 10487,
+      "sha256": "a60d49b3adedb2bc812adf436c8c18b7cd542aa00326db2cee3f0d8ed80527d3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/render_longform_review_02.py",
+      "bytes": 6453,
+      "sha256": "4053d1b2072eaff236104297e797cb8a9c43d4b6344c57f215db74da42cd4988"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/review_production_execution_check_2026_10_21.json",
+      "bytes": 3313,
+      "sha256": "6b3671ea67f4f678c6f096fd32473280ec12276c482ff7823c111578c762e868"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+      "bytes": 8200,
+      "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_current_bounded_rate_2026_10_21.json",
+      "bytes": 1072,
+      "sha256": "49345e58ca10ec8e26cc2e5b86b5ef7347d77b15915a9d265e37252c9096dc20"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_narration_batch_01.json",
+      "bytes": 4551,
+      "sha256": "0f2797c33204d9da211c5981d9c664f0591e77f456725058a4a2f738b5f61d7c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_source_check_2026_10_21.json",
+      "bytes": 1111,
+      "sha256": "9ab398b3688a70a1224d6a5509c7693a25a579606eab3aa98b8d5de27505f9d4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_timing_drafts_01.json",
+      "bytes": 1801,
+      "sha256": "18f23b202ed8434e453d49899bf89664718a32a82cd671865f7df0c09f19203e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/update_vault_candidate05.py",
+      "bytes": 11323,
+      "sha256": "cfddc7a5c90b2310385a6a22b510d7182ff483bf19045c77e9590354ab189846"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/visual_candidate_review_01.json",
+      "bytes": 14144,
+      "sha256": "4b89274302f9007d6590f7a12f8e7c5306c05aa484162d980f6190aa235db505"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/visual_revision_05_preparation.json",
+      "bytes": 6787,
+      "sha256": "882d9251ae75edef3ae763d7a6ccbfdec07726c94b350155abdb319ae92ef180"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_manifest.json",
+      "bytes": 5394,
+      "sha256": "0b09f2d0d238a5136b4ddf7a73fca4ba6fb7acb7f06731035209937154e7df63"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_pre_synthesis_failure.json",
+      "bytes": 3289,
+      "sha256": "17f58e5f877e70c15ce9c13903e89a49ea04dc10f091e722a638790170b9f577"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_pre_synthesis_repair.json",
+      "bytes": 876,
+      "sha256": "af6582987fd9aab8dc9e750dd0a4921b2ac58ade89e1380a602177d4bb68ea10"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_proposal_2026_10_20.json",
+      "bytes": 3236,
+      "sha256": "feaab217f529767957c12292ea9833cb5bcde86c4b123c004c9431beb0bca43e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_cpu_trial_result_2026_10_20.json",
+      "bytes": 10501,
+      "sha256": "b709ff293dbc25bb4a1eb46a6ab70da7661f437224c4ce5d01d7fd90907c5563"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_listening_feedback_2026_10_20.json",
+      "bytes": 2565,
+      "sha256": "93fabc1b8dd8dbdcb84cecbfc88a4d07ae49e32124af3c25fc0c2246cab78d8b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_refinement_listening_feedback_2026_10_20.json",
+      "bytes": 1053,
+      "sha256": "4a416504d47f7b15e96c7d72c9b5949b87a52e90042d711b771ffa0cd4e764db"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_trial_proposal.json",
+      "bytes": 2596,
+      "sha256": "361c552a8bd4a5d9cebd07d1f9937e398ddb89068f526bf9e881d9ca4a2de057"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "bytes": 2892,
+      "sha256": "c8f0279da44c690e5753c99349e9ba2152d66d58456c0a373cb4d473163c14c9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "bytes": 3702,
+      "sha256": "3f4ab36e2732a8dec35563e65de3ea60c8def4603883359a72c724a6390b4b27"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "bytes": 4563,
+      "sha256": "6a4d1ff64d4cc2e3f366c1665d85b98a7310dab4c7c388de00c28758b3e7911d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "bytes": 2842,
+      "sha256": "089857f913141e74503d86d79dc04ec60fc8f21e24fa998a640b338029a14891"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "bytes": 7269,
+      "sha256": "b475ffac1691ea0a113c7ffcd0d9e718915b596d6804c24afacfc0af0d955bbc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "bytes": 3154,
+      "sha256": "cbdd80b3a09d81d4a6c900f687d1300fe489586bd2d1ea3640dbbad4b2f62beb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "bytes": 2743,
+      "sha256": "9cd15449a58509598dc3726af67a8ebe7226a6845ba2fbaf368d335f1a483262"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/review_packet.json",
+      "bytes": 2374,
+      "sha256": "7c5027780aeb4eed1ef1b814adb031de0010a8dcb438bb6703a786be269ab8d7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md",
+      "bytes": 1998,
+      "sha256": "33673ab19bb66efc42d8da5205895ed10d432cf7e620a2d799930fc27ba5a6c5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/work_review_01/captions.ass",
+      "bytes": 18503,
+      "sha256": "4b4607f2053f87ccf5d0f08537a1816bdfc8f1a17aa1807b4a6a8665a68e00d0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/work_review_01/segments.txt",
+      "bytes": 1176,
+      "sha256": "20c2456eac93aa6caf231e3d1b5752022bc144173de56414632a276c46827f9d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/work_review_02/captions.ass",
+      "bytes": 16355,
+      "sha256": "cff8309bfe32ea996177e5c2bdc1e972d79491a306c1edfda49684888876603b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "bytes": 8321,
+      "sha256": "b02c0e93f05b7e9d1b97634196333139f28aef84ebae291b38f4d564b26209e5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "bytes": 9858,
+      "sha256": "7ebe62ec7e0b6a5da94ce8738d16613846367d28d184af6802c9533ba7b7a48b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "bytes": 10126,
+      "sha256": "ff478c9681a96b8bfdb217bc8af75f177dbc85e5ff572d387690b519c27c0afa"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "bytes": 10247,
+      "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+      "bytes": 619,
+      "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/alignment_draft.json",
+      "bytes": 28718,
+      "sha256": "7f310cca78ea1d8af03c19b84a94b2b33103aba5f1ac13d2e6b625b9eac1f1f5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+      "bytes": 3203,
+      "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+      "bytes": 2306,
+      "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_preflight_request.json",
+      "bytes": 2016,
+      "sha256": "34d75f0910c913446a767b9d0215a799162f7906e891c6dbbd4eb402b24919c3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+      "bytes": 9220,
+      "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_qa_01.json",
+      "bytes": 1223,
+      "sha256": "04964849590da29483e4e02888d89994470b04b2f1a74d14546da763e9437eab"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/narration_attempt_01.json",
+      "bytes": 3770,
+      "sha256": "7f5fa346cb8d4ad76b7c812ad602bfd93838cf28e9a25ca086b21c0aba183832"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/narration_attempt_01_boundary.json",
+      "bytes": 1034,
+      "sha256": "ce9ef912a4a00b512d9711a8840f9e8a433435dd168415840afb86274529c979"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/narration_tool_response_01.json",
+      "bytes": 727,
+      "sha256": "7e4bddfaefe53174e8734110cafa60fb81d0053422e3e519e9c9815d1ff0c497"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/preflight_pending_qa.json",
+      "bytes": 823,
+      "sha256": "aad0d21b8ac8e001d7ff2f58ca14d02c44f1176178fe26f30d0a1a108b74fadd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/provider_history_narration_01.json",
+      "bytes": 1020,
+      "sha256": "83185b99a8c6902e6e72ee515b4f88dd72fba30dc0286954e1bf3bd4ee9d8b88"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/script_approval_check.json",
+      "bytes": 972,
+      "sha256": "95c9179063929ab2f3e3c5dd712489cea7ac9666c700d897c2abf579c37e2514"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Reverse_Outline.md",
+      "bytes": 1650,
+      "sha256": "18d3419a829754a0207c06725203ef4365a7ac653616a24cc2b97c8dc2ba10d8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Draft.md",
+      "bytes": 2161,
+      "sha256": "b3f5ba0f2e436c3e8abf649051b0f513dc8471732473e5d3994383e1369ac52b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+      "bytes": 2253,
+      "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/review_packet.json",
+      "bytes": 1905,
+      "sha256": "e289b58d6329bf2ba0f62842a1e5291252d114ab7f09510a51a1d62ae93aae89"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+      "bytes": 566,
+      "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/alignment_draft.json",
+      "bytes": 27763,
+      "sha256": "5715624734dda849b67e730175f33d4077ae05b4aadaa9df2b78d1382609017b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+      "bytes": 3217,
+      "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+      "bytes": 2316,
+      "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_preflight_request.json",
+      "bytes": 2030,
+      "sha256": "5d9258ad18dc18bd3db711f055ffaae1632c361e76649fdf0cb18e237386e660"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_processing_01.json",
+      "bytes": 9257,
+      "sha256": "9794a6e3282677b116e33190b491bd309e9be2d9adab01545db32709caf2bea5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_qa_01.json",
+      "bytes": 1229,
+      "sha256": "62718e4974150b1110cce6ebdb7faa83eb960525d1523f85af932be79880cc7f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/narration_attempt_01.json",
+      "bytes": 3790,
+      "sha256": "6678674aa99de6363d0d5b0b5b2f1c4ee233ebaa40c449109f880ba359a630b0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/narration_attempt_01_boundary.json",
+      "bytes": 1038,
+      "sha256": "fd52f5766a024f0d9a12f58d37ec2e7721b86cf430fab4191154eaddafb3ab97"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/narration_tool_response_01.json",
+      "bytes": 731,
+      "sha256": "ccc559d97f93a1be0c07ca9492301e101555590b1633f65a7c294e5659741954"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/preflight_pending_qa.json",
+      "bytes": 826,
+      "sha256": "716dd726abbf2ddca1544ce049f474e7d069aeb45597856c0b388d04cbbdd135"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/provider_history_narration_01.json",
+      "bytes": 1022,
+      "sha256": "f58169293b91a8df4c118de0fd9cd9cc3815e11bda7ba1525cc213c80b26221d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/script_approval_check.json",
+      "bytes": 977,
+      "sha256": "9899bdb1efbeb59c4e71cf5904aaaa118b38db6493a35b284036a5c55af671a5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Reverse_Outline.md",
+      "bytes": 1633,
+      "sha256": "ffe84e8303dcdf009370057e5acc6b31b62b8ad07f640565a34970f151f830c6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Draft.md",
+      "bytes": 2235,
+      "sha256": "5f4470ddd88d48db911c98574f99925d56271bfe748db54db2e37891199cec7f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+      "bytes": 2327,
+      "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/review_packet.json",
+      "bytes": 1908,
+      "sha256": "9bcc76f0c6b0080b49f3c2213ae6b17578ebb1e738d284108051ccc73f1d17a6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+      "bytes": 633,
+      "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/alignment_draft.json",
+      "bytes": 28262,
+      "sha256": "f50f396e402cfcd2b55371eca9b3ed9d472ed3ce3297b436b6910a1d3699fbd7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+      "bytes": 3266,
+      "sha256": "f41db7334ee7cec2fce8b82cd0e17166594f642c9ea8e5b1d235f7aef6e0ac0d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/script_approval_2026_10_21.json",
+      "bytes": 2351,
+      "sha256": "441ef8ec1bde801bdd74020fbdbcaa51e0e2462e9b06de5079033ee433065e7d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_preflight_request.json",
+      "bytes": 2079,
+      "sha256": "32d7dabebf8619284de1fcb947f930c61bc8dbd16973afee1cde4339b6460485"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_processing_01.json",
+      "bytes": 9391,
+      "sha256": "1ae25050665ecb22626cc07f15a18b559d4381566380e335a50452e5c6d45c52"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_qa_01.json",
+      "bytes": 1250,
+      "sha256": "28b3be1bea98d7e4b00a922c7f9136e5b0796498381dec04a10d335d996ba6e5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/narration_attempt_01.json",
+      "bytes": 3860,
+      "sha256": "bc097a3e6b4ebd32dc5200c110d3f86bd433bb0226407ee3c9a74ddc394e43f2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/narration_attempt_01_boundary.json",
+      "bytes": 1052,
+      "sha256": "b409ed78277f77dbf44092bc004a64160b1991dcb897365ea5d948106952be6e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/narration_tool_response_01.json",
+      "bytes": 745,
+      "sha256": "8ce6102f0d6e0056302debd47f9d69ab510ebf62b581548b932efb6110123dae"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/preflight_pending_qa.json",
+      "bytes": 841,
+      "sha256": "410e7a99be95cb5f97fd9ffabb0b1be4984e9a63d373e04555a9c4e939280192"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/provider_history_narration_01.json",
+      "bytes": 1029,
+      "sha256": "4dbac09f41d9b032cc4687314f23001eb52bdad4a682477ae19a59149021cbea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/script_approval_check.json",
+      "bytes": 998,
+      "sha256": "391f696267120b708864e7952fcb94478240a79f9dc44427a8e2e180cf677990"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Reverse_Outline.md",
+      "bytes": 1767,
+      "sha256": "90535240cc7f28a793c7bc1b27c190f3327e351b1ba20c4b6e994c69c80ccec2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Draft.md",
+      "bytes": 2375,
+      "sha256": "5dc15699cd6f9024cf5d740f327491a42aa6aecb4063aa5e7da1534e0d335bc9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+      "bytes": 2467,
+      "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/review_packet.json",
+      "bytes": 1920,
+      "sha256": "cd62040e1670c9a459e1672a2f9dda4ec3afe2b1ebc459173349acafba825a95"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Approved_Package.md",
+      "bytes": 2461,
+      "sha256": "d1a58a12804b2c45ccaa92a07b1884567514853394cd503790e8b205c921883f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.html",
+      "bytes": 22484,
+      "sha256": "596ca0690ef3f14ad54d0043e067ce7f5f45347f9e8b819150a64a2189d20718"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md",
+      "bytes": 2385,
+      "sha256": "7829f90192a421ae9854e99be9583bf96aca3a2932416942f25bad57971c240c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Review_Packet.md",
+      "bytes": 2684,
+      "sha256": "b87cfd0f05700ed808e87aab2173f70d9ae7a5228ec90a50a2b4d6f841e40dcd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/approved_package_2026_10_21.json",
+      "bytes": 4345,
+      "sha256": "35f5aa73e4e966023b7103078b9440fdf4a29a99f748ff76da490d791f1e06d3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/review_packet.json",
+      "bytes": 3600,
+      "sha256": "aa6bdb21519882f97a9dcd15275310bea43b50984e1d5b01071ca5d994e68a94"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Editorial_Visual_Brief.md",
+      "bytes": 5946,
+      "sha256": "b56b1d41b8fa9f9168a74640bef7ad186760b4c062749154ca86be64bd525426"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Shot_List_Draft.md",
+      "bytes": 8458,
+      "sha256": "c7f5980a93c407f08ce4bd69d804a00a7b4fb097e12825b2feaf6b9016ca0417"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Video_Review_Cut_Plan.md",
+      "bytes": 5893,
+      "sha256": "d8937a1fb5d48bd707390eb089780db05a3f280d6de0e653618a5c3149e15160"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Visual_Review.md",
+      "bytes": 5505,
+      "sha256": "7a1757e9f1dc6811de04991fcc6449669b16bd8ab1fc5a4dfc1983f89585d023"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG01_Amy.svg",
+      "bytes": 896,
+      "sha256": "df7fc697cdf1be80dcdae27286593365818e19928e0429b00a495136b1454255"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG02_October_1989.svg",
+      "bytes": 890,
+      "sha256": "f6986c2131f2966eae2f1f95018908ab18d992585135cceacd7a8ce1e0fb1cb5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG03_February_1990.svg",
+      "bytes": 774,
+      "sha256": "d63d654d8dd04aaad4804ef1823e29aa24804fc7f77a8e7abadf87e13cb94ef5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG04_Belongings.svg",
+      "bytes": 1032,
+      "sha256": "561449c43250e8d6aa3e0d16bca3f78e3581a2820010b512319b2996f7b137f2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG05_Textile_Appeal.svg",
+      "bytes": 1087,
+      "sha256": "817558ae594ed90626a706933384601eff45db0d1bc415a1f6eb04d190cfd2af"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG06_Different_Samples.svg",
+      "bytes": 1455,
+      "sha256": "a60d138e4be41c33e12ab98a9441f83b829fa604db4a10b6bfb56d21d70a13f5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG07_Public_Status.svg",
+      "bytes": 1221,
+      "sha256": "d096c352121c3e86ed56a186578e3aa352a8eefb208e36bf92f0fee116940037"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG08_Remembering_Amy.svg",
+      "bytes": 741,
+      "sha256": "ab0afeebc466348a1ec7c2e8f4a1a769283d74c23beb145df3e82d3b4b5e35ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG01_Amy.svg",
+      "bytes": 1059,
+      "sha256": "2301e6c6a9de93fd86d1ee58b87f8a62ee5f2dc41cc7d1e228be08d5477a0248"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG02_October_1989.svg",
+      "bytes": 1057,
+      "sha256": "4790d30798ec13c22f7dcc54117ec5b70bb83bdf0ad319daefc31e4e5411e850"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG03_February_1990.svg",
+      "bytes": 941,
+      "sha256": "2a829a5104a00bc0906fe9659d4d97f532f098a028e3cc549507488a012ccea1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG04_Belongings.svg",
+      "bytes": 1196,
+      "sha256": "cf332f1b79cbc39bfdf24365af89030a154563a006b2113fe1f7593a61afe139"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG05_Textile_Appeal.svg",
+      "bytes": 1263,
+      "sha256": "bb08e7a945ffc749c229d8a30413a5bfef632ece1d259ed6cb759fcd3601b75c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG06_Different_Samples.svg",
+      "bytes": 1630,
+      "sha256": "273032226ee057aaf3407e1af14c4f992bf4c58f4a8198e0050dbc701afb28f6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG07_Public_Status.svg",
+      "bytes": 1418,
+      "sha256": "67e28f774c49ae3c9db6ae198ad84c2bd53882f8129706d95b9f08f28881dce0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/CG08_Remembering_Amy.svg",
+      "bytes": 950,
+      "sha256": "6545ad2f18ce5c7d378a2675cafe36b4ba3d274e40aa42ff07c870af4d11bf94"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/case_graphics_01.json",
+      "bytes": 9433,
+      "sha256": "0841a02b426bca664931ad3f40db300feb14ca91a15449c8c7242c9453f1fcde"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/initial_card_design/prepare_visual_assets_01.py",
+      "bytes": 8138,
+      "sha256": "163182daf911793462b229876ec99f95a8349fe637448bfb11a393f66ce1a5d6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/review_cut_recipe_2026_10_21.json",
+      "bytes": 87285,
+      "sha256": "c7d3b8195d9384e5620b52fbf002736a946d89afa272a73fac0d6e7ae8643744"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/Visual_Review.md",
+      "bytes": 7676,
+      "sha256": "793dbae986b37908e29a8ecc539d25d73cb7dee20841f7d94ddf361158db3e84"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/approved_render_recipe_02.json",
+      "bytes": 127299,
+      "sha256": "3f3af819076edf4e802f59e40bf2ed1963c18a8c8d6b74e36765917110bdc64d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/Audio_Candidate_05_Review.html",
+      "bytes": 439905,
+      "sha256": "98e6b60e4ccea2a1434319c2539610de46e88744a0826a4112315961dd68a975"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/candidate_render_recipe_05.json",
+      "bytes": 124018,
+      "sha256": "d06a6b712f8d71682f0523bf982efb11db3d6f3ba8ec6000c046512322d9a5c1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/candidate_review_05_preparation.json",
+      "bytes": 2583,
+      "sha256": "7dd0482b308f91b76f6a0d913dd093a39723c7db04919e1d46ca2437358a47a3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/captions_paced_draft.ass",
+      "bytes": 15131,
+      "sha256": "a1bc9d9fc8479db28de7e00cdd72157993736423e2a16f305b8d349bb8f063ae"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/captions_paced_draft.json",
+      "bytes": 30549,
+      "sha256": "32b5bf10e59d3c843b4bde78c3e7371ba2b014ce41031f98d66bb00654772f68"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/captions_paced_draft.srt",
+      "bytes": 12904,
+      "sha256": "fb812922e676557763a4f6a5d353af8f7859646ad7aee1e97c25111f0ff9e1b2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/first_layout_draft/visual_revision_05_preparation.json",
+      "bytes": 5295,
+      "sha256": "5e98b021f9595a64c73c6d3eb1d84db56e3efd7d37fc0f874cb401dd73987420"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/second_visual_draft/candidate_render_recipe_05.json",
+      "bytes": 125238,
+      "sha256": "47886e7371dc366ee9abdc4c01ac13706020830fbacb9d9d6450f6443760775d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/second_visual_draft/visual_revision_05_preparation.json",
+      "bytes": 5288,
+      "sha256": "89d9551441128526500e1267fde81e236efcb05ecba3bb9c840e77ca7b34175d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/third_visual_draft/candidate_render_recipe_05.json",
+      "bytes": 125789,
+      "sha256": "612e4c5ad4b696da2ea340cfa8cdc11e13700a4c617a6c5d8af878f7e6c2e863"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/archive/third_visual_draft/visual_revision_05_preparation.json",
+      "bytes": 5288,
+      "sha256": "61be3d16282b4cb8693b8e78013f57ef27dfabe495647fc88d3e59988dfc5a7e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/candidate_render_recipe_05.json",
+      "bytes": 126157,
+      "sha256": "cd8d4362196614b2b81016740ffd6ef8832ec6073b06d84cf18933826f57c2fd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.ass",
+      "bytes": 15132,
+      "sha256": "88fd0951c07fab4909cc10f14f93a1facc982f7e7ccbc5b178d15f15b720a70a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.json",
+      "bytes": 30602,
+      "sha256": "620646985aa10c039b50663d3c7ceff9a8bee88af8fa338b9fa782b24a907437"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.srt",
+      "bytes": 12905,
+      "sha256": "ab77d3729796b1cc5b95322e66a23fdc8e639d119ff180fc55042d243f3fd8c4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-13217096_candidate_review.json",
+      "bytes": 2240,
+      "sha256": "62461af7834669ebf7c476b2bc6a68eeca90dccf70aed9009b852290c2ffb528"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_approved_2026_10_22.json",
+      "bytes": 3422,
+      "sha256": "cb3acdc4c9b9869f85155fb9fcdb69802061675c1b6bd151f125b0e02845e4c7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+      "bytes": 2190,
+      "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_approved_2026_10_22.json",
+      "bytes": 3418,
+      "sha256": "eacfa01b2b2facd5c1af738a51e87b187bd7a65f3cf077921de9442df0c84df2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+      "bytes": 2186,
+      "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-17136728_approved_2026_10_22.json",
+      "bytes": 10943,
+      "sha256": "ce42161b00e52b613a460b564bb325e05fec22b8f722d6b7b6a7787368012365"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-17136728_candidate_review.json",
+      "bytes": 9635,
+      "sha256": "62501a7c913e80a8e5e043a68a887ee019ecfdb4164be281ad091834648ec52d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-19897022_candidate_review.json",
+      "bytes": 9714,
+      "sha256": "f05a62816eb2a020e2cde25c1ee8a660d348ad53af00cb7e5dd10596c06bb05d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_approved_2026_10_22.json",
+      "bytes": 3428,
+      "sha256": "f6d501efd31fbc8b20806ca5c0e721a09ebdfb8c0d19a7875916832ea64460c5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+      "bytes": 2124,
+      "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_approved_2026_10_22.json",
+      "bytes": 3497,
+      "sha256": "9a1495c70911001894e300481f14acbf4a4dc397bb81570650c70bec01e3cb41"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+      "bytes": 2265,
+      "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-37131095_candidate_review.json",
+      "bytes": 2162,
+      "sha256": "866e019e05068f7be6dabb1b80d34da15c45cc17c40af2ee4653cfe968cb147c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_approved_2026_10_22.json",
+      "bytes": 3385,
+      "sha256": "fd52e0da4818bebaa8ad18c4989a6a23dc5b6e87fdcbdab7ef96042d19a70821"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+      "bytes": 2156,
+      "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4290325_candidate_review.json",
+      "bytes": 2124,
+      "sha256": "07cf79fcfd59f16e2c7a681c203552792c9c1e06a80a8839d683084a8baa3a42"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6229611_candidate_review.json",
+      "bytes": 2083,
+      "sha256": "c720b3854be4ce3e0518a26314d12666d186c84c8788601bdbaf9623e6845a51"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_approved_2026_10_22.json",
+      "bytes": 3515,
+      "sha256": "f62faf0da2b645e0896bcdbc74397d66d1dcc87741c858131f984d6c6b6214ff"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+      "bytes": 2285,
+      "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8085793_approved_2026_10_22.json",
+      "bytes": 9314,
+      "sha256": "b56bfbe20a6a5cc1136fde035a59590f5749e9b22602e9b2b138d9a04063bd9c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8085793_candidate_review.json",
+      "bytes": 8008,
+      "sha256": "240c97ba6563204fa0cf7c8ecc45a4ee4e0c1622a15d5b00361994bdb6b70b2b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_approved_2026_10_22.json",
+      "bytes": 3373,
+      "sha256": "19a6c3d1195fbb2c8f1d5a6275745600ca18f0d70372e09fb2ca841e6d1a3d08"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+      "bytes": 2144,
+      "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_approved_2026_10_22.json",
+      "bytes": 3366,
+      "sha256": "9b8cc6cdeed2884a6d00c3f65a83693ffebdf14fa1fdcd982865152caf9fec14"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+      "bytes": 2136,
+      "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_approved_2026_10_22.json",
+      "bytes": 3437,
+      "sha256": "d0a68f864bb029dd42c7afb7df809ff3d0f4852b048c03ebdb8762d13614f189"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+      "bytes": 2207,
+      "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_approved_2026_10_22.json",
+      "bytes": 3410,
+      "sha256": "14b9c08cfe49ca3c11e91c43ac17f16c52acb693b36cf16a8188fb30fe0ebaa2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_candidate_review.json",
+      "bytes": 2106,
+      "sha256": "6204878fcc0ac780aeff325f7e12f507288e3df3f89237abda8e2812dcb3b7ce"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_approved_2026_10_22.json",
+      "bytes": 3435,
+      "sha256": "8373ae50204c6ea54076da0f1a7d94a5b3612c0e3d4156e7e62dde0b60f96f6b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+      "bytes": 2205,
+      "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8888977_approved_2026_10_22.json",
+      "bytes": 9544,
+      "sha256": "075fb42ed5cb2e6676741cf256c0df837d7b006dac5247fb02c735e57f0ae89b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8888977_candidate_review.json",
+      "bytes": 8238,
+      "sha256": "159e08dd60109156c926c7f39bccdb2e4909e3b016b0da673ea9a07e28a58131"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-9306134_candidate_review.json",
+      "bytes": 2148,
+      "sha256": "cfa254bd30eae5e2066735dd90cf627f1cf5f48d056694b0eac609593880a79a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+      "bytes": 1041,
+      "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG01_Amy_review.json",
+      "bytes": 1014,
+      "sha256": "19986b1ca2ee8de8b8a28a40b35a4e35b4e3eddecb28eddb6c48456dfa8b3e0e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG01_Amy_review_approved_2026_10_21.json",
+      "bytes": 1894,
+      "sha256": "61b2dfa3504e754bb9c6a71a873dc40670b4bd5fd1452a80304278d9a8cc9319"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG02_October_1989_review.json",
+      "bytes": 1032,
+      "sha256": "76b5d99876dbd982b622f398d5085e60094116c727c438366697c4aa041e5a4e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG02_October_1989_review_approved_2026_10_21.json",
+      "bytes": 1912,
+      "sha256": "cc5026e73b022188c06bc723f50a3ff0f5ee8bcf6074cae9c24d6027b5c33839"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG03_February_1990_review.json",
+      "bytes": 1034,
+      "sha256": "9bef1c741f26f125a5eb7e68220fe362b10c4326b13cf0c76f56da5e2fb3bdd8"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG03_February_1990_review_approved_2026_10_21.json",
+      "bytes": 1914,
+      "sha256": "86f686d792cdce4fbd19888f9cdf49e090506b18bb4f3c97795902e65743edaa"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG04_Belongings_review.json",
+      "bytes": 1028,
+      "sha256": "a183666c5438cc673f1faa80a46d6b62b8dfd7aa871eca582e14fa9f4af00e9b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG04_Belongings_review_approved_2026_10_21.json",
+      "bytes": 1908,
+      "sha256": "5241c4eb15e2d817cfb2c6c6649d81f3a2278c6f636cbb4b7eaa26c7073ac5eb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG05_Textile_Appeal_review.json",
+      "bytes": 1036,
+      "sha256": "3b832e2a2502f79fd6bc20fc298fc863ab882c7d1d410db2377e0c1ff5af6ab4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG05_Textile_Appeal_review_approved_2026_10_21.json",
+      "bytes": 1916,
+      "sha256": "4d02f841d7c0cd689c53263c39f04f39db7e8b0c2135f1ad7267d27cf672d98a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG06_Different_Samples_review.json",
+      "bytes": 1042,
+      "sha256": "49a35760ed5a322713dcdd23e193d19b3cfe9c13da7a83cae1d105f81f3e8999"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG06_Different_Samples_review_approved_2026_10_21.json",
+      "bytes": 1922,
+      "sha256": "eb470446f827efa411b0a8f2d22faadf8ce41cc7f2e8e201b8bf2eae4389db49"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG07_Public_Status_review.json",
+      "bytes": 1034,
+      "sha256": "96e1c22907b707d1cd0b8d3d099489572329e150041d88110fde85443afc3405"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG07_Public_Status_review_approved_2026_10_21.json",
+      "bytes": 1914,
+      "sha256": "191a4766621dced3e2b6a07df0761ba3b8d0ccb22b0993472be099ed4f5264ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG08_Remembering_Amy_review.json",
+      "bytes": 1038,
+      "sha256": "d6d617039e50733f24ec095d4513f9a873e2450d623189a887a03230b06dde8f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG08_Remembering_Amy_review_approved_2026_10_21.json",
+      "bytes": 1918,
+      "sha256": "5154ca94eb4fd132c9c98ff2261e7e7b1d62b0a079369b3d99c2a279f200adab"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-14512668_review.json",
+      "bytes": 1186,
+      "sha256": "1f6932036d166c52c6f52c299553a0f1fa205dba58cfce3975cfae02f8b616db"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-14512668_review_approved_2026_10_21.json",
+      "bytes": 2066,
+      "sha256": "e1ad38c751a8737c4bea37aea33b483c0fb55f3ac255d5b94ad5fdc1ef2f473f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review.json",
+      "bytes": 1203,
+      "sha256": "d60836a9ded42c43f36d845564dba8e955ab20f7a349714b99b56b9674508f8d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review_approved_2026_10_21.json",
+      "bytes": 2083,
+      "sha256": "f3623d4c6fc2dcf47195f90585f0b54f18df1a944ae43dc76294349bdb4c20ad"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792246_review.json",
+      "bytes": 1212,
+      "sha256": "a8000596f1e1fe4e16dd2614955ffd265e8aebb15e258c6e2f34086e46328145"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792246_review_approved_2026_10_21.json",
+      "bytes": 2092,
+      "sha256": "be72038c47bac7dd0b9789d36cbff6a96acf065700d0f32b2e0eb494cac55b18"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review.json",
+      "bytes": 1197,
+      "sha256": "e285d52e1131599cd2542a6e3aa3791db28c205049009a3fa01a33be4610de44"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review_approved_2026_10_21.json",
+      "bytes": 2077,
+      "sha256": "6687c57ceb91a441312276938b354e11d9c572c0d68becb30fe9eac7030e3329"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6550428_review.json",
+      "bytes": 1202,
+      "sha256": "28a18ee22328254040f5014f33d6b8f133dcdefea8f16e78951cedfc865f7967"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6550428_review_approved_2026_10_21.json",
+      "bytes": 2082,
+      "sha256": "0559c3870b79126b8f4a3e708fa8c73f42e40c6e2db0dc1e29b0dbae911d5d50"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6577022_review.json",
+      "bytes": 1204,
+      "sha256": "7e6ff861a953092590b20d17bcf4d7b7283456f39209a56fb0f72641cef63d23"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6577022_review_approved_2026_10_21.json",
+      "bytes": 2084,
+      "sha256": "ddba7398e33fba674aa69210f4f0dbd70df66a37c711e922cda19b66008845da"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review.json",
+      "bytes": 1197,
+      "sha256": "ba8954c43890e748e7a7b24584524ec0ff21153858227e646cd66c8a81392723"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review_approved_2026_10_21.json",
+      "bytes": 2077,
+      "sha256": "81fd71f19e34dcc6bc79fbb70305ac7a9178f0b8bd1035fee259343e91ef227f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325856_review.json",
+      "bytes": 1175,
+      "sha256": "43b1f189ec37ea27bcf1ab2c17b66326b35536ffb4f22ea526530b89f0b1b718"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325856_review_approved_2026_10_21.json",
+      "bytes": 2055,
+      "sha256": "c536d5c7e3252bffa469ae0be3d701cd9b66756e416d771b8ad0c056561133b3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325857_review.json",
+      "bytes": 1175,
+      "sha256": "1bc74cca32e8d09fe2cdebce6c5b604cc4407f8396a83ea7a424eb9f5184a5ae"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325857_review_approved_2026_10_21.json",
+      "bytes": 2055,
+      "sha256": "c7aef668c9d72969f00034adca1957b3fba4199fb4d699f0354a5f769f41229b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review.json",
+      "bytes": 1191,
+      "sha256": "65860be723c06688c7c24e52ffeddb624555b44a05bebc70bd50f0d7c15c1525"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review_approved_2026_10_21.json",
+      "bytes": 2071,
+      "sha256": "d3909741a044a629f5032890addb7be1e2630b7462cc6c2cfc82fb46a8c6fabe"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+      "bytes": 656,
+      "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+      "bytes": 1249,
+      "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/shot_list_draft.json",
+      "bytes": 88016,
+      "sha256": "b9ae328bccb44a39b31d091ca266fa0b5c58ea7ce9ba96ba7a6b28456036d40e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review.json",
+      "bytes": 1212,
+      "sha256": "27330c7e085a200d1a49f3b420359bf1655ebacbc958530273515a8c146b81ca"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+      "bytes": 2092,
+      "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+      "bytes": 3020,
+      "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "bytes": 16042,
+      "sha256": "4e38b503e0ceeb4992a125930d2a383978f347ee22175bd58c1fe01b224918ca"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "bytes": 3895,
+      "sha256": "f4e0cacd28b7a7c16d6699599d9614677e1e0c5c398496092ff34c571ee8b7a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3785,
+      "sha256": "44b3922c13426fe4d12a3b9d75c3d160031fd5aa0097a44478ef7b17ac80436e"
+    },
+    {
+      "path": "automation/PHASE_H12_EDITORIAL_PILOT_SCOPE_AUTHORIZATION_REPORT.md",
+      "bytes": 7141,
+      "sha256": "2355a1c122f5568b332380f26d4bdc9fbe085cc2bfa1eb20e58467a7d5708334"
+    },
+    {
+      "path": "automation/README.md",
+      "bytes": 30550,
+      "sha256": "828ac6c505dc0d43b5957b9ed786f5c74d9842638ded3702a4b73479072619a6"
+    },
+    {
+      "path": "automation/finalize_voicestudio_trial_manifest.py",
+      "bytes": 7376,
+      "sha256": "7794182e3dc0229a0e5a72b243f89983c762ae2d68154efa1a9c9528639c0082"
+    },
+    {
+      "path": "automation/pilot_evidence.py",
+      "bytes": 19384,
+      "sha256": "1248cd792d0fd09b12da9447454dcbb2029ae3930ed851cc636dc7f0382386ff"
+    },
+    {
+      "path": "automation/record_voice_trial_feedback.py",
+      "bytes": 13465,
+      "sha256": "848f8b59c67877e5a6c8f88a29f9e0512bd47d7ac9275c55149918cc9c6d4b99"
+    },
+    {
+      "path": "automation/record_voicestudio_trial_closeout.py",
+      "bytes": 15150,
+      "sha256": "2ad908f734f1c32b4f8b2dba901dd597b5506de3a3f38e22b0b7b9457d90ace3"
+    },
+    {
+      "path": "automation/start_voicestudio_cpu_trial.py",
+      "bytes": 992,
+      "sha256": "76f111b775e1a1f6f3453af67e49d60e13c9e9f52be35abe0613c84e853775fe"
+    },
+    {
+      "path": "automation/test_pilot_evidence.py",
+      "bytes": 17244,
+      "sha256": "e858695cf3de21798b33acc7a306183a362c993cc7e112ec07e3ffbca930a35d"
+    },
+    {
+      "path": "automation/test_vault_audit.py",
+      "bytes": 5367,
+      "sha256": "2080268072b646265dd35c3eeae908fa9ffdfc28639fbe713d60b711768cadfb"
+    },
+    {
+      "path": "automation/vault_audit.py",
+      "bytes": 9378,
+      "sha256": "23fb1362ee209833fa581b9f35f3ede29865f91b37eebfc5409edf7548bf3ec7"
+    },
+    {
+      "path": "automation/voicestudio_bella_refinement.py",
+      "bytes": 10749,
+      "sha256": "c5612d1c223fafc0d2a3817bc3d1eed48850423082659991ef8645ab6908d126"
+    },
+    {
+      "path": "automation/voicestudio_cpu_trial.py",
+      "bytes": 6001,
+      "sha256": "d0569b6ef2f13c75ccd32ab10f93922a4be074cf4b26e356eb282fba7a39c3bd"
+    },
+    {
+      "path": "automation/voicestudio_trial_receipt.py",
+      "bytes": 7806,
+      "sha256": "458e7401e2b18729596dfc291ad4952b8909f5071eb430df8b52ec1654d2599e"
+    },
+    {
+      "path": "automation/voicestudio_trial_setup.py",
+      "bytes": 14142,
+      "sha256": "00a493c05ddd5dc6cd97c0a0bb2dff66b643f2091685ce1ca9ca7e65e51ff349"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 5110,
+      "sha256": "6916d532b3b0a11751802dca1e3dd856704ef93854d140f669cae72eb4c46ca6"
+    },
+    {
+      "path": "docs/CONTENT_WORKFLOW.md",
+      "bytes": 4430,
+      "sha256": "ccc6107cb4bea97760c40a2a087b9305e8d2dc5a35d0491edb0c4891575f6bfb"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 5073,
+      "sha256": "6e6fdf572a953654f958c732b53f0089263c39997b9716d4bf205bc8ad4be890"
+    },
+    {
+      "path": "docs/elevenlabs_readonly_after_kitten_2026_10_20.json",
+      "bytes": 1469,
+      "sha256": "ae4fd51fba76a6e7e4b6709dca51f3f70fd86649dc0ff52330735319ec118158"
+    },
+    {
+      "path": "docs/github_trending_initial_review_2026_10_20.md",
+      "bytes": 5252,
+      "sha256": "4ccb3b03982f900ffa4799d1bd470fe2d7d4561646b3da522843ecca5ec2bbc3"
+    },
+    {
+      "path": "docs/pilot_m4_validation_2026_10_20.json",
+      "bytes": 2404,
+      "sha256": "532b886ae53dbc90a4868c9fb4590c8a0fccc0cd7a1b59b94b68228e59674c84"
+    },
+    {
+      "path": "docs/pilot_script_binding_2026_10_20.json",
+      "bytes": 569,
+      "sha256": "6c60b901d45d9ffc5cf6b5f42ea96e465e2c688ab9d2027d3bae1cc992cba387"
+    },
+    {
+      "path": "docs/provider_memory_reassessment_2026_10_20.json",
+      "bytes": 3808,
+      "sha256": "6bf916a7fe431d4b16c4ea34ea34244468904e591ff76259aaf3e017218a2915"
+    },
+    {
+      "path": "docs/vault_audit.json",
+      "bytes": 89816,
+      "sha256": "bfeea829606ffc1b45faa97978be6e6df7a464c531354232e3bc596a92df422f"
+    },
+    {
+      "path": "docs/vault_audit_2026_10_16_after.json",
+      "bytes": 45284,
+      "sha256": "7747e7bfa4655c86742d83e83f8394d9a706cb3fc4555923d5f9e556478a5e33"
+    },
+    {
+      "path": "docs/vault_audit_2026_10_16_before.json",
+      "bytes": 41301,
+      "sha256": "0165e5527730f5c46d42d6c1102876d26b38d811e9a3a50558c59765c5d030e8"
+    },
+    {
+      "path": "docs/vault_audit_amy_narration_2026_10_20.json",
+      "bytes": 63684,
+      "sha256": "0fb334e9a9070b16fa83db0234d032cc8518de6826b5d60a188a1149defaab43"
+    },
+    {
+      "path": "docs/vault_audit_amy_review_2026_10_16.json",
+      "bytes": 54891,
+      "sha256": "6e695989a1569e42521aea8493f1f25e9d62374df468d357bd71e5ac05c9fef0"
+    },
+    {
+      "path": "docs/vault_audit_audio_correction_02_2026_10_21.json",
+      "bytes": 84149,
+      "sha256": "6cf979b32f3014506c5826e6e8ae567510f7ee6647e46377d92d40ec97317e88"
+    },
+    {
+      "path": "docs/vault_audit_audio_diagnostic_04_2026_10_21.json",
+      "bytes": 86336,
+      "sha256": "76eec33fea754ab977c6fc407fc5a7a64bfe43980e0a2a085c7258ea217a4104"
+    },
+    {
+      "path": "docs/vault_audit_audio_pacing_03_2026_10_21.json",
+      "bytes": 85875,
+      "sha256": "f669acb25ed14f22462967a879f1a21f143ef3684c1121249aea0fa91770dc3f"
+    },
+    {
+      "path": "docs/vault_audit_before.json",
+      "bytes": 29365,
+      "sha256": "242f4f1ed0f27328ae71f31431e10caa399103e9fcf61ae44aca04a6970ed063"
+    },
+    {
+      "path": "docs/vault_audit_bella_refinement_2026_10_20.json",
+      "bytes": 64407,
+      "sha256": "c80688a0181c832167fc3393c378a03b20813f746e543fd7c9b8496d98c7ceac"
+    },
+    {
+      "path": "docs/vault_audit_candidate05_2026_10_22.json",
+      "bytes": 88592,
+      "sha256": "0310af74823bda70f8a72130efd9b787f2ee1f76c7d70438da89ac057048bec3"
+    },
+    {
+      "path": "docs/vault_audit_kitten_parked_2026_10_20.json",
+      "bytes": 64407,
+      "sha256": "d835ebcb60a21a9c98b031ebdcd62ea44557cccf0654814967d7dda3629d4eba"
+    },
+    {
+      "path": "docs/vault_audit_m6_preparation_2026_10_21.json",
+      "bytes": 75589,
+      "sha256": "2cdca22449df25d34de1e44ac87dcf4176a94dbebb5230f0af205249bf7126b0"
+    },
+    {
+      "path": "docs/vault_audit_m6_reviews_approved_2026_10_21.json",
+      "bytes": 81263,
+      "sha256": "0fc4be31e2c5de98a91a3a6106c36402907f5eebb4cd4422670e6025b7dbb355"
+    },
+    {
+      "path": "docs/vault_audit_mia_audio_edit_2026_10_20.json",
+      "bytes": 64913,
+      "sha256": "a7e7fefd7e4efaa9f925af8bec0130ed60c5994b93627f942ae54f3f0c135ad2"
+    },
+    {
+      "path": "docs/vault_audit_mia_peak_control_2026_10_20.json",
+      "bytes": 64913,
+      "sha256": "80d2e7e0e259ffcfb75ccf6cd6540b1070ca1d32a0e2e1ce5ddf87a3fcca9379"
+    },
+    {
+      "path": "docs/vault_audit_narration_readiness_2026_10_20.json",
+      "bytes": 59957,
+      "sha256": "6e64c2202c2d199fcae1ee13102a8d659a861475da94d39bcd614b4d2b281053"
+    },
+    {
+      "path": "docs/vault_audit_pilot_m4_2026_10_20.json",
+      "bytes": 59957,
+      "sha256": "90cd525b19edda72d57f4f51dd2570c8e581a239838db7c2a301af66fbb080ad"
+    },
+    {
+      "path": "docs/vault_audit_provider_memory_2026_10_20.json",
+      "bytes": 62763,
+      "sha256": "75a5aac1ddc30de388ba7b1fc8066949f26525d915a9b77003d4152514871f1d"
+    },
+    {
+      "path": "docs/vault_audit_review01_and_short_audio_2026_10_21.json",
+      "bytes": 82675,
+      "sha256": "54a7f92d4d146089b7d4c6c2588940a6821df30e6a538aa56c897286962dba4e"
+    },
+    {
+      "path": "docs/vault_audit_voice_feedback_2026_10_20.json",
+      "bytes": 64406,
+      "sha256": "b45d49570d5c9a767224ffde3d06017bff3a35582b84a405fb020a7639115e1c"
+    },
+    {
+      "path": "docs/vault_audit_voicestudio_trial_2026_10_20.json",
+      "bytes": 64406,
+      "sha256": "a38296e8c08c5baa65fa726fa19048c3618a1fded6194c70c5428af340361537"
+    },
+    {
+      "path": "skills/cold-truth-editor/SKILL.md",
+      "bytes": 3620,
+      "sha256": "0591b59bc11c45e74a9c830555ae6c735b67572594f21b9bb6b3139b6ca04b79"
+    },
+    {
+      "path": "skills/cold-truth-shorts-editor/SKILL.md",
+      "bytes": 1766,
+      "sha256": "7b8668fffead1f1ae8ac526af31f3d2661b089677d07b02b3f1d6241b32235c1"
+    },
+    {
+      "path": "skills/cold-truth-upload-manager/SKILL.md",
+      "bytes": 1438,
+      "sha256": "c8cc9ec7d450a7f8f493efa6133a29b1fb53026caaa5455434a6c7b222c55b4b"
+    },
+    {
+      "path": "skills/cold-truth-visual-producer/SKILL.md",
+      "bytes": 1593,
+      "sha256": "0d4a92e961f09ae0c8bf0d9b246bcc956b3c17ff6f4bf733405a74da50344201"
+    }
+  ],
+  "media_excluded": true,
+  "credentials_runtime_personal_life_excluded": true,
+  "finding_resolution": {
+    "file": "automation/PHASE_H12_EDITORIAL_PILOT_SCOPE_AUTHORIZATION_REPORT.md",
+    "line": 15,
+    "result": "False positive: public scope-authorization SHA256, not an access credential"
+  },
+  "review_result": "Text-only project checkpoint: 459 files, 9691541 bytes; no credential pattern matches after manual false-positive review; generated audio/video/images, private life folder, credentials and runtime excluded"
+}

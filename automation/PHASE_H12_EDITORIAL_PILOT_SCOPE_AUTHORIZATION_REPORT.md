@@ -2,6 +2,26 @@
 
 ## Result
 
+**2026-09-05 continuation: H12_EDITORIAL_PILOT_SCOPE_READY — DOCUMENTATION ONLY**
+
+The user's continuation request was applied to the unfinished local documentation repair. The three blank templates now state the exact H9 request fields, budget relationship, fixed-provider identity checks, idempotency binding, permitted retry conditions, and no-fallback rule. The intake checklist now distinguishes a nonretryable failure from a retryable failure with unused authorized budget. The Vault Index links all three templates.
+
+One new local PowerShell documentation validation run passed 10/10 categories: nonempty files; blank/non-authorizing posture; no network locators or checked approvals; exactly-one-track selection; H8 isolation; explicit H9 policy; separate C3/C4/L8 gates; downstream boundaries; approved plan and H11 report/approval-record hash preservation; and disabled operational state with no active episode. Topic blankness was also reviewed manually. `git diff --check` passed. No runtime or provider tests ran.
+
+The original failed assertion command was not available in the saved report. This is a new documented content review and assertion pass, not a reproduction of the original validator or evidence of its precise failure cause. The historical failure below is retained.
+
+Validated artifact SHA-256 values:
+
+- Scope authorization: `3B6CDEFF036BE6E4DD20F00227CE392FA1427F3EEF22D3D26C38792967835D3E`
+- Intake checklist: `B47E368C67836CCB5C9DC1D8668D0BF32E3EA54A5FB5A00CE220F34E5C5E599A`
+- Decision template: `61F3FA5061CFD582C000B5F2121E77D44B5E9827A9C7581FC24868C259FB259B`
+
+Execution state records documentation readiness only. No human approval or operational permission was inferred. The remaining gate is `EXPLICIT_PILOT_TRACK_SELECTION_AND_RESEARCH_SCOPE_AUTHORIZATION_REQUIRED`. The human must choose a track and define research scope before pilot work begins.
+
+This continuation used local file inspection, patches, and PowerShell assertions, plus a read-only Codex task listing to recover context. No research, provider invocation, media generation, narration, rendering, publishing, or production action occurred. The historical zero-activity statement below describes only the original run.
+
+## Original run — historical result
+
 **INCOMPLETE — VALIDATION STOPPED; H12 NOT READY**
 
 The single documentation-only validation run stopped at the first failing category, as required. No repair or retry was performed. Execution state was not advanced to `H12_EDITORIAL_PILOT_SCOPE_READY`.

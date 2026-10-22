@@ -1,0 +1,43 @@
+{
+  "schema_version": "cold_truth.audio_revision_closeout.v1",
+  "checked_at_utc": "2026-10-22T03:05:49.214462+00:00",
+  "result": "TECHNICAL_PASS_HUMAN_LISTENING_PENDING",
+  "correction_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/audio_correction_02_receipt.json",
+    "bytes": 33267,
+    "sha256": "e874b8ab2b19265a95d3c573e84194ec3cf1e3f8488cc716fd268a1281b717d5"
+  },
+  "review_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_correction_review_02.json",
+    "bytes": 2734,
+    "sha256": "3d76db144242ff28d7fa26d455954b82c71894ae5467cc89414a442a944e8586"
+  },
+  "source_master_preview_samples_equal": true,
+  "samples_each": 25161728,
+  "duration_seconds": 570.5607256235828,
+  "all_correction_receipt_output_hashes_verified": true,
+  "global_gain_db": -6,
+  "median_event_low_band_change_beyond_gain_db": -14.274511697518072,
+  "master_lufs": -37.14,
+  "master_true_peak_dbtp": -24.81,
+  "full_scale_samples": 0,
+  "human_listening_approved": false,
+  "assembly_allowed": false,
+  "new_video_renders": 0,
+  "remaining_longform_video_renders": 1,
+  "tts_calls": 0,
+  "new_media_downloads": 0,
+  "new_output_folder_bytes": 92216354,
+  "conservative_entire_amy_folder_bytes": 1098656229,
+  "production_output_ceiling_bytes": 5368709120,
+  "navigation_audit": {
+    "path": "docs/vault_audit_audio_correction_02_2026_10_21.json",
+    "bytes": 84149,
+    "sha256": "6cf979b32f3014506c5826e6e8ae567510f7ee6647e46377d92d40ec97317e88"
+  },
+  "limitations": [
+    "Numerical detector may attenuate short low fundamentals; natural tone and remaining pops require actual listening.",
+    "Original passing preflight and human audio approval remain historical; no transfer to corrected WAV.",
+    "User-requested visual coverage revision is documented but no revised video or new stock acquisition is claimed."
+  ]
+}

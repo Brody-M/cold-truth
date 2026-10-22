@@ -1,0 +1,66 @@
+{
+  "schema_version": "cold_truth.editorial_review_packet.v1",
+  "review_id": "amy-script-review-2026-10-16-v1",
+  "prepared_on": "2026-10-16",
+  "status": "AWAITING_PAIRED_HUMAN_REVIEW",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+    "sha256": "ff478c9681a96b8bfdb217bc8af75f177dbc85e5ff572d387690b519c27c0afa",
+    "bytes": 10126
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+    "sha256": "6a4d1ff64d4cc2e3f366c1665d85b98a7310dab4c7c388de00c28758b3e7911d",
+    "bytes": 4563
+  },
+  "supporting_inputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "sha256": "7ebe62ec7e0b6a5da94ce8738d16613846367d28d184af6802c9533ba7b7a48b",
+      "bytes": 9858
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "sha256": "b475ffac1691ea0a113c7ffcd0d9e718915b596d6804c24afacfc0af0d955bbc",
+      "bytes": 7269
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "sha256": "9cd15449a58509598dc3726af67a8ebe7226a6845ba2fbaf368d335f1a483262",
+      "bytes": 2743
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "sha256": "c8f0279da44c690e5753c99349e9ba2152d66d58456c0a373cb4d473163c14c9",
+      "bytes": 2892
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "sha256": "3f4ab36e2732a8dec35563e65de3ea60c8def4603883359a72c724a6390b4b27",
+      "bytes": 3702
+    }
+  ],
+  "spoken_words": 1267,
+  "paragraph_count": 19,
+  "reading_estimate": {
+    "assumed_words_per_minute": [
+      130,
+      150
+    ],
+    "range_seconds": [
+      506.8,
+      584.8
+    ],
+    "authoritative": false
+  },
+  "actual_audio_duration_seconds": null,
+  "human_decision": null,
+  "human_approved": false,
+  "final_script_created": false,
+  "narration_authorized": false,
+  "assembly_allowed": false,
+  "phase_2_authorized": false,
+  "required_decision": "Approve exact full draft and exact reverse outline together, or request revisions"
+}

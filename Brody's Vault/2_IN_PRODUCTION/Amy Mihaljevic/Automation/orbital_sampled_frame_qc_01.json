@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-10-21T04:54:15.015863+00:00",
+  "source": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "bytes": 12182660536,
+    "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+  },
+  "samples": [
+    {
+      "time_seconds": 1,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/qc/orbital_sample_01.jpg",
+        "bytes": 37786,
+        "sha256": "5e0dd8ce853d2b4572e4d9d2b6f9c5e2c5ec18bcab860196b5f044f7d65e1cda"
+      }
+    },
+    {
+      "time_seconds": 600,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/qc/orbital_sample_02.jpg",
+        "bytes": 75468,
+        "sha256": "bf4427dd50bca9486f797f73867bba562e24e1a7b25d1455eea67a7add6f98ac"
+      }
+    },
+    {
+      "time_seconds": 1200,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/qc/orbital_sample_03.jpg",
+        "bytes": 46897,
+        "sha256": "aff5589c309ec7e24faf4098ef6e67585e5cac84d81aa0889e4ea5d5559e55e3"
+      }
+    },
+    {
+      "time_seconds": 1800,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/qc/orbital_sample_04.jpg",
+        "bytes": 31529,
+        "sha256": "71c3a579238e2b66d01594029f9d3cebf869cd2aeca0fadbc46a5dd1d921e85a"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/qc/orbital_contact_sheet.jpg",
+    "bytes": 287033,
+    "sha256": "6a5afb3e7c987842eda2589c5829061f7e34868533065d9bc7360a539e7f1486"
+  },
+  "full_motion_review": false,
+  "vertical_crop_review": false,
+  "video_rendered": false,
+  "human_approved": false
+}

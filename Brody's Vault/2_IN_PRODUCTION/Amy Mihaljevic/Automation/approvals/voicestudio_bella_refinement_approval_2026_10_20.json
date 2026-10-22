@@ -1,0 +1,33 @@
+{
+  "schema_version": "cold_truth.neutral_voice_refinement_approval.v1",
+  "recorded_at_utc": "2026-10-21T01:19:31.100474+00:00",
+  "approved_local_date": "2026-10-20",
+  "human_decision_quote": "yes",
+  "question_context": "Authorize that refinement? Your original approval covered two takes, both used. This adds one neutral take, no downloads, spending or episode narration.",
+  "scope_context": "One Bella take at 1.15 speed, raw and processed versions of the same audio to investigate grainy/slow delivery.",
+  "proposal": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_proposal_2026_10_20.json",
+    "bytes": 3236,
+    "sha256": "feaab217f529767957c12292ea9833cb5bcde86c4b123c004c9431beb0bca43e"
+  },
+  "maximum_new_tts_generation_calls": 1,
+  "automatic_retry_allowed": false,
+  "comparison_outputs": [
+    {
+      "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_raw.wav",
+      "processing": "No high-pass, compressor, denoiser, reverb or added saturation; gain adjustment only for comparison."
+    },
+    {
+      "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_mastered.wav",
+      "processing": "Same generated take through the installed VoiceStudio mastering chain (60 Hz high-pass and 1.5:1 compressor), then comparison gain."
+    }
+  ],
+  "new_downloads_allowed": false,
+  "new_installs_allowed": false,
+  "paid_services_allowed": false,
+  "cloud_synthesis_allowed": false,
+  "case_narration_allowed": false,
+  "visuals_or_publishing_allowed": false,
+  "assembly_allowed": false,
+  "does_not_reuse_exhausted_original_grant": true
+}

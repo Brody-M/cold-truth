@@ -1,0 +1,382 @@
+{
+  "schema_version": "cold_truth.next_production_scope_proposal.v1",
+  "prepared_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-22T01:28:58.075555+00:00",
+  "status": "PREPARED_AWAITING_EXPLICIT_PHASE_2_EXECUTION_GRANT",
+  "human_approved": false,
+  "case_id": "amy-mihaljevic",
+  "review_decisions": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "longform_review_recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/review_cut_recipe_2026_10_21.json",
+    "sha256": "c7d3b8195d9384e5620b52fbf002736a946d89afa272a73fac0d6e7ae8643744",
+    "bytes": 87285
+  },
+  "longform_inputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+      "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46",
+      "bytes": 2580
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment.json",
+      "sha256": "2e810fce2aacc71505e6419268a0e0992f1ffa8947a7658cff2a24c606f612bc",
+      "bytes": 21406
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_check.json",
+      "sha256": "626d5fef3fb714ad36e24125c8a2d35c1faa5cd0f6592270c25edab472bd90f0",
+      "bytes": 3400
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+      "sha256": "39da675c4baf192d158393e8898b4a8e605e7179f0cb96167e33943a647c11ac",
+      "bytes": 19009
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_check.json",
+      "sha256": "0ceb713245a23c273e6620f1258f598f23152763551676e8aba3bea15039668f",
+      "bytes": 431
+    }
+  ],
+  "longform_outputs": [
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_02.mp4"
+  ],
+  "longform_runtime_seconds": 570.560726,
+  "longform_new_narration": false,
+  "shorts_branches": [
+    {
+      "case_id": "amy-mihaljevic-short-01",
+      "target_format": "shorts",
+      "script_approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+        "bytes": 2306
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+        "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+        "bytes": 2253
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+        "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+        "bytes": 619
+      },
+      "input_characters": 617,
+      "settings": {
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model_id": "eleven_multilingual_v2",
+        "language": "en",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 1.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "maximum_generation_attempts": 1,
+      "tool": "mcp__elevenlabs__text_to_speech",
+      "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/provider_attempt_01",
+      "canonical_audio_paths": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01.mp3",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.mp3"
+      ],
+      "audio_treatment_profile": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_normal_audio_profile_2026_10_20.json",
+        "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a",
+        "bytes": 1244
+      },
+      "gameplay_source": {
+        "asset_id": "AMY-SH-ORBITAL-01",
+        "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+        "asset_class": "orbital_gameplay",
+        "file": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+          "bytes": 12182660536,
+          "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+        },
+        "license_evidence": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+          "bytes": 3020,
+          "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+        },
+        "rights_review": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+          "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d",
+          "bytes": 2092
+        }
+      },
+      "proposed_gameplay_start_seconds": 45,
+      "gameplay_duration": "Exact measured approved Short audio duration, no loop or time stretch",
+      "gameplay_audio": false,
+      "vertical_framing": {
+        "crop": "Centered9:16, review action/safe areas in actual output",
+        "source_crop_pixels": [
+          810,
+          1440
+        ],
+        "output_pixels": [
+          1080,
+          1920
+        ],
+        "fps": 30
+      },
+      "overlays": "Independent branch-local factual text from approved final only; no long-form visual files",
+      "required_gameplay_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+      "review_outputs": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_01.mp4",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_02.mp4"
+      ],
+      "render_preconditions": [
+        "Actual narrator quote/balance and branch scope checked before its single call",
+        "Raw and treated audio receipts and hash-bound full-listen human QA",
+        "Actual Shorts preflight target30–60seconds, never above60 without separately approved exception",
+        "Exact Short alignment/full playback review, independent captions/overlays and permitted Orbital pool only"
+      ],
+      "new_narration_authorized": false,
+      "render_authorized": false
+    },
+    {
+      "case_id": "amy-mihaljevic-short-02",
+      "target_format": "shorts",
+      "script_approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0",
+        "bytes": 2316
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+        "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+        "bytes": 2327
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+        "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+        "bytes": 566
+      },
+      "input_characters": 564,
+      "settings": {
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model_id": "eleven_multilingual_v2",
+        "language": "en",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 1.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "maximum_generation_attempts": 1,
+      "tool": "mcp__elevenlabs__text_to_speech",
+      "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/provider_attempt_01",
+      "canonical_audio_paths": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01.mp3",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.mp3"
+      ],
+      "audio_treatment_profile": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_normal_audio_profile_2026_10_20.json",
+        "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a",
+        "bytes": 1244
+      },
+      "gameplay_source": {
+        "asset_id": "AMY-SH-ORBITAL-01",
+        "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+        "asset_class": "orbital_gameplay",
+        "file": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+          "bytes": 12182660536,
+          "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+        },
+        "license_evidence": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+          "bytes": 3020,
+          "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+        },
+        "rights_review": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+          "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d",
+          "bytes": 2092
+        }
+      },
+      "proposed_gameplay_start_seconds": 300,
+      "gameplay_duration": "Exact measured approved Short audio duration, no loop or time stretch",
+      "gameplay_audio": false,
+      "vertical_framing": {
+        "crop": "Centered9:16, review action/safe areas in actual output",
+        "source_crop_pixels": [
+          810,
+          1440
+        ],
+        "output_pixels": [
+          1080,
+          1920
+        ],
+        "fps": 30
+      },
+      "overlays": "Independent branch-local factual text from approved final only; no long-form visual files",
+      "required_gameplay_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+      "review_outputs": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_02_review_01.mp4",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_02_review_02.mp4"
+      ],
+      "render_preconditions": [
+        "Actual narrator quote/balance and branch scope checked before its single call",
+        "Raw and treated audio receipts and hash-bound full-listen human QA",
+        "Actual Shorts preflight target30–60seconds, never above60 without separately approved exception",
+        "Exact Short alignment/full playback review, independent captions/overlays and permitted Orbital pool only"
+      ],
+      "new_narration_authorized": false,
+      "render_authorized": false
+    },
+    {
+      "case_id": "amy-mihaljevic-short-03",
+      "target_format": "shorts",
+      "script_approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "441ef8ec1bde801bdd74020fbdbcaa51e0e2462e9b06de5079033ee433065e7d",
+        "bytes": 2351
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+        "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+        "bytes": 2467
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+        "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+        "bytes": 633
+      },
+      "input_characters": 631,
+      "settings": {
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model_id": "eleven_multilingual_v2",
+        "language": "en",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 1.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "maximum_generation_attempts": 1,
+      "tool": "mcp__elevenlabs__text_to_speech",
+      "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/provider_attempt_01",
+      "canonical_audio_paths": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01.mp3",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.mp3"
+      ],
+      "audio_treatment_profile": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_normal_audio_profile_2026_10_20.json",
+        "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a",
+        "bytes": 1244
+      },
+      "gameplay_source": {
+        "asset_id": "AMY-SH-ORBITAL-01",
+        "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+        "asset_class": "orbital_gameplay",
+        "file": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+          "bytes": 12182660536,
+          "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+        },
+        "license_evidence": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+          "bytes": 3020,
+          "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+        },
+        "rights_review": {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+          "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d",
+          "bytes": 2092
+        }
+      },
+      "proposed_gameplay_start_seconds": 900,
+      "gameplay_duration": "Exact measured approved Short audio duration, no loop or time stretch",
+      "gameplay_audio": false,
+      "vertical_framing": {
+        "crop": "Centered9:16, review action/safe areas in actual output",
+        "source_crop_pixels": [
+          810,
+          1440
+        ],
+        "output_pixels": [
+          1080,
+          1920
+        ],
+        "fps": 30
+      },
+      "overlays": "Independent branch-local factual text from approved final only; no long-form visual files",
+      "required_gameplay_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+      "review_outputs": [
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_03_review_01.mp4",
+        "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_03_review_02.mp4"
+      ],
+      "render_preconditions": [
+        "Actual narrator quote/balance and branch scope checked before its single call",
+        "Raw and treated audio receipts and hash-bound full-listen human QA",
+        "Actual Shorts preflight target30–60seconds, never above60 without separately approved exception",
+        "Exact Short alignment/full playback review, independent captions/overlays and permitted Orbital pool only"
+      ],
+      "new_narration_authorized": false,
+      "render_authorized": false
+    }
+  ],
+  "total_short_spoken_characters": 1812,
+  "limits": {
+    "maximum_existing_elevenlabs_credits_total": 2500,
+    "reported_remaining_existing_credits": 8217,
+    "new_narration_requests_total": 3,
+    "maximum_narration_requests_per_branch": 1,
+    "automatic_narration_retry": false,
+    "provider_fallback": false,
+    "paid_overage": false,
+    "purchases_or_subscription_changes": false,
+    "maximum_new_output_bytes": 5368709120,
+    "maximum_review_video_renders_total": 8,
+    "maximum_review_renders_per_video": 2,
+    "render_retry_scope": "Only local corrections to these four videos, preserving numbered outputs, within disk cap. No new narration retry.",
+    "cpu_threads": 2,
+    "new_software_or_model_downloads": false,
+    "new_stock_or_gameplay_downloads": false,
+    "duplicate_existing_gameplay": false
+  },
+  "cost_guard": {
+    "read_only_account_voice_evidence": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/next_production_readonly_2026_10_21.json",
+      "sha256": "cc00d635b1e1af2abe83c86cf267af1e1731ace0e70cb429b9cbe15a0ad3107e",
+      "bytes": 2442
+    },
+    "current_exact_rate_quote_available": false,
+    "prior_same_day_effective_multiplier": 1,
+    "prior_quote_record": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/elevenlabs_mia_neutral_readiness_2026_10_20.json",
+      "sha256": "cdcb0dcf11a7caf2f44a4df275d016406ad7a5e338ef4acc90e827cb0d3237ea",
+      "bytes": 1397
+    },
+    "not_a_current_price_quote": true,
+    "execution_rule": "Reconfirm applicable current Mia/model quote or bounded rate before the first request, and balance before each call. Sum of quote/actual use across branches may not exceed2500credits. If rate is unverified or cap cannot be guaranteed, stop before generation; no guess, upgrade or retry."
+  },
+  "execution_sequence": [
+    "Revalidate approved scripts/profile, rights, alignment and exact audio. After explicit scope approval, create the first long-form1080p review cut from existing approved narration and56-shot recipe. No new provider call is needed for this video.",
+    "Before each proposed Short request, confirm applicable current Mia/model rate/quote and balance and save exact scope/attempt records. A missing quote pauses Shorts generation only; it does not block the separately authorized long-form review cut.",
+    "Generate each of the three separately approved Shorts once under the shared2500-credit cap; preserve raw audio, apply accepted peak-controlled treatment with no padding/time stretch and reconcile billing after each.",
+    "Stop each Short before render until actual full-listen human audio QA, measured30–60-second preflight and exact timing review pass. A failure does not authorize another provider request.",
+    "Within the same grant, create each1080x1920 Orbital-only Short review cut after its gates pass. At most one corrective local render per video; eight total renders and5GiB across outputs/working files.",
+    "Probe/decode and require full human playback of each exact review output before final-master designation. Publishing remains excluded."
+  ],
+  "excluded": [
+    "New Amy long-form narration or changed script/voice",
+    "New visual-source downloads, purchases or tool/model installs",
+    "Voice cloning, extra generation attempts or credit overage",
+    "Uploading, scheduling, publishing, account changes or release-ready designation without actual master QA"
+  ],
+  "publishing_authorized": false
+}

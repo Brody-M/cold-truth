@@ -1,0 +1,29 @@
+{
+  "case_id": "amy-mihaljevic-short-02",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+    "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+    "bytes": 2327
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+    "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+    "bytes": 5511270
+  },
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Full playback pronunciation/completeness/levels for exact treated Short audio",
+  "full_listen_passed": false,
+  "technical_processing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_processing_01.json",
+    "sha256": "9794a6e3282677b116e33190b491bd309e9be2d9adab01545db32709caf2bea5",
+    "bytes": 9257
+  },
+  "assembly_allowed": false,
+  "issues": [
+    "Actual human full-listen decision required; no listening approval inferred from text/sample acceptance."
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "created_at_utc": "2026-10-21T04:47:53.968802+00:00",
+  "tool": "Pillow typography and original SVG source",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "video_rendered": false,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-CG01_Amy",
+      "source_identity": "coldtruth:amy:longform:CG01_Amy",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "Amy Mihaljevic",
+      "narration_cues": [
+        "P02",
+        "P19"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG01_Amy.png",
+        "bytes": 45842,
+        "sha256": "eb606ae5d138d62ae25d8a1bec85eafa2f9559dfb2a481ac10cc497dbcc6bbba"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG01_Amy.svg",
+        "bytes": 896,
+        "sha256": "df7fc697cdf1be80dcdae27286593365818e19928e0429b00a495136b1454255"
+      },
+      "sources_displayed": "Sources: FBI; attributed family interviews",
+      "source_reference": "Sources: FBI S01 | Approved narration P02 / P19",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG02_October_1989",
+      "source_identity": "coldtruth:amy:longform:CG02_October_1989",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "October 27, 1989",
+      "narration_cues": [
+        "P03",
+        "P04"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG02_October_1989.png",
+        "bytes": 47904,
+        "sha256": "3ef68a767669a395054b6827d3a607cd901736f6350462a82d8460b6f029169f"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG02_October_1989.svg",
+        "bytes": 890,
+        "sha256": "f6986c2131f2966eae2f1f95018908ab18d992585135cceacd7a8ce1e0fb1cb5"
+      },
+      "sources_displayed": "Sources: FBI; Bay Village Police",
+      "source_reference": "Sources: FBI S01 | Bay Village Police S02",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG03_February_1990",
+      "source_identity": "coldtruth:amy:longform:CG03_February_1990",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "February 8, 1990",
+      "narration_cues": [
+        "P08"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG03_February_1990.png",
+        "bytes": 40548,
+        "sha256": "b3bccc3480af058338f48ffb5caf0193831e6d213bf359957213bc82785cd7cd"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG03_February_1990.svg",
+        "bytes": 774,
+        "sha256": "d63d654d8dd04aaad4804ef1823e29aa24804fc7f77a8e7abadf87e13cb94ef5"
+      },
+      "sources_displayed": "Sources: FBI; Bay Village Police",
+      "source_reference": "Sources: FBI S01 | Bay Village Police S02",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG04_Belongings",
+      "source_identity": "coldtruth:amy:longform:CG04_Belongings",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "Three unrecovered belongings",
+      "narration_cues": [
+        "P09"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG04_Belongings.png",
+        "bytes": 48247,
+        "sha256": "b157a395df8d0e4702724415cced3a5d104b859b658a88599b6a938e19787bf0"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG04_Belongings.svg",
+        "bytes": 1032,
+        "sha256": "561449c43250e8d6aa3e0d16bca3f78e3581a2820010b512319b2996f7b137f2"
+      },
+      "sources_displayed": "Source: FBI public information appeal",
+      "source_reference": "Source: FBI S01 | Public information appeal",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG05_Textile_Appeal",
+      "source_identity": "coldtruth:amy:longform:CG05_Textile_Appeal",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "A request for recognition",
+      "narration_cues": [
+        "P10",
+        "P11",
+        "P13"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG05_Textile_Appeal.png",
+        "bytes": 61478,
+        "sha256": "ccad10ee7ef9933de801e4434b21f4dd120fae830ca7ca73e38dcb47d4219fbd"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG05_Textile_Appeal.svg",
+        "bytes": 1087,
+        "sha256": "817558ae594ed90626a706933384601eff45db0d1bc415a1f6eb04d190cfd2af"
+      },
+      "sources_displayed": "Sources: News 5 reports, 2016 and 2021",
+      "source_reference": "Sources: News 5 S04 / S08 | Reported official statements",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG06_Different_Samples",
+      "source_identity": "coldtruth:amy:longform:CG06_Different_Samples",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "Different samples. Different results.",
+      "narration_cues": [
+        "P14",
+        "P15",
+        "P16"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG06_Different_Samples.png",
+        "bytes": 56956,
+        "sha256": "7ee18c200d35706a44d70eb5a07ebc13ca8691a28418b94deed088beb9896218"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG06_Different_Samples.svg",
+        "bytes": 1455,
+        "sha256": "a60d138e4be41c33e12ab98a9441f83b829fa604db4a10b6bfb56d21d70a13f5"
+      },
+      "sources_displayed": "Sources: News 5; Cleveland 19, January 9, 2026",
+      "source_reference": "Sources: News 5 S09 / S11 | Cleveland 19 S12 | Separate samples",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG07_Public_Status",
+      "source_identity": "coldtruth:amy:longform:CG07_Public_Status",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "Public appeal remains open",
+      "narration_cues": [
+        "P18"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG07_Public_Status.png",
+        "bytes": 69220,
+        "sha256": "8bfedad227324afa9e1bb651f6143be36c7f9fdf5d446d2a5e3e0f196706ece1"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG07_Public_Status.svg",
+        "bytes": 1221,
+        "sha256": "d096c352121c3e86ed56a186578e3aa352a8eefb208e36bf92f0fee116940037"
+      },
+      "sources_displayed": "Sources: FBI; Bay Village Police",
+      "source_reference": "Sources: FBI S01 | Bay Village Police S02 | Matches approved audio date",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    },
+    {
+      "asset_id": "AMY-LF-CG08_Remembering_Amy",
+      "source_identity": "coldtruth:amy:longform:CG08_Remembering_Amy",
+      "asset_class": "case_graphic",
+      "track": "youtube-longform",
+      "title": "Remembering Amy",
+      "narration_cues": [
+        "P19"
+      ],
+      "png": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG08_Remembering_Amy.png",
+        "bytes": 33646,
+        "sha256": "076d9b2277586f04e5f894094cade36003c0a1ed44ef43895e161c7727cf7b30"
+      },
+      "svg": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG08_Remembering_Amy.svg",
+        "bytes": 741,
+        "sha256": "ab0afeebc466348a1ec7c2e8f4a1a769283d74c23beb145df3e82d3b4b5e35ea"
+      },
+      "sources_displayed": "Cold Truth",
+      "source_reference": "Approved narration P19 | Family context attributed in episode",
+      "created_from": "Original typography/layout; no third-party case photograph or exhibit reproduction",
+      "content_review": "Source-bound text, pending final asset review; no suspect, reenactment or graphic depiction"
+    }
+  ],
+  "processor": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_visual_assets_01.py",
+    "bytes": 9078,
+    "sha256": "d778098bbe75d7fa59edb03dae5b01d0f10e4059dd8315513d7ef52501a0681b"
+  }
+}

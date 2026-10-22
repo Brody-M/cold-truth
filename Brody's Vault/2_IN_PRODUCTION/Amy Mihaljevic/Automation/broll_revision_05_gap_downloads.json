@@ -1,0 +1,86 @@
+{
+  "schema_version": "cold_truth.pexels_downloads.v1",
+  "started_at_utc": "2026-10-22T04:00:57.198789+00:00",
+  "selection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_gap_selected.json",
+    "bytes": 5279,
+    "sha256": "576a2a4ced5675811e92471b2b5a516d4362c16f7ac4d3f3ecde27b4b4e21634"
+  },
+  "maximum_new_media_bytes": 786432000,
+  "status": "DOWNLOADS_COMPLETE_TECHNICAL_AND_RIGHTS_REVIEW_PENDING",
+  "automatic_retry": false,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-37131095",
+      "source_identity": "pexels:video:37131095",
+      "url": "https://videos.pexels.com/video-files/37131095/15730280_1920_1080_30fps.mp4",
+      "requested_at_utc": "2026-10-22T04:00:57.200293+00:00",
+      "expected_bytes": 12577744,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+      "status": "DOWNLOADED",
+      "cdn_content_length": 12577744,
+      "api_size_differs": false,
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+        "bytes": 12577744,
+        "sha256": "0209704ce86b5dbb1e8a4195972a2c5d28eb720a302b3fe937c66a9f8646ac15"
+      },
+      "completed_at_utc": "2026-10-22T04:00:57.891663+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6229611",
+      "source_identity": "pexels:video:6229611",
+      "url": "https://videos.pexels.com/video-files/6229611/6229611-hd_1920_1080_25fps.mp4",
+      "requested_at_utc": "2026-10-22T04:00:57.892661+00:00",
+      "expected_bytes": 9566920,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+      "status": "DOWNLOADED",
+      "cdn_content_length": 5211613,
+      "api_size_differs": true,
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+        "bytes": 5211613,
+        "sha256": "6db0dc3f98b0370a3fd8d439789e54ba26614a3935f17504653bfdaf0225e9e4"
+      },
+      "completed_at_utc": "2026-10-22T04:00:58.072131+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "url": "https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4",
+      "requested_at_utc": "2026-10-22T04:00:58.073132+00:00",
+      "expected_bytes": 2629786,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+      "status": "DOWNLOADED",
+      "cdn_content_length": 2629786,
+      "api_size_differs": false,
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "completed_at_utc": "2026-10-22T04:00:58.220623+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8381446",
+      "source_identity": "pexels:video:8381446",
+      "url": "https://videos.pexels.com/video-files/8381446/8381446-hd_1920_1080_25fps.mp4",
+      "requested_at_utc": "2026-10-22T04:00:58.222624+00:00",
+      "expected_bytes": 6151622,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+      "status": "DOWNLOADED",
+      "cdn_content_length": 6151622,
+      "api_size_differs": false,
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+        "bytes": 6151622,
+        "sha256": "b80fd4533e2e7b87a3c6d1fd3ac75fd3c5c371032bfb7302487cdb4a08325af0"
+      },
+      "completed_at_utc": "2026-10-22T04:00:58.853974+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-22T04:00:58.853974+00:00",
+  "downloaded_bytes": 26570765,
+  "video_rendered": false,
+  "assembly_allowed": false
+}

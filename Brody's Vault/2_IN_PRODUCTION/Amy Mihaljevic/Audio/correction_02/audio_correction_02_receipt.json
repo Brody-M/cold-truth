@@ -1,0 +1,855 @@
+{
+  "schema_version": "cold_truth.audio_correction_candidate.v1",
+  "status": "TECHNICALLY_VERIFIED_LISTENING_PENDING",
+  "role": "Editor",
+  "started_at_utc": "2026-10-22T03:02:30.216440+00:00",
+  "completed_at_utc": "2026-10-22T03:02:55.605764+00:00",
+  "case_id": "amy-mihaljevic",
+  "narration_branch": "youtube-longform",
+  "user_feedback_record": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\media_feedback_review_01_2026_10_21.json",
+    "bytes": 2713,
+    "sha256": "dd7b067f97523d4b09de5adb15e5658cc11ad83a3836684871de5ed055a983b5"
+  },
+  "source_processed_audio": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726",
+          "bits_per_raw_sample": "24"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "75485286"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -19.98271369934082,
+    "samples_at_or_above_full_scale": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-30.89",
+      "input_tp": "-19.93",
+      "input_lra": "2.20",
+      "input_thresh": "-41.49"
+    }
+  },
+  "synchronized_original_detector_audio": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+    "bytes": 9129943,
+    "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02"
+  },
+  "corrected_master": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+    "bytes": 75485228,
+    "sha256": "2c91f93c26182807405ab08434b2726dcde09eac31f1697fd5dba9379a731637",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726",
+          "bits_per_raw_sample": "24"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "75485228"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -24.807416915893555,
+    "samples_at_or_above_full_scale": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-37.14",
+      "input_tp": "-24.81",
+      "input_lra": "2.30",
+      "input_thresh": "-47.74"
+    }
+  },
+  "corrected_preview": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3",
+    "bytes": 13694894,
+    "sha256": "605a49634f1429610111bcbe54aadbb55957ff93efc58ae7c7d46718ade71003",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "13694894"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -25.071155548095703,
+    "samples_at_or_above_full_scale": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-37.40",
+      "input_tp": "-25.07",
+      "input_lra": "2.30",
+      "input_thresh": "-48.01"
+    }
+  },
+  "method": {
+    "detector_band_hz": [
+      20,
+      110
+    ],
+    "reference_band_hz": [
+      350,
+      4000
+    ],
+    "bandpass_order": 3,
+    "envelope_window_samples": 1765,
+    "envelope_hop_samples": 441,
+    "local_median_frames": 61,
+    "peak_min_excess_db": 16,
+    "peak_min_prominence_db": 4,
+    "peak_min_spacing_frames": 18,
+    "min_raw_low_rms_dbfs": -23,
+    "min_low_above_reference_db": 12,
+    "component_lowpass_hz": 180,
+    "component_lowpass_order": 4,
+    "filter_phase": "forward/backward zero phase",
+    "local_reduction_min_db": 12,
+    "local_reduction_max_db": 20,
+    "strength_formula": "clip(12 + 0.5*(excess_db-16),12,20)",
+    "core_bounds": "nearest detector-envelope -6dB crossings, capped at80ms each side",
+    "attack_ms": 15,
+    "release_ms": 80,
+    "smoothing": "half cosine envelope; overlapping events take maximum attenuation",
+    "mix_formula": "(source + (10**(-local_attenuation_db/20)-1)*low_component) * 10**(-6/20)",
+    "global_gain_db": -6.0,
+    "makeup_gain": false,
+    "loudness_normalization": false,
+    "new_compression": false
+  },
+  "diagnosis": {
+    "candidate_count": 454,
+    "candidate_times_are_not_auditory_confirmations": true,
+    "strongest_events": [
+      {
+        "time_seconds": 151.13,
+        "core_start_seconds": 151.1,
+        "core_end_seconds": 151.18,
+        "window_start_seconds": 151.0849886621315,
+        "window_end_seconds": 151.26,
+        "raw_20_110_rms_dbfs": -11.94581141215555,
+        "raw_low_above_350_4000_db": 28.82624631460584,
+        "raw_low_excess_over_local_median_db": 28.163964546749668,
+        "low_component_attenuation_db": 18.081982273374834,
+        "spoken_context_machine_timing": "News 5's reporting",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -32.260811682467605,
+        "corrected_20_110_rms_dbfs": -56.182559250229176,
+        "low_band_change_beyond_global_gain_db": -17.92174756776157
+      },
+      {
+        "time_seconds": 312.93,
+        "core_start_seconds": 312.9,
+        "core_end_seconds": 312.98,
+        "window_start_seconds": 312.8849886621315,
+        "window_end_seconds": 313.06,
+        "raw_20_110_rms_dbfs": -6.004524009830032,
+        "raw_low_above_350_4000_db": 27.43345407095966,
+        "raw_low_excess_over_local_median_db": 29.205073368959308,
+        "low_component_attenuation_db": 18.602536684479652,
+        "spoken_context_machine_timing": "The investigation also",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.273083861563077,
+        "corrected_20_110_rms_dbfs": -55.586685043580474,
+        "low_band_change_beyond_global_gain_db": -18.313601182017397
+      },
+      {
+        "time_seconds": 521.1800000000001,
+        "core_start_seconds": 521.15,
+        "core_end_seconds": 521.22,
+        "window_start_seconds": 521.1349886621315,
+        "window_end_seconds": 521.3,
+        "raw_20_110_rms_dbfs": -8.535514394529457,
+        "raw_low_above_350_4000_db": 27.33699496518213,
+        "raw_low_excess_over_local_median_db": 29.111238359967075,
+        "low_component_attenuation_db": 18.555619179983537,
+        "spoken_context_machine_timing": "Police still ask",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.404698680258868,
+        "corrected_20_110_rms_dbfs": -55.879491404464545,
+        "low_band_change_beyond_global_gain_db": -18.474792724205678
+      },
+      {
+        "time_seconds": 339.55,
+        "core_start_seconds": 339.52,
+        "core_end_seconds": 339.59,
+        "window_start_seconds": 339.5049886621315,
+        "window_end_seconds": 339.67,
+        "raw_20_110_rms_dbfs": -9.747297573486161,
+        "raw_low_above_350_4000_db": 24.020262347374118,
+        "raw_low_excess_over_local_median_db": 32.22116011696774,
+        "low_component_attenuation_db": 20.0,
+        "spoken_context_machine_timing": "states, asking again for information.",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.940623167739343,
+        "corrected_20_110_rms_dbfs": -55.84408980396874,
+        "low_band_change_beyond_global_gain_db": -19.9034666362294
+      },
+      {
+        "time_seconds": 304.7,
+        "core_start_seconds": 304.67,
+        "core_end_seconds": 304.75,
+        "window_start_seconds": 304.65498866213153,
+        "window_end_seconds": 304.83,
+        "raw_20_110_rms_dbfs": -9.728788310473234,
+        "raw_low_above_350_4000_db": 25.459322734998537,
+        "raw_low_excess_over_local_median_db": 30.648530925891222,
+        "low_component_attenuation_db": 19.32426546294561,
+        "spoken_context_machine_timing": "Its owner and origin",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.579442733306074,
+        "corrected_20_110_rms_dbfs": -56.84483254599297,
+        "low_band_change_beyond_global_gain_db": -19.265389812686898
+      },
+      {
+        "time_seconds": 559.4300000000001,
+        "core_start_seconds": 559.39,
+        "core_end_seconds": 559.48,
+        "window_start_seconds": 559.3749886621315,
+        "window_end_seconds": 559.56,
+        "raw_20_110_rms_dbfs": -6.834428211189408,
+        "raw_low_above_350_4000_db": 25.76692904052503,
+        "raw_low_excess_over_local_median_db": 30.294449834966887,
+        "low_component_attenuation_db": 19.14722491748344,
+        "spoken_context_machine_timing": "those belong to Amy's life,",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.749593426967415,
+        "corrected_20_110_rms_dbfs": -54.83943957662494,
+        "low_band_change_beyond_global_gain_db": -19.089846149657525
+      },
+      {
+        "time_seconds": 96.27,
+        "core_start_seconds": 96.23,
+        "core_end_seconds": 96.31,
+        "window_start_seconds": 96.21498866213152,
+        "window_end_seconds": 96.39,
+        "raw_20_110_rms_dbfs": -5.971954646629928,
+        "raw_low_above_350_4000_db": 24.08636046903562,
+        "raw_low_excess_over_local_median_db": 31.758795593822295,
+        "low_component_attenuation_db": 19.87939779691115,
+        "spoken_context_machine_timing": "business, apparently waiting for",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.257809498154028,
+        "corrected_20_110_rms_dbfs": -54.925952070470984,
+        "low_band_change_beyond_global_gain_db": -19.668142572316956
+      },
+      {
+        "time_seconds": 418.34000000000003,
+        "core_start_seconds": 418.3,
+        "core_end_seconds": 418.37,
+        "window_start_seconds": 418.2849886621315,
+        "window_end_seconds": 418.45,
+        "raw_20_110_rms_dbfs": -9.02011495018031,
+        "raw_low_above_350_4000_db": 23.51801105129766,
+        "raw_low_excess_over_local_median_db": 31.676455076055195,
+        "low_component_attenuation_db": 19.838227538027596,
+        "spoken_context_machine_timing": "slides previously thought",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.72593879296869,
+        "corrected_20_110_rms_dbfs": -55.470208327121384,
+        "low_band_change_beyond_global_gain_db": -19.744269534152693
+      },
+      {
+        "time_seconds": 71.57000000000001,
+        "core_start_seconds": 71.54,
+        "core_end_seconds": 71.62,
+        "window_start_seconds": 71.52498866213152,
+        "window_end_seconds": 71.7,
+        "raw_20_110_rms_dbfs": -9.03887725514598,
+        "raw_low_above_350_4000_db": 24.865315808088663,
+        "raw_low_excess_over_local_median_db": 30.32415227275232,
+        "low_component_attenuation_db": 19.162076136376157,
+        "spoken_context_machine_timing": "Bay Village Police place",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.205621495329005,
+        "corrected_20_110_rms_dbfs": -56.1757392474682,
+        "low_band_change_beyond_global_gain_db": -18.970117752139195
+      },
+      {
+        "time_seconds": 416.74,
+        "core_start_seconds": 416.72,
+        "core_end_seconds": 416.79,
+        "window_start_seconds": 416.70498866213154,
+        "window_end_seconds": 416.87,
+        "raw_20_110_rms_dbfs": -9.095433572526954,
+        "raw_low_above_350_4000_db": 25.92680272832771,
+        "raw_low_excess_over_local_median_db": 28.98437982991671,
+        "low_component_attenuation_db": 18.492189914958352,
+        "spoken_context_machine_timing": "noticed hairs on evidence slides",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -30.93340048523357,
+        "corrected_20_110_rms_dbfs": -55.34315451605644,
+        "low_band_change_beyond_global_gain_db": -18.409754030822867
+      },
+      {
+        "time_seconds": 318.88,
+        "core_start_seconds": 318.84,
+        "core_end_seconds": 318.91,
+        "window_start_seconds": 318.82498866213155,
+        "window_end_seconds": 318.99,
+        "raw_20_110_rms_dbfs": -8.318735075549146,
+        "raw_low_above_350_4000_db": 23.64880194964488,
+        "raw_low_excess_over_local_median_db": 31.190845369764038,
+        "low_component_attenuation_db": 19.595422684882017,
+        "spoken_context_machine_timing": "In a report marking thirty",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -30.822616012258187,
+        "corrected_20_110_rms_dbfs": -56.042475174394426,
+        "low_band_change_beyond_global_gain_db": -19.21985916213624
+      },
+      {
+        "time_seconds": 276.24,
+        "core_start_seconds": 276.2,
+        "core_end_seconds": 276.29,
+        "window_start_seconds": 276.1849886621315,
+        "window_end_seconds": 276.37,
+        "raw_20_110_rms_dbfs": -5.768338624770272,
+        "raw_low_above_350_4000_db": 25.756565283325386,
+        "raw_low_excess_over_local_median_db": 28.845222766472574,
+        "low_component_attenuation_db": 18.422611383236287,
+        "spoken_context_machine_timing": "The appeal was for recognition",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.623362248388066,
+        "corrected_20_110_rms_dbfs": -55.90071651404734,
+        "low_band_change_beyond_global_gain_db": -18.277354265659273
+      },
+      {
+        "time_seconds": 59.22,
+        "core_start_seconds": 59.19,
+        "core_end_seconds": 59.26,
+        "window_start_seconds": 59.17498866213152,
+        "window_end_seconds": 59.34,
+        "raw_20_110_rms_dbfs": -9.719904003692921,
+        "raw_low_above_350_4000_db": 27.66444174622804,
+        "raw_low_excess_over_local_median_db": 26.218195262907987,
+        "low_component_attenuation_db": 17.10909763145399,
+        "spoken_context_machine_timing": "October 27, 1989,",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.189218205620634,
+        "corrected_20_110_rms_dbfs": -52.243096317086994,
+        "low_band_change_beyond_global_gain_db": -17.05387811146636
+      },
+      {
+        "time_seconds": 499.02000000000004,
+        "core_start_seconds": 498.99,
+        "core_end_seconds": 499.07,
+        "window_start_seconds": 498.9749886621315,
+        "window_end_seconds": 499.15,
+        "raw_20_110_rms_dbfs": -14.165165925838538,
+        "raw_low_above_350_4000_db": 25.54071300335159,
+        "raw_low_excess_over_local_median_db": 28.265319355403157,
+        "low_component_attenuation_db": 18.13265967770158,
+        "spoken_context_machine_timing": "Village's own community announcement",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -30.407228559136197,
+        "corrected_20_110_rms_dbfs": -54.34565141325153,
+        "low_band_change_beyond_global_gain_db": -17.938422854115334
+      },
+      {
+        "time_seconds": 8.0,
+        "core_start_seconds": 7.95,
+        "core_end_seconds": 8.05,
+        "window_start_seconds": 7.934988662131519,
+        "window_end_seconds": 8.13,
+        "raw_20_110_rms_dbfs": -11.184524603030813,
+        "raw_low_above_350_4000_db": 27.019425069701864,
+        "raw_low_excess_over_local_median_db": 26.781443276648478,
+        "low_component_attenuation_db": 17.390721638324237,
+        "spoken_context_machine_timing": "account describes Amy saying",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -33.01358333484225,
+        "corrected_20_110_rms_dbfs": -56.37647124221955,
+        "low_band_change_beyond_global_gain_db": -17.3628879073773
+      },
+      {
+        "time_seconds": 105.48,
+        "core_start_seconds": 105.44,
+        "core_end_seconds": 105.51,
+        "window_start_seconds": 105.42498866213153,
+        "window_end_seconds": 105.59,
+        "raw_20_110_rms_dbfs": -11.632113736659493,
+        "raw_low_above_350_4000_db": 28.836905873426524,
+        "raw_low_excess_over_local_median_db": 23.7878042924901,
+        "low_component_attenuation_db": 15.89390214624505,
+        "spoken_context_machine_timing": "through the parking lot with him.",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -30.945971378819817,
+        "corrected_20_110_rms_dbfs": -52.815746350320715,
+        "low_band_change_beyond_global_gain_db": -15.869774971500899
+      },
+      {
+        "time_seconds": 464.09000000000003,
+        "core_start_seconds": 464.05,
+        "core_end_seconds": 464.12,
+        "window_start_seconds": 464.0349886621315,
+        "window_end_seconds": 464.2,
+        "raw_20_110_rms_dbfs": -10.33450578079978,
+        "raw_low_above_350_4000_db": 29.880926923753506,
+        "raw_low_excess_over_local_median_db": 22.740898323682757,
+        "low_component_attenuation_db": 15.370449161841378,
+        "spoken_context_machine_timing": "particular effort had not produced",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -30.57838755084664,
+        "corrected_20_110_rms_dbfs": -51.89944721785501,
+        "low_band_change_beyond_global_gain_db": -15.321059667008374
+      },
+      {
+        "time_seconds": 393.63,
+        "core_start_seconds": 393.59,
+        "core_end_seconds": 393.67,
+        "window_start_seconds": 393.57498866213155,
+        "window_end_seconds": 393.75,
+        "raw_20_110_rms_dbfs": -8.530546049340051,
+        "raw_low_above_350_4000_db": 22.383124957864055,
+        "raw_low_excess_over_local_median_db": 30.063042654757716,
+        "low_component_attenuation_db": 19.031521327378858,
+        "spoken_context_machine_timing": "detecting material",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.563690915407673,
+        "corrected_20_110_rms_dbfs": -56.53913945325823,
+        "low_band_change_beyond_global_gain_db": -18.975448537850557
+      },
+      {
+        "time_seconds": 182.70000000000002,
+        "core_start_seconds": 182.67,
+        "core_end_seconds": 182.74,
+        "window_start_seconds": 182.65498866213153,
+        "window_end_seconds": 182.82,
+        "raw_20_110_rms_dbfs": -12.63357278257134,
+        "raw_low_above_350_4000_db": 26.904014438652915,
+        "raw_low_excess_over_local_median_db": 25.46142650898627,
+        "low_component_attenuation_db": 16.730713254493136,
+        "spoken_context_machine_timing": "agents working through leads,",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -31.1428837861476,
+        "corrected_20_110_rms_dbfs": -53.80364903007972,
+        "low_band_change_beyond_global_gain_db": -16.66076524393212
+      },
+      {
+        "time_seconds": 19.71,
+        "core_start_seconds": 19.67,
+        "core_end_seconds": 19.75,
+        "window_start_seconds": 19.65498866213152,
+        "window_end_seconds": 19.83,
+        "raw_20_110_rms_dbfs": -6.962394487743176,
+        "raw_low_above_350_4000_db": 25.614091726089583,
+        "raw_low_excess_over_local_median_db": 26.658637967242598,
+        "low_component_attenuation_db": 17.3293189836213,
+        "spoken_context_machine_timing": "person who had taken her.",
+        "audibly_confirmed_plosive": false,
+        "processed_before_20_110_rms_dbfs": -29.487303550078675,
+        "corrected_20_110_rms_dbfs": -52.7164522618848,
+        "low_band_change_beyond_global_gain_db": -17.229148711806122
+      }
+    ],
+    "median_candidate_low_band_change_beyond_global_db": -14.274511697518072,
+    "processed_fraction_with_nonzero_local_attenuation": 0.13794259281397525,
+    "global_peak_does_not_rule_out_perceptual_plosives": true
+  },
+  "timeline": {
+    "source_samples": 25161728,
+    "corrected_samples": 25161728,
+    "preview_samples": 25161728,
+    "rate": 44100,
+    "duration_seconds": 570.5607256235828,
+    "cuts": false,
+    "padding": false,
+    "time_stretching": false,
+    "alignment_changed": false
+  },
+  "examples": {
+    "start_seconds": 300.0,
+    "end_seconds": 340.0,
+    "decoded_duration_seconds": 40.0,
+    "before_original_level": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before.mp3",
+      "bytes": 961768,
+      "sha256": "8a2087b1a06028a77783d38bd72e52453645a4cf23cd0725a54dda9dcd77e8dc"
+    },
+    "after_correction": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_after.mp3",
+      "bytes": 961768,
+      "sha256": "5b516647073d84023b7de68798680a7fa0a3a7547d20e02197e0365483f8261e"
+    },
+    "gain_only_diagnostic": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before_minus6db_gain_only.mp3",
+      "bytes": 961768,
+      "sha256": "7b67dc0a2718b8ba1e5680bfe0f05d1e4474c043407c90b875a65d1cd43dbb22"
+    }
+  },
+  "integrated_loudness_change_lu": -6.25,
+  "originals_preserved": true,
+  "canonical_preflight_and_alignment_untouched": true,
+  "video_rendered": false,
+  "tts_calls": 0,
+  "software_or_model_installs": 0,
+  "provider_spend": 0,
+  "human_listening_approved": false,
+  "assembly_allowed": false,
+  "professional_references": [
+    {
+      "title": "iZotope RX De-plosive documentation",
+      "url": "https://downloads.izotope.com/docs/rx6/26-de-plosive/index.html"
+    },
+    {
+      "title": "iZotope voice cleanup tutorial",
+      "url": "https://www.izotope.com/community/blog/how-to-clean-up-voice-recordings-video-podcasts"
+    }
+  ],
+  "limitations": [
+    "Candidate detector is not a phoneme classifier; false positives can occur on voice fundamentals or other low-frequency transients.",
+    "Human listening has not verified success, naturalness or absence of remaining thumps.",
+    "Full corrected soundtrack is intentionally at least6dB quieter overall; no loudness restoration was applied.",
+    "Historical full-listen approval does not approve corrected output."
+  ],
+  "commands": [
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "-map",
+      "0:a:0",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-map",
+      "0:a:0",
+      "-af",
+      "atrim=start_sample=13230000:end_sample=14994000,asetpts=PTS-STARTPTS",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "-map",
+      "0:a:0",
+      "-af",
+      "atrim=start_sample=13230000:end_sample=14994000,asetpts=PTS-STARTPTS",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_after.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-map",
+      "0:a:0",
+      "-af",
+      "atrim=start_sample=13230000:end_sample=14994000,asetpts=PTS-STARTPTS,volume=-6dB",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before_minus6db_gain_only.mp3"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample:format=duration,size",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample:format=duration,size",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample:format=duration,size",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_after.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before_minus6db_gain_only.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-version"
+    ],
+    [
+      "ffprobe",
+      "-version"
+    ]
+  ],
+  "tool_versions": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "processor": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\apply_correction_02.py",
+    "bytes": 15865,
+    "sha256": "52cf35977305da92870aa4555999fb0efda0d81534be94834be1e072107ea643"
+  },
+  "output_files": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "bytes": 75485228,
+      "sha256": "2c91f93c26182807405ab08434b2726dcde09eac31f1697fd5dba9379a731637"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.mp3",
+      "bytes": 13694894,
+      "sha256": "605a49634f1429610111bcbe54aadbb55957ff93efc58ae7c7d46718ade71003"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\candidate_plosive_events.csv",
+      "bytes": 99487,
+      "sha256": "84c289e05ee690640b0198f12b02c275ddb285eef0a4e654be0b8075048686ca"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Audio_Correction_02_Report.md",
+      "bytes": 2309,
+      "sha256": "cc0c664ccef8618f321c889124c53cd9f384ce172307b7f88bc2e7908bc37129"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before.mp3",
+      "bytes": 961768,
+      "sha256": "8a2087b1a06028a77783d38bd72e52453645a4cf23cd0725a54dda9dcd77e8dc"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_after.mp3",
+      "bytes": 961768,
+      "sha256": "5b516647073d84023b7de68798680a7fa0a3a7547d20e02197e0365483f8261e"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\example_300_340_before_minus6db_gain_only.mp3",
+      "bytes": 961768,
+      "sha256": "7b67dc0a2718b8ba1e5680bfe0f05d1e4474c043407c90b875a65d1cd43dbb22"
+    }
+  ],
+  "receipt_self_hash_omitted": true,
+  "output_file_count_including_processor_and_receipt": 9,
+  "new_output_bytes_excluding_receipt": 92183087
+}

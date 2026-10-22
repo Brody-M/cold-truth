@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-10-22T02:09:15.922678+00:00",
+  "read_only_endpoint": "https://api.elevenlabs.io/v2/voices?voice_ids=nPpkc230TdYdntJKFNby&include_custom_rates=false&include_total_count=false&page_size=1",
+  "filter_contract_source": "https://elevenlabs.io/docs/api-reference/voices/search",
+  "filter_meaning": "include_custom_rates=false excludes voices with custom sharing rates",
+  "matching_voices": [
+    {
+      "voice_id": "nPpkc230TdYdntJKFNby",
+      "name": "Mia - Clear & Emotive Female Narrator ",
+      "rate": 1.0,
+      "fiat_rate": null
+    }
+  ],
+  "subscription": {
+    "status": "active",
+    "tier": "payg",
+    "character_count": 1783,
+    "character_limit": 10000,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false
+  },
+  "base_model_credit_source": "https://elevenlabs.io/pricing",
+  "base_model_upper_bound_credits_per_character": 1,
+  "upper_bound_for_1812_characters": 1812,
+  "approved_cap": 2500,
+  "generation_requests": 0,
+  "credential_saved_or_printed": false
+}

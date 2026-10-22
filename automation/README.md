@@ -1,5 +1,13 @@
 # Cold Truth Backend Orchestration
 
+**Current entry point:** [Execution Plan v2](<../Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md>) and [project reassessment](<../Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md>). The C/L/H sections below document historical experiments and scoped test results; they are not the current task queue or production readiness evidence. Real adapters remain disabled in `runtime_config.json`.
+
+The [October assessment](<../Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md>) distinguishes fixture checks from the missing real-file/preflight integration. Completing every generic adapter is required only for the automated route. The separately authorized direct/manual route permitted by AGENTS.md may be used for the first pilot with complete manifests and the same editorial/runtime/rights gates; it must not fabricate orchestrator state or relabel real media as synthetic.
+
+Use `python -B automation/vault_audit.py --strict --output docs/vault_audit.json` for local vault navigation checks. See [the testing guide](../docs/TESTING.md) for scope and regression commands.
+
+The October 20 M4 implementation adds `pilot_evidence.py` for the separate direct pilot route: paired-script binding, measured-audio preflight, real-file rights/isolation and transcript timing/SRT checks. Use [the operator runbook](<../Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md>) for exact evidence formats and authorization boundaries. `test_pilot_evidence.py` uses inert byte fixtures and mocked probes only. Legacy CLI quarantine and the fixture-only checker remain unchanged; no generation, renderer or automatic production adapter was enabled.
+
 The stateful orchestrator is `automation/orchestrator.py`. It defaults to dry-run, validates deterministic case selection and the two human checkpoints, writes an append-only audit manifest, and never publishes. Phase B adds a provider-neutral agent runner with contract validation and immutable per-attempt records.
 
 ```powershell

@@ -1,0 +1,760 @@
+{
+  "schema_version": "cold_truth.reviewed_alignment.v1",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "tool": "Existing faster-whisper1.2.1 CPU/int8 anchors plus WhisperX3.4.5/torchaudio wav2vec2 forced alignment; local lossless word-time caption segmentation",
+  "recorded_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "reviewed_machine_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_draft.json",
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26",
+    "bytes": 599539
+  },
+  "normalization": {
+    "maximum_seconds": 5.5,
+    "maximum_text_characters": 78,
+    "line_width": 42,
+    "word_timestamps_changed": false,
+    "spoken_sequence_changed": false,
+    "rendered_caption_readability_review_pending": true
+  },
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 4.962,
+      "text": "On the afternoon Amy Mihaljevic\ndisappeared, her mother received a phone\ncall"
+    },
+    {
+      "start": 5.002,
+      "end": 5.342,
+      "text": "from her."
+    },
+    {
+      "start": 6.442,
+      "end": 9.784,
+      "text": "An FBI account describes Amy saying she\nwas okay."
+    },
+    {
+      "start": 10.844,
+      "end": 12.965,
+      "text": "Her mother believed she was calling from\nhome."
+    },
+    {
+      "start": 14.025,
+      "end": 19.107,
+      "text": "According to FBI Special Agent Vicki\nAnderson, Amy was already with the person"
+    },
+    {
+      "start": 19.407,
+      "end": 20.147,
+      "text": "who had taken her."
+    },
+    {
+      "start": 21.108,
+      "end": 25.71,
+      "text": "A familiar kind of check-in had given her\nmother a mistaken picture of where"
+    },
+    {
+      "start": 25.75,
+      "end": 26.45,
+      "text": "her daughter was."
+    },
+    {
+      "start": 27.671,
+      "end": 30.592,
+      "text": "Amy was ten years old and lived in Bay\nVillage, Ohio."
+    },
+    {
+      "start": 31.513,
+      "end": 33.074,
+      "text": "She enjoyed riding her bicycle."
+    },
+    {
+      "start": 34.175,
+      "end": 39.178,
+      "text": "In a family interview years later, her\nfather, Mark, remembered another part"
+    },
+    {
+      "start": 39.218,
+      "end": 44.262,
+      "text": "of her life: the horses she rode, and the\nway she played with their dog, Jake."
+    },
+    {
+      "start": 45.202,
+      "end": 48.564,
+      "text": "She had taught him to jump over her legs\nas though he were a horse."
+    },
+    {
+      "start": 49.845,
+      "end": 54.929,
+      "text": "It is a small memory of Amy doing\nsomething she loved, before her name\nbecame"
+    },
+    {
+      "start": 54.989,
+      "end": 56.37,
+      "text": "attached to an investigation."
+    },
+    {
+      "start": 57.61,
+      "end": 62.814,
+      "text": "Before October 27, 1989, someone had\ncontacted Amy with a"
+    },
+    {
+      "start": 62.874,
+      "end": 64.655,
+      "text": "plan that involved her mother."
+    },
+    {
+      "start": 65.656,
+      "end": 70.059,
+      "text": "The caller said Amy could help choose a\ngift to celebrate a promotion at work."
+    },
+    {
+      "start": 71.039,
+      "end": 74.942,
+      "text": "Bay Village Police place that contact\nweeks before the disappearance."
+    },
+    {
+      "start": 75.983,
+      "end": 79.945,
+      "text": "The meeting was arranged for after school,\nat a nearby shopping center."
+    },
+    {
+      "start": 80.926,
+      "end": 85.809,
+      "text": "The promise of a present for her mother\nwas the reason Amy had been given for"
+    },
+    {
+      "start": 85.849,
+      "end": 86.31,
+      "text": "going there."
+    },
+    {
+      "start": 87.53,
+      "end": 90.011,
+      "text": "That Friday, Amy left school on foot."
+    },
+    {
+      "start": 90.831,
+      "end": 95.493,
+      "text": "The FBI says she went to Bay Village\nSquare and was seen outside a business,"
+    },
+    {
+      "start": 96.173,
+      "end": 97.554,
+      "text": "apparently waiting for someone."
+    },
+    {
+      "start": 98.594,
+      "end": 102.976,
+      "text": "The police account describes witnesses\nseeing her speak with an unidentified"
+    },
+    {
+      "start": 103.036,
+      "end": 105.656,
+      "text": "man, then walk through the parking lot\nwith him."
+    },
+    {
+      "start": 106.717,
+      "end": 109.118,
+      "text": "No vehicle was seen, according to that\naccount."
+    },
+    {
+      "start": 110.058,
+      "end": 114.039,
+      "text": "The sighting establishes a public point in\nthe sequence, but it does not"
+    },
+    {
+      "start": 114.099,
+      "end": 115.78,
+      "text": "reveal where Amy went afterward."
+    },
+    {
+      "start": 116.62,
+      "end": 118.182,
+      "text": "Her bicycle was still at school."
+    },
+    {
+      "start": 119.122,
+      "end": 124.526,
+      "text": "In a June 2026 interview, her brother,\nJason, recalled noticing it there"
+    },
+    {
+      "start": 124.726,
+      "end": 126.268,
+      "text": "after his own classes ended."
+    },
+    {
+      "start": 127.328,
+      "end": 131.432,
+      "text": "News 5's account of the day says their\nmother later found the bicycle at the"
+    },
+    {
+      "start": 131.492,
+      "end": 134.774,
+      "text": "school and went to the police to report\nAmy missing."
+    },
+    {
+      "start": 135.835,
+      "end": 141.179,
+      "text": "By then, the expectation that she was\nsafely home had given way to a"
+    },
+    {
+      "start": 141.239,
+      "end": 141.799,
+      "text": "search for her."
+    },
+    {
+      "start": 143.16,
+      "end": 146.381,
+      "text": "Bay Village Police and the FBI began\ninvestigating."
+    },
+    {
+      "start": 147.221,
+      "end": 149.922,
+      "text": "Public appeals spread beyond the shopping\ncenter."
+    },
+    {
+      "start": 150.863,
+      "end": 155.784,
+      "text": "News 5's reporting describes\nmissing-person posters in shop windows and"
+    },
+    {
+      "start": 155.864,
+      "end": 158.285,
+      "text": "flyers distributed around the region."
+    },
+    {
+      "start": 159.385,
+      "end": 164.047,
+      "text": "A local Pizza Hut put Amy's poster and a\ncomposite drawing on its boxes."
+    },
+    {
+      "start": 165.067,
+      "end": 169.389,
+      "text": "Those efforts carried the appeal into\nordinary places where someone might"
+    },
+    {
+      "start": 169.449,
+      "end": 172.65,
+      "text": "recognize her or remember the man seen\nwith her."
+    },
+    {
+      "start": 173.77,
+      "end": 177.573,
+      "text": "Inside the investigation, information also\naccumulated."
+    },
+    {
+      "start": 178.514,
+      "end": 182.877,
+      "text": "The same reporting describes officers and\nfederal agents working through"
+    },
+    {
+      "start": 182.917,
+      "end": 187.46,
+      "text": "leads, with a law-enforcement computer\nsystem strained by the volume of"
+    },
+    {
+      "start": 187.561,
+      "end": 188.041,
+      "text": "inquiries."
+    },
+    {
+      "start": 189.142,
+      "end": 194.025,
+      "text": "People were being asked to look back at\none afternoon, while investigators had"
+    },
+    {
+      "start": 194.065,
+      "end": 195.426,
+      "text": "to organize what came in."
+    },
+    {
+      "start": 196.507,
+      "end": 199.629,
+      "text": "The public search continued, but Amy did\nnot return home."
+    },
+    {
+      "start": 201.291,
+      "end": 206.575,
+      "text": "On February 8, 1990, a jogger found Amy's\nbody in a field in"
+    },
+    {
+      "start": 206.655,
+      "end": 207.896,
+      "text": "rural Ashland County."
+    },
+    {
+      "start": 208.797,
+      "end": 211.659,
+      "text": "She was wearing the clothing in which she\nhad last been seen."
+    },
+    {
+      "start": 212.62,
+      "end": 216.523,
+      "text": "The search for a missing child had become\nan investigation into her death."
+    },
+    {
+      "start": 217.604,
+      "end": 222.628,
+      "text": "The discovery gave investigators another\nlocation to examine, beyond the"
+    },
+    {
+      "start": 222.668,
+      "end": 224.95,
+      "text": "shopping center where she had disappeared."
+    },
+    {
+      "start": 226.17,
+      "end": 229.631,
+      "text": "Some of the things believed to have been\nwith her were never recovered."
+    },
+    {
+      "start": 230.712,
+      "end": 235.834,
+      "text": "The FBI lists a turquoise horse earring,\nblack ankle boots and a black leather"
+    },
+    {
+      "start": 235.854,
+      "end": 236.234,
+      "text": "binder."
+    },
+    {
+      "start": 237.114,
+      "end": 240.155,
+      "text": "Those objects remain part of its public\nappeal."
+    },
+    {
+      "start": 241.055,
+      "end": 245.277,
+      "text": "They are details someone might recognize,\nbut the published record does not"
+    },
+    {
+      "start": 245.337,
+      "end": 246.717,
+      "text": "establish what happened to them."
+    },
+    {
+      "start": 247.718,
+      "end": 253.06,
+      "text": "Their absence cannot explain, by itself,\nwho took Amy or where she was"
+    },
+    {
+      "start": 253.12,
+      "end": 253.4,
+      "text": "killed."
+    },
+    {
+      "start": 254.38,
+      "end": 258.984,
+      "text": "Years later, investigators asked the\npublic to look closely at another object."
+    },
+    {
+      "start": 259.984,
+      "end": 264.868,
+      "text": "At a 2016 news conference, authorities\ndisplayed a homemade-looking curtain"
+    },
+    {
+      "start": 265.408,
+      "end": 268.31,
+      "text": "found in the field where Amy's body had\nbeen discovered."
+    },
+    {
+      "start": 269.531,
+      "end": 274.915,
+      "text": "News 5 reported a connection between hair\non the curtain and the family's dog."
+    },
+    {
+      "start": 275.996,
+      "end": 280.279,
+      "text": "The appeal was for recognition of the\ntextile: where it might have come from,"
+    },
+    {
+      "start": 280.859,
+      "end": 281.78,
+      "text": "or who might have made it."
+    },
+    {
+      "start": 282.72,
+      "end": 284.301,
+      "text": "The release brought responses."
+    },
+    {
+      "start": 285.422,
+      "end": 290.526,
+      "text": "Cleveland 19 reported that the\nprosecutor's office received calls and\ntips"
+    },
+    {
+      "start": 290.706,
+      "end": 294.088,
+      "text": "afterward, and that law enforcement was\nfollowing them up."
+    },
+    {
+      "start": 295.069,
+      "end": 299.772,
+      "text": "The curtain offered a possible connection\nbetween a physical object and"
+    },
+    {
+      "start": 299.852,
+      "end": 303.554,
+      "text": "information someone outside the\ninvestigation might hold."
+    },
+    {
+      "start": 304.615,
+      "end": 309.959,
+      "text": "Its owner and origin were still questions;\nthe public release did not announce"
+    },
+    {
+      "start": 309.999,
+      "end": 311.5,
+      "text": "that either had been established."
+    },
+    {
+      "start": 312.56,
+      "end": 317.243,
+      "text": "The investigation also continued through\ninterviews and renewed publicity."
+    },
+    {
+      "start": 318.544,
+      "end": 323.747,
+      "text": "In a report marking thirty years since Amy\ndisappeared, FBI Special Agent"
+    },
+    {
+      "start": 323.827,
+      "end": 328.63,
+      "text": "Lisa Hack described more than a hundred\ninterviews during her six years"
+    },
+    {
+      "start": 328.71,
+      "end": 329.591,
+      "text": "working on the case."
+    },
+    {
+      "start": 330.731,
+      "end": 333.153,
+      "text": "She said the files filled seventy volumes."
+    },
+    {
+      "start": 333.873,
+      "end": 338.776,
+      "text": "The FBI had also put up billboards around\nCleveland and in neighboring states,"
+    },
+    {
+      "start": 339.477,
+      "end": 341.038,
+      "text": "asking again for information."
+    },
+    {
+      "start": 341.898,
+      "end": 344.96,
+      "text": "Those were accounts of continuing work,\nnot a solved case."
+    },
+    {
+      "start": 346.221,
+      "end": 351.524,
+      "text": "In 2021, Bay Village Sergeant Edward\nChapman described a further"
+    },
+    {
+      "start": 351.584,
+      "end": 353.165,
+      "text": "reason for examining the curtain."
+    },
+    {
+      "start": 354.166,
+      "end": 358.048,
+      "text": "He told News 5 that testing had identified\nAmy's hair on it."
+    },
+    {
+      "start": 359.029,
+      "end": 364.412,
+      "text": "Investigators again asked whether anyone\nrecognized the unusual, apparently"
+    },
+    {
+      "start": 364.472,
+      "end": 365.553,
+      "text": "handmade textile."
+    },
+    {
+      "start": 366.673,
+      "end": 370.596,
+      "text": "The new statement strengthened their\npublic explanation for its relevance."
+    },
+    {
+      "start": 371.356,
+      "end": 375.699,
+      "text": "It did not supply a public account of\nwhere the crime occurred or identify the"
+    },
+    {
+      "start": 375.739,
+      "end": 376.7,
+      "text": "person responsible."
+    },
+    {
+      "start": 377.68,
+      "end": 381.081,
+      "text": "The next reported testing developments\ninvolved Amy's clothing."
+    },
+    {
+      "start": 382.102,
+      "end": 387.443,
+      "text": "In 2024, police said retesting had\ndetected male DNA, but the"
+    },
+    {
+      "start": 387.503,
+      "end": 390.084,
+      "text": "amount was too small to create a profile."
+    },
+    {
+      "start": 391.104,
+      "end": 396.446,
+      "text": "That distinction matters: detecting\nmaterial and producing a usable profile"
+    },
+    {
+      "start": 396.846,
+      "end": 397.887,
+      "text": "were different outcomes."
+    },
+    {
+      "start": 399.047,
+      "end": 403.508,
+      "text": "Investigators were hoping that more\nsensitive procedures might eventually"
+    },
+    {
+      "start": 403.568,
+      "end": 405.289,
+      "text": "allow further work on the sample."
+    },
+    {
+      "start": 406.269,
+      "end": 408.53,
+      "text": "They had not announced an identification\nfrom it."
+    },
+    {
+      "start": 409.43,
+      "end": 411.632,
+      "text": "Another round of work involved separate\nhairs."
+    },
+    {
+      "start": 412.873,
+      "end": 417.896,
+      "text": "News 5 reported that an FBI laboratory had\nnoticed hairs on evidence slides"
+    },
+    {
+      "start": 418.356,
+      "end": 420.858,
+      "text": "previously thought to contain clothing\nfibers."
+    },
+    {
+      "start": 421.758,
+      "end": 425.08,
+      "text": "They were sent to a private laboratory in\nCalifornia for testing."
+    },
+    {
+      "start": 426.121,
+      "end": 430.064,
+      "text": "Chapman cautioned that the hairs did not\nnecessarily belong to the person"
+    },
+    {
+      "start": 430.124,
+      "end": 434.587,
+      "text": "responsible, and that contamination was\npossible after years of handling."
+    },
+    {
+      "start": 435.567,
+      "end": 439.33,
+      "text": "These were separate from the small DNA\nsample on Amy's clothing."
+    },
+    {
+      "start": 440.37,
+      "end": 445.454,
+      "text": "In January 2026, Cleveland 19 reported a\nsetback in that hair"
+    },
+    {
+      "start": 445.494,
+      "end": 445.914,
+      "text": "testing."
+    },
+    {
+      "start": 446.954,
+      "end": 451.917,
+      "text": "Detective Sergeant Jay Elish said Astrea\nForensics could not obtain a"
+    },
+    {
+      "start": 451.977,
+      "end": 454.059,
+      "text": "profile from the submitted hairs."
+    },
+    {
+      "start": 455.059,
+      "end": 458.381,
+      "text": "The material was likely too small or too\ndegraded."
+    },
+    {
+      "start": 459.482,
+      "end": 464.265,
+      "text": "Investigators were continuing with DNA\nwork, but this particular effort had"
+    },
+    {
+      "start": 464.365,
+      "end": 466.046,
+      "text": "not produced the result they wanted."
+    },
+    {
+      "start": 466.926,
+      "end": 471.889,
+      "text": "That outcome concerned the hairs; it did\nnot erase the separate clothing-DNA"
+    },
+    {
+      "start": 471.95,
+      "end": 472.31,
+      "text": "finding."
+    },
+    {
+      "start": 473.39,
+      "end": 478.753,
+      "text": "By June, Police Chief Robert Gillespie was\ndescribing the resources needed to"
+    },
+    {
+      "start": 478.813,
+      "end": 479.954,
+      "text": "keep testing evidence."
+    },
+    {
+      "start": 480.974,
+      "end": 485.717,
+      "text": "He told Cleveland 19 that work was\ncontinuing, although he could not discuss"
+    },
+    {
+      "start": 485.977,
+      "end": 487.278,
+      "text": "every item being tested."
+    },
+    {
+      "start": 488.338,
+      "end": 493.461,
+      "text": "He explained that the Amy Fund\nsupplemented other funding so\ninvestigators"
+    },
+    {
+      "start": 493.521,
+      "end": 496.522,
+      "text": "could respond when testing opportunities\narose."
+    },
+    {
+      "start": 497.783,
+      "end": 502.425,
+      "text": "Bay Village's own community announcement\nalso describes the fund as supporting"
+    },
+    {
+      "start": 502.505,
+      "end": 505.587,
+      "text": "investigative costs, including DNA\ntesting."
+    },
+    {
+      "start": 506.688,
+      "end": 510.67,
+      "text": "Financial support helps that work\ncontinue; it is not a test result."
+    },
+    {
+      "start": 511.85,
+      "end": 517.252,
+      "text": "As of our October 16, 2026 source check,\nBay Village's public case"
+    },
+    {
+      "start": 517.312,
+      "end": 520.233,
+      "text": "page describes the investigation as\nongoing."
+    },
+    {
+      "start": 521.173,
+      "end": 524.514,
+      "text": "Police still ask for help identifying the\ncurtain and blanket."
+    },
+    {
+      "start": 525.395,
+      "end": 529.676,
+      "text": "The FBI continues to offer a reward of up\nto twenty-five thousand dollars for"
+    },
+    {
+      "start": 529.716,
+      "end": 534.257,
+      "text": "information leading to the arrest and\nconviction of those responsible for"
+    },
+    {
+      "start": 534.377,
+      "end": 534.958,
+      "text": "Amy's death."
+    },
+    {
+      "start": 536.038,
+      "end": 541.12,
+      "text": "These remain public requests for\ninformation, with the case unresolved in\nthe"
+    },
+    {
+      "start": 541.18,
+      "end": 541.98,
+      "text": "sources reviewed."
+    },
+    {
+      "start": 543.06,
+      "end": 547.384,
+      "text": "For Amy's family, those records sit\nalongside memories of a child."
+    },
+    {
+      "start": 548.264,
+      "end": 552.327,
+      "text": "In the thirty-year interview, her father\ndescribed still thinking about her"
+    },
+    {
+      "start": 552.407,
+      "end": 553.388,
+      "text": "several times a week."
+    },
+    {
+      "start": 554.289,
+      "end": 559.513,
+      "text": "The bicycle, the time with Jake, the\nthings she enjoyed: those belong to"
+    },
+    {
+      "start": 559.633,
+      "end": 562.455,
+      "text": "Amy's life, beyond the evidence left\nbehind."
+    },
+    {
+      "start": 563.596,
+      "end": 565.017,
+      "text": "Amy is a daughter and a sister."
+    },
+    {
+      "start": 565.717,
+      "end": 570.16,
+      "text": "The public appeal remains open, and the\neffort to find answers continues."
+    }
+  ],
+  "timing_review": {
+    "human_approved": true,
+    "approved_by": "Brody",
+    "approved_on": "2026-10-21",
+    "user_quote": "Reviewed full playback; approve synchronization",
+    "scope": "Full playback synchronization of reviewed 1267-word exact-audio draft across all19 sections, including flagged names/dates/numbers; caption boundaries/wrapping derived from those unchanged reviewed word times.",
+    "full_listen_passed": true,
+    "decision_receipt": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+      "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+      "bytes": 5512
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED_PENDING_ACTUAL_FULL_LISTEN",
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "request": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_preflight_request.json",
+    "sha256": "34d75f0910c913446a767b9d0215a799162f7906e891c6dbbd4eb402b24919c3",
+    "bytes": 2016
+  },
+  "actual_audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+    "bytes": 5898342
+  },
+  "measured_duration_seconds": 44.582312925170065,
+  "duration_in_target_range": true,
+  "assembly_allowed": false,
+  "blocking_result": "Human decision required"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "cold_truth.audio_review_preparation.v1",
+  "recorded_at_utc": "2026-10-22T04:04:42.744105+00:00",
+  "processor": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_candidate_review_05.py",
+    "bytes": 12482,
+    "sha256": "896c87d5eedb3d926aab8fe2e96f2a55cbe2ca7b469ed4094d9ab59431e08134"
+  },
+  "inputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+      "bytes": 440322,
+      "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+      "bytes": 7835,
+      "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment.json",
+      "bytes": 21406,
+      "sha256": "2e810fce2aacc71505e6419268a0e0992f1ffa8947a7658cff2a24c606f612bc"
+    }
+  ],
+  "caption_groups_before": 142,
+  "caption_groups_after": 131,
+  "short_orphan_groups_merged": 11,
+  "three_line_cues": 0,
+  "maximum_segment_seconds": 5.47396825396828,
+  "exact1267_word_sequence": true,
+  "all_times_monotonic": true,
+  "player_word_buttons": 1267,
+  "external_requests": false,
+  "actual_browser_playback_tested": false,
+  "human_audio_approved": false,
+  "human_timing_approved": false,
+  "assembly_allowed": false,
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.json",
+      "bytes": 30549,
+      "sha256": "32b5bf10e59d3c843b4bde78c3e7371ba2b014ce41031f98d66bb00654772f68"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.srt",
+      "bytes": 12904,
+      "sha256": "fb812922e676557763a4f6a5d353af8f7859646ad7aee1e97c25111f0ff9e1b2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.ass",
+      "bytes": 15131,
+      "sha256": "a1bc9d9fc8479db28de7e00cdd72157993736423e2a16f305b8d349bb8f063ae"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Candidate_05_Review.html",
+      "bytes": 439905,
+      "sha256": "98e6b60e4ccea2a1434319c2539610de46e88744a0826a4112315961dd68a975"
+    }
+  ],
+  "ui_static_notes": "Each playback refresh cancels the pending animation frame so seeks do not accumulate duplicate loops."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "cold_truth.actual_media_review_request.v1",
+  "prepared_at_utc": "2026-10-22T02:35:40.816445+00:00",
+  "longform": {
+    "video": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+      "sha256": "f7d55e51bcae8cf429df2c06debcb2f520d0ef1fa4aaca93c17fe877c2fcfeb0",
+      "bytes": 252524813
+    },
+    "review_note": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md",
+      "sha256": "33673ab19bb66efc42d8da5205895ed10d432cf7e620a2d799930fc27ba5a6c5",
+      "bytes": 1998
+    },
+    "qc": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_01_qc.json",
+      "sha256": "a1559a65d1e5b0c3518860b96a868dcbadec6f1edad5ffd8d014f51fd69fdab4",
+      "bytes": 7277
+    },
+    "human_full_playback_approved": false,
+    "caption_three_line_issue_disclosed": true,
+    "remaining_authorized_corrective_renders": 1
+  },
+  "shorts_audio_timing": {
+    "packet": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+      "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e",
+      "bytes": 8200
+    },
+    "human_approved": false,
+    "assembly_allowed": false
+  },
+  "scope": "Actual full-playback review of long-form cut/current caption layout, plus actual audio-quality and synchronization review for all three Shorts. Execution grant already exists; no new budget request."
+}

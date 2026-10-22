@@ -1,0 +1,244 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "00_START_HERE.md",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 540,
+      "color": "1"
+    },
+    {
+      "id": "plan",
+      "type": "file",
+      "file": "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "x": 560,
+      "y": 0,
+      "width": 480,
+      "height": 540,
+      "color": "2"
+    },
+    {
+      "id": "research",
+      "type": "file",
+      "file": "1_IDEAS/RESEARCH_HUB.md",
+      "x": 1120,
+      "y": 0,
+      "width": 480,
+      "height": 540,
+      "color": "3"
+    },
+    {
+      "id": "workflow",
+      "type": "file",
+      "file": "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "x": 1680,
+      "y": 0,
+      "width": 480,
+      "height": 540,
+      "color": "4"
+    },
+    {
+      "id": "production",
+      "type": "file",
+      "file": "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "x": 2240,
+      "y": 0,
+      "width": 480,
+      "height": 540,
+      "color": "5"
+    },
+    {
+      "id": "dashboard",
+      "type": "file",
+      "file": "0_ADMIN/PROJECT_DASHBOARD.md",
+      "x": 560,
+      "y": 640,
+      "width": 480,
+      "height": 540,
+      "color": "2"
+    },
+    {
+      "id": "roles",
+      "type": "file",
+      "file": "0_ADMIN/ROLE_HUB.md",
+      "x": 1120,
+      "y": 640,
+      "width": 480,
+      "height": 540,
+      "color": "3"
+    },
+    {
+      "id": "standard",
+      "type": "file",
+      "file": "0_ADMIN/CONTENT_FORMAT_STANDARD.md",
+      "x": 1680,
+      "y": 640,
+      "width": 480,
+      "height": 540,
+      "color": "4"
+    },
+    {
+      "id": "audit",
+      "type": "file",
+      "file": "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "x": 0,
+      "y": 640,
+      "width": 480,
+      "height": 540,
+      "color": "6"
+    },
+    {
+      "id": "amy",
+      "type": "file",
+      "file": "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "x": 1120,
+      "y": 1280,
+      "width": 480,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "gate",
+      "type": "text",
+      "text": "M5 complete: exact9:08.59 audio/timing approved. M6: corrective review02; actual final video playback pending. No publishing.",
+      "x": 1680,
+      "y": 1280,
+      "width": 480,
+      "height": 360,
+      "color": "6"
+    },
+    {
+      "id": "pilot-runbook",
+      "type": "file",
+      "file": "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
+      "x": 2240,
+      "y": 1280,
+      "width": 480,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "project-memory",
+      "type": "file",
+      "file": "0_ADMIN/PROJECT_MEMORY.md",
+      "x": 0,
+      "y": 1280,
+      "width": 480,
+      "height": 520,
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-0",
+      "fromNode": "home",
+      "fromSide": "right",
+      "toNode": "plan",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "1. Priorities"
+    },
+    {
+      "id": "edge-1",
+      "fromNode": "plan",
+      "fromSide": "right",
+      "toNode": "research",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "2. Verify evidence"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "research",
+      "fromSide": "right",
+      "toNode": "workflow",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "3. Viability then draft"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "workflow",
+      "fromSide": "right",
+      "toNode": "production",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "4. Paired approval then authorized production"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "audit",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Audit evidence"
+    },
+    {
+      "id": "edge-5",
+      "fromNode": "plan",
+      "fromSide": "bottom",
+      "toNode": "dashboard",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Current work"
+    },
+    {
+      "id": "edge-6",
+      "fromNode": "research",
+      "fromSide": "bottom",
+      "toNode": "roles",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Responsibilities"
+    },
+    {
+      "id": "edge-7",
+      "fromNode": "workflow",
+      "fromSide": "bottom",
+      "toNode": "standard",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Locked rules"
+    },
+    {
+      "id": "edge-amy",
+      "fromNode": "research",
+      "fromSide": "bottom",
+      "toNode": "amy",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Current editorial focus"
+    },
+    {
+      "id": "edge-gate",
+      "fromNode": "amy",
+      "fromSide": "right",
+      "toNode": "gate",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Next work and actual gates"
+    },
+    {
+      "id": "edge-pilot-runbook",
+      "fromNode": "gate",
+      "fromSide": "right",
+      "toNode": "pilot-runbook",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Current production handoff"
+    },
+    {
+      "id": "edge-project-memory",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "project-memory",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Continuity and decisions"
+    }
+  ]
+}

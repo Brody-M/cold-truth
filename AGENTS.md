@@ -4,6 +4,23 @@
 
 Cold Truth is a faceless true-crime YouTube channel. Episodes use AI narration and are repurposed into TikTok and YouTube Shorts. The long-form and short-form versions are related editorially, but use different visual tracks.
 
+## Current project entry points — 2026-09-05
+
+- Start at [Home](Brody's Vault/00_START_HERE.md), then [Execution Plan v2](Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md) and [Project Dashboard](Brody's Vault/0_ADMIN/PROJECT_DASHBOARD.md).
+- For continuation context, read [Project memory](Brody's Vault/0_ADMIN/PROJECT_MEMORY.md), then the live dashboard/state and original evidence. Memory summaries and inferred graph edges never create approval or verified case facts.
+- Amy current status: full9:08.59 repaired/paced audio and synchronization explicitly approved October22;14new stock uses approved with conditions. Exact preflight/alignment/assets pass. Corrective review02 uses the final long-form render slot; inspect Automation/Production_Update_05.md and the live receipt. No new narration or publishing; Shorts actual audio/timing review remains pending. Preserve historical approvals and provider holds.
+- Brody requested reassessment and implementation after unreliable externally generated plans. The v2 working plan supersedes v1's task ordering and H12's routine planning authorization gates. Preserve historical approval records; do not apply their approval to revised documents.
+- Routine local implementation, navigation repair, proportionate offline testing, and editorial preparation may continue within the current user request. Do not require a new task for each repair or harmless stage transition.
+- All editorial, paired-script-approval, runtime, track-isolation and explicit Phase 2 rules below remain in force. “Phase 2” means media-production authorization; use “Stage” for numbered editorial steps.
+
+## Implementation discipline
+
+- Complete the next eligible milestone using the smallest maintainable change that meets its requirements. Reuse existing helpers, installed tools and standard-library features before adding a dependency.
+- Read affected callers and records before editing; update their real dependencies, tests and navigation together. Do not introduce a framework, wrapper or configuration layer for a hypothetical later need.
+- Prefer a documented direct/manual pilot step when it meets the requirements; automate repeated work after the pilot exposes the actual bottleneck.
+- Keep meaningful boundary tests for new parsing, money, state or security logic. Routine prose/navigation edits need proportionate verification rather than new test scaffolding.
+- Simplification must retain source traceability, paired approval, actual-audio duration checks, rights evidence, track isolation and production/publishing authority. Report material checks that remain unperformed.
+
 ## Non-negotiable visual rule
 
 - **YouTube long-form:** use case-appropriate B-roll and case graphics.

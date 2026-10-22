@@ -44,7 +44,8 @@ The main supporting modules are:
 | `audit_event_chain.py` | Maintains append-only, hash-linked workflow events. |
 | `artifact_invalidation.py` | Marks downstream work stale when an upstream artifact changes. |
 | `status_view.py` | Produces a canonical read-only view of the workflow state. |
-| `cold_truth_pipeline.py` | Provides bounded local preflight operations, including measured narration checks. |
+| `cold_truth_pipeline.py` | Quarantined legacy helper; retains measured-audio functions but its CLI cannot write canonical real-episode state. |
+| `vault_audit.py` | Checks local Obsidian file links, duplicate note names, connected components and workflow canvas references. |
 | `track_isolation.py` | Verifies that long-form and Shorts visual assets do not overlap. |
 
 ## Safety boundaries
@@ -77,6 +78,8 @@ The long-form and short-form branches are editorially related but visually isola
 `automation/test_track_isolation.py` protects this rule in the synthetic regression suite.
 
 ## Where to go next
+
+- Start at [Vault Home](<../Brody's Vault/00_START_HERE.md>) and the [working v2 plan](<../Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md>). The old phase reports are historical evidence, not the active task queue.
 
 - For the human editorial path, read [CONTENT_WORKFLOW.md](CONTENT_WORKFLOW.md).
 - For runnable checks, read [TESTING.md](TESTING.md).

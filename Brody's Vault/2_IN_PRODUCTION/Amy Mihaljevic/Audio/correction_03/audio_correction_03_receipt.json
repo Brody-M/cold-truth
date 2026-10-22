@@ -1,0 +1,2522 @@
+{
+  "schema_version": "cold_truth.audio_level_and_pacing_pilot.v1",
+  "status": "PILOT_AWAITING_LISTENING_NO_FULL_PACED_EPISODE",
+  "started_at_utc": "2026-10-22T03:17:22.815891+00:00",
+  "completed_at_utc": "2026-10-22T03:17:39.980646+00:00",
+  "role": "Editor",
+  "case_id": "amy-mihaljevic",
+  "narration_branch": "youtube-longform",
+  "source": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+    "bytes": 75485228,
+    "sha256": "2c91f93c26182807405ab08434b2726dcde09eac31f1697fd5dba9379a731637",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726",
+          "bits_per_raw_sample": "24"
+        }
+      ]
+    },
+    "samples": 25161728,
+    "duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -24.807416748450763,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-37.14",
+      "input_tp": "-24.81",
+      "input_lra": "2.30",
+      "input_thresh": "-47.74"
+    }
+  },
+  "approved_text": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\Narration_Text.txt",
+    "bytes": 7835,
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+  },
+  "timing_candidate_input": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\alignment_draft.json",
+    "bytes": 599539,
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+  },
+  "settings": {
+    "global_gain_db": -3.0,
+    "makeup_gain": false,
+    "normalization": false,
+    "whole_voice_speed_change": false,
+    "targets_seconds": {
+      "clause": 0.3,
+      "sentence": 0.6,
+      "paragraph": 0.9
+    },
+    "word_edge_guard_ms": 80,
+    "neighbor_alignment_min_score": 0.5,
+    "analysis_frame_samples": 441,
+    "quiet_rms_absolute_ceiling_dbfs": -62,
+    "quiet_rms_below_quieter_adjacent_word_db": 22,
+    "quiet_peak_ceiling_dbfs": -51,
+    "stronger_activity_guard_ms": 20,
+    "minimum_cut_ms": 40,
+    "join_fades_ms": 5,
+    "cut_policy": "Only longest verified quiet interior run of each source punctuation gap; preserve stronger activity and never force target gap duration."
+  },
+  "full_gain_only": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+    "bytes": 75485228,
+    "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726",
+          "bits_per_raw_sample": "24"
+        }
+      ]
+    },
+    "samples": 25161728,
+    "duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -27.80740829516941,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-40.14",
+      "input_tp": "-27.81",
+      "input_lra": "2.30",
+      "input_thresh": "-50.74"
+    }
+  },
+  "pilot": {
+    "source_start_sample": 0,
+    "source_end_sample_exclusive": 2500470,
+    "source_start_seconds": 0,
+    "source_end_seconds": 56.7,
+    "paragraph_count": 2,
+    "before": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.wav",
+      "bytes": 7501454,
+      "sha256": "3cda040183039cd71f3506a8c17364a6105f29113424681b6a4985d941dbbb0a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s24le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "56.700000",
+            "bits_per_raw_sample": "24"
+          }
+        ]
+      },
+      "samples": 2500470,
+      "duration_seconds": 56.7,
+      "sample_peak_dbfs": -28.222271151689036,
+      "samples_at_or_above_full_scale": 0,
+      "loudness": {
+        "input_i": "-39.86",
+        "input_tp": "-27.82",
+        "input_lra": "1.90",
+        "input_thresh": "-50.41"
+      }
+    },
+    "after": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.wav",
+      "bytes": 7067096,
+      "sha256": "eeebc51685054e84eed85e726117c9c97c048ebddde5a1a8bed3fc796e9c3c34",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s24le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "53.416871",
+            "bits_per_raw_sample": "24"
+          }
+        ]
+      },
+      "samples": 2355684,
+      "duration_seconds": 53.41687074829932,
+      "sample_peak_dbfs": -28.222271151689036,
+      "samples_at_or_above_full_scale": 0,
+      "loudness": {
+        "input_i": "-39.86",
+        "input_tp": "-27.81",
+        "input_lra": "1.60",
+        "input_thresh": "-50.26"
+      }
+    },
+    "removed_samples": 144786,
+    "removed_seconds": 3.2831292517006805,
+    "cut_count": 11,
+    "cuts": [
+      {
+        "word_index": 5,
+        "previous_word": "disappeared,",
+        "next_word": "her",
+        "kind": "clause",
+        "original_gap_seconds": 0.6199999999999997,
+        "target_gap_seconds": 0.3,
+        "previous_word_end_seconds": 2.801,
+        "next_word_start_seconds": 3.421,
+        "cut_start_sample": 129477,
+        "cut_end_sample_exclusive": 135652,
+        "cut_start_seconds": 2.935986394557823,
+        "cut_end_seconds": 3.0760090702947847,
+        "removed_samples": 6175,
+        "removed_seconds": 0.14002267573696145,
+        "resulting_gap_seconds": 0.4799773242630382,
+        "adjacent_word_rms_reference_dbfs": -36.37190752550081,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -66.54092096876995,
+        "removed_peak_dbfs": -56.50715464847765,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.863,
+          0.668
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 129477,
+        "pilot_output_join_seconds": 2.935986394557823
+      },
+      {
+        "word_index": 13,
+        "previous_word": "her.",
+        "next_word": "An",
+        "kind": "sentence",
+        "original_gap_seconds": 1.1000000000000005,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 5.342,
+        "next_word_start_seconds": 6.442,
+        "cut_start_sample": 242858,
+        "cut_end_sample_exclusive": 264027,
+        "cut_start_seconds": 5.506984126984127,
+        "cut_end_seconds": 5.987006802721089,
+        "removed_samples": 21169,
+        "removed_seconds": 0.48002267573696145,
+        "resulting_gap_seconds": 0.6199773242630391,
+        "adjacent_word_rms_reference_dbfs": -37.24158992274085,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.2800363598635,
+        "removed_peak_dbfs": -57.88206457282221,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.953,
+          0.849
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 236683,
+        "pilot_output_join_seconds": 5.366961451247166
+      },
+      {
+        "word_index": 22,
+        "previous_word": "okay.",
+        "next_word": "Her",
+        "kind": "sentence",
+        "original_gap_seconds": 1.0599999999999987,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 9.784,
+        "next_word_start_seconds": 10.844,
+        "cut_start_sample": 437648,
+        "cut_end_sample_exclusive": 457934,
+        "cut_start_seconds": 9.923990929705216,
+        "cut_end_seconds": 10.383990929705215,
+        "removed_samples": 20286,
+        "removed_seconds": 0.46,
+        "resulting_gap_seconds": 0.5999999999999988,
+        "adjacent_word_rms_reference_dbfs": -36.6943323591203,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.12057083779123,
+        "removed_peak_dbfs": -58.73209741294892,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.864,
+          0.848
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 410304,
+        "pilot_output_join_seconds": 9.303945578231293
+      },
+      {
+        "word_index": 30,
+        "previous_word": "home.",
+        "next_word": "According",
+        "kind": "sentence",
+        "original_gap_seconds": 1.0600000000000005,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 12.965,
+        "next_word_start_seconds": 14.025,
+        "cut_start_sample": 579032,
+        "cut_end_sample_exclusive": 599318,
+        "cut_start_seconds": 13.129977324263038,
+        "cut_end_seconds": 13.589977324263039,
+        "removed_samples": 20286,
+        "removed_seconds": 0.46,
+        "resulting_gap_seconds": 0.6000000000000005,
+        "adjacent_word_rms_reference_dbfs": -36.557623276852,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.15722829090721,
+        "removed_peak_dbfs": -59.502604763252116,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.802,
+          0.834
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 531402,
+        "pilot_output_join_seconds": 12.049931972789116
+      },
+      {
+        "word_index": 37,
+        "previous_word": "Anderson,",
+        "next_word": "Amy",
+        "kind": "clause",
+        "original_gap_seconds": 0.700999999999997,
+        "target_gap_seconds": 0.3,
+        "previous_word_end_seconds": 16.786,
+        "next_word_start_seconds": 17.487,
+        "cut_start_sample": 744893,
+        "cut_end_sample_exclusive": 749745,
+        "cut_start_seconds": 16.890997732426303,
+        "cut_end_seconds": 17.001020408163264,
+        "removed_samples": 4852,
+        "removed_seconds": 0.11002267573696145,
+        "resulting_gap_seconds": 0.5909773242630355,
+        "adjacent_word_rms_reference_dbfs": -36.4126624819891,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -66.64902161544325,
+        "removed_peak_dbfs": -57.344848835933,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.898,
+          0.913
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 676977,
+        "pilot_output_join_seconds": 15.35095238095238
+      },
+      {
+        "word_index": 47,
+        "previous_word": "her.",
+        "next_word": "A",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9610000000000021,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 20.147,
+        "next_word_start_seconds": 21.108,
+        "cut_start_sample": 894414,
+        "cut_end_sample_exclusive": 910334,
+        "cut_start_seconds": 20.281496598639457,
+        "cut_end_seconds": 20.64249433106576,
+        "removed_samples": 15920,
+        "removed_seconds": 0.36099773242630384,
+        "resulting_gap_seconds": 0.6000022675736982,
+        "adjacent_word_rms_reference_dbfs": -39.98065195793154,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -68.21685172186109,
+        "removed_peak_dbfs": -57.36088080553824,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.882,
+          0.907
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 821646,
+        "pilot_output_join_seconds": 18.63142857142857
+      },
+      {
+        "word_index": 64,
+        "previous_word": "was.",
+        "next_word": "Amy",
+        "kind": "paragraph",
+        "original_gap_seconds": 1.221,
+        "target_gap_seconds": 0.9,
+        "previous_word_end_seconds": 26.45,
+        "next_word_start_seconds": 27.671,
+        "cut_start_sample": 1180094,
+        "cut_end_sample_exclusive": 1194250,
+        "cut_start_seconds": 26.75950113378685,
+        "cut_end_seconds": 27.08049886621315,
+        "removed_samples": 14156,
+        "removed_seconds": 0.32099773242630386,
+        "resulting_gap_seconds": 0.9000022675736963,
+        "adjacent_word_rms_reference_dbfs": -37.78467472904176,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -67.97257437694545,
+        "removed_peak_dbfs": -55.77432720531304,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.978,
+          0.854
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1091406,
+        "pilot_output_join_seconds": 24.74843537414966
+      },
+      {
+        "word_index": 75,
+        "previous_word": "Ohio.",
+        "next_word": "She",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9210000000000029,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 30.592,
+        "next_word_start_seconds": 31.513,
+        "cut_start_sample": 1358566,
+        "cut_end_sample_exclusive": 1372722,
+        "cut_start_seconds": 30.806485260770977,
+        "cut_end_seconds": 31.12748299319728,
+        "removed_samples": 14156,
+        "removed_seconds": 0.32099773242630386,
+        "resulting_gap_seconds": 0.6000022675736991,
+        "adjacent_word_rms_reference_dbfs": -35.0460466226832,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -67.45026837110017,
+        "removed_peak_dbfs": -56.94098913202451,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.924,
+          0.987
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1255722,
+        "pilot_output_join_seconds": 28.474421768707483
+      },
+      {
+        "word_index": 80,
+        "previous_word": "bicycle.",
+        "next_word": "In",
+        "kind": "sentence",
+        "original_gap_seconds": 1.100999999999999,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 33.074,
+        "next_word_start_seconds": 34.175,
+        "cut_start_sample": 1476864,
+        "cut_end_sample_exclusive": 1488772,
+        "cut_start_seconds": 33.48897959183673,
+        "cut_end_seconds": 33.7590022675737,
+        "removed_samples": 11908,
+        "removed_seconds": 0.2700226757369614,
+        "resulting_gap_seconds": 0.8309773242630376,
+        "adjacent_word_rms_reference_dbfs": -37.604252469444674,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -65.97270912516568,
+        "removed_peak_dbfs": -56.932984038582134,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.844,
+          0.832
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1359864,
+        "pilot_output_join_seconds": 30.835918367346938
+      },
+      {
+        "word_index": 108,
+        "previous_word": "Jake.",
+        "next_word": "She",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9399999999999977,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 44.262,
+        "next_word_start_seconds": 45.202,
+        "cut_start_sample": 1963640,
+        "cut_end_sample_exclusive": 1975989,
+        "cut_start_seconds": 44.526984126984125,
+        "cut_end_seconds": 44.80700680272109,
+        "removed_samples": 12349,
+        "removed_seconds": 0.28002267573696143,
+        "resulting_gap_seconds": 0.6599773242630362,
+        "adjacent_word_rms_reference_dbfs": -38.49556266502097,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -65.54205715990992,
+        "removed_peak_dbfs": -56.50646207664473,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.967,
+          0.838
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1834732,
+        "pilot_output_join_seconds": 41.60390022675737
+      },
+      {
+        "word_index": 123,
+        "previous_word": "horse.",
+        "next_word": "It",
+        "kind": "sentence",
+        "original_gap_seconds": 1.2809999999999988,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 48.564,
+        "next_word_start_seconds": 49.845,
+        "cut_start_sample": 2153358,
+        "cut_end_sample_exclusive": 2156887,
+        "cut_start_seconds": 48.828979591836735,
+        "cut_end_seconds": 48.9090022675737,
+        "removed_samples": 3529,
+        "removed_seconds": 0.08002267573696145,
+        "resulting_gap_seconds": 1.2009773242630373,
+        "adjacent_word_rms_reference_dbfs": -36.34216864962867,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -64.34891704096003,
+        "removed_peak_dbfs": -57.05236700575835,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.854,
+          0.997
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 2012101,
+        "pilot_output_join_seconds": 45.62587301587302
+      }
+    ],
+    "identical_minus3db_sample_gain": true,
+    "before_preview": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.mp3",
+      "bytes": 1362382,
+      "sha256": "714ada2e074bc02c56462cd02781f965119fc41dbd5495377721c69d27e9131e"
+    },
+    "after_preview": {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.mp3",
+      "bytes": 1283387,
+      "sha256": "0359ae6ba8524eccf60a7b10e2373a7bc3fe6d43286b4e04659d5a489a4acb36"
+    }
+  },
+  "full_episode_machine_screened_potential": {
+    "candidate_cut_count": 11,
+    "maximum_under_this_conservative_plan_samples": 144786,
+    "maximum_under_this_conservative_plan_seconds": 3.2831292517006805,
+    "resulting_duration_seconds": 567.277596371882,
+    "at_least480_seconds": true,
+    "not_a_full_pacing_output": true,
+    "not_an_auditory_safety_guarantee": true,
+    "candidate_cuts": [
+      {
+        "word_index": 5,
+        "previous_word": "disappeared,",
+        "next_word": "her",
+        "kind": "clause",
+        "original_gap_seconds": 0.6199999999999997,
+        "target_gap_seconds": 0.3,
+        "previous_word_end_seconds": 2.801,
+        "next_word_start_seconds": 3.421,
+        "cut_start_sample": 129477,
+        "cut_end_sample_exclusive": 135652,
+        "cut_start_seconds": 2.935986394557823,
+        "cut_end_seconds": 3.0760090702947847,
+        "removed_samples": 6175,
+        "removed_seconds": 0.14002267573696145,
+        "resulting_gap_seconds": 0.4799773242630382,
+        "adjacent_word_rms_reference_dbfs": -36.37190752550081,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -66.54092096876995,
+        "removed_peak_dbfs": -56.50715464847765,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.863,
+          0.668
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 129477,
+        "pilot_output_join_seconds": 2.935986394557823
+      },
+      {
+        "word_index": 13,
+        "previous_word": "her.",
+        "next_word": "An",
+        "kind": "sentence",
+        "original_gap_seconds": 1.1000000000000005,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 5.342,
+        "next_word_start_seconds": 6.442,
+        "cut_start_sample": 242858,
+        "cut_end_sample_exclusive": 264027,
+        "cut_start_seconds": 5.506984126984127,
+        "cut_end_seconds": 5.987006802721089,
+        "removed_samples": 21169,
+        "removed_seconds": 0.48002267573696145,
+        "resulting_gap_seconds": 0.6199773242630391,
+        "adjacent_word_rms_reference_dbfs": -37.24158992274085,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.2800363598635,
+        "removed_peak_dbfs": -57.88206457282221,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.953,
+          0.849
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 236683,
+        "pilot_output_join_seconds": 5.366961451247166
+      },
+      {
+        "word_index": 22,
+        "previous_word": "okay.",
+        "next_word": "Her",
+        "kind": "sentence",
+        "original_gap_seconds": 1.0599999999999987,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 9.784,
+        "next_word_start_seconds": 10.844,
+        "cut_start_sample": 437648,
+        "cut_end_sample_exclusive": 457934,
+        "cut_start_seconds": 9.923990929705216,
+        "cut_end_seconds": 10.383990929705215,
+        "removed_samples": 20286,
+        "removed_seconds": 0.46,
+        "resulting_gap_seconds": 0.5999999999999988,
+        "adjacent_word_rms_reference_dbfs": -36.6943323591203,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.12057083779123,
+        "removed_peak_dbfs": -58.73209741294892,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.864,
+          0.848
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 410304,
+        "pilot_output_join_seconds": 9.303945578231293
+      },
+      {
+        "word_index": 30,
+        "previous_word": "home.",
+        "next_word": "According",
+        "kind": "sentence",
+        "original_gap_seconds": 1.0600000000000005,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 12.965,
+        "next_word_start_seconds": 14.025,
+        "cut_start_sample": 579032,
+        "cut_end_sample_exclusive": 599318,
+        "cut_start_seconds": 13.129977324263038,
+        "cut_end_seconds": 13.589977324263039,
+        "removed_samples": 20286,
+        "removed_seconds": 0.46,
+        "resulting_gap_seconds": 0.6000000000000005,
+        "adjacent_word_rms_reference_dbfs": -36.557623276852,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -70.15722829090721,
+        "removed_peak_dbfs": -59.502604763252116,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.802,
+          0.834
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 531402,
+        "pilot_output_join_seconds": 12.049931972789116
+      },
+      {
+        "word_index": 37,
+        "previous_word": "Anderson,",
+        "next_word": "Amy",
+        "kind": "clause",
+        "original_gap_seconds": 0.700999999999997,
+        "target_gap_seconds": 0.3,
+        "previous_word_end_seconds": 16.786,
+        "next_word_start_seconds": 17.487,
+        "cut_start_sample": 744893,
+        "cut_end_sample_exclusive": 749745,
+        "cut_start_seconds": 16.890997732426303,
+        "cut_end_seconds": 17.001020408163264,
+        "removed_samples": 4852,
+        "removed_seconds": 0.11002267573696145,
+        "resulting_gap_seconds": 0.5909773242630355,
+        "adjacent_word_rms_reference_dbfs": -36.4126624819891,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -66.64902161544325,
+        "removed_peak_dbfs": -57.344848835933,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.898,
+          0.913
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 676977,
+        "pilot_output_join_seconds": 15.35095238095238
+      },
+      {
+        "word_index": 47,
+        "previous_word": "her.",
+        "next_word": "A",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9610000000000021,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 20.147,
+        "next_word_start_seconds": 21.108,
+        "cut_start_sample": 894414,
+        "cut_end_sample_exclusive": 910334,
+        "cut_start_seconds": 20.281496598639457,
+        "cut_end_seconds": 20.64249433106576,
+        "removed_samples": 15920,
+        "removed_seconds": 0.36099773242630384,
+        "resulting_gap_seconds": 0.6000022675736982,
+        "adjacent_word_rms_reference_dbfs": -39.98065195793154,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -68.21685172186109,
+        "removed_peak_dbfs": -57.36088080553824,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.882,
+          0.907
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 821646,
+        "pilot_output_join_seconds": 18.63142857142857
+      },
+      {
+        "word_index": 64,
+        "previous_word": "was.",
+        "next_word": "Amy",
+        "kind": "paragraph",
+        "original_gap_seconds": 1.221,
+        "target_gap_seconds": 0.9,
+        "previous_word_end_seconds": 26.45,
+        "next_word_start_seconds": 27.671,
+        "cut_start_sample": 1180094,
+        "cut_end_sample_exclusive": 1194250,
+        "cut_start_seconds": 26.75950113378685,
+        "cut_end_seconds": 27.08049886621315,
+        "removed_samples": 14156,
+        "removed_seconds": 0.32099773242630386,
+        "resulting_gap_seconds": 0.9000022675736963,
+        "adjacent_word_rms_reference_dbfs": -37.78467472904176,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -67.97257437694545,
+        "removed_peak_dbfs": -55.77432720531304,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.978,
+          0.854
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1091406,
+        "pilot_output_join_seconds": 24.74843537414966
+      },
+      {
+        "word_index": 75,
+        "previous_word": "Ohio.",
+        "next_word": "She",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9210000000000029,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 30.592,
+        "next_word_start_seconds": 31.513,
+        "cut_start_sample": 1358566,
+        "cut_end_sample_exclusive": 1372722,
+        "cut_start_seconds": 30.806485260770977,
+        "cut_end_seconds": 31.12748299319728,
+        "removed_samples": 14156,
+        "removed_seconds": 0.32099773242630386,
+        "resulting_gap_seconds": 0.6000022675736991,
+        "adjacent_word_rms_reference_dbfs": -35.0460466226832,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -67.45026837110017,
+        "removed_peak_dbfs": -56.94098913202451,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.924,
+          0.987
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1255722,
+        "pilot_output_join_seconds": 28.474421768707483
+      },
+      {
+        "word_index": 80,
+        "previous_word": "bicycle.",
+        "next_word": "In",
+        "kind": "sentence",
+        "original_gap_seconds": 1.100999999999999,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 33.074,
+        "next_word_start_seconds": 34.175,
+        "cut_start_sample": 1476864,
+        "cut_end_sample_exclusive": 1488772,
+        "cut_start_seconds": 33.48897959183673,
+        "cut_end_seconds": 33.7590022675737,
+        "removed_samples": 11908,
+        "removed_seconds": 0.2700226757369614,
+        "resulting_gap_seconds": 0.8309773242630376,
+        "adjacent_word_rms_reference_dbfs": -37.604252469444674,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -65.97270912516568,
+        "removed_peak_dbfs": -56.932984038582134,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.844,
+          0.832
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1359864,
+        "pilot_output_join_seconds": 30.835918367346938
+      },
+      {
+        "word_index": 108,
+        "previous_word": "Jake.",
+        "next_word": "She",
+        "kind": "sentence",
+        "original_gap_seconds": 0.9399999999999977,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 44.262,
+        "next_word_start_seconds": 45.202,
+        "cut_start_sample": 1963640,
+        "cut_end_sample_exclusive": 1975989,
+        "cut_start_seconds": 44.526984126984125,
+        "cut_end_seconds": 44.80700680272109,
+        "removed_samples": 12349,
+        "removed_seconds": 0.28002267573696143,
+        "resulting_gap_seconds": 0.6599773242630362,
+        "adjacent_word_rms_reference_dbfs": -38.49556266502097,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -65.54205715990992,
+        "removed_peak_dbfs": -56.50646207664473,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.967,
+          0.838
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 1834732,
+        "pilot_output_join_seconds": 41.60390022675737
+      },
+      {
+        "word_index": 123,
+        "previous_word": "horse.",
+        "next_word": "It",
+        "kind": "sentence",
+        "original_gap_seconds": 1.2809999999999988,
+        "target_gap_seconds": 0.6,
+        "previous_word_end_seconds": 48.564,
+        "next_word_start_seconds": 49.845,
+        "cut_start_sample": 2153358,
+        "cut_end_sample_exclusive": 2156887,
+        "cut_start_seconds": 48.828979591836735,
+        "cut_end_seconds": 48.9090022675737,
+        "removed_samples": 3529,
+        "removed_seconds": 0.08002267573696145,
+        "resulting_gap_seconds": 1.2009773242630373,
+        "adjacent_word_rms_reference_dbfs": -36.34216864962867,
+        "quiet_rms_limit_dbfs": -62.0,
+        "quiet_peak_limit_dbfs": -51.0,
+        "removed_rms_dbfs": -64.34891704096003,
+        "removed_peak_dbfs": -57.05236700575835,
+        "retained_join_shoulders_verified": true,
+        "aligned_word_edge_guard_ms": 80,
+        "machine_alignment_scores": [
+          0.854,
+          0.997
+        ],
+        "result": "CANDIDATE_SAFE_QUIET_INTERIOR_ONLY",
+        "pilot_output_join_sample": 2012101,
+        "pilot_output_join_seconds": 45.62587301587302
+      }
+    ]
+  },
+  "punctuation_gap_observations": [
+    {
+      "word_index": 5,
+      "previous_word": "disappeared,",
+      "next_word": "her",
+      "kind": "clause",
+      "original_gap_seconds": 0.6199999999999997,
+      "target_gap_seconds": 0.3,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 13,
+      "previous_word": "her.",
+      "next_word": "An",
+      "kind": "sentence",
+      "original_gap_seconds": 1.1000000000000005,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 22,
+      "previous_word": "okay.",
+      "next_word": "Her",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0599999999999987,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 30,
+      "previous_word": "home.",
+      "next_word": "According",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0600000000000005,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 37,
+      "previous_word": "Anderson,",
+      "next_word": "Amy",
+      "kind": "clause",
+      "original_gap_seconds": 0.700999999999997,
+      "target_gap_seconds": 0.3,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 47,
+      "previous_word": "her.",
+      "next_word": "A",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9610000000000021,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 64,
+      "previous_word": "was.",
+      "next_word": "Amy",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.221,
+      "target_gap_seconds": 0.9,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 74,
+      "previous_word": "Village,",
+      "next_word": "Ohio.",
+      "kind": "clause",
+      "original_gap_seconds": 0.060000000000002274,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 75,
+      "previous_word": "Ohio.",
+      "next_word": "She",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9210000000000029,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 80,
+      "previous_word": "bicycle.",
+      "next_word": "In",
+      "kind": "sentence",
+      "original_gap_seconds": 1.100999999999999,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 86,
+      "previous_word": "later,",
+      "next_word": "her",
+      "kind": "clause",
+      "original_gap_seconds": 0.6199999999999974,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 88,
+      "previous_word": "father,",
+      "next_word": "Mark,",
+      "kind": "clause",
+      "original_gap_seconds": 0.03999999999999915,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 89,
+      "previous_word": "Mark,",
+      "next_word": "remembered",
+      "kind": "clause",
+      "original_gap_seconds": 0.5399999999999991,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 95,
+      "previous_word": "life:",
+      "next_word": "the",
+      "kind": "clause",
+      "original_gap_seconds": 0.7000000000000028,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 99,
+      "previous_word": "rode,",
+      "next_word": "and",
+      "kind": "clause",
+      "original_gap_seconds": 0.5799999999999983,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 107,
+      "previous_word": "dog,",
+      "next_word": "Jake.",
+      "kind": "clause",
+      "original_gap_seconds": 0.21999999999999886,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 108,
+      "previous_word": "Jake.",
+      "next_word": "She",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9399999999999977,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 123,
+      "previous_word": "horse.",
+      "next_word": "It",
+      "kind": "sentence",
+      "original_gap_seconds": 1.2809999999999988,
+      "target_gap_seconds": 0.6,
+      "result": "VERIFIED_QUIET_CUT_AVAILABLE"
+    },
+    {
+      "word_index": 134,
+      "previous_word": "loved,",
+      "next_word": "before",
+      "kind": "clause",
+      "original_gap_seconds": 0.6810000000000045,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 142,
+      "previous_word": "investigation.",
+      "next_word": "Before",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.240000000000002,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 145,
+      "previous_word": "27,",
+      "next_word": "1989,",
+      "kind": "clause",
+      "original_gap_seconds": 0.13999999999999346,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 146,
+      "previous_word": "1989,",
+      "next_word": "someone",
+      "kind": "clause",
+      "original_gap_seconds": 0.6609999999999943,
+      "target_gap_seconds": 0.3,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 157,
+      "previous_word": "mother.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0010000000000048,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 172,
+      "previous_word": "work.",
+      "next_word": "Bay",
+      "kind": "sentence",
+      "original_gap_seconds": 0.980000000000004,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 182,
+      "previous_word": "disappearance.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.041000000000011,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 189,
+      "previous_word": "school,",
+      "next_word": "at",
+      "kind": "clause",
+      "original_gap_seconds": 0.5800000000000125,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 194,
+      "previous_word": "center.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9810000000000088,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 212,
+      "previous_word": "there.",
+      "next_word": "That",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.2199999999999989,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 214,
+      "previous_word": "Friday,",
+      "next_word": "Amy",
+      "kind": "clause",
+      "original_gap_seconds": 0.4210000000000065,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 219,
+      "previous_word": "foot.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8200000000000074,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 234,
+      "previous_word": "business,",
+      "next_word": "apparently",
+      "kind": "clause",
+      "original_gap_seconds": 0.6800000000000068,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 238,
+      "previous_word": "someone.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.039999999999992,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 250,
+      "previous_word": "man,",
+      "next_word": "then",
+      "kind": "clause",
+      "original_gap_seconds": 0.6599999999999966,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 258,
+      "previous_word": "him.",
+      "next_word": "No",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0609999999999928,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 262,
+      "previous_word": "seen,",
+      "next_word": "according",
+      "kind": "clause",
+      "original_gap_seconds": 0.23999999999999488,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 266,
+      "previous_word": "account.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9400000000000119,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 275,
+      "previous_word": "sequence,",
+      "next_word": "but",
+      "kind": "clause",
+      "original_gap_seconds": 0.7399999999999949,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 284,
+      "previous_word": "afterward.",
+      "next_word": "Her",
+      "kind": "paragraph",
+      "original_gap_seconds": 0.8400000000000034,
+      "target_gap_seconds": 0.9,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 290,
+      "previous_word": "school.",
+      "next_word": "In",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9399999999999977,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 295,
+      "previous_word": "interview,",
+      "next_word": "her",
+      "kind": "clause",
+      "original_gap_seconds": 0.3400000000000034,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 297,
+      "previous_word": "brother,",
+      "next_word": "Jason,",
+      "kind": "clause",
+      "original_gap_seconds": 0.0799999999999983,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 298,
+      "previous_word": "Jason,",
+      "next_word": "recalled",
+      "kind": "clause",
+      "original_gap_seconds": 0.6800000000000068,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 307,
+      "previous_word": "ended.",
+      "next_word": "News",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0600000000000023,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 332,
+      "previous_word": "missing.",
+      "next_word": "By",
+      "kind": "sentence",
+      "original_gap_seconds": 1.061000000000007,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 334,
+      "previous_word": "then,",
+      "next_word": "the",
+      "kind": "clause",
+      "original_gap_seconds": 0.5010000000000048,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 349,
+      "previous_word": "her.",
+      "next_word": "Bay",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.36099999999999,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 357,
+      "previous_word": "investigating.",
+      "next_word": "Public",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8400000000000034,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 364,
+      "previous_word": "center.",
+      "next_word": "News",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9410000000000025,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 379,
+      "previous_word": "region.",
+      "next_word": "A",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0999999999999943,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 393,
+      "previous_word": "boxes.",
+      "next_word": "Those",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0200000000000102,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 413,
+      "previous_word": "her.",
+      "next_word": "Inside",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.1200000000000045,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 416,
+      "previous_word": "investigation,",
+      "next_word": "information",
+      "kind": "clause",
+      "original_gap_seconds": 0.5809999999999889,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 419,
+      "previous_word": "accumulated.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9410000000000025,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 430,
+      "previous_word": "leads,",
+      "next_word": "with",
+      "kind": "clause",
+      "original_gap_seconds": 0.6009999999999991,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 441,
+      "previous_word": "inquiries.",
+      "next_word": "People",
+      "kind": "sentence",
+      "original_gap_seconds": 1.100999999999999,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 451,
+      "previous_word": "afternoon,",
+      "next_word": "while",
+      "kind": "clause",
+      "original_gap_seconds": 0.5999999999999943,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 459,
+      "previous_word": "in.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0810000000000173,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 463,
+      "previous_word": "continued,",
+      "next_word": "but",
+      "kind": "clause",
+      "original_gap_seconds": 0.3599999999999852,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 469,
+      "previous_word": "home.",
+      "next_word": "On",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.6620000000000061,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 472,
+      "previous_word": "8,",
+      "next_word": "1990,",
+      "kind": "clause",
+      "original_gap_seconds": 0.13999999999998636,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 473,
+      "previous_word": "1990,",
+      "next_word": "a",
+      "kind": "clause",
+      "original_gap_seconds": 0.5010000000000048,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 485,
+      "previous_word": "County.",
+      "next_word": "She",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9010000000000105,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 497,
+      "previous_word": "seen.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9610000000000127,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 510,
+      "previous_word": "death.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0810000000000173,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 518,
+      "previous_word": "examine,",
+      "next_word": "beyond",
+      "kind": "clause",
+      "original_gap_seconds": 0.6800000000000068,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 526,
+      "previous_word": "disappeared.",
+      "next_word": "Some",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.2199999999999989,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 539,
+      "previous_word": "recovered.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0809999999999889,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 546,
+      "previous_word": "earring,",
+      "next_word": "black",
+      "kind": "clause",
+      "original_gap_seconds": 0.6199999999999761,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 554,
+      "previous_word": "binder.",
+      "next_word": "Those",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8799999999999955,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 562,
+      "previous_word": "appeal.",
+      "next_word": "They",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9000000000000057,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 568,
+      "previous_word": "recognize,",
+      "next_word": "but",
+      "kind": "clause",
+      "original_gap_seconds": 0.6200000000000045,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 579,
+      "previous_word": "them.",
+      "next_word": "Their",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0009999999999764,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 583,
+      "previous_word": "explain,",
+      "next_word": "by",
+      "kind": "clause",
+      "original_gap_seconds": 0.7009999999999934,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 585,
+      "previous_word": "itself,",
+      "next_word": "who",
+      "kind": "clause",
+      "original_gap_seconds": 0.6200000000000045,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 593,
+      "previous_word": "killed.",
+      "next_word": "Years",
+      "kind": "paragraph",
+      "original_gap_seconds": 0.9799999999999898,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 595,
+      "previous_word": "later,",
+      "next_word": "investigators",
+      "kind": "clause",
+      "original_gap_seconds": 0.12000000000000455,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 605,
+      "previous_word": "object.",
+      "next_word": "At",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 610,
+      "previous_word": "conference,",
+      "next_word": "authorities",
+      "kind": "clause",
+      "original_gap_seconds": 0.6809999999999832,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 625,
+      "previous_word": "discovered.",
+      "next_word": "News",
+      "kind": "sentence",
+      "original_gap_seconds": 1.2210000000000036,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 639,
+      "previous_word": "dog.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0809999999999604,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 647,
+      "previous_word": "textile:",
+      "next_word": "where",
+      "kind": "clause",
+      "original_gap_seconds": 0.7409999999999854,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 653,
+      "previous_word": "from,",
+      "next_word": "or",
+      "kind": "clause",
+      "original_gap_seconds": 0.5799999999999841,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 659,
+      "previous_word": "it.",
+      "next_word": "The",
+      "kind": "paragraph",
+      "original_gap_seconds": 0.9400000000000546,
+      "target_gap_seconds": 0.9,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 663,
+      "previous_word": "responses.",
+      "next_word": "Cleveland",
+      "kind": "sentence",
+      "original_gap_seconds": 1.1210000000000377,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 675,
+      "previous_word": "afterward,",
+      "next_word": "and",
+      "kind": "clause",
+      "original_gap_seconds": 0.7010000000000218,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 683,
+      "previous_word": "up.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9809999999999945,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 701,
+      "previous_word": "hold.",
+      "next_word": "Its",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0610000000000355,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 708,
+      "previous_word": "questions;",
+      "next_word": "the",
+      "kind": "clause",
+      "original_gap_seconds": 0.8600000000000136,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 719,
+      "previous_word": "established.",
+      "next_word": "The",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.0600000000000023,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 728,
+      "previous_word": "publicity.",
+      "next_word": "In",
+      "kind": "sentence",
+      "original_gap_seconds": 1.3009999999999877,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 737,
+      "previous_word": "disappeared,",
+      "next_word": "FBI",
+      "kind": "clause",
+      "original_gap_seconds": 0.8000000000000114,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 756,
+      "previous_word": "case.",
+      "next_word": "She",
+      "kind": "sentence",
+      "original_gap_seconds": 1.1399999999999864,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 763,
+      "previous_word": "volumes.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.7199999999999704,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 776,
+      "previous_word": "states,",
+      "next_word": "asking",
+      "kind": "clause",
+      "original_gap_seconds": 0.700999999999965,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 780,
+      "previous_word": "information.",
+      "next_word": "Those",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8600000000000136,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 786,
+      "previous_word": "work,",
+      "next_word": "not",
+      "kind": "clause",
+      "original_gap_seconds": 0.40100000000001046,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 790,
+      "previous_word": "case.",
+      "next_word": "In",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.261000000000024,
+      "target_gap_seconds": 0.9,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 792,
+      "previous_word": "2021,",
+      "next_word": "Bay",
+      "kind": "clause",
+      "original_gap_seconds": 0.5209999999999582,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 805,
+      "previous_word": "curtain.",
+      "next_word": "He",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0009999999999764,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 817,
+      "previous_word": "it.",
+      "next_word": "Investigators",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9809999999999945,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 825,
+      "previous_word": "unusual,",
+      "next_word": "apparently",
+      "kind": "clause",
+      "original_gap_seconds": 0.5609999999999786,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 828,
+      "previous_word": "textile.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.1200000000000045,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 838,
+      "previous_word": "relevance.",
+      "next_word": "It",
+      "kind": "sentence",
+      "original_gap_seconds": 0.7599999999999909,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 855,
+      "previous_word": "responsible.",
+      "next_word": "The",
+      "kind": "paragraph",
+      "original_gap_seconds": 0.9800000000000182,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 863,
+      "previous_word": "clothing.",
+      "next_word": "In",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0209999999999582,
+      "target_gap_seconds": 0.6,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 865,
+      "previous_word": "2024,",
+      "next_word": "police",
+      "kind": "clause",
+      "original_gap_seconds": 0.5799999999999841,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 872,
+      "previous_word": "DNA,",
+      "next_word": "but",
+      "kind": "clause",
+      "original_gap_seconds": 0.5600000000000023,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 882,
+      "previous_word": "profile.",
+      "next_word": "That",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0199999999999818,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 885,
+      "previous_word": "matters:",
+      "next_word": "detecting",
+      "kind": "clause",
+      "original_gap_seconds": 0.6399999999999864,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 895,
+      "previous_word": "outcomes.",
+      "next_word": "Investigators",
+      "kind": "sentence",
+      "original_gap_seconds": 1.160000000000025,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 910,
+      "previous_word": "sample.",
+      "next_word": "They",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9800000000000182,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 918,
+      "previous_word": "it.",
+      "next_word": "Another",
+      "kind": "paragraph",
+      "original_gap_seconds": 0.9000000000000341,
+      "target_gap_seconds": 0.9,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 925,
+      "previous_word": "hairs.",
+      "next_word": "News",
+      "kind": "sentence",
+      "original_gap_seconds": 1.2409999999999854,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 944,
+      "previous_word": "fibers.",
+      "next_word": "They",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8999999999999773,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 955,
+      "previous_word": "testing.",
+      "next_word": "Chapman",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0409999999999968,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 968,
+      "previous_word": "responsible,",
+      "next_word": "and",
+      "kind": "clause",
+      "original_gap_seconds": 0.68100000000004,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 977,
+      "previous_word": "handling.",
+      "next_word": "These",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9800000000000182,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 988,
+      "previous_word": "clothing.",
+      "next_word": "In",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.0400000000000205,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 991,
+      "previous_word": "2026,",
+      "next_word": "Cleveland",
+      "kind": "clause",
+      "original_gap_seconds": 0.8610000000000468,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1000,
+      "previous_word": "testing.",
+      "next_word": "Detective",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0400000000000205,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1016,
+      "previous_word": "hairs.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1025,
+      "previous_word": "degraded.",
+      "next_word": "Investigators",
+      "kind": "sentence",
+      "original_gap_seconds": 1.101000000000056,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1031,
+      "previous_word": "work,",
+      "next_word": "but",
+      "kind": "clause",
+      "original_gap_seconds": 0.68100000000004,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1042,
+      "previous_word": "wanted.",
+      "next_word": "That",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8799999999999955,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1047,
+      "previous_word": "hairs;",
+      "next_word": "it",
+      "kind": "clause",
+      "original_gap_seconds": 0.7610000000000241,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1055,
+      "previous_word": "finding.",
+      "next_word": "By",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.079999999999984,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1057,
+      "previous_word": "June,",
+      "next_word": "Police",
+      "kind": "clause",
+      "original_gap_seconds": 0.5800000000000409,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1070,
+      "previous_word": "evidence.",
+      "next_word": "He",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0199999999999818,
+      "target_gap_seconds": 0.6,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 1078,
+      "previous_word": "continuing,",
+      "next_word": "although",
+      "kind": "clause",
+      "original_gap_seconds": 0.6200000000000045,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1087,
+      "previous_word": "tested.",
+      "next_word": "He",
+      "kind": "sentence",
+      "original_gap_seconds": 1.0600000000000023,
+      "target_gap_seconds": 0.6,
+      "result": "SKIP_LOW_ALIGNMENT_CONFIDENCE"
+    },
+    {
+      "word_index": 1104,
+      "previous_word": "arose.",
+      "next_word": "Bay",
+      "kind": "sentence",
+      "original_gap_seconds": 1.261000000000024,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1117,
+      "previous_word": "costs,",
+      "next_word": "including",
+      "kind": "clause",
+      "original_gap_seconds": 0.6800000000000068,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1120,
+      "previous_word": "testing.",
+      "next_word": "Financial",
+      "kind": "sentence",
+      "original_gap_seconds": 1.100999999999999,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1126,
+      "previous_word": "continue;",
+      "next_word": "it",
+      "kind": "clause",
+      "original_gap_seconds": 0.5399999999999636,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1132,
+      "previous_word": "result.",
+      "next_word": "As",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.1800000000000068,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1137,
+      "previous_word": "16,",
+      "next_word": "2026",
+      "kind": "clause",
+      "original_gap_seconds": 0.17999999999994998,
+      "target_gap_seconds": 0.3,
+      "result": "NO_EXCESS"
+    },
+    {
+      "word_index": 1140,
+      "previous_word": "check,",
+      "next_word": "Bay",
+      "kind": "clause",
+      "original_gap_seconds": 0.7400000000000091,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1150,
+      "previous_word": "ongoing.",
+      "next_word": "Police",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9400000000000546,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1160,
+      "previous_word": "blanket.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8809999999999718,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1187,
+      "previous_word": "death.",
+      "next_word": "These",
+      "kind": "sentence",
+      "original_gap_seconds": 1.080000000000041,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1193,
+      "previous_word": "information,",
+      "next_word": "with",
+      "kind": "clause",
+      "original_gap_seconds": 0.6600000000000819,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1201,
+      "previous_word": "reviewed.",
+      "next_word": "For",
+      "kind": "paragraph",
+      "original_gap_seconds": 1.0799999999999272,
+      "target_gap_seconds": 0.9,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1204,
+      "previous_word": "family,",
+      "next_word": "those",
+      "kind": "clause",
+      "original_gap_seconds": 0.5009999999999764,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1212,
+      "previous_word": "child.",
+      "next_word": "In",
+      "kind": "sentence",
+      "original_gap_seconds": 0.8799999999999955,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1216,
+      "previous_word": "interview,",
+      "next_word": "her",
+      "kind": "clause",
+      "original_gap_seconds": 0.48099999999999454,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1227,
+      "previous_word": "week.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.9009999999999536,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1229,
+      "previous_word": "bicycle,",
+      "next_word": "the",
+      "kind": "clause",
+      "original_gap_seconds": 0.5009999999999764,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1233,
+      "previous_word": "Jake,",
+      "next_word": "the",
+      "kind": "clause",
+      "original_gap_seconds": 0.5009999999999764,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1237,
+      "previous_word": "enjoyed:",
+      "next_word": "those",
+      "kind": "clause",
+      "original_gap_seconds": 0.67999999999995,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1242,
+      "previous_word": "life,",
+      "next_word": "beyond",
+      "kind": "clause",
+      "original_gap_seconds": 0.6410000000000764,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1247,
+      "previous_word": "behind.",
+      "next_word": "Amy",
+      "kind": "sentence",
+      "original_gap_seconds": 1.1409999999999627,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1254,
+      "previous_word": "sister.",
+      "next_word": "The",
+      "kind": "sentence",
+      "original_gap_seconds": 0.6999999999999318,
+      "target_gap_seconds": 0.6,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    },
+    {
+      "word_index": 1259,
+      "previous_word": "open,",
+      "next_word": "and",
+      "kind": "clause",
+      "original_gap_seconds": 0.5810000000000173,
+      "target_gap_seconds": 0.3,
+      "result": "NO_LONG_ENOUGH_VERIFIED_QUIET_RUN"
+    }
+  ],
+  "timeline": {
+    "full_gain_only_samples": 25161728,
+    "original_samples": 25161728,
+    "full_gain_only_duration_unchanged": true,
+    "pilot_duration_changed": true,
+    "full_paced_episode_created": false,
+    "future_full_pacing_invalidates_old_alignment_and_captions": true
+  },
+  "human_listening_approved": false,
+  "partial_feedback_does_not_approve_full_master": true,
+  "assembly_allowed": false,
+  "video_rendered": false,
+  "tts_calls": 0,
+  "software_installs": 0,
+  "model_downloads": 0,
+  "canonical_preflight_and_state_untouched": true,
+  "commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.mp3"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_02\\Amy_Mihaljevic_Mia_correction_02.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.wav"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "a:0",
+      "-show_entries",
+      "stream=codec_name,sample_rate,channels,duration,bits_per_raw_sample",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.wav"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-version"
+    ]
+  ],
+  "tool_versions": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "processor": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\apply_correction_03.py",
+    "bytes": 15856,
+    "sha256": "412ccdb9578a18959a0d35331f429aa2d29f8d7af38a511ea0acc9fd290ab331"
+  },
+  "outputs": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+      "bytes": 75485228,
+      "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.mp3",
+      "bytes": 13694894,
+      "sha256": "5152259a3e7bf59c5149e5b68039550890bb298d7e5348636f3487eb47da60c5"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.wav",
+      "bytes": 7501454,
+      "sha256": "3cda040183039cd71f3506a8c17364a6105f29113424681b6a4985d941dbbb0a"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_before_minus3db.mp3",
+      "bytes": 1362382,
+      "sha256": "714ada2e074bc02c56462cd02781f965119fc41dbd5495377721c69d27e9131e"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.wav",
+      "bytes": 7067096,
+      "sha256": "eeebc51685054e84eed85e726117c9c97c048ebddde5a1a8bed3fc796e9c3c34"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_first_two_paragraphs_pacing_minus3db.mp3",
+      "bytes": 1283387,
+      "sha256": "0359ae6ba8524eccf60a7b10e2373a7bc3fe6d43286b4e04659d5a489a4acb36"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\pilot_pause_cuts.csv",
+      "bytes": 3895,
+      "sha256": "c962b5ab0abafaa3e3d65835c73aa7ce793b768c1d249764a45943d80bf53791"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Audio_Correction_03_Report.md",
+      "bytes": 2336,
+      "sha256": "3bf3f900d9da9d518a72fb4359c22c073bec3cc9aa074427edf032655764d954"
+    }
+  ],
+  "receipt_self_hash_omitted": true,
+  "limitations": [
+    "No subjective listening approval is claimed.",
+    "Machine word alignment and signal thresholds cannot perfectly classify breaths or phonemes; user audition remains essential.",
+    "Conservative criteria deliberately leave gaps longer than targets where stronger activity or uncertain timing prevents safe trimming.",
+    "Full-episode potential is limited to this exact method and its numerical screening, not a maximal possible edit or permission to execute it."
+  ]
+}

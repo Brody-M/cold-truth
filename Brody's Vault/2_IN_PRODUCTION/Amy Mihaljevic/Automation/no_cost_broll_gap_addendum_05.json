@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-22T04:00:17.181Z",
+  "authority": "Same user direction: more relevant B-roll; proceed without spending credits.",
+  "reason": "Three of first12downloads were rejected after actual visual review; the school/public-setting and lab-variation gaps would otherwise force unrelated footage and excessive repetition.",
+  "interpretation": "A second finite acquisition batch is routine implementation of the user-directed free visual revision. Initial12batch remains complete at its original bounds; no historical grant is rewritten.",
+  "maximum_additional_candidates": 4,
+  "combined_revision_stock_bytes_cap": 786432000,
+  "per_file_bytes_cap": 62914560,
+  "all_case_outputs_bytes_cap": 5368709120,
+  "spending_or_paid_credits": 0,
+  "new_tts_or_installs_or_video_renders": 0,
+  "automatic_retry": false,
+  "human_use_approval_inferred": false
+}

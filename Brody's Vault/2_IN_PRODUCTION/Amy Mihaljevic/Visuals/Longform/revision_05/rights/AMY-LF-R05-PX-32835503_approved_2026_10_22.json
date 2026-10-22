@@ -1,0 +1,82 @@
+{
+  "asset_id": "AMY-LF-R05-PX-32835503",
+  "source_identity": "pexels:video:32835503",
+  "provider_id": 32835503,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/busy-shopping-mall-parking-lot-aerial-view-32835503/",
+  "creator": {
+    "id": 1179532,
+    "name": "K",
+    "url": "https://www.pexels.com/@kelly"
+  },
+  "preview_image": "https://images.pexels.com/videos/32835503/pexels-photo-32835503.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 17,
+  "selected_file": {
+    "id": 13995066,
+    "quality": null,
+    "file_type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 23.98,
+    "link": "https://videos.pexels.com/video-files/32835503/13995066_1920_1080_24fps.mp4",
+    "size": 10557891
+  },
+  "candidate_paragraphs": [
+    "P03",
+    "P04"
+  ],
+  "depiction_boundary": "Shopping-center context; never identified as Bay Village Square",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+  "rights_review_pending": false,
+  "actual_content_review_pending": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+    "bytes": 10557891,
+    "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+  },
+  "actual_duration_seconds": 17.017,
+  "actual_width": 1920,
+  "actual_height": 1080,
+  "editorial_decision": "CONDITIONAL_CANDIDATE",
+  "content_note": "Use parking-only crop x0/y360/w1280/h720; exclude large mall facades/logos and do not imply actual Bay Village Square. Modern illustrative setting only.",
+  "proposed_crop": {
+    "x": 0,
+    "y": 360,
+    "width": 1280,
+    "height": 720
+  },
+  "permitted_source_range_seconds": [
+    2,
+    14
+  ],
+  "human_use_approved": true,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  },
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-22",
+  "user_quote": "Approve proposed uses and recorded conditions",
+  "scope": "14 exact proposed new stock uses under recorded illustrative-use/crop conditions; actual motion/crops and final video playback still require review.",
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+    "bytes": 10557891,
+    "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+  },
+  "commercial_use_reviewed": true,
+  "credits": "Pexels permits use without attribution; creator and item URL preserved in this record.",
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+    "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666",
+    "bytes": 1686
+  },
+  "reviewed_candidate": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+    "bytes": 2265,
+    "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+  }
+}

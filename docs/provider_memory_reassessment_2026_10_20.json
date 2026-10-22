@@ -1,0 +1,90 @@
+{
+  "schema_version": "cold_truth.provider_memory_reassessment.v1",
+  "recorded_at_utc": "2026-10-20T21:57:27.090171+00:00",
+  "scope": "Primary-documentation review, read-only host/tool inventory, local operational memory/role/navigation changes; no software execution from reviewed repositories",
+  "trending_url": "https://github.com/trending",
+  "trending_scope": "default daily all languages displayed list",
+  "trending_repositories_reviewed": [
+    "MadsLorentzen/ai-job-search",
+    "cloudflare/security-audit-skill",
+    "stablyai/orca",
+    "DietrichGebert/ponytail",
+    "Comfy-Org/ComfyUI",
+    "ruvnet/ruflo",
+    "Graphify-Labs/graphify",
+    "anomalyco/opencode",
+    "msitarzewski/agency-agents",
+    "headroomlabs-ai/headroom",
+    "anthropics/knowledge-work-plugins",
+    "shiyu-coder/Kronos",
+    "vllm-project/vllm"
+  ],
+  "additional_repository": "debpalash/VoiceStudio",
+  "voice_release_page": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
+  "primary_docs_reviewed_not_runtime_verified": true,
+  "hardware": {
+    "architecture": "AMD64",
+    "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+    "registry_display_adapters": [
+      "Parsec Virtual Display Adapter",
+      "AMD Radeon RX 7900 XTX"
+    ],
+    "physical_ram_bytes": 34269569024,
+    "available_ram_bytes_at_inspection": 13629812736,
+    "disk_c_free_bytes_at_inspection": 131336486912,
+    "gpu_compute_or_vram_not_measured": true,
+    "cim_inventory_available": false
+  },
+  "local_voice_inventory": {
+    "matching_hklm_uninstall_entries": 0,
+    "hkcu_uninstall_inventory_available": false,
+    "default_loopback_health_reachable": false,
+    "result_is_not_proof_of_absent_installation": true
+  },
+  "memory_baseline": {
+    "codebase_memory_list_projects": [],
+    "ai_memory_server_tools_exposed": false,
+    "ai_memory_routing_skills_present": true
+  },
+  "implemented": [
+    "Compact Project memory index with pointers to canonical records",
+    "AGENTS continuation/authority/provider-hold guidance",
+    "Selected video-packaging promise/readability/baseline checks in current role and prompt",
+    "Full all-13 plus VoiceStudio comparison",
+    "Provider-evaluation hold record and bounded CPU trial proposal",
+    "Current plan/dashboard/state/voice-profile/hub/canvas reconciliation"
+  ],
+  "not_performed": [
+    "No third-party software installation or dependency execution",
+    "No model download",
+    "No provider or memory-service integration trial",
+    "No benchmark reproduction",
+    "No voice generation or cloning",
+    "No video sourcing/render/publication"
+  ],
+  "elevenlabs_generation_submissions": 0,
+  "held_mia_grant_unchanged": true,
+  "replacement_production_profile_approved": false,
+  "sources_and_decisions": "Brody's Vault/0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+  "voice_assessment": "Brody's Vault/0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+  "limitations": [
+    "GitHub API web retrieval inaccessible; shell DNS to api.github.com failed",
+    "Readme/performance claims are not measured on this host",
+    "Default OmniVoice weight/component terms differ from app licence",
+    "No commercial voice/engine clearance from application licence alone"
+  ],
+  "verification": {
+    "navigation_notes": 87,
+    "navigation_reachable": 87,
+    "navigation_issues": 0,
+    "navigation_snapshot": {
+      "path": "docs/vault_audit_provider_memory_2026_10_20.json",
+      "sha256": "75a5aac1ddc30de388ba7b1fc8066949f26525d915a9b77003d4152514871f1d",
+      "bytes": 62763
+    },
+    "paired_script_bindings_unchanged": true,
+    "historical_mia_grant_and_proposal_unchanged": true,
+    "comparison_rows": 13,
+    "checks": "Strict navigation, live hold-state assertions and original input bindings; no software-code changes requiring new regression tests"
+  }
+}

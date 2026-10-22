@@ -1,0 +1,89 @@
+{
+  "schema_version": "cold_truth.immutable_narration_attempt_receipt.v1",
+  "entries": [
+    {
+      "event_id": "amy-mia-full-narration-attempt01-2026-10-20",
+      "case_id": "amy-mihaljevic",
+      "target_format": "youtube-longform",
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+        "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+        "bytes": 10247
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+        "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+        "bytes": 7835
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_narration_resumed_mia_normal_2026_10_20.json",
+        "bytes": 4345,
+        "sha256": "154d32612d651d0dddbfca1d75bfbc322dfe206da3ef44c60f219947904556db"
+      },
+      "tool": "mcp__elevenlabs__text_to_speech; local FFmpeg Editor treatment",
+      "recorded_at_utc": "2026-10-21T03:57:51.436025+00:00",
+      "settings": {
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model_id": "eleven_multilingual_v2",
+        "language": "en",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 1.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "outputs": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/provider_attempt_01/tts_On_th_20261020_235138.mp3",
+          "bytes": 9129943,
+          "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01.mp3",
+          "bytes": 9129943,
+          "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_editor_stage.wav",
+          "bytes": 75485286,
+          "sha256": "d9c02457648e0ba0ef2826a84a5d952d82010e21d86d8e38114848146d376640"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_quieter_stage.wav",
+          "bytes": 75485286,
+          "sha256": "44ae7bd8d98513898bee27a1ed6dccedc4a226bb1f8d5a5b549c007df6927995"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+          "bytes": 75485286,
+          "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+          "bytes": 13694894,
+          "sha256": "96d2be0fd14f680b94909bf54bda8de8040481e2753ffd933f63258331d13e99"
+        }
+      ],
+      "generation_attempts": 1,
+      "remaining_attempts": 0,
+      "provider_generation_id": "B2ZMQWCbuNNf8tyAgHea",
+      "quoted_credits": 7834,
+      "actual_credits": 1722,
+      "additional_spend": 0,
+      "retry_performed": false,
+      "processing_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_processing_01.json",
+        "bytes": 13709,
+        "sha256": "76de1a8c25d55afcc09606bc314eca8ccdca3844cefef7d4c1dffc28f2e06558"
+      },
+      "billing_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_billing_01.json",
+        "bytes": 825,
+        "sha256": "8e91aa2c743a571cf5b7f5114d304cb05e6ea15a85807a46746cb0c606026d44"
+      },
+      "actual_processed_audio_duration_seconds": 570.560726,
+      "full_listen_approved": false
+    }
+  ]
+}

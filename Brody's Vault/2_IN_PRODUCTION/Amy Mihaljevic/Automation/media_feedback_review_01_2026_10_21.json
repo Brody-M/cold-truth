@@ -1,0 +1,46 @@
+{
+  "schema_version": "cold_truth.media_revision_feedback.v1",
+  "recorded_at_utc": "2026-10-22T02:58:33.544991+00:00",
+  "date_local": "2026-10-21",
+  "reviewer": "Brody",
+  "reviewed_video": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+    "bytes": 252524813,
+    "sha256": "f7d55e51bcae8cf429df2c06debcb2f520d0ef1fa4aaca93c17fe877c2fcfeb0"
+  },
+  "original_review_request": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pending_media_review_01.json",
+    "bytes": 1549,
+    "sha256": "a0241ecc4d07b57891e81206d874d04afa1e06c25a952f4b9caf3a6221a6868c"
+  },
+  "longform": {
+    "decision": "CHANGES_REQUESTED",
+    "human_master_approved": false,
+    "user_quote": "the audio is still peaking very loud and needs a pop filter very bad like very bad needs to be toned down the video is great tho. im not a fan of the random like google slides ooking viusuals. needs more b roll stop showing the same like random forest.",
+    "followup_quote": "same issue w the audio in the video jus peaking very loud and needs a pop filter and needs the ediot to tone is down multiple multiple decibels",
+    "required_changes": [
+      "Target audible P/B plosive bursts; global meters alone did not establish listening quality",
+      "Lower whole narration several additional decibels without makeup gain",
+      "Replace slide-style full-screen cards with more relevant B-roll and restrained factual overlays",
+      "Reduce repeated generic landscape/stock imagery",
+      "Balance five three-line caption cues during the remaining corrective render"
+    ],
+    "prior_audio_approval": "Historical full-listen decision retained, but current video audio is rejected; no acceptance transfers to a corrected file."
+  },
+  "shorts": {
+    "decision": "DELIVERY_PROBLEM_NO_AUDIO_OR_TIMING_APPROVAL",
+    "user_quote": "u didnt link the shorts properly i cant see them here",
+    "human_audio_approved": false,
+    "human_timing_approved": false,
+    "delivery_repair": "Three actual processed MP3s embedded inline in chat; exact WAV word player remains available in the vault. No approval inferred from delivery."
+  },
+  "authority_interpretation": {
+    "local_audio_repair_authorized": true,
+    "visual_revision_preparation_authorized": true,
+    "new_tts_requests_authorized": false,
+    "publishing_authorized": false,
+    "remaining_longform_video_renders": 1,
+    "render_not_consumed_by_audio_processing": true
+  },
+  "next_step": "Editor produces targeted de-plosive repair with several dB overall reduction and actual before/after sample before the final corrective video render."
+}

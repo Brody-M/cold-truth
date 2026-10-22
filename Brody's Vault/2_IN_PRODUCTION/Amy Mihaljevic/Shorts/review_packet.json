@@ -1,0 +1,107 @@
+{
+  "schema_version": "cold_truth.shorts_review_collection.v1",
+  "prepared_on": "2026-10-21",
+  "parent_case_id": "amy-mihaljevic",
+  "longform_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json",
+    "bytes": 2030,
+    "sha256": "a83356765965d9baef5e1f6aabd19c6367798a4aa283ad411a1a37dc0cdd51f8"
+  },
+  "branches": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/review_packet.json",
+      "bytes": 1905,
+      "sha256": "e289b58d6329bf2ba0f62842a1e5291252d114ab7f09510a51a1d62ae93aae89"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/review_packet.json",
+      "bytes": 1908,
+      "sha256": "9bcc76f0c6b0080b49f3c2213ae6b17578ebb1e738d284108051ccc73f1d17a6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/review_packet.json",
+      "bytes": 1920,
+      "sha256": "cd62040e1670c9a459e1672a2f9dda4ec3afe2b1ebc459173349acafba825a95"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "amy-mihaljevic-short-01",
+      "title": "The arranged meeting",
+      "words": 102,
+      "seconds": [
+        37.1,
+        45.3
+      ],
+      "draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Draft.md",
+        "bytes": 2161,
+        "sha256": "b3f5ba0f2e436c3e8abf649051b0f513dc8471732473e5d3994383e1369ac52b"
+      },
+      "outline": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Reverse_Outline.md",
+        "bytes": 1650,
+        "sha256": "18d3419a829754a0207c06725203ef4365a7ac653616a24cc2b97c8dc2ba10d8"
+      },
+      "claims": [
+        "A01",
+        "A02",
+        "A03",
+        "A04"
+      ]
+    },
+    {
+      "id": "amy-mihaljevic-short-02",
+      "title": "The unrecovered belongings",
+      "words": 98,
+      "seconds": [
+        35.6,
+        43.6
+      ],
+      "draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Draft.md",
+        "bytes": 2235,
+        "sha256": "5f4470ddd88d48db911c98574f99925d56271bfe748db54db2e37891199cec7f"
+      },
+      "outline": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Reverse_Outline.md",
+        "bytes": 1633,
+        "sha256": "ffe84e8303dcdf009370057e5acc6b31b62b8ad07f640565a34970f151f830c6"
+      },
+      "claims": [
+        "A01",
+        "A10",
+        "A11"
+      ]
+    },
+    {
+      "id": "amy-mihaljevic-short-03",
+      "title": "Two different testing results",
+      "words": 99,
+      "seconds": [
+        36.0,
+        44.0
+      ],
+      "draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Draft.md",
+        "bytes": 2375,
+        "sha256": "5dc15699cd6f9024cf5d740f327491a42aa6aecb4063aa5e7da1534e0d335bc9"
+      },
+      "outline": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Reverse_Outline.md",
+        "bytes": 1767,
+        "sha256": "90535240cc7f28a793c7bc1b27c190f3327e351b1ba20c4b6e994c69c80ccec2"
+      },
+      "claims": [
+        "A01",
+        "A17",
+        "A18",
+        "A19",
+        "A20"
+      ]
+    }
+  ],
+  "all_paired_human_approvals_pending": true,
+  "new_generation_calls": 0,
+  "assembly_allowed": false
+}

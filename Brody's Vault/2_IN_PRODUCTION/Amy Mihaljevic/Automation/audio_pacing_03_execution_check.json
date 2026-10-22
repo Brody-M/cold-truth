@@ -1,0 +1,42 @@
+{
+  "schema_version": "cold_truth.audio_pacing_pilot_check.v1",
+  "checked_at_utc": "2026-10-22T03:22:39.039681+00:00",
+  "result": "TECHNICAL_PASS_PILOT_LISTENING_PENDING",
+  "receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/audio_correction_03_receipt.json",
+    "bytes": 83929,
+    "sha256": "0fcb706afcca9bee3a7ebec48c45f9ab9f5f775acdd606c61ceb392bd369bd11"
+  },
+  "review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_pacing_review_03.json",
+    "bytes": 2905,
+    "sha256": "01ffa1af5a54576a9e1bced981f98c662f6f3ac71ffa8637316df332e182066b"
+  },
+  "all_receipt_output_hashes_verified": true,
+  "full_gain_only_samples": 25161728,
+  "full_gain_only_duration_seconds": 570.5607256235828,
+  "global_gain_db_from_correction02": -3,
+  "full_gain_only_lufs": -40.14,
+  "full_gain_only_true_peak_dbtp": -27.81,
+  "pilot_before_seconds": 56.7,
+  "pilot_after_seconds": 53.41687074829932,
+  "pilot_cut_count": 11,
+  "cut_sum_samples": 144786,
+  "all_cut_guard_and_quiet_checks_pass": true,
+  "matched_minus3db_sample_gain": true,
+  "full_paced_master_created": false,
+  "human_audio_approved": false,
+  "assembly_allowed": false,
+  "new_tts_calls": 0,
+  "new_downloads": 0,
+  "new_video_renders": 0,
+  "new_correction_folder_bytes": 106500457,
+  "conservative_entire_amy_bytes": 1205180018,
+  "output_cap_bytes": 5368709120,
+  "remaining_later_work": "Only11 opening cuts meet this strict quiet screen. Later pause regions require waveform/manual review; source intonation may still require a new narration approach under a future explicit grant.",
+  "navigation": {
+    "path": "docs/vault_audit_audio_pacing_03_2026_10_21.json",
+    "bytes": 85875,
+    "sha256": "f669acb25ed14f22462967a879f1a21f143ef3684c1121249aea0fa91770dc3f"
+  }
+}

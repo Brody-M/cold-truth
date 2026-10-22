@@ -1,0 +1,35 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG05_Textile_Appeal.png",
+    "bytes": 61478,
+    "sha256": "ccad10ee7ef9933de801e4434b21f4dd120fae830ca7ca73e38dcb47d4219fbd"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+    "bytes": 656,
+    "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+  },
+  "source_identity": "coldtruth:amy:longform:CG05_Textile_Appeal",
+  "permitted_track": "youtube-longform",
+  "commercial_use_reviewed": true,
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "user_quote": "Approve these uses and recorded rights conditions",
+  "scope": "Exact original text card in Amy long-form episode",
+  "credits": "Original Cold Truth typography; public source citations appear on card.",
+  "assistant_assessment": "Rendered card gallery checked for layout and source labels by Codex; factual/final-use human decision remains pending.",
+  "recorded_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "reviewed_candidate_registry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry_draft.json",
+    "sha256": "7504d389f79a332da284b1e5c23800ebdde5956325bbefe502b4c86555c861f8",
+    "bytes": 18332
+  },
+  "actual_trim_crop_review_passed": false,
+  "conditions": "Approval of exact proposed uses and recorded rights conditions. Final chosen motion/trims/crops remain subject to review before assembly; original Orbital item URL/standalone receipt limitation acknowledged."
+}

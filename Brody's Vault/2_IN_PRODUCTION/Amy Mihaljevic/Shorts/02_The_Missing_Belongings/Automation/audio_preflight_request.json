@@ -1,0 +1,41 @@
+{
+  "case_id": "amy-mihaljevic-short-02",
+  "case_name": "Amy Mihaljevic Short 02",
+  "target_format": "shorts",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0",
+    "bytes": 2316
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+    "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+    "bytes": 2327
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+    "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+    "bytes": 566
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+    "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+    "bytes": 5511270
+  },
+  "phase_2_scope": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1",
+    "bytes": 3217
+  },
+  "generation_manifest": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/narration_attempt_01.json",
+    "sha256": "6678674aa99de6363d0d5b0b5b2f1c4ee233ebaa40c449109f880ba359a630b0",
+    "bytes": 3790
+  },
+  "generation_event_id": "amy-mihaljevic-short-02-narration-attempt-01",
+  "audio_qa": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_qa_01.json",
+    "sha256": "62718e4974150b1110cce6ebdb7faa83eb960525d1523f85af932be79880cc7f",
+    "bytes": 1229
+  }
+}

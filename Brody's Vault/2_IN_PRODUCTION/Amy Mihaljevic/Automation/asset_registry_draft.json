@@ -1,0 +1,390 @@
+{
+  "schema_version": "cold_truth.real_asset_registry_draft.v1",
+  "synthetic": false,
+  "status": "DRAFT_RIGHTS_DECISIONS_PENDING",
+  "created_at_utc": "2026-10-21T04:57:31.804247+00:00",
+  "youtube-longform": [
+    {
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review.json",
+        "bytes": 1197,
+        "sha256": "e285d52e1131599cd2542a6e3aa3791db28c205049009a3fa01a33be4610de44"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review.json",
+        "bytes": 1203,
+        "sha256": "d60836a9ded42c43f36d845564dba8e955ab20f7a349714b99b56b9674508f8d"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792246_review.json",
+        "bytes": 1212,
+        "sha256": "a8000596f1e1fe4e16dd2614955ffd265e8aebb15e258c6e2f34086e46328145"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-6577022",
+      "source_identity": "pexels:video:6577022",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+        "bytes": 19912109,
+        "sha256": "fb3fdc028b6b5ed4b9bb8b271f434b8ce520fdb747f682679fb353b3bc27976a"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6577022_review.json",
+        "bytes": 1204,
+        "sha256": "7e6ff861a953092590b20d17bcf4d7b7283456f39209a56fb0f72641cef63d23"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review.json",
+        "bytes": 1191,
+        "sha256": "65860be723c06688c7c24e52ffeddb624555b44a05bebc70bd50f0d7c15c1525"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+        "bytes": 9382601,
+        "sha256": "8f1d0089f3512107b9e2edce1aa7b90c2ff0fad582e9442c00de616eaaaf7c70"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6550428_review.json",
+        "bytes": 1202,
+        "sha256": "28a18ee22328254040f5014f33d6b8f133dcdefea8f16e78951cedfc865f7967"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+        "bytes": 4079850,
+        "sha256": "8a062376b403d4ff62ed47d9a104826b3644f1ccf10e492ca7d9112375558171"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325857_review.json",
+        "bytes": 1175,
+        "sha256": "1bc74cca32e8d09fe2cdebce6c5b604cc4407f8396a83ea7a424eb9f5184a5ae"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+        "bytes": 5149882,
+        "sha256": "decd559e4bff3b7b1eb514face4e4ca1130cef794615683fa344849ab246ba79"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325856_review.json",
+        "bytes": 1175,
+        "sha256": "43b1f189ec37ea27bcf1ab2c17b66326b35536ffb4f22ea526530b89f0b1b718"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review.json",
+        "bytes": 1197,
+        "sha256": "ba8954c43890e748e7a7b24584524ec0ff21153858227e646cd66c8a81392723"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "asset_class": "pexels_broll",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+        "bytes": 14961519,
+        "sha256": "b775ae0dcb1e779ade55ac520b731afcba134f0f341dfd66866ef424e4c2d530"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+        "bytes": 1249,
+        "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-14512668_review.json",
+        "bytes": 1186,
+        "sha256": "1f6932036d166c52c6f52c299553a0f1fa205dba58cfce3975cfae02f8b616db"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG01_Amy",
+      "source_identity": "coldtruth:amy:longform:CG01_Amy",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG01_Amy.png",
+        "bytes": 45842,
+        "sha256": "eb606ae5d138d62ae25d8a1bec85eafa2f9559dfb2a481ac10cc497dbcc6bbba"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG01_Amy_review.json",
+        "bytes": 1014,
+        "sha256": "19986b1ca2ee8de8b8a28a40b35a4e35b4e3eddecb28eddb6c48456dfa8b3e0e"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG02_October_1989",
+      "source_identity": "coldtruth:amy:longform:CG02_October_1989",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG02_October_1989.png",
+        "bytes": 47904,
+        "sha256": "3ef68a767669a395054b6827d3a607cd901736f6350462a82d8460b6f029169f"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG02_October_1989_review.json",
+        "bytes": 1032,
+        "sha256": "76b5d99876dbd982b622f398d5085e60094116c727c438366697c4aa041e5a4e"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG03_February_1990",
+      "source_identity": "coldtruth:amy:longform:CG03_February_1990",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG03_February_1990.png",
+        "bytes": 40548,
+        "sha256": "b3bccc3480af058338f48ffb5caf0193831e6d213bf359957213bc82785cd7cd"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG03_February_1990_review.json",
+        "bytes": 1034,
+        "sha256": "9bef1c741f26f125a5eb7e68220fe362b10c4326b13cf0c76f56da5e2fb3bdd8"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG04_Belongings",
+      "source_identity": "coldtruth:amy:longform:CG04_Belongings",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG04_Belongings.png",
+        "bytes": 48247,
+        "sha256": "b157a395df8d0e4702724415cced3a5d104b859b658a88599b6a938e19787bf0"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG04_Belongings_review.json",
+        "bytes": 1028,
+        "sha256": "a183666c5438cc673f1faa80a46d6b62b8dfd7aa871eca582e14fa9f4af00e9b"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG05_Textile_Appeal",
+      "source_identity": "coldtruth:amy:longform:CG05_Textile_Appeal",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG05_Textile_Appeal.png",
+        "bytes": 61478,
+        "sha256": "ccad10ee7ef9933de801e4434b21f4dd120fae830ca7ca73e38dcb47d4219fbd"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG05_Textile_Appeal_review.json",
+        "bytes": 1036,
+        "sha256": "3b832e2a2502f79fd6bc20fc298fc863ab882c7d1d410db2377e0c1ff5af6ab4"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG06_Different_Samples",
+      "source_identity": "coldtruth:amy:longform:CG06_Different_Samples",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG06_Different_Samples.png",
+        "bytes": 56956,
+        "sha256": "7ee18c200d35706a44d70eb5a07ebc13ca8691a28418b94deed088beb9896218"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG06_Different_Samples_review.json",
+        "bytes": 1042,
+        "sha256": "49a35760ed5a322713dcdd23e193d19b3cfe9c13da7a83cae1d105f81f3e8999"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG07_Public_Status",
+      "source_identity": "coldtruth:amy:longform:CG07_Public_Status",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG07_Public_Status.png",
+        "bytes": 69220,
+        "sha256": "8bfedad227324afa9e1bb651f6143be36c7f9fdf5d446d2a5e3e0f196706ece1"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG07_Public_Status_review.json",
+        "bytes": 1034,
+        "sha256": "96e1c22907b707d1cd0b8d3d099489572329e150041d88110fde85443afc3405"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-CG08_Remembering_Amy",
+      "source_identity": "coldtruth:amy:longform:CG08_Remembering_Amy",
+      "asset_class": "case_graphic",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG08_Remembering_Amy.png",
+        "bytes": 33646,
+        "sha256": "076d9b2277586f04e5f894094cade36003c0a1ed44ef43895e161c7727cf7b30"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+        "bytes": 656,
+        "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-CG08_Remembering_Amy_review.json",
+        "bytes": 1038,
+        "sha256": "d6d617039e50733f24ec095d4513f9a873e2450d623189a887a03230b06dde8f"
+      }
+    }
+  ],
+  "shorts": [
+    {
+      "asset_id": "AMY-SH-ORBITAL-01",
+      "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+      "asset_class": "orbital_gameplay",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "bytes": 12182660536,
+        "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+      },
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+        "bytes": 3020,
+        "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review.json",
+        "bytes": 1212,
+        "sha256": "27330c7e085a200d1a49f3b420359bf1655ebacbc958530273515a8c146b81ca"
+      }
+    }
+  ]
+}

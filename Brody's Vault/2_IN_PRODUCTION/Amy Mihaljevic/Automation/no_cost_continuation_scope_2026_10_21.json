@@ -1,0 +1,34 @@
+{
+  "schema_version": "cold_truth.no_cost_revision_scope.v1",
+  "recorded_at_utc": "2026-10-22T03:45:58.879Z",
+  "date_local": "2026-10-21",
+  "authority_quotes": [
+    "the audio is still peaking very loud and needs a pop filter very bad like very bad needs to be toned down the video is great tho. im not a fan of the random like google slides ooking viusuals. needs more b roll stop showing the same like random forest.",
+    "proceed until usage runs out dont spend credits"
+  ],
+  "interpretation": "Continue local existing-media repair and user-requested B-roll replacement using free assets only. New downloads are a documented implementation of the later explicit more-B-roll direction, not a claim that the historical no-download review-render grant included them.",
+  "actions": [
+    "Full existing-take targeted audio repair and separate pacing candidate; no new narration",
+    "Download at most12 selected free Pexels HD stock candidates for the requested visual revision; actual content and rights review stay pending",
+    "Create provisional paragraph-bound visual coverage, minimal overlay examples and balanced two-line caption drafts locally",
+    "Verify technical integrity, source traceability, isolation, timing/cut maps and vault navigation"
+  ],
+  "limits": {
+    "paid_credits_or_spending": 0,
+    "tts_or_paid_service_calls": 0,
+    "software_or_model_installs": 0,
+    "new_free_stock_candidates": 12,
+    "new_stock_bytes": 786432000,
+    "all_case_new_outputs_bytes": 5368709120,
+    "full_audio_new_folder_bytes": 524288000,
+    "new_video_renders_this_pass": 0,
+    "publishing": false
+  },
+  "human_approvals_not_inferred": [
+    "Specific diagnostic04 listening success",
+    "Full changed master listening or timing approval",
+    "Rights/editorial use approval for new stock candidates",
+    "Final video playback or publishing"
+  ],
+  "historical_receipts_preserved": true
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "cold_truth.phase_2_visual_preparation_approval.v1",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-21T04:37:59.333165+00:00",
+  "user_quote": "Authorize this M6 preparation scope",
+  "question": "Authorize the prepared M6 visual-preparation scope: time the approved Amy audio using installed tools, download up to18 free Pexels clips, create long-form text/date cards, and verify the existing Orbital source for Shorts—with a2GiB new-media cap and no paid services, new narration, video rendering or publishing?",
+  "scope": "M6 visual preparation only: timing with installed tools, free long-form stock and original text/date/evidence graphics, existing Shorts-only Orbital verification, rights/isolation records.",
+  "proposal": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/m6_preparation_scope_2026_10_21.json",
+    "bytes": 3962,
+    "sha256": "bde2ba3163c2857d73652b7dba50bf9bb01be005192103ea9a06c80a4963b91e"
+  },
+  "approved_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "bytes": 10247,
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5"
+  },
+  "approved_audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "audio_preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+    "bytes": 2580,
+    "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46"
+  },
+  "limits": {
+    "maximum_new_media_bytes": 2147483648,
+    "maximum_pexels_clips": 18,
+    "paid_spending_allowed": false,
+    "new_tts_or_asr_provider_calls": 0,
+    "new_software_or_model_downloads": false,
+    "duplicate_existing_12gb_gameplay": false,
+    "automatic_fallback": false
+  },
+  "authorized_actions": [
+    "Prepare exact-current-audio caption/shot timing with installed tools; retain timing review as pending until actually reviewed",
+    "Search and download up to18 free Pexels1080p source clips; no account purchases",
+    "Create original text/date/evidence cards for the long-form track only",
+    "Hash/probe and bind existing purchased Orbital source in place; retain rights/credit evidence and record review before Shorts use",
+    "Create track-separated rights/asset records and a genuinely aligned shot list when timing is verified"
+  ],
+  "planned_outputs": [
+    "Visuals/Longform/assets/",
+    "Visuals/Longform/graphics/",
+    "Visuals/Longform/rights/",
+    "Visuals/Longform/aligned_shot_list.json",
+    "Visuals/Shorts/rights/",
+    "Automation/alignment.json (only actual reviewed timing)",
+    "Automation/asset_registry.json (only actual bound files and rights reviews)",
+    "Automation/asset_readiness.json"
+  ],
+  "new_narration_authorized": false,
+  "video_assembly_authorized": false,
+  "video_rendering_authorized": false,
+  "publishing_authorized": false,
+  "shorts_scripts_approved": false
+}

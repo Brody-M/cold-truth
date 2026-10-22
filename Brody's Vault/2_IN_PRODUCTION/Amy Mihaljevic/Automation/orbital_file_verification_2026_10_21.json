@@ -1,0 +1,40 @@
+{
+  "schema_version": "cold_truth.existing_orbital_file_verification.v1",
+  "checked_at_utc": "2026-10-21T04:45:51.162315+00:00",
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "bytes": 12182660536,
+    "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+  },
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 2560,
+        "height": 1440,
+        "r_frame_rate": "60/1",
+        "duration": "1851.150000"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "1851.150000"
+      }
+    ],
+    "format": {
+      "duration": "1851.150000",
+      "size": "12182660536"
+    }
+  },
+  "copied": false,
+  "modified": false,
+  "permitted_track_by_project": "shorts_only",
+  "longform_use": false,
+  "rights_review_status": "HISTORICAL_PURCHASE_RECORD_AND_CURRENT_MATCHING_CREATOR_LISTING_RECORDED; exact Amy rights review remains pending",
+  "full_motion_review": false,
+  "assembly_allowed": false
+}

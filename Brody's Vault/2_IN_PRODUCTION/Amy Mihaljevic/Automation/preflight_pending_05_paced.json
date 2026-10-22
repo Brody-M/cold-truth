@@ -1,0 +1,17 @@
+{
+  "case_id": "amy-mihaljevic",
+  "candidate": "paced",
+  "request": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_preflight_request_candidate_05_paced.json",
+    "bytes": 1851,
+    "sha256": "70469952c17110d97f1ca2a98c63794d311a0b0da8f3fa0ff2f643096eba4552"
+  },
+  "status": "BLOCKED_ACTUAL_HUMAN_AUDIO_REVIEW",
+  "actual_checker_error": "Human decision required",
+  "duration_exact_seconds": "548.592358",
+  "runtime_only_preferred_range": true,
+  "runtime_only_minimum480_pass": true,
+  "duration_source": "ffprobe_audio_stream",
+  "assembly_allowed": false,
+  "not_a_canonical_passing_preflight": true
+}

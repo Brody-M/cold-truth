@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG07_Public_Status.png",
+    "bytes": 69220,
+    "sha256": "8bfedad227324afa9e1bb651f6143be36c7f9fdf5d446d2a5e3e0f196706ece1"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+    "bytes": 656,
+    "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+  },
+  "source_identity": "coldtruth:amy:longform:CG07_Public_Status",
+  "permitted_track": "youtube-longform",
+  "commercial_use_reviewed": false,
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Exact original text card in Amy long-form episode",
+  "credits": "Original Cold Truth typography; public source citations appear on card.",
+  "assistant_assessment": "Rendered card gallery checked for layout and source labels by Codex; factual/final-use human decision remains pending."
+}

@@ -1,0 +1,11 @@
+# Diagnostic 04 — human-marked “disappeared” onset
+
+This candidate addresses the exact spot Brody identified, rather than lowering or limiting the entire recording again. The excerpt is the original 0–13.200 seconds: three complete sentences, including the marked onset and a later standalone gap-noise comparison. Timing and baseline correction-03 gain remain unchanged.
+
+The onset jumps sharply out of a quiet interval near 2.18 seconds. The source-provider signal already contains the dense event. A smooth manual clip-gain dip begins at 2.160 seconds, reaches -8 dB at 2.175, holds through 2.260, and returns to unchanged gain at 2.320. The 2.180–2.250-second marked region changes exactly -8.00 dB RMS and -8.00 dB peak. The following 2.350–2.600-second syllable remains numerically identical. The D is attenuated rather than deleted or gated; intelligibility needs actual listening.
+
+Only one standalone gap-noise region at 6.050–6.285 seconds receives a modest 6 dB clip-gain reduction with 25 ms ramps. It ends 157 ms before the next aligned word. Other between-phrase breathiness stays unchanged, reflecting Brody's clarification that it is not the main problem. That noise-like region is outside the approved spoken words, but numerical analysis alone cannot prove that every component is a breath.
+
+No EQ, new compressor/limiter, de-esser, gate, normalization or additional global level change was applied. At the marked onset, most measured energy lies below 500 Hz, so a high-frequency de-esser would target the wrong feature. Low-mid speech energy can also be normal voice body; no speculative 180–500 Hz notch was used. Breathy timbre throughout spoken vowels cannot be established or repaired reliably from these numerical tests alone.
+
+All three WAVs/previews contain exactly 582,120 samples / 13.200 seconds at 44.1 kHz mono. The removed-only file is baseline minus repaired audio at its actual level, with no boost; it intentionally includes the attenuated consonant onset. It is for checking what was changed, not proof of clean separation. No full-episode processing, video render, new take, model/software download or canonical change occurred. Listening approval and subjective success remain pending.

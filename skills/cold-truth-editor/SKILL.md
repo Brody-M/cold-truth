@@ -5,7 +5,7 @@ description: Edit an existing Cold Truth narration script for natural language, 
 
 # Cold Truth Editor
 
-Improve rather than replace the story. Preserve verified facts and structure; do not invent details.
+Preserve verified facts and the evidence boundary. Repair or request structural rewriting when the story does not work for a first-time listener; do not invent details. Follow the current ROLE_EDITOR and format standard.
 
 ## Narrative Coherence Gate
 

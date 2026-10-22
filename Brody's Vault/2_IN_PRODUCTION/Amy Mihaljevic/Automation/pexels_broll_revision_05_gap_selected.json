@@ -1,0 +1,135 @@
+{
+  "recorded_at_utc": "2026-10-22T04:00:17.181Z",
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-37131095",
+      "source_identity": "pexels:video:37131095",
+      "provider_id": 37131095,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-modern-educational-facility-37131095/",
+      "creator": {
+        "id": 221715079,
+        "name": "Sergio Rivas",
+        "url": "https://www.pexels.com/@sergio-rivas-221715079"
+      },
+      "preview_image": "https://images.pexels.com/videos/37131095/bavts-bethlehem-building-dolly-37131095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 20,
+      "selected_file": {
+        "id": 15730280,
+        "quality": null,
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/37131095/15730280_1920_1080_30fps.mp4",
+        "size": 12577744
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Generic school/campus context; no named actual Amy location or identifiable minors",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6229611",
+      "source_identity": "pexels:video:6229611",
+      "provider_id": 6229611,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-turning-door-signage-6229611/",
+      "creator": {
+        "id": 3041476,
+        "name": "Bonus Studio",
+        "url": "https://www.pexels.com/@bonus-studio-3041476"
+      },
+      "preview_image": "https://images.pexels.com/videos/6229611/pexels-photo-6229611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 14,
+      "selected_file": {
+        "id": 10029793,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/6229611/6229611-hd_1920_1080_25fps.mp4",
+        "size": 9566920
+      },
+      "candidate_paragraphs": [
+        "P06"
+      ],
+      "depiction_boundary": "Anonymous storefront-door detail; not actual public appeal or case location",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "provider_id": 3195394,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/drops-of-liquid-on-a-tray-to-be-use-as-samples-3195394/",
+      "creator": {
+        "id": 1583460,
+        "name": "Pressmaster",
+        "url": "https://www.pexels.com/@pressmaster"
+      },
+      "preview_image": "https://images.pexels.com/videos/3195394/free-video-3195394.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 14,
+      "selected_file": {
+        "id": 9294295,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4",
+        "size": 2629786
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P17"
+      ],
+      "depiction_boundary": "Generic sample-handling closeup; not actual case evidence, DNA technique or result",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8381446",
+      "source_identity": "pexels:video:8381446",
+      "provider_id": 8381446,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-laboratory-technician-using-an-electronic-pipette-8381446/",
+      "creator": {
+        "id": 2297095,
+        "name": "Pavel Danilyuk",
+        "url": "https://www.pexels.com/@pavel-danilyuk"
+      },
+      "preview_image": "https://images.pexels.com/videos/8381446/pexels-photo-8381446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 9,
+      "selected_file": {
+        "id": 10804981,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8381446/8381446-hd_1920_1080_25fps.mp4",
+        "size": 6151622
+      },
+      "candidate_paragraphs": [
+        "P15",
+        "P16"
+      ],
+      "depiction_boundary": "Generic pipette/gloved-hand detail; not actual case testing",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+      "human_rights_approved": false
+    }
+  ],
+  "maximum_clips": 4,
+  "expected_bytes": 30926072,
+  "human_rights_approved": false
+}

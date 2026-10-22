@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-21T04:54:15.015863+00:00",
+  "checked_by": "Codex",
+  "sources": [
+    "https://www.pexels.com/license/",
+    "https://www.pexels.com/terms-of-service/"
+  ],
+  "retrieval": "Official pages read with web tool on 2026-10-21",
+  "summary": "Pexels permits free use and editing, including commercial use. Attribution is optional. Restrictions cover offensive depiction of identifiable people, implied endorsements, unaltered resale and stock redistribution; additional third-party rights may apply.",
+  "usage_conditions": [
+    "Use only in edited factual episode, as illustrative stock.",
+    "No stock person, home, street, vehicle or object identified as case evidence.",
+    "Drop all stock audio. Review actual trims for people, logos and misleading context.",
+    "Retain source-page/creator/file provenance. Credit creators voluntarily in release package."
+  ],
+  "individual_sources": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_selected_sources_2026_10_21.json",
+    "bytes": 18000,
+    "sha256": "e8c7bf8a2f46fb50704fd64b5747c326be41b7fb625166d5c7d57761443ad818"
+  },
+  "human_approved": false,
+  "status": "EVIDENCE_CAPTURED_FINAL_USE_REVIEW_PENDING"
+}

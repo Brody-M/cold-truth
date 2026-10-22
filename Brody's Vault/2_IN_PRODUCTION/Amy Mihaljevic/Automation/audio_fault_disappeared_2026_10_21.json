@@ -1,0 +1,33 @@
+{
+  "schema_version": "cold_truth.precise_audio_fault_report.v1",
+  "recorded_at_utc": "2026-10-22T03:30:24.078338+00:00",
+  "date_local": "2026-10-21",
+  "reviewer": "Brody",
+  "user_quote": "legit at 2 seconds when shes amy mahahvoici dissaeepared it peaks around there. at the bggingin of the word dissapeared is when it spikes specifically. shes bretahy between phrases but its not horrible imo",
+  "question": "In the latest opening sample, which word or timestamp has the worst pop or peak? Is the breathiness mainly between phrases, or does it run through her spoken words too?",
+  "human_identified_fault": {
+    "approximate_time_seconds": 2,
+    "word": "disappeared",
+    "location": "beginning of word",
+    "priority": "main audible spike"
+  },
+  "aligned_candidate_word": {
+    "start_seconds": 2.181,
+    "end_seconds": 2.801,
+    "timing_source": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_draft.json",
+      "bytes": 599539,
+      "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+    },
+    "not_a_new_human_timing_approval": true
+  },
+  "breathiness_clarification": "Between phrases, but not horrible; keep breath attenuation modest.",
+  "decision": "LOCAL_WORD_ONSET_CORRECTION_REQUIRED",
+  "human_audio_approved": false,
+  "scope": "Target human-marked onset with smooth local gain automation, supported spectral treatment only if needed. No new overall gain decrement or blanket processing. Preserve words and exact timing.",
+  "parent_feedback": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_feedback_revision03_2026_10_21.json",
+    "bytes": 1296,
+    "sha256": "559d18d8e996848321f1806153160e32be8928bc96141aa1afe822c8391060fd"
+  }
+}

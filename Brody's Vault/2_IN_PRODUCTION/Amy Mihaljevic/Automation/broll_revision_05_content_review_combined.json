@@ -1,0 +1,2069 @@
+{
+  "schema_version": "cold_truth.stock_content_review.v1",
+  "reviewed_at_utc": "2026-10-22T04:24:58.990307+00:00",
+  "reviewer": "Codex sampled-frame editorial review",
+  "basis": "Viewed60sampled frames across20sources, plus selected full-resolution frames.5sources excluded; one branded printer candidate retained but not used in the timeline. Full motion/crop playback and human rights/use review remain pending.",
+  "selection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_selected.json",
+    "bytes": 16039,
+    "sha256": "0e8896c2090f0e455ce2a9c48d636cac6c578364571fe2bb8ae8e2e1081c4045"
+  },
+  "technical_qc": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_technical_qc.json",
+    "bytes": 103365,
+    "sha256": "f4f9ae604dd9d9c871f77c7966d5192c8b641b56b886a1867831435cecc12a5a"
+  },
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-32835503",
+      "source_identity": "pexels:video:32835503",
+      "provider_id": 32835503,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/busy-shopping-mall-parking-lot-aerial-view-32835503/",
+      "creator": {
+        "id": 1179532,
+        "name": "K",
+        "url": "https://www.pexels.com/@kelly"
+      },
+      "preview_image": "https://images.pexels.com/videos/32835503/pexels-photo-32835503.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 17,
+      "selected_file": {
+        "id": 13995066,
+        "quality": null,
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 23.98,
+        "link": "https://videos.pexels.com/video-files/32835503/13995066_1920_1080_24fps.mp4",
+        "size": 10557891
+      },
+      "candidate_paragraphs": [
+        "P03",
+        "P04"
+      ],
+      "depiction_boundary": "Shopping-center context; never identified as Bay Village Square",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "actual_duration_seconds": 17.017,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Use parking-only crop x0/y360/w1280/h720; exclude large mall facades/logos and do not imply actual Bay Village Square. Modern illustrative setting only.",
+      "proposed_crop": {
+        "x": 0,
+        "y": 360,
+        "width": 1280,
+        "height": 720
+      },
+      "permitted_source_range_seconds": [
+        2,
+        14
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+        "bytes": 2265,
+        "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-13217096",
+      "source_identity": "pexels:video:13217096",
+      "provider_id": 13217096,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-an-elementary-school-building-and-playground-13217096/",
+      "creator": {
+        "id": 277777938,
+        "name": "Joseph Park",
+        "url": "https://www.pexels.com/@tddongtv"
+      },
+      "preview_image": "https://images.pexels.com/videos/13217096/4k-aerial-aerial-school-shot-elementary-school-korea-13217096.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 5,
+      "selected_file": {
+        "id": 5764401,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/13217096/13217096-hd_1920_1080_30fps.mp4",
+        "size": 4880076
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Empty-school exterior context; reject visible minors/identifying labels",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_13217096_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_13217096_hd.mp4",
+        "bytes": 4880746,
+        "sha256": "8af64acc19fd1e1aa245c84c988f709bcdac0c946ebfdf308bd6e38eecb0b1ac"
+      },
+      "actual_duration_seconds": 5.886667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Aerial school and surrounding architecture present a strong geographic mismatch; no suitable Ohio-setting identification. Do not use as Amy school.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-13217096_candidate_review.json",
+        "bytes": 2240,
+        "sha256": "62461af7834669ebf7c476b2bc6a68eeca90dccf70aed9009b852290c2ffb528"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4290325",
+      "source_identity": "pexels:video:4290325",
+      "provider_id": 4290325,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-shot-of-a-school-front-yard-4290325/",
+      "creator": {
+        "id": 1786177,
+        "name": "WeStarMoney  Rec",
+        "url": "https://www.pexels.com/@westarmoney"
+      },
+      "preview_image": "https://images.pexels.com/videos/4290325/pexels-photo-4290325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 6,
+      "selected_file": {
+        "id": 9503380,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/4290325/4290325-hd_1920_1080_30fps.mp4",
+        "size": 3540870
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Alternative school detail; avoid implying actual school",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4290325_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4290325_hd.mp4",
+        "bytes": 3540870,
+        "sha256": "de1f54c1390f7cfda9b56c9fe25dbaa02bd77bd5b701f8cc8d51a3da948960b2"
+      },
+      "actual_duration_seconds": 5.716667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Visible Canadian flag, named elementary school and mountain background; unsuitable geographic/identity cues for Bay Village.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4290325_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "07cf79fcfd59f16e2c7a681c203552792c9c1e06a80a8839d683084a8baa3a42"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "provider_id": 8371858,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-checking-the-documents-8371858/",
+      "creator": {
+        "id": 1437723,
+        "name": "cottonbro studio",
+        "url": "https://www.pexels.com/@cottonbro"
+      },
+      "preview_image": "https://images.pexels.com/videos/8371858/pexels-photo-8371858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 79,
+      "selected_file": {
+        "id": 10801365,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8371858/8371858-hd_2048_1080_25fps.mp4",
+        "size": 47980085
+      },
+      "candidate_paragraphs": [
+        "P07",
+        "P12",
+        "P17"
+      ],
+      "depiction_boundary": "Hands/documents for organizing leads; not actual case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "actual_duration_seconds": 79.16,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Hands/files can illustrate generic information handling. Restrict to early file/red-folder activity; later visible photograph material is not case evidence.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        40
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "provider_id": 8371852,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-looking-at-files-inside-a-cardboard-box-8371852/",
+      "creator": {
+        "id": 1437723,
+        "name": "cottonbro studio",
+        "url": "https://www.pexels.com/@cottonbro"
+      },
+      "preview_image": "https://images.pexels.com/videos/8371852/pexels-photo-8371852.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 53,
+      "selected_file": {
+        "id": 10800770,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8371852/8371852-hd_2048_1080_25fps.mp4",
+        "size": 21745348
+      },
+      "candidate_paragraphs": [
+        "P07",
+        "P12"
+      ],
+      "depiction_boundary": "Archive box details; not actual case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "actual_duration_seconds": 52.84,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Anonymous hands and archive box; generic records handling only, not actual case files or investigator identity.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        50
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-9306134",
+      "source_identity": "pexels:video:9306134",
+      "provider_id": 9306134,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-pinning-paper-on-corkboard-9306134/",
+      "creator": {
+        "id": 3372733,
+        "name": "Monstera Production",
+        "url": "https://www.pexels.com/@gabby-k"
+      },
+      "preview_image": "https://images.pexels.com/videos/9306134/pexels-photo-9306134.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 19,
+      "selected_file": {
+        "id": 11084434,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/9306134/9306134-hd_2048_1080_30fps.mp4",
+        "size": 8102620
+      },
+      "candidate_paragraphs": [
+        "P06",
+        "P12"
+      ],
+      "depiction_boundary": "Public-notice context only; no readable stock report presented as case evidence",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+        "bytes": 8102620,
+        "sha256": "4bd150ce80e3f32c5d4775dc140cd5e25f6472aac878ade4a2346ca7c32006db"
+      },
+      "actual_duration_seconds": 18.836667,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Visible financial graphs/business documents do not illustrate a missing-child public appeal or verified case evidence.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-9306134_candidate_review.json",
+        "bytes": 2148,
+        "sha256": "cfa254bd30eae5e2066735dd90cf627f1cf5f48d056694b0eac609593880a79a"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4267248",
+      "source_identity": "pexels:video:4267248",
+      "provider_id": 4267248,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/hand-in-latex-glove-adjusting-a-microscope-4267248/",
+      "creator": {
+        "id": 2206740,
+        "name": "Gustavo Fring",
+        "url": "https://www.pexels.com/@gustavo-fring"
+      },
+      "preview_image": "https://images.pexels.com/videos/4267248/pexels-photo-4267248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 12,
+      "selected_file": {
+        "id": 9353243,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/4267248/4267248-hd_1920_1080_30fps.mp4",
+        "size": 3488458
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P16"
+      ],
+      "depiction_boundary": "Generic microscopy; no claim depicts actual testing or result",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "actual_duration_seconds": 12.345667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Microscope/gloved-hand detail; generic laboratory context, never actual case testing or a specific DNA procedure.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        12
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+        "bytes": 2156,
+        "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8326170",
+      "source_identity": "pexels:video:8326170",
+      "provider_id": 8326170,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/adjusting-the-microscope-lenses-8326170/",
+      "creator": {
+        "id": 10715715,
+        "name": "Kindel Media",
+        "url": "https://www.pexels.com/@kindelmedia"
+      },
+      "preview_image": "https://images.pexels.com/videos/8326170/adult-aid-analysis-analyzing-8326170.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 9,
+      "selected_file": {
+        "id": 10775919,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/8326170/8326170-hd_1920_1080_30fps.mp4",
+        "size": 6102484
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P15"
+      ],
+      "depiction_boundary": "Alternate microscope detail; not actual evidence",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "actual_duration_seconds": 9.386667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Alternate gloved-hand/microscope detail; generic lab only, no claim that visual demonstrates actual forensic result.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        9
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+        "bytes": 2144,
+        "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "provider_id": 14160089,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/walking-in-a-residential-area-on-an-autumn-day-14160089/",
+      "creator": {
+        "id": 1920614,
+        "name": "German Korb",
+        "url": "https://www.pexels.com/@german-korb-1920614"
+      },
+      "preview_image": "https://images.pexels.com/videos/14160089/autumn-autumn-folliage-city-fall-14160089.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 45,
+      "selected_file": {
+        "id": 6079183,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 59.94,
+        "link": "https://videos.pexels.com/video-files/14160089/14160089-hd_1920_1080_60fps.mp4",
+        "size": 33114349
+      },
+      "candidate_paragraphs": [
+        "P02",
+        "P04",
+        "P19"
+      ],
+      "depiction_boundary": "Neighborhood walkway; not actual route",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "actual_duration_seconds": 45.481667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Residential sidewalk/houses; use two brief distinct segments at most, not a sustained nature walk or actual Amy route.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        44
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-15602507",
+      "source_identity": "pexels:video:15602507",
+      "provider_id": 15602507,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-a-road-with-a-car-driving-on-it-15602507/",
+      "creator": {
+        "id": 738843,
+        "name": "Matthias Groeneveld",
+        "url": "https://www.pexels.com/@matthiasgroeneveld"
+      },
+      "preview_image": "https://images.pexels.com/videos/15602507/4k-aerial-cloudy-drenthe-15602507.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 44,
+      "selected_file": {
+        "id": 11360104,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 59.94,
+        "link": "https://videos.pexels.com/video-files/15602507/15602507-hd_1920_1080_60fps.mp4",
+        "size": 32487269
+      },
+      "candidate_paragraphs": [
+        "P08"
+      ],
+      "depiction_boundary": "One brief rural establishing shot; not actual recovery field",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+        "bytes": 32469103,
+        "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+      },
+      "actual_duration_seconds": 44.863333,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "One short top-down rural-road/field establishing shot for discovery paragraph only; not actual Ashland recovery site.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        44
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+        "bytes": 2186,
+        "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8527274",
+      "source_identity": "pexels:video:8527274",
+      "provider_id": 8527274,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-cutting-an-excess-threads-on-a-cloth-8527274/",
+      "creator": {
+        "id": 2332540,
+        "name": "https://kaboompics.com/",
+        "url": "https://www.pexels.com/@karola-g"
+      },
+      "preview_image": "https://images.pexels.com/videos/8527274/act-of-giving-adult-aid-artisan-8527274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 26,
+      "selected_file": {
+        "id": 10878374,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8527274/8527274-hd_2048_1080_25fps.mp4",
+        "size": 15061087
+      },
+      "candidate_paragraphs": [
+        "P10",
+        "P13"
+      ],
+      "depiction_boundary": "Textile construction detail; not actual curtain or its maker",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "actual_duration_seconds": 26.44,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Anonymous sewing/thread details; illustrative textile work only, not the curtain, its maker, crime scene or evidence processing.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        26
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+        "bytes": 2205,
+        "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6975995",
+      "source_identity": "pexels:video:6975995",
+      "provider_id": 6975995,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-dialing-an-analog-telephone-6975995/",
+      "creator": {
+        "id": 3798027,
+        "name": "KoolShooters",
+        "url": "https://www.pexels.com/@koolshooters"
+      },
+      "preview_image": "https://images.pexels.com/videos/6975995/20-25-years-old-man-art-boy-brown-hair-6975995.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 15,
+      "selected_file": {
+        "id": 10262383,
+        "quality": "uhd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1440,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/6975995/6975995-uhd_1920_1440_25fps.mp4",
+        "size": 14830567
+      },
+      "candidate_paragraphs": [
+        "P01",
+        "P03"
+      ],
+      "depiction_boundary": "Period-neutral analog phone detail; no reenactment claim",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "actual_duration_seconds": 14.6,
+      "actual_width": 1920,
+      "actual_height": 1440,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Analog rotary-phone hand detail; crop4:3 source to16:9 with object intact. No genuine recording/reenactment claim; validate crop motion before master.",
+      "proposed_crop": {
+        "x": 0,
+        "y": 180,
+        "width": 1920,
+        "height": 1080
+      },
+      "permitted_source_range_seconds": [
+        0,
+        14
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+        "bytes": 2285,
+        "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-37131095",
+      "source_identity": "pexels:video:37131095",
+      "provider_id": 37131095,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-modern-educational-facility-37131095/",
+      "creator": {
+        "id": 221715079,
+        "name": "Sergio Rivas",
+        "url": "https://www.pexels.com/@sergio-rivas-221715079"
+      },
+      "preview_image": "https://images.pexels.com/videos/37131095/bavts-bethlehem-building-dolly-37131095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 20,
+      "selected_file": {
+        "id": 15730280,
+        "quality": null,
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/37131095/15730280_1920_1080_30fps.mp4",
+        "size": 12577744
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Generic school/campus context; no named actual Amy location or identifiable minors",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+      "human_rights_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+        "bytes": 12577744,
+        "sha256": "0209704ce86b5dbb1e8a4195972a2c5d28eb720a302b3fe937c66a9f8646ac15"
+      },
+      "actual_duration_seconds": 20.4204,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Visible BAVTS name, Pennsylvania flag and police vehicle identify an unrelated institution; unsuitable as Amy school context.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-37131095_candidate_review.json",
+        "bytes": 2162,
+        "sha256": "866e019e05068f7be6dabb1b80d34da15c45cc17c40af2ee4653cfe968cb147c"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6229611",
+      "source_identity": "pexels:video:6229611",
+      "provider_id": 6229611,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-turning-door-signage-6229611/",
+      "creator": {
+        "id": 3041476,
+        "name": "Bonus Studio",
+        "url": "https://www.pexels.com/@bonus-studio-3041476"
+      },
+      "preview_image": "https://images.pexels.com/videos/6229611/pexels-photo-6229611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 14,
+      "selected_file": {
+        "id": 10029793,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/6229611/6229611-hd_1920_1080_25fps.mp4",
+        "size": 9566920
+      },
+      "candidate_paragraphs": [
+        "P06"
+      ],
+      "depiction_boundary": "Anonymous storefront-door detail; not actual public appeal or case location",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+      "human_rights_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+        "bytes": 5211613,
+        "sha256": "6db0dc3f98b0370a3fd8d439789e54ba26614a3935f17504653bfdaf0225e9e4"
+      },
+      "actual_duration_seconds": 13.93,
+      "actual_width": 1280,
+      "actual_height": 720,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Advertised1080p variant is actually1280x720; higher variant returnedHTTP403. No upscale/quality exception is assumed.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6229611_candidate_review.json",
+        "bytes": 2083,
+        "sha256": "c720b3854be4ce3e0518a26314d12666d186c84c8788601bdbaf9623e6845a51"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "provider_id": 3195394,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/drops-of-liquid-on-a-tray-to-be-use-as-samples-3195394/",
+      "creator": {
+        "id": 1583460,
+        "name": "Pressmaster",
+        "url": "https://www.pexels.com/@pressmaster"
+      },
+      "preview_image": "https://images.pexels.com/videos/3195394/free-video-3195394.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 14,
+      "selected_file": {
+        "id": 9294295,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4",
+        "size": 2629786
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P17"
+      ],
+      "depiction_boundary": "Generic sample-handling closeup; not actual case evidence, DNA technique or result",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+      "human_rights_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "actual_duration_seconds": 13.96,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Anonymous gloved-hand/pipette detail. Generic lab only, no claim of actual evidence, DNA method or test result.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        13.8
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8381446",
+      "source_identity": "pexels:video:8381446",
+      "provider_id": 8381446,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-laboratory-technician-using-an-electronic-pipette-8381446/",
+      "creator": {
+        "id": 2297095,
+        "name": "Pavel Danilyuk",
+        "url": "https://www.pexels.com/@pavel-danilyuk"
+      },
+      "preview_image": "https://images.pexels.com/videos/8381446/pexels-photo-8381446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 9,
+      "selected_file": {
+        "id": 10804981,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8381446/8381446-hd_1920_1080_25fps.mp4",
+        "size": 6151622
+      },
+      "candidate_paragraphs": [
+        "P15",
+        "P16"
+      ],
+      "depiction_boundary": "Generic pipette/gloved-hand detail; not actual case testing",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+      "human_rights_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+        "bytes": 6151622,
+        "sha256": "b80fd4533e2e7b87a3c6d1fd3ac75fd3c5c371032bfb7302487cdb4a08325af0"
+      },
+      "actual_duration_seconds": 9.24,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Anonymous gloved hands and electronic pipette, generic lab context only; no identity or case-test claim.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        9.1
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_candidate_review.json",
+        "bytes": 2106,
+        "sha256": "6204878fcc0ac780aeff325f7e12f507288e3df3f89237abda8e2812dcb3b7ce"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-19897022",
+      "provider_id": 19897022,
+      "source_identity": "pexels:video:19897022",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/impresora-19897022/",
+      "creator": {
+        "id": 623572721,
+        "name": "LISTOS PARA RODAR | Productora",
+        "url": "https://www.pexels.com/@listos-para-rodar-productora-623572721"
+      },
+      "preview_image": "https://images.pexels.com/videos/19897022/documents-leaf-office-printer-19897022.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 8756673,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/19897022/19897022-hd_1920_1080_25fps.mp4",
+        "size": 7024025
+      },
+      "candidate_paragraphs": [
+        "P06"
+      ],
+      "depiction_boundary": "Illustrative document printing; no actual case poster or private personal information",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_19897022_hd.mp4",
+      "human_use_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_19897022_hd.mp4",
+        "bytes": 7014135,
+        "sha256": "1f99e78420ca9d8ebde1ab7ed459300e0a42e80fdb9d50f2e730cbd249dd14d9"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 529,
+            "duration": "21.160000",
+            "bit_rate": "2457105",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "529",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2024-01-17T21:33:40.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1017840,
+            "duration": "21.205000",
+            "bit_rate": "189377",
+            "nb_frames": "994",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2024-01-17T21:33:40.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_19897022_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "21.205000",
+          "size": "7014135",
+          "bit_rate": "2646219",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42isomavc1",
+            "creation_time": "2024-01-17T21:33:40.000000Z"
+          }
+        }
+      },
+      "duration_seconds": 21.205,
+      "width": 1920,
+      "height": 1080,
+      "full_decode_pass": true,
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_19897022_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/19897022_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "frames": [
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/19897022_1.jpg",
+            "bytes": 104067,
+            "sha256": "11d4bc4ad24134773d5d1a31b17e55964c3530c2b87915272e5d99ce548600a9"
+          },
+          "at_seconds": 2.1205,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "2.1205",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_19897022_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\19897022_1.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/19897022_2.jpg",
+            "bytes": 106719,
+            "sha256": "ccf5d51058b24739e1e22bd59312a2082623ea07f91450498add9d8ca5daba85"
+          },
+          "at_seconds": 10.6025,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "10.6025",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_19897022_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\19897022_2.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/19897022_3.jpg",
+            "bytes": 90713,
+            "sha256": "5d123f67ad1344f8eee59317bbf007952158e26c9cd32ecd2a517dcf725d5a82"
+          },
+          "at_seconds": 19.0845,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "19.0845",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_19897022_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\19897022_3.jpg"
+          ]
+        }
+      ],
+      "status": "TECHNICAL_PASS_CONTENT_REVIEW_PENDING",
+      "actual_duration_seconds": 21.205,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Modern printer and visibleXerox/VersaLink marks require brand-safe crop/masking review; not used in proposed timeline. No actual1989 printing or case-poster claim.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        21.104999999999997
+      ],
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-19897022_candidate_review.json",
+        "bytes": 9714,
+        "sha256": "f05a62816eb2a020e2cde25c1ee8a660d348ad53af00cb7e5dd10596c06bb05d"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8888977",
+      "provider_id": 8888977,
+      "source_identity": "pexels:video:8888977",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-typing-on-a-keyboard-8888977/",
+      "creator": {
+        "id": 30039676,
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
+      },
+      "preview_image": "https://images.pexels.com/videos/8888977/pexels-photo-8888977.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 10993114,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8888977/8888977-hd_2048_1080_25fps.mp4",
+        "size": 12056792
+      },
+      "candidate_paragraphs": [
+        "P07"
+      ],
+      "depiction_boundary": "Anonymous keyboard detail; no actual police system, on-screen case data or dated-equipment claim",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8888977_hd.mp4",
+      "human_use_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8888977_hd.mp4",
+        "bytes": 12056792,
+        "sha256": "12f9337e9ffbf57e31c4a550a9559f41edcfdfd92211ea5fa5be6987b27e2d55"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 615,
+            "duration": "24.600000",
+            "bit_rate": "3918071",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "615",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-07-24T12:07:53.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8888977_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "24.600000",
+          "size": "12056792",
+          "bit_rate": "3920907",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-07-24T12:07:53.000000Z"
+          }
+        }
+      },
+      "duration_seconds": 24.6,
+      "width": 2048,
+      "height": 1080,
+      "full_decode_pass": true,
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8888977_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8888977_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "frames": [
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8888977_1.jpg",
+            "bytes": 107357,
+            "sha256": "6085bd4eaf4d94a9b3284f49c551a0d3c2034dc7f2f28f7244ede0862983eff5"
+          },
+          "at_seconds": 2.4600000000000004,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "2.4600000000000004",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8888977_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8888977_1.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8888977_2.jpg",
+            "bytes": 106869,
+            "sha256": "3c4a9c0ea1dab1145951a7750e36d9df375bf8cd62430f278cc617d910a62ce0"
+          },
+          "at_seconds": 12.3,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "12.3",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8888977_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8888977_2.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8888977_3.jpg",
+            "bytes": 103783,
+            "sha256": "b80da4dfef0ec9291b8fbeef1e8500ac5be5330668ae68ecc81547aa13d58a99"
+          },
+          "at_seconds": 22.14,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "22.14",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8888977_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8888977_3.jpg"
+          ]
+        }
+      ],
+      "status": "TECHNICAL_PASS_CONTENT_REVIEW_PENDING",
+      "actual_duration_seconds": 24.6,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Anonymous keyboard/hands; no actual law-enforcement system or case data. Keep monitor brand/case-identifying material out of final crop.",
+      "proposed_crop": {
+        "x": 170,
+        "y": 120,
+        "width": 1706,
+        "height": 960
+      },
+      "permitted_source_range_seconds": [
+        0,
+        24.5
+      ],
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8888977_candidate_review.json",
+        "bytes": 8238,
+        "sha256": "159e08dd60109156c926c7f39bccdb2e4909e3b016b0da673ea9a07e28a58131"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-17136728",
+      "provider_id": 17136728,
+      "source_identity": "pexels:video:17136728",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-writing-on-a-notebook-with-a-pen-17136728/",
+      "creator": {
+        "id": 3302622,
+        "name": "PinkWitch 诸葛筱暖",
+        "url": "https://www.pexels.com/@pinkwitch-3302622"
+      },
+      "preview_image": "https://images.pexels.com/videos/17136728/pexels-photo-17136728.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 7090640,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/17136728/17136728-hd_1920_1080_30fps.mp4",
+        "size": 14705767
+      },
+      "candidate_paragraphs": [
+        "P11",
+        "P12"
+      ],
+      "depiction_boundary": "Anonymous note-taking; no actual investigator or case notes",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_17136728_hd.mp4",
+      "human_use_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_17136728_hd.mp4",
+        "bytes": 14691653,
+        "sha256": "bca5d9d8492d7e7f8605f23006dbb90c0b21d4fe6bad1b049a461abd98cb22a3"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30000/1001",
+            "avg_frame_rate": "30000/1001",
+            "time_base": "1/30000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1081050,
+            "duration": "36.035000",
+            "bit_rate": "3066987",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1080",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2023-06-07T17:42:11.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1732560,
+            "duration": "36.095000",
+            "bit_rate": "189380",
+            "nb_frames": "1692",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2023-06-07T17:42:11.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_17136728_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "36.095000",
+          "size": "14691653",
+          "bit_rate": "3256218",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42isomavc1",
+            "creation_time": "2023-06-07T17:42:11.000000Z"
+          }
+        }
+      },
+      "duration_seconds": 36.095,
+      "width": 1920,
+      "height": 1080,
+      "full_decode_pass": true,
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_17136728_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/17136728_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "frames": [
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/17136728_1.jpg",
+            "bytes": 115341,
+            "sha256": "6046f8cfe329a1fa9fec2818967c87d1b0e04850ec3170ef8a72e7bc38e12e70"
+          },
+          "at_seconds": 3.6095,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "3.6095",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_17136728_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\17136728_1.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/17136728_2.jpg",
+            "bytes": 152699,
+            "sha256": "bfc9ba442e7980bca03e9afd4c214df47459d8e4ca21ba40078653a4a9aac8d2"
+          },
+          "at_seconds": 18.0475,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "18.0475",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_17136728_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\17136728_2.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/17136728_3.jpg",
+            "bytes": 117409,
+            "sha256": "cf8438f78be3ee89a5f36a746a10e64c588f9ff5797a062402180c541c3af938"
+          },
+          "at_seconds": 32.4855,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "32.4855",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_17136728_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\17136728_3.jpg"
+          ]
+        }
+      ],
+      "status": "TECHNICAL_PASS_CONTENT_REVIEW_PENDING",
+      "actual_duration_seconds": 36.095,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Anonymous note-taking detail; not actual case notes or investigator identity. Avoid readable identifying text.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        35.995
+      ],
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-17136728_candidate_review.json",
+        "bytes": 9635,
+        "sha256": "62501a7c913e80a8e5e043a68a887ee019ecfdb4164be281ad091834648ec52d"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8085793",
+      "provider_id": 8085793,
+      "source_identity": "pexels:video:8085793",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-making-notes-8085793/",
+      "creator": {
+        "id": 22992178,
+        "name": "Ron Lach",
+        "url": "https://www.pexels.com/@ron-lach"
+      },
+      "preview_image": "https://images.pexels.com/videos/8085793/pexels-photo-8085793.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "selected_file": {
+        "id": 10686612,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8085793/8085793-hd_2048_1080_25fps.mp4",
+        "size": 14052576
+      },
+      "candidate_paragraphs": [
+        "P12",
+        "P17"
+      ],
+      "depiction_boundary": "Alternate note-taking context; no identification or real case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8085793_hd.mp4",
+      "human_use_approved": false,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8085793_hd.mp4",
+        "bytes": 14052576,
+        "sha256": "c81af9b41e6d06a3461fdbc5853ca42491a2b009d7d64886567d972d11b903ea"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1174,
+            "duration": "46.960000",
+            "bit_rate": "2391245",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1174",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-05-27T10:24:43.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8085793_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "46.960000",
+          "size": "14052576",
+          "bit_rate": "2393965",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-05-27T10:24:43.000000Z"
+          }
+        }
+      },
+      "duration_seconds": 46.96,
+      "width": 2048,
+      "height": 1080,
+      "full_decode_pass": true,
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8085793_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8085793_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "frames": [
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8085793_1.jpg",
+            "bytes": 104568,
+            "sha256": "faab222ee20cb72010ccd121c119dce7002ec4015490b8731f38a17812044e05"
+          },
+          "at_seconds": 4.696000000000001,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "4.696000000000001",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8085793_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8085793_1.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8085793_2.jpg",
+            "bytes": 94963,
+            "sha256": "651ec5bdc97e97998b41988c7d40679b6df89d0f333e7ba3057b25dffd68dcb7"
+          },
+          "at_seconds": 23.48,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "23.48",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8085793_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8085793_2.jpg"
+          ]
+        },
+        {
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_variety/8085793_3.jpg",
+            "bytes": 93964,
+            "sha256": "71c000cdb37bc797d369e4a90e33825658e3001de600a7f9ba5a8fc55f850c53"
+          },
+          "at_seconds": 42.264,
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "42.264",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8085793_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_variety\\8085793_3.jpg"
+          ]
+        }
+      ],
+      "status": "TECHNICAL_PASS_CONTENT_REVIEW_PENDING",
+      "actual_duration_seconds": 46.96,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Alternate anonymous notebook/hand detail; not actual case record or investigator. Avoid readable identifying text.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        46.86
+      ],
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8085793_candidate_review.json",
+        "bytes": 8008,
+        "sha256": "240c97ba6563204fa0cf7c8ecc45a4ee4e0c1622a15d5b00361994bdb6b70b2b"
+      }
+    }
+  ],
+  "human_approved": false,
+  "assembly_allowed": false,
+  "considered_candidates": 15,
+  "excluded": 5,
+  "additional_qc": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_gap_technical_qc.json",
+    "bytes": 29511,
+    "sha256": "55c02cfe6ce35d21f68390b4930f671b8e75a3b25f1dbcbc7e5eabdda19f5a59"
+  },
+  "native_at_least1080": 19,
+  "variety_qc": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_variety_qc.json",
+    "bytes": 37690,
+    "sha256": "ea69e9413c029ac4e47735c3db2a73158269b1e01f5d09b629a8644176cb411f"
+  }
+}

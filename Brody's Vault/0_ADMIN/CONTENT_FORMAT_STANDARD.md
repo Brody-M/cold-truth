@@ -99,16 +99,11 @@ The viability record must identify the supported story sections, material gaps, 
 
 ## 7. Machine-checkable narration preflight
 
-Run the backend `preflight` stage after narration generation and before alignment or assembly:
+After authorized narration generation and before alignment or assembly, the production integration must measure the exact current audio stream with FFprobe and record the result through the canonical orchestrator or an authorized direct-generation manifest.
 
-```powershell
-python automation/cold_truth_pipeline.py preflight `
-  --case "[CASE]" `
-  --target-format youtube-longform `
-  --narration-file "[PATH_TO_CURRENT_NARRATION]"
-```
+**Implementation update, 2026-10-20:** the former `cold_truth_pipeline.py preflight` command remains quarantined to isolated fixtures. The separate direct route now uses `automation/pilot_evidence.py audio` with exact approval, scope, script/text/audio, attempt and full-listen QA bindings; see the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook|pilot runbook]]. Offline wrapper/fixture tests pass; no real Amy audio has yet been probed. This does not enable the orchestrator or authorize production. Thresholds and approval rules are unchanged.
 
-The backend measures the audio stream with FFprobe and writes:
+The required canonical output is:
 
 `2_IN_PRODUCTION/[CASE]/Automation/preflight.json`
 

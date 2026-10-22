@@ -1,0 +1,27 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+    "bytes": 22867789,
+    "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+    "bytes": 1249,
+    "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+  },
+  "source_identity": "pexels:video:5792246",
+  "permitted_track": "youtube-longform",
+  "commercial_use_reviewed": false,
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Exact proposed illustrative stock use, subject to review of final trims",
+  "credits": "Matthias Groeneveld / Pexels",
+  "assistant_assessment": "Restrict to tight bicycle detail; avoid cluttered wider rack/plaza. Final trim pending.",
+  "assistant_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/visual_candidate_review_01.json",
+    "bytes": 14144,
+    "sha256": "4b89274302f9007d6590f7a12f8e7c5306c05aa484162d980f6190aa235db505"
+  }
+}

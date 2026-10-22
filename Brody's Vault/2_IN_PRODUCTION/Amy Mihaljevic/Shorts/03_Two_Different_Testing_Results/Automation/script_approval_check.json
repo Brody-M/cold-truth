@@ -1,0 +1,23 @@
+{
+  "status": "PASS_PAIRED_SCRIPT_BINDINGS",
+  "checked_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "441ef8ec1bde801bdd74020fbdbcaa51e0e2462e9b06de5079033ee433065e7d",
+    "bytes": 2351
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+    "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+    "bytes": 2467
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+    "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+    "bytes": 633
+  },
+  "word_count": 99,
+  "characters": 631,
+  "target_format": "shorts",
+  "actual_audio_exists": false
+}

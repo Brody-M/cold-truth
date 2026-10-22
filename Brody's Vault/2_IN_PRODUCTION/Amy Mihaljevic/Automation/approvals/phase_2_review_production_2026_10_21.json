@@ -1,0 +1,41 @@
+{
+  "schema_version": "cold_truth.phase_2_review_production_approval.v1",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-22T02:04:09.772442+00:00",
+  "user_quote": "Authorize this bounded production scope",
+  "question_item_id": "[\"request_user_input_async\",\"call_5bd66e5990e34f99ad9773744e40c214\",0]",
+  "question": "Authorize the prepared production scope: make Amy’s long-form review cut first, generate the three approved Shorts once each with normal-speed Mia using at most2,500 existing credits total, then make their review videos after actual audio/duration/timing QA passes? Limit: two local renders per video, eight total, and5GiB of new outputs. Confirm applicable rate before provider calls; no extra spending, new downloads or publishing.",
+  "scope": "Exact bounded next_production_scope_2026_10_21.json, including conditional Short QA gates and all caps/exclusions.",
+  "proposal": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/next_production_scope_2026_10_21.json",
+    "sha256": "30bc433ea240d97f5433b5a71d6f37598036105ae2c9fa7e6b2229f19b381f51",
+    "bytes": 20032
+  },
+  "case_id": "amy-mihaljevic",
+  "authorized_actions": [
+    "longform_review_assembly_render",
+    "three_single_short_narration_requests_after_rate_check",
+    "shorts_review_assembly_render_after_actual_audio_QA_preflight_and_timing"
+  ],
+  "limits": {
+    "maximum_existing_elevenlabs_credits_total": 2500,
+    "reported_remaining_existing_credits": 8217,
+    "new_narration_requests_total": 3,
+    "maximum_narration_requests_per_branch": 1,
+    "automatic_narration_retry": false,
+    "provider_fallback": false,
+    "paid_overage": false,
+    "purchases_or_subscription_changes": false,
+    "maximum_new_output_bytes": 5368709120,
+    "maximum_review_video_renders_total": 8,
+    "maximum_review_renders_per_video": 2,
+    "render_retry_scope": "Only local corrections to these four videos, preserving numbered outputs, within disk cap. No new narration retry.",
+    "cpu_threads": 2,
+    "new_software_or_model_downloads": false,
+    "new_stock_or_gameplay_downloads": false,
+    "duplicate_existing_gameplay": false
+  },
+  "publishing_authorized": false
+}

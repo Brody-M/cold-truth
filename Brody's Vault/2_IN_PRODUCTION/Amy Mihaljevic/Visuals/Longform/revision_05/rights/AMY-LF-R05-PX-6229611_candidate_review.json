@@ -1,0 +1,50 @@
+{
+  "asset_id": "AMY-LF-R05-PX-6229611",
+  "source_identity": "pexels:video:6229611",
+  "provider_id": 6229611,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/person-turning-door-signage-6229611/",
+  "creator": {
+    "id": 3041476,
+    "name": "Bonus Studio",
+    "url": "https://www.pexels.com/@bonus-studio-3041476"
+  },
+  "preview_image": "https://images.pexels.com/videos/6229611/pexels-photo-6229611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 14,
+  "selected_file": {
+    "id": 10029793,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "link": "https://videos.pexels.com/video-files/6229611/6229611-hd_1920_1080_25fps.mp4",
+    "size": 9566920
+  },
+  "candidate_paragraphs": [
+    "P06"
+  ],
+  "depiction_boundary": "Anonymous storefront-door detail; not actual public appeal or case location",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+  "human_rights_approved": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_hd.mp4",
+    "bytes": 5211613,
+    "sha256": "6db0dc3f98b0370a3fd8d439789e54ba26614a3935f17504653bfdaf0225e9e4"
+  },
+  "actual_duration_seconds": 13.93,
+  "actual_width": 1280,
+  "actual_height": 720,
+  "editorial_decision": "EXCLUDE",
+  "content_note": "Advertised1080p variant is actually1280x720; higher variant returnedHTTP403. No upscale/quality exception is assumed.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": null,
+  "human_use_approved": false,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  }
+}

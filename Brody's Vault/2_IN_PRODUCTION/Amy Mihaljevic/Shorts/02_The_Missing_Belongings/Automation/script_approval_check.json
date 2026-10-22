@@ -1,0 +1,23 @@
+{
+  "status": "PASS_PAIRED_SCRIPT_BINDINGS",
+  "checked_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0",
+    "bytes": 2316
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+    "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+    "bytes": 2327
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+    "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+    "bytes": 566
+  },
+  "word_count": 98,
+  "characters": 564,
+  "target_format": "shorts",
+  "actual_audio_exists": false
+}

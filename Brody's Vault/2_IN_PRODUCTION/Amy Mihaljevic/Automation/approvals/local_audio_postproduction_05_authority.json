@@ -1,0 +1,96 @@
+{
+  "schema_version": "cold_truth.existing_audio_postproduction_authority.v1",
+  "recorded_at_utc": "2026-10-22T04:18:19.294629+00:00",
+  "derived_authority_record_not_a_document_hash_approval": true,
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "user_quote": "proceed until usage runs out dont spend credits",
+  "scope": "Continue the requested targeted repair and pacing work on the existing Amy take using installed local tools only. No paid credits, new narration request or publishing. This action authorization does not accept listening quality or revised timing.",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "authorized_actions": [
+    "narration"
+  ],
+  "narration_action_kind": "existing-take local post-processing only; existing checker uses narration as the audio-branch category",
+  "new_narration_generation_authorized": false,
+  "maximum_provider_calls": 0,
+  "maximum_paid_spending": 0,
+  "output_paths": [
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3"
+  ],
+  "settings": {
+    "action_kind": "offline-existing-take-postproduction",
+    "tts_generation_authorized": false,
+    "provider_calls": 0,
+    "additional_global_gain_db": 0,
+    "base_audio": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+      "bytes": 75485228,
+      "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25"
+    },
+    "manual_gain_windows": [
+      {
+        "type": "manual_onset_clip_gain",
+        "justification": "Exact human-marked abrupt onset, not a generic plosive classifier or full-track peak threshold",
+        "start_seconds": 2.16,
+        "full_reduction_start_seconds": 2.175,
+        "full_reduction_end_seconds": 2.26,
+        "end_seconds": 2.32,
+        "start_sample": 95256,
+        "end_sample_exclusive": 102312,
+        "maximum_reduction_db": 8,
+        "envelope": "half cosine ramps in dB domain"
+      },
+      {
+        "type": "one_standalone_gap_noise_clip_gain",
+        "justification": "Noise-like event in protected interval after her. and before An; modest trial only",
+        "start_seconds": 6.05,
+        "full_reduction_start_seconds": 6.075,
+        "full_reduction_end_seconds": 6.26,
+        "end_seconds": 6.285,
+        "start_sample": 266805,
+        "end_sample_exclusive": 277168,
+        "maximum_reduction_db": 6,
+        "envelope": "half cosine ramps in dB domain"
+      }
+    ],
+    "separate_pacing_candidate": {
+      "cut_map": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/pacing_cut_map_draft.json",
+        "bytes": 188051,
+        "sha256": "33ee5ca07a643a335cf7514534a3a38db354dbdc31db6f9f66d816d06acd2a12"
+      },
+      "cuts": 104,
+      "removed_samples": 968805,
+      "no_spoken_word_pcm_changes": true,
+      "no_speedup_or_padding": true
+    }
+  },
+  "authority_context": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_fault_disappeared_2026_10_21.json",
+      "bytes": 1790,
+      "sha256": "e611dacb5a5707a8ac9ad04d4f44b057e460fad313984d04d0d70c5c56886c74"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/no_cost_continuation_scope_2026_10_21.json",
+      "bytes": 1913,
+      "sha256": "ba5af116ac88b5759292546c7e67757a94546ff39e6f991ab983e0f450a3c05f"
+    }
+  ],
+  "rendering_or_master_quality_approval": false
+}

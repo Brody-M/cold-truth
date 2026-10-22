@@ -1,0 +1,131 @@
+{
+  "schema_version": "cold_truth.neutral_voice_refinement_manifest.v1",
+  "started_at_utc": "2026-10-21T01:22:07.817891+00:00",
+  "status": "COMPLETED_AWAITING_HUMAN_COMPARISON",
+  "tool": "Installed VoiceStudio 0.5.6 KittenTTSBackend.generate, direct offline CPU invocation",
+  "approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/voicestudio_bella_refinement_approval_2026_10_20.json",
+    "bytes": 1663,
+    "sha256": "ad4e683ccaee08c3aab85eeebb103128b9e2ebc4a5998dee9aaaa58db37410a6"
+  },
+  "proposal": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_proposal_2026_10_20.json",
+    "bytes": 3236,
+    "sha256": "feaab217f529767957c12292ea9833cb5bcde86c4b123c004c9431beb0bca43e"
+  },
+  "settings": {
+    "engine": "kittentts",
+    "library_version": "0.8.1",
+    "model": "KittenML/kitten-tts-mini-0.8",
+    "model_revision": "c02725660cea441db4c383af69f1f26f5cd00947",
+    "voice": "expr-voice-2-f",
+    "speed": 1.15,
+    "language": "en",
+    "test_text": "This is a local narration test for Cold Truth. A calm, clear voice should make dates, names, and changes in a timeline easy to follow. At eight fifteen in the morning, a short note was added to the record. It confirmed the time without suggesting anything beyond the evidence.",
+    "input_sha256": "7905197d5dd6060a122e4e45ceabab9ce70dd298d7ff8d2bd1b6aceed257dc50",
+    "onnx_providers": [
+      "CPUExecutionProvider"
+    ],
+    "offline": true,
+    "mastering_chain": [
+      {
+        "type": "highpass",
+        "cutoff_hz": 60
+      },
+      {
+        "type": "compressor",
+        "threshold_db": -15,
+        "ratio": 1.5,
+        "attack_ms": 2.0,
+        "release_ms": 100
+      }
+    ],
+    "target_rms_dbfs": -20,
+    "peak_ceiling_dbfs": -1
+  },
+  "source_code": [
+    {
+      "path": "voice_samples/voicestudio_trial_01/app/resources/backend/services/tts_backend.py",
+      "bytes": 168618,
+      "sha256": "44d6d2da2bd5de6e0920c325f1e4051077f9220f7ca0678f5499f1e213a5199b"
+    },
+    {
+      "path": "voice_samples/voicestudio_trial_01/app/resources/backend/services/audio_dsp.py",
+      "bytes": 12802,
+      "sha256": "32e04ef12b48a03092d204549019ebb27dbfaf686bf84a1195c4227145d761d6"
+    }
+  ],
+  "target_format": "youtube-longform",
+  "classification": "AI_GENERATED_NEUTRAL_INTERNAL_TRIAL_NOT_EPISODE_NARRATION",
+  "assembly_allowed": false,
+  "is_episode_narration": false,
+  "generation_calls_submitted": 1,
+  "maximum_generation_calls": 1,
+  "automatic_retry_allowed": false,
+  "pre_synthesis_runner_repair_record": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_pre_synthesis_repair.json",
+  "all_planned_audio_output_paths": [
+    "voice_samples/voicestudio_trial_01/bella_refinement_01_raw.wav",
+    "voice_samples/voicestudio_trial_01/bella_refinement_01_mastered.wav"
+  ],
+  "native_waveform_path": "voice_samples/voicestudio_trial_01/bella_refinement_01_native.npy",
+  "additional_evidence_paths": [
+    "voice_samples/voicestudio_trial_01/bella_refinement_01_run.log"
+  ],
+  "storage_before_file_allocation_upper_bound_bytes": 5870284800,
+  "completed_at_utc": "2026-10-21T01:22:31.091570+00:00",
+  "generation_wall_seconds": 14.5,
+  "total_generation_and_processing_wall_seconds": 23.265,
+  "common_target_rms_dbfs": -20.00008685933068,
+  "outputs": [
+    {
+      "file": {
+        "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_raw.wav",
+        "bytes": 1150444,
+        "sha256": "ae326a33d28412e034482dc6a28c682bc419c7d0bf62ac69ea39d13d9fc3a665"
+      },
+      "processing": "gain_only_raw",
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_count": 575200,
+      "duration_seconds": 23.966666666666665,
+      "source_rms": 0.10381516613067338,
+      "source_peak": 0.9245959520339966,
+      "linear_gain": 0.9632407645924304,
+      "gain_db": -0.32530292490340174,
+      "achieved_rms_dbfs": -20.000517118930645,
+      "achieved_peak_dbfs": -1.0063999963832742,
+      "clipped_full_scale_samples": 0
+    },
+    {
+      "file": {
+        "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_mastered.wav",
+        "bytes": 1150444,
+        "sha256": "5289739e2217e27092841c598bc045b9a13cde7907989f2f7df139ff3ab273b3"
+      },
+      "processing": "VoiceStudio_mastering_then_gain",
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_count": 575200,
+      "duration_seconds": 23.966666666666665,
+      "source_rms": 0.08111311758355952,
+      "source_peak": 0.543014407157898,
+      "linear_gain": 1.2328338865410393,
+      "gain_db": 1.8180912639724267,
+      "achieved_rms_dbfs": -20.000084839194145,
+      "achieved_peak_dbfs": -3.48584995028561,
+      "clipped_full_scale_samples": 0
+    }
+  ],
+  "native_waveform": {
+    "path": "voice_samples/voicestudio_trial_01/bella_refinement_01_native.npy",
+    "bytes": 2300928,
+    "sha256": "340784de2b13951aaa78ad5d102df45727cd56a0595dc8e37605838c907411bf"
+  },
+  "sampled_resources": {
+    "peak_process_rss_bytes": 644341760
+  },
+  "additional_trial_file_allocation_upper_bound_bytes": 6291456,
+  "final_trial_file_allocation_upper_bound_bytes": 5876576256,
+  "remaining_generation_calls": 0,
+  "human_listening_approved": false
+}

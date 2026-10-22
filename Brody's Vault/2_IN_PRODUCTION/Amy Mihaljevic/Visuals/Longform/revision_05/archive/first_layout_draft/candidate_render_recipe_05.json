@@ -1,0 +1,2520 @@
+{
+  "schema_version": "cold_truth.provisional_visual_revision.v1",
+  "created_at_utc": "2026-10-22T04:13:20.715599+00:00",
+  "status": "PROVISIONAL_AUDIO_TIMING_AND_NEW_ASSET_USE_APPROVAL_PENDING",
+  "audio": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "timing_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+    "bytes": 440322,
+    "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+  },
+  "caption_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.json",
+    "bytes": 30549,
+    "sha256": "32b5bf10e59d3c843b4bde78c3e7371ba2b014ce41031f98d66bb00654772f68"
+  },
+  "source_registry_historical": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+    "bytes": 19009,
+    "sha256": "39da675c4baf192d158393e8898b4a8e605e7179f0cb96167e33943a647c11ac"
+  },
+  "new_candidate_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_content_review_combined.json",
+    "bytes": 44281,
+    "sha256": "573b67b380861e223ee017c7ad42ec7a7cc7b2c16650aa85e5c69043ab94aeb9"
+  },
+  "audio_seconds": 548.592358276644,
+  "fps": 30,
+  "frames": 16458,
+  "video_seconds": 548.6,
+  "full_frame_coverage": true,
+  "shots": [
+    {
+      "shot_id": "R05-001",
+      "paragraph_id": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 262,
+      "start_seconds": 0.0,
+      "end_seconds": 8.733333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.733333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-6975995",
+      "source_identity": "pexels:video:6975995",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "proposed_crop": {
+        "x": 0,
+        "y": 180,
+        "width": 1920,
+        "height": 1080
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+        "bytes": 2285,
+        "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A06"
+      ],
+      "narration_purpose": "On the afternoon Amy Mihaljevic disappeared, her mother received a phone call from her. An FBI account describes Amy saying she was okay. Her mother believed she was calling from home. According to FBI Special Agent Vicki Anderson, Amy was already with the person who had taken her. A familiar kind of check-in had given her mother a mistaken picture of where her daughter was.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-002",
+      "paragraph_id": 1,
+      "start_frame": 262,
+      "end_frame_exclusive": 524,
+      "start_seconds": 8.733333333333333,
+      "end_seconds": 17.466666666666665,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.733333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review_approved_2026_10_21.json",
+        "sha256": "d3909741a044a629f5032890addb7be1e2630b7462cc6c2cfc82fb46a8c6fabe",
+        "bytes": 2071
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A06"
+      ],
+      "narration_purpose": "On the afternoon Amy Mihaljevic disappeared, her mother received a phone call from her. An FBI account describes Amy saying she was okay. Her mother believed she was calling from home. According to FBI Special Agent Vicki Anderson, Amy was already with the person who had taken her. A familiar kind of check-in had given her mother a mistaken picture of where her daughter was.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-003",
+      "paragraph_id": 1,
+      "start_frame": 524,
+      "end_frame_exclusive": 786,
+      "start_seconds": 17.466666666666665,
+      "end_seconds": 26.2,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.733333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A06"
+      ],
+      "narration_purpose": "On the afternoon Amy Mihaljevic disappeared, her mother received a phone call from her. An FBI account describes Amy saying she was okay. Her mother believed she was calling from home. According to FBI Special Agent Vicki Anderson, Amy was already with the person who had taken her. A familiar kind of check-in had given her mother a mistaken picture of where her daughter was.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-004",
+      "paragraph_id": 2,
+      "start_frame": 786,
+      "end_frame_exclusive": 1047,
+      "start_seconds": 26.2,
+      "end_seconds": 34.9,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.7,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+        "bytes": 14961519,
+        "sha256": "b775ae0dcb1e779ade55ac520b731afcba134f0f341dfd66866ef424e4c2d530"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-14512668_review_approved_2026_10_21.json",
+        "sha256": "e1ad38c751a8737c4bea37aea33b483c0fb55f3ac255d5b94ad5fdc1ef2f473f",
+        "bytes": 2066
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A01/A05/A27"
+      ],
+      "narration_purpose": "Amy was ten years old and lived in Bay Village, Ohio. She enjoyed riding her bicycle. In a family interview years later, her father, Mark, remembered another part of her life: the horses she rode, and the way she played with their dog, Jake. She had taught him to jump over her legs as though he were a horse. It is a small memory of Amy doing something she loved, before her name became attached to an investigation.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-005",
+      "paragraph_id": 2,
+      "start_frame": 1047,
+      "end_frame_exclusive": 1229,
+      "start_seconds": 34.9,
+      "end_seconds": 40.96666666666667,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.066666666666666,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review_approved_2026_10_21.json",
+        "sha256": "f3623d4c6fc2dcf47195f90585f0b54f18df1a944ae43dc76294349bdb4c20ad",
+        "bytes": 2083
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A01/A05/A27"
+      ],
+      "narration_purpose": "Amy was ten years old and lived in Bay Village, Ohio. She enjoyed riding her bicycle. In a family interview years later, her father, Mark, remembered another part of her life: the horses she rode, and the way she played with their dog, Jake. She had taught him to jump over her legs as though he were a horse. It is a small memory of Amy doing something she loved, before her name became attached to an investigation.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-006",
+      "paragraph_id": 2,
+      "start_frame": 1229,
+      "end_frame_exclusive": 1438,
+      "start_seconds": 40.96666666666667,
+      "end_seconds": 47.93333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.966666666666667,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792246_review_approved_2026_10_21.json",
+        "sha256": "be72038c47bac7dd0b9789d36cbff6a96acf065700d0f32b2e0eb494cac55b18",
+        "bytes": 2092
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A01/A05/A27"
+      ],
+      "narration_purpose": "Amy was ten years old and lived in Bay Village, Ohio. She enjoyed riding her bicycle. In a family interview years later, her father, Mark, remembered another part of her life: the horses she rode, and the way she played with their dog, Jake. She had taught him to jump over her legs as though he were a horse. It is a small memory of Amy doing something she loved, before her name became attached to an investigation.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-007",
+      "paragraph_id": 2,
+      "start_frame": 1438,
+      "end_frame_exclusive": 1646,
+      "start_seconds": 47.93333333333333,
+      "end_seconds": 54.86666666666667,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.933333333333334,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review_approved_2026_10_21.json",
+        "sha256": "6687c57ceb91a441312276938b354e11d9c572c0d68becb30fe9eac7030e3329",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A01/A05/A27"
+      ],
+      "narration_purpose": "Amy was ten years old and lived in Bay Village, Ohio. She enjoyed riding her bicycle. In a family interview years later, her father, Mark, remembered another part of her life: the horses she rode, and the way she played with their dog, Jake. She had taught him to jump over her legs as though he were a horse. It is a small memory of Amy doing something she loved, before her name became attached to an investigation.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-008",
+      "paragraph_id": 3,
+      "start_frame": 1646,
+      "end_frame_exclusive": 1912,
+      "start_seconds": 54.86666666666667,
+      "end_seconds": 63.733333333333334,
+      "source_in_seconds": 8.733333333333333,
+      "source_out_seconds": 17.6,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review_approved_2026_10_21.json",
+        "sha256": "d3909741a044a629f5032890addb7be1e2630b7462cc6c2cfc82fb46a8c6fabe",
+        "bytes": 2071
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A02"
+      ],
+      "narration_purpose": "Before October 27, 1989, someone had contacted Amy with a plan that involved her mother. The caller said Amy could help choose a gift to celebrate a promotion at work. Bay Village Police place that contact weeks before the disappearance. The meeting was arranged for after school, at a nearby shopping center. The promise of a present for her mother was the reason Amy had been given for going there.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-009",
+      "paragraph_id": 3,
+      "start_frame": 1912,
+      "end_frame_exclusive": 2072,
+      "start_seconds": 63.733333333333334,
+      "end_seconds": 69.06666666666666,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 6.633333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-6975995",
+      "source_identity": "pexels:video:6975995",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "proposed_crop": {
+        "x": 0,
+        "y": 180,
+        "width": 1920,
+        "height": 1080
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+        "bytes": 2285,
+        "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A02"
+      ],
+      "narration_purpose": "Before October 27, 1989, someone had contacted Amy with a plan that involved her mother. The caller said Amy could help choose a gift to celebrate a promotion at work. Bay Village Police place that contact weeks before the disappearance. The meeting was arranged for after school, at a nearby shopping center. The promise of a present for her mother was the reason Amy had been given for going there.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-010",
+      "paragraph_id": 3,
+      "start_frame": 2072,
+      "end_frame_exclusive": 2231,
+      "start_seconds": 69.06666666666666,
+      "end_seconds": 74.36666666666666,
+      "source_in_seconds": 2,
+      "source_out_seconds": 7.3,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-32835503",
+      "source_identity": "pexels:video:32835503",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "proposed_crop": {
+        "x": 0,
+        "y": 360,
+        "width": 1280,
+        "height": 720
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+        "bytes": 2265,
+        "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A02"
+      ],
+      "narration_purpose": "Before October 27, 1989, someone had contacted Amy with a plan that involved her mother. The caller said Amy could help choose a gift to celebrate a promotion at work. Bay Village Police place that contact weeks before the disappearance. The meeting was arranged for after school, at a nearby shopping center. The promise of a present for her mother was the reason Amy had been given for going there.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-011",
+      "paragraph_id": 3,
+      "start_frame": 2231,
+      "end_frame_exclusive": 2497,
+      "start_seconds": 74.36666666666666,
+      "end_seconds": 83.23333333333333,
+      "source_in_seconds": 8.733333333333333,
+      "source_out_seconds": 17.6,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A02"
+      ],
+      "narration_purpose": "Before October 27, 1989, someone had contacted Amy with a plan that involved her mother. The caller said Amy could help choose a gift to celebrate a promotion at work. Bay Village Police place that contact weeks before the disappearance. The meeting was arranged for after school, at a nearby shopping center. The promise of a present for her mother was the reason Amy had been given for going there.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-012",
+      "paragraph_id": 4,
+      "start_frame": 2497,
+      "end_frame_exclusive": 2860,
+      "start_seconds": 83.23333333333333,
+      "end_seconds": 95.33333333333333,
+      "source_in_seconds": 17.6,
+      "source_out_seconds": 29.700000000000003,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A03/A04"
+      ],
+      "narration_purpose": "That Friday, Amy left school on foot. The FBI says she went to Bay Village Square and was seen outside a business, apparently waiting for someone. The police account describes witnesses seeing her speak with an unidentified man, then walk through the parking lot with him. No vehicle was seen, according to that account. The sighting establishes a public point in the sequence, but it does not reveal where Amy went afterward.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-013",
+      "paragraph_id": 4,
+      "start_frame": 2860,
+      "end_frame_exclusive": 3150,
+      "start_seconds": 95.33333333333333,
+      "end_seconds": 105.0,
+      "source_in_seconds": 3.3,
+      "source_out_seconds": 12.966666666666665,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-32835503",
+      "source_identity": "pexels:video:32835503",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "proposed_crop": {
+        "x": 0,
+        "y": 360,
+        "width": 1280,
+        "height": 720
+      },
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+        "bytes": 2265,
+        "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A03/A04"
+      ],
+      "narration_purpose": "That Friday, Amy left school on foot. The FBI says she went to Bay Village Square and was seen outside a business, apparently waiting for someone. The police account describes witnesses seeing her speak with an unidentified man, then walk through the parking lot with him. No vehicle was seen, according to that account. The sighting establishes a public point in the sequence, but it does not reveal where Amy went afterward.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-014",
+      "paragraph_id": 4,
+      "start_frame": 3150,
+      "end_frame_exclusive": 3332,
+      "start_seconds": 105.0,
+      "end_seconds": 111.06666666666666,
+      "source_in_seconds": 6.933333333333334,
+      "source_out_seconds": 13.0,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review_approved_2026_10_21.json",
+        "sha256": "6687c57ceb91a441312276938b354e11d9c572c0d68becb30fe9eac7030e3329",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A03/A04"
+      ],
+      "narration_purpose": "That Friday, Amy left school on foot. The FBI says she went to Bay Village Square and was seen outside a business, apparently waiting for someone. The police account describes witnesses seeing her speak with an unidentified man, then walk through the parking lot with him. No vehicle was seen, according to that account. The sighting establishes a public point in the sequence, but it does not reveal where Amy went afterward.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-015",
+      "paragraph_id": 5,
+      "start_frame": 3332,
+      "end_frame_exclusive": 3543,
+      "start_seconds": 111.06666666666666,
+      "end_seconds": 118.1,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 8.333333333333334,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review_approved_2026_10_21.json",
+        "sha256": "f3623d4c6fc2dcf47195f90585f0b54f18df1a944ae43dc76294349bdb4c20ad",
+        "bytes": 2083
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A07/A28"
+      ],
+      "narration_purpose": "Her bicycle was still at school. In a June 2026 interview, her brother, Jason, recalled noticing it there after his own classes ended. News 5's account of the day says their mother later found the bicycle at the school and went to the police to report Amy missing. By then, the expectation that she was safely home had given way to a search for her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-016",
+      "paragraph_id": 5,
+      "start_frame": 3543,
+      "end_frame_exclusive": 3784,
+      "start_seconds": 118.1,
+      "end_seconds": 126.13333333333334,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 9.333333333333334,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792246_review_approved_2026_10_21.json",
+        "sha256": "be72038c47bac7dd0b9789d36cbff6a96acf065700d0f32b2e0eb494cac55b18",
+        "bytes": 2092
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A07/A28"
+      ],
+      "narration_purpose": "Her bicycle was still at school. In a June 2026 interview, her brother, Jason, recalled noticing it there after his own classes ended. News 5's account of the day says their mother later found the bicycle at the school and went to the police to report Amy missing. By then, the expectation that she was safely home had given way to a search for her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-017",
+      "paragraph_id": 5,
+      "start_frame": 3784,
+      "end_frame_exclusive": 4085,
+      "start_seconds": 126.13333333333334,
+      "end_seconds": 136.16666666666666,
+      "source_in_seconds": 0,
+      "source_out_seconds": 10.033333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A07/A28"
+      ],
+      "narration_purpose": "Her bicycle was still at school. In a June 2026 interview, her brother, Jason, recalled noticing it there after his own classes ended. News 5's account of the day says their mother later found the bicycle at the school and went to the police to report Amy missing. By then, the expectation that she was safely home had given way to a search for her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-018",
+      "paragraph_id": 6,
+      "start_frame": 4085,
+      "end_frame_exclusive": 4426,
+      "start_seconds": 136.16666666666666,
+      "end_seconds": 147.53333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 11.366666666666667,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A08"
+      ],
+      "narration_purpose": "Bay Village Police and the FBI began investigating. Public appeals spread beyond the shopping center. News 5's reporting describes missing-person posters in shop windows and flyers distributed around the region. A local Pizza Hut put Amy's poster and a composite drawing on its boxes. Those efforts carried the appeal into ordinary places where someone might recognize her or remember the man seen with her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-019",
+      "paragraph_id": 6,
+      "start_frame": 4426,
+      "end_frame_exclusive": 4699,
+      "start_seconds": 147.53333333333333,
+      "end_seconds": 156.63333333333333,
+      "source_in_seconds": 29.700000000000003,
+      "source_out_seconds": 38.800000000000004,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A08"
+      ],
+      "narration_purpose": "Bay Village Police and the FBI began investigating. Public appeals spread beyond the shopping center. News 5's reporting describes missing-person posters in shop windows and flyers distributed around the region. A local Pizza Hut put Amy's poster and a composite drawing on its boxes. Those efforts carried the appeal into ordinary places where someone might recognize her or remember the man seen with her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-020",
+      "paragraph_id": 6,
+      "start_frame": 4699,
+      "end_frame_exclusive": 4972,
+      "start_seconds": 156.63333333333333,
+      "end_seconds": 165.73333333333332,
+      "source_in_seconds": 10.033333333333333,
+      "source_out_seconds": 19.133333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A08"
+      ],
+      "narration_purpose": "Bay Village Police and the FBI began investigating. Public appeals spread beyond the shopping center. News 5's reporting describes missing-person posters in shop windows and flyers distributed around the region. A local Pizza Hut put Amy's poster and a composite drawing on its boxes. Those efforts carried the appeal into ordinary places where someone might recognize her or remember the man seen with her.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-021",
+      "paragraph_id": 7,
+      "start_frame": 4972,
+      "end_frame_exclusive": 5232,
+      "start_seconds": 165.73333333333332,
+      "end_seconds": 174.4,
+      "source_in_seconds": 19.133333333333333,
+      "source_out_seconds": 27.799999999999997,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A09"
+      ],
+      "narration_purpose": "Inside the investigation, information also accumulated. The same reporting describes officers and federal agents working through leads, with a law-enforcement computer system strained by the volume of inquiries. People were being asked to look back at one afternoon, while investigators had to organize what came in. The public search continued, but Amy did not return home.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-022",
+      "paragraph_id": 7,
+      "start_frame": 5232,
+      "end_frame_exclusive": 5493,
+      "start_seconds": 174.4,
+      "end_seconds": 183.1,
+      "source_in_seconds": 11.366666666666667,
+      "source_out_seconds": 20.066666666666666,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A09"
+      ],
+      "narration_purpose": "Inside the investigation, information also accumulated. The same reporting describes officers and federal agents working through leads, with a law-enforcement computer system strained by the volume of inquiries. People were being asked to look back at one afternoon, while investigators had to organize what came in. The public search continued, but Amy did not return home.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-023",
+      "paragraph_id": 7,
+      "start_frame": 5493,
+      "end_frame_exclusive": 5753,
+      "start_seconds": 183.1,
+      "end_seconds": 191.76666666666668,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.666666666666666,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+        "bytes": 9382601,
+        "sha256": "8f1d0089f3512107b9e2edce1aa7b90c2ff0fad582e9442c00de616eaaaf7c70"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6550428_review_approved_2026_10_21.json",
+        "sha256": "0559c3870b79126b8f4a3e708fa8c73f42e40c6e2db0dc1e29b0dbae911d5d50",
+        "bytes": 2082
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A09"
+      ],
+      "narration_purpose": "Inside the investigation, information also accumulated. The same reporting describes officers and federal agents working through leads, with a law-enforcement computer system strained by the volume of inquiries. People were being asked to look back at one afternoon, while investigators had to organize what came in. The public search continued, but Amy did not return home.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-024",
+      "paragraph_id": 8,
+      "start_frame": 5753,
+      "end_frame_exclusive": 6051,
+      "start_seconds": 191.76666666666668,
+      "end_seconds": 201.7,
+      "source_in_seconds": 0,
+      "source_out_seconds": 9.933333333333334,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-15602507",
+      "source_identity": "pexels:video:15602507",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+        "bytes": 32469103,
+        "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+        "bytes": 2186,
+        "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A10"
+      ],
+      "narration_purpose": "On February 8, 1990, a jogger found Amy's body in a field in rural Ashland County. She was wearing the clothing in which she had last been seen. The search for a missing child had become an investigation into her death. The discovery gave investigators another location to examine, beyond the shopping center where she had disappeared.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-025",
+      "paragraph_id": 8,
+      "start_frame": 6051,
+      "end_frame_exclusive": 6259,
+      "start_seconds": 201.7,
+      "end_seconds": 208.63333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.933333333333334,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-6577022",
+      "source_identity": "pexels:video:6577022",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+        "bytes": 19912109,
+        "sha256": "fb3fdc028b6b5ed4b9bb8b271f434b8ce520fdb747f682679fb353b3bc27976a"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6577022_review_approved_2026_10_21.json",
+        "sha256": "ddba7398e33fba674aa69210f4f0dbd70df66a37c711e922cda19b66008845da",
+        "bytes": 2084
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A10"
+      ],
+      "narration_purpose": "On February 8, 1990, a jogger found Amy's body in a field in rural Ashland County. She was wearing the clothing in which she had last been seen. The search for a missing child had become an investigation into her death. The discovery gave investigators another location to examine, beyond the shopping center where she had disappeared.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-026",
+      "paragraph_id": 8,
+      "start_frame": 6259,
+      "end_frame_exclusive": 6468,
+      "start_seconds": 208.63333333333333,
+      "end_seconds": 215.6,
+      "source_in_seconds": 20.066666666666666,
+      "source_out_seconds": 27.03333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A10"
+      ],
+      "narration_purpose": "On February 8, 1990, a jogger found Amy's body in a field in rural Ashland County. She was wearing the clothing in which she had last been seen. The search for a missing child had become an investigation into her death. The discovery gave investigators another location to examine, beyond the shopping center where she had disappeared.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-027",
+      "paragraph_id": 9,
+      "start_frame": 6468,
+      "end_frame_exclusive": 6756,
+      "start_seconds": 215.6,
+      "end_seconds": 225.2,
+      "source_in_seconds": 8.666666666666666,
+      "source_out_seconds": 18.266666666666666,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+        "bytes": 9382601,
+        "sha256": "8f1d0089f3512107b9e2edce1aa7b90c2ff0fad582e9442c00de616eaaaf7c70"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-6550428_review_approved_2026_10_21.json",
+        "sha256": "0559c3870b79126b8f4a3e708fa8c73f42e40c6e2db0dc1e29b0dbae911d5d50",
+        "bytes": 2082
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A11"
+      ],
+      "narration_purpose": "Some of the things believed to have been with her were never recovered. The FBI lists a turquoise horse earring, black ankle boots and a black leather binder. Those objects remain part of its public appeal. They are details someone might recognize, but the published record does not establish what happened to them. Their absence cannot explain, by itself, who took Amy or where she was killed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-028",
+      "paragraph_id": 9,
+      "start_frame": 6756,
+      "end_frame_exclusive": 6986,
+      "start_seconds": 225.2,
+      "end_seconds": 232.86666666666667,
+      "source_in_seconds": 0,
+      "source_out_seconds": 7.666666666666667,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review_approved_2026_10_21.json",
+        "sha256": "81fd71f19e34dcc6bc79fbb70305ac7a9178f0b8bd1035fee259343e91ef227f",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A11"
+      ],
+      "narration_purpose": "Some of the things believed to have been with her were never recovered. The FBI lists a turquoise horse earring, black ankle boots and a black leather binder. Those objects remain part of its public appeal. They are details someone might recognize, but the published record does not establish what happened to them. Their absence cannot explain, by itself, who took Amy or where she was killed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-029",
+      "paragraph_id": 9,
+      "start_frame": 6986,
+      "end_frame_exclusive": 7274,
+      "start_seconds": 232.86666666666667,
+      "end_seconds": 242.46666666666667,
+      "source_in_seconds": 27.799999999999997,
+      "source_out_seconds": 37.4,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A11"
+      ],
+      "narration_purpose": "Some of the things believed to have been with her were never recovered. The FBI lists a turquoise horse earring, black ankle boots and a black leather binder. Those objects remain part of its public appeal. They are details someone might recognize, but the published record does not establish what happened to them. Their absence cannot explain, by itself, who took Amy or where she was killed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-030",
+      "paragraph_id": 10,
+      "start_frame": 7274,
+      "end_frame_exclusive": 7510,
+      "start_seconds": 242.46666666666667,
+      "end_seconds": 250.33333333333334,
+      "source_in_seconds": 1.066666333333333,
+      "source_out_seconds": 8.933333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review_approved_2026_10_21.json",
+        "sha256": "81fd71f19e34dcc6bc79fbb70305ac7a9178f0b8bd1035fee259343e91ef227f",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "Years later, investigators asked the public to look closely at another object. At a 2016 news conference, authorities displayed a homemade-looking curtain found in the field where Amy's body had been discovered. News 5 reported a connection between hair on the curtain and the family's dog. The appeal was for recognition of the textile: where it might have come from, or who might have made it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-031",
+      "paragraph_id": 10,
+      "start_frame": 7510,
+      "end_frame_exclusive": 7804,
+      "start_seconds": 250.33333333333334,
+      "end_seconds": 260.1333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 9.8,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8527274",
+      "source_identity": "pexels:video:8527274",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+        "bytes": 2205,
+        "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative textile work",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "Years later, investigators asked the public to look closely at another object. At a 2016 news conference, authorities displayed a homemade-looking curtain found in the field where Amy's body had been discovered. News 5 reported a connection between hair on the curtain and the family's dog. The appeal was for recognition of the textile: where it might have come from, or who might have made it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-032",
+      "paragraph_id": 10,
+      "start_frame": 7804,
+      "end_frame_exclusive": 8099,
+      "start_seconds": 260.1333333333333,
+      "end_seconds": 269.96666666666664,
+      "source_in_seconds": 27.03333333333333,
+      "source_out_seconds": 36.86666666666667,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "Years later, investigators asked the public to look closely at another object. At a 2016 news conference, authorities displayed a homemade-looking curtain found in the field where Amy's body had been discovered. News 5 reported a connection between hair on the curtain and the family's dog. The appeal was for recognition of the textile: where it might have come from, or who might have made it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-033",
+      "paragraph_id": 11,
+      "start_frame": 8099,
+      "end_frame_exclusive": 8350,
+      "start_seconds": 269.96666666666664,
+      "end_seconds": 278.3333333333333,
+      "source_in_seconds": 17.6,
+      "source_out_seconds": 25.96666666666667,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review_approved_2026_10_21.json",
+        "sha256": "d3909741a044a629f5032890addb7be1e2630b7462cc6c2cfc82fb46a8c6fabe",
+        "bytes": 2071
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "The release brought responses. Cleveland 19 reported that the prosecutor's office received calls and tips afterward, and that law enforcement was following them up. The curtain offered a possible connection between a physical object and information someone outside the investigation might hold. Its owner and origin were still questions; the public release did not announce that either had been established.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-034",
+      "paragraph_id": 11,
+      "start_frame": 8350,
+      "end_frame_exclusive": 8663,
+      "start_seconds": 278.3333333333333,
+      "end_seconds": 288.76666666666665,
+      "source_in_seconds": 37.4,
+      "source_out_seconds": 47.83333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "The release brought responses. Cleveland 19 reported that the prosecutor's office received calls and tips afterward, and that law enforcement was following them up. The curtain offered a possible connection between a physical object and information someone outside the investigation might hold. Its owner and origin were still questions; the public release did not announce that either had been established.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-035",
+      "paragraph_id": 11,
+      "start_frame": 8663,
+      "end_frame_exclusive": 8976,
+      "start_seconds": 288.76666666666665,
+      "end_seconds": 299.2,
+      "source_in_seconds": 5.2,
+      "source_out_seconds": 15.633333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A13"
+      ],
+      "narration_purpose": "The release brought responses. Cleveland 19 reported that the prosecutor's office received calls and tips afterward, and that law enforcement was following them up. The curtain offered a possible connection between a physical object and information someone outside the investigation might hold. Its owner and origin were still questions; the public release did not announce that either had been established.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-036",
+      "paragraph_id": 12,
+      "start_frame": 8976,
+      "end_frame_exclusive": 9273,
+      "start_seconds": 299.2,
+      "end_seconds": 309.1,
+      "source_in_seconds": 15.633333333333333,
+      "source_out_seconds": 25.53333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A14/A15"
+      ],
+      "narration_purpose": "The investigation also continued through interviews and renewed publicity. In a report marking thirty years since Amy disappeared, FBI Special Agent Lisa Hack described more than a hundred interviews during her six years working on the case. She said the files filled seventy volumes. The FBI had also put up billboards around Cleveland and in neighboring states, asking again for information. Those were accounts of continuing work, not a solved case.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-037",
+      "paragraph_id": 12,
+      "start_frame": 9273,
+      "end_frame_exclusive": 9570,
+      "start_seconds": 309.1,
+      "end_seconds": 319.0,
+      "source_in_seconds": 6.5,
+      "source_out_seconds": 16.4,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A14/A15"
+      ],
+      "narration_purpose": "The investigation also continued through interviews and renewed publicity. In a report marking thirty years since Amy disappeared, FBI Special Agent Lisa Hack described more than a hundred interviews during her six years working on the case. She said the files filled seventy volumes. The FBI had also put up billboards around Cleveland and in neighboring states, asking again for information. Those were accounts of continuing work, not a solved case.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-038",
+      "paragraph_id": 12,
+      "start_frame": 9570,
+      "end_frame_exclusive": 9763,
+      "start_seconds": 319.0,
+      "end_seconds": 325.43333333333334,
+      "source_in_seconds": 2.6,
+      "source_out_seconds": 9.033333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review_approved_2026_10_21.json",
+        "sha256": "6687c57ceb91a441312276938b354e11d9c572c0d68becb30fe9eac7030e3329",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A14/A15"
+      ],
+      "narration_purpose": "The investigation also continued through interviews and renewed publicity. In a report marking thirty years since Amy disappeared, FBI Special Agent Lisa Hack described more than a hundred interviews during her six years working on the case. She said the files filled seventy volumes. The FBI had also put up billboards around Cleveland and in neighboring states, asking again for information. Those were accounts of continuing work, not a solved case.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-039",
+      "paragraph_id": 12,
+      "start_frame": 9763,
+      "end_frame_exclusive": 9956,
+      "start_seconds": 325.43333333333334,
+      "end_seconds": 331.8666666666667,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.433333333333334,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+        "bytes": 4079850,
+        "sha256": "8a062376b403d4ff62ed47d9a104826b3644f1ccf10e492ca7d9112375558171"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325857_review_approved_2026_10_21.json",
+        "sha256": "c7aef668c9d72969f00034adca1957b3fba4199fb4d699f0354a5f769f41229b",
+        "bytes": 2055
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A14/A15"
+      ],
+      "narration_purpose": "The investigation also continued through interviews and renewed publicity. In a report marking thirty years since Amy disappeared, FBI Special Agent Lisa Hack described more than a hundred interviews during her six years working on the case. She said the files filled seventy volumes. The FBI had also put up billboards around Cleveland and in neighboring states, asking again for information. Those were accounts of continuing work, not a solved case.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-040",
+      "paragraph_id": 13,
+      "start_frame": 9956,
+      "end_frame_exclusive": 10293,
+      "start_seconds": 331.8666666666667,
+      "end_seconds": 343.1,
+      "source_in_seconds": 9.8,
+      "source_out_seconds": 21.03333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8527274",
+      "source_identity": "pexels:video:8527274",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+        "bytes": 2205,
+        "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative textile work",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A16"
+      ],
+      "narration_purpose": "In 2021, Bay Village Sergeant Edward Chapman described a further reason for examining the curtain. He told News 5 that testing had identified Amy's hair on it. Investigators again asked whether anyone recognized the unusual, apparently handmade textile. The new statement strengthened their public explanation for its relevance. It did not supply a public account of where the crime occurred or identify the person responsible.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-041",
+      "paragraph_id": 13,
+      "start_frame": 10293,
+      "end_frame_exclusive": 10546,
+      "start_seconds": 343.1,
+      "end_seconds": 351.53333333333336,
+      "source_in_seconds": 0.49999966666666573,
+      "source_out_seconds": 8.933333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-7233562_review_approved_2026_10_21.json",
+        "sha256": "81fd71f19e34dcc6bc79fbb70305ac7a9178f0b8bd1035fee259343e91ef227f",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A16"
+      ],
+      "narration_purpose": "In 2021, Bay Village Sergeant Edward Chapman described a further reason for examining the curtain. He told News 5 that testing had identified Amy's hair on it. Investigators again asked whether anyone recognized the unusual, apparently handmade textile. The new statement strengthened their public explanation for its relevance. It did not supply a public account of where the crime occurred or identify the person responsible.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-042",
+      "paragraph_id": 13,
+      "start_frame": 10546,
+      "end_frame_exclusive": 10883,
+      "start_seconds": 351.53333333333336,
+      "end_seconds": 362.76666666666665,
+      "source_in_seconds": 16.4,
+      "source_out_seconds": 27.633333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A16"
+      ],
+      "narration_purpose": "In 2021, Bay Village Sergeant Edward Chapman described a further reason for examining the curtain. He told News 5 that testing had identified Amy's hair on it. Investigators again asked whether anyone recognized the unusual, apparently handmade textile. The new statement strengthened their public explanation for its relevance. It did not supply a public account of where the crime occurred or identify the person responsible.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-043",
+      "paragraph_id": 14,
+      "start_frame": 10883,
+      "end_frame_exclusive": 11138,
+      "start_seconds": 362.76666666666665,
+      "end_seconds": 371.26666666666665,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 9.8,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+        "bytes": 4079850,
+        "sha256": "8a062376b403d4ff62ed47d9a104826b3644f1ccf10e492ca7d9112375558171"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325857_review_approved_2026_10_21.json",
+        "sha256": "c7aef668c9d72969f00034adca1957b3fba4199fb4d699f0354a5f769f41229b",
+        "bytes": 2055
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A17"
+      ],
+      "narration_purpose": "The next reported testing developments involved Amy's clothing. In 2024, police said retesting had detected male DNA, but the amount was too small to create a profile. That distinction matters: detecting material and producing a usable profile were different outcomes. Investigators were hoping that more sensitive procedures might eventually allow further work on the sample. They had not announced an identification from it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-044",
+      "paragraph_id": 14,
+      "start_frame": 11138,
+      "end_frame_exclusive": 11394,
+      "start_seconds": 371.26666666666665,
+      "end_seconds": 379.8,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.533333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-4267248",
+      "source_identity": "pexels:video:4267248",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+        "bytes": 2156,
+        "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A17"
+      ],
+      "narration_purpose": "The next reported testing developments involved Amy's clothing. In 2024, police said retesting had detected male DNA, but the amount was too small to create a profile. That distinction matters: detecting material and producing a usable profile were different outcomes. Investigators were hoping that more sensitive procedures might eventually allow further work on the sample. They had not announced an identification from it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-045",
+      "paragraph_id": 14,
+      "start_frame": 11394,
+      "end_frame_exclusive": 11598,
+      "start_seconds": 379.8,
+      "end_seconds": 386.6,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.8,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8326170",
+      "source_identity": "pexels:video:8326170",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+        "bytes": 2144,
+        "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A17"
+      ],
+      "narration_purpose": "The next reported testing developments involved Amy's clothing. In 2024, police said retesting had detected male DNA, but the amount was too small to create a profile. That distinction matters: detecting material and producing a usable profile were different outcomes. Investigators were hoping that more sensitive procedures might eventually allow further work on the sample. They had not announced an identification from it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-046",
+      "paragraph_id": 14,
+      "start_frame": 11598,
+      "end_frame_exclusive": 11802,
+      "start_seconds": 386.6,
+      "end_seconds": 393.4,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.8,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A17"
+      ],
+      "narration_purpose": "The next reported testing developments involved Amy's clothing. In 2024, police said retesting had detected male DNA, but the amount was too small to create a profile. That distinction matters: detecting material and producing a usable profile were different outcomes. Investigators were hoping that more sensitive procedures might eventually allow further work on the sample. They had not announced an identification from it.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-047",
+      "paragraph_id": 15,
+      "start_frame": 11802,
+      "end_frame_exclusive": 12049,
+      "start_seconds": 393.4,
+      "end_seconds": 401.6333333333333,
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.233333333333333,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+        "bytes": 5149882,
+        "sha256": "decd559e4bff3b7b1eb514face4e4ca1130cef794615683fa344849ab246ba79"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325856_review_approved_2026_10_21.json",
+        "sha256": "c536d5c7e3252bffa469ae0be3d701cd9b66756e416d771b8ad0c056561133b3",
+        "bytes": 2055
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A18"
+      ],
+      "narration_purpose": "Another round of work involved separate hairs. News 5 reported that an FBI laboratory had noticed hairs on evidence slides previously thought to contain clothing fibers. They were sent to a private laboratory in California for testing. Chapman cautioned that the hairs did not necessarily belong to the person responsible, and that contamination was possible after years of handling. These were separate from the small DNA sample on Amy's clothing.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-048",
+      "paragraph_id": 15,
+      "start_frame": 12049,
+      "end_frame_exclusive": 12246,
+      "start_seconds": 401.6333333333333,
+      "end_seconds": 408.2,
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.566666666666666,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-R05-PX-8381446",
+      "source_identity": "pexels:video:8381446",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+        "bytes": 6151622,
+        "sha256": "b80fd4533e2e7b87a3c6d1fd3ac75fd3c5c371032bfb7302487cdb4a08325af0"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_candidate_review.json",
+        "bytes": 2106,
+        "sha256": "6204878fcc0ac780aeff325f7e12f507288e3df3f89237abda8e2812dcb3b7ce"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A18"
+      ],
+      "narration_purpose": "Another round of work involved separate hairs. News 5 reported that an FBI laboratory had noticed hairs on evidence slides previously thought to contain clothing fibers. They were sent to a private laboratory in California for testing. Chapman cautioned that the hairs did not necessarily belong to the person responsible, and that contamination was possible after years of handling. These were separate from the small DNA sample on Amy's clothing.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-049",
+      "paragraph_id": 15,
+      "start_frame": 12246,
+      "end_frame_exclusive": 12493,
+      "start_seconds": 408.2,
+      "end_seconds": 416.43333333333334,
+      "source_in_seconds": 25.53333333333333,
+      "source_out_seconds": 33.766666666666666,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A18"
+      ],
+      "narration_purpose": "Another round of work involved separate hairs. News 5 reported that an FBI laboratory had noticed hairs on evidence slides previously thought to contain clothing fibers. They were sent to a private laboratory in California for testing. Chapman cautioned that the hairs did not necessarily belong to the person responsible, and that contamination was possible after years of handling. These were separate from the small DNA sample on Amy's clothing.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-050",
+      "paragraph_id": 15,
+      "start_frame": 12493,
+      "end_frame_exclusive": 12690,
+      "start_seconds": 416.43333333333334,
+      "end_seconds": 423.0,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 7.866666666666666,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8326170",
+      "source_identity": "pexels:video:8326170",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+        "bytes": 2144,
+        "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A18"
+      ],
+      "narration_purpose": "Another round of work involved separate hairs. News 5 reported that an FBI laboratory had noticed hairs on evidence slides previously thought to contain clothing fibers. They were sent to a private laboratory in California for testing. Chapman cautioned that the hairs did not necessarily belong to the person responsible, and that contamination was possible after years of handling. These were separate from the small DNA sample on Amy's clothing.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-051",
+      "paragraph_id": 16,
+      "start_frame": 12690,
+      "end_frame_exclusive": 12958,
+      "start_seconds": 423.0,
+      "end_seconds": 431.93333333333334,
+      "source_in_seconds": 27.633333333333333,
+      "source_out_seconds": 36.56666666666666,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A19/A20"
+      ],
+      "narration_purpose": "In January 2026, Cleveland 19 reported a setback in that hair testing. Detective Sergeant Jay Elish said Astrea Forensics could not obtain a profile from the submitted hairs. The material was likely too small or too degraded. Investigators were continuing with DNA work, but this particular effort had not produced the result they wanted. That outcome concerned the hairs; it did not erase the separate clothing-DNA finding.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-052",
+      "paragraph_id": 16,
+      "start_frame": 12958,
+      "end_frame_exclusive": 13172,
+      "start_seconds": 431.93333333333334,
+      "end_seconds": 439.06666666666666,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 8.433333333333334,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A19/A20"
+      ],
+      "narration_purpose": "In January 2026, Cleveland 19 reported a setback in that hair testing. Detective Sergeant Jay Elish said Astrea Forensics could not obtain a profile from the submitted hairs. The material was likely too small or too degraded. Investigators were continuing with DNA work, but this particular effort had not produced the result they wanted. That outcome concerned the hairs; it did not erase the separate clothing-DNA finding.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-053",
+      "paragraph_id": 16,
+      "start_frame": 13172,
+      "end_frame_exclusive": 13386,
+      "start_seconds": 439.06666666666666,
+      "end_seconds": 446.2,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 8.433333333333334,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-4267248",
+      "source_identity": "pexels:video:4267248",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+        "bytes": 2156,
+        "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A19/A20"
+      ],
+      "narration_purpose": "In January 2026, Cleveland 19 reported a setback in that hair testing. Detective Sergeant Jay Elish said Astrea Forensics could not obtain a profile from the submitted hairs. The material was likely too small or too degraded. Investigators were continuing with DNA work, but this particular effort had not produced the result they wanted. That outcome concerned the hairs; it did not erase the separate clothing-DNA finding.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-054",
+      "paragraph_id": 16,
+      "start_frame": 13386,
+      "end_frame_exclusive": 13654,
+      "start_seconds": 446.2,
+      "end_seconds": 455.1333333333333,
+      "source_in_seconds": 9.1,
+      "source_out_seconds": 18.03333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A19/A20"
+      ],
+      "narration_purpose": "In January 2026, Cleveland 19 reported a setback in that hair testing. Detective Sergeant Jay Elish said Astrea Forensics could not obtain a profile from the submitted hairs. The material was likely too small or too degraded. Investigators were continuing with DNA work, but this particular effort had not produced the result they wanted. That outcome concerned the hairs; it did not erase the separate clothing-DNA finding.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-055",
+      "paragraph_id": 17,
+      "start_frame": 13654,
+      "end_frame_exclusive": 13964,
+      "start_seconds": 455.1333333333333,
+      "end_seconds": 465.46666666666664,
+      "source_in_seconds": 18.03333333333333,
+      "source_out_seconds": 28.366666666666667,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A29/A30"
+      ],
+      "narration_purpose": "By June, Police Chief Robert Gillespie was describing the resources needed to keep testing evidence. He told Cleveland 19 that work was continuing, although he could not discuss every item being tested. He explained that the Amy Fund supplemented other funding so investigators could respond when testing opportunities arose. Bay Village's own community announcement also describes the fund as supporting investigative costs, including DNA testing. Financial support helps that work continue; it is not a test result.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-056",
+      "paragraph_id": 17,
+      "start_frame": 13964,
+      "end_frame_exclusive": 14212,
+      "start_seconds": 465.46666666666664,
+      "end_seconds": 473.73333333333335,
+      "source_in_seconds": 2.6,
+      "source_out_seconds": 10.866666666666667,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-3195394",
+      "source_identity": "pexels:video:3195394",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A29/A30"
+      ],
+      "narration_purpose": "By June, Police Chief Robert Gillespie was describing the resources needed to keep testing evidence. He told Cleveland 19 that work was continuing, although he could not discuss every item being tested. He explained that the Amy Fund supplemented other funding so investigators could respond when testing opportunities arose. Bay Village's own community announcement also describes the fund as supporting investigative costs, including DNA testing. Financial support helps that work continue; it is not a test result.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-057",
+      "paragraph_id": 17,
+      "start_frame": 14212,
+      "end_frame_exclusive": 14521,
+      "start_seconds": 473.73333333333335,
+      "end_seconds": 484.03333333333336,
+      "source_in_seconds": 36.56666666666666,
+      "source_out_seconds": 46.86666666666666,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A29/A30"
+      ],
+      "narration_purpose": "By June, Police Chief Robert Gillespie was describing the resources needed to keep testing evidence. He told Cleveland 19 that work was continuing, although he could not discuss every item being tested. He explained that the Amy Fund supplemented other funding so investigators could respond when testing opportunities arose. Bay Village's own community announcement also describes the fund as supporting investigative costs, including DNA testing. Financial support helps that work continue; it is not a test result.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-058",
+      "paragraph_id": 17,
+      "start_frame": 14521,
+      "end_frame_exclusive": 14769,
+      "start_seconds": 484.03333333333336,
+      "end_seconds": 492.3,
+      "source_in_seconds": 0.8333333333333321,
+      "source_out_seconds": 9.1,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8381446",
+      "source_identity": "pexels:video:8381446",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+        "bytes": 6151622,
+        "sha256": "b80fd4533e2e7b87a3c6d1fd3ac75fd3c5c371032bfb7302487cdb4a08325af0"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_candidate_review.json",
+        "bytes": 2106,
+        "sha256": "6204878fcc0ac780aeff325f7e12f507288e3df3f89237abda8e2812dcb3b7ce"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A29/A30"
+      ],
+      "narration_purpose": "By June, Police Chief Robert Gillespie was describing the resources needed to keep testing evidence. He told Cleveland 19 that work was continuing, although he could not discuss every item being tested. He explained that the Amy Fund supplemented other funding so investigators could respond when testing opportunities arose. Bay Village's own community announcement also describes the fund as supporting investigative costs, including DNA testing. Financial support helps that work continue; it is not a test result.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-059",
+      "paragraph_id": 18,
+      "start_frame": 14769,
+      "end_frame_exclusive": 14962,
+      "start_seconds": 492.3,
+      "end_seconds": 498.73333333333335,
+      "source_in_seconds": 3.9000000000000004,
+      "source_out_seconds": 10.333333333333334,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-854698_review_approved_2026_10_21.json",
+        "sha256": "d3909741a044a629f5032890addb7be1e2630b7462cc6c2cfc82fb46a8c6fabe",
+        "bytes": 2071
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A12/A24/A25"
+      ],
+      "narration_purpose": "As of our October 16, 2026 source check, Bay Village's public case page describes the investigation as ongoing. Police still ask for help identifying the curtain and blanket. The FBI continues to offer a reward of up to twenty-five thousand dollars for information leading to the arrest and conviction of those responsible for Amy's death. These remain public requests for information, with the case unresolved in the sources reviewed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-060",
+      "paragraph_id": 18,
+      "start_frame": 14962,
+      "end_frame_exclusive": 15182,
+      "start_seconds": 498.73333333333335,
+      "end_seconds": 506.06666666666666,
+      "source_in_seconds": 5.2,
+      "source_out_seconds": 12.533333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A12/A24/A25"
+      ],
+      "narration_purpose": "As of our October 16, 2026 source check, Bay Village's public case page describes the investigation as ongoing. Police still ask for help identifying the curtain and blanket. The FBI continues to offer a reward of up to twenty-five thousand dollars for information leading to the arrest and conviction of those responsible for Amy's death. These remain public requests for information, with the case unresolved in the sources reviewed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-061",
+      "paragraph_id": 18,
+      "start_frame": 15182,
+      "end_frame_exclusive": 15457,
+      "start_seconds": 506.06666666666666,
+      "end_seconds": 515.2333333333333,
+      "source_in_seconds": 28.366666666666667,
+      "source_out_seconds": 37.53333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      },
+      "human_use_approved": false,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A12/A24/A25"
+      ],
+      "narration_purpose": "As of our October 16, 2026 source check, Bay Village's public case page describes the investigation as ongoing. Police still ask for help identifying the curtain and blanket. The FBI continues to offer a reward of up to twenty-five thousand dollars for information leading to the arrest and conviction of those responsible for Amy's death. These remain public requests for information, with the case unresolved in the sources reviewed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-062",
+      "paragraph_id": 18,
+      "start_frame": 15457,
+      "end_frame_exclusive": 15677,
+      "start_seconds": 515.2333333333333,
+      "end_seconds": 522.5666666666667,
+      "source_in_seconds": 1.3,
+      "source_out_seconds": 8.633333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+        "bytes": 5149882,
+        "sha256": "decd559e4bff3b7b1eb514face4e4ca1130cef794615683fa344849ab246ba79"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-8325856_review_approved_2026_10_21.json",
+        "sha256": "c536d5c7e3252bffa469ae0be3d701cd9b66756e416d771b8ad0c056561133b3",
+        "bytes": 2055
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A12/A24/A25"
+      ],
+      "narration_purpose": "As of our October 16, 2026 source check, Bay Village's public case page describes the investigation as ongoing. Police still ask for help identifying the curtain and blanket. The FBI continues to offer a reward of up to twenty-five thousand dollars for information leading to the arrest and conviction of those responsible for Amy's death. These remain public requests for information, with the case unresolved in the sources reviewed.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-063",
+      "paragraph_id": 19,
+      "start_frame": 15677,
+      "end_frame_exclusive": 15956,
+      "start_seconds": 522.5666666666667,
+      "end_seconds": 531.8666666666667,
+      "source_in_seconds": 8.7,
+      "source_out_seconds": 18.0,
+      "source_interval_overlaps_prior_use": false,
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+        "bytes": 14961519,
+        "sha256": "b775ae0dcb1e779ade55ac520b731afcba134f0f341dfd66866ef424e4c2d530"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-14512668_review_approved_2026_10_21.json",
+        "sha256": "e1ad38c751a8737c4bea37aea33b483c0fb55f3ac255d5b94ad5fdc1ef2f473f",
+        "bytes": 2066
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A05/A24/A26/A27"
+      ],
+      "narration_purpose": "For Amy's family, those records sit alongside memories of a child. In the thirty-year interview, her father described still thinking about her several times a week. The bicycle, the time with Jake, the things she enjoyed: those belong to Amy's life, beyond the evidence left behind. Amy is a daughter and a sister. The public appeal remains open, and the effort to find answers continues.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-064",
+      "paragraph_id": 19,
+      "start_frame": 15956,
+      "end_frame_exclusive": 16179,
+      "start_seconds": 531.8666666666667,
+      "end_seconds": 539.3,
+      "source_in_seconds": 2.6,
+      "source_out_seconds": 10.033333333333333,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5792244_review_approved_2026_10_21.json",
+        "sha256": "f3623d4c6fc2dcf47195f90585f0b54f18df1a944ae43dc76294349bdb4c20ad",
+        "bytes": 2083
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A05/A24/A26/A27"
+      ],
+      "narration_purpose": "For Amy's family, those records sit alongside memories of a child. In the thirty-year interview, her father described still thinking about her several times a week. The bicycle, the time with Jake, the things she enjoyed: those belong to Amy's life, beyond the evidence left behind. Amy is a daughter and a sister. The public appeal remains open, and the effort to find answers continues.",
+      "stock_is_actual_case_footage": false
+    },
+    {
+      "shot_id": "R05-065",
+      "paragraph_id": 19,
+      "start_frame": 16179,
+      "end_frame_exclusive": 16458,
+      "start_seconds": 539.3,
+      "end_seconds": 548.6,
+      "source_in_seconds": 3.9000000000000004,
+      "source_out_seconds": 13.200000000000001,
+      "source_interval_overlaps_prior_use": true,
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "proposed_crop": null,
+      "rights_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/AMY-LF-PX-5835776_review_approved_2026_10_21.json",
+        "sha256": "6687c57ceb91a441312276938b354e11d9c572c0d68becb30fe9eac7030e3329",
+        "bytes": 2077
+      },
+      "human_use_approved": true,
+      "actual_trim_crop_reviewed": false,
+      "illustrative_label": "Illustrative footage",
+      "source_audio": "disabled",
+      "source_speed": 1,
+      "source_looping": false,
+      "claim_ids": [
+        "A05/A24/A26/A27"
+      ],
+      "narration_purpose": "For Amy's family, those records sit alongside memories of a child. In the thirty-year interview, her father described still thinking about her several times a week. The bicycle, the time with Jake, the things she enjoyed: those belong to Amy's life, beyond the evidence left behind. Amy is a daughter and a sister. The public appeal remains open, and the effort to find answers continues.",
+      "stock_is_actual_case_footage": false
+    }
+  ],
+  "asset_use_statistics": {
+    "6975995": {
+      "appearances": 2,
+      "seconds": 14.066666666666661,
+      "distinct_source_seconds": 8.733333333333333,
+      "reused_source_seconds": 5.333333333333329
+    },
+    "854698": {
+      "appearances": 4,
+      "seconds": 32.40000000000001,
+      "distinct_source_seconds": 25.96666666666667,
+      "reused_source_seconds": 6.433333333333344
+    },
+    "14160089": {
+      "appearances": 5,
+      "seconds": 46.13333333333331,
+      "distinct_source_seconds": 38.800000000000004,
+      "reused_source_seconds": 7.333333333333307
+    },
+    "14512668": {
+      "appearances": 2,
+      "seconds": 17.999999999999954,
+      "distinct_source_seconds": 18.0,
+      "reused_source_seconds": -4.618527782440651e-14
+    },
+    "5792244": {
+      "appearances": 3,
+      "seconds": 20.53333333333328,
+      "distinct_source_seconds": 10.033333333333333,
+      "reused_source_seconds": 10.499999999999948
+    },
+    "5792246": {
+      "appearances": 2,
+      "seconds": 15.000000000000007,
+      "distinct_source_seconds": 9.333333333333334,
+      "reused_source_seconds": 5.666666666666673
+    },
+    "5835776": {
+      "appearances": 4,
+      "seconds": 28.733333333333405,
+      "distinct_source_seconds": 13.200000000000001,
+      "reused_source_seconds": 15.533333333333404
+    },
+    "32835503": {
+      "appearances": 2,
+      "seconds": 14.966666666666669,
+      "distinct_source_seconds": 10.966666666666665,
+      "reused_source_seconds": 4.0000000000000036
+    },
+    "8371852": {
+      "appearances": 9,
+      "seconds": 88.19999999999995,
+      "distinct_source_seconds": 47.83333333333333,
+      "reused_source_seconds": 40.36666666666662
+    },
+    "8371858": {
+      "appearances": 10,
+      "seconds": 93.8666666666667,
+      "distinct_source_seconds": 37.53333333333333,
+      "reused_source_seconds": 56.33333333333337
+    },
+    "6550428": {
+      "appearances": 2,
+      "seconds": 18.26666666666668,
+      "distinct_source_seconds": 18.266666666666666,
+      "reused_source_seconds": 1.4210854715202004e-14
+    },
+    "15602507": {
+      "appearances": 1,
+      "seconds": 9.933333333333309,
+      "distinct_source_seconds": 9.933333333333334,
+      "reused_source_seconds": -2.4868995751603507e-14
+    },
+    "6577022": {
+      "appearances": 1,
+      "seconds": 6.933333333333337,
+      "distinct_source_seconds": 6.933333333333334,
+      "reused_source_seconds": 3.552713678800501e-15
+    },
+    "7233562": {
+      "appearances": 3,
+      "seconds": 23.966666666666697,
+      "distinct_source_seconds": 8.933333,
+      "reused_source_seconds": 15.033333666666698
+    },
+    "8527274": {
+      "appearances": 2,
+      "seconds": 21.03333333333333,
+      "distinct_source_seconds": 21.03333333333333,
+      "reused_source_seconds": 0.0
+    },
+    "8325857": {
+      "appearances": 2,
+      "seconds": 14.933333333333337,
+      "distinct_source_seconds": 9.8,
+      "reused_source_seconds": 5.133333333333336
+    },
+    "4267248": {
+      "appearances": 2,
+      "seconds": 15.666666666666686,
+      "distinct_source_seconds": 8.533333333333333,
+      "reused_source_seconds": 7.133333333333352
+    },
+    "8326170": {
+      "appearances": 2,
+      "seconds": 13.366666666666674,
+      "distinct_source_seconds": 7.866666666666666,
+      "reused_source_seconds": 5.500000000000008
+    },
+    "3195394": {
+      "appearances": 3,
+      "seconds": 22.19999999999999,
+      "distinct_source_seconds": 10.866666666666667,
+      "reused_source_seconds": 11.333333333333321
+    },
+    "8325856": {
+      "appearances": 2,
+      "seconds": 15.56666666666672,
+      "distinct_source_seconds": 8.633333333333333,
+      "reused_source_seconds": 6.933333333333387
+    },
+    "8381446": {
+      "appearances": 2,
+      "seconds": 14.833333333333314,
+      "distinct_source_seconds": 9.1,
+      "reused_source_seconds": 5.733333333333315
+    }
+  },
+  "overlays": [
+    {
+      "paragraph_id": 4,
+      "title": "October 27, 1989",
+      "detail": "After school"
+    },
+    {
+      "paragraph_id": 8,
+      "title": "February 8, 1990",
+      "detail": "Rural Ashland County"
+    },
+    {
+      "paragraph_id": 9,
+      "title": "Unrecovered belongings",
+      "detail": "Horse earring · black ankle boots · black binder"
+    },
+    {
+      "paragraph_id": 10,
+      "title": "2016 · Public textile appeal",
+      "detail": "Illustrative textile footage"
+    },
+    {
+      "paragraph_id": 13,
+      "title": "2021 · Renewed textile appeal",
+      "detail": "Reported hair association"
+    },
+    {
+      "paragraph_id": 14,
+      "title": "2024 · Clothing DNA",
+      "detail": "Detected; too little for a profile"
+    },
+    {
+      "paragraph_id": 16,
+      "title": "January 2026 · Separate hairs",
+      "detail": "No profile obtained in the reported test"
+    },
+    {
+      "paragraph_id": 18,
+      "title": "Public appeal remains open",
+      "detail": "Source check: October 16, 2026"
+    }
+  ],
+  "full_screen_card_seconds": 0,
+  "old_full_screen_card_seconds": 194.7333333333333,
+  "stock_audio": false,
+  "background_music": false,
+  "gameplay": false,
+  "human_audio_approved": false,
+  "human_timing_approved": false,
+  "new_asset_use_approved": false,
+  "actual_trim_crop_reviewed": false,
+  "assembly_allowed": false,
+  "render_ready": false,
+  "publishing_authorized": false,
+  "limitations": [
+    "No suitable school exterior or actual public-poster footage was found; bicycle/route/public-context footage serves those paragraphs without pretending to show actual case images.",
+    "Some source intervals repeat; exact reused seconds are disclosed per asset. No stock source loops within a shot.",
+    "School/name/flag mismatches, financial charts and the720p variant are excluded.",
+    "B-roll and overlays translate approved narration, not independent case evidence. Final crop/motion, rights/use and human audio/timing review remain pending."
+  ]
+}

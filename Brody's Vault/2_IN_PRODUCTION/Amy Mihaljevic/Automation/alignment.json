@@ -1,0 +1,982 @@
+{
+  "schema_version": "cold_truth.reviewed_alignment.v1",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "tool": "Sample-exact remapping of previously reviewed forced alignment after quiet-gap edits; reviewed full playback",
+  "recorded_at_utc": "2026-10-22T04:37:22.665820+00:00",
+  "reviewed_machine_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+    "bytes": 440322,
+    "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+  },
+  "reviewed_caption_groups": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.json",
+    "bytes": 30602,
+    "sha256": "620646985aa10c039b50663d3c7ceff9a8bee88af8fa338b9fa782b24a907437"
+  },
+  "segments": [
+    {
+      "word_start": 0,
+      "word_end_exclusive": 14,
+      "start": 0.1,
+      "end": 5.201972789115646,
+      "text": "On the afternoon Amy Mihaljevic disappeared,\nher mother received a phone call from her."
+    },
+    {
+      "word_start": 14,
+      "word_end_exclusive": 23,
+      "start": 5.901972789115646,
+      "end": 9.243968253968253,
+      "text": "An FBI account describes\nAmy saying she was okay."
+    },
+    {
+      "word_start": 23,
+      "word_end_exclusive": 31,
+      "start": 10.063945578231293,
+      "end": 12.184943310657596,
+      "text": "Her mother believed she was calling from home."
+    },
+    {
+      "word_start": 31,
+      "word_end_exclusive": 44,
+      "start": 12.884943310657597,
+      "end": 17.896938775510204,
+      "text": "According to FBI Special Agent Vicki\nAnderson, Amy was already with the person"
+    },
+    {
+      "word_start": 44,
+      "word_end_exclusive": 48,
+      "start": 18.196938775510205,
+      "end": 18.936938775510203,
+      "text": "who had taken her."
+    },
+    {
+      "word_start": 48,
+      "word_end_exclusive": 62,
+      "start": 19.767913832199547,
+      "end": 24.369909297052153,
+      "text": "A familiar kind of check-in had given\nher mother a mistaken picture of where"
+    },
+    {
+      "word_start": 62,
+      "word_end_exclusive": 76,
+      "start": 24.409909297052153,
+      "end": 29.1118820861678,
+      "text": "her daughter was. Amy was ten years\nold and lived in Bay Village, Ohio."
+    },
+    {
+      "word_start": 76,
+      "word_end_exclusive": 81,
+      "start": 30.032879818594104,
+      "end": 31.59387755102041,
+      "text": "She enjoyed riding her bicycle."
+    },
+    {
+      "word_start": 81,
+      "word_end_exclusive": 93,
+      "start": 32.45485260770975,
+      "end": 37.3178231292517,
+      "text": "In a family interview years later, her\nfather, Mark, remembered another part"
+    },
+    {
+      "word_start": 93,
+      "word_end_exclusive": 109,
+      "start": 37.3578231292517,
+      "end": 42.401814058956916,
+      "text": "of her life: the horses she rode, and the\nway she played with their dog, Jake."
+    },
+    {
+      "word_start": 109,
+      "word_end_exclusive": 124,
+      "start": 43.10181405895692,
+      "end": 46.46380952380952,
+      "text": "She had taught him to jump over\nher legs as though he were a horse."
+    },
+    {
+      "word_start": 124,
+      "word_end_exclusive": 139,
+      "start": 47.55478458049887,
+      "end": 52.41877551020408,
+      "text": "It is a small memory of Amy doing something\nshe loved, before her name became"
+    },
+    {
+      "word_start": 139,
+      "word_end_exclusive": 143,
+      "start": 52.47877551020408,
+      "end": 53.85977324263038,
+      "text": "attached to an investigation."
+    },
+    {
+      "word_start": 143,
+      "word_end_exclusive": 151,
+      "start": 54.85977324263038,
+      "end": 59.7037641723356,
+      "text": "Before October 27, 1989,\nsomeone had contacted Amy"
+    },
+    {
+      "word_start": 151,
+      "word_end_exclusive": 158,
+      "start": 59.843764172335604,
+      "end": 61.90478458049887,
+      "text": "with a plan that involved her mother."
+    },
+    {
+      "word_start": 158,
+      "word_end_exclusive": 173,
+      "start": 62.604784580498865,
+      "end": 67.00777777777778,
+      "text": "The caller said Amy could help choose\na gift to celebrate a promotion at work."
+    },
+    {
+      "word_start": 173,
+      "word_end_exclusive": 183,
+      "start": 67.70777777777778,
+      "end": 71.6107709750567,
+      "text": "Bay Village Police place that contact\nweeks before the disappearance."
+    },
+    {
+      "word_start": 183,
+      "word_end_exclusive": 195,
+      "start": 72.31077097505668,
+      "end": 76.13274376417233,
+      "text": "The meeting was arranged for after\nschool, at a nearby shopping center."
+    },
+    {
+      "word_start": 195,
+      "word_end_exclusive": 213,
+      "start": 76.83276643990929,
+      "end": 82.21675736961451,
+      "text": "The promise of a present for her mother was\nthe reason Amy had been given for going there."
+    },
+    {
+      "word_start": 213,
+      "word_end_exclusive": 220,
+      "start": 83.22673469387755,
+      "end": 85.63673469387756,
+      "text": "That Friday, Amy left school on foot."
+    },
+    {
+      "word_start": 220,
+      "word_end_exclusive": 235,
+      "start": 86.33673469387755,
+      "end": 90.99873015873015,
+      "text": "The FBI says she went to Bay Village\nSquare and was seen outside a business,"
+    },
+    {
+      "word_start": 235,
+      "word_end_exclusive": 239,
+      "start": 91.37873015873016,
+      "end": 92.75972789115646,
+      "text": "apparently waiting for someone."
+    },
+    {
+      "word_start": 239,
+      "word_end_exclusive": 250,
+      "start": 93.54970521541951,
+      "end": 97.93172335600907,
+      "text": "The police account describes witnesses\nseeing her speak with an unidentified"
+    },
+    {
+      "word_start": 250,
+      "word_end_exclusive": 259,
+      "start": 97.99172335600908,
+      "end": 100.48170068027211,
+      "text": "man, then walk through the parking lot with him."
+    },
+    {
+      "word_start": 259,
+      "word_end_exclusive": 267,
+      "start": 101.54269841269841,
+      "end": 103.94369614512472,
+      "text": "No vehicle was seen, according to that account."
+    },
+    {
+      "word_start": 267,
+      "word_end_exclusive": 280,
+      "start": 104.64369614512472,
+      "end": 108.49467120181406,
+      "text": "The sighting establishes a public\npoint in the sequence, but it does not"
+    },
+    {
+      "word_start": 280,
+      "word_end_exclusive": 285,
+      "start": 108.55467120181406,
+      "end": 110.23566893424037,
+      "text": "reveal where Amy went afterward."
+    },
+    {
+      "word_start": 285,
+      "word_end_exclusive": 291,
+      "start": 111.07566893424037,
+      "end": 112.63766439909297,
+      "text": "Her bicycle was still at school."
+    },
+    {
+      "word_start": 291,
+      "word_end_exclusive": 303,
+      "start": 113.33766439909297,
+      "end": 118.68165532879819,
+      "text": "In a June 2026 interview, her brother,\nJason, recalled noticing it there"
+    },
+    {
+      "word_start": 303,
+      "word_end_exclusive": 308,
+      "start": 118.88165532879819,
+      "end": 120.4236507936508,
+      "text": "after his own classes ended."
+    },
+    {
+      "word_start": 308,
+      "word_end_exclusive": 321,
+      "start": 121.13362811791383,
+      "end": 124.99662131519274,
+      "text": "News 5's account of the day says\ntheir mother later found the bicycle"
+    },
+    {
+      "word_start": 321,
+      "word_end_exclusive": 333,
+      "start": 125.05662131519274,
+      "end": 128.57961451247166,
+      "text": "at the school and went to the\npolice to report Amy missing."
+    },
+    {
+      "word_start": 333,
+      "word_end_exclusive": 345,
+      "start": 129.35061224489795,
+      "end": 134.08260770975056,
+      "text": "By then, the expectation that she\nwas safely home had given way"
+    },
+    {
+      "word_start": 345,
+      "word_end_exclusive": 358,
+      "start": 134.34360544217688,
+      "end": 139.3956009070295,
+      "text": "to a search for her. Bay Village Police\nand the FBI began investigating."
+    },
+    {
+      "word_start": 358,
+      "word_end_exclusive": 365,
+      "start": 140.11557823129252,
+      "end": 142.81657596371883,
+      "text": "Public appeals spread\nbeyond the shopping center."
+    },
+    {
+      "word_start": 365,
+      "word_end_exclusive": 374,
+      "start": 143.51657596371882,
+      "end": 147.85757369614512,
+      "text": "News 5's reporting describes\nmissing-person posters in shop windows"
+    },
+    {
+      "word_start": 374,
+      "word_end_exclusive": 380,
+      "start": 148.3375736961451,
+      "end": 150.93857142857144,
+      "text": "and flyers distributed around the region."
+    },
+    {
+      "word_start": 380,
+      "word_end_exclusive": 394,
+      "start": 151.63857142857142,
+      "end": 156.300589569161,
+      "text": "A local Pizza Hut put Amy's poster\nand a composite drawing on its boxes."
+    },
+    {
+      "word_start": 394,
+      "word_end_exclusive": 405,
+      "start": 157.03056689342404,
+      "end": 161.35256235827666,
+      "text": "Those efforts carried the appeal into\nordinary places where someone might"
+    },
+    {
+      "word_start": 405,
+      "word_end_exclusive": 414,
+      "start": 161.41256235827663,
+      "end": 164.61356009070295,
+      "text": "recognize her or remember the man seen with her."
+    },
+    {
+      "word_start": 414,
+      "word_end_exclusive": 420,
+      "start": 165.73356009070295,
+      "end": 169.30555555555554,
+      "text": "Inside the investigation,\ninformation also accumulated."
+    },
+    {
+      "word_start": 420,
+      "word_end_exclusive": 430,
+      "start": 170.00555555555556,
+      "end": 174.36857142857144,
+      "text": "The same reporting describes officers\nand federal agents working through"
+    },
+    {
+      "word_start": 430,
+      "word_end_exclusive": 442,
+      "start": 174.40857142857143,
+      "end": 179.53256235827664,
+      "text": "leads, with a law-enforcement computer\nsystem strained by the volume of inquiries."
+    },
+    {
+      "word_start": 442,
+      "word_end_exclusive": 455,
+      "start": 180.23353741496598,
+      "end": 184.94650793650794,
+      "text": "People were being asked to look back at\none afternoon, while investigators had"
+    },
+    {
+      "word_start": 455,
+      "word_end_exclusive": 460,
+      "start": 184.98650793650793,
+      "end": 186.3475283446712,
+      "text": "to organize what came in."
+    },
+    {
+      "word_start": 460,
+      "word_end_exclusive": 470,
+      "start": 187.34850340136055,
+      "end": 190.47049886621315,
+      "text": "The public search continued,\nbut Amy did not return home."
+    },
+    {
+      "word_start": 470,
+      "word_end_exclusive": 482,
+      "start": 191.78249433106575,
+      "end": 196.80650793650793,
+      "text": "On February 8, 1990, a jogger\nfound Amy's body in a field"
+    },
+    {
+      "word_start": 482,
+      "word_end_exclusive": 486,
+      "start": 196.98650793650793,
+      "end": 198.38750566893424,
+      "text": "in rural Ashland County."
+    },
+    {
+      "word_start": 486,
+      "word_end_exclusive": 498,
+      "start": 199.08750566893423,
+      "end": 201.94950113378684,
+      "text": "She was wearing the clothing in\nwhich she had last been seen."
+    },
+    {
+      "word_start": 498,
+      "word_end_exclusive": 511,
+      "start": 202.64950113378686,
+      "end": 206.55249433106576,
+      "text": "The search for a missing child had\nbecome an investigation into her death."
+    },
+    {
+      "word_start": 511,
+      "word_end_exclusive": 520,
+      "start": 207.25249433106575,
+      "end": 212.15650793650795,
+      "text": "The discovery gave investigators\nanother location to examine, beyond"
+    },
+    {
+      "word_start": 520,
+      "word_end_exclusive": 527,
+      "start": 212.19650793650794,
+      "end": 214.59850340136055,
+      "text": "the shopping center where she had disappeared."
+    },
+    {
+      "word_start": 527,
+      "word_end_exclusive": 540,
+      "start": 215.6084807256236,
+      "end": 219.0694784580499,
+      "text": "Some of the things believed to have\nbeen with her were never recovered."
+    },
+    {
+      "word_start": 540,
+      "word_end_exclusive": 555,
+      "start": 219.88045351473923,
+      "end": 225.2224263038549,
+      "text": "The FBI lists a turquoise horse earring,\nblack ankle boots and a black leather binder."
+    },
+    {
+      "word_start": 555,
+      "word_end_exclusive": 563,
+      "start": 225.92242630385488,
+      "end": 228.96344671201814,
+      "text": "Those objects remain part of its public appeal."
+    },
+    {
+      "word_start": 563,
+      "word_end_exclusive": 575,
+      "start": 229.66344671201813,
+      "end": 233.88544217687075,
+      "text": "They are details someone might recognize,\nbut the published record does not"
+    },
+    {
+      "word_start": 575,
+      "word_end_exclusive": 580,
+      "start": 233.94544217687076,
+      "end": 235.32544217687075,
+      "text": "establish what happened to them."
+    },
+    {
+      "word_start": 580,
+      "word_end_exclusive": 594,
+      "start": 236.02544217687074,
+      "end": 241.47741496598638,
+      "text": "Their absence cannot explain, by itself,\nwho took Amy or where she was killed."
+    },
+    {
+      "word_start": 594,
+      "word_end_exclusive": 606,
+      "start": 242.4574149659864,
+      "end": 247.06140589569162,
+      "text": "Years later, investigators asked the public\nto look closely at another object."
+    },
+    {
+      "word_start": 606,
+      "word_end_exclusive": 616,
+      "start": 248.06140589569162,
+      "end": 252.94541950113378,
+      "text": "At a 2016 news conference, authorities\ndisplayed a homemade-looking curtain"
+    },
+    {
+      "word_start": 616,
+      "word_end_exclusive": 626,
+      "start": 253.48541950113378,
+      "end": 256.3874149659864,
+      "text": "found in the field where Amy's\nbody had been discovered."
+    },
+    {
+      "word_start": 626,
+      "word_end_exclusive": 640,
+      "start": 257.2583900226757,
+      "end": 262.6424036281179,
+      "text": "News 5 reported a connection between\nhair on the curtain and the family's dog."
+    },
+    {
+      "word_start": 640,
+      "word_end_exclusive": 654,
+      "start": 263.3424036281179,
+      "end": 267.51537414965986,
+      "text": "The appeal was for recognition of the\ntextile: where it might have come from,"
+    },
+    {
+      "word_start": 654,
+      "word_end_exclusive": 660,
+      "start": 268.09537414965985,
+      "end": 269.01637188208616,
+      "text": "or who might have made it."
+    },
+    {
+      "word_start": 660,
+      "word_end_exclusive": 664,
+      "start": 269.95637188208616,
+      "end": 271.5373696145125,
+      "text": "The release brought responses."
+    },
+    {
+      "word_start": 664,
+      "word_end_exclusive": 675,
+      "start": 272.24834467120183,
+      "end": 277.352358276644,
+      "text": "Cleveland 19 reported that the\nprosecutor's office received calls and tips"
+    },
+    {
+      "word_start": 675,
+      "word_end_exclusive": 684,
+      "start": 277.532358276644,
+      "end": 280.9143537414966,
+      "text": "afterward, and that law enforcement\nwas following them up."
+    },
+    {
+      "word_start": 684,
+      "word_end_exclusive": 694,
+      "start": 281.8953514739229,
+      "end": 286.2983446712018,
+      "text": "The curtain offered a possible\nconnection between a physical object"
+    },
+    {
+      "word_start": 694,
+      "word_end_exclusive": 702,
+      "start": 286.5183446712018,
+      "end": 290.38034013605443,
+      "text": "and information someone outside\nthe investigation might hold."
+    },
+    {
+      "word_start": 702,
+      "word_end_exclusive": 715,
+      "start": 291.4413605442177,
+      "end": 296.6453287981859,
+      "text": "Its owner and origin were still questions;\nthe public release did not announce"
+    },
+    {
+      "word_start": 715,
+      "word_end_exclusive": 720,
+      "start": 296.68532879818594,
+      "end": 298.18632653061223,
+      "text": "that either had been established."
+    },
+    {
+      "word_start": 720,
+      "word_end_exclusive": 729,
+      "start": 299.18632653061223,
+      "end": 303.86931972789114,
+      "text": "The investigation also continued through\ninterviews and renewed publicity."
+    },
+    {
+      "word_start": 729,
+      "word_end_exclusive": 741,
+      "start": 304.6602947845805,
+      "end": 309.7332879818594,
+      "text": "In a report marking thirty years since\nAmy disappeared, FBI Special Agent"
+    },
+    {
+      "word_start": 741,
+      "word_end_exclusive": 753,
+      "start": 309.8132879818594,
+      "end": 314.6162811791383,
+      "text": "Lisa Hack described more than\na hundred interviews during her six years"
+    },
+    {
+      "word_start": 753,
+      "word_end_exclusive": 757,
+      "start": 314.69628117913834,
+      "end": 315.57727891156463,
+      "text": "working on the case."
+    },
+    {
+      "word_start": 757,
+      "word_end_exclusive": 764,
+      "start": 316.5872562358277,
+      "end": 319.0092517006803,
+      "text": "She said the files filled seventy volumes."
+    },
+    {
+      "word_start": 764,
+      "word_end_exclusive": 777,
+      "start": 319.72925170068027,
+      "end": 324.63226757369614,
+      "text": "The FBI had also put up billboards around\nCleveland and in neighboring states,"
+    },
+    {
+      "word_start": 777,
+      "word_end_exclusive": 781,
+      "start": 325.2732426303855,
+      "end": 326.8342403628118,
+      "text": "asking again for information."
+    },
+    {
+      "word_start": 781,
+      "word_end_exclusive": 791,
+      "start": 327.5342403628118,
+      "end": 330.5962358276644,
+      "text": "Those were accounts of continuing\nwork, not a solved case."
+    },
+    {
+      "word_start": 791,
+      "word_end_exclusive": 801,
+      "start": 331.8572335600907,
+      "end": 336.9892290249433,
+      "text": "In 2021, Bay Village Sergeant Edward\nChapman described a further"
+    },
+    {
+      "word_start": 801,
+      "word_end_exclusive": 806,
+      "start": 337.0492290249433,
+      "end": 338.6302267573696,
+      "text": "reason for examining the curtain."
+    },
+    {
+      "word_start": 806,
+      "word_end_exclusive": 818,
+      "start": 339.3712244897959,
+      "end": 343.2532199546485,
+      "text": "He told News 5 that testing\nhad identified Amy's hair on it."
+    },
+    {
+      "word_start": 818,
+      "word_end_exclusive": 827,
+      "start": 344.2342176870748,
+      "end": 349.61721088435377,
+      "text": "Investigators again asked whether anyone\nrecognized the unusual, apparently"
+    },
+    {
+      "word_start": 827,
+      "word_end_exclusive": 829,
+      "start": 349.67721088435377,
+      "end": 350.75820861678005,
+      "text": "handmade textile."
+    },
+    {
+      "word_start": 829,
+      "word_end_exclusive": 839,
+      "start": 351.7681859410431,
+      "end": 355.69120181405896,
+      "text": "The new statement strengthened their\npublic explanation for its relevance."
+    },
+    {
+      "word_start": 839,
+      "word_end_exclusive": 853,
+      "start": 356.45120181405895,
+      "end": 360.6741950113379,
+      "text": "It did not supply a public account of\nwhere the crime occurred or identify"
+    },
+    {
+      "word_start": 853,
+      "word_end_exclusive": 864,
+      "start": 360.7141950113379,
+      "end": 366.17619047619047,
+      "text": "the person responsible. The next reported\ntesting developments involved Amy's clothing."
+    },
+    {
+      "word_start": 864,
+      "word_end_exclusive": 873,
+      "start": 367.1971882086168,
+      "end": 371.73818594104307,
+      "text": "In 2024, police said retesting\nhad detected male DNA,"
+    },
+    {
+      "word_start": 873,
+      "word_end_exclusive": 883,
+      "start": 372.1481632653061,
+      "end": 375.02916099773245,
+      "text": "but the amount was too\nsmall to create a profile."
+    },
+    {
+      "word_start": 883,
+      "word_end_exclusive": 893,
+      "start": 375.88913832199546,
+      "end": 381.08113378684806,
+      "text": "That distinction matters: detecting\nmaterial and producing a usable profile"
+    },
+    {
+      "word_start": 893,
+      "word_end_exclusive": 896,
+      "start": 381.4811337868481,
+      "end": 382.52213151927435,
+      "text": "were different outcomes."
+    },
+    {
+      "word_start": 896,
+      "word_end_exclusive": 905,
+      "start": 383.2521088435374,
+      "end": 387.7131065759637,
+      "text": "Investigators were hoping that more\nsensitive procedures might eventually"
+    },
+    {
+      "word_start": 905,
+      "word_end_exclusive": 911,
+      "start": 387.7731065759637,
+      "end": 389.49410430839004,
+      "text": "allow further work on the sample."
+    },
+    {
+      "word_start": 911,
+      "word_end_exclusive": 919,
+      "start": 390.24408163265304,
+      "end": 392.5050793650794,
+      "text": "They had not announced\nan identification from it."
+    },
+    {
+      "word_start": 919,
+      "word_end_exclusive": 926,
+      "start": 393.40507936507936,
+      "end": 395.60707482993195,
+      "text": "Another round of work involved separate hairs."
+    },
+    {
+      "word_start": 926,
+      "word_end_exclusive": 939,
+      "start": 396.307074829932,
+      "end": 401.33009070294787,
+      "text": "News 5 reported that an FBI laboratory\nhad noticed hairs on evidence slides"
+    },
+    {
+      "word_start": 939,
+      "word_end_exclusive": 945,
+      "start": 401.79009070294785,
+      "end": 404.29208616780045,
+      "text": "previously thought to contain clothing fibers."
+    },
+    {
+      "word_start": 945,
+      "word_end_exclusive": 956,
+      "start": 404.99208616780044,
+      "end": 408.3140816326531,
+      "text": "They were sent to a private\nlaboratory in California for testing."
+    },
+    {
+      "word_start": 956,
+      "word_end_exclusive": 968,
+      "start": 409.0140816326531,
+      "end": 412.95707482993197,
+      "text": "Chapman cautioned that the hairs did\nnot necessarily belong to the person"
+    },
+    {
+      "word_start": 968,
+      "word_end_exclusive": 978,
+      "start": 413.01707482993197,
+      "end": 417.3900680272109,
+      "text": "responsible, and that contamination\nwas possible after years of handling."
+    },
+    {
+      "word_start": 978,
+      "word_end_exclusive": 989,
+      "start": 418.2100453514739,
+      "end": 421.9730385487528,
+      "text": "These were separate from the small\nDNA sample on Amy's clothing."
+    },
+    {
+      "word_start": 989,
+      "word_end_exclusive": 1001,
+      "start": 423.01303854875283,
+      "end": 428.4870068027211,
+      "text": "In January 2026, Cleveland 19\nreported a setback in that hair testing."
+    },
+    {
+      "word_start": 1001,
+      "word_end_exclusive": 1011,
+      "start": 429.4269841269841,
+      "end": 434.31,
+      "text": "Detective Sergeant Jay Elish said\nAstrea Forensics could not obtain"
+    },
+    {
+      "word_start": 1011,
+      "word_end_exclusive": 1017,
+      "start": 434.35,
+      "end": 436.5319954648526,
+      "text": "a profile from the submitted hairs."
+    },
+    {
+      "word_start": 1017,
+      "word_end_exclusive": 1026,
+      "start": 437.36197278911567,
+      "end": 440.68396825396826,
+      "text": "The material was likely too\nsmall or too degraded."
+    },
+    {
+      "word_start": 1026,
+      "word_end_exclusive": 1037,
+      "start": 441.48494331065757,
+      "end": 446.2679365079365,
+      "text": "Investigators were continuing with\nDNA work, but this particular effort had"
+    },
+    {
+      "word_start": 1037,
+      "word_end_exclusive": 1043,
+      "start": 446.3679365079365,
+      "end": 448.04895691609977,
+      "text": "not produced the result they wanted."
+    },
+    {
+      "word_start": 1043,
+      "word_end_exclusive": 1056,
+      "start": 448.74895691609976,
+      "end": 454.132947845805,
+      "text": "That outcome concerned the hairs; it did not\nerase the separate clothing-DNA finding."
+    },
+    {
+      "word_start": 1056,
+      "word_end_exclusive": 1067,
+      "start": 455.132947845805,
+      "end": 459.76591836734696,
+      "text": "By June, Police Chief Robert Gillespie\nwas describing the resources needed"
+    },
+    {
+      "word_start": 1067,
+      "word_end_exclusive": 1071,
+      "start": 460.1859183673469,
+      "end": 461.4869160997732,
+      "text": "to keep testing evidence."
+    },
+    {
+      "word_start": 1071,
+      "word_end_exclusive": 1084,
+      "start": 462.50691609977326,
+      "end": 467.09990929705214,
+      "text": "He told Cleveland 19 that work was\ncontinuing, although he could not discuss"
+    },
+    {
+      "word_start": 1084,
+      "word_end_exclusive": 1088,
+      "start": 467.3599092970521,
+      "end": 468.66090702947844,
+      "text": "every item being tested."
+    },
+    {
+      "word_start": 1088,
+      "word_end_exclusive": 1099,
+      "start": 469.72090702947844,
+      "end": 474.84390022675734,
+      "text": "He explained that the Amy Fund\nsupplemented other funding so investigators"
+    },
+    {
+      "word_start": 1099,
+      "word_end_exclusive": 1105,
+      "start": 474.90390022675734,
+      "end": 477.9048979591837,
+      "text": "could respond when testing opportunities arose."
+    },
+    {
+      "word_start": 1105,
+      "word_end_exclusive": 1116,
+      "start": 478.815873015873,
+      "end": 483.4578684807256,
+      "text": "Bay Village's own community announcement\nalso describes the fund as supporting"
+    },
+    {
+      "word_start": 1116,
+      "word_end_exclusive": 1121,
+      "start": 483.53786848072565,
+      "end": 486.3998639455782,
+      "text": "investigative costs, including DNA testing."
+    },
+    {
+      "word_start": 1121,
+      "word_end_exclusive": 1133,
+      "start": 487.39083900226757,
+      "end": 491.31281179138324,
+      "text": "Financial support helps that work\ncontinue; it is not a test result."
+    },
+    {
+      "word_start": 1133,
+      "word_end_exclusive": 1145,
+      "start": 492.31281179138324,
+      "end": 497.65478458049887,
+      "text": "As of our October 16, 2026 source\ncheck, Bay Village's public case"
+    },
+    {
+      "word_start": 1145,
+      "word_end_exclusive": 1151,
+      "start": 497.7147845804989,
+      "end": 500.6357823129252,
+      "text": "page describes the investigation as ongoing."
+    },
+    {
+      "word_start": 1151,
+      "word_end_exclusive": 1161,
+      "start": 501.3357823129252,
+      "end": 504.67678004535145,
+      "text": "Police still ask for help identifying\nthe curtain and blanket."
+    },
+    {
+      "word_start": 1161,
+      "word_end_exclusive": 1174,
+      "start": 505.4377777777778,
+      "end": 509.53877551020406,
+      "text": "The FBI continues to offer a reward\nof up to twenty-five thousand dollars"
+    },
+    {
+      "word_start": 1174,
+      "word_end_exclusive": 1188,
+      "start": 509.6187755102041,
+      "end": 515.0007709750566,
+      "text": "for information leading to the arrest and\nconviction of those responsible for Amy's death."
+    },
+    {
+      "word_start": 1188,
+      "word_end_exclusive": 1198,
+      "start": 515.7007709750567,
+      "end": 520.4827437641724,
+      "text": "These remain public requests for\ninformation, with the case unresolved"
+    },
+    {
+      "word_start": 1198,
+      "word_end_exclusive": 1202,
+      "start": 520.5427437641723,
+      "end": 521.5827437641724,
+      "text": "in the sources reviewed."
+    },
+    {
+      "word_start": 1202,
+      "word_end_exclusive": 1213,
+      "start": 522.5827437641724,
+      "end": 526.7557369614512,
+      "text": "For Amy's family, those records\nsit alongside memories of a child."
+    },
+    {
+      "word_start": 1213,
+      "word_end_exclusive": 1224,
+      "start": 527.4557369614513,
+      "end": 531.3987301587301,
+      "text": "In the thirty-year interview, her father\ndescribed still thinking about her"
+    },
+    {
+      "word_start": 1224,
+      "word_end_exclusive": 1228,
+      "start": 531.4787301587302,
+      "end": 532.4597278911565,
+      "text": "several times a week."
+    },
+    {
+      "word_start": 1228,
+      "word_end_exclusive": 1240,
+      "start": 533.3007029478458,
+      "end": 537.9846712018141,
+      "text": "The bicycle, the time with Jake,\nthe things she enjoyed: those belong"
+    },
+    {
+      "word_start": 1240,
+      "word_end_exclusive": 1248,
+      "start": 538.0046712018141,
+      "end": 540.8666666666667,
+      "text": "to Amy's life, beyond the evidence left behind."
+    },
+    {
+      "word_start": 1248,
+      "word_end_exclusive": 1255,
+      "start": 541.627641723356,
+      "end": 543.0486394557823,
+      "text": "Amy is a daughter and a sister."
+    },
+    {
+      "word_start": 1255,
+      "word_end_exclusive": 1267,
+      "start": 543.7486394557823,
+      "end": 548.1916326530612,
+      "text": "The public appeal remains open,\nand the effort to find answers continues."
+    }
+  ],
+  "timing_review": {
+    "human_approved": true,
+    "approved_by": "Brody",
+    "approved_on": "2026-10-22",
+    "recorded_at_utc": "2026-10-22T04:37:22.665820+00:00",
+    "user_quote": "Listened fully; approve audio and synchronization",
+    "scope": "Exact full 9:08.59 paced WAV: pronunciation, completeness, volume including disappeared, pacing, ending and synchronization across all19 paragraphs; not video-master approval.",
+    "question_item_id": "[\"request_user_input_async\",\"call_5be43ce33e404c8e806a9e6073f6a28f\",0]",
+    "full_listen_passed": true,
+    "reviewed_packet": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/candidate05_review_packet.json",
+      "sha256": "4a8419e4f15c7a6b8348f58b8d10c56eca12dabbc9015599f1585a4e8040f397",
+      "bytes": 11190
+    },
+    "audio": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "bytes": 72578814,
+      "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+    },
+    "word_timing": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+      "bytes": 440322,
+      "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+    },
+    "visual_decision": {
+      "user_quote": "Approve proposed uses and recorded conditions",
+      "question_item_id": "[\"request_user_input_async\",\"call_5be43ce33e404c8e806a9e6073f6a28f\",1]",
+      "scope": "14 exact proposed new stock uses under recorded illustrative-use/crop conditions; actual motion/crops and final video playback still require review."
+    },
+    "publishing_authorized": false
+  }
+}

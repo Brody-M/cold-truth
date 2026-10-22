@@ -1,0 +1,28 @@
+{
+  "schema_version": "cold_truth.audio_revision_feedback.v1",
+  "recorded_at_utc": "2026-10-22T03:14:37.971139+00:00",
+  "date_local": "2026-10-21",
+  "reviewer": "Brody",
+  "reviewed_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_correction_review_02.json",
+    "bytes": 2734,
+    "sha256": "3d76db144242ff28d7fa26d455954b82c71894ae5467cc89414a442a944e8586"
+  },
+  "user_quote": "ok def sound better but her like way she reads it is so off like when she pauses and stuff its so hard to follow the story. its like theres a million commas throughout the script and shes puasing every second. still a little loud make it lower.",
+  "decision": "CHANGES_REQUESTED_PACING_AND_LEVEL",
+  "partial_positive_feedback": "User reports correction02 sounds better; this is not full-listening or master acceptance.",
+  "human_audio_approved": false,
+  "full_listen_approved": false,
+  "requested_changes": [
+    "Lower overall narration further",
+    "Improve stop-start phrasing and frequent pauses so the story is easier to follow"
+  ],
+  "implementation_scope": "Local existing-take gain reduction and conservative quiet-gap pacing pilot. No new TTS, script-final changes or video render.",
+  "planned_gain_db_from_correction02": -3,
+  "important_boundaries": [
+    "Any pause shortening changes downstream word/caption/visual timing; old synchronization approval cannot transfer.",
+    "Keep original final script and all spoken words intact.",
+    "Actual edited long-form narration must remain at least480seconds; do not preserve runtime through padding or slowed speech.",
+    "Listening is required to establish natural joins and comprehensible pacing; timing metrics cannot approve delivery."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-21T03:54:24.739Z",
+  "source": "ElevenLabs subscription before/after one episode request; generation-history reconciliation follows",
+  "before_used_credits": 61,
+  "after_used_credits": 1783,
+  "episode_credit_delta": 1722,
+  "remaining_credits": 8217,
+  "current_overage": {
+    "amount": "0",
+    "currency": "usd"
+  },
+  "additional_spend_allowed": false,
+  "generation_attempts": 1,
+  "generation_wall_seconds": 111.686,
+  "quoted_credits": 7834,
+  "provider_history": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/provider_history_narration_01.json",
+    "bytes": 8569,
+    "sha256": "54f77f751eaabb05e8af87575f8466d24ccc7ed8ae0f0dbdd9137f0079237e63"
+  },
+  "provider_generation_id": "B2ZMQWCbuNNf8tyAgHea",
+  "billing_reconciled": true
+}

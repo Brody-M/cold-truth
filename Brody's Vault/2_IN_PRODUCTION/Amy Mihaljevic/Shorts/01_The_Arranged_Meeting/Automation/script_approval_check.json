@@ -1,0 +1,23 @@
+{
+  "status": "PASS_PAIRED_SCRIPT_BINDINGS",
+  "checked_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+    "bytes": 2306
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "word_count": 102,
+  "characters": 617,
+  "target_format": "shorts",
+  "actual_audio_exists": false
+}

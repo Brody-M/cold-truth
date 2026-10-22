@@ -1,0 +1,60 @@
+{
+  "schema_version": "cold_truth.corrected_audio_review.v1",
+  "prepared_at_utc": "2026-10-22T03:05:03.902858+00:00",
+  "status": "ACTUAL_LISTENING_REQUIRED",
+  "format": "youtube-longform",
+  "feedback": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/media_feedback_review_01_2026_10_21.json",
+    "bytes": 2713,
+    "sha256": "dd7b067f97523d4b09de5adb15e5658cc11ad83a3836684871de5ed055a983b5"
+  },
+  "correction_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/audio_correction_02_receipt.json",
+    "bytes": 33267,
+    "sha256": "e874b8ab2b19265a95d3c573e84194ec3cf1e3f8488cc716fd268a1281b717d5"
+  },
+  "master": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/Amy_Mihaljevic_Mia_correction_02.wav",
+    "bytes": 75485228,
+    "sha256": "2c91f93c26182807405ab08434b2726dcde09eac31f1697fd5dba9379a731637"
+  },
+  "preview": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/Amy_Mihaljevic_Mia_correction_02.mp3",
+    "bytes": 13694894,
+    "sha256": "605a49634f1429610111bcbe54aadbb55957ff93efc58ae7c7d46718ade71003"
+  },
+  "example_before": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/example_300_340_before.mp3",
+    "bytes": 961768,
+    "sha256": "8a2087b1a06028a77783d38bd72e52453645a4cf23cd0725a54dda9dcd77e8dc"
+  },
+  "example_after": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/example_300_340_after.mp3",
+    "bytes": 961768,
+    "sha256": "5b516647073d84023b7de68798680a7fa0a3a7547d20e02197e0365483f8261e"
+  },
+  "diagnostic_gain_only": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_02/example_300_340_before_minus6db_gain_only.mp3",
+    "bytes": 961768,
+    "sha256": "7b67dc0a2718b8ba1e5680bfe0f05d1e4474c043407c90b875a65d1cd43dbb22"
+  },
+  "example_range_seconds": [
+    300,
+    340
+  ],
+  "duration_seconds": 570.5607256235828,
+  "sample_count": 25161728,
+  "overall_gain_db": -6,
+  "local_low_band_reduction_db": [
+    12,
+    20
+  ],
+  "human_audio_approved": false,
+  "full_listen_approved": false,
+  "assembly_allowed": false,
+  "old_audio_preflight": "Historical approval of the original WAV; does not approve this changed file or override rejected video feedback.",
+  "review_purpose": "First compare the same40-second passage at unchanged playback volume for pops and level; full corrected narration then needs its actual completeness/pronunciation/tone/volume listening decision before video use.",
+  "remaining_longform_video_renders": 1,
+  "video_rendered_for_this_revision": false,
+  "publishing_authorized": false
+}

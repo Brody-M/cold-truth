@@ -1,0 +1,744 @@
+{
+  "schema_version": "cold_truth.stock_content_review.v1",
+  "reviewed_at_utc": "2026-10-22T03:52:05.776496+00:00",
+  "reviewer": "Codex sampled-frame editorial review",
+  "basis": "Viewed all36 sampled frames in3contact sheets; mall middle frame also inspected full-size. Actual full-motion/crop playback and human rights/use approval remain pending.",
+  "selection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_selected.json",
+    "bytes": 16039,
+    "sha256": "0e8896c2090f0e455ce2a9c48d636cac6c578364571fe2bb8ae8e2e1081c4045"
+  },
+  "technical_qc": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/broll_revision_05_technical_qc.json",
+    "bytes": 103365,
+    "sha256": "f4f9ae604dd9d9c871f77c7966d5192c8b641b56b886a1867831435cecc12a5a"
+  },
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-32835503",
+      "source_identity": "pexels:video:32835503",
+      "provider_id": 32835503,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/busy-shopping-mall-parking-lot-aerial-view-32835503/",
+      "creator": {
+        "id": 1179532,
+        "name": "K",
+        "url": "https://www.pexels.com/@kelly"
+      },
+      "preview_image": "https://images.pexels.com/videos/32835503/pexels-photo-32835503.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 17,
+      "selected_file": {
+        "id": 13995066,
+        "quality": null,
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 23.98,
+        "link": "https://videos.pexels.com/video-files/32835503/13995066_1920_1080_24fps.mp4",
+        "size": 10557891
+      },
+      "candidate_paragraphs": [
+        "P03",
+        "P04"
+      ],
+      "depiction_boundary": "Shopping-center context; never identified as Bay Village Square",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "actual_duration_seconds": 17.017,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Use parking-only crop x0/y360/w1280/h720; exclude large mall facades/logos and do not imply actual Bay Village Square. Modern illustrative setting only.",
+      "proposed_crop": {
+        "x": 0,
+        "y": 360,
+        "width": 1280,
+        "height": 720
+      },
+      "permitted_source_range_seconds": [
+        2,
+        14
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+        "bytes": 2265,
+        "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-13217096",
+      "source_identity": "pexels:video:13217096",
+      "provider_id": 13217096,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-an-elementary-school-building-and-playground-13217096/",
+      "creator": {
+        "id": 277777938,
+        "name": "Joseph Park",
+        "url": "https://www.pexels.com/@tddongtv"
+      },
+      "preview_image": "https://images.pexels.com/videos/13217096/4k-aerial-aerial-school-shot-elementary-school-korea-13217096.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 5,
+      "selected_file": {
+        "id": 5764401,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/13217096/13217096-hd_1920_1080_30fps.mp4",
+        "size": 4880076
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Empty-school exterior context; reject visible minors/identifying labels",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_13217096_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_13217096_hd.mp4",
+        "bytes": 4880746,
+        "sha256": "8af64acc19fd1e1aa245c84c988f709bcdac0c946ebfdf308bd6e38eecb0b1ac"
+      },
+      "actual_duration_seconds": 5.886667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Aerial school and surrounding architecture present a strong geographic mismatch; no suitable Ohio-setting identification. Do not use as Amy school.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-13217096_candidate_review.json",
+        "bytes": 2240,
+        "sha256": "62461af7834669ebf7c476b2bc6a68eeca90dccf70aed9009b852290c2ffb528"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4290325",
+      "source_identity": "pexels:video:4290325",
+      "provider_id": 4290325,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-shot-of-a-school-front-yard-4290325/",
+      "creator": {
+        "id": 1786177,
+        "name": "WeStarMoney  Rec",
+        "url": "https://www.pexels.com/@westarmoney"
+      },
+      "preview_image": "https://images.pexels.com/videos/4290325/pexels-photo-4290325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 6,
+      "selected_file": {
+        "id": 9503380,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/4290325/4290325-hd_1920_1080_30fps.mp4",
+        "size": 3540870
+      },
+      "candidate_paragraphs": [
+        "P04",
+        "P05"
+      ],
+      "depiction_boundary": "Alternative school detail; avoid implying actual school",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4290325_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4290325_hd.mp4",
+        "bytes": 3540870,
+        "sha256": "de1f54c1390f7cfda9b56c9fe25dbaa02bd77bd5b701f8cc8d51a3da948960b2"
+      },
+      "actual_duration_seconds": 5.716667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Visible Canadian flag, named elementary school and mountain background; unsuitable geographic/identity cues for Bay Village.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4290325_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "07cf79fcfd59f16e2c7a681c203552792c9c1e06a80a8839d683084a8baa3a42"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "provider_id": 8371858,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-checking-the-documents-8371858/",
+      "creator": {
+        "id": 1437723,
+        "name": "cottonbro studio",
+        "url": "https://www.pexels.com/@cottonbro"
+      },
+      "preview_image": "https://images.pexels.com/videos/8371858/pexels-photo-8371858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 79,
+      "selected_file": {
+        "id": 10801365,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8371858/8371858-hd_2048_1080_25fps.mp4",
+        "size": 47980085
+      },
+      "candidate_paragraphs": [
+        "P07",
+        "P12",
+        "P17"
+      ],
+      "depiction_boundary": "Hands/documents for organizing leads; not actual case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "actual_duration_seconds": 79.16,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Hands/files can illustrate generic information handling. Restrict to early file/red-folder activity; later visible photograph material is not case evidence.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        40
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "provider_id": 8371852,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-looking-at-files-inside-a-cardboard-box-8371852/",
+      "creator": {
+        "id": 1437723,
+        "name": "cottonbro studio",
+        "url": "https://www.pexels.com/@cottonbro"
+      },
+      "preview_image": "https://images.pexels.com/videos/8371852/pexels-photo-8371852.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 53,
+      "selected_file": {
+        "id": 10800770,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8371852/8371852-hd_2048_1080_25fps.mp4",
+        "size": 21745348
+      },
+      "candidate_paragraphs": [
+        "P07",
+        "P12"
+      ],
+      "depiction_boundary": "Archive box details; not actual case records",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "actual_duration_seconds": 52.84,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Anonymous hands and archive box; generic records handling only, not actual case files or investigator identity.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        50
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-9306134",
+      "source_identity": "pexels:video:9306134",
+      "provider_id": 9306134,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/person-pinning-paper-on-corkboard-9306134/",
+      "creator": {
+        "id": 3372733,
+        "name": "Monstera Production",
+        "url": "https://www.pexels.com/@gabby-k"
+      },
+      "preview_image": "https://images.pexels.com/videos/9306134/pexels-photo-9306134.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 19,
+      "selected_file": {
+        "id": 11084434,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/9306134/9306134-hd_2048_1080_30fps.mp4",
+        "size": 8102620
+      },
+      "candidate_paragraphs": [
+        "P06",
+        "P12"
+      ],
+      "depiction_boundary": "Public-notice context only; no readable stock report presented as case evidence",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+        "bytes": 8102620,
+        "sha256": "4bd150ce80e3f32c5d4775dc140cd5e25f6472aac878ade4a2346ca7c32006db"
+      },
+      "actual_duration_seconds": 18.836667,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "EXCLUDE",
+      "content_note": "Visible financial graphs/business documents do not illustrate a missing-child public appeal or verified case evidence.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": null,
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-9306134_candidate_review.json",
+        "bytes": 2148,
+        "sha256": "cfa254bd30eae5e2066735dd90cf627f1cf5f48d056694b0eac609593880a79a"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4267248",
+      "source_identity": "pexels:video:4267248",
+      "provider_id": 4267248,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/hand-in-latex-glove-adjusting-a-microscope-4267248/",
+      "creator": {
+        "id": 2206740,
+        "name": "Gustavo Fring",
+        "url": "https://www.pexels.com/@gustavo-fring"
+      },
+      "preview_image": "https://images.pexels.com/videos/4267248/pexels-photo-4267248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 12,
+      "selected_file": {
+        "id": 9353243,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/4267248/4267248-hd_1920_1080_30fps.mp4",
+        "size": 3488458
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P16"
+      ],
+      "depiction_boundary": "Generic microscopy; no claim depicts actual testing or result",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "actual_duration_seconds": 12.345667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Microscope/gloved-hand detail; generic laboratory context, never actual case testing or a specific DNA procedure.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        12
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+        "bytes": 2156,
+        "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8326170",
+      "source_identity": "pexels:video:8326170",
+      "provider_id": 8326170,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/adjusting-the-microscope-lenses-8326170/",
+      "creator": {
+        "id": 10715715,
+        "name": "Kindel Media",
+        "url": "https://www.pexels.com/@kindelmedia"
+      },
+      "preview_image": "https://images.pexels.com/videos/8326170/adult-aid-analysis-analyzing-8326170.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 9,
+      "selected_file": {
+        "id": 10775919,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/8326170/8326170-hd_1920_1080_30fps.mp4",
+        "size": 6102484
+      },
+      "candidate_paragraphs": [
+        "P14",
+        "P15"
+      ],
+      "depiction_boundary": "Alternate microscope detail; not actual evidence",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "actual_duration_seconds": 9.386667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Alternate gloved-hand/microscope detail; generic lab only, no claim that visual demonstrates actual forensic result.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        9
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+        "bytes": 2144,
+        "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "provider_id": 14160089,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/walking-in-a-residential-area-on-an-autumn-day-14160089/",
+      "creator": {
+        "id": 1920614,
+        "name": "German Korb",
+        "url": "https://www.pexels.com/@german-korb-1920614"
+      },
+      "preview_image": "https://images.pexels.com/videos/14160089/autumn-autumn-folliage-city-fall-14160089.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 45,
+      "selected_file": {
+        "id": 6079183,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 59.94,
+        "link": "https://videos.pexels.com/video-files/14160089/14160089-hd_1920_1080_60fps.mp4",
+        "size": 33114349
+      },
+      "candidate_paragraphs": [
+        "P02",
+        "P04",
+        "P19"
+      ],
+      "depiction_boundary": "Neighborhood walkway; not actual route",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "actual_duration_seconds": 45.481667,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "Residential sidewalk/houses; use two brief distinct segments at most, not a sustained nature walk or actual Amy route.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        44
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-15602507",
+      "source_identity": "pexels:video:15602507",
+      "provider_id": 15602507,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/aerial-view-of-a-road-with-a-car-driving-on-it-15602507/",
+      "creator": {
+        "id": 738843,
+        "name": "Matthias Groeneveld",
+        "url": "https://www.pexels.com/@matthiasgroeneveld"
+      },
+      "preview_image": "https://images.pexels.com/videos/15602507/4k-aerial-cloudy-drenthe-15602507.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 44,
+      "selected_file": {
+        "id": 11360104,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 59.94,
+        "link": "https://videos.pexels.com/video-files/15602507/15602507-hd_1920_1080_60fps.mp4",
+        "size": 32487269
+      },
+      "candidate_paragraphs": [
+        "P08"
+      ],
+      "depiction_boundary": "One brief rural establishing shot; not actual recovery field",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+        "bytes": 32469103,
+        "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+      },
+      "actual_duration_seconds": 44.863333,
+      "actual_width": 1920,
+      "actual_height": 1080,
+      "editorial_decision": "CANDIDATE",
+      "content_note": "One short top-down rural-road/field establishing shot for discovery paragraph only; not actual Ashland recovery site.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        44
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+        "bytes": 2186,
+        "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8527274",
+      "source_identity": "pexels:video:8527274",
+      "provider_id": 8527274,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-cutting-an-excess-threads-on-a-cloth-8527274/",
+      "creator": {
+        "id": 2332540,
+        "name": "https://kaboompics.com/",
+        "url": "https://www.pexels.com/@karola-g"
+      },
+      "preview_image": "https://images.pexels.com/videos/8527274/act-of-giving-adult-aid-artisan-8527274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 26,
+      "selected_file": {
+        "id": 10878374,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 2048,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/8527274/8527274-hd_2048_1080_25fps.mp4",
+        "size": 15061087
+      },
+      "candidate_paragraphs": [
+        "P10",
+        "P13"
+      ],
+      "depiction_boundary": "Textile construction detail; not actual curtain or its maker",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "actual_duration_seconds": 26.44,
+      "actual_width": 2048,
+      "actual_height": 1080,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Anonymous sewing/thread details; illustrative textile work only, not the curtain, its maker, crime scene or evidence processing.",
+      "proposed_crop": null,
+      "permitted_source_range_seconds": [
+        0,
+        26
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+        "bytes": 2205,
+        "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+      }
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6975995",
+      "source_identity": "pexels:video:6975995",
+      "provider_id": 6975995,
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "url": "https://www.pexels.com/video/a-person-dialing-an-analog-telephone-6975995/",
+      "creator": {
+        "id": 3798027,
+        "name": "KoolShooters",
+        "url": "https://www.pexels.com/@koolshooters"
+      },
+      "preview_image": "https://images.pexels.com/videos/6975995/20-25-years-old-man-art-boy-brown-hair-6975995.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 15,
+      "selected_file": {
+        "id": 10262383,
+        "quality": "uhd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1440,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/6975995/6975995-uhd_1920_1440_25fps.mp4",
+        "size": 14830567
+      },
+      "candidate_paragraphs": [
+        "P01",
+        "P03"
+      ],
+      "depiction_boundary": "Period-neutral analog phone detail; no reenactment claim",
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+      "rights_review_pending": true,
+      "actual_content_review_pending": true,
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "actual_duration_seconds": 14.6,
+      "actual_width": 1920,
+      "actual_height": 1440,
+      "editorial_decision": "CONDITIONAL_CANDIDATE",
+      "content_note": "Analog rotary-phone hand detail; crop4:3 source to16:9 with object intact. No genuine recording/reenactment claim; validate crop motion before master.",
+      "proposed_crop": {
+        "x": 0,
+        "y": 180,
+        "width": 1920,
+        "height": 1080
+      },
+      "permitted_source_range_seconds": [
+        0,
+        14
+      ],
+      "human_use_approved": false,
+      "actual_trim_crop_playback_reviewed": false,
+      "license_evidence": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+        "bytes": 1041,
+        "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+        "bytes": 2285,
+        "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+      }
+    }
+  ],
+  "human_approved": false,
+  "assembly_allowed": false,
+  "considered_candidates": 9,
+  "excluded": 3
+}

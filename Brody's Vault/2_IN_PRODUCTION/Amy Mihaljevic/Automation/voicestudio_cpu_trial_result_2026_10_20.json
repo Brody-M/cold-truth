@@ -1,0 +1,227 @@
+{
+  "schema_version": "cold_truth.local_voice_trial_result.v1",
+  "recorded_at_utc": "2026-10-20T22:22:56.647018+00:00",
+  "status": "TWO_NEUTRAL_SAMPLES_TECHNICALLY_VERIFIED_AWAITING_BRODY_LISTENING",
+  "application": "VoiceStudio Electron 0.5.6",
+  "installed_app_path": "C:\\Youtube Automation Obsidian\\voice_samples\\voicestudio_trial_01\\app\\VoiceStudio.exe",
+  "installer": {
+    "path": "voice_samples/voicestudio_trial_01/VoiceStudio-Electron-0.5.6-win-x64.exe",
+    "bytes": 214447484,
+    "sha256": "3d7ac1d6b54e7854ca7fff4dda838e402d1c5d31acc9656b1838432e29a97624"
+  },
+  "published_checksum_file": {
+    "path": "voice_samples/voicestudio_trial_01/SHA256SUMS.txt",
+    "bytes": 1885,
+    "sha256": "cfa285ae25a86d325702b1930080aabfec805125cff6feb1ec362fb9df39888d"
+  },
+  "installer_hash_matches_release_digest_and_checksum_file": true,
+  "runtime": "Private CPython 3.11.9 environment; frozen release dependency versions, CPU torch/torchaudio/torchvision variants",
+  "engine": "kittentts",
+  "model": "KittenML/kitten-tts-mini-0.8",
+  "model_revision": "c02725660cea441db4c383af69f1f26f5cd00947",
+  "model_receipt": {
+    "path": "voice_samples/voicestudio_trial_01/model_download_receipt.json",
+    "bytes": 1603,
+    "sha256": "53f403b30d9fce05914ee88c950444e632a78dfe5d01f9ab995d88b00deb2917"
+  },
+  "offline_engine_inspection": {
+    "path": "voice_samples/voicestudio_trial_01/engine_inspection_stdout.txt",
+    "bytes": 1295,
+    "sha256": "0a7177f69f53165b90aa1b2f4f5c8d6496f0b10dede138cad52878db60c78514"
+  },
+  "health": {
+    "status": "ok",
+    "device": "cpu",
+    "version": "0.5.6"
+  },
+  "api_execution_evidence_limitation": "Catalog reports engine loaded/effective CPU but leaves actual_execution_provider null. Separate exact installed adapter/model inspection confirms CPUExecutionProvider only; torch is CPU-only.",
+  "bound_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/voicestudio_cpu_trial_approval_2026_10_20.json",
+    "bytes": 3792,
+    "sha256": "583986a7a704107d4f7800d83542800c0b6c6160ffbaa2d4c44e6d7ba335c034"
+  },
+  "generation_requests_submitted": 2,
+  "automatic_retries": 0,
+  "remaining_trial_attempts": 0,
+  "samples": [
+    {
+      "voice": "bella",
+      "engine_voice_id": "expr-voice-2-f",
+      "file": {
+        "path": "voice_samples/voicestudio_trial_01/bella_01.wav",
+        "bytes": 1282444,
+        "sha256": "219c2a9872cf66ed42ef83c43254fb762ab1ef0adaeada4932c95771386c36e9"
+      },
+      "duration_seconds": 26.716666666666665,
+      "sample_rate": 24000,
+      "channels": 1,
+      "codec": "pcm_s16le",
+      "peak_absolute_amplitude": 0.7943115234375,
+      "samples_at_or_above_0_999": 0,
+      "rms_dbfs": -18.13870645494751,
+      "wall_seconds": 41.203,
+      "wall_to_audio_ratio": 1.5422208359326266,
+      "sampled_peak_backend_tree_rss_bytes": 966221824,
+      "attempt_receipt": {
+        "path": "voice_samples/voicestudio_trial_01/bella_attempt.json",
+        "bytes": 2427,
+        "sha256": "abce93f3588d9e68430f09e17c6d97579e041e4085bd49e9659ef8ce1540ac80"
+      },
+      "human_listening_approved": false
+    },
+    {
+      "voice": "luna",
+      "engine_voice_id": "expr-voice-3-f",
+      "file": {
+        "path": "voice_samples/voicestudio_trial_01/luna_01.wav",
+        "bytes": 993244,
+        "sha256": "ac3daa5e32ffd6a9b4ba08fe105fcf600d018750177993ed5dd9886526e96731"
+      },
+      "duration_seconds": 20.691666666666666,
+      "sample_rate": 24000,
+      "channels": 1,
+      "codec": "pcm_s16le",
+      "peak_absolute_amplitude": 0.7943115234375,
+      "samples_at_or_above_0_999": 0,
+      "rms_dbfs": -20.811114425374022,
+      "wall_seconds": 29.187,
+      "wall_to_audio_ratio": 1.4105678614579138,
+      "sampled_peak_backend_tree_rss_bytes": 984334336,
+      "attempt_receipt": {
+        "path": "voice_samples/voicestudio_trial_01/luna_attempt.json",
+        "bytes": 2424,
+        "sha256": "585f20659dcbe9f37b443911ee6c198dcbdec01481181741ded4f6521b1ea619"
+      },
+      "human_listening_approved": false
+    }
+  ],
+  "storage": {
+    "unique_file_allocation_upper_bound_bytes": 5870264320,
+    "unique_files": 51056,
+    "maximum_total_disk_increase_bytes": 10737418240,
+    "trial_files_under_cap": true,
+    "initial_drive_free_bytes": 131322339328,
+    "current_drive_free_bytes": 115834077184,
+    "whole_drive_delta_is_not_trial_attribution": true,
+    "accounting_limits": "Deduplicates hardlinks and rounds files to 4 KiB. Small installer registry/shortcut entries and directory metadata excluded. Whole-drive growth includes unattributed concurrent/system activity and cannot establish attribution or a historical peak. Initial conservative whole-drive guard stopped the first dependency install; recovered files were reused without generation retry. Installation scratch/cache then removed after stopping the trial backend; installed runtime and all audio/evidence retained.",
+    "observed_pre_cleanup_file_allocation_upper_bound_bytes": 9179295744,
+    "continuous_historical_peak_certified": false
+  },
+  "all_installed_file_paths": {
+    "path": "voice_samples/voicestudio_trial_01/installed_files_inventory.json",
+    "bytes": 10227578,
+    "sha256": "f9a1eb5089d5728c56e4b731b4e1588bd4916bbf526b15302821670a82633aac"
+  },
+  "component_license_inventory": {
+    "path": "voice_samples/voicestudio_trial_01/component_license_inventory.json",
+    "bytes": 428069,
+    "sha256": "df2b54e83c4c8a6aa0efa4232f07ad34ac25d8d4f51d09ef8bce4ba29ffd394e"
+  },
+  "model_license_metadata": "Apache-2.0; immutable model card captured. App AGPL-3.0-only; component notices retained. This is not production rights approval.",
+  "dependency_model_disclosure": "Frozen Kitten phonemizer dependency chain includes packaged en-core-web-sm 3.8.0 NLP language data (~12.2 MiB wheel). It is not an additional TTS engine/voice model; full release dependencies installed. No additional speech, ASR or AudioSeal weights downloaded.",
+  "warnings": [
+    "Phonemizer reported word-count mismatches for both requests. Human listening must check every sentence, omitted words, numbers and dates. No creative/content completeness approval is inferred."
+  ],
+  "application_gui_verified": false,
+  "provider_files_created": [
+    "voice_samples/voicestudio_trial_01/bella_01.wav",
+    "voice_samples/voicestudio_trial_01/luna_01.wav"
+  ],
+  "episode_narration_requests": 0,
+  "elevenlabs_requests": 0,
+  "paid_services_used": false,
+  "voice_cloning_performed": false,
+  "visuals_rendering_publishing_performed": false,
+  "assembly_allowed": false,
+  "target_format": "youtube-longform",
+  "approved_amy_script_binding_still_valid": true,
+  "binding_check": {
+    "schema_version": "cold_truth.paired_script_approval.v1",
+    "review_id": "amy-script-review-2026-10-16-v1",
+    "case_id": "amy-mihaljevic",
+    "target_format": "youtube-longform",
+    "human_approved": true,
+    "approved_by": "Brody",
+    "approved_on": "2026-10-20",
+    "recorded_at_utc": "2026-10-20T21:29:49.854889+00:00",
+    "user_quote": "they look good cont",
+    "decision_context": "Direct response in this chat to the request to review and approve the full draft and source-bound reverse outline together. No message identifier supplied.",
+    "scope": "Paired approval of the exact full draft and reverse outline; canonical final creation and routine offline implementation.",
+    "review_packet": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/review_packet.json",
+      "sha256": "7c5027780aeb4eed1ef1b814adb031de0010a8dcb438bb6703a786be269ab8d7",
+      "bytes": 2374
+    },
+    "script": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "sha256": "ff478c9681a96b8bfdb217bc8af75f177dbc85e5ff572d387690b519c27c0afa",
+      "bytes": 10126
+    },
+    "reverse_outline": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "sha256": "6a4d1ff64d4cc2e3f366c1665d85b98a7310dab4c7c388de00c28758b3e7911d",
+      "bytes": 4563
+    },
+    "final_script": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+      "bytes": 10247
+    },
+    "narration_text": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+      "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+      "bytes": 7835
+    },
+    "canonicalization": "Final title/status metadata updated only; marked narration text matches the reviewed draft exactly. Paragraph labels, headings and B-roll cues are excluded from Narration_Text.txt.",
+    "phase_2_authorized": false,
+    "narration_authorized": false,
+    "publishing_authorized": false
+  },
+  "next_action": "Brody listens and chooses Bella, Luna, or neither. Then prepare an exact selected production profile and applicable episode/continuity-test scope. Do not submit more requests under this exhausted trial grant.",
+  "backend_stopped_after_trial": {
+    "recorded_at_utc": "2026-10-20T22:21:31.674608+00:00",
+    "reason": "Two authorized neutral samples completed; stop the trial backend before removing installation scratch files.",
+    "processes": [
+      {
+        "pid": 36432,
+        "command": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ]
+      },
+      {
+        "pid": 38080,
+        "command": [
+          "C:\\Users\\brody\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+          "-m",
+          "uvicorn",
+          "backend.main:app",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "3900"
+        ]
+      },
+      {
+        "pid": 26808,
+        "command": [
+          "C:\\Youtube Automation Obsidian\\voice_samples\\voicestudio_trial_01\\runtime\\Scripts\\python.exe",
+          "-m",
+          "uvicorn",
+          "backend.main:app",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "3900"
+        ]
+      }
+    ],
+    "stopped_pids": [
+      38080,
+      36432,
+      26808
+    ],
+    "still_alive_pids": []
+  },
+  "runtime_imports_after_scratch_cleanup": "PASS: torch CPU, kittentts and onnxruntime imports; no generation submitted"
+}

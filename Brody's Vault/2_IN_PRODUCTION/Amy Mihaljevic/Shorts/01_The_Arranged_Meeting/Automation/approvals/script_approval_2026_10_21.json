@@ -1,0 +1,47 @@
+{
+  "schema_version": "cold_truth.paired_script_approval.v1",
+  "review_id": "amy-mihaljevic-short-01-review-2026-10-21-v1",
+  "case_id": "amy-mihaljevic-short-01",
+  "parent_case_id": "amy-mihaljevic",
+  "target_format": "shorts",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "user_quote": "Approve all three script-and-outline pairs",
+  "scope": "Paired approval of this exact standalone full Short script and matching reverse outline, included in the three-pair decision. Final creation only; narration/media execution scope separate.",
+  "review_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/review_packet.json",
+    "bytes": 1905,
+    "sha256": "e289b58d6329bf2ba0f62842a1e5291252d114ab7f09510a51a1d62ae93aae89"
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Draft.md",
+    "bytes": 2161,
+    "sha256": "b3f5ba0f2e436c3e8abf649051b0f513dc8471732473e5d3994383e1369ac52b"
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Reverse_Outline.md",
+    "bytes": 1650,
+    "sha256": "18d3419a829754a0207c06725203ef4365a7ac653616a24cc2b97c8dc2ba10d8"
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "canonicalization": "Status metadata only; extracted narration exactly equals reviewed draft.",
+  "phase_2_authorized": false,
+  "narration_authorized": false,
+  "publishing_authorized": false
+}

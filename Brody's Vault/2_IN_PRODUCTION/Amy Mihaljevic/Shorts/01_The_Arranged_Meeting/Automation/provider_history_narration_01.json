@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-22T02:33:32.381270+00:00",
+  "source": "Authenticated read-only official ElevenLabs history; only exact approved-script matches retained",
+  "case_id": "amy-mihaljevic-short-01",
+  "history_item_id": "ou1aS7AjuyrUcwaNtnk1",
+  "request_id": "eZzNE1y8D1nS9dGPhlcC",
+  "voice_id": "nPpkc230TdYdntJKFNby",
+  "model_id": "eleven_multilingual_v2",
+  "voice_name": "Mia - Clear & Emotive Female Narrator ",
+  "date_unix": 1792635667,
+  "text_matches_approved_input": true,
+  "approved_narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "settings": {
+    "stability": 0.72,
+    "speed": 1.0,
+    "style": 0.05,
+    "similarity_boost": 0.76,
+    "use_speaker_boost": true
+  },
+  "state": "created",
+  "character_count_change_from": 1783,
+  "character_count_change_to": 1919
+}

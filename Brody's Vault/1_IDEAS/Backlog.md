@@ -1,5 +1,18 @@
 # Cold Truth Backlog
 
+**Current routing — 2026-10-20.** Use the [[0_ADMIN/PROJECT_DASHBOARD|dashboard]] and [[0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2|maintained plan]] for work order. The July entries below are historical candidate notes; their selection labels and backend command are superseded.
+
+| Item | Current disposition | Evidence |
+|---|---|---|
+| Amy Mihaljevic | M1–M4 complete; M5 local voice evaluation, unused Mia attempt held | [[2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary|Summary]] |
+| Springfield Three | Deferred; Short-Format exception required and not approved | [[1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05|September reassessment]] |
+| Jodi Huisentruit | Backlog/history; insufficient current ledger depth | [[2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1|Later viability assessment]] |
+| Narration-preset enforcement | Historical Mia preset retained; evaluate/select local profile before any new episode request | [[2_CHANNEL_SYSTEM/NARRATION_VOICE|Selected profile]] |
+
+The old P1 task must not be executed against the quarantined legacy CLI. No second case should be started while the current editorial focus is in progress unless evidence forces a deliberate change.
+
+## Historical July notes — not the current queue
+
 ## Open system items
 
 ### P1 - Enforce narration preset in the backend

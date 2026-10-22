@@ -1,0 +1,54 @@
+{
+  "asset_id": "AMY-LF-R05-PX-3195394",
+  "source_identity": "pexels:video:3195394",
+  "provider_id": 3195394,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/drops-of-liquid-on-a-tray-to-be-use-as-samples-3195394/",
+  "creator": {
+    "id": 1583460,
+    "name": "Pressmaster",
+    "url": "https://www.pexels.com/@pressmaster"
+  },
+  "preview_image": "https://images.pexels.com/videos/3195394/free-video-3195394.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 14,
+  "selected_file": {
+    "id": 9294295,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "link": "https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4",
+    "size": 2629786
+  },
+  "candidate_paragraphs": [
+    "P14",
+    "P17"
+  ],
+  "depiction_boundary": "Generic sample-handling closeup; not actual case evidence, DNA technique or result",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+  "human_rights_approved": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+    "bytes": 2629786,
+    "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+  },
+  "actual_duration_seconds": 13.96,
+  "actual_width": 1920,
+  "actual_height": 1080,
+  "editorial_decision": "CANDIDATE",
+  "content_note": "Anonymous gloved-hand/pipette detail. Generic lab only, no claim of actual evidence, DNA method or test result.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": [
+    0,
+    13.8
+  ],
+  "human_use_approved": false,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  }
+}

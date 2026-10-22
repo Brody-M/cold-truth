@@ -1,0 +1,255 @@
+{
+  "status": "PROCESSED_TECHNICAL_PASS_HUMAN_FULL_LISTEN_PENDING",
+  "started_at_utc": "2026-10-22T02:27:59.570802+00:00",
+  "tool": "Installed FFmpeg8.1.1",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "f41db7334ee7cec2fce8b82cd0e17166594f642c9ea8e5b1d235f7aef6e0ac0d",
+    "bytes": 3266
+  },
+  "profile": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/mia_normal_audio_profile_2026_10_20.json",
+    "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a",
+    "bytes": 1244
+  },
+  "raw_provider_file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/provider_attempt_01/tts_Two_t_20261021_222628.mp3",
+    "sha256": "2d9d6aa42d9254b5139227c24bf8549e592993a5704a896ecc92cb1329f41cc3",
+    "bytes": 793329
+  },
+  "raw_canonical": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01.mp3",
+    "sha256": "2d9d6aa42d9254b5139227c24bf8549e592993a5704a896ecc92cb1329f41cc3",
+    "bytes": 793329
+  },
+  "commands": [
+    {
+      "stage": 1,
+      "started_at_utc": "2026-10-22T02:27:59.575869+00:00",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01.mp3",
+        "-af",
+        "highpass=f=80:p=2,acompressor=threshold=0.25:ratio=2:attack=2:release=100:makeup=1:knee=2.828427:detection=peak,volume=-0.5dB,aresample=176400,alimiter=limit=0.7943282347:attack=5:release=50:level=false:latency=true,aresample=44100",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\processing_work_01\\stage_1.wav"
+      ],
+      "returncode": 0,
+      "diagnostics": ""
+    },
+    {
+      "stage": 2,
+      "started_at_utc": "2026-10-22T02:27:59.775287+00:00",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\processing_work_01\\stage_1.wav",
+        "-af",
+        "volume=-4dB",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\processing_work_01\\stage_2.wav"
+      ],
+      "returncode": 0,
+      "diagnostics": ""
+    },
+    {
+      "stage": 3,
+      "started_at_utc": "2026-10-22T02:27:59.824889+00:00",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\processing_work_01\\stage_2.wav",
+        "-af",
+        "acompressor=threshold=0.07943282347:ratio=4:attack=1:release=100:makeup=1:knee=2.828427:detection=peak,aresample=176400,alimiter=limit=0.1258925412:attack=5:release=100:level=false:latency=true,aresample=44100,volume=-2dB",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav"
+      ],
+      "returncode": 0,
+      "diagnostics": ""
+    },
+    {
+      "stage": "listening_preview",
+      "started_at_utc": "2026-10-22T02:28:00.008927+00:00",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+        "-c:a",
+        "libmp3lame",
+        "-b:a",
+        "192k",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.mp3"
+      ],
+      "returncode": 0,
+      "diagnostics": ""
+    }
+  ],
+  "new_generation_calls_in_processing": 0,
+  "time_stretch": false,
+  "padding": false,
+  "cuts": false,
+  "completed_at_utc": "2026-10-22T02:28:00.895824+00:00",
+  "raw_decoded_samples": 2183168,
+  "master_decoded_samples": 2183168,
+  "duration_seconds": 49.504943310657595,
+  "measured_lufs": -31.34,
+  "measured_true_peak_dbtp": -19.96,
+  "duration_within_30_to60": true,
+  "measurement_command": [
+    "ffmpeg",
+    "-v",
+    "info",
+    "-nostdin",
+    "-threads",
+    "2",
+    "-filter_threads",
+    "2",
+    "-i",
+    "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+    "-af",
+    "loudnorm=I=-23:TP=-1:LRA=7:print_format=json",
+    "-f",
+    "null",
+    "-"
+  ],
+  "loudness_measurement_output_discarded": true,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s24le",
+        "codec_long_name": "PCM signed 24-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s32",
+        "sample_rate": "44100",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 24,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 2183168,
+        "duration": "49.504943",
+        "bit_rate": "1058400",
+        "bits_per_raw_sample": "24",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "duration": "49.504943",
+      "size": "6549606",
+      "bit_rate": "1058416",
+      "probe_score": 99,
+      "tags": {
+        "encoder": "Lavf62.12.101"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01.mp3",
+      "sha256": "2d9d6aa42d9254b5139227c24bf8549e592993a5704a896ecc92cb1329f41cc3",
+      "bytes": 793329
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.mp3",
+      "sha256": "cf67e1f2893c662c2e2d68e374a7220578df084ee0825c47da2751e4bcdf6104",
+      "bytes": 1189973
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+      "sha256": "e68da3e3dc2a9215d67173e826349ac92e32657b8f3f4d4a2c620ede04cbdbd0",
+      "bytes": 6549606
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/processing_work_01/stage_1.wav",
+      "sha256": "9e6917c2517d6e7be446ad54ef5abe083a0acedb6957c70dfb8ee8f883e45cd1",
+      "bytes": 6549606
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/processing_work_01/stage_2.wav",
+      "sha256": "bc74970132634914218d9298c366e985a06f81091a34fe8a281271411d7caf26",
+      "bytes": 6549606
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/provider_attempt_01/tts_Two_t_20261021_222628.mp3",
+      "sha256": "2d9d6aa42d9254b5139227c24bf8549e592993a5704a896ecc92cb1329f41cc3",
+      "bytes": 793329
+    }
+  ]
+}

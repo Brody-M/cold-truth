@@ -1,0 +1,1296 @@
+{
+  "schema_version": "cold_truth.machine_short_alignment_draft.v1",
+  "case_id": "amy-mihaljevic-short-02",
+  "target_format": "shorts",
+  "recorded_at_utc": "2026-10-22T02:29:57.419690+00:00",
+  "status": "MACHINE_DRAFT_AUDIO_AND_TIMING_HUMAN_REVIEW_PENDING",
+  "tool": "Existing WhisperX3.4.5 + cached torchaudio WAV2VEC2_ASR_BASE_960H, CPU2 threads, offline",
+  "bindings": {
+    "audio": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+      "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+      "bytes": 5511270
+    },
+    "script": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+      "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+      "bytes": 2327
+    },
+    "narration_text": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+      "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+      "bytes": 566
+    },
+    "script_approval": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+      "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0",
+      "bytes": 2316
+    },
+    "audio_processing": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_processing_01.json",
+      "sha256": "9794a6e3282677b116e33190b491bd309e9be2d9adab01545db32709caf2bea5",
+      "bytes": 9257
+    },
+    "phase_2_scope": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+      "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1",
+      "bytes": 3217
+    }
+  },
+  "source_text": "A turquoise horse earring is one of the unrecovered belongings listed by the FBI in Amy Mihaljevic’s case.\n\nAmy was ten when she was abducted from a shopping center in Bay Village, Ohio, on October 27, 1989. A jogger found her body in rural Ashland County on February 8, 1990.\n\nThe FBI says three items believed to have been with Amy were never recovered: that earring, black ankle boots and a black leather binder.\n\nThose details are part of a public request for information. They do not establish what happened to the objects or identify the person responsible.\n",
+  "duration_seconds": 41.65659863945578,
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 8.223,
+      "text": "A turquoise horse earring is one of the unrecovered belongings listed by the FBI in Amy Mihaljevic’s case.",
+      "words": [
+        {
+          "word": "A",
+          "start": 0.1,
+          "end": 0.14,
+          "score": 0.537
+        },
+        {
+          "word": "turquoise",
+          "start": 0.18,
+          "end": 0.68,
+          "score": 0.87
+        },
+        {
+          "word": "horse",
+          "start": 0.74,
+          "end": 1.02,
+          "score": 0.774
+        },
+        {
+          "word": "earring",
+          "start": 1.12,
+          "end": 1.441,
+          "score": 0.881
+        },
+        {
+          "word": "is",
+          "start": 1.661,
+          "end": 1.741,
+          "score": 0.83
+        },
+        {
+          "word": "one",
+          "start": 1.901,
+          "end": 2.021,
+          "score": 0.948
+        },
+        {
+          "word": "of",
+          "start": 2.081,
+          "end": 2.141,
+          "score": 0.975
+        },
+        {
+          "word": "the",
+          "start": 2.201,
+          "end": 2.281,
+          "score": 0.855
+        },
+        {
+          "word": "unrecovered",
+          "start": 2.461,
+          "end": 3.041,
+          "score": 0.892
+        },
+        {
+          "word": "belongings",
+          "start": 3.081,
+          "end": 3.601,
+          "score": 0.897
+        },
+        {
+          "word": "listed",
+          "start": 3.681,
+          "end": 4.082,
+          "score": 0.769
+        },
+        {
+          "word": "by",
+          "start": 4.482,
+          "end": 4.582,
+          "score": 0.994
+        },
+        {
+          "word": "the",
+          "start": 4.622,
+          "end": 4.702,
+          "score": 0.879
+        },
+        {
+          "word": "FBI",
+          "start": 4.862,
+          "end": 5.342,
+          "score": 0.779
+        },
+        {
+          "word": "in",
+          "start": 5.502,
+          "end": 5.582,
+          "score": 0.825
+        },
+        {
+          "word": "Amy",
+          "start": 5.722,
+          "end": 5.962,
+          "score": 0.88
+        },
+        {
+          "word": "Mihaljevic’s",
+          "start": 6.002,
+          "end": 6.623,
+          "score": 0.749
+        },
+        {
+          "word": "case.",
+          "start": 6.663,
+          "end": 8.223,
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "start": 8.243,
+      "end": 15.266,
+      "text": "Amy was ten when she was abducted from a shopping center in Bay Village, Ohio, on October 27, 1989.",
+      "words": [
+        {
+          "word": "Amy",
+          "start": 8.243,
+          "end": 8.423,
+          "score": 0.914
+        },
+        {
+          "word": "was",
+          "start": 8.463,
+          "end": 8.603,
+          "score": 0.785
+        },
+        {
+          "word": "ten",
+          "start": 8.703,
+          "end": 9.044,
+          "score": 0.752
+        },
+        {
+          "word": "when",
+          "start": 9.164,
+          "end": 9.304,
+          "score": 0.764
+        },
+        {
+          "word": "she",
+          "start": 9.344,
+          "end": 9.444,
+          "score": 0.678
+        },
+        {
+          "word": "was",
+          "start": 9.464,
+          "end": 9.564,
+          "score": 0.77
+        },
+        {
+          "word": "abducted",
+          "start": 9.624,
+          "end": 10.104,
+          "score": 0.909
+        },
+        {
+          "word": "from",
+          "start": 10.144,
+          "end": 10.264,
+          "score": 0.906
+        },
+        {
+          "word": "a",
+          "start": 10.304,
+          "end": 10.324,
+          "score": 0.991
+        },
+        {
+          "word": "shopping",
+          "start": 10.384,
+          "end": 10.744,
+          "score": 0.914
+        },
+        {
+          "word": "center",
+          "start": 10.804,
+          "end": 11.104,
+          "score": 0.777
+        },
+        {
+          "word": "in",
+          "start": 11.184,
+          "end": 11.284,
+          "score": 0.863
+        },
+        {
+          "word": "Bay",
+          "start": 11.365,
+          "end": 11.565,
+          "score": 0.978
+        },
+        {
+          "word": "Village,",
+          "start": 11.605,
+          "end": 11.925,
+          "score": 0.96
+        },
+        {
+          "word": "Ohio,",
+          "start": 11.985,
+          "end": 12.425,
+          "score": 0.956
+        },
+        {
+          "word": "on",
+          "start": 12.985,
+          "end": 13.045,
+          "score": 0.796
+        },
+        {
+          "word": "October",
+          "start": 13.085,
+          "end": 13.485,
+          "score": 0.852
+        },
+        {
+          "word": "27,",
+          "start": 13.525,
+          "end": 13.745,
+          "score": 0.657
+        },
+        {
+          "word": "1989.",
+          "start": 13.806,
+          "end": 15.266,
+          "score": 0.532
+        }
+      ]
+    },
+    {
+      "start": 16.186,
+      "end": 21.489,
+      "text": "A jogger found her body in rural Ashland County on February 8, 1990.",
+      "words": [
+        {
+          "word": "A",
+          "start": 16.186,
+          "end": 16.246,
+          "score": 0.695
+        },
+        {
+          "word": "jogger",
+          "start": 16.306,
+          "end": 16.707,
+          "score": 0.845
+        },
+        {
+          "word": "found",
+          "start": 16.807,
+          "end": 17.067,
+          "score": 0.883
+        },
+        {
+          "word": "her",
+          "start": 17.107,
+          "end": 17.227,
+          "score": 0.791
+        },
+        {
+          "word": "body",
+          "start": 17.267,
+          "end": 17.587,
+          "score": 0.92
+        },
+        {
+          "word": "in",
+          "start": 17.667,
+          "end": 17.727,
+          "score": 0.996
+        },
+        {
+          "word": "rural",
+          "start": 17.827,
+          "end": 18.187,
+          "score": 0.879
+        },
+        {
+          "word": "Ashland",
+          "start": 18.347,
+          "end": 18.687,
+          "score": 0.724
+        },
+        {
+          "word": "County",
+          "start": 18.707,
+          "end": 19.088,
+          "score": 0.792
+        },
+        {
+          "word": "on",
+          "start": 19.548,
+          "end": 19.628,
+          "score": 0.69
+        },
+        {
+          "word": "February",
+          "start": 19.708,
+          "end": 20.208,
+          "score": 0.554
+        },
+        {
+          "word": "8,",
+          "start": 20.328,
+          "end": 20.568,
+          "score": 0.609
+        },
+        {
+          "word": "1990.",
+          "start": 20.768,
+          "end": 21.489,
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "start": 22.229,
+      "end": 31.633,
+      "text": "The FBI says three items believed to have been with Amy were never recovered: that earring, black ankle boots and a black leather binder.",
+      "words": [
+        {
+          "word": "The",
+          "start": 22.229,
+          "end": 22.329,
+          "score": 0.959
+        },
+        {
+          "word": "FBI",
+          "start": 22.489,
+          "end": 22.949,
+          "score": 0.824
+        },
+        {
+          "word": "says",
+          "start": 23.009,
+          "end": 23.249,
+          "score": 0.818
+        },
+        {
+          "word": "three",
+          "start": 23.409,
+          "end": 23.669,
+          "score": 0.751
+        },
+        {
+          "word": "items",
+          "start": 23.809,
+          "end": 24.19,
+          "score": 0.87
+        },
+        {
+          "word": "believed",
+          "start": 24.35,
+          "end": 24.77,
+          "score": 0.817
+        },
+        {
+          "word": "to",
+          "start": 24.81,
+          "end": 24.87,
+          "score": 0.868
+        },
+        {
+          "word": "have",
+          "start": 24.93,
+          "end": 25.09,
+          "score": 0.833
+        },
+        {
+          "word": "been",
+          "start": 25.13,
+          "end": 25.39,
+          "score": 0.728
+        },
+        {
+          "word": "with",
+          "start": 25.55,
+          "end": 25.69,
+          "score": 0.86
+        },
+        {
+          "word": "Amy",
+          "start": 25.85,
+          "end": 26.11,
+          "score": 0.846
+        },
+        {
+          "word": "were",
+          "start": 26.19,
+          "end": 26.33,
+          "score": 0.978
+        },
+        {
+          "word": "never",
+          "start": 26.391,
+          "end": 26.651,
+          "score": 0.812
+        },
+        {
+          "word": "recovered:",
+          "start": 26.711,
+          "end": 27.191,
+          "score": 0.764
+        },
+        {
+          "word": "that",
+          "start": 27.871,
+          "end": 28.031,
+          "score": 0.998
+        },
+        {
+          "word": "earring,",
+          "start": 28.171,
+          "end": 28.511,
+          "score": 0.813
+        },
+        {
+          "word": "black",
+          "start": 28.932,
+          "end": 29.192,
+          "score": 0.997
+        },
+        {
+          "word": "ankle",
+          "start": 29.312,
+          "end": 29.552,
+          "score": 0.954
+        },
+        {
+          "word": "boots",
+          "start": 29.592,
+          "end": 29.872,
+          "score": 0.901
+        },
+        {
+          "word": "and",
+          "start": 30.352,
+          "end": 30.452,
+          "score": 0.719
+        },
+        {
+          "word": "a",
+          "start": 30.492,
+          "end": 30.532,
+          "score": 0.483
+        },
+        {
+          "word": "black",
+          "start": 30.592,
+          "end": 30.912,
+          "score": 0.853
+        },
+        {
+          "word": "leather",
+          "start": 30.972,
+          "end": 31.232,
+          "score": 0.85
+        },
+        {
+          "word": "binder.",
+          "start": 31.252,
+          "end": 31.633,
+          "score": 0.919
+        }
+      ]
+    },
+    {
+      "start": 32.553,
+      "end": 35.954,
+      "text": "Those details are part of a public request for information.",
+      "words": [
+        {
+          "word": "Those",
+          "start": 32.553,
+          "end": 32.773,
+          "score": 0.894
+        },
+        {
+          "word": "details",
+          "start": 32.833,
+          "end": 33.373,
+          "score": 0.713
+        },
+        {
+          "word": "are",
+          "start": 33.453,
+          "end": 33.553,
+          "score": 0.712
+        },
+        {
+          "word": "part",
+          "start": 33.633,
+          "end": 33.914,
+          "score": 0.766
+        },
+        {
+          "word": "of",
+          "start": 33.974,
+          "end": 34.054,
+          "score": 0.764
+        },
+        {
+          "word": "a",
+          "start": 34.094,
+          "end": 34.134,
+          "score": 0.493
+        },
+        {
+          "word": "public",
+          "start": 34.234,
+          "end": 34.574,
+          "score": 0.859
+        },
+        {
+          "word": "request",
+          "start": 34.614,
+          "end": 35.094,
+          "score": 0.71
+        },
+        {
+          "word": "for",
+          "start": 35.154,
+          "end": 35.274,
+          "score": 0.96
+        },
+        {
+          "word": "information.",
+          "start": 35.334,
+          "end": 35.954,
+          "score": 0.872
+        }
+      ]
+    },
+    {
+      "start": 36.835,
+      "end": 41.276,
+      "text": "They do not establish what happened to the objects or identify the person responsible.",
+      "words": [
+        {
+          "word": "They",
+          "start": 36.835,
+          "end": 36.995,
+          "score": 0.791
+        },
+        {
+          "word": "do",
+          "start": 37.055,
+          "end": 37.195,
+          "score": 0.997
+        },
+        {
+          "word": "not",
+          "start": 37.255,
+          "end": 37.375,
+          "score": 0.845
+        },
+        {
+          "word": "establish",
+          "start": 37.435,
+          "end": 37.955,
+          "score": 0.804
+        },
+        {
+          "word": "what",
+          "start": 37.995,
+          "end": 38.115,
+          "score": 0.972
+        },
+        {
+          "word": "happened",
+          "start": 38.175,
+          "end": 38.515,
+          "score": 0.843
+        },
+        {
+          "word": "to",
+          "start": 38.535,
+          "end": 38.595,
+          "score": 0.748
+        },
+        {
+          "word": "the",
+          "start": 38.635,
+          "end": 38.715,
+          "score": 0.833
+        },
+        {
+          "word": "objects",
+          "start": 38.855,
+          "end": 39.256,
+          "score": 0.945
+        },
+        {
+          "word": "or",
+          "start": 39.416,
+          "end": 39.496,
+          "score": 0.798
+        },
+        {
+          "word": "identify",
+          "start": 39.576,
+          "end": 40.116,
+          "score": 0.824
+        },
+        {
+          "word": "the",
+          "start": 40.136,
+          "end": 40.236,
+          "score": 0.721
+        },
+        {
+          "word": "person",
+          "start": 40.276,
+          "end": 40.596,
+          "score": 0.832
+        },
+        {
+          "word": "responsible.",
+          "start": 40.636,
+          "end": 41.276,
+          "score": 0.876
+        }
+      ]
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "A",
+      "start": 0.1,
+      "end": 0.14,
+      "score": 0.537
+    },
+    {
+      "word": "turquoise",
+      "start": 0.18,
+      "end": 0.68,
+      "score": 0.87
+    },
+    {
+      "word": "horse",
+      "start": 0.74,
+      "end": 1.02,
+      "score": 0.774
+    },
+    {
+      "word": "earring",
+      "start": 1.12,
+      "end": 1.441,
+      "score": 0.881
+    },
+    {
+      "word": "is",
+      "start": 1.661,
+      "end": 1.741,
+      "score": 0.83
+    },
+    {
+      "word": "one",
+      "start": 1.901,
+      "end": 2.021,
+      "score": 0.948
+    },
+    {
+      "word": "of",
+      "start": 2.081,
+      "end": 2.141,
+      "score": 0.975
+    },
+    {
+      "word": "the",
+      "start": 2.201,
+      "end": 2.281,
+      "score": 0.855
+    },
+    {
+      "word": "unrecovered",
+      "start": 2.461,
+      "end": 3.041,
+      "score": 0.892
+    },
+    {
+      "word": "belongings",
+      "start": 3.081,
+      "end": 3.601,
+      "score": 0.897
+    },
+    {
+      "word": "listed",
+      "start": 3.681,
+      "end": 4.082,
+      "score": 0.769
+    },
+    {
+      "word": "by",
+      "start": 4.482,
+      "end": 4.582,
+      "score": 0.994
+    },
+    {
+      "word": "the",
+      "start": 4.622,
+      "end": 4.702,
+      "score": 0.879
+    },
+    {
+      "word": "FBI",
+      "start": 4.862,
+      "end": 5.342,
+      "score": 0.779
+    },
+    {
+      "word": "in",
+      "start": 5.502,
+      "end": 5.582,
+      "score": 0.825
+    },
+    {
+      "word": "Amy",
+      "start": 5.722,
+      "end": 5.962,
+      "score": 0.88
+    },
+    {
+      "word": "Mihaljevic’s",
+      "start": 6.002,
+      "end": 6.623,
+      "score": 0.749
+    },
+    {
+      "word": "case.",
+      "start": 6.663,
+      "end": 8.223,
+      "score": 0.999
+    },
+    {
+      "word": "Amy",
+      "start": 8.243,
+      "end": 8.423,
+      "score": 0.914
+    },
+    {
+      "word": "was",
+      "start": 8.463,
+      "end": 8.603,
+      "score": 0.785
+    },
+    {
+      "word": "ten",
+      "start": 8.703,
+      "end": 9.044,
+      "score": 0.752
+    },
+    {
+      "word": "when",
+      "start": 9.164,
+      "end": 9.304,
+      "score": 0.764
+    },
+    {
+      "word": "she",
+      "start": 9.344,
+      "end": 9.444,
+      "score": 0.678
+    },
+    {
+      "word": "was",
+      "start": 9.464,
+      "end": 9.564,
+      "score": 0.77
+    },
+    {
+      "word": "abducted",
+      "start": 9.624,
+      "end": 10.104,
+      "score": 0.909
+    },
+    {
+      "word": "from",
+      "start": 10.144,
+      "end": 10.264,
+      "score": 0.906
+    },
+    {
+      "word": "a",
+      "start": 10.304,
+      "end": 10.324,
+      "score": 0.991
+    },
+    {
+      "word": "shopping",
+      "start": 10.384,
+      "end": 10.744,
+      "score": 0.914
+    },
+    {
+      "word": "center",
+      "start": 10.804,
+      "end": 11.104,
+      "score": 0.777
+    },
+    {
+      "word": "in",
+      "start": 11.184,
+      "end": 11.284,
+      "score": 0.863
+    },
+    {
+      "word": "Bay",
+      "start": 11.365,
+      "end": 11.565,
+      "score": 0.978
+    },
+    {
+      "word": "Village,",
+      "start": 11.605,
+      "end": 11.925,
+      "score": 0.96
+    },
+    {
+      "word": "Ohio,",
+      "start": 11.985,
+      "end": 12.425,
+      "score": 0.956
+    },
+    {
+      "word": "on",
+      "start": 12.985,
+      "end": 13.045,
+      "score": 0.796
+    },
+    {
+      "word": "October",
+      "start": 13.085,
+      "end": 13.485,
+      "score": 0.852
+    },
+    {
+      "word": "27,",
+      "start": 13.525,
+      "end": 13.745,
+      "score": 0.657
+    },
+    {
+      "word": "1989.",
+      "start": 13.806,
+      "end": 15.266,
+      "score": 0.532
+    },
+    {
+      "word": "A",
+      "start": 16.186,
+      "end": 16.246,
+      "score": 0.695
+    },
+    {
+      "word": "jogger",
+      "start": 16.306,
+      "end": 16.707,
+      "score": 0.845
+    },
+    {
+      "word": "found",
+      "start": 16.807,
+      "end": 17.067,
+      "score": 0.883
+    },
+    {
+      "word": "her",
+      "start": 17.107,
+      "end": 17.227,
+      "score": 0.791
+    },
+    {
+      "word": "body",
+      "start": 17.267,
+      "end": 17.587,
+      "score": 0.92
+    },
+    {
+      "word": "in",
+      "start": 17.667,
+      "end": 17.727,
+      "score": 0.996
+    },
+    {
+      "word": "rural",
+      "start": 17.827,
+      "end": 18.187,
+      "score": 0.879
+    },
+    {
+      "word": "Ashland",
+      "start": 18.347,
+      "end": 18.687,
+      "score": 0.724
+    },
+    {
+      "word": "County",
+      "start": 18.707,
+      "end": 19.088,
+      "score": 0.792
+    },
+    {
+      "word": "on",
+      "start": 19.548,
+      "end": 19.628,
+      "score": 0.69
+    },
+    {
+      "word": "February",
+      "start": 19.708,
+      "end": 20.208,
+      "score": 0.554
+    },
+    {
+      "word": "8,",
+      "start": 20.328,
+      "end": 20.568,
+      "score": 0.609
+    },
+    {
+      "word": "1990.",
+      "start": 20.768,
+      "end": 21.489,
+      "score": 0.52
+    },
+    {
+      "word": "The",
+      "start": 22.229,
+      "end": 22.329,
+      "score": 0.959
+    },
+    {
+      "word": "FBI",
+      "start": 22.489,
+      "end": 22.949,
+      "score": 0.824
+    },
+    {
+      "word": "says",
+      "start": 23.009,
+      "end": 23.249,
+      "score": 0.818
+    },
+    {
+      "word": "three",
+      "start": 23.409,
+      "end": 23.669,
+      "score": 0.751
+    },
+    {
+      "word": "items",
+      "start": 23.809,
+      "end": 24.19,
+      "score": 0.87
+    },
+    {
+      "word": "believed",
+      "start": 24.35,
+      "end": 24.77,
+      "score": 0.817
+    },
+    {
+      "word": "to",
+      "start": 24.81,
+      "end": 24.87,
+      "score": 0.868
+    },
+    {
+      "word": "have",
+      "start": 24.93,
+      "end": 25.09,
+      "score": 0.833
+    },
+    {
+      "word": "been",
+      "start": 25.13,
+      "end": 25.39,
+      "score": 0.728
+    },
+    {
+      "word": "with",
+      "start": 25.55,
+      "end": 25.69,
+      "score": 0.86
+    },
+    {
+      "word": "Amy",
+      "start": 25.85,
+      "end": 26.11,
+      "score": 0.846
+    },
+    {
+      "word": "were",
+      "start": 26.19,
+      "end": 26.33,
+      "score": 0.978
+    },
+    {
+      "word": "never",
+      "start": 26.391,
+      "end": 26.651,
+      "score": 0.812
+    },
+    {
+      "word": "recovered:",
+      "start": 26.711,
+      "end": 27.191,
+      "score": 0.764
+    },
+    {
+      "word": "that",
+      "start": 27.871,
+      "end": 28.031,
+      "score": 0.998
+    },
+    {
+      "word": "earring,",
+      "start": 28.171,
+      "end": 28.511,
+      "score": 0.813
+    },
+    {
+      "word": "black",
+      "start": 28.932,
+      "end": 29.192,
+      "score": 0.997
+    },
+    {
+      "word": "ankle",
+      "start": 29.312,
+      "end": 29.552,
+      "score": 0.954
+    },
+    {
+      "word": "boots",
+      "start": 29.592,
+      "end": 29.872,
+      "score": 0.901
+    },
+    {
+      "word": "and",
+      "start": 30.352,
+      "end": 30.452,
+      "score": 0.719
+    },
+    {
+      "word": "a",
+      "start": 30.492,
+      "end": 30.532,
+      "score": 0.483
+    },
+    {
+      "word": "black",
+      "start": 30.592,
+      "end": 30.912,
+      "score": 0.853
+    },
+    {
+      "word": "leather",
+      "start": 30.972,
+      "end": 31.232,
+      "score": 0.85
+    },
+    {
+      "word": "binder.",
+      "start": 31.252,
+      "end": 31.633,
+      "score": 0.919
+    },
+    {
+      "word": "Those",
+      "start": 32.553,
+      "end": 32.773,
+      "score": 0.894
+    },
+    {
+      "word": "details",
+      "start": 32.833,
+      "end": 33.373,
+      "score": 0.713
+    },
+    {
+      "word": "are",
+      "start": 33.453,
+      "end": 33.553,
+      "score": 0.712
+    },
+    {
+      "word": "part",
+      "start": 33.633,
+      "end": 33.914,
+      "score": 0.766
+    },
+    {
+      "word": "of",
+      "start": 33.974,
+      "end": 34.054,
+      "score": 0.764
+    },
+    {
+      "word": "a",
+      "start": 34.094,
+      "end": 34.134,
+      "score": 0.493
+    },
+    {
+      "word": "public",
+      "start": 34.234,
+      "end": 34.574,
+      "score": 0.859
+    },
+    {
+      "word": "request",
+      "start": 34.614,
+      "end": 35.094,
+      "score": 0.71
+    },
+    {
+      "word": "for",
+      "start": 35.154,
+      "end": 35.274,
+      "score": 0.96
+    },
+    {
+      "word": "information.",
+      "start": 35.334,
+      "end": 35.954,
+      "score": 0.872
+    },
+    {
+      "word": "They",
+      "start": 36.835,
+      "end": 36.995,
+      "score": 0.791
+    },
+    {
+      "word": "do",
+      "start": 37.055,
+      "end": 37.195,
+      "score": 0.997
+    },
+    {
+      "word": "not",
+      "start": 37.255,
+      "end": 37.375,
+      "score": 0.845
+    },
+    {
+      "word": "establish",
+      "start": 37.435,
+      "end": 37.955,
+      "score": 0.804
+    },
+    {
+      "word": "what",
+      "start": 37.995,
+      "end": 38.115,
+      "score": 0.972
+    },
+    {
+      "word": "happened",
+      "start": 38.175,
+      "end": 38.515,
+      "score": 0.843
+    },
+    {
+      "word": "to",
+      "start": 38.535,
+      "end": 38.595,
+      "score": 0.748
+    },
+    {
+      "word": "the",
+      "start": 38.635,
+      "end": 38.715,
+      "score": 0.833
+    },
+    {
+      "word": "objects",
+      "start": 38.855,
+      "end": 39.256,
+      "score": 0.945
+    },
+    {
+      "word": "or",
+      "start": 39.416,
+      "end": 39.496,
+      "score": 0.798
+    },
+    {
+      "word": "identify",
+      "start": 39.576,
+      "end": 40.116,
+      "score": 0.824
+    },
+    {
+      "word": "the",
+      "start": 40.136,
+      "end": 40.236,
+      "score": 0.721
+    },
+    {
+      "word": "person",
+      "start": 40.276,
+      "end": 40.596,
+      "score": 0.832
+    },
+    {
+      "word": "responsible.",
+      "start": 40.636,
+      "end": 41.276,
+      "score": 0.876
+    }
+  ],
+  "qa": {
+    "approved_word_sequence_preserved": true,
+    "source_words": 98,
+    "timed_words": 98,
+    "invalid_word_indices": [],
+    "low_confidence_words": [
+      {
+        "index": 70,
+        "word": "a",
+        "start": 30.492,
+        "end": 30.532,
+        "score": 0.483
+      },
+      {
+        "index": 79,
+        "word": "a",
+        "start": 34.094,
+        "end": 34.134,
+        "score": 0.493
+      }
+    ],
+    "human_review_required": true
+  },
+  "human_audio_approved": false,
+  "timing_review": {
+    "human_approved": false,
+    "full_listen_passed": false
+  },
+  "narration_requests": 0,
+  "model_downloads": 0,
+  "network_connections_permitted": false,
+  "assembly_allowed": false
+}

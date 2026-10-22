@@ -1,0 +1,52 @@
+{
+  "asset_id": "AMY-LF-R05-PX-9306134",
+  "source_identity": "pexels:video:9306134",
+  "provider_id": 9306134,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/person-pinning-paper-on-corkboard-9306134/",
+  "creator": {
+    "id": 3372733,
+    "name": "Monstera Production",
+    "url": "https://www.pexels.com/@gabby-k"
+  },
+  "preview_image": "https://images.pexels.com/videos/9306134/pexels-photo-9306134.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 19,
+  "selected_file": {
+    "id": 11084434,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 2048,
+    "height": 1080,
+    "fps": 30,
+    "link": "https://videos.pexels.com/video-files/9306134/9306134-hd_2048_1080_30fps.mp4",
+    "size": 8102620
+  },
+  "candidate_paragraphs": [
+    "P06",
+    "P12"
+  ],
+  "depiction_boundary": "Public-notice context only; no readable stock report presented as case evidence",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+  "rights_review_pending": true,
+  "actual_content_review_pending": true,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+    "bytes": 8102620,
+    "sha256": "4bd150ce80e3f32c5d4775dc140cd5e25f6472aac878ade4a2346ca7c32006db"
+  },
+  "actual_duration_seconds": 18.836667,
+  "actual_width": 2048,
+  "actual_height": 1080,
+  "editorial_decision": "EXCLUDE",
+  "content_note": "Visible financial graphs/business documents do not illustrate a missing-child public appeal or verified case evidence.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": null,
+  "human_use_approved": false,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  }
+}

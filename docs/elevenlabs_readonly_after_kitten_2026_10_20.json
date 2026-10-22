@@ -1,0 +1,43 @@
+{
+  "recorded_at_utc": "2026-10-21T01:42:11.471Z",
+  "source": "Read-only ElevenLabs connector checks in this turn",
+  "subscription": {
+    "status": "active",
+    "tier": "payg",
+    "character_count": 0,
+    "character_limit": 10000,
+    "remaining": 10000,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false,
+    "current_overage": {
+      "amount": "0",
+      "currency": "usd"
+    }
+  },
+  "voice": {
+    "id": "nPpkc230TdYdntJKFNby",
+    "name": "Mia - Clear & Emotive Female Narrator ",
+    "category": "professional",
+    "fine_tuning_status": {
+      "eleven_turbo_v2": "fine_tuned",
+      "eleven_v4": "fine_tuned",
+      "eleven_v4_post_trained": "fine_tuned",
+      "eleven_flash_v2_5": "fine_tuned",
+      "eleven_v4_exp": "fine_tuned",
+      "eleven_turbo_v2_5": "fine_tuned",
+      "eleven_v4_eval": "fine_tuned",
+      "eleven_v2_flash": "fine_tuned",
+      "eleven_v4_turbo": "fine_tuned",
+      "eleven_v2_5_flash": "fine_tuned",
+      "eleven_flash_v2": "fine_tuned",
+      "eleven_multilingual_v2": "fine_tuned",
+      "eleven_v4_hq": "fine_tuned",
+      "eleven_v4_turbo_exp": "fine_tuned",
+      "eleven_multilingual_sts_v2": "not_started"
+    }
+  },
+  "credit_multiplier_confirmed": false,
+  "exact_trial_charge_confirmed": false,
+  "generation_requests_this_pass": 0,
+  "browser_rate_check": "Previously selected Chrome browser 2 unavailable to browser tool; no authenticated price inspection completed."
+}

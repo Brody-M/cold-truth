@@ -1,0 +1,143 @@
+{
+  "created_at_utc": "2026-10-21T04:57:31.804247+00:00",
+  "case_id": "amy-mihaljevic",
+  "status": "CURRENT_AUDIO_AND_ASSET_USES_APPROVED_REVIEW02_VIDEO_PLAYBACK_PENDING",
+  "registry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+    "sha256": "39da675c4baf192d158393e8898b4a8e605e7179f0cb96167e33943a647c11ac",
+    "bytes": 19009
+  },
+  "audio_preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+    "bytes": 2580,
+    "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46"
+  },
+  "alignment_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_draft.json",
+    "bytes": 599539,
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+  },
+  "pexels_downloads": 14,
+  "pexels_decode_passes": 14,
+  "pexels_1080p": 13,
+  "pexels_editorial_candidates": 10,
+  "pexels_excluded": 4,
+  "case_cards": 8,
+  "orbital_exists": true,
+  "orbital_verified_in_place": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "bytes": 12182660536,
+    "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+  },
+  "new_media_bytes": 193056838,
+  "new_media_ceiling_bytes": 2147483648,
+  "track_isolation": {
+    "asset_ids_disjoint": true,
+    "source_identities_disjoint": true,
+    "hashes_disjoint": true,
+    "canonical_paths_disjoint": true,
+    "physical_files_disjoint": true
+  },
+  "human_rights_review_passed": true,
+  "timing_review_passed": true,
+  "shorts_paired_approval_passed": true,
+  "actual_trim_crop_review_passed": false,
+  "visual_timeline_ready": false,
+  "assembly_authorized": false,
+  "render_authorized": true,
+  "publishing_authorized": false,
+  "remaining": [
+    "Editor de-plosive repair and several dB overall reduction; actual corrected audio review",
+    "Revise relevant B-roll coverage and reduce full-screen cards/repeated shots",
+    "Bind accepted corrected audio to measured preflight and exact timing before remaining corrective video render",
+    "Short actual audio/timing review and conditional Orbital video cuts",
+    "Human review of corrected exact video; separate publishing authority"
+  ],
+  "alignment": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment.json",
+    "sha256": "2e810fce2aacc71505e6419268a0e0992f1ffa8947a7658cff2a24c606f612bc",
+    "bytes": 21406
+  },
+  "alignment_check": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_check.json",
+    "sha256": "626d5fef3fb714ad36e24125c8a2d35c1faa5cd0f6592270c25edab472bd90f0",
+    "bytes": 3400
+  },
+  "asset_check": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_check.json",
+    "sha256": "0ceb713245a23c273e6620f1258f598f23152763551676e8aba3bea15039668f",
+    "bytes": 431
+  },
+  "review_decisions": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "shorts_approved_package": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/approved_package_2026_10_21.json",
+    "sha256": "35f5aa73e4e966023b7103078b9440fdf4a29a99f748ff76da490d791f1e06d3",
+    "bytes": 4345
+  },
+  "proposed_review_recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/review_cut_recipe_2026_10_21.json",
+    "sha256": "c7d3b8195d9384e5620b52fbf002736a946d89afa272a73fac0d6e7ae8643744",
+    "bytes": 87285
+  },
+  "proposed_timeline_has_full_frame_coverage": true,
+  "review_video": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+    "bytes": 252524813,
+    "sha256": "f7d55e51bcae8cf429df2c06debcb2f520d0ef1fa4aaca93c17fe877c2fcfeb0"
+  },
+  "review_video_technical_passed": true,
+  "shorts_audio_review_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+    "bytes": 8200,
+    "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e"
+  },
+  "full_human_master_playback_approved": false,
+  "shorts_human_audio_timing_approved": false,
+  "assembly_authority_scope": "Bounded grant remains, but current master is rejected and corrected audio must pass its own QA/preflight before assembly.",
+  "render_authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "bytes": 2292,
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4"
+  },
+  "current_audio_accepted": false,
+  "feedback": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/media_feedback_review_01_2026_10_21.json",
+    "bytes": 2713,
+    "sha256": "dd7b067f97523d4b09de5adb15e5658cc11ad83a3836684871de5ed055a983b5"
+  },
+  "corrected_audio_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_correction_review_02.json",
+    "bytes": 2734,
+    "sha256": "3d76db144242ff28d7fa26d455954b82c71894ae5467cc89414a442a944e8586"
+  },
+  "latest_audio_feedback": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_feedback_revision03_2026_10_21.json",
+    "bytes": 1296,
+    "sha256": "559d18d8e996848321f1806153160e32be8928bc96141aa1afe822c8391060fd"
+  },
+  "pacing_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_pacing_review_03.json",
+    "bytes": 2905,
+    "sha256": "01ffa1af5a54576a9e1bced981f98c662f6f3ac71ffa8637316df332e182066b"
+  },
+  "diagnostic_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_diagnostic_review_04.json",
+    "bytes": 2316,
+    "sha256": "fb6e1f1706496648485d3f28296b0c0c69831f677dd32f1c79ba0f1120b816aa"
+  },
+  "current_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+    "bytes": 1686,
+    "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666"
+  },
+  "current_preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+    "bytes": 2647,
+    "sha256": "6a149952469166fbbcccc81da4081bb69fbed5acaaf552293da3890b4b3cc60c"
+  },
+  "human_master_playback_approved": false
+}

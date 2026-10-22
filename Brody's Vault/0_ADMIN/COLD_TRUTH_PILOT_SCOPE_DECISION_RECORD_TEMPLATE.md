@@ -62,6 +62,11 @@ It does not create an active episode and does not authorize a case/topic/person/
 - No cross-track identity/path/hash reuse: `[BLANK — MUST BE true]`
 - H9 fixed-provider/no-fallback policy preserved where later relevant: `[BLANK — MUST BE true]`
 - Later total attempt budget: `[BLANK — INTEGER 1 TO 3 ONLY IF SEPARATELY AUTHORIZED]`
+- Later fixed `provider_id`: `[BLANK — NONEMPTY IDENTITY ONLY IF SEPARATELY AUTHORIZED]`
+- Later `max_retries`: `[BLANK — INTEGER 0 TO 2 ONLY IF SEPARATELY AUTHORIZED]`
+- Later `max_attempts`: `[BLANK — INTEGER 1 TO 3, EQUAL TO max_retries + 1 ONLY IF SEPARATELY AUTHORIZED]`
+
+Any later executable request must declare `provider_fallback: false` and `retry_requires_provider_retryable: true`. Provider identity and attempt policy are idempotency-bound; request, runtime-result, handoff, and handoff-runtime provider identities must match. Retry requires a provider-declared retryable failure and unused authorized budget with the same provider. Nonretryable failure, mismatch, or exhausted budget stops permanently. Boolean, fractional, negative, missing, or unbounded budgets are invalid. These constraints select no provider and authorize no attempt.
 
 ## Validation and consumption — blank
 

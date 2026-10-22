@@ -1,0 +1,30 @@
+{
+  "schema_version": "cold_truth.provider_history_verification.v1",
+  "recorded_at_utc": "2026-10-21T03:35:36.714230+00:00",
+  "observed_at_local": "2026-10-20T23:28:00-04:00",
+  "evidence_source": "Signed-in ElevenLabs generation details inspected in preceding work pass; screenshot retained",
+  "generation_id": "BSde4azeTL4FL5LZ75Fp",
+  "voice_name": "Mia - Clear & Emotive Female Narrator",
+  "model": "Eleven Multilingual v2",
+  "text": "This is a local narration test for Cold Truth. A calm, clear voice should make dates, names, and changes in a timeline easy to follow. At eight fifteen in the morning, a short note was added to the record. It confirmed the time without suggesting anything beyond the evidence.",
+  "settings": {
+    "speed": 1.0,
+    "stability": 0.72,
+    "similarity_boost": 0.76,
+    "style": 0.05,
+    "use_speaker_boost": true,
+    "language": "en",
+    "output_format": "mp3_44100_128"
+  },
+  "credits_used": 61,
+  "displayed_remaining_credits": 9939,
+  "pre_submission_quote_credits": 276,
+  "quoted_cap_credits": 400,
+  "screenshot": {
+    "path": "voice_samples/elevenlabs_mia_trial_01/provider_history_verification.png",
+    "bytes": 100740,
+    "sha256": "efc1af802c643427bd267a11a57c90f96f42ac47d14751cda9100138f200cc9a"
+  },
+  "subscription_connector_after_call_character_count": 0,
+  "billing_reconciliation": "Specific UI generation-history entry reports 61 credits. Pre-call quote was 276. Subscription connector remained at zero used after generation and was stale; exact history entry is retained as charge evidence. No repeat synthesis."
+}

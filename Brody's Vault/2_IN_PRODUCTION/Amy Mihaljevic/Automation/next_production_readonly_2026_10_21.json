@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-10-21",
+  "tool_calls": [
+    "mcp__elevenlabs__check_subscription",
+    "mcp__elevenlabs__get_voice"
+  ],
+  "subscription": {
+    "tier": "payg",
+    "character_count": 1783,
+    "character_limit": 10000,
+    "max_character_limit_extension": 0,
+    "max_credit_limit_extension": 0,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false,
+    "next_character_count_reset_unix": 1794520559,
+    "voice_slots_used": 2,
+    "professional_voice_slots_used": 0,
+    "professional_voice_slots_used_in_workspace": 0,
+    "voice_limit": 3,
+    "max_voice_add_edits": 54,
+    "voice_add_edit_counter": 0,
+    "professional_voice_limit": 0,
+    "can_extend_voice_limit": false,
+    "can_use_instant_voice_cloning": false,
+    "can_use_professional_voice_cloning": false,
+    "currency": "usd",
+    "current_overage": {
+      "amount": "0",
+      "currency": "usd"
+    },
+    "status": "active",
+    "billing_period": "monthly_period",
+    "character_refresh_period": "monthly_period",
+    "open_invoices": [],
+    "has_open_invoices": false,
+    "has_used_starter_coupon_on_account": false,
+    "has_used_creator_coupon_on_account": true,
+    "is_eligible_for_starter_promo": true,
+    "next_invoice": null,
+    "pending_change": null,
+    "creator_repricing_variant": null
+  },
+  "voice": {
+    "id": "nPpkc230TdYdntJKFNby",
+    "name": "Mia - Clear & Emotive Female Narrator ",
+    "category": "professional",
+    "fine_tuning_status": {
+      "eleven_v4_turbo_exp": "fine_tuned",
+      "eleven_v2_flash": "fine_tuned",
+      "eleven_v4_eval": "fine_tuned",
+      "eleven_multilingual_v2": "fine_tuned",
+      "eleven_v4_hq": "fine_tuned",
+      "eleven_v4": "fine_tuned",
+      "eleven_v4_turbo": "fine_tuned",
+      "eleven_flash_v2_5": "fine_tuned",
+      "eleven_v2_5_flash": "fine_tuned",
+      "eleven_v4_post_trained": "fine_tuned",
+      "eleven_flash_v2": "fine_tuned",
+      "eleven_multilingual_sts_v2": "not_started",
+      "eleven_turbo_v2_5": "fine_tuned",
+      "eleven_turbo_v2": "fine_tuned",
+      "eleven_v4_exp": "fine_tuned"
+    }
+  },
+  "remaining_existing_credits": 8217,
+  "new_tts_requests": 0,
+  "current_voice_multiplier_exposed_by_connector": false,
+  "prior_same_day_quote_evidence": "Automation/elevenlabs_mia_neutral_readiness_2026_10_20.json",
+  "limits": "These are read-only account/voice checks, not a new generation authorization or current price quote."
+}

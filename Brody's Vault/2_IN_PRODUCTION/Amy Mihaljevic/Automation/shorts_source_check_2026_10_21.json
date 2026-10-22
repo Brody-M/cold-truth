@@ -1,0 +1,21 @@
+{
+  "schema_version": "cold_truth.focused_source_recheck.v1",
+  "retrieved_on": "2026-10-21",
+  "scope": "Two official pages only, for new Shorts preparation; no new long-form wording or comprehensive case refresh.",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.fbi.gov/wanted/seeking-info/amy-renee-mihaljevic",
+      "findings": "Official chronology and three unrecovered belongings remain listed; federal information appeal and reward remain displayed.",
+      "location": "Details/Reward/Submit a Tip"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.cityofbayvillage.gov/425/Amy-Mihaljevic-Case",
+      "findings": "Ongoing investigation, prior weeks-earlier contact, meeting and witness account remain published; curtain/blanket recognition appeal remains present.",
+      "location": "Opening status, chronology and textile appeal"
+    }
+  ],
+  "unchanged_approved_longform_source_cutoff": "2026-10-16",
+  "historical_news_claims": "Existing October16 ledger/addendum attribution retained; January2026 testing outcome is not a claim of a new result."
+}

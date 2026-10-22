@@ -1,0 +1,140 @@
+{
+  "created_at_utc": "2026-10-22T04:13:21.492344+00:00",
+  "recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/candidate_render_recipe_05.json",
+    "bytes": 124018,
+    "sha256": "d06a6b712f8d71682f0523bf982efb11db3d6f3ba8ec6000c046512322d9a5c1"
+  },
+  "processor": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/build_visual_revision_05.py",
+    "bytes": 13168,
+    "sha256": "3b8ea740b16280f1e01bb2cc132dab506c622c72eb1e8f84b93e42fb7609d59a"
+  },
+  "shot_count": 65,
+  "unique_stock_sources": 21,
+  "maximum_shot_seconds": 12.099999999999994,
+  "full_frame_coverage": true,
+  "full_screen_cards_seconds": 0,
+  "longform_short_visual_sources_and_hashes_disjoint": true,
+  "proofs": [
+    {
+      "paragraph_id": 4,
+      "shot": "R05-013",
+      "source_frame": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p04_source.jpg",
+        "bytes": 525647,
+        "sha256": "f986100397fe2017618098d71aa73353b7511e8b897fe25ad7fca4d80f2db7ec"
+      },
+      "source_time": 8.133333333333333,
+      "caption_example": {
+        "word_start": 250,
+        "word_end_exclusive": 259,
+        "start": 97.99172335600908,
+        "end": 100.48170068027211,
+        "text": "man, then walk through the parking lot with him."
+      },
+      "layout": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p04_layout.jpg",
+        "bytes": 342069,
+        "sha256": "de3a1ecb884261a6fd81ddf27b3eac05ae4eff7cb1e9bf23c4449dfae3c7caf7"
+      },
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-n",
+        "-ss",
+        "8.133333333333333",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\layout_proofs\\p04_source.jpg"
+      ],
+      "layout_proof_only": true
+    },
+    {
+      "paragraph_id": 14,
+      "shot": "R05-043",
+      "source_frame": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p14_source.jpg",
+        "bytes": 122224,
+        "sha256": "f97c3332cbd7e7edb722c94527e5e33ada1befdabb27ab84f784811dac2ecbbd"
+      },
+      "source_time": 5.550000000000001,
+      "caption_example": {
+        "word_start": 864,
+        "word_end_exclusive": 875,
+        "start": 367.1971882086168,
+        "end": 372.3881632653061,
+        "text": "In 2024, police said retesting\nhad detected male DNA, but the"
+      },
+      "layout": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p14_layout.jpg",
+        "bytes": 241192,
+        "sha256": "e1ab4e6ca278eeeb66821080f202fc5feb0cffea9387ad0d29abd23e08271b3f"
+      },
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-n",
+        "-ss",
+        "5.550000000000001",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\assets\\pexels_8325857_1080p.mp4",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\layout_proofs\\p14_source.jpg"
+      ],
+      "layout_proof_only": true
+    },
+    {
+      "paragraph_id": 18,
+      "shot": "R05-059",
+      "source_frame": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p18_source.jpg",
+        "bytes": 149927,
+        "sha256": "106fadaa0afe91677960366fdec8c21fd7d6e094940aa5a0da2f3bd5a202e714"
+      },
+      "source_time": 7.116666666666667,
+      "caption_example": {
+        "word_start": 1133,
+        "word_end_exclusive": 1145,
+        "start": 492.31281179138324,
+        "end": 497.65478458049887,
+        "text": "As of our October 16, 2026 source\ncheck, Bay Village's public case"
+      },
+      "layout": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/layout_proofs/p18_layout.jpg",
+        "bytes": 279287,
+        "sha256": "c76787d2e5043d8470dbdd2dd566c45127fb73e160f8526b2022b3ad2f456a58"
+      },
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-n",
+        "-ss",
+        "7.116666666666667",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\assets\\pexels_854698_1080p.mp4",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\layout_proofs\\p18_source.jpg"
+      ],
+      "layout_proof_only": true
+    }
+  ],
+  "human_trim_crop_playback_reviewed": false,
+  "video_rendered": false
+}

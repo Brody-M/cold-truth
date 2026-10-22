@@ -1,0 +1,707 @@
+{
+  "schema_version": "cold_truth.full_repair_and_guarded_pacing_candidates.v1",
+  "status": "TWO_FULL_CANDIDATES_AWAIT_HUMAN_LISTENING",
+  "started_at_utc": "2026-10-22T03:46:55.246658+00:00",
+  "completed_at_utc": "2026-10-22T03:47:21.037035+00:00",
+  "role": "Editor",
+  "user_direction_quote": "proceed until usage runs out dont spend credits",
+  "authority_interpretation": "Continue bounded reversible local audio work only; no listening approval, paid/provider calls, new narration or video render inferred.",
+  "case_id": "amy-mihaljevic",
+  "narration_branch": "youtube-longform",
+  "source": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+    "bytes": 75485228,
+    "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25",
+    "samples": 25161728,
+    "duration_seconds": 570.5607256235828,
+    "sample_rate": 44100,
+    "channels": 1,
+    "subtype": "PCM_24",
+    "sample_peak_dbfs": -27.80740829516941,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-40.14",
+      "input_tp": "-27.81",
+      "input_lra": "2.30",
+      "input_thresh": "-50.74"
+    }
+  },
+  "exact_diagnostic_reference": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\diagnostic_04_receipt.json",
+    "bytes": 18182,
+    "sha256": "bd7818e77572be88df133f070c84e646a813d81ceddbb3991dd97796b5621013"
+  },
+  "exact_diagnostic_wav": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.wav",
+    "bytes": 1746404,
+    "sha256": "de1fb1a812f676ec5072af2d71808e3288e543a351a36506717802e59d878b32"
+  },
+  "approved_text": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\Narration_Text.txt",
+    "bytes": 7835,
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+  },
+  "existing_machine_word_timing": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\alignment_draft.json",
+    "bytes": 599539,
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+  },
+  "original_timing_repair": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+    "bytes": 75485228,
+    "sha256": "62f9dc80d959ca2c67eafbb0f0519076e111e174177c98fbdf4a7484a9664faf",
+    "samples": 25161728,
+    "duration_seconds": 570.5607256235828,
+    "sample_rate": 44100,
+    "channels": 1,
+    "subtype": "PCM_24",
+    "sample_peak_dbfs": -27.80740829516941,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-40.14",
+      "input_tp": "-27.81",
+      "input_lra": "2.30",
+      "input_thresh": "-50.74"
+    }
+  },
+  "paced_candidate": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299",
+    "samples": 24192923,
+    "duration_seconds": 548.592358276644,
+    "sample_rate": 44100,
+    "channels": 1,
+    "subtype": "PCM_24",
+    "sample_peak_dbfs": -27.80740829516941,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-40.14",
+      "input_tp": "-27.81",
+      "input_lra": "2.10",
+      "input_thresh": "-50.58"
+    }
+  },
+  "full_mp3_previews": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3",
+      "bytes": 13694894,
+      "sha256": "f4cf206aaab789f15a1e95aba5f040306cfa9439d621583391036f3883485d0a"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3",
+      "bytes": 13167639,
+      "sha256": "002cd16d8d10b47617e4e93c2edbfed3e47431b4b4ba3f9212db4df319f635aa"
+    }
+  ],
+  "repair_qa": {
+    "diagnostic_prefix_samples": 582120,
+    "prefix_pcm_identical": true,
+    "outside_gain_windows_pcm_identical_to_correction03": true,
+    "repair_windows": [
+      {
+        "type": "manual_onset_clip_gain",
+        "justification": "Exact human-marked abrupt onset, not a generic plosive classifier or full-track peak threshold",
+        "start_seconds": 2.16,
+        "full_reduction_start_seconds": 2.175,
+        "full_reduction_end_seconds": 2.26,
+        "end_seconds": 2.32,
+        "start_sample": 95256,
+        "end_sample_exclusive": 102312,
+        "maximum_reduction_db": 8,
+        "envelope": "half cosine ramps in dB domain"
+      },
+      {
+        "type": "one_standalone_gap_noise_clip_gain",
+        "justification": "Noise-like event in protected interval after her. and before An; modest trial only",
+        "start_seconds": 6.05,
+        "full_reduction_start_seconds": 6.075,
+        "full_reduction_end_seconds": 6.26,
+        "end_seconds": 6.285,
+        "start_sample": 266805,
+        "end_sample_exclusive": 277168,
+        "maximum_reduction_db": 6,
+        "envelope": "half cosine ramps in dB domain"
+      }
+    ],
+    "mapped_repair_windows": [
+      {
+        "type": "manual_onset_clip_gain",
+        "source_start_sample": 95256,
+        "source_end_sample_exclusive": 102312,
+        "paced_start_sample": 95256,
+        "paced_end_sample_exclusive": 102312,
+        "paced_start_seconds": 2.16,
+        "paced_end_seconds": 2.32,
+        "exact_pcm_preserved": true
+      },
+      {
+        "type": "one_standalone_gap_noise_clip_gain",
+        "source_start_sample": 266805,
+        "source_end_sample_exclusive": 277168,
+        "paced_start_sample": 242990,
+        "paced_end_sample_exclusive": 253353,
+        "paced_start_seconds": 5.509977324263039,
+        "paced_end_seconds": 5.744965986394558,
+        "exact_pcm_preserved": true
+      }
+    ],
+    "additional_global_gain_db": 0
+  },
+  "pacing_qa": {
+    "cuts": 104,
+    "removed_samples": 968805,
+    "removed_seconds": 21.968367346938777,
+    "duration_seconds": 548.592358276644,
+    "minimum480_seconds_passed": true,
+    "all1267_word_pcm_regions_identical_to_repaired_audio": true,
+    "exact_approved_spoken_sequence": true,
+    "word_count": 1267,
+    "negative_inverted_or_overlapping_word_intervals": 0,
+    "word_edge_guard_ms": 100,
+    "protected_activity_guard_ms": 20,
+    "neighbor_min_ctc_score": 0.6,
+    "quiet_limit_formula": "min(-54, local_gap_20th_percentile_rms+5, quieter_adjacent_word_rms-18)",
+    "quiet_peak_limit_formula": "quiet_rms_limit+12",
+    "analysis_frame_ms": 10,
+    "minimum_removal_ms": 60,
+    "join_fades_ms": 5,
+    "targets_seconds": {
+      "clause": 0.35,
+      "sentence": 0.7,
+      "paragraph": 1.0
+    },
+    "maximum_removal_per_gap_seconds": {
+      "clause": 0.3,
+      "sentence": 0.55,
+      "paragraph": 0.35
+    },
+    "unpunctuated_word_gaps_unchanged": true,
+    "no_whole_voice_speedup": true,
+    "no_padding": true,
+    "no_changes_inside_repair_windows": true
+  },
+  "cut_map": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\pacing_cut_map_draft.json",
+    "bytes": 188051,
+    "sha256": "33ee5ca07a643a335cf7514534a3a38db354dbdc31db6f9f66d816d06acd2a12"
+  },
+  "cut_csv": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\pacing_cuts.csv",
+    "bytes": 34557,
+    "sha256": "53941f297dc25dfc3f34f2e535a29e2f1234019ee074401185889595b2630e9c"
+  },
+  "remapped_word_timing_draft": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\remapped_word_timing_draft.json",
+    "bytes": 440322,
+    "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+  },
+  "actual_paragraph_comparisons": [
+    {
+      "label": "opening",
+      "paragraph_id": 1,
+      "complete_approved_paragraph_text": "On the afternoon Amy Mihaljevic disappeared, her mother received a phone call from her. An FBI account describes Amy saying she was okay. Her mother believed she was calling from home. According to FBI Special Agent Vicki Anderson, Amy was already with the person who had taken her. A familiar kind of check-in had given her mother a mistaken picture of where her daughter was.",
+      "before_source_start_sample": 0,
+      "before_source_end_sample_exclusive": 1175265,
+      "before_source_start_seconds": 0.0,
+      "before_source_end_seconds": 26.65,
+      "after_paced_start_sample": 0,
+      "after_paced_end_sample_exclusive": 1116167,
+      "after_paced_start_seconds": 0.0,
+      "after_paced_end_seconds": 25.309909297052155,
+      "before_duration_seconds": 26.65,
+      "after_duration_seconds": 25.309909297052155,
+      "before": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_before.mp3",
+        "bytes": 641402,
+        "sha256": "132e4cce9a4e046dbe06350c35d6532a7503cd4cbfa660be2530213eb392a495"
+      },
+      "after": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_after_pacing.mp3",
+        "bytes": 608801,
+        "sha256": "2cdd445a334f3ee65748f2794d55e67d731f6d075b02e1b71f3946e78b953bb3"
+      },
+      "same_baseline_gain": true,
+      "note": "Before is correction03 source, after includes exact diagnostic04 repair where applicable plus proposed pacing; no new global gain."
+    },
+    {
+      "label": "middle",
+      "paragraph_id": 11,
+      "complete_approved_paragraph_text": "The release brought responses. Cleveland 19 reported that the prosecutor's office received calls and tips afterward, and that law enforcement was following them up. The curtain offered a possible connection between a physical object and information someone outside the investigation might hold. Its owner and origin were still questions; the public release did not announce that either had been established.",
+      "before_source_start_sample": 12463542,
+      "before_source_end_sample_exclusive": 13745970,
+      "before_source_start_seconds": 282.62,
+      "before_source_end_seconds": 311.7,
+      "after_paced_start_sample": 11900666,
+      "after_paced_end_sample_exclusive": 13158837,
+      "after_paced_start_seconds": 269.8563718820862,
+      "after_paced_end_seconds": 298.3863265306122,
+      "before_duration_seconds": 29.08,
+      "after_duration_seconds": 28.529954648526076,
+      "before": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_before.mp3",
+        "bytes": 699707,
+        "sha256": "b0ef1e7631adb19daf873266d9fbec2c53e21ae65e00f72700a2ad4fd4b6882e"
+      },
+      "after": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_after_pacing.mp3",
+        "bytes": 686542,
+        "sha256": "7e13d61885b08b7245933d2207f4511b416e1a0cf7c4037548b709089f5aea40"
+      },
+      "same_baseline_gain": true,
+      "note": "Before is correction03 source, after includes exact diagnostic04 repair where applicable plus proposed pacing; no new global gain."
+    },
+    {
+      "label": "end",
+      "paragraph_id": 17,
+      "complete_approved_paragraph_text": "By June, Police Chief Robert Gillespie was describing the resources needed to keep testing evidence. He told Cleveland 19 that work was continuing, although he could not discuss every item being tested. He explained that the Amy Fund supplemented other funding so investigators could respond when testing opportunities arose. Bay Village's own community announcement also describes the fund as supporting investigative costs, including DNA testing. Financial support helps that work continue; it is not a test result.",
+      "before_source_start_sample": 20872089,
+      "before_source_end_sample_exclusive": 22529367,
+      "before_source_start_seconds": 473.29,
+      "before_source_end_seconds": 510.87,
+      "after_paced_start_sample": 20066953,
+      "after_paced_end_sample_exclusive": 21675715,
+      "after_paced_start_seconds": 455.032947845805,
+      "after_paced_end_seconds": 491.5128117913832,
+      "before_duration_seconds": 37.58,
+      "after_duration_seconds": 36.47986394557823,
+      "before": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_before.mp3",
+        "bytes": 903462,
+        "sha256": "0c1122d5cd0ef897dc94e3d8dcb2938e91c09ab0e7ba7e60a2833b8a0e623b6f"
+      },
+      "after": {
+        "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_after_pacing.mp3",
+        "bytes": 877131,
+        "sha256": "57b4f01e1b9032cc09f27fd49de399502ef3e12ece352a97db6dfc6aae9b2761"
+      },
+      "same_baseline_gain": true,
+      "note": "Before is correction03 source, after includes exact diagnostic04 repair where applicable plus proposed pacing; no new global gain."
+    }
+  ],
+  "timing_and_authority": {
+    "human_listening_approved": false,
+    "remapped_timing_reviewed": false,
+    "canonical_alignment_changed": false,
+    "canonical_preflight_changed": false,
+    "canonical_scripts_changed": false,
+    "state_or_manifest_changed": false,
+    "assembly_allowed": false,
+    "old_caption_sync_invalid_for_paced_candidate": true
+  },
+  "limits": {
+    "new_folder_maximum_bytes": 524288000,
+    "total_before_receipt_bytes": 180029728,
+    "provider_or_paid_calls": 0,
+    "tts_calls": 0,
+    "asr_calls": 0,
+    "model_or_software_downloads": 0,
+    "video_renders": 0
+  },
+  "commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_before.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_after_pacing.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_before.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_after_pacing.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_before.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_after_pacing.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_before.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_after_pacing.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_before.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-f",
+      "f64le",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-i",
+      "pipe:0",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_after_pacing.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_before.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_after_pacing.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-version"
+    ]
+  ],
+  "tool_versions": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "processor": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\build_full_candidates_05.py",
+    "bytes": 23178,
+    "sha256": "2e9d981cf0126b8659ccbd6d7982497c95b9295605d9aca251c1fcabda429a4c"
+  },
+  "output_files": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.mp3",
+      "bytes": 13694894,
+      "sha256": "f4cf206aaab789f15a1e95aba5f040306cfa9439d621583391036f3883485d0a"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+      "bytes": 75485228,
+      "sha256": "62f9dc80d959ca2c67eafbb0f0519076e111e174177c98fbdf4a7484a9664faf"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.mp3",
+      "bytes": 13167639,
+      "sha256": "002cd16d8d10b47617e4e93c2edbfed3e47431b4b4ba3f9212db4df319f635aa"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "bytes": 72578814,
+      "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\build_full_candidates_05.py",
+      "bytes": 23178,
+      "sha256": "2e9d981cf0126b8659ccbd6d7982497c95b9295605d9aca251c1fcabda429a4c"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_after_pacing.mp3",
+      "bytes": 877131,
+      "sha256": "57b4f01e1b9032cc09f27fd49de399502ef3e12ece352a97db6dfc6aae9b2761"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\end_paragraph_before.mp3",
+      "bytes": 903462,
+      "sha256": "0c1122d5cd0ef897dc94e3d8dcb2938e91c09ab0e7ba7e60a2833b8a0e623b6f"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Full_Repair_05_Report.md",
+      "bytes": 2524,
+      "sha256": "285db8daac07f4bb4e9a357a0406c6c62a584abeb80fbd5b6adcaf77bce094c1"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_after_pacing.mp3",
+      "bytes": 686542,
+      "sha256": "7e13d61885b08b7245933d2207f4511b416e1a0cf7c4037548b709089f5aea40"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\middle_paragraph_before.mp3",
+      "bytes": 699707,
+      "sha256": "b0ef1e7631adb19daf873266d9fbec2c53e21ae65e00f72700a2ad4fd4b6882e"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_after_pacing.mp3",
+      "bytes": 608801,
+      "sha256": "2cdd445a334f3ee65748f2794d55e67d731f6d075b02e1b71f3946e78b953bb3"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\opening_paragraph_before.mp3",
+      "bytes": 641402,
+      "sha256": "132e4cce9a4e046dbe06350c35d6532a7503cd4cbfa660be2530213eb392a495"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\pacing_cuts.csv",
+      "bytes": 34557,
+      "sha256": "53941f297dc25dfc3f34f2e535a29e2f1234019ee074401185889595b2630e9c"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\pacing_cut_map_draft.json",
+      "bytes": 188051,
+      "sha256": "33ee5ca07a643a335cf7514534a3a38db354dbdc31db6f9f66d816d06acd2a12"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\remapped_word_timing_draft.json",
+      "bytes": 440322,
+      "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+    }
+  ],
+  "receipt_self_hash_omitted": true,
+  "limitations": [
+    "Signal thresholds and machine timing do not guarantee natural delivery or perfectly classify breath sounds.",
+    "Human listening approval is not inferred; both full audio candidates are provisional.",
+    "No claim of final synchronization, reviewed captions or assembly readiness is made.",
+    "The finite quiet-cut plan is conservative; it does not remove every long pause or every comma."
+  ]
+}

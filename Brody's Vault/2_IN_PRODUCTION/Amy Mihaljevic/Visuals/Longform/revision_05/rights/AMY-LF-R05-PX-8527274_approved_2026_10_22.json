@@ -1,0 +1,77 @@
+{
+  "asset_id": "AMY-LF-R05-PX-8527274",
+  "source_identity": "pexels:video:8527274",
+  "provider_id": 8527274,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/a-person-cutting-an-excess-threads-on-a-cloth-8527274/",
+  "creator": {
+    "id": 2332540,
+    "name": "https://kaboompics.com/",
+    "url": "https://www.pexels.com/@karola-g"
+  },
+  "preview_image": "https://images.pexels.com/videos/8527274/act-of-giving-adult-aid-artisan-8527274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 26,
+  "selected_file": {
+    "id": 10878374,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 2048,
+    "height": 1080,
+    "fps": 25,
+    "link": "https://videos.pexels.com/video-files/8527274/8527274-hd_2048_1080_25fps.mp4",
+    "size": 15061087
+  },
+  "candidate_paragraphs": [
+    "P10",
+    "P13"
+  ],
+  "depiction_boundary": "Textile construction detail; not actual curtain or its maker",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+  "rights_review_pending": false,
+  "actual_content_review_pending": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+    "bytes": 15061087,
+    "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+  },
+  "actual_duration_seconds": 26.44,
+  "actual_width": 2048,
+  "actual_height": 1080,
+  "editorial_decision": "CONDITIONAL_CANDIDATE",
+  "content_note": "Anonymous sewing/thread details; illustrative textile work only, not the curtain, its maker, crime scene or evidence processing.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": [
+    0,
+    26
+  ],
+  "human_use_approved": true,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  },
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-22",
+  "user_quote": "Approve proposed uses and recorded conditions",
+  "scope": "14 exact proposed new stock uses under recorded illustrative-use/crop conditions; actual motion/crops and final video playback still require review.",
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+    "bytes": 15061087,
+    "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+  },
+  "commercial_use_reviewed": true,
+  "credits": "Pexels permits use without attribution; creator and item URL preserved in this record.",
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+    "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666",
+    "bytes": 1686
+  },
+  "reviewed_candidate": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+    "bytes": 2205,
+    "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+  }
+}

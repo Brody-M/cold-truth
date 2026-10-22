@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-21T01:21:42.081731+00:00",
+  "failure_receipt": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/voicestudio_bella_refinement_pre_synthesis_failure.json",
+  "failure_receipt_sha256": "17f58e5f877e70c15ce9c13903e89a49ea04dc10f091e722a638790170b9f577",
+  "failure_stage": "_check_language -> _normalize_language_code -> import bundled lang_map, before _ensure_loaded/_synthesize in generate",
+  "adapter_entry_calls_failed_before_inference": 1,
+  "confirmed_synthesis_calls": 0,
+  "audio_outputs_created": 0,
+  "repair": "Add installed app resources root to runner import path, matching packaged backend startup. Language preflight now explicitly passes before synthesis boundary. No installed application source or approved proposal changed.",
+  "authorized_take_still_pending": true,
+  "generation_retry_performed": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FILE_RIGHTS_ISOLATION",
+  "registry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+    "sha256": "39da675c4baf192d158393e8898b4a8e605e7179f0cb96167e33943a647c11ac",
+    "bytes": 19009
+  },
+  "counts": {
+    "youtube-longform": 18,
+    "shorts": 1
+  },
+  "media_content_or_legal_validity_certified": false,
+  "checked_at_utc": "2026-10-22T01:24:07.596769+00:00"
+}

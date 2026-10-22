@@ -1,0 +1,469 @@
+{
+  "recorded_at_utc": "2026-10-21T04:40:58.421Z",
+  "selection_basis": "Search results for editorial cues; actual downloaded-frame/content review required; search titles are not content verification.",
+  "maximum_clips": 18,
+  "maximum_new_media_bytes": 2147483648,
+  "estimated_total_bytes": 195828258,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 5835776,
+      "url": "https://www.pexels.com/video/autumn-scene-in-the-suburbs-5835776/",
+      "title": "autumn-scene-in-the-suburbs-5835776",
+      "creator": {
+        "id": 3111579,
+        "name": "Sarowar Hussain",
+        "url": "https://www.pexels.com/@sarowar-hussain-3111579"
+      },
+      "preview_image": "https://images.pexels.com/videos/5835776/pexels-photo-5835776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 16,
+      "selected_file": {
+        "id": 9829748,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/5835776/5835776-hd_1920_1080_30fps.mp4",
+        "size": 11242639
+      },
+      "candidate_cues": [
+        "P02",
+        "P19"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-4203565",
+      "source_identity": "pexels:video:4203565",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 4203565,
+      "url": "https://www.pexels.com/video/a-shot-of-an-empty-street-in-the-neighborhood-4203565/",
+      "title": "a-shot-of-an-empty-street-in-the-neighborhood-4203565",
+      "creator": {
+        "id": 447123,
+        "name": "Luis Quintero",
+        "url": "https://www.pexels.com/@jibarofoto"
+      },
+      "preview_image": "https://images.pexels.com/videos/4203565/pexels-photo-4203565.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 22,
+      "selected_file": {
+        "id": 9499528,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 23.98,
+        "link": "https://videos.pexels.com/video-files/4203565/4203565-hd_1920_1080_24fps.mp4",
+        "size": 14997423
+      },
+      "candidate_cues": [
+        "P03",
+        "P05"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_4203565_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 5792244,
+      "url": "https://www.pexels.com/video/a-close-up-video-of-parked-bicycles-5792244/",
+      "title": "a-close-up-video-of-parked-bicycles-5792244",
+      "creator": {
+        "id": 738843,
+        "name": "Matthias Groeneveld",
+        "url": "https://www.pexels.com/@matthiasgroeneveld"
+      },
+      "preview_image": "https://images.pexels.com/videos/5792244/pexels-photo-5792244.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 12,
+      "selected_file": {
+        "id": 9822806,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/5792244/5792244-hd_1920_1080_30fps.mp4",
+        "size": 9269670
+      },
+      "candidate_cues": [
+        "P02",
+        "P05"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 5792246,
+      "url": "https://www.pexels.com/video/a-close-up-video-of-bicycle-parts-5792246/",
+      "title": "a-close-up-video-of-bicycle-parts-5792246",
+      "creator": {
+        "id": 738843,
+        "name": "Matthias Groeneveld",
+        "url": "https://www.pexels.com/@matthiasgroeneveld"
+      },
+      "preview_image": "https://images.pexels.com/videos/5792246/pexels-photo-5792246.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 36,
+      "selected_file": {
+        "id": 9822285,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/5792246/5792246-hd_1920_1080_30fps.mp4",
+        "size": 22867789
+      },
+      "candidate_cues": [
+        "P05",
+        "P19"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-14388669",
+      "source_identity": "pexels:video:14388669",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 14388669,
+      "url": "https://www.pexels.com/video/drone-video-of-an-empty-shopping-mall-corridor-14388669/",
+      "title": "drone-video-of-an-empty-shopping-mall-corridor-14388669",
+      "creator": {
+        "id": 738843,
+        "name": "Matthias Groeneveld",
+        "url": "https://www.pexels.com/@matthiasgroeneveld"
+      },
+      "preview_image": "https://images.pexels.com/videos/14388669/abandoned-dark-eerie-empty-14388669.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 32,
+      "selected_file": {
+        "id": 6123161,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 23.98,
+        "link": "https://videos.pexels.com/video-files/14388669/14388669-hd_1920_1080_24fps.mp4",
+        "size": 23870967
+      },
+      "candidate_cues": [
+        "P04"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14388669_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-13529951",
+      "source_identity": "pexels:video:13529951",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 13529951,
+      "url": "https://www.pexels.com/video/drone-footage-of-farm-fields-and-silos-under-a-grey-sky-13529951/",
+      "title": "drone-footage-of-farm-fields-and-silos-under-a-grey-sky-13529951",
+      "creator": {
+        "id": 3640662,
+        "name": "Braeson Holland",
+        "url": "https://www.pexels.com/@braeson-holland-3640662"
+      },
+      "preview_image": "https://images.pexels.com/videos/13529951/aerial-agricultural-agricultural-field-agriculture-13529951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 15,
+      "selected_file": {
+        "id": 11306025,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 59.94,
+        "link": "https://videos.pexels.com/video-files/13529951/13529951-hd_1920_1080_60fps.mp4",
+        "size": 11983974
+      },
+      "candidate_cues": [
+        "P08"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_13529951_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-6577022",
+      "source_identity": "pexels:video:6577022",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 6577022,
+      "url": "https://www.pexels.com/video/time-lapse-of-a-day-in-an-open-field-6577022/",
+      "title": "time-lapse-of-a-day-in-an-open-field-6577022",
+      "creator": {
+        "id": 3558840,
+        "name": "Al d'Vilas",
+        "url": "https://www.pexels.com/@vilas"
+      },
+      "preview_image": "https://images.pexels.com/videos/6577022/pexels-photo-6577022.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 38,
+      "selected_file": {
+        "id": 10092515,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/6577022/6577022-hd_1920_1080_30fps.mp4",
+        "size": 19912109
+      },
+      "candidate_cues": [
+        "P08",
+        "P19"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 854698,
+      "url": "https://www.pexels.com/video/using-a-landline-telephone-854698/",
+      "title": "using-a-landline-telephone-854698",
+      "creator": {
+        "id": 2659,
+        "name": "Pixabay",
+        "url": "https://www.pexels.com/@pixabay"
+      },
+      "preview_image": "https://images.pexels.com/videos/854698/free-video-854698.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 28,
+      "selected_file": {
+        "id": 9253654,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/854698/854698-hd_1920_1080_25fps.mp4",
+        "size": 16610161
+      },
+      "candidate_cues": [
+        "P01",
+        "P11"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 6550428,
+      "url": "https://www.pexels.com/video/a-card-catalog-at-a-library-6550428/",
+      "title": "a-card-catalog-at-a-library-6550428",
+      "creator": {
+        "id": 3088726,
+        "name": "Tima Miroshnichenko",
+        "url": "https://www.pexels.com/@tima-miroshnichenko"
+      },
+      "preview_image": "https://images.pexels.com/videos/6550428/pexels-photo-6550428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 20,
+      "selected_file": {
+        "id": 10080728,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/6550428/6550428-hd_1920_1080_25fps.mp4",
+        "size": 9382601
+      },
+      "candidate_cues": [
+        "P07",
+        "P12"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 8325857,
+      "url": "https://www.pexels.com/video/laboratory-tools-and-equipment-8325857/",
+      "title": "laboratory-tools-and-equipment-8325857",
+      "creator": {
+        "id": 10715715,
+        "name": "Kindel Media",
+        "url": "https://www.pexels.com/@kindelmedia"
+      },
+      "preview_image": "https://images.pexels.com/videos/8325857/analysis-analyzing-biochemistry-biology-8325857.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 11,
+      "selected_file": {
+        "id": 10776844,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/8325857/8325857-hd_1920_1080_30fps.mp4",
+        "size": 4079850
+      },
+      "candidate_cues": [
+        "P14",
+        "P15"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 8325856,
+      "url": "https://www.pexels.com/video/laboratory-tools-and-equipment-8325856/",
+      "title": "laboratory-tools-and-equipment-8325856",
+      "creator": {
+        "id": 10715715,
+        "name": "Kindel Media",
+        "url": "https://www.pexels.com/@kindelmedia"
+      },
+      "preview_image": "https://images.pexels.com/videos/8325856/analysis-analyzing-bacteria-biochemistry-8325856.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 12,
+      "selected_file": {
+        "id": 10776988,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/8325856/8325856-hd_1920_1080_30fps.mp4",
+        "size": 5149882
+      },
+      "candidate_cues": [
+        "P16",
+        "P17"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5482661",
+      "source_identity": "pexels:video:5482661",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 5482661,
+      "url": "https://www.pexels.com/video/light-pattern-inside-window-5482661/",
+      "title": "light-pattern-inside-window-5482661",
+      "creator": {
+        "id": 3663203,
+        "name": "Soham Pargaonkar",
+        "url": "https://www.pexels.com/@somoski"
+      },
+      "preview_image": "https://images.pexels.com/videos/5482661/abstract-background-curtain-5482661.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 40,
+      "selected_file": {
+        "id": 9718792,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.97,
+        "link": "https://videos.pexels.com/video-files/5482661/5482661-hd_1920_1080_30fps.mp4",
+        "size": 25551726
+      },
+      "candidate_cues": [
+        "P10",
+        "P13"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5482661_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 7233562,
+      "url": "https://www.pexels.com/video/close-up-shot-of-a-white-cloth-7233562/",
+      "title": "close-up-shot-of-a-white-cloth-7233562",
+      "creator": {
+        "id": 2951544,
+        "name": "Artem Podrez",
+        "url": "https://www.pexels.com/@artempodrez"
+      },
+      "preview_image": "https://images.pexels.com/videos/7233562/abstract-art-arts-and-crafts-background-7233562.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 9,
+      "selected_file": {
+        "id": 10355146,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "link": "https://videos.pexels.com/video-files/7233562/7233562-hd_1920_1080_30fps.mp4",
+        "size": 5952142
+      },
+      "candidate_cues": [
+        "P10",
+        "P13"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "asset_class": "pexels_broll",
+      "permitted_track": "youtube-longform",
+      "provider_id": 14512668,
+      "url": "https://www.pexels.com/video/close-up-of-horse-with-saddle-14512668/",
+      "title": "close-up-of-horse-with-saddle-14512668",
+      "creator": {
+        "id": 2882222,
+        "name": "Naresh Babu",
+        "url": "https://www.pexels.com/@naresh99"
+      },
+      "preview_image": "https://images.pexels.com/videos/14512668/brown-horse-horse-horse-cart-horse-farm-14512668.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "duration_reported_seconds": 27,
+      "selected_file": {
+        "id": 6157275,
+        "quality": "hd",
+        "file_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 25,
+        "link": "https://videos.pexels.com/video-files/14512668/14512668-hd_1920_1080_25fps.mp4",
+        "size": 14957325
+      },
+      "candidate_cues": [
+        "P02",
+        "P19"
+      ],
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+      "illustrative_not_case_footage": true,
+      "rights_review_pending": true
+    }
+  ]
+}

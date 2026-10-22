@@ -1,0 +1,55 @@
+{
+  "schema_version": "cold_truth.pacing_pilot_review.v1",
+  "prepared_at_utc": "2026-10-22T03:21:16.459023+00:00",
+  "status": "ACTUAL_PACING_LISTENING_REQUIRED",
+  "target_format": "youtube-longform",
+  "excerpt_is_diagnostic_not_a_short_format_episode": true,
+  "feedback": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_feedback_correction02_2026_10_21.json",
+    "bytes": 1763,
+    "sha256": "fc581b092809a86bbf58b0b7f3ec0c72315c610261d89626f34e0f77f5a73fc7"
+  },
+  "receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/audio_correction_03_receipt.json",
+    "bytes": 83929,
+    "sha256": "0fcb706afcca9bee3a7ebec48c45f9ab9f5f775acdd606c61ceb392bd369bd11"
+  },
+  "full_quieter_gain_only_master": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+    "bytes": 75485228,
+    "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25"
+  },
+  "full_quieter_gain_only_preview": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/Amy_Mihaljevic_Mia_correction_03_gain_only.mp3",
+    "bytes": 13694894,
+    "sha256": "5152259a3e7bf59c5149e5b68039550890bb298d7e5348636f3487eb47da60c5"
+  },
+  "before_excerpt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/pilot_first_two_paragraphs_before_minus3db.mp3",
+    "bytes": 1362382,
+    "sha256": "714ada2e074bc02c56462cd02781f965119fc41dbd5495377721c69d27e9131e"
+  },
+  "paced_excerpt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/correction_03/pilot_first_two_paragraphs_pacing_minus3db.mp3",
+    "bytes": 1283387,
+    "sha256": "0359ae6ba8524eccf60a7b10e2373a7bc3fe6d43286b4e04659d5a489a4acb36"
+  },
+  "full_gain_only_duration_seconds": 570.5607256235828,
+  "source_excerpt_range_seconds": [
+    0,
+    56.7
+  ],
+  "paced_excerpt_seconds": 53.41687074829932,
+  "quiet_cuts": 11,
+  "removed_seconds": 3.2831292517006805,
+  "both_previews_additional_gain_db": -3,
+  "full_paced_episode_exists": false,
+  "human_audio_approved": false,
+  "full_listen_approved": false,
+  "assembly_allowed": false,
+  "unchanged_script_words": true,
+  "old_caption_timing_valid_for_paced_excerpt": false,
+  "remaining_longform_video_renders": 1,
+  "review_purpose": "Compare whether shortening quiet gaps makes the opening easier to follow at the quieter level; assess joins, naturalness and residual awkward intonation. This is not a request to approve the full episode from an excerpt.",
+  "later_episode_work": "Strict screening identified only the eleven opening cuts; later sections require waveform-guided/manual review, not blind bulk silence removal. A new narration approach may be needed if the recorded intonation remains unsuitable. No TTS attempt is authorized."
+}

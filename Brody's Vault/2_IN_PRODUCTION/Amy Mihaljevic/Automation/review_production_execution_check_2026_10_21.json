@@ -1,0 +1,81 @@
+{
+  "schema_version": "cold_truth.review_production_execution_check.v1",
+  "checked_at_utc": "2026-10-22T02:43:09.042595+00:00",
+  "status": "PASS_ACTUAL_EXECUTION_HUMAN_MEDIA_REVIEW_PENDING",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "bytes": 2292,
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4"
+  },
+  "review01": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+    "bytes": 252524813,
+    "sha256": "f7d55e51bcae8cf429df2c06debcb2f520d0ef1fa4aaca93c17fe877c2fcfeb0"
+  },
+  "render_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_01.json",
+    "bytes": 111797,
+    "sha256": "b5b3fe545b4a9beb2608fc63d19b7c06644d4d50925ea49415f44078834c636e"
+  },
+  "full_video_audio_decode_passed": true,
+  "video_dimensions": [
+    1920,
+    1080
+  ],
+  "video_fps": 30,
+  "actual_video_seconds": 570.566016,
+  "actual_audio_seconds": 570.56,
+  "rendered_audio_lufs": -30.9,
+  "rendered_audio_true_peak_dbtp": -19.87,
+  "provider_requests": 3,
+  "provider_retry_requests": 0,
+  "actual_credits_used": 399,
+  "credit_ceiling": 2500,
+  "account_remaining_credits": 7818,
+  "current_rate_bounded_before_requests": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_current_bounded_rate_2026_10_21.json",
+    "bytes": 1072,
+    "sha256": "49345e58ca10ec8e26cc2e5b86b5ef7347d77b15915a9d265e37252c9096dc20"
+  },
+  "provider_history_exact_text_voice_model_speed_verified": true,
+  "shorts_duration_seconds": [
+    44.582312925170065,
+    41.65659863945578,
+    49.504943310657595
+  ],
+  "all_short_durations_in30_to60": true,
+  "all_short_processed_samples_equal_raw": true,
+  "all_299_short_words_preserved_in_timing_drafts": true,
+  "invalid_short_word_intervals": 0,
+  "machine_timing_flags": 4,
+  "all_three_actual_preflight_requests_expected_human_decision_block": true,
+  "short_final_alignments_or_passing_preflights_not_fabricated": true,
+  "review_player_javascript_syntax": "PASS installed Node.js check",
+  "longform_caption_three_line_cues": 5,
+  "known_caption_layout_issue_disclosed": true,
+  "full_human_master_playback_approved": false,
+  "short_human_audio_timing_approved": false,
+  "short_video_renders": 0,
+  "longform_review_renders": 1,
+  "maximum_review_renders_per_video": 2,
+  "new_video_and_short_audio_bytes": 552180112,
+  "conservative_entire_case_bytes_including_old_files": 1006166429,
+  "new_output_cap_bytes": 5368709120,
+  "new_software_model_downloads": 0,
+  "new_stock_gameplay_downloads": 0,
+  "paid_overage": 0,
+  "publishing": false,
+  "navigation": {
+    "notes": 109,
+    "reachable": 109,
+    "edges": 584,
+    "issues": 0
+  },
+  "remaining": [
+    "Full human long-form playback/current-caption-layout decision or corrections",
+    "Full actual Short audio and matching timing decisions",
+    "Finalize real Short preflight/alignment after approvals and render3 Orbital review videos under existing grant",
+    "Human review of exact Short videos before final-master designation",
+    "Separate release/publishing authority"
+  ]
+}

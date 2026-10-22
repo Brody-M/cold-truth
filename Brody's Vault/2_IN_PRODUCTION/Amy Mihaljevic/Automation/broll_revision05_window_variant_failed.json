@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-22T04:08:55.082230+00:00",
+  "provider_id": 6229611,
+  "attempted_variant": "2560x1440",
+  "result": "HTTP403_FORBIDDEN",
+  "output_created": false,
+  "automatic_retry": false,
+  "decision": "Exclude available720p variant from1080p proposal; no further download attempt in this pass.",
+  "paid_spending": 0
+}

@@ -1,0 +1,2895 @@
+{
+  "schema_version": "cold_truth.broll_revision_qc.v1",
+  "started_at_utc": "2026-10-22T03:48:16.818337+00:00",
+  "selection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_broll_revision_05_selected.json",
+    "bytes": 16039,
+    "sha256": "0e8896c2090f0e455ce2a9c48d636cac6c578364571fe2bb8ae8e2e1081c4045"
+  },
+  "processor": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/prepare_broll_revision_05.py",
+    "bytes": 4676,
+    "sha256": "d6a39ec4895968f1d06e6b01cafd24cb73f58ccca5c67dc7b16587cf278c1b2f"
+  },
+  "human_approved": false,
+  "assembly_allowed": false,
+  "video_rendered": false,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-R05-PX-32835503",
+      "source_identity": "pexels:video:32835503",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640032",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 50,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 408408,
+            "duration": "17.017000",
+            "bit_rate": "4961151",
+            "bits_per_raw_sample": "8",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "encoder": "Lavc60.31.102 libx264",
+              "timecode": "00:00:00:00"
+            }
+          },
+          {
+            "index": 1,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 408408,
+            "duration": "17.017000",
+            "bit_rate": "3",
+            "extradata_size": 20,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "handler_name": "Core Media Video",
+              "timecode": "00:00:00:00"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "17.017000",
+          "size": "10557891",
+          "bit_rate": "4963455",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "iso5",
+            "minor_version": "512",
+            "compatible_brands": "iso5iso6mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 17.017,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/32835503_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 1.7017,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/32835503_1.jpg",
+            "bytes": 507625,
+            "sha256": "3901c78f8a91fedcc27148c43daa30dfbbb7591e187d6e048c99dff544b93a24"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "1.7017",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\32835503_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 8.5085,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/32835503_2.jpg",
+            "bytes": 528169,
+            "sha256": "3c9e5ea1fa65545649711cc8da7445eabb6287a86e051fedcb5b04a3f3c65fce"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "8.5085",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\32835503_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 15.3153,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/32835503_3.jpg",
+            "bytes": 526698,
+            "sha256": "11859a017d19937aceecd0bb1a0d958b6117f1c62ab9b2a33a3cf899c3a91701"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "15.3153",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_32835503_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\32835503_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-13217096",
+      "source_identity": "pexels:video:13217096",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_13217096_hd.mp4",
+        "bytes": 4880746,
+        "sha256": "8af64acc19fd1e1aa245c84c988f709bcdac0c946ebfdf308bd6e38eecb0b1ac"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30000/1001",
+            "avg_frame_rate": "30000/1001",
+            "time_base": "1/30000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 176150,
+            "duration": "5.871667",
+            "bit_rate": "6453632",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "176",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2022-08-14T12:48:34.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 282560,
+            "duration": "5.886667",
+            "bit_rate": "189417",
+            "nb_frames": "276",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2022-08-14T12:48:34.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "5.886667",
+          "size": "4880746",
+          "bit_rate": "6632950",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42isomavc1",
+            "creation_time": "2022-08-14T12:48:34.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 5.886667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/13217096_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 0.5886667,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/13217096_1.jpg",
+            "bytes": 408098,
+            "sha256": "b2f5bc0e1abcefec93d4ae9e264520b02e67485e190c6934acc1529e13c26064"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "0.5886667",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\13217096_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 2.9433335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/13217096_2.jpg",
+            "bytes": 369715,
+            "sha256": "5e892ebd3b1307487a5df6485c7f49650b97e23fa15e06766ae46eea3dd072eb"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "2.9433335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\13217096_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 5.2980003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/13217096_3.jpg",
+            "bytes": 387804,
+            "sha256": "133fc55e2242d5afc3cdb5a35d2d7342ca60be83578776f0275b90673f87031a"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "5.2980003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_13217096_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\13217096_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4290325",
+      "source_identity": "pexels:video:4290325",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4290325_hd.mp4",
+        "bytes": 3540870,
+        "sha256": "de1f54c1390f7cfda9b56c9fe25dbaa02bd77bd5b701f8cc8d51a3da948960b2"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/30",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 171,
+            "duration": "5.700000",
+            "bit_rate": "4708766",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "171",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2020-05-02T05:59:20.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 274400,
+            "duration": "5.716667",
+            "bit_rate": "253432",
+            "nb_frames": "268",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2020-05-02T05:59:20.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "5.716667",
+          "size": "3540870",
+          "bit_rate": "4955153",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2020-05-02T05:59:20.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 5.716667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4290325_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 0.5716667000000001,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4290325_1.jpg",
+            "bytes": 296793,
+            "sha256": "65b77ff7ed7db1ab70da85866032e4346e6e57bec21d03f07c295c3b0aa03106"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "0.5716667000000001",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4290325_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 2.8583335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4290325_2.jpg",
+            "bytes": 311492,
+            "sha256": "f5d398c96cb3d81133ef0f81c39e27fb7559b28fd94ecdc1930534023071a5ed"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "2.8583335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4290325_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 5.1450003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4290325_3.jpg",
+            "bytes": 304645,
+            "sha256": "a81414d9a8ed183f403c6a5b8cdb4d274496caec083cd88d4005c646643de1b7"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "5.1450003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4290325_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4290325_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371858",
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1979,
+            "duration": "79.160000",
+            "bit_rate": "4846325",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1979",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-06-17T16:15:31.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "79.160000",
+          "size": "47980085",
+          "bit_rate": "4848922",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-06-17T16:15:31.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4"
+      ],
+      "width": 2048,
+      "height": 1080,
+      "duration_seconds": 79.16,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371858_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 7.916,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371858_1.jpg",
+            "bytes": 86120,
+            "sha256": "7607853feaf165c79c8d5c03a4cc39cf4f2ed7a3600601c14b0ca0dea00b5500"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "7.916",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371858_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 39.58,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371858_2.jpg",
+            "bytes": 86381,
+            "sha256": "395d9cc380a0b52d72daa511c6698fb2da2e59aa5005577eccdf4324f9fe053e"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "39.58",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371858_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 71.244,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371858_3.jpg",
+            "bytes": 89099,
+            "sha256": "80a79691e085f52b618c084d34882ceb2cf2d09899466e2110f5fae0025812e1"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "71.244",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371858_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371858_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8371852",
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1321,
+            "duration": "52.840000",
+            "bit_rate": "3289529",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1321",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-06-17T16:14:47.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "52.840000",
+          "size": "21745348",
+          "bit_rate": "3292255",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-06-17T16:14:47.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4"
+      ],
+      "width": 2048,
+      "height": 1080,
+      "duration_seconds": 52.84,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371852_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 5.284000000000001,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371852_1.jpg",
+            "bytes": 106921,
+            "sha256": "52cac9e1e5951703115ccd0e581dd3f036a6e16cc4163cded710b4660ba70573"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "5.284000000000001",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371852_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 26.42,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371852_2.jpg",
+            "bytes": 98776,
+            "sha256": "210ca7edfa3681a2d434bdd81af6a5ffc60583c30f0410d79d1e0feb46305e47"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "26.42",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371852_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 47.556000000000004,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8371852_3.jpg",
+            "bytes": 108280,
+            "sha256": "19de7828b3a06bfd1bac099048304b61488569afab22dd162044b8d4aa4c8bd6"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "47.556000000000004",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8371852_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8371852_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-9306134",
+      "source_identity": "pexels:video:9306134",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_9306134_hd.mp4",
+        "bytes": 8102620,
+        "sha256": "4bd150ce80e3f32c5d4775dc140cd5e25f6472aac878ade4a2346ca7c32006db"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/30",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 565,
+            "duration": "18.833333",
+            "bit_rate": "3183122",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "565",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-08-26T14:24:30.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 904160,
+            "duration": "18.836667",
+            "bit_rate": "253375",
+            "nb_frames": "883",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-08-26T14:24:30.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "18.836667",
+          "size": "8102620",
+          "bit_rate": "3441211",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-08-26T14:24:30.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4"
+      ],
+      "width": 2048,
+      "height": 1080,
+      "duration_seconds": 18.836667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/9306134_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 1.8836667,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/9306134_1.jpg",
+            "bytes": 151236,
+            "sha256": "181759ca4c46302b17e1d7381809459e198da13afd2ca802cf321ad77c96bde4"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "1.8836667",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\9306134_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 9.4183335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/9306134_2.jpg",
+            "bytes": 174879,
+            "sha256": "6a8503f98db27a4eefe3eab3593d7ddae6532b247aaadb0e9de8a659fd8df594"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "9.4183335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\9306134_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 16.9530003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/9306134_3.jpg",
+            "bytes": 138150,
+            "sha256": "daa2a6805c76499b2546a80b31a8cf311865d5ab7ea84dce339836284929196d"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "16.9530003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_9306134_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\9306134_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-4267248",
+      "source_identity": "pexels:video:4267248",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30000/1001",
+            "avg_frame_rate": "30000/1001",
+            "time_base": "1/30000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 370370,
+            "duration": "12.345667",
+            "bit_rate": "2256819",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "370",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2020-04-29T07:33:40.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "12.345667",
+          "size": "3488458",
+          "bit_rate": "2260522",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2020-04-29T07:33:40.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 12.345667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4267248_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 1.2345667000000002,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4267248_1.jpg",
+            "bytes": 91250,
+            "sha256": "0755ff4ff177daff0d40b5b7e9f76059389ebd9fc40335e518bc2c8941e81e79"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "1.2345667000000002",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4267248_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 6.1728335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4267248_2.jpg",
+            "bytes": 94769,
+            "sha256": "741e6c4c453af47854591b8adc111f5df46d141cd0e0554bc2b772a681d1c4d4"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "6.1728335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4267248_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 11.1111003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/4267248_3.jpg",
+            "bytes": 90265,
+            "sha256": "19a6de0938145c2c0fb89adc14caa7ddac7217c9154f0a5ec8d2516b875a46a1"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "11.1111003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_4267248_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\4267248_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8326170",
+      "source_identity": "pexels:video:8326170",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/30",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 281,
+            "duration": "9.366667",
+            "bit_rate": "4952328",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "281",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-06-14T04:38:09.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 450560,
+            "duration": "9.386667",
+            "bit_rate": "253374",
+            "nb_frames": "440",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-06-14T04:38:09.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "9.386667",
+          "size": "6102484",
+          "bit_rate": "5200980",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-06-14T04:38:09.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 9.386667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8326170_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 0.9386667,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8326170_1.jpg",
+            "bytes": 154162,
+            "sha256": "51f17f34af8d5e51617c437d243ceb346c8df7eb725e27f3e89297f4ec19da59"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "0.9386667",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8326170_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 4.6933335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8326170_2.jpg",
+            "bytes": 124872,
+            "sha256": "514775377e596ebdfdd94b3b1382a08c89e1b6e0a49aeeebac87ea3eccf0e84e"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "4.6933335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8326170_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 8.4480003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8326170_3.jpg",
+            "bytes": 117976,
+            "sha256": "3ea18d0e7c3b37fd48a178bd1ff6d31f00a732123bc6fb961ceae980712d8a6e"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "8.4480003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8326170_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8326170_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-14160089",
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60000/1001",
+            "avg_frame_rate": "60000/1001",
+            "time_base": "1/60000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2728700,
+            "duration": "45.478333",
+            "bit_rate": "5629252",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "2726",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2022-10-25T00:04:48.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2183120,
+            "duration": "45.481667",
+            "bit_rate": "189379",
+            "nb_frames": "2132",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2022-10-25T00:04:48.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "45.481667",
+          "size": "33121639",
+          "bit_rate": "5825932",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42isomavc1",
+            "creation_time": "2022-10-25T00:04:48.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 45.481667,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/14160089_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 4.5481667,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/14160089_1.jpg",
+            "bytes": 609209,
+            "sha256": "5343af23da1aa4100f3d1d700e02c946076bc4462d0aa84fe5a8e47ed2c6d832"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "4.5481667",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\14160089_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 22.7408335,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/14160089_2.jpg",
+            "bytes": 557604,
+            "sha256": "a5ec713f4f2cc9e8150d23bcd3a016b0c1982ad29d1c9903f236d0d117936385"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "22.7408335",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\14160089_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 40.933500300000006,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/14160089_3.jpg",
+            "bytes": 639387,
+            "sha256": "d7ab428508530428aa3c29f270b78f38ab38cc6daa1f90d81982c6e347ea6868"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "40.933500300000006",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_14160089_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\14160089_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-15602507",
+      "source_identity": "pexels:video:15602507",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+        "bytes": 32469103,
+        "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60000/1001",
+            "avg_frame_rate": "60000/1001",
+            "time_base": "1/60000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2688600,
+            "duration": "44.810000",
+            "bit_rate": "5599476",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "2686",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2023-02-17T18:54:01.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Video Handler",
+              "encoder": "AVC Coding"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2153440,
+            "duration": "44.863333",
+            "bit_rate": "189377",
+            "nb_frames": "2103",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2023-02-17T18:54:01.000000Z",
+              "language": "und",
+              "handler_name": "Vimeo Artax Audio Handler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "44.863333",
+          "size": "32469103",
+          "bit_rate": "5789869",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42isomavc1",
+            "creation_time": "2023-02-17T18:54:01.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 44.863333,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/15602507_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 4.4863333,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/15602507_1.jpg",
+            "bytes": 338464,
+            "sha256": "32462d000d85fa36110df919eab2c7f7fa6c850e181eb22c57b5d19f94465caa"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "4.4863333",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\15602507_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 22.4316665,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/15602507_2.jpg",
+            "bytes": 328319,
+            "sha256": "f63a35b3a32d434af70bbddfff8dd8ccba6e23b527436abfc1b3a9c66b96f1ac"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "22.4316665",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\15602507_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 40.3769997,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/15602507_3.jpg",
+            "bytes": 330434,
+            "sha256": "0b35fa61a0daf7f646dcc27dd91f6168177eacfd66fc3af4f0702d4d59e2b50f"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "40.3769997",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_15602507_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\15602507_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-8527274",
+      "source_identity": "pexels:video:8527274",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 2048,
+            "height": 1080,
+            "coded_width": 2048,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 661,
+            "duration": "26.440000",
+            "bit_rate": "4554281",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "661",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-06-28T13:33:35.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "26.440000",
+          "size": "15061087",
+          "bit_rate": "4557061",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-06-28T13:33:35.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4"
+      ],
+      "width": 2048,
+      "height": 1080,
+      "duration_seconds": 26.44,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8527274_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 2.644,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8527274_1.jpg",
+            "bytes": 102528,
+            "sha256": "1bbae49cb93ce3945c8f9a2a50b51c977a9e149cd9b30cdededa8704adbf2997"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "2.644",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8527274_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 13.22,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8527274_2.jpg",
+            "bytes": 104477,
+            "sha256": "856766abbcaf90d5d5d4dcaef7fd25635149754c42b34241edd84ed46df6e58f"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "13.22",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8527274_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 23.796000000000003,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/8527274_3.jpg",
+            "bytes": 112032,
+            "sha256": "54573717fa6c9e71e1fafa6262869c8df7e8da1b174600dbf790a58bdb5e7c24"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "23.796000000000003",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_8527274_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\8527274_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    },
+    {
+      "asset_id": "AMY-LF-R05-PX-6975995",
+      "source_identity": "pexels:video:6975995",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640032",
+            "width": 1920,
+            "height": 1440,
+            "coded_width": 1920,
+            "coded_height": 1440,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 50,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/25",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 365,
+            "duration": "14.600000",
+            "bit_rate": "8123216",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "365",
+            "extradata_size": 48,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "creation_time": "2021-02-27T14:35:44.000000Z",
+              "language": "und",
+              "handler_name": "L-SMASH Video Handler",
+              "encoder": "AVC Coding"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "14.600000",
+          "size": "14830567",
+          "bit_rate": "8126338",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "mp42",
+            "minor_version": "0",
+            "compatible_brands": "mp42mp41isomavc1",
+            "creation_time": "2021-02-27T14:35:44.000000Z"
+          }
+        }
+      },
+      "probe_command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4"
+      ],
+      "width": 1920,
+      "height": 1440,
+      "duration_seconds": 14.6,
+      "actual_at_least1080": true,
+      "full_video_decode_returncode": 0,
+      "decode_log": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/6975995_decode.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "decode_command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sampled_frames": [
+        {
+          "at_seconds": 1.46,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/6975995_1.jpg",
+            "bytes": 135330,
+            "sha256": "e6572a8d3f262a74488c724e8f1fa1631ae66419973ec38eddfafe890f8eca22"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "1.46",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\6975995_1.jpg"
+          ]
+        },
+        {
+          "at_seconds": 7.3,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/6975995_2.jpg",
+            "bytes": 134055,
+            "sha256": "bc9086596160136317303a1da9c39fec04cf2de1468f74f4409dedaa17b54c80"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "7.3",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\6975995_2.jpg"
+          ]
+        },
+        {
+          "at_seconds": 13.14,
+          "frame": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/6975995_3.jpg",
+            "bytes": 140683,
+            "sha256": "95a9511add6b180cfe5186f411a66c753fd09126d4a5b0a3d09317c9fbe52446"
+          },
+          "command": [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-nostdin",
+            "-n",
+            "-ss",
+            "13.14",
+            "-i",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\assets\\pexels_6975995_hd.mp4",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc\\6975995_3.jpg"
+          ]
+        }
+      ],
+      "content_decision": "PENDING_ACTUAL_FRAME_REVIEW",
+      "human_rights_approved": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/contact_sheet_01.jpg",
+      "bytes": 503450,
+      "sha256": "21911b1bf182952153cec5f92fb7cc8e223d6ea18aba6ce49f90351801595178"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/contact_sheet_02.jpg",
+      "bytes": 323030,
+      "sha256": "79ac4d0c0536c5430f282b654843373f582da3500a8b3582f78fa2a9683c7ba6"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc/contact_sheet_03.jpg",
+      "bytes": 428621,
+      "sha256": "bef2114c390ee80283b8503badf731497db8cddb570343a96f79205480a653df"
+    }
+  ],
+  "completed_at_utc": "2026-10-22T03:48:55.444906+00:00",
+  "status": "TECHNICAL_QC_COMPLETE_CONTENT_AND_RIGHTS_REVIEW_PENDING"
+}

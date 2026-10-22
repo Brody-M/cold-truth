@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-10-21T04:54:15.015863+00:00",
+  "checked_by": "Codex",
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "bytes": 12182660536,
+    "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+  },
+  "historical_acquisition_record": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/Automation/direct_generation_manifest.json",
+    "bytes": 24784,
+    "sha256": "c8e920194ed6760b1c49ebfaae7c4490b9760a528f468f7fc0ad3a21e2c11545"
+  },
+  "historical_event": {
+    "stage": "shorts_gameplay_acquisition_and_verification",
+    "tool": "User-authorized official Orbital Ko-fi purchase download via creator-provided Google Drive link",
+    "timestamp_local": "2026-07-10T01:31:05-04:00",
+    "input": "../Shorts_Package.md",
+    "output": "../shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "license_and_credit": {
+      "creator": "Orbital - No Copyright Gameplay",
+      "creator_product": "Minecraft Parkour Gameplay (No Copyright) 30 mins - 1440p",
+      "creator_stated_reuse": "Permitted for monetized YouTube Shorts, videos, and TikTok with credit.",
+      "required_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+      "credit_record": "../Shorts_Metadata.md"
+    },
+    "verification": {
+      "file_size_bytes": 12182660536,
+      "duration_seconds": 1851.1786666,
+      "resolution": "2560x1440",
+      "frame_rate_fps": 60,
+      "short_runtime_target_seconds": 53,
+      "overlay_markers_mapped": 9,
+      "shorts_only_asset": true,
+      "shared_with_long_form": false,
+      "assembled": false,
+      "rendered": false
+    }
+  },
+  "matching_public_listing": {
+    "url": "https://ko-fi.com/s/0a60cae8c9",
+    "checked_on": "2026-10-21",
+    "title": "Minecraft Parkour Gameplay (No Copyright) 30 mins - 1440p",
+    "creator": "Orbital - No Copyright Gameplay",
+    "description_paraphrase": "The creator presents 30-minute 1440p60 parkour footage as usable behind Shorts/videos/TikTok and permits monetizing those videos.",
+    "limitations": "Historical acquisition event does not preserve the original purchased item URL or a separate purchase/license document. This is a matching format/title listing, not proof of the exact original item URL."
+  },
+  "required_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+  "conditions": [
+    "Shorts-only source under project rules.",
+    "Reference existing file in place; do not duplicate 12GB.",
+    "Disable original gameplay audio.",
+    "Review chosen crop and actual trim before assembly."
+  ],
+  "limitation": "Original purchased item URL and separate purchase/license receipt are not preserved. Matching public listing is supporting evidence, not proof of exact original item.",
+  "human_approved": false,
+  "status": "PURCHASE_HISTORY_AND_CREATOR_PERMISSION_BOUND_FOR_NAMED_REVIEW"
+}

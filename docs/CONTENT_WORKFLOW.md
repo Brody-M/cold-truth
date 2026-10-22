@@ -2,19 +2,20 @@
 
 ## The standard path
 
-Cold Truth produces source-backed, respectful true-crime stories. A case advances only when its evidence, narrative purpose, and approvals support the next stage.
+Cold Truth produces source-backed, respectful true-crime stories. The [working plan](<../Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md>) defines current priorities; the [vault workflow](<../Brody's Vault/2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md>) is the detailed stage reference. “Phase 2” refers only to explicit media-production authorization.
 
 | Stage | Owner | Key output | Gate |
 | --- | --- | --- | --- |
-| 1. Research | Strategist | Source ledger, risk notes, viability assessment | Claims are sourced and uncertainty is labeled. |
-| 2. Viability | Strategist | One required classification | Standard long-form, human-approved Short-Format exception, or backlog. |
-| 3. Draft | Writer | Cohesive long-form draft | Distinct, ledger-supported story material only. |
-| 4. Editorial review | Editor | Reverse outline, factual and narrative review | Every section has purpose, sources, and a transition. |
-| 5. Final script | Human reviewer | Paired approval + `Script_Final.md` | The outline and full draft are approved together. |
-| 6. Narration preflight | Narration adapter | Current-audio `preflight.json` | Exact audio meets format duration rules. |
-| 7. Visual planning | Visual Producer / Shorts Editor | Separate long-form and Shorts plans | No cross-track visual assets. |
-| 8. Metadata | Upload Manager | Editable local package | Accurate and non-sensational. |
-| 9. Production action | Human-authorized tools | Media, render, or upload packet | Explicit Phase 2 / execution authority required. |
+| 1. Research and viability | Strategist | Verified ledger, risk notes, one viability result | Standard long-form, approved exception, or backlog. |
+| 2. Draft | Writer | Cohesive full draft and claim map | Distinct, ledger-supported material only. |
+| 3. Editorial and human review | Editor + Brody | Reverse outline and full draft approved together | Only then create the canonical final script. |
+| 4. Authorized narration and preflight | Narration operator | Exact audio and measured-duration record | Explicit generation scope; required runtime and exact inputs. |
+| 5. Alignment and visuals | Visual Producer / Shorts Editor | Separate plans and verified local assets | Production scope, current preflight, licenses and no shared visuals. |
+| 6. Assembly and review | Assembly operator + Brody | Reviewable local masters and QA | Current prerequisites; explicit Phase 2 for render. |
+| 7. Packaging and publishing | Upload Manager + Brody | Reviewed metadata, thumbnail and exact publish packet | Separate publishing authority for the exact account/files/settings. |
+| 8. Results review | Strategist | Actual platform observations | Keep track metrics separate; no unsupported performance claims. |
+
+Shorts scripts may be derived after Stage 3 from the approved script and vetted ledger. Their media remains separately authorized. Real canonical audio-preflight integration is still missing; the legacy helper's CLI is fixture-only and must not be used to write real episode state.
 
 ## Research and viability
 

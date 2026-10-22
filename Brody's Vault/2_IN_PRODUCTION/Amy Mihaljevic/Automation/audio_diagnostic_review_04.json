@@ -1,0 +1,54 @@
+{
+  "schema_version": "cold_truth.marked_onset_review.v1",
+  "prepared_at_utc": "2026-10-22T03:35:37.997335+00:00",
+  "status": "ACTUAL_LISTENING_REQUIRED",
+  "target_format": "youtube-longform",
+  "diagnostic_excerpt_not_release_or_short_format_episode": true,
+  "human_locator": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_fault_disappeared_2026_10_21.json",
+    "bytes": 1790,
+    "sha256": "e611dacb5a5707a8ac9ad04d4f44b057e460fad313984d04d0d70c5c56886c74"
+  },
+  "receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/diagnostic_04_receipt.json",
+    "bytes": 18182,
+    "sha256": "bd7818e77572be88df133f070c84e646a813d81ceddbb3991dd97796b5621013"
+  },
+  "before": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/opening_13p2s_before.mp3",
+    "bytes": 318529,
+    "sha256": "39dbd836c719173c74b53af1d4a3e5031b105c5ba26962d02d6483cce361917d"
+  },
+  "repaired": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/opening_13p2s_onset_repair.mp3",
+    "bytes": 318529,
+    "sha256": "a51d2e5bb46720ccb5156a59123dfbf16e27e739be236054aec0ad4e1e0fb01d"
+  },
+  "removed_only": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/opening_13p2s_removed_component.mp3",
+    "bytes": 318529,
+    "sha256": "bdbe210a1970b0713f08e39a5fe6eb2c9e6505acae7dc79d62d57c63c8b6f0c0"
+  },
+  "excerpt_seconds": 13.2,
+  "samples_each": 582120,
+  "word_onset_gain_reduction_db": 8,
+  "onset_window_seconds": [
+    2.16,
+    2.32
+  ],
+  "modest_standalone_gap_gain_reduction_db": 6,
+  "gap_window_seconds": [
+    6.05,
+    6.285
+  ],
+  "global_gain_change_db": 0,
+  "same_timing": true,
+  "outside_two_windows_saved_pcm_identical": true,
+  "following_syllable_saved_pcm_identical": true,
+  "eq_or_deesser_or_limiter_applied": false,
+  "full_episode_processed": false,
+  "human_audio_approved": false,
+  "assembly_allowed": false,
+  "video_rendered": false,
+  "review_purpose": "At unchanged playback volume, compare start of disappeared near2.2seconds: is the spike comfortable, is the D still clear, and does the small gap-noise reduction sound natural? This cannot approve a full episode from a thirteen-second excerpt."
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "cold_truth.pilot_offline_validation.v1",
+  "checked_at_utc": "2026-10-20T21:36:25.121916+00:00",
+  "scope": "Offline byte fixtures, mocked probes, local approval binding and tool version/help inspection; no media created or decoded",
+  "modules": [
+    "test_pilot_evidence",
+    "test_track_isolation",
+    "test_vault_audit"
+  ],
+  "tests_run": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_symlink_escape_rejected_when_platform_supports_it (test_pilot_evidence.PilotEvidenceTests.test_symlink_escape_rejected_when_platform_supports_it)",
+      "reason": "Symlink creation unavailable to this Windows account"
+    }
+  ],
+  "passed": true,
+  "review_hashes_match": true,
+  "canonical_narration_unchanged": true,
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "checker": {
+    "path": "automation/pilot_evidence.py",
+    "sha256": "1248cd792d0fd09b12da9447454dcbb2029ae3930ed851cc636dc7f0382386ff",
+    "bytes": 19384
+  },
+  "tests": {
+    "path": "automation/test_pilot_evidence.py",
+    "sha256": "e858695cf3de21798b33acc7a306183a362c993cc7e112ec07e3ffbca930a35d",
+    "bytes": 17244
+  },
+  "tool_versions": {
+    "ffprobe": "8.1.1-full_build-www.gyan.dev",
+    "ffmpeg": "8.1.1-full_build-www.gyan.dev"
+  },
+  "ffmpeg_subtitles_interface_present": true,
+  "provider_tool_schema_supports_locked_settings": true,
+  "live_provider_called": false,
+  "actual_amy_audio_measured": false,
+  "media_created": false,
+  "phase_2_authorized": false,
+  "orchestrator_production_enabled": false,
+  "tests_passed": 49,
+  "navigation": {
+    "notes": 85,
+    "reachable_from_home": 85,
+    "issues": 0,
+    "snapshot": {
+      "path": "docs/vault_audit_pilot_m4_2026_10_20.json",
+      "sha256": "90cd525b19edda72d57f4f51dd2570c8e581a239838db7c2a301af66fbb080ad",
+      "bytes": 59957
+    }
+  },
+  "approval_binding_check": {
+    "path": "docs/pilot_script_binding_2026_10_20.json",
+    "sha256": "6c60b901d45d9ffc5cf6b5f42ea96e465e2c688ab9d2027d3bae1cc992cba387",
+    "bytes": 569
+  }
+}

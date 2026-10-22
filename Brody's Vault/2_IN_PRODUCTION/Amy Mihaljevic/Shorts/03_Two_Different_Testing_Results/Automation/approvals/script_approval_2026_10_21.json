@@ -1,0 +1,47 @@
+{
+  "schema_version": "cold_truth.paired_script_approval.v1",
+  "review_id": "amy-mihaljevic-short-03-review-2026-10-21-v1",
+  "case_id": "amy-mihaljevic-short-03",
+  "parent_case_id": "amy-mihaljevic",
+  "target_format": "shorts",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-22T01:22:16.357870+00:00",
+  "user_quote": "Approve all three script-and-outline pairs",
+  "scope": "Paired approval of this exact standalone full Short script and matching reverse outline, included in the three-pair decision. Final creation only; narration/media execution scope separate.",
+  "review_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/review_packet.json",
+    "bytes": 1920,
+    "sha256": "cd62040e1670c9a459e1672a2f9dda4ec3afe2b1ebc459173349acafba825a95"
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Draft.md",
+    "bytes": 2375,
+    "sha256": "5dc15699cd6f9024cf5d740f327491a42aa6aecb4063aa5e7da1534e0d335bc9"
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Reverse_Outline.md",
+    "bytes": 1767,
+    "sha256": "90535240cc7f28a793c7bc1b27c190f3327e351b1ba20c4b6e994c69c80ccec2"
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+    "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+    "bytes": 2467
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+    "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+    "bytes": 633
+  },
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "canonicalization": "Status metadata only; extracted narration exactly equals reviewed draft.",
+  "phase_2_authorized": false,
+  "narration_authorized": false,
+  "publishing_authorized": false
+}

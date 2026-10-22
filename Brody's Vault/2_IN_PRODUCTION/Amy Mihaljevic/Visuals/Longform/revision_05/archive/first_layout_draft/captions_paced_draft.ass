@@ -1,0 +1,143 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H60000000,0,0,0,0,100,100,0,0,1,2.5,1,2,100,100,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:05.20,Default,,0,0,0,,On the afternoon Amy Mihaljevic disappeared,\Nher mother received a phone call from her.
+Dialogue: 0,0:00:05.90,0:00:09.24,Default,,0,0,0,,An FBI account describes\NAmy saying she was okay.
+Dialogue: 0,0:00:10.06,0:00:12.18,Default,,0,0,0,,Her mother believed she was calling from home.
+Dialogue: 0,0:00:12.88,0:00:17.90,Default,,0,0,0,,According to FBI Special Agent Vicki\NAnderson, Amy was already with the person
+Dialogue: 0,0:00:18.20,0:00:18.94,Default,,0,0,0,,who had taken her.
+Dialogue: 0,0:00:19.77,0:00:24.37,Default,,0,0,0,,A familiar kind of check-in had given\Nher mother a mistaken picture of where
+Dialogue: 0,0:00:24.41,0:00:29.11,Default,,0,0,0,,her daughter was. Amy was ten years\Nold and lived in Bay Village, Ohio.
+Dialogue: 0,0:00:30.03,0:00:31.59,Default,,0,0,0,,She enjoyed riding her bicycle.
+Dialogue: 0,0:00:32.45,0:00:37.32,Default,,0,0,0,,In a family interview years later, her\Nfather, Mark, remembered another part
+Dialogue: 0,0:00:37.36,0:00:42.40,Default,,0,0,0,,of her life: the horses she rode, and the\Nway she played with their dog, Jake.
+Dialogue: 0,0:00:43.10,0:00:46.46,Default,,0,0,0,,She had taught him to jump over\Nher legs as though he were a horse.
+Dialogue: 0,0:00:47.55,0:00:52.42,Default,,0,0,0,,It is a small memory of Amy doing something\Nshe loved, before her name became
+Dialogue: 0,0:00:52.48,0:00:53.86,Default,,0,0,0,,attached to an investigation.
+Dialogue: 0,0:00:54.86,0:01:00.06,Default,,0,0,0,,Before October 27, 1989,\Nsomeone had contacted Amy with a
+Dialogue: 0,0:01:00.12,0:01:01.90,Default,,0,0,0,,plan that involved her mother.
+Dialogue: 0,0:01:02.60,0:01:07.01,Default,,0,0,0,,The caller said Amy could help choose\Na gift to celebrate a promotion at work.
+Dialogue: 0,0:01:07.71,0:01:11.61,Default,,0,0,0,,Bay Village Police place that contact\Nweeks before the disappearance.
+Dialogue: 0,0:01:12.31,0:01:16.13,Default,,0,0,0,,The meeting was arranged for after\Nschool, at a nearby shopping center.
+Dialogue: 0,0:01:16.83,0:01:22.22,Default,,0,0,0,,The promise of a present for her mother was\Nthe reason Amy had been given for going there.
+Dialogue: 0,0:01:23.23,0:01:25.64,Default,,0,0,0,,That Friday, Amy left school on foot.
+Dialogue: 0,0:01:26.34,0:01:31.00,Default,,0,0,0,,The FBI says she went to Bay Village\NSquare and was seen outside a business,
+Dialogue: 0,0:01:31.38,0:01:32.76,Default,,0,0,0,,apparently waiting for someone.
+Dialogue: 0,0:01:33.55,0:01:37.93,Default,,0,0,0,,The police account describes witnesses\Nseeing her speak with an unidentified
+Dialogue: 0,0:01:37.99,0:01:40.48,Default,,0,0,0,,man, then walk through the parking lot with him.
+Dialogue: 0,0:01:41.54,0:01:43.94,Default,,0,0,0,,No vehicle was seen, according to that account.
+Dialogue: 0,0:01:44.64,0:01:48.49,Default,,0,0,0,,The sighting establishes a public\Npoint in the sequence, but it does not
+Dialogue: 0,0:01:48.55,0:01:50.24,Default,,0,0,0,,reveal where Amy went afterward.
+Dialogue: 0,0:01:51.08,0:01:52.64,Default,,0,0,0,,Her bicycle was still at school.
+Dialogue: 0,0:01:53.34,0:01:58.68,Default,,0,0,0,,In a June 2026 interview, her brother,\NJason, recalled noticing it there
+Dialogue: 0,0:01:58.88,0:02:00.42,Default,,0,0,0,,after his own classes ended.
+Dialogue: 0,0:02:01.13,0:02:05.24,Default,,0,0,0,,News 5's account of the day says their\Nmother later found the bicycle at the
+Dialogue: 0,0:02:05.30,0:02:08.58,Default,,0,0,0,,school and went to the\Npolice to report Amy missing.
+Dialogue: 0,0:02:09.35,0:02:14.54,Default,,0,0,0,,By then, the expectation that she\Nwas safely home had given way to a
+Dialogue: 0,0:02:14.60,0:02:19.40,Default,,0,0,0,,search for her. Bay Village Police\Nand the FBI began investigating.
+Dialogue: 0,0:02:20.12,0:02:22.82,Default,,0,0,0,,Public appeals spread\Nbeyond the shopping center.
+Dialogue: 0,0:02:23.52,0:02:28.44,Default,,0,0,0,,News 5's reporting describes missing-person\Nposters in shop windows and
+Dialogue: 0,0:02:28.52,0:02:30.94,Default,,0,0,0,,flyers distributed around the region.
+Dialogue: 0,0:02:31.64,0:02:36.30,Default,,0,0,0,,A local Pizza Hut put Amy's poster\Nand a composite drawing on its boxes.
+Dialogue: 0,0:02:37.03,0:02:41.35,Default,,0,0,0,,Those efforts carried the appeal into\Nordinary places where someone might
+Dialogue: 0,0:02:41.41,0:02:44.61,Default,,0,0,0,,recognize her or remember the man seen with her.
+Dialogue: 0,0:02:45.73,0:02:49.31,Default,,0,0,0,,Inside the investigation,\Ninformation also accumulated.
+Dialogue: 0,0:02:50.01,0:02:54.37,Default,,0,0,0,,The same reporting describes officers\Nand federal agents working through
+Dialogue: 0,0:02:54.41,0:02:59.53,Default,,0,0,0,,leads, with a law-enforcement computer\Nsystem strained by the volume of inquiries.
+Dialogue: 0,0:03:00.23,0:03:04.95,Default,,0,0,0,,People were being asked to look back at\None afternoon, while investigators had
+Dialogue: 0,0:03:04.99,0:03:06.35,Default,,0,0,0,,to organize what came in.
+Dialogue: 0,0:03:07.35,0:03:10.47,Default,,0,0,0,,The public search continued,\Nbut Amy did not return home.
+Dialogue: 0,0:03:11.78,0:03:17.07,Default,,0,0,0,,On February 8, 1990, a jogger\Nfound Amy's body in a field in
+Dialogue: 0,0:03:17.15,0:03:18.39,Default,,0,0,0,,rural Ashland County.
+Dialogue: 0,0:03:19.09,0:03:21.95,Default,,0,0,0,,She was wearing the clothing in\Nwhich she had last been seen.
+Dialogue: 0,0:03:22.65,0:03:26.55,Default,,0,0,0,,The search for a missing child had\Nbecome an investigation into her death.
+Dialogue: 0,0:03:27.25,0:03:32.28,Default,,0,0,0,,The discovery gave investigators\Nanother location to examine, beyond the
+Dialogue: 0,0:03:32.32,0:03:34.60,Default,,0,0,0,,shopping center where she had disappeared.
+Dialogue: 0,0:03:35.61,0:03:39.07,Default,,0,0,0,,Some of the things believed to have\Nbeen with her were never recovered.
+Dialogue: 0,0:03:39.88,0:03:45.22,Default,,0,0,0,,The FBI lists a turquoise horse earring,\Nblack ankle boots and a black leather binder.
+Dialogue: 0,0:03:45.92,0:03:48.96,Default,,0,0,0,,Those objects remain part of its public appeal.
+Dialogue: 0,0:03:49.66,0:03:53.89,Default,,0,0,0,,They are details someone might recognize,\Nbut the published record does not
+Dialogue: 0,0:03:53.95,0:03:55.33,Default,,0,0,0,,establish what happened to them.
+Dialogue: 0,0:03:56.03,0:04:01.48,Default,,0,0,0,,Their absence cannot explain, by itself,\Nwho took Amy or where she was killed.
+Dialogue: 0,0:04:02.46,0:04:07.06,Default,,0,0,0,,Years later, investigators asked the\Npublic to look closely at another object.
+Dialogue: 0,0:04:08.06,0:04:12.95,Default,,0,0,0,,At a 2016 news conference, authorities\Ndisplayed a homemade-looking curtain
+Dialogue: 0,0:04:13.49,0:04:16.39,Default,,0,0,0,,found in the field where Amy's\Nbody had been discovered.
+Dialogue: 0,0:04:17.26,0:04:22.64,Default,,0,0,0,,News 5 reported a connection between\Nhair on the curtain and the family's dog.
+Dialogue: 0,0:04:23.34,0:04:27.52,Default,,0,0,0,,The appeal was for recognition of the\Ntextile: where it might have come from,
+Dialogue: 0,0:04:28.10,0:04:29.02,Default,,0,0,0,,or who might have made it.
+Dialogue: 0,0:04:29.96,0:04:31.54,Default,,0,0,0,,The release brought responses.
+Dialogue: 0,0:04:32.25,0:04:37.35,Default,,0,0,0,,Cleveland 19 reported that the\Nprosecutor's office received calls and tips
+Dialogue: 0,0:04:37.53,0:04:40.91,Default,,0,0,0,,afterward, and that law enforcement\Nwas following them up.
+Dialogue: 0,0:04:41.90,0:04:46.60,Default,,0,0,0,,The curtain offered a possible connection\Nbetween a physical object and
+Dialogue: 0,0:04:46.68,0:04:50.38,Default,,0,0,0,,information someone outside\Nthe investigation might hold.
+Dialogue: 0,0:04:51.44,0:04:56.65,Default,,0,0,0,,Its owner and origin were still questions;\Nthe public release did not announce
+Dialogue: 0,0:04:56.69,0:04:58.19,Default,,0,0,0,,that either had been established.
+Dialogue: 0,0:04:59.19,0:05:03.87,Default,,0,0,0,,The investigation also continued through\Ninterviews and renewed publicity.
+Dialogue: 0,0:05:04.66,0:05:09.73,Default,,0,0,0,,In a report marking thirty years since\NAmy disappeared, FBI Special Agent
+Dialogue: 0,0:05:09.81,0:05:14.62,Default,,0,0,0,,Lisa Hack described more than a\Nhundred interviews during her six years
+Dialogue: 0,0:05:14.70,0:05:15.58,Default,,0,0,0,,working on the case.
+Dialogue: 0,0:05:16.59,0:05:19.01,Default,,0,0,0,,She said the files filled seventy volumes.
+Dialogue: 0,0:05:19.73,0:05:24.63,Default,,0,0,0,,The FBI had also put up billboards around\NCleveland and in neighboring states,
+Dialogue: 0,0:05:25.27,0:05:26.83,Default,,0,0,0,,asking again for information.
+Dialogue: 0,0:05:27.53,0:05:30.60,Default,,0,0,0,,Those were accounts of continuing\Nwork, not a solved case.
+Dialogue: 0,0:05:31.86,0:05:36.99,Default,,0,0,0,,In 2021, Bay Village Sergeant Edward\NChapman described a further
+Dialogue: 0,0:05:37.05,0:05:38.63,Default,,0,0,0,,reason for examining the curtain.
+Dialogue: 0,0:05:39.37,0:05:43.25,Default,,0,0,0,,He told News 5 that testing\Nhad identified Amy's hair on it.
+Dialogue: 0,0:05:44.23,0:05:49.62,Default,,0,0,0,,Investigators again asked whether anyone\Nrecognized the unusual, apparently
+Dialogue: 0,0:05:49.68,0:05:50.76,Default,,0,0,0,,handmade textile.
+Dialogue: 0,0:05:51.77,0:05:55.69,Default,,0,0,0,,The new statement strengthened their\Npublic explanation for its relevance.
+Dialogue: 0,0:05:56.45,0:06:00.79,Default,,0,0,0,,It did not supply a public account of\Nwhere the crime occurred or identify the
+Dialogue: 0,0:06:00.83,0:06:06.18,Default,,0,0,0,,person responsible. The next reported testing\Ndevelopments involved Amy's clothing.
+Dialogue: 0,0:06:07.20,0:06:12.39,Default,,0,0,0,,In 2024, police said retesting\Nhad detected male DNA, but the
+Dialogue: 0,0:06:12.45,0:06:15.03,Default,,0,0,0,,amount was too small to create a profile.
+Dialogue: 0,0:06:15.89,0:06:21.08,Default,,0,0,0,,That distinction matters: detecting\Nmaterial and producing a usable profile
+Dialogue: 0,0:06:21.48,0:06:22.52,Default,,0,0,0,,were different outcomes.
+Dialogue: 0,0:06:23.25,0:06:27.71,Default,,0,0,0,,Investigators were hoping that more\Nsensitive procedures might eventually
+Dialogue: 0,0:06:27.77,0:06:29.49,Default,,0,0,0,,allow further work on the sample.
+Dialogue: 0,0:06:30.24,0:06:32.51,Default,,0,0,0,,They had not announced\Nan identification from it.
+Dialogue: 0,0:06:33.41,0:06:35.61,Default,,0,0,0,,Another round of work involved separate hairs.
+Dialogue: 0,0:06:36.31,0:06:41.33,Default,,0,0,0,,News 5 reported that an FBI laboratory\Nhad noticed hairs on evidence slides
+Dialogue: 0,0:06:41.79,0:06:44.29,Default,,0,0,0,,previously thought to contain clothing fibers.
+Dialogue: 0,0:06:44.99,0:06:48.31,Default,,0,0,0,,They were sent to a private\Nlaboratory in California for testing.
+Dialogue: 0,0:06:49.01,0:06:52.96,Default,,0,0,0,,Chapman cautioned that the hairs did\Nnot necessarily belong to the person
+Dialogue: 0,0:06:53.02,0:06:57.39,Default,,0,0,0,,responsible, and that contamination\Nwas possible after years of handling.
+Dialogue: 0,0:06:58.21,0:07:01.97,Default,,0,0,0,,These were separate from the small\NDNA sample on Amy's clothing.
+Dialogue: 0,0:07:03.01,0:07:08.49,Default,,0,0,0,,In January 2026, Cleveland 19\Nreported a setback in that hair testing.
+Dialogue: 0,0:07:09.43,0:07:14.39,Default,,0,0,0,,Detective Sergeant Jay Elish said\NAstrea Forensics could not obtain a
+Dialogue: 0,0:07:14.45,0:07:16.53,Default,,0,0,0,,profile from the submitted hairs.
+Dialogue: 0,0:07:17.36,0:07:20.68,Default,,0,0,0,,The material was likely too\Nsmall or too degraded.
+Dialogue: 0,0:07:21.48,0:07:26.27,Default,,0,0,0,,Investigators were continuing with\NDNA work, but this particular effort had
+Dialogue: 0,0:07:26.37,0:07:28.05,Default,,0,0,0,,not produced the result they wanted.
+Dialogue: 0,0:07:28.75,0:07:34.13,Default,,0,0,0,,That outcome concerned the hairs; it did not\Nerase the separate clothing-DNA finding.
+Dialogue: 0,0:07:35.13,0:07:40.29,Default,,0,0,0,,By June, Police Chief Robert Gillespie\Nwas describing the resources needed to
+Dialogue: 0,0:07:40.35,0:07:41.49,Default,,0,0,0,,keep testing evidence.
+Dialogue: 0,0:07:42.51,0:07:47.10,Default,,0,0,0,,He told Cleveland 19 that work was\Ncontinuing, although he could not discuss
+Dialogue: 0,0:07:47.36,0:07:48.66,Default,,0,0,0,,every item being tested.
+Dialogue: 0,0:07:49.72,0:07:54.84,Default,,0,0,0,,He explained that the Amy Fund\Nsupplemented other funding so investigators
+Dialogue: 0,0:07:54.90,0:07:57.90,Default,,0,0,0,,could respond when testing opportunities arose.
+Dialogue: 0,0:07:58.82,0:08:03.46,Default,,0,0,0,,Bay Village's own community announcement\Nalso describes the fund as supporting
+Dialogue: 0,0:08:03.54,0:08:06.40,Default,,0,0,0,,investigative costs, including DNA testing.
+Dialogue: 0,0:08:07.39,0:08:11.31,Default,,0,0,0,,Financial support helps that work\Ncontinue; it is not a test result.
+Dialogue: 0,0:08:12.31,0:08:17.65,Default,,0,0,0,,As of our October 16, 2026 source\Ncheck, Bay Village's public case
+Dialogue: 0,0:08:17.71,0:08:20.64,Default,,0,0,0,,page describes the investigation as ongoing.
+Dialogue: 0,0:08:21.34,0:08:24.68,Default,,0,0,0,,Police still ask for help identifying\Nthe curtain and blanket.
+Dialogue: 0,0:08:25.44,0:08:29.72,Default,,0,0,0,,The FBI continues to offer a reward of\Nup to twenty-five thousand dollars for
+Dialogue: 0,0:08:29.76,0:08:35.00,Default,,0,0,0,,information leading to the arrest and conviction\Nof those responsible for Amy's death.
+Dialogue: 0,0:08:35.70,0:08:40.72,Default,,0,0,0,,These remain public requests for information,\Nwith the case unresolved in the
+Dialogue: 0,0:08:40.78,0:08:41.58,Default,,0,0,0,,sources reviewed.
+Dialogue: 0,0:08:42.58,0:08:46.76,Default,,0,0,0,,For Amy's family, those records\Nsit alongside memories of a child.
+Dialogue: 0,0:08:47.46,0:08:51.40,Default,,0,0,0,,In the thirty-year interview, her father\Ndescribed still thinking about her
+Dialogue: 0,0:08:51.48,0:08:52.46,Default,,0,0,0,,several times a week.
+Dialogue: 0,0:08:53.30,0:08:58.08,Default,,0,0,0,,The bicycle, the time with Jake, the\Nthings she enjoyed: those belong to
+Dialogue: 0,0:08:58.20,0:09:00.87,Default,,0,0,0,,Amy's life, beyond the evidence left behind.
+Dialogue: 0,0:09:01.63,0:09:03.05,Default,,0,0,0,,Amy is a daughter and a sister.
+Dialogue: 0,0:09:03.75,0:09:08.19,Default,,0,0,0,,The public appeal remains open, and\Nthe effort to find answers continues.

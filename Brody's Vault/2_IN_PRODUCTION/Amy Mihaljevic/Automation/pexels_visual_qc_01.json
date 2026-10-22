@@ -1,0 +1,678 @@
+{
+  "created_at_utc": "2026-10-21T04:48:13.156669+00:00",
+  "status": "SAMPLED_FRAME_REVIEW_PENDING",
+  "entries": [
+    {
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30000/1001",
+            "duration": "15.548333"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5835776_1.jpg",
+          "bytes": 19688,
+          "sha256": "e74b74dda5a322f6d236b76e22b8bc6e66f9750c067e79557ff7c8b871cd159f"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5835776_2.jpg",
+          "bytes": 19877,
+          "sha256": "b1355fca6e3edc0922da3df719ab84eb44d0f6b8bb460c8764d5758144540942"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5835776_3.jpg",
+          "bytes": 19844,
+          "sha256": "abf2e9a9ae7ffc418c01cc447d393f63045a2a188a706a2a418853f6ab684b52"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        1.5548333,
+        7.7741665,
+        13.9934997
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-4203565",
+      "source_identity": "pexels:video:4203565",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_4203565_1080p.mp4",
+        "bytes": 14997423,
+        "sha256": "706c2f1fa9af8a3d3410565e1e2c9351e0cc448ff3a5db086d3ac248dc4a3d4e"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "24000/1001",
+            "duration": "22.396667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/4203565_1.jpg",
+          "bytes": 20607,
+          "sha256": "6e803894d28668e05819ca8e5fe348604bd9602b62664910155f049f0e3edbb8"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/4203565_2.jpg",
+          "bytes": 21051,
+          "sha256": "5e4d1fb75d3eb7177daea92d1d717912a67e0cbc8e646b1b02f5f76ea26abc56"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/4203565_3.jpg",
+          "bytes": 21133,
+          "sha256": "b135e8081365a4a12b770ba3251c246ab739cdbe54cd94d8865a3b5088e9d695"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        2.2396667000000003,
+        11.1983335,
+        20.1570003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30000/1001",
+            "duration": "12.378333"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792244_1.jpg",
+          "bytes": 22178,
+          "sha256": "265ccbc3e655f480be0d545fecb325ff987bd17cddfabbb2590c3345acf7b55a"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792244_2.jpg",
+          "bytes": 20598,
+          "sha256": "627d0e6771fbf0637c457de1b19de48a797e6584f1a1eacc3c3c589cf5e3852a"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792244_3.jpg",
+          "bytes": 20932,
+          "sha256": "12a1209feb5fefae78e45e4960cb72b929c857958229296e39666be4aab85f32"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        1.2378333000000001,
+        6.1891665,
+        11.1404997
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30000/1001",
+            "duration": "35.701667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792246_1.jpg",
+          "bytes": 21667,
+          "sha256": "9a7bd70b8463d81ee055148efea643900cce07bd7e1f55bc9264571ebb9a267a"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792246_2.jpg",
+          "bytes": 14656,
+          "sha256": "0e63268a4a687776654d0654f798801f6166583516272622886238396767806d"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5792246_3.jpg",
+          "bytes": 12845,
+          "sha256": "fb6afce93a6946c73af8b3765ed5c7f2e68cc24412a4247a081a7294d871b6e9"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        3.5701667,
+        17.8508335,
+        32.1315003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-14388669",
+      "source_identity": "pexels:video:14388669",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14388669_1080p.mp4",
+        "bytes": 23876209,
+        "sha256": "13db09e30ec7f099b1922885df48ab17d338c41cc817756af5dc2815bf75e882"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "24000/1001",
+            "duration": "32.490000"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14388669_1.jpg",
+          "bytes": 7495,
+          "sha256": "bd0c6dca55375a09b19a73e72661dc04fa1c2569d6be2d4a76347184baa56608"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14388669_2.jpg",
+          "bytes": 8431,
+          "sha256": "27a27710309851fc13513797ce98d5a1136f7c9e5bfc730b8e513012c4f200aa"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14388669_3.jpg",
+          "bytes": 12216,
+          "sha256": "0b71130fe742e41f2efcaf3459a95be1f69d38d91b4c6650cdaccd316a7b6fe8"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        3.2490000000000006,
+        16.245,
+        29.241000000000003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-13529951",
+      "source_identity": "pexels:video:13529951",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_13529951_1080p.mp4",
+        "bytes": 6209005,
+        "sha256": "103cd1a69ba449c3323a77143c35a044d8cc4d2cc1d380061a777c24b32b225f"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "60000/1001",
+            "duration": "15.815000"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/13529951_1.jpg",
+          "bytes": 10534,
+          "sha256": "dc05ce345ef626c20418898d076391be600afead2559a239a233790d8c7debd2"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/13529951_2.jpg",
+          "bytes": 11491,
+          "sha256": "781f6bd3db57086e36b792ab1ab19f1aaeea27789d03b2c0eca66f79a8f21d67"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/13529951_3.jpg",
+          "bytes": 12139,
+          "sha256": "49b6d3160119088030e6b0363d0474d8262f2c03aa0f7b6e65e92224be1c78f7"
+        }
+      ],
+      "meets_requested_1080p": false,
+      "technical_quality_status": "EXCLUDE_RESOLUTION_DIFFERS_FROM_API_METADATA",
+      "sample_times_seconds": [
+        1.5815000000000001,
+        7.9075,
+        14.2335
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-6577022",
+      "source_identity": "pexels:video:6577022",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+        "bytes": 19912109,
+        "sha256": "fb3fdc028b6b5ed4b9bb8b271f434b8ce520fdb747f682679fb353b3bc27976a"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "37.666667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6577022_1.jpg",
+          "bytes": 5855,
+          "sha256": "518bad570ab682d63e84ae8a56ca425112baae216b8f1dd26dd2248f71249779"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6577022_2.jpg",
+          "bytes": 5181,
+          "sha256": "279add4f3c4d02d0175db7d700e2ece9c3831aa7feea2a07df53f84f87e7fcea"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6577022_3.jpg",
+          "bytes": 5224,
+          "sha256": "19ba85b753ca3a9fcab6bcb9b6676d643ee8a37db4dc9be114f18f8d9f27d3d7"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        3.7666667,
+        18.8333335,
+        33.900000299999995
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1",
+            "duration": "27.760000"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/854698_1.jpg",
+          "bytes": 14343,
+          "sha256": "f208543d1fe1f6181f6c4a4c1f2ec9c3f86f6b728465efec45656eba09336f9e"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/854698_2.jpg",
+          "bytes": 10031,
+          "sha256": "6fee388548a41631e6bb144976ef7b7f36927e4cbb02c0f8e88e1e298dfb1d8c"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/854698_3.jpg",
+          "bytes": 11308,
+          "sha256": "abc5bdbe9f1bf51dde0ec5e90b43ca943a5f83a6733a57e89a38256826643cc7"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        2.7760000000000002,
+        13.88,
+        24.984
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+        "bytes": 9382601,
+        "sha256": "8f1d0089f3512107b9e2edce1aa7b90c2ff0fad582e9442c00de616eaaaf7c70"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1",
+            "duration": "19.800000"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6550428_1.jpg",
+          "bytes": 16917,
+          "sha256": "4be699ab78c9aca1954e9796235820b626acabd94bdef895cf642723da45ce3b"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6550428_2.jpg",
+          "bytes": 17170,
+          "sha256": "9054e3abba04d724552908e0e6ccb221e71cf6df7d3d39d176d0dc1b21d09df3"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/6550428_3.jpg",
+          "bytes": 16254,
+          "sha256": "9cda5f8029c5b730215f52ace40ed286611037a92400bccde356441d9c0430b3"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        1.9800000000000002,
+        9.9,
+        17.82
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+        "bytes": 4079850,
+        "sha256": "8a062376b403d4ff62ed47d9a104826b3644f1ccf10e492ca7d9112375558171"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "11.166667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325857_1.jpg",
+          "bytes": 8697,
+          "sha256": "785108b63e14cb56787ef4998a008b739e75b86f735aa93bae6f9d0443afa4df"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325857_2.jpg",
+          "bytes": 9014,
+          "sha256": "be7f90e926fed14cf998e8a51ac19bfeeec0f07bb618f2a7e6f506645426ce63"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325857_3.jpg",
+          "bytes": 9130,
+          "sha256": "c10900d520d512fcbfb72ac9e2e178562c6b36e44f4581399c1ec8596f01a0de"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        1.1166667000000001,
+        5.5833335,
+        10.0500003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+        "bytes": 5149882,
+        "sha256": "decd559e4bff3b7b1eb514face4e4ca1130cef794615683fa344849ab246ba79"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "11.966667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325856_1.jpg",
+          "bytes": 9841,
+          "sha256": "30455661d1164bc85e4c09eca102575cb976231e37f5b24a42168035ef7f8c85"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325856_2.jpg",
+          "bytes": 10256,
+          "sha256": "aaf63ef419f45a4b9d660a1161c81d8c11e964f57f91e326d6b048af5d2d9dca"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/8325856_3.jpg",
+          "bytes": 10554,
+          "sha256": "61f0b10f31c9b6b64f20f9a0a369f930534bde7ce4f8a17ddf3731f24bd50f2b"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        1.1966667,
+        5.9833335,
+        10.7700003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-5482661",
+      "source_identity": "pexels:video:5482661",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5482661_1080p.mp4",
+        "bytes": 25551726,
+        "sha256": "037d0147bb9e9b31a8eac45c715221c95daeb5e3bb65c1cde292245fdff8e180"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30000/1001",
+            "duration": "40.306667"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5482661_1.jpg",
+          "bytes": 10469,
+          "sha256": "efebe9cc4e74c7a48cf5bfcab6f7e3dbc8fb158c458506d8212d82ff3e29ffea"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5482661_2.jpg",
+          "bytes": 10376,
+          "sha256": "663e0a17b28eccac4b8728f9ac2d47678b8f1c64f20761b55852421be7fa3670"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/5482661_3.jpg",
+          "bytes": 10760,
+          "sha256": "76749c6b9a7a5ac79323dbcc1bdaa7ecd744d2143c7a19b9ee1fc7b1e3bad2b9"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        4.0306667,
+        20.1533335,
+        36.2760003
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "8.933333"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/7233562_1.jpg",
+          "bytes": 14663,
+          "sha256": "0f38d8a42f393fc1017c8126d3ab611d2bd05ff84727fb7165ab5fce6230649f"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/7233562_2.jpg",
+          "bytes": 13002,
+          "sha256": "eaca44a01bd447eda9fbcd451b90d44cf1edc76cce5c5ccd85cd8c525bbbae97"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/7233562_3.jpg",
+          "bytes": 9685,
+          "sha256": "d1e02f988de522bd52ffaca30c322cd787ad8f23fe1d8717fb77f4614da1d1a2"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        0.8933333,
+        4.4666665,
+        8.0399997
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    },
+    {
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+        "bytes": 14961519,
+        "sha256": "b775ae0dcb1e779ade55ac520b731afcba134f0f341dfd66866ef424e4c2d530"
+      },
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1",
+            "duration": "27.360000"
+          }
+        ]
+      },
+      "sampled_frames": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14512668_1.jpg",
+          "bytes": 19250,
+          "sha256": "98f0a9b39b92a4879e139fb38948087f2e3d77027949a8e2ca787d3a05c0ee40"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14512668_2.jpg",
+          "bytes": 16877,
+          "sha256": "733daca074613b4fc81cf9443323f0ecf5418905f3e147fd29f24239eff50751"
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/14512668_3.jpg",
+          "bytes": 18716,
+          "sha256": "2c84b1ac9df9d51485f82f8fc90e3598bfaa700ce3fec272d51707f97cff56ca"
+        }
+      ],
+      "meets_requested_1080p": true,
+      "technical_quality_status": "PASS_1080P",
+      "sample_times_seconds": [
+        2.736,
+        13.68,
+        24.624
+      ],
+      "content_review": "Three sampled frames prepared; not a full-motion or final-trim approval"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/pexels_contact_sheet_01.jpg",
+      "bytes": 460680,
+      "sha256": "ef0ed7362ce93dfb7277aa8d373c459da4dafaeb782648b72e970c43aaa755a5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/qc/pexels_contact_sheet_02.jpg",
+      "bytes": 405624,
+      "sha256": "cfe2f9ff91110ad7286c3c2e5d40e11fa31aadbbf6fb2458ca0db52ed84c0cc2"
+    }
+  ],
+  "video_rendered": false,
+  "assembly_allowed": false
+}

@@ -1,0 +1,194 @@
+{
+  "created_at_utc": "2026-10-22T02:22:53.830995+00:00",
+  "video": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_01.mp4",
+    "bytes": 252524813,
+    "sha256": "f7d55e51bcae8cf429df2c06debcb2f520d0ef1fa4aaca93c17fe877c2fcfeb0"
+  },
+  "tool": "Installed FFmpeg frame/audio measurement plus existing Pillow contact sheet",
+  "sampled_frames": [
+    {
+      "time_seconds": 6.75,
+      "shot_id": "LF-001",
+      "asset_id": "AMY-LF-PX-854698",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_01.jpg",
+        "bytes": 163260,
+        "sha256": "b332272a5383dc92febc2dc087f54fb0984b2400811effd219b0c7d55f7a1966"
+      }
+    },
+    {
+      "time_seconds": 50.86666666666667,
+      "shot_id": "LF-005",
+      "asset_id": "AMY-LF-CG01_Amy",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_02.jpg",
+        "bytes": 75243,
+        "sha256": "7eafd89f1519f633d641b9cde2c2cecc202332ad2abb13e5d151bd2a8a5b12d3"
+      }
+    },
+    {
+      "time_seconds": 63.766666666666666,
+      "shot_id": "LF-006",
+      "asset_id": "AMY-LF-CG02_October_1989",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_03.jpg",
+        "bytes": 65442,
+        "sha256": "3d5bce3d1f523a5c0b2730200881afd7407d4c8ecda6fffa378eaeaaa59c8e13"
+      }
+    },
+    {
+      "time_seconds": 218.85,
+      "shot_id": "LF-022",
+      "asset_id": "AMY-LF-CG03_February_1990",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_04.jpg",
+        "bytes": 73231,
+        "sha256": "ae4ea2221bea4a2d968b81442bab4ae9a1932269b9e055ca9255f39c2b651636"
+      }
+    },
+    {
+      "time_seconds": 233.08333333333331,
+      "shot_id": "LF-023",
+      "asset_id": "AMY-LF-CG04_Belongings",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_05.jpg",
+        "bytes": 89428,
+        "sha256": "edaee652fee2707482200a7a897607e94f0dd55200798c48766e7cb2272e13ea"
+      }
+    },
+    {
+      "time_seconds": 261.4166666666667,
+      "shot_id": "LF-025",
+      "asset_id": "AMY-LF-CG05_Textile_Appeal",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_06.jpg",
+        "bytes": 106186,
+        "sha256": "1b3cc0566499c20c32a776c9b868e0e3219d4e96e42c2d8b0f50af75b698cd37"
+      }
+    },
+    {
+      "time_seconds": 383.9,
+      "shot_id": "LF-037",
+      "asset_id": "AMY-LF-CG06_Different_Samples",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_07.jpg",
+        "bytes": 103256,
+        "sha256": "335ca9c81c38ea427d12c04fa5cdef51ab544cd5c214fe1461bb75ab3569ea96"
+      }
+    },
+    {
+      "time_seconds": 518.1166666666667,
+      "shot_id": "LF-051",
+      "asset_id": "AMY-LF-CG07_Public_Status",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_08.jpg",
+        "bytes": 105017,
+        "sha256": "7f81b4c536850788cdf52e79cc286255defc822d557ad615add61557b72cd4ef"
+      }
+    },
+    {
+      "time_seconds": 567.9666666666667,
+      "shot_id": "LF-056",
+      "asset_id": "AMY-LF-CG08_Remembering_Amy",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_09.jpg",
+        "bytes": 68094,
+        "sha256": "eeafc8dc4c3a3097947b7b98d2e78a5f75cccb49dcb19da2ccdaccdbc29ad0f1"
+      }
+    },
+    {
+      "time_seconds": 567.9666666666667,
+      "shot_id": "LF-056",
+      "asset_id": "AMY-LF-CG08_Remembering_Amy",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/frame_10.jpg",
+        "bytes": 68094,
+        "sha256": "eeafc8dc4c3a3097947b7b98d2e78a5f75cccb49dcb19da2ccdaccdbc29ad0f1"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/qc_review_01/contact_sheet.jpg",
+    "bytes": 290905,
+    "sha256": "a7644dc957bd85b5233f6d306b285e647921648da3daad4c540a795a911ce3f8"
+  },
+  "frame_extraction_settings": {
+    "input_video": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_01.mp4",
+    "frames_per_timestamp": 1,
+    "jpeg_quality": 2,
+    "native_resolution": [
+      1920,
+      1080
+    ]
+  },
+  "audio_measurement_command": [
+    "ffmpeg",
+    "-v",
+    "info",
+    "-nostdin",
+    "-threads",
+    "2",
+    "-filter_threads",
+    "2",
+    "-i",
+    "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_01.mp4",
+    "-vn",
+    "-af",
+    "loudnorm=I=-23:TP=-1:LRA=7:print_format=json",
+    "-f",
+    "null",
+    "-"
+  ],
+  "audio_measurements": {
+    "input_lufs": "-30.90",
+    "true_peak_dbtp": "-19.87",
+    "measurement_output_discarded": true
+  },
+  "full_decode_passed": true,
+  "human_full_master_playback_approved": false,
+  "status": "SAMPLED_REVIEW_PREPARED_FULL_HUMAN_PLAYBACK_REQUIRED",
+  "measurement_parser_note": "FFmpeg appends mux statistics after JSON; parse the first complete JSON value rather than assume EOF.",
+  "assistant_sampled_frames_reviewed": true,
+  "assistant_assessment": "Ten sampled full-output frames viewed, including full-size laboratory comparison card. Source footers are clear, caption placement is inside frame and does not cover footers; colors/text readable. This does not substitute for full motion/crop/sync/human playback.",
+  "known_formatting_issue": {
+    "caption_cues_with_three_lines": 5,
+    "cue_details": [
+      {
+        "cue": 1,
+        "start": 0.1,
+        "end": 4.962,
+        "text": "On the afternoon Amy Mihaljevic\ndisappeared, her mother received a phone\ncall"
+      },
+      {
+        "cue": 14,
+        "start": 49.845,
+        "end": 54.929,
+        "text": "It is a small memory of Amy doing\nsomething she loved, before her name\nbecame"
+      },
+      {
+        "cue": 73,
+        "start": 285.422,
+        "end": 290.526,
+        "text": "Cleveland 19 reported that the\nprosecutor's office received calls and\ntips"
+      },
+      {
+        "cue": 123,
+        "start": 488.338,
+        "end": 493.461,
+        "text": "He explained that the Amy Fund\nsupplemented other funding so\ninvestigators"
+      },
+      {
+        "cue": 134,
+        "start": 536.038,
+        "end": 541.12,
+        "text": "These remain public requests for\ninformation, with the case unresolved in\nthe"
+      }
+    ],
+    "proposal_preferred_two_lines": true,
+    "severity": "Minor layout variance in first review cut; all text remains visible",
+    "next_action": "Combine balanced two-line wrapping with any human feedback in remaining authorized review02, unless current layout is explicitly accepted."
+  },
+  "renders_consumed": 1,
+  "authorized_renders_per_longform": 2
+}

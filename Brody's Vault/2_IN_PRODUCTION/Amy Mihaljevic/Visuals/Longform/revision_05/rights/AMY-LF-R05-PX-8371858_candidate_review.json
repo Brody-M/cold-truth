@@ -1,0 +1,56 @@
+{
+  "asset_id": "AMY-LF-R05-PX-8371858",
+  "source_identity": "pexels:video:8371858",
+  "provider_id": 8371858,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/a-person-checking-the-documents-8371858/",
+  "creator": {
+    "id": 1437723,
+    "name": "cottonbro studio",
+    "url": "https://www.pexels.com/@cottonbro"
+  },
+  "preview_image": "https://images.pexels.com/videos/8371858/pexels-photo-8371858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 79,
+  "selected_file": {
+    "id": 10801365,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 2048,
+    "height": 1080,
+    "fps": 25,
+    "link": "https://videos.pexels.com/video-files/8371858/8371858-hd_2048_1080_25fps.mp4",
+    "size": 47980085
+  },
+  "candidate_paragraphs": [
+    "P07",
+    "P12",
+    "P17"
+  ],
+  "depiction_boundary": "Hands/documents for organizing leads; not actual case records",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+  "rights_review_pending": true,
+  "actual_content_review_pending": true,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+    "bytes": 47980085,
+    "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+  },
+  "actual_duration_seconds": 79.16,
+  "actual_width": 2048,
+  "actual_height": 1080,
+  "editorial_decision": "CONDITIONAL_CANDIDATE",
+  "content_note": "Hands/files can illustrate generic information handling. Restrict to early file/red-folder activity; later visible photograph material is not case evidence.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": [
+    0,
+    40
+  ],
+  "human_use_approved": false,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "cold_truth.neutral_voice_comparison_readiness.v1",
+  "recorded_at_utc": "2026-10-21T03:24:37.875Z",
+  "status": "READY_FOR_ONE_AUTHORIZED_NEUTRAL_REQUEST",
+  "voice_id": "nPpkc230TdYdntJKFNby",
+  "model_id": "eleven_multilingual_v2",
+  "input_characters": 276,
+  "displayed_quote_credits": 276,
+  "approved_credit_cap": 400,
+  "confirmed_effective_credit_multiplier": 1,
+  "quote_evidence": {
+    "source": "Signed-in ElevenLabs UI, selected Mia and Eleven Multilingual v2; exact neutral text entered; credit balance control data-agent-tooltip",
+    "text": "Costs 276 credits. You have 10,000 credits left.Cost is based on length of the text, selected model, and voice's rate multiplier.",
+    "ui_generation_not_clicked": true,
+    "ui_speed_during_quote": 0.91,
+    "api_speed_to_submit": 1,
+    "rate_basis": "UI quote explicitly bases cost on text length, selected model and voice rate multiplier."
+  },
+  "subscription": {
+    "status": "active",
+    "tier": "payg",
+    "character_count": 0,
+    "character_limit": 10000,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false
+  },
+  "voice": {
+    "id": "nPpkc230TdYdntJKFNby",
+    "name": "Mia - Clear & Emotive Female Narrator ",
+    "category": "professional",
+    "multilingual_v2_status": "fine_tuned"
+  },
+  "generation_requests_submitted": 0,
+  "episode_hold_lifted": false
+}

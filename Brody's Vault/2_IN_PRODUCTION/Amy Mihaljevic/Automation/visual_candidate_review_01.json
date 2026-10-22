@@ -1,0 +1,332 @@
+{
+  "created_at_utc": "2026-10-21T04:54:15.015863+00:00",
+  "reviewer": "Codex",
+  "entries": [
+    {
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Generic quiet autumn neighborhood. Never label it the actual street or home.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-4203565",
+      "source_identity": "pexels:video:4203565",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_4203565_1080p.mp4",
+        "bytes": 14997423,
+        "sha256": "706c2f1fa9af8a3d3410565e1e2c9351e0cc448ff3a5db086d3ac248dc4a3d4e"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": false,
+      "assistant_assessment": "Visible architecture/geographic cues unsuitable for this Bay Village narrative.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Parked bicycles only; not Amy’s actual bicycle or a discovery reconstruction.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Restrict to tight bicycle detail; avoid cluttered wider rack/plaza. Final trim pending.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-14388669",
+      "source_identity": "pexels:video:14388669",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14388669_1080p.mp4",
+        "bytes": 23876209,
+        "sha256": "13db09e30ec7f099b1922885df48ab17d338c41cc817756af5dc2815bf75e882"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": false,
+      "assistant_assessment": "Derelict interior mall is inappropriate for the known shopping-center context.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-13529951",
+      "source_identity": "pexels:video:13529951",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_13529951_1080p.mp4",
+        "bytes": 6209005,
+        "sha256": "103cd1a69ba449c3323a77143c35a044d8cc4d2cc1d380061a777c24b32b225f"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": false,
+      "editorial_candidate": false,
+      "assistant_assessment": "Actual decoded source is 1280x720, despite API/URL claiming 1080p.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-6577022",
+      "source_identity": "pexels:video:6577022",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+        "bytes": 19912109,
+        "sha256": "fb3fdc028b6b5ed4b9bb8b271f434b8ce520fdb747f682679fb353b3bc27976a"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Illustrative open landscape only; not the actual recovery site. Review timelapse motion.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-854698",
+      "source_identity": "pexels:video:854698",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_854698_1080p.mp4",
+        "bytes": 16610161,
+        "sha256": "b218363a3d896efb0e9ef82cc58ac88c4f88c4e1ab666e1fe61bb03af33ecda5"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Modern landline/anonymous hand. No actual 1989 call or caller reenactment claim.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-6550428",
+      "source_identity": "pexels:video:6550428",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6550428_1080p.mp4",
+        "bytes": 9382601,
+        "sha256": "8f1d0089f3512107b9e2edce1aa7b90c2ff0fad582e9442c00de616eaaaf7c70"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Generic library catalog. Do not label as actual police evidence or case files.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325857",
+      "source_identity": "pexels:video:8325857",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325857_1080p.mp4",
+        "bytes": 4079850,
+        "sha256": "8a062376b403d4ff62ed47d9a104826b3644f1ccf10e492ca7d9112375558171"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Unoccupied generic lab. Not an actual case sample or test.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-8325856",
+      "source_identity": "pexels:video:8325856",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8325856_1080p.mp4",
+        "bytes": 5149882,
+        "sha256": "decd559e4bff3b7b1eb514face4e4ca1130cef794615683fa344849ab246ba79"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Unoccupied generic lab. Not an actual case sample or test.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-5482661",
+      "source_identity": "pexels:video:5482661",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5482661_1080p.mp4",
+        "bytes": 25551726,
+        "sha256": "037d0147bb9e9b31a8eac45c715221c95daeb5e3bb65c1cde292245fdff8e180"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": false,
+      "assistant_assessment": "Recognizable patterned curtains could be mistaken for the actual case textile.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-7233562",
+      "source_identity": "pexels:video:7233562",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_7233562_1080p.mp4",
+        "bytes": 5952142,
+        "sha256": "e9c35b936b71df87d83ec179a11fd34c0f797b502155cc737dc5e67c02e31298"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Abstract white knit texture only; never a case exhibit or reconstructed curtain.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    },
+    {
+      "asset_id": "AMY-LF-PX-14512668",
+      "source_identity": "pexels:video:14512668",
+      "asset": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14512668_1080p.mp4",
+        "bytes": 14961519,
+        "sha256": "b775ae0dcb1e779ade55ac520b731afcba134f0f341dfd66866ef424e4c2d530"
+      },
+      "reviewer": "Codex",
+      "reviewed_at_utc": "2026-10-21T04:54:15.015863+00:00",
+      "review_scope": "Three sampled stills at 10/50/90 percent; full video decode technical check. Not full-motion human review.",
+      "technical_decode": {
+        "passed": true,
+        "returncode": 0,
+        "diagnostics": ""
+      },
+      "resolution_qualified": true,
+      "editorial_candidate": true,
+      "assistant_assessment": "Generic saddled horse for riding context; not Amy’s actual horse.",
+      "final_trim_review_pending": true,
+      "human_approved": false,
+      "rights_review_pending": true
+    }
+  ],
+  "downloaded": 14,
+  "editorial_candidates": 10,
+  "excluded": 4,
+  "assembly_allowed": false
+}

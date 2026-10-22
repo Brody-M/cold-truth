@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+    "bytes": 12182660536,
+    "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+    "bytes": 3020,
+    "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+  },
+  "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+  "permitted_track": "shorts",
+  "commercial_use_reviewed": false,
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Existing purchased Orbital source, used in place for Amy Shorts only",
+  "credits": "Gameplay footage by Orbital - No Copyright Gameplay",
+  "assistant_assessment": "Historical purchase/permission and matching current creator listing bound. Four samples show Minecraft parkour; no title/chat overlay in sampled frames. Exact original item URL and separate receipt absent; actual trim/crop/full-motion review pending."
+}

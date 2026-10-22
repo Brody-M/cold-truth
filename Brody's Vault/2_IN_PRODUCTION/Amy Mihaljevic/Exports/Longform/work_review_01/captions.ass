@@ -1,0 +1,194 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Segoe UI,44,&H00E4ECF1,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,100,100,160,1
+Style: Label,Segoe UI,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,0,9,64,64,44,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.10,0:00:04.96,Caption,,0,0,0,,On the afternoon Amy Mihaljevic\Ndisappeared, her mother received a phone\Ncall
+Dialogue: 1,0:00:05.00,0:00:05.34,Caption,,0,0,0,,from her.
+Dialogue: 1,0:00:06.44,0:00:09.78,Caption,,0,0,0,,An FBI account describes Amy saying she\Nwas okay.
+Dialogue: 1,0:00:10.84,0:00:12.96,Caption,,0,0,0,,Her mother believed she was calling from\Nhome.
+Dialogue: 1,0:00:14.02,0:00:19.11,Caption,,0,0,0,,According to FBI Special Agent Vicki\NAnderson, Amy was already with the person
+Dialogue: 1,0:00:19.41,0:00:20.15,Caption,,0,0,0,,who had taken her.
+Dialogue: 1,0:00:21.11,0:00:25.71,Caption,,0,0,0,,A familiar kind of check-in had given her\Nmother a mistaken picture of where
+Dialogue: 1,0:00:25.75,0:00:26.45,Caption,,0,0,0,,her daughter was.
+Dialogue: 1,0:00:27.67,0:00:30.59,Caption,,0,0,0,,Amy was ten years old and lived in Bay\NVillage, Ohio.
+Dialogue: 1,0:00:31.51,0:00:33.07,Caption,,0,0,0,,She enjoyed riding her bicycle.
+Dialogue: 1,0:00:34.17,0:00:39.18,Caption,,0,0,0,,In a family interview years later, her\Nfather, Mark, remembered another part
+Dialogue: 1,0:00:39.22,0:00:44.26,Caption,,0,0,0,,of her life: the horses she rode, and the\Nway she played with their dog, Jake.
+Dialogue: 1,0:00:45.20,0:00:48.56,Caption,,0,0,0,,She had taught him to jump over her legs\Nas though he were a horse.
+Dialogue: 1,0:00:49.84,0:00:54.93,Caption,,0,0,0,,It is a small memory of Amy doing\Nsomething she loved, before her name\Nbecame
+Dialogue: 1,0:00:54.99,0:00:56.37,Caption,,0,0,0,,attached to an investigation.
+Dialogue: 1,0:00:57.61,0:01:02.81,Caption,,0,0,0,,Before October 27, 1989, someone had\Ncontacted Amy with a
+Dialogue: 1,0:01:02.87,0:01:04.66,Caption,,0,0,0,,plan that involved her mother.
+Dialogue: 1,0:01:05.66,0:01:10.06,Caption,,0,0,0,,The caller said Amy could help choose a\Ngift to celebrate a promotion at work.
+Dialogue: 1,0:01:11.04,0:01:14.94,Caption,,0,0,0,,Bay Village Police place that contact\Nweeks before the disappearance.
+Dialogue: 1,0:01:15.98,0:01:19.94,Caption,,0,0,0,,The meeting was arranged for after school,\Nat a nearby shopping center.
+Dialogue: 1,0:01:20.93,0:01:25.81,Caption,,0,0,0,,The promise of a present for her mother\Nwas the reason Amy had been given for
+Dialogue: 1,0:01:25.85,0:01:26.31,Caption,,0,0,0,,going there.
+Dialogue: 1,0:01:27.53,0:01:30.01,Caption,,0,0,0,,That Friday, Amy left school on foot.
+Dialogue: 1,0:01:30.83,0:01:35.49,Caption,,0,0,0,,The FBI says she went to Bay Village\NSquare and was seen outside a business,
+Dialogue: 1,0:01:36.17,0:01:37.55,Caption,,0,0,0,,apparently waiting for someone.
+Dialogue: 1,0:01:38.59,0:01:42.98,Caption,,0,0,0,,The police account describes witnesses\Nseeing her speak with an unidentified
+Dialogue: 1,0:01:43.04,0:01:45.66,Caption,,0,0,0,,man, then walk through the parking lot\Nwith him.
+Dialogue: 1,0:01:46.72,0:01:49.12,Caption,,0,0,0,,No vehicle was seen, according to that\Naccount.
+Dialogue: 1,0:01:50.06,0:01:54.04,Caption,,0,0,0,,The sighting establishes a public point in\Nthe sequence, but it does not
+Dialogue: 1,0:01:54.10,0:01:55.78,Caption,,0,0,0,,reveal where Amy went afterward.
+Dialogue: 1,0:01:56.62,0:01:58.18,Caption,,0,0,0,,Her bicycle was still at school.
+Dialogue: 1,0:01:59.12,0:02:04.53,Caption,,0,0,0,,In a June 2026 interview, her brother,\NJason, recalled noticing it there
+Dialogue: 1,0:02:04.73,0:02:06.27,Caption,,0,0,0,,after his own classes ended.
+Dialogue: 1,0:02:07.33,0:02:11.43,Caption,,0,0,0,,News 5's account of the day says their\Nmother later found the bicycle at the
+Dialogue: 1,0:02:11.49,0:02:14.77,Caption,,0,0,0,,school and went to the police to report\NAmy missing.
+Dialogue: 1,0:02:15.84,0:02:21.18,Caption,,0,0,0,,By then, the expectation that she was\Nsafely home had given way to a
+Dialogue: 1,0:02:21.24,0:02:21.80,Caption,,0,0,0,,search for her.
+Dialogue: 1,0:02:23.16,0:02:26.38,Caption,,0,0,0,,Bay Village Police and the FBI began\Ninvestigating.
+Dialogue: 1,0:02:27.22,0:02:29.92,Caption,,0,0,0,,Public appeals spread beyond the shopping\Ncenter.
+Dialogue: 1,0:02:30.86,0:02:35.78,Caption,,0,0,0,,News 5's reporting describes\Nmissing-person posters in shop windows and
+Dialogue: 1,0:02:35.86,0:02:38.28,Caption,,0,0,0,,flyers distributed around the region.
+Dialogue: 1,0:02:39.38,0:02:44.05,Caption,,0,0,0,,A local Pizza Hut put Amy's poster and a\Ncomposite drawing on its boxes.
+Dialogue: 1,0:02:45.07,0:02:49.39,Caption,,0,0,0,,Those efforts carried the appeal into\Nordinary places where someone might
+Dialogue: 1,0:02:49.45,0:02:52.65,Caption,,0,0,0,,recognize her or remember the man seen\Nwith her.
+Dialogue: 1,0:02:53.77,0:02:57.57,Caption,,0,0,0,,Inside the investigation, information also\Naccumulated.
+Dialogue: 1,0:02:58.51,0:03:02.88,Caption,,0,0,0,,The same reporting describes officers and\Nfederal agents working through
+Dialogue: 1,0:03:02.92,0:03:07.46,Caption,,0,0,0,,leads, with a law-enforcement computer\Nsystem strained by the volume of
+Dialogue: 1,0:03:07.56,0:03:08.04,Caption,,0,0,0,,inquiries.
+Dialogue: 1,0:03:09.14,0:03:14.02,Caption,,0,0,0,,People were being asked to look back at\None afternoon, while investigators had
+Dialogue: 1,0:03:14.06,0:03:15.43,Caption,,0,0,0,,to organize what came in.
+Dialogue: 1,0:03:16.51,0:03:19.63,Caption,,0,0,0,,The public search continued, but Amy did\Nnot return home.
+Dialogue: 1,0:03:21.29,0:03:26.58,Caption,,0,0,0,,On February 8, 1990, a jogger found Amy's\Nbody in a field in
+Dialogue: 1,0:03:26.66,0:03:27.90,Caption,,0,0,0,,rural Ashland County.
+Dialogue: 1,0:03:28.80,0:03:31.66,Caption,,0,0,0,,She was wearing the clothing in which she\Nhad last been seen.
+Dialogue: 1,0:03:32.62,0:03:36.52,Caption,,0,0,0,,The search for a missing child had become\Nan investigation into her death.
+Dialogue: 1,0:03:37.60,0:03:42.63,Caption,,0,0,0,,The discovery gave investigators another\Nlocation to examine, beyond the
+Dialogue: 1,0:03:42.67,0:03:44.95,Caption,,0,0,0,,shopping center where she had disappeared.
+Dialogue: 1,0:03:46.17,0:03:49.63,Caption,,0,0,0,,Some of the things believed to have been\Nwith her were never recovered.
+Dialogue: 1,0:03:50.71,0:03:55.83,Caption,,0,0,0,,The FBI lists a turquoise horse earring,\Nblack ankle boots and a black leather
+Dialogue: 1,0:03:55.85,0:03:56.23,Caption,,0,0,0,,binder.
+Dialogue: 1,0:03:57.11,0:04:00.16,Caption,,0,0,0,,Those objects remain part of its public\Nappeal.
+Dialogue: 1,0:04:01.06,0:04:05.28,Caption,,0,0,0,,They are details someone might recognize,\Nbut the published record does not
+Dialogue: 1,0:04:05.34,0:04:06.72,Caption,,0,0,0,,establish what happened to them.
+Dialogue: 1,0:04:07.72,0:04:13.06,Caption,,0,0,0,,Their absence cannot explain, by itself,\Nwho took Amy or where she was
+Dialogue: 1,0:04:13.12,0:04:13.40,Caption,,0,0,0,,killed.
+Dialogue: 1,0:04:14.38,0:04:18.98,Caption,,0,0,0,,Years later, investigators asked the\Npublic to look closely at another object.
+Dialogue: 1,0:04:19.98,0:04:24.87,Caption,,0,0,0,,At a 2016 news conference, authorities\Ndisplayed a homemade-looking curtain
+Dialogue: 1,0:04:25.41,0:04:28.31,Caption,,0,0,0,,found in the field where Amy's body had\Nbeen discovered.
+Dialogue: 1,0:04:29.53,0:04:34.92,Caption,,0,0,0,,News 5 reported a connection between hair\Non the curtain and the family's dog.
+Dialogue: 1,0:04:36.00,0:04:40.28,Caption,,0,0,0,,The appeal was for recognition of the\Ntextile: where it might have come from,
+Dialogue: 1,0:04:40.86,0:04:41.78,Caption,,0,0,0,,or who might have made it.
+Dialogue: 1,0:04:42.72,0:04:44.30,Caption,,0,0,0,,The release brought responses.
+Dialogue: 1,0:04:45.42,0:04:50.53,Caption,,0,0,0,,Cleveland 19 reported that the\Nprosecutor's office received calls and\Ntips
+Dialogue: 1,0:04:50.71,0:04:54.09,Caption,,0,0,0,,afterward, and that law enforcement was\Nfollowing them up.
+Dialogue: 1,0:04:55.07,0:04:59.77,Caption,,0,0,0,,The curtain offered a possible connection\Nbetween a physical object and
+Dialogue: 1,0:04:59.85,0:05:03.55,Caption,,0,0,0,,information someone outside the\Ninvestigation might hold.
+Dialogue: 1,0:05:04.62,0:05:09.96,Caption,,0,0,0,,Its owner and origin were still questions;\Nthe public release did not announce
+Dialogue: 1,0:05:10.00,0:05:11.50,Caption,,0,0,0,,that either had been established.
+Dialogue: 1,0:05:12.56,0:05:17.24,Caption,,0,0,0,,The investigation also continued through\Ninterviews and renewed publicity.
+Dialogue: 1,0:05:18.54,0:05:23.75,Caption,,0,0,0,,In a report marking thirty years since Amy\Ndisappeared, FBI Special Agent
+Dialogue: 1,0:05:23.83,0:05:28.63,Caption,,0,0,0,,Lisa Hack described more than a hundred\Ninterviews during her six years
+Dialogue: 1,0:05:28.71,0:05:29.59,Caption,,0,0,0,,working on the case.
+Dialogue: 1,0:05:30.73,0:05:33.15,Caption,,0,0,0,,She said the files filled seventy volumes.
+Dialogue: 1,0:05:33.87,0:05:38.78,Caption,,0,0,0,,The FBI had also put up billboards around\NCleveland and in neighboring states,
+Dialogue: 1,0:05:39.48,0:05:41.04,Caption,,0,0,0,,asking again for information.
+Dialogue: 1,0:05:41.90,0:05:44.96,Caption,,0,0,0,,Those were accounts of continuing work,\Nnot a solved case.
+Dialogue: 1,0:05:46.22,0:05:51.52,Caption,,0,0,0,,In 2021, Bay Village Sergeant Edward\NChapman described a further
+Dialogue: 1,0:05:51.58,0:05:53.16,Caption,,0,0,0,,reason for examining the curtain.
+Dialogue: 1,0:05:54.17,0:05:58.05,Caption,,0,0,0,,He told News 5 that testing had identified\NAmy's hair on it.
+Dialogue: 1,0:05:59.03,0:06:04.41,Caption,,0,0,0,,Investigators again asked whether anyone\Nrecognized the unusual, apparently
+Dialogue: 1,0:06:04.47,0:06:05.55,Caption,,0,0,0,,handmade textile.
+Dialogue: 1,0:06:06.67,0:06:10.60,Caption,,0,0,0,,The new statement strengthened their\Npublic explanation for its relevance.
+Dialogue: 1,0:06:11.36,0:06:15.70,Caption,,0,0,0,,It did not supply a public account of\Nwhere the crime occurred or identify the
+Dialogue: 1,0:06:15.74,0:06:16.70,Caption,,0,0,0,,person responsible.
+Dialogue: 1,0:06:17.68,0:06:21.08,Caption,,0,0,0,,The next reported testing developments\Ninvolved Amy's clothing.
+Dialogue: 1,0:06:22.10,0:06:27.44,Caption,,0,0,0,,In 2024, police said retesting had\Ndetected male DNA, but the
+Dialogue: 1,0:06:27.50,0:06:30.08,Caption,,0,0,0,,amount was too small to create a profile.
+Dialogue: 1,0:06:31.10,0:06:36.45,Caption,,0,0,0,,That distinction matters: detecting\Nmaterial and producing a usable profile
+Dialogue: 1,0:06:36.85,0:06:37.89,Caption,,0,0,0,,were different outcomes.
+Dialogue: 1,0:06:39.05,0:06:43.51,Caption,,0,0,0,,Investigators were hoping that more\Nsensitive procedures might eventually
+Dialogue: 1,0:06:43.57,0:06:45.29,Caption,,0,0,0,,allow further work on the sample.
+Dialogue: 1,0:06:46.27,0:06:48.53,Caption,,0,0,0,,They had not announced an identification\Nfrom it.
+Dialogue: 1,0:06:49.43,0:06:51.63,Caption,,0,0,0,,Another round of work involved separate\Nhairs.
+Dialogue: 1,0:06:52.87,0:06:57.90,Caption,,0,0,0,,News 5 reported that an FBI laboratory had\Nnoticed hairs on evidence slides
+Dialogue: 1,0:06:58.36,0:07:00.86,Caption,,0,0,0,,previously thought to contain clothing\Nfibers.
+Dialogue: 1,0:07:01.76,0:07:05.08,Caption,,0,0,0,,They were sent to a private laboratory in\NCalifornia for testing.
+Dialogue: 1,0:07:06.12,0:07:10.06,Caption,,0,0,0,,Chapman cautioned that the hairs did not\Nnecessarily belong to the person
+Dialogue: 1,0:07:10.12,0:07:14.59,Caption,,0,0,0,,responsible, and that contamination was\Npossible after years of handling.
+Dialogue: 1,0:07:15.57,0:07:19.33,Caption,,0,0,0,,These were separate from the small DNA\Nsample on Amy's clothing.
+Dialogue: 1,0:07:20.37,0:07:25.45,Caption,,0,0,0,,In January 2026, Cleveland 19 reported a\Nsetback in that hair
+Dialogue: 1,0:07:25.49,0:07:25.91,Caption,,0,0,0,,testing.
+Dialogue: 1,0:07:26.95,0:07:31.92,Caption,,0,0,0,,Detective Sergeant Jay Elish said Astrea\NForensics could not obtain a
+Dialogue: 1,0:07:31.98,0:07:34.06,Caption,,0,0,0,,profile from the submitted hairs.
+Dialogue: 1,0:07:35.06,0:07:38.38,Caption,,0,0,0,,The material was likely too small or too\Ndegraded.
+Dialogue: 1,0:07:39.48,0:07:44.26,Caption,,0,0,0,,Investigators were continuing with DNA\Nwork, but this particular effort had
+Dialogue: 1,0:07:44.36,0:07:46.05,Caption,,0,0,0,,not produced the result they wanted.
+Dialogue: 1,0:07:46.93,0:07:51.89,Caption,,0,0,0,,That outcome concerned the hairs; it did\Nnot erase the separate clothing-DNA
+Dialogue: 1,0:07:51.95,0:07:52.31,Caption,,0,0,0,,finding.
+Dialogue: 1,0:07:53.39,0:07:58.75,Caption,,0,0,0,,By June, Police Chief Robert Gillespie was\Ndescribing the resources needed to
+Dialogue: 1,0:07:58.81,0:07:59.95,Caption,,0,0,0,,keep testing evidence.
+Dialogue: 1,0:08:00.97,0:08:05.72,Caption,,0,0,0,,He told Cleveland 19 that work was\Ncontinuing, although he could not discuss
+Dialogue: 1,0:08:05.98,0:08:07.28,Caption,,0,0,0,,every item being tested.
+Dialogue: 1,0:08:08.34,0:08:13.46,Caption,,0,0,0,,He explained that the Amy Fund\Nsupplemented other funding so\Ninvestigators
+Dialogue: 1,0:08:13.52,0:08:16.52,Caption,,0,0,0,,could respond when testing opportunities\Narose.
+Dialogue: 1,0:08:17.78,0:08:22.42,Caption,,0,0,0,,Bay Village's own community announcement\Nalso describes the fund as supporting
+Dialogue: 1,0:08:22.50,0:08:25.59,Caption,,0,0,0,,investigative costs, including DNA\Ntesting.
+Dialogue: 1,0:08:26.69,0:08:30.67,Caption,,0,0,0,,Financial support helps that work\Ncontinue; it is not a test result.
+Dialogue: 1,0:08:31.85,0:08:37.25,Caption,,0,0,0,,As of our October 16, 2026 source check,\NBay Village's public case
+Dialogue: 1,0:08:37.31,0:08:40.23,Caption,,0,0,0,,page describes the investigation as\Nongoing.
+Dialogue: 1,0:08:41.17,0:08:44.51,Caption,,0,0,0,,Police still ask for help identifying the\Ncurtain and blanket.
+Dialogue: 1,0:08:45.40,0:08:49.68,Caption,,0,0,0,,The FBI continues to offer a reward of up\Nto twenty-five thousand dollars for
+Dialogue: 1,0:08:49.72,0:08:54.26,Caption,,0,0,0,,information leading to the arrest and\Nconviction of those responsible for
+Dialogue: 1,0:08:54.38,0:08:54.96,Caption,,0,0,0,,Amy's death.
+Dialogue: 1,0:08:56.04,0:09:01.12,Caption,,0,0,0,,These remain public requests for\Ninformation, with the case unresolved in\Nthe
+Dialogue: 1,0:09:01.18,0:09:01.98,Caption,,0,0,0,,sources reviewed.
+Dialogue: 1,0:09:03.06,0:09:07.38,Caption,,0,0,0,,For Amy's family, those records sit\Nalongside memories of a child.
+Dialogue: 1,0:09:08.26,0:09:12.33,Caption,,0,0,0,,In the thirty-year interview, her father\Ndescribed still thinking about her
+Dialogue: 1,0:09:12.41,0:09:13.39,Caption,,0,0,0,,several times a week.
+Dialogue: 1,0:09:14.29,0:09:19.51,Caption,,0,0,0,,The bicycle, the time with Jake, the\Nthings she enjoyed: those belong to
+Dialogue: 1,0:09:19.63,0:09:22.46,Caption,,0,0,0,,Amy's life, beyond the evidence left\Nbehind.
+Dialogue: 1,0:09:23.60,0:09:25.02,Caption,,0,0,0,,Amy is a daughter and a sister.
+Dialogue: 1,0:09:25.72,0:09:30.16,Caption,,0,0,0,,The public appeal remains open, and the\Neffort to find answers continues.
+Dialogue: 0,0:00:00.00,0:00:13.50,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:00:13.50,0:00:27.07,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:00:27.07,0:00:33.63,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:00:33.63,0:00:44.73,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:01:10.53,0:01:20.43,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:01:38.07,0:01:49.60,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:01:56.20,0:02:06.80,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:06.80,0:02:15.30,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:15.30,0:02:22.47,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:22.47,0:02:30.40,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:30.40,0:02:44.57,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:44.57,0:02:53.20,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:53.20,0:02:58.03,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:02:58.03,0:03:08.60,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:03:08.60,0:03:20.47,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:03:20.47,0:03:32.13,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:04:00.60,0:04:13.90,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:04:28.93,0:04:42.27,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:04:42.27,0:04:54.57,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:04:54.57,0:05:04.10,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:04.10,0:05:12.03,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:12.03,0:05:17.90,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:17.90,0:05:30.17,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:30.17,0:05:41.47,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:41.47,0:05:45.60,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:05:58.53,0:06:10.97,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:06:38.47,0:06:48.97,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:06:48.97,0:06:52.27,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:06:52.27,0:07:01.30,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:07:15.07,0:07:19.87,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:07:34.57,0:07:38.93,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:07:38.93,0:07:46.50,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:07:52.87,0:08:07.80,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:08:07.80,0:08:17.17,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:08:17.17,0:08:31.27,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:08:44.97,0:08:55.50,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:09:02.53,0:09:13.83,Label,,0,0,0,,Illustrative footage
+Dialogue: 0,0:09:13.83,0:09:25.37,Label,,0,0,0,,Illustrative footage

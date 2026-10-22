@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-22T02:07:15.540415+00:00",
+  "source": "Authenticated read-only official ElevenLabs GET voice using existing connector credential; credential not saved or printed",
+  "voice_id": "nPpkc230TdYdntJKFNby",
+  "name": "Mia - Clear & Emotive Female Narrator ",
+  "category": "professional",
+  "sharing": {
+    "status": "copied",
+    "financial_rewards_enabled": false,
+    "rate": 1.0,
+    "notice_period": 730,
+    "disable_at_unix": null,
+    "review_status": "not_requested",
+    "enabled_in_library": false
+  },
+  "price_related_fields": {},
+  "sharing_price_related_fields": {
+    "rate": 1.0,
+    "fiat_rate": null
+  }
+}

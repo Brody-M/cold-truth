@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-10-22T04:07:48.203Z",
+  "reason": "The nominal1920x1080 CDN link actually served1280x720. getVideo reconfirmed variants; one bounded higher-resolution variant will be verified rather than using mislabeled footage.",
+  "provider_id": 6229611,
+  "url": "https://www.pexels.com/video/person-turning-door-signage-6229611/",
+  "creator": {
+    "id": 3041476,
+    "name": "Bonus Studio",
+    "url": "https://www.pexels.com/@bonus-studio-3041476"
+  },
+  "selected_file": {
+    "id": 10029685,
+    "quality": "uhd",
+    "file_type": "video/mp4",
+    "width": 2560,
+    "height": 1440,
+    "fps": 25,
+    "link": "https://videos.pexels.com/video-files/6229611/6229611-uhd_2560_1440_25fps.mp4",
+    "size": 18879110
+  },
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6229611_revision05_1440p.mp4",
+  "maximum_bytes": 25165824,
+  "automatic_retry": false,
+  "paid_spending": 0,
+  "combined_revision_cap_bytes": 786432000
+}

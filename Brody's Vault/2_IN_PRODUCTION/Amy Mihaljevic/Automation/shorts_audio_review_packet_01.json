@@ -1,0 +1,185 @@
+{
+  "schema_version": "cold_truth.short_audio_timing_review_packet.v1",
+  "prepared_at_utc": "2026-10-22T02:35:40.816445+00:00",
+  "scope": "Actual full playback of each exact processed Short audio and synchronization against matching machine word timings",
+  "entries": [
+    {
+      "id": 1,
+      "title": "The arranged meeting",
+      "case_id": "amy-mihaljevic-short-01",
+      "audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+        "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+        "bytes": 5898342
+      },
+      "preview": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.mp3",
+        "sha256": "1efa96a7aedc13c85a87898507e0650aa9c9defb0ed6415a1ee543b39703f178",
+        "bytes": 1071482
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+        "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+        "bytes": 2253
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+        "bytes": 3203
+      },
+      "timing_draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/alignment_draft.json",
+        "sha256": "7f310cca78ea1d8af03c19b84a94b2b33103aba5f1ac13d2e6b625b9eac1f1f5",
+        "bytes": 28718
+      },
+      "processing": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+        "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7",
+        "bytes": 9220
+      },
+      "pending_qa": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_qa_01.json",
+        "sha256": "04964849590da29483e4e02888d89994470b04b2f1a74d14546da763e9437eab",
+        "bytes": 1223
+      },
+      "duration_seconds": 44.582312925170065,
+      "lufs": -31.17,
+      "true_peak": -19.99,
+      "low_confidence_words": [
+        {
+          "index": 25,
+          "word": "1989,",
+          "start": 10.305,
+          "end": 11.786,
+          "score": 0.419
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The unrecovered belongings",
+      "case_id": "amy-mihaljevic-short-02",
+      "audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+        "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+        "bytes": 5511270
+      },
+      "preview": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.mp3",
+        "sha256": "f517ab037528d698425c30813b118762b2703db574f3bf78cf553e22f09146be",
+        "bytes": 1001265
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+        "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+        "bytes": 2327
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1",
+        "bytes": 3217
+      },
+      "timing_draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/alignment_draft.json",
+        "sha256": "5715624734dda849b67e730175f33d4077ae05b4aadaa9df2b78d1382609017b",
+        "bytes": 27763
+      },
+      "processing": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_processing_01.json",
+        "sha256": "9794a6e3282677b116e33190b491bd309e9be2d9adab01545db32709caf2bea5",
+        "bytes": 9257
+      },
+      "pending_qa": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_qa_01.json",
+        "sha256": "62718e4974150b1110cce6ebdb7faa83eb960525d1523f85af932be79880cc7f",
+        "bytes": 1229
+      },
+      "duration_seconds": 41.65659863945578,
+      "lufs": -31.21,
+      "true_peak": -19.99,
+      "low_confidence_words": [
+        {
+          "index": 70,
+          "word": "a",
+          "start": 30.492,
+          "end": 30.532,
+          "score": 0.483
+        },
+        {
+          "index": 79,
+          "word": "a",
+          "start": 34.094,
+          "end": 34.134,
+          "score": 0.493
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Two different testing results",
+      "case_id": "amy-mihaljevic-short-03",
+      "audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+        "sha256": "e68da3e3dc2a9215d67173e826349ac92e32657b8f3f4d4a2c620ede04cbdbd0",
+        "bytes": 6549606
+      },
+      "preview": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.mp3",
+        "sha256": "cf67e1f2893c662c2e2d68e374a7220578df084ee0825c47da2751e4bcdf6104",
+        "bytes": 1189973
+      },
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+        "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+        "bytes": 2467
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "f41db7334ee7cec2fce8b82cd0e17166594f642c9ea8e5b1d235f7aef6e0ac0d",
+        "bytes": 3266
+      },
+      "timing_draft": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/alignment_draft.json",
+        "sha256": "f50f396e402cfcd2b55371eca9b3ed9d472ed3ce3297b436b6910a1d3699fbd7",
+        "bytes": 28262
+      },
+      "processing": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_processing_01.json",
+        "sha256": "1ae25050665ecb22626cc07f15a18b559d4381566380e335a50452e5c6d45c52",
+        "bytes": 9391
+      },
+      "pending_qa": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_qa_01.json",
+        "sha256": "28b3be1bea98d7e4b00a922c7f9136e5b0796498381dec04a10d335d996ba6e5",
+        "bytes": 1250
+      },
+      "duration_seconds": 49.504943310657595,
+      "lufs": -31.34,
+      "true_peak": -19.96,
+      "low_confidence_words": [
+        {
+          "index": 21,
+          "word": "In",
+          "start": 10.465,
+          "end": 10.865,
+          "score": 0.426
+        }
+      ]
+    }
+  ],
+  "review_player": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.html",
+    "sha256": "596ca0690ef3f14ad54d0043e067ce7f5f45347f9e8b819150a64a2189d20718",
+    "bytes": 22484
+  },
+  "human_entry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md",
+    "sha256": "7829f90192a421ae9854e99be9583bf96aca3a2932416942f25bad57971c240c",
+    "bytes": 2385
+  },
+  "actual_credits_used": 399,
+  "remaining_credits": 7818,
+  "human_approved": false,
+  "new_generation_attempts_remaining": 0,
+  "short_video_assembly_allowed": false
+}

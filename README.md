@@ -36,6 +36,10 @@ The system is built around a few simple principles:
 
 ## Explore the project
 
+- [Start here in Obsidian](<Brody's Vault/00_START_HERE.md>) — ordered home, current tasks and a native workflow canvas.
+- [Maintained execution plan](<Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md>) — revision 2.1, ordered milestones and the no-deadline timeline chosen October 16.
+- [Current assessment](<Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md>) — actual editorial/engineering status and navigation verification.
+
 - [Architecture guide](docs/ARCHITECTURE.md) — a map of the vault, control plane, contracts, and safety boundaries.
 - [Editorial workflow](docs/CONTENT_WORKFLOW.md) — the path from a research package to an approved production plan.
 - [Testing guide](docs/TESTING.md) — safe local checks and the scope of the fixture suite.

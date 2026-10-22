@@ -1,0 +1,75 @@
+{
+  "schema_version": "cold_truth.phase_2_narration_approval.v1",
+  "approval_id": "amy-phase2-narration-attempt01-2026-10-20",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-20",
+  "recorded_at_utc": "2026-10-20T21:41:04.255654+00:00",
+  "user_quote": "Authorize this one narration attempt",
+  "decision_context": "Explicit reply to the narration-only Phase 2 question in this chat: one Mia request for the approved script, capped at 8,000 existing credits, no extra spending or automatic retry; visual production and publishing separate.",
+  "scope": "One narration generation attempt only, subject to proposal pre-call balance/input/voice-rate checks; local copy, measurement and QA preparation permitted.",
+  "approved_proposal": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/narration_scope_proposal.json",
+    "sha256": "f98f9d1711a6c86af18f3e43e0faed60bd785d03183d963b072cbf1abbd55b7c",
+    "bytes": 2717
+  },
+  "case_id": "amy-mihaljevic",
+  "case_name": "Amy Mihaljevic",
+  "target_format": "youtube-longform",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json",
+    "sha256": "a83356765965d9baef5e1f6aabd19c6367798a4aa283ad411a1a37dc0cdd51f8",
+    "bytes": 2030
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "authorized_actions": [
+    "narration"
+  ],
+  "settings": {
+    "voice_id": "nPpkc230TdYdntJKFNby",
+    "model_id": "eleven_multilingual_v2",
+    "language": "en",
+    "stability": 0.72,
+    "similarity_boost": 0.76,
+    "style": 0.05,
+    "speed": 0.94,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_128"
+  },
+  "limits": {
+    "maximum_generation_attempts": 1,
+    "maximum_existing_provider_credits": 8000,
+    "additional_spend_allowed": false,
+    "automatic_retry_allowed": false,
+    "fallback_allowed": false,
+    "voice_or_model_change_allowed": false,
+    "verify_current_balance_input_limit_and_charge_multiplier_before_call": true,
+    "stop_if_cost_cannot_be_confirmed_within_ceiling": true
+  },
+  "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/provider_attempt_01",
+  "maximum_provider_output_files": 1,
+  "output_paths": [
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01.mp3"
+  ],
+  "excluded_actions": [
+    "visual_sourcing",
+    "alignment",
+    "assembly",
+    "render",
+    "upload",
+    "schedule",
+    "publish"
+  ],
+  "phase_2_narration_authorized": true,
+  "visual_production_authorized": false,
+  "publishing_authorized": false
+}

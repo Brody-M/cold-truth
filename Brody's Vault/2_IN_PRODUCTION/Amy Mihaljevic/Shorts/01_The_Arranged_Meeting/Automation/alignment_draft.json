@@ -1,0 +1,1339 @@
+{
+  "schema_version": "cold_truth.machine_short_alignment_draft.v1",
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "recorded_at_utc": "2026-10-22T02:29:53.456676+00:00",
+  "status": "MACHINE_DRAFT_AUDIO_AND_TIMING_HUMAN_REVIEW_PENDING",
+  "tool": "Existing WhisperX3.4.5 + cached torchaudio WAV2VEC2_ASR_BASE_960H, CPU2 threads, offline",
+  "bindings": {
+    "audio": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+      "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+      "bytes": 5898342
+    },
+    "script": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+      "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+      "bytes": 2253
+    },
+    "narration_text": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+      "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+      "bytes": 619
+    },
+    "script_approval": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+      "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+      "bytes": 2306
+    },
+    "audio_processing": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+      "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7",
+      "bytes": 9220
+    },
+    "phase_2_scope": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+      "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+      "bytes": 3203
+    }
+  },
+  "source_text": "A gift for her mother was the explanation Amy Mihaljevic was given for an after-school meeting.\n\nAmy was ten. Before she disappeared on October 27, 1989, a caller had contacted her about celebrating her mother’s promotion. Bay Village Police say that contact happened weeks earlier.\n\nThe FBI says Amy walked from school to Bay Village Square in Ohio, where she was seen apparently waiting outside a business. Police describe witnesses seeing her speak with an unidentified man and walk through the parking lot with him.\n\nNo vehicle was seen, according to police. That sighting does not establish where Amy went next.\n",
+  "duration_seconds": 44.582312925170065,
+  "segments": [
+    {
+      "start": 0.08,
+      "end": 6.383,
+      "text": "A gift for her mother was the explanation Amy Mihaljevic was given for an after-school meeting.",
+      "words": [
+        {
+          "word": "A",
+          "start": 0.08,
+          "end": 0.14,
+          "score": 0.688
+        },
+        {
+          "word": "gift",
+          "start": 0.18,
+          "end": 0.38,
+          "score": 0.97
+        },
+        {
+          "word": "for",
+          "start": 0.42,
+          "end": 0.52,
+          "score": 0.999
+        },
+        {
+          "word": "her",
+          "start": 0.56,
+          "end": 0.68,
+          "score": 0.701
+        },
+        {
+          "word": "mother",
+          "start": 0.72,
+          "end": 0.98,
+          "score": 0.819
+        },
+        {
+          "word": "was",
+          "start": 1.041,
+          "end": 1.161,
+          "score": 0.692
+        },
+        {
+          "word": "the",
+          "start": 1.201,
+          "end": 1.281,
+          "score": 0.836
+        },
+        {
+          "word": "explanation",
+          "start": 1.361,
+          "end": 2.021,
+          "score": 0.886
+        },
+        {
+          "word": "Amy",
+          "start": 2.321,
+          "end": 2.501,
+          "score": 0.917
+        },
+        {
+          "word": "Mihaljevic",
+          "start": 2.541,
+          "end": 3.242,
+          "score": 0.836
+        },
+        {
+          "word": "was",
+          "start": 3.302,
+          "end": 3.422,
+          "score": 0.713
+        },
+        {
+          "word": "given",
+          "start": 3.482,
+          "end": 3.782,
+          "score": 0.823
+        },
+        {
+          "word": "for",
+          "start": 4.282,
+          "end": 4.402,
+          "score": 0.864
+        },
+        {
+          "word": "an",
+          "start": 4.422,
+          "end": 4.482,
+          "score": 0.756
+        },
+        {
+          "word": "after-school",
+          "start": 4.622,
+          "end": 5.163,
+          "score": 0.858
+        },
+        {
+          "word": "meeting.",
+          "start": 5.183,
+          "end": 6.383,
+          "score": 0.97
+        }
+      ]
+    },
+    {
+      "start": 6.403,
+      "end": 7.144,
+      "text": "Amy was ten.",
+      "words": [
+        {
+          "word": "Amy",
+          "start": 6.403,
+          "end": 6.603,
+          "score": 0.968
+        },
+        {
+          "word": "was",
+          "start": 6.663,
+          "end": 6.783,
+          "score": 0.789
+        },
+        {
+          "word": "ten.",
+          "start": 6.843,
+          "end": 7.144,
+          "score": 0.84
+        }
+      ]
+    },
+    {
+      "start": 8.084,
+      "end": 16.548,
+      "text": "Before she disappeared on October 27, 1989, a caller had contacted her about celebrating her mother’s promotion.",
+      "words": [
+        {
+          "word": "Before",
+          "start": 8.084,
+          "end": 8.464,
+          "score": 0.739
+        },
+        {
+          "word": "she",
+          "start": 8.504,
+          "end": 8.644,
+          "score": 0.71
+        },
+        {
+          "word": "disappeared",
+          "start": 8.684,
+          "end": 9.305,
+          "score": 0.738
+        },
+        {
+          "word": "on",
+          "start": 9.445,
+          "end": 9.505,
+          "score": 0.986
+        },
+        {
+          "word": "October",
+          "start": 9.585,
+          "end": 9.965,
+          "score": 0.853
+        },
+        {
+          "word": "27,",
+          "start": 10.105,
+          "end": 10.245,
+          "score": 0.845
+        },
+        {
+          "word": "1989,",
+          "start": 10.305,
+          "end": 11.786,
+          "score": 0.419
+        },
+        {
+          "word": "a",
+          "start": 12.466,
+          "end": 12.506,
+          "score": 0.996
+        },
+        {
+          "word": "caller",
+          "start": 12.586,
+          "end": 12.966,
+          "score": 0.864
+        },
+        {
+          "word": "had",
+          "start": 12.986,
+          "end": 13.107,
+          "score": 0.668
+        },
+        {
+          "word": "contacted",
+          "start": 13.147,
+          "end": 13.767,
+          "score": 0.832
+        },
+        {
+          "word": "her",
+          "start": 13.807,
+          "end": 13.967,
+          "score": 0.782
+        },
+        {
+          "word": "about",
+          "start": 14.467,
+          "end": 14.687,
+          "score": 0.783
+        },
+        {
+          "word": "celebrating",
+          "start": 14.747,
+          "end": 15.388,
+          "score": 0.837
+        },
+        {
+          "word": "her",
+          "start": 15.448,
+          "end": 15.568,
+          "score": 0.845
+        },
+        {
+          "word": "mother’s",
+          "start": 15.628,
+          "end": 15.948,
+          "score": 0.876
+        },
+        {
+          "word": "promotion.",
+          "start": 16.008,
+          "end": 16.548,
+          "score": 0.903
+        }
+      ]
+    },
+    {
+      "start": 17.569,
+      "end": 20.91,
+      "text": "Bay Village Police say that contact happened weeks earlier.",
+      "words": [
+        {
+          "word": "Bay",
+          "start": 17.569,
+          "end": 17.789,
+          "score": 0.993
+        },
+        {
+          "word": "Village",
+          "start": 17.829,
+          "end": 18.169,
+          "score": 0.861
+        },
+        {
+          "word": "Police",
+          "start": 18.229,
+          "end": 18.589,
+          "score": 0.914
+        },
+        {
+          "word": "say",
+          "start": 18.649,
+          "end": 18.909,
+          "score": 0.909
+        },
+        {
+          "word": "that",
+          "start": 18.949,
+          "end": 19.09,
+          "score": 0.755
+        },
+        {
+          "word": "contact",
+          "start": 19.15,
+          "end": 19.67,
+          "score": 0.947
+        },
+        {
+          "word": "happened",
+          "start": 19.71,
+          "end": 20.09,
+          "score": 0.889
+        },
+        {
+          "word": "weeks",
+          "start": 20.17,
+          "end": 20.41,
+          "score": 0.79
+        },
+        {
+          "word": "earlier.",
+          "start": 20.51,
+          "end": 20.91,
+          "score": 0.762
+        }
+      ]
+    },
+    {
+      "start": 21.651,
+      "end": 29.335,
+      "text": "The FBI says Amy walked from school to Bay Village Square in Ohio, where she was seen apparently waiting outside a business.",
+      "words": [
+        {
+          "word": "The",
+          "start": 21.651,
+          "end": 21.771,
+          "score": 0.534
+        },
+        {
+          "word": "FBI",
+          "start": 21.911,
+          "end": 22.371,
+          "score": 0.772
+        },
+        {
+          "word": "says",
+          "start": 22.451,
+          "end": 22.711,
+          "score": 0.837
+        },
+        {
+          "word": "Amy",
+          "start": 22.911,
+          "end": 23.152,
+          "score": 0.868
+        },
+        {
+          "word": "walked",
+          "start": 23.232,
+          "end": 23.512,
+          "score": 0.787
+        },
+        {
+          "word": "from",
+          "start": 23.532,
+          "end": 23.692,
+          "score": 0.889
+        },
+        {
+          "word": "school",
+          "start": 23.772,
+          "end": 24.152,
+          "score": 0.557
+        },
+        {
+          "word": "to",
+          "start": 24.232,
+          "end": 24.352,
+          "score": 0.817
+        },
+        {
+          "word": "Bay",
+          "start": 24.392,
+          "end": 24.592,
+          "score": 0.972
+        },
+        {
+          "word": "Village",
+          "start": 24.632,
+          "end": 24.932,
+          "score": 0.842
+        },
+        {
+          "word": "Square",
+          "start": 24.972,
+          "end": 25.293,
+          "score": 0.714
+        },
+        {
+          "word": "in",
+          "start": 25.353,
+          "end": 25.413,
+          "score": 0.811
+        },
+        {
+          "word": "Ohio,",
+          "start": 25.473,
+          "end": 25.973,
+          "score": 0.906
+        },
+        {
+          "word": "where",
+          "start": 26.553,
+          "end": 26.733,
+          "score": 0.777
+        },
+        {
+          "word": "she",
+          "start": 26.793,
+          "end": 26.933,
+          "score": 0.741
+        },
+        {
+          "word": "was",
+          "start": 26.994,
+          "end": 27.114,
+          "score": 0.802
+        },
+        {
+          "word": "seen",
+          "start": 27.174,
+          "end": 27.434,
+          "score": 0.886
+        },
+        {
+          "word": "apparently",
+          "start": 27.514,
+          "end": 28.014,
+          "score": 0.837
+        },
+        {
+          "word": "waiting",
+          "start": 28.074,
+          "end": 28.354,
+          "score": 0.888
+        },
+        {
+          "word": "outside",
+          "start": 28.454,
+          "end": 28.814,
+          "score": 0.911
+        },
+        {
+          "word": "a",
+          "start": 28.854,
+          "end": 28.874,
+          "score": 0.933
+        },
+        {
+          "word": "business.",
+          "start": 28.914,
+          "end": 29.335,
+          "score": 0.992
+        }
+      ]
+    },
+    {
+      "start": 30.315,
+      "end": 36.898,
+      "text": "Police describe witnesses seeing her speak with an unidentified man and walk through the parking lot with him.",
+      "words": [
+        {
+          "word": "Police",
+          "start": 30.315,
+          "end": 30.655,
+          "score": 0.93
+        },
+        {
+          "word": "describe",
+          "start": 30.695,
+          "end": 31.156,
+          "score": 0.863
+        },
+        {
+          "word": "witnesses",
+          "start": 31.176,
+          "end": 31.796,
+          "score": 0.793
+        },
+        {
+          "word": "seeing",
+          "start": 32.256,
+          "end": 32.576,
+          "score": 0.84
+        },
+        {
+          "word": "her",
+          "start": 32.636,
+          "end": 32.776,
+          "score": 0.868
+        },
+        {
+          "word": "speak",
+          "start": 32.856,
+          "end": 33.177,
+          "score": 0.885
+        },
+        {
+          "word": "with",
+          "start": 33.217,
+          "end": 33.357,
+          "score": 0.64
+        },
+        {
+          "word": "an",
+          "start": 33.397,
+          "end": 33.457,
+          "score": 0.75
+        },
+        {
+          "word": "unidentified",
+          "start": 33.617,
+          "end": 34.317,
+          "score": 0.854
+        },
+        {
+          "word": "man",
+          "start": 34.377,
+          "end": 34.657,
+          "score": 0.758
+        },
+        {
+          "word": "and",
+          "start": 35.198,
+          "end": 35.298,
+          "score": 0.706
+        },
+        {
+          "word": "walk",
+          "start": 35.378,
+          "end": 35.618,
+          "score": 0.931
+        },
+        {
+          "word": "through",
+          "start": 35.658,
+          "end": 35.838,
+          "score": 0.865
+        },
+        {
+          "word": "the",
+          "start": 35.858,
+          "end": 35.938,
+          "score": 0.833
+        },
+        {
+          "word": "parking",
+          "start": 35.978,
+          "end": 36.318,
+          "score": 0.92
+        },
+        {
+          "word": "lot",
+          "start": 36.358,
+          "end": 36.538,
+          "score": 0.976
+        },
+        {
+          "word": "with",
+          "start": 36.578,
+          "end": 36.698,
+          "score": 0.876
+        },
+        {
+          "word": "him.",
+          "start": 36.758,
+          "end": 36.898,
+          "score": 0.983
+        }
+      ]
+    },
+    {
+      "start": 37.839,
+      "end": 40.14,
+      "text": "No vehicle was seen, according to police.",
+      "words": [
+        {
+          "word": "No",
+          "start": 37.839,
+          "end": 38.019,
+          "score": 0.864
+        },
+        {
+          "word": "vehicle",
+          "start": 38.059,
+          "end": 38.419,
+          "score": 0.693
+        },
+        {
+          "word": "was",
+          "start": 38.479,
+          "end": 38.579,
+          "score": 0.901
+        },
+        {
+          "word": "seen,",
+          "start": 38.639,
+          "end": 38.919,
+          "score": 0.922
+        },
+        {
+          "word": "according",
+          "start": 39.26,
+          "end": 39.6,
+          "score": 0.889
+        },
+        {
+          "word": "to",
+          "start": 39.64,
+          "end": 39.72,
+          "score": 0.78
+        },
+        {
+          "word": "police.",
+          "start": 39.78,
+          "end": 40.14,
+          "score": 0.957
+        }
+      ]
+    },
+    {
+      "start": 41.261,
+      "end": 44.102,
+      "text": "That sighting does not establish where Amy went next.",
+      "words": [
+        {
+          "word": "That",
+          "start": 41.261,
+          "end": 41.461,
+          "score": 0.917
+        },
+        {
+          "word": "sighting",
+          "start": 41.541,
+          "end": 41.941,
+          "score": 0.731
+        },
+        {
+          "word": "does",
+          "start": 42.001,
+          "end": 42.141,
+          "score": 0.871
+        },
+        {
+          "word": "not",
+          "start": 42.201,
+          "end": 42.361,
+          "score": 0.747
+        },
+        {
+          "word": "establish",
+          "start": 42.401,
+          "end": 43.022,
+          "score": 0.738
+        },
+        {
+          "word": "where",
+          "start": 43.062,
+          "end": 43.242,
+          "score": 0.766
+        },
+        {
+          "word": "Amy",
+          "start": 43.362,
+          "end": 43.582,
+          "score": 0.849
+        },
+        {
+          "word": "went",
+          "start": 43.622,
+          "end": 43.782,
+          "score": 0.913
+        },
+        {
+          "word": "next.",
+          "start": 43.822,
+          "end": 44.102,
+          "score": 0.959
+        }
+      ]
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "A",
+      "start": 0.08,
+      "end": 0.14,
+      "score": 0.688
+    },
+    {
+      "word": "gift",
+      "start": 0.18,
+      "end": 0.38,
+      "score": 0.97
+    },
+    {
+      "word": "for",
+      "start": 0.42,
+      "end": 0.52,
+      "score": 0.999
+    },
+    {
+      "word": "her",
+      "start": 0.56,
+      "end": 0.68,
+      "score": 0.701
+    },
+    {
+      "word": "mother",
+      "start": 0.72,
+      "end": 0.98,
+      "score": 0.819
+    },
+    {
+      "word": "was",
+      "start": 1.041,
+      "end": 1.161,
+      "score": 0.692
+    },
+    {
+      "word": "the",
+      "start": 1.201,
+      "end": 1.281,
+      "score": 0.836
+    },
+    {
+      "word": "explanation",
+      "start": 1.361,
+      "end": 2.021,
+      "score": 0.886
+    },
+    {
+      "word": "Amy",
+      "start": 2.321,
+      "end": 2.501,
+      "score": 0.917
+    },
+    {
+      "word": "Mihaljevic",
+      "start": 2.541,
+      "end": 3.242,
+      "score": 0.836
+    },
+    {
+      "word": "was",
+      "start": 3.302,
+      "end": 3.422,
+      "score": 0.713
+    },
+    {
+      "word": "given",
+      "start": 3.482,
+      "end": 3.782,
+      "score": 0.823
+    },
+    {
+      "word": "for",
+      "start": 4.282,
+      "end": 4.402,
+      "score": 0.864
+    },
+    {
+      "word": "an",
+      "start": 4.422,
+      "end": 4.482,
+      "score": 0.756
+    },
+    {
+      "word": "after-school",
+      "start": 4.622,
+      "end": 5.163,
+      "score": 0.858
+    },
+    {
+      "word": "meeting.",
+      "start": 5.183,
+      "end": 6.383,
+      "score": 0.97
+    },
+    {
+      "word": "Amy",
+      "start": 6.403,
+      "end": 6.603,
+      "score": 0.968
+    },
+    {
+      "word": "was",
+      "start": 6.663,
+      "end": 6.783,
+      "score": 0.789
+    },
+    {
+      "word": "ten.",
+      "start": 6.843,
+      "end": 7.144,
+      "score": 0.84
+    },
+    {
+      "word": "Before",
+      "start": 8.084,
+      "end": 8.464,
+      "score": 0.739
+    },
+    {
+      "word": "she",
+      "start": 8.504,
+      "end": 8.644,
+      "score": 0.71
+    },
+    {
+      "word": "disappeared",
+      "start": 8.684,
+      "end": 9.305,
+      "score": 0.738
+    },
+    {
+      "word": "on",
+      "start": 9.445,
+      "end": 9.505,
+      "score": 0.986
+    },
+    {
+      "word": "October",
+      "start": 9.585,
+      "end": 9.965,
+      "score": 0.853
+    },
+    {
+      "word": "27,",
+      "start": 10.105,
+      "end": 10.245,
+      "score": 0.845
+    },
+    {
+      "word": "1989,",
+      "start": 10.305,
+      "end": 11.786,
+      "score": 0.419
+    },
+    {
+      "word": "a",
+      "start": 12.466,
+      "end": 12.506,
+      "score": 0.996
+    },
+    {
+      "word": "caller",
+      "start": 12.586,
+      "end": 12.966,
+      "score": 0.864
+    },
+    {
+      "word": "had",
+      "start": 12.986,
+      "end": 13.107,
+      "score": 0.668
+    },
+    {
+      "word": "contacted",
+      "start": 13.147,
+      "end": 13.767,
+      "score": 0.832
+    },
+    {
+      "word": "her",
+      "start": 13.807,
+      "end": 13.967,
+      "score": 0.782
+    },
+    {
+      "word": "about",
+      "start": 14.467,
+      "end": 14.687,
+      "score": 0.783
+    },
+    {
+      "word": "celebrating",
+      "start": 14.747,
+      "end": 15.388,
+      "score": 0.837
+    },
+    {
+      "word": "her",
+      "start": 15.448,
+      "end": 15.568,
+      "score": 0.845
+    },
+    {
+      "word": "mother’s",
+      "start": 15.628,
+      "end": 15.948,
+      "score": 0.876
+    },
+    {
+      "word": "promotion.",
+      "start": 16.008,
+      "end": 16.548,
+      "score": 0.903
+    },
+    {
+      "word": "Bay",
+      "start": 17.569,
+      "end": 17.789,
+      "score": 0.993
+    },
+    {
+      "word": "Village",
+      "start": 17.829,
+      "end": 18.169,
+      "score": 0.861
+    },
+    {
+      "word": "Police",
+      "start": 18.229,
+      "end": 18.589,
+      "score": 0.914
+    },
+    {
+      "word": "say",
+      "start": 18.649,
+      "end": 18.909,
+      "score": 0.909
+    },
+    {
+      "word": "that",
+      "start": 18.949,
+      "end": 19.09,
+      "score": 0.755
+    },
+    {
+      "word": "contact",
+      "start": 19.15,
+      "end": 19.67,
+      "score": 0.947
+    },
+    {
+      "word": "happened",
+      "start": 19.71,
+      "end": 20.09,
+      "score": 0.889
+    },
+    {
+      "word": "weeks",
+      "start": 20.17,
+      "end": 20.41,
+      "score": 0.79
+    },
+    {
+      "word": "earlier.",
+      "start": 20.51,
+      "end": 20.91,
+      "score": 0.762
+    },
+    {
+      "word": "The",
+      "start": 21.651,
+      "end": 21.771,
+      "score": 0.534
+    },
+    {
+      "word": "FBI",
+      "start": 21.911,
+      "end": 22.371,
+      "score": 0.772
+    },
+    {
+      "word": "says",
+      "start": 22.451,
+      "end": 22.711,
+      "score": 0.837
+    },
+    {
+      "word": "Amy",
+      "start": 22.911,
+      "end": 23.152,
+      "score": 0.868
+    },
+    {
+      "word": "walked",
+      "start": 23.232,
+      "end": 23.512,
+      "score": 0.787
+    },
+    {
+      "word": "from",
+      "start": 23.532,
+      "end": 23.692,
+      "score": 0.889
+    },
+    {
+      "word": "school",
+      "start": 23.772,
+      "end": 24.152,
+      "score": 0.557
+    },
+    {
+      "word": "to",
+      "start": 24.232,
+      "end": 24.352,
+      "score": 0.817
+    },
+    {
+      "word": "Bay",
+      "start": 24.392,
+      "end": 24.592,
+      "score": 0.972
+    },
+    {
+      "word": "Village",
+      "start": 24.632,
+      "end": 24.932,
+      "score": 0.842
+    },
+    {
+      "word": "Square",
+      "start": 24.972,
+      "end": 25.293,
+      "score": 0.714
+    },
+    {
+      "word": "in",
+      "start": 25.353,
+      "end": 25.413,
+      "score": 0.811
+    },
+    {
+      "word": "Ohio,",
+      "start": 25.473,
+      "end": 25.973,
+      "score": 0.906
+    },
+    {
+      "word": "where",
+      "start": 26.553,
+      "end": 26.733,
+      "score": 0.777
+    },
+    {
+      "word": "she",
+      "start": 26.793,
+      "end": 26.933,
+      "score": 0.741
+    },
+    {
+      "word": "was",
+      "start": 26.994,
+      "end": 27.114,
+      "score": 0.802
+    },
+    {
+      "word": "seen",
+      "start": 27.174,
+      "end": 27.434,
+      "score": 0.886
+    },
+    {
+      "word": "apparently",
+      "start": 27.514,
+      "end": 28.014,
+      "score": 0.837
+    },
+    {
+      "word": "waiting",
+      "start": 28.074,
+      "end": 28.354,
+      "score": 0.888
+    },
+    {
+      "word": "outside",
+      "start": 28.454,
+      "end": 28.814,
+      "score": 0.911
+    },
+    {
+      "word": "a",
+      "start": 28.854,
+      "end": 28.874,
+      "score": 0.933
+    },
+    {
+      "word": "business.",
+      "start": 28.914,
+      "end": 29.335,
+      "score": 0.992
+    },
+    {
+      "word": "Police",
+      "start": 30.315,
+      "end": 30.655,
+      "score": 0.93
+    },
+    {
+      "word": "describe",
+      "start": 30.695,
+      "end": 31.156,
+      "score": 0.863
+    },
+    {
+      "word": "witnesses",
+      "start": 31.176,
+      "end": 31.796,
+      "score": 0.793
+    },
+    {
+      "word": "seeing",
+      "start": 32.256,
+      "end": 32.576,
+      "score": 0.84
+    },
+    {
+      "word": "her",
+      "start": 32.636,
+      "end": 32.776,
+      "score": 0.868
+    },
+    {
+      "word": "speak",
+      "start": 32.856,
+      "end": 33.177,
+      "score": 0.885
+    },
+    {
+      "word": "with",
+      "start": 33.217,
+      "end": 33.357,
+      "score": 0.64
+    },
+    {
+      "word": "an",
+      "start": 33.397,
+      "end": 33.457,
+      "score": 0.75
+    },
+    {
+      "word": "unidentified",
+      "start": 33.617,
+      "end": 34.317,
+      "score": 0.854
+    },
+    {
+      "word": "man",
+      "start": 34.377,
+      "end": 34.657,
+      "score": 0.758
+    },
+    {
+      "word": "and",
+      "start": 35.198,
+      "end": 35.298,
+      "score": 0.706
+    },
+    {
+      "word": "walk",
+      "start": 35.378,
+      "end": 35.618,
+      "score": 0.931
+    },
+    {
+      "word": "through",
+      "start": 35.658,
+      "end": 35.838,
+      "score": 0.865
+    },
+    {
+      "word": "the",
+      "start": 35.858,
+      "end": 35.938,
+      "score": 0.833
+    },
+    {
+      "word": "parking",
+      "start": 35.978,
+      "end": 36.318,
+      "score": 0.92
+    },
+    {
+      "word": "lot",
+      "start": 36.358,
+      "end": 36.538,
+      "score": 0.976
+    },
+    {
+      "word": "with",
+      "start": 36.578,
+      "end": 36.698,
+      "score": 0.876
+    },
+    {
+      "word": "him.",
+      "start": 36.758,
+      "end": 36.898,
+      "score": 0.983
+    },
+    {
+      "word": "No",
+      "start": 37.839,
+      "end": 38.019,
+      "score": 0.864
+    },
+    {
+      "word": "vehicle",
+      "start": 38.059,
+      "end": 38.419,
+      "score": 0.693
+    },
+    {
+      "word": "was",
+      "start": 38.479,
+      "end": 38.579,
+      "score": 0.901
+    },
+    {
+      "word": "seen,",
+      "start": 38.639,
+      "end": 38.919,
+      "score": 0.922
+    },
+    {
+      "word": "according",
+      "start": 39.26,
+      "end": 39.6,
+      "score": 0.889
+    },
+    {
+      "word": "to",
+      "start": 39.64,
+      "end": 39.72,
+      "score": 0.78
+    },
+    {
+      "word": "police.",
+      "start": 39.78,
+      "end": 40.14,
+      "score": 0.957
+    },
+    {
+      "word": "That",
+      "start": 41.261,
+      "end": 41.461,
+      "score": 0.917
+    },
+    {
+      "word": "sighting",
+      "start": 41.541,
+      "end": 41.941,
+      "score": 0.731
+    },
+    {
+      "word": "does",
+      "start": 42.001,
+      "end": 42.141,
+      "score": 0.871
+    },
+    {
+      "word": "not",
+      "start": 42.201,
+      "end": 42.361,
+      "score": 0.747
+    },
+    {
+      "word": "establish",
+      "start": 42.401,
+      "end": 43.022,
+      "score": 0.738
+    },
+    {
+      "word": "where",
+      "start": 43.062,
+      "end": 43.242,
+      "score": 0.766
+    },
+    {
+      "word": "Amy",
+      "start": 43.362,
+      "end": 43.582,
+      "score": 0.849
+    },
+    {
+      "word": "went",
+      "start": 43.622,
+      "end": 43.782,
+      "score": 0.913
+    },
+    {
+      "word": "next.",
+      "start": 43.822,
+      "end": 44.102,
+      "score": 0.959
+    }
+  ],
+  "qa": {
+    "approved_word_sequence_preserved": true,
+    "source_words": 102,
+    "timed_words": 101,
+    "invalid_word_indices": [],
+    "low_confidence_words": [
+      {
+        "index": 25,
+        "word": "1989,",
+        "start": 10.305,
+        "end": 11.786,
+        "score": 0.419
+      }
+    ],
+    "human_review_required": true
+  },
+  "human_audio_approved": false,
+  "timing_review": {
+    "human_approved": false,
+    "full_listen_passed": false
+  },
+  "narration_requests": 0,
+  "model_downloads": 0,
+  "network_connections_permitted": false,
+  "assembly_allowed": false
+}

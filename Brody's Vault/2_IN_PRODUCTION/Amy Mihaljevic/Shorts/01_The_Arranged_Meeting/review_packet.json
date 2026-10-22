@@ -1,0 +1,49 @@
+{
+  "schema_version": "cold_truth.script_review_packet.v1",
+  "review_id": "amy-mihaljevic-short-01-review-2026-10-21-v1",
+  "case_id": "amy-mihaljevic-short-01",
+  "parent_case_id": "amy-mihaljevic",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Draft.md",
+    "bytes": 2161,
+    "sha256": "b3f5ba0f2e436c3e8abf649051b0f513dc8471732473e5d3994383e1369ac52b"
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Reverse_Outline.md",
+    "bytes": 1650,
+    "sha256": "18d3419a829754a0207c06725203ef4365a7ac653616a24cc2b97c8dc2ba10d8"
+  },
+  "supporting_inputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "bytes": 9858,
+      "sha256": "7ebe62ec7e0b6a5da94ce8738d16613846367d28d184af6802c9533ba7b7a48b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "bytes": 7269,
+      "sha256": "b475ffac1691ea0a113c7ffcd0d9e718915b596d6804c24afacfc0af0d955bbc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_source_check_2026_10_21.json",
+      "bytes": 1111,
+      "sha256": "9ab398b3688a70a1224d6a5509c7693a25a579606eab3aa98b8d5de27505f9d4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "bytes": 10247,
+      "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5"
+    }
+  ],
+  "human_approved": false,
+  "script_final_created": false,
+  "spoken_word_count": 102,
+  "estimated_duration_seconds": [
+    37.09,
+    45.33
+  ],
+  "estimated_duration_is_not_preflight": true,
+  "visual_track": "separately_licensed_orbital_gameplay_only",
+  "new_generation_calls": 0
+}

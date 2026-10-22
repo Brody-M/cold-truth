@@ -1,0 +1,81 @@
+{
+  "schema_version": "cold_truth.direct_narration_receipt.v1",
+  "entries": [
+    {
+      "event_id": "amy-mihaljevic-short-01-narration-attempt-01",
+      "case_id": "amy-mihaljevic-short-01",
+      "target_format": "shorts",
+      "script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+        "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+        "bytes": 2253
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+        "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+        "bytes": 619
+      },
+      "phase_2_scope": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+        "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+        "bytes": 3203
+      },
+      "tool": "mcp__elevenlabs__text_to_speech + authorized local accepted audio treatment",
+      "recorded_at_utc": "2026-10-22T02:20:57.966550+00:00",
+      "settings": {
+        "voice_id": "nPpkc230TdYdntJKFNby",
+        "model_id": "eleven_multilingual_v2",
+        "language": "en",
+        "stability": 0.72,
+        "similarity_boost": 0.76,
+        "style": 0.05,
+        "speed": 1.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3_44100_128"
+      },
+      "outputs": [
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01.mp3",
+          "sha256": "ccf5711533bfda85f4d7a52bc3e6f02ffebfce4a52d12a68c25fe3a379d01b80",
+          "bytes": 714335
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.mp3",
+          "sha256": "1efa96a7aedc13c85a87898507e0650aa9c9defb0ed6415a1ee543b39703f178",
+          "bytes": 1071482
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+          "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+          "bytes": 5898342
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/processing_work_01/stage_1.wav",
+          "sha256": "ed7a1e17a1acb937884aabe6e003321f9fcd450468912d2fed0aa65e76515691",
+          "bytes": 5898342
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/processing_work_01/stage_2.wav",
+          "sha256": "c85e6dc0380ab9f28444fa49acf9f44add916b5a6014aef9b202d35c604d9c72",
+          "bytes": 5898342
+        },
+        {
+          "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/provider_attempt_01/tts_A_gif_20261021_222058.mp3",
+          "sha256": "ccf5711533bfda85f4d7a52bc3e6f02ffebfce4a52d12a68c25fe3a379d01b80",
+          "bytes": 714335
+        }
+      ],
+      "billing": {
+        "before": 1783,
+        "after": 1919,
+        "actual_credits_used": 136,
+        "source": "Connector check_subscription immediately after request01"
+      },
+      "processing_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+        "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7",
+        "bytes": 9220
+      }
+    }
+  ]
+}

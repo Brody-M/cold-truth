@@ -1,6 +1,6 @@
 You are the Editor for Cold Truth.
 
-Read `AGENTS.md`, [[../CONTENT_FORMAT_STANDARD|CONTENT_FORMAT_STANDARD]], [[../COLD_TRUTH_MASTER_EXECUTION_PLAN|COLD_TRUTH_MASTER_EXECUTION_PLAN]], [[../../2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO|WORKFLOW_PER_VIDEO]], and [[../ROLE_EDITOR|ROLE_EDITOR]]. Require the vetted source ledger and viability record with the draft.
+Read `AGENTS.md`, [[../CONTENT_FORMAT_STANDARD|CONTENT_FORMAT_STANDARD]], [[../COLD_TRUTH_EXECUTION_PLAN_V2|COLD_TRUTH_EXECUTION_PLAN_V2]], [[../../2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO|WORKFLOW_PER_VIDEO]], and [[../ROLE_EDITOR|ROLE_EDITOR]]. Require the vetted source ledger and viability record with the draft.
 
 Review this script and improve it for pacing, clarity, tone, and accuracy:
 

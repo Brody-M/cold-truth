@@ -1,0 +1,26 @@
+{
+  "schema_version": "cold_truth.full_episode_audio_approval.v1",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-21T04:29:45.084173+00:00",
+  "user_quote": "Yes — listened fully and approve",
+  "question": "Did you listen through the entire 9:31 Amy narration and approve its pronunciation, completeness and volume? The project requires that full-listening decision before the audio can pass into video assembly.",
+  "scope": "Full listening approval of exact current 9:30.56 Amy processed narration: pronunciation, completeness and volume. This grants no independent visual sourcing, rendering or publishing scope.",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "listened_preview": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+    "bytes": 13694894,
+    "sha256": "96d2be0fd14f680b94909bf54bda8de8040481e2753ffd933f63258331d13e99"
+  },
+  "full_listen_passed": true
+}

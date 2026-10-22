@@ -1,0 +1,18 @@
+{
+  "schema_version": "cold_truth.audio_qa.v1",
+  "status": "PENDING_ACTUAL_FULL_LISTEN",
+  "human_approved": false,
+  "full_listen_passed": false,
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "scope": "Actual pronunciation, completeness, comfortable onset levels, natural joins, pacing and ending review of this exact full audio; permission to process is not listening approval.",
+  "assembly_allowed": false
+}

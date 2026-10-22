@@ -72,7 +72,9 @@ Any failure stops H12 review. Do not redact and continue; return for a separatel
 - [ ] Any later executable request fixes one provider and an explicit one-to-three total-attempt budget.
 - [ ] Retry requires a provider-declared retryable result and unused authorized budget.
 - [ ] Provider/model/voice/format/path/entrypoint/tool/command fallback is prohibited.
-- [ ] Failure, mismatch, or exhausted budget stops permanently pending new review.
+- [ ] Nonretryable failure, provider mismatch, or exhausted budget stops permanently pending new review; retryable failure permits only remaining authorized attempts with the same provider.
+- [ ] Exact fields are recorded in any later authorized request: fixed nonempty `provider_id`, integer `max_retries` from 0 through 2, integer `max_attempts` from 1 through 3 equal to `max_retries + 1`, `provider_fallback: false`, and `retry_requires_provider_retryable: true`.
+- [ ] Boolean, fractional, negative, missing, or unbounded budgets are rejected; provider and attempt policy are idempotency-bound, and request/runtime-result/handoff/handoff-runtime provider identities match.
 
 ## Separate future-gate acknowledgment
 

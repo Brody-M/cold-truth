@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Success. File saved as: C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\provider_attempt_01\\tts_Two_t_20261021_222628.mp3. Voice used: Mia - Clear & Emotive Female Narrator "
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "type": "text",
+      "text": "Success. File saved as: C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\provider_attempt_01\\tts_Two_t_20261021_222628.mp3. Voice used: Mia - Clear & Emotive Female Narrator ",
+      "annotations": null,
+      "_meta": null
+    }
+  },
+  "isError": false
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "cold_truth.m6_review_request.v1",
+  "prepared_at_utc": "2026-10-21T05:03:56.411076+00:00",
+  "human_approved": false,
+  "status": "PREPARED_FOR_ACTUAL_HUMAN_REVIEW",
+  "reviews": [
+    {
+      "id": "shorts_pairs",
+      "scope": "Three full scripts with matching source-bound reverse outlines, unchanged",
+      "packet": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/review_packet.json",
+        "bytes": 3600,
+        "sha256": "aa6bdb21519882f97a9dcd15275310bea43b50984e1d5b01071ca5d994e68a94"
+      },
+      "human_entry": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Review_Packet.md",
+        "bytes": 2684,
+        "sha256": "b87cfd0f05700ed808e87aab2173f70d9ae7a5228ec90a50a2b4d6f841e40dcd"
+      },
+      "decision_needed": "Approve each pair together, or specify revisions; no narration grant is included."
+    },
+    {
+      "id": "visual_rights",
+      "scope": "Exact proposed 18 long-form assets and separate Orbital source; conditional on final trim/crop review",
+      "registry": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry_draft.json",
+        "bytes": 18332,
+        "sha256": "7504d389f79a332da284b1e5c23800ebdde5956325bbefe502b4c86555c861f8"
+      },
+      "gallery": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Visual_Review.md",
+        "bytes": 5505,
+        "sha256": "7a1757e9f1dc6811de04991fcc6449669b16bd8ab1fc5a4dfc1983f89585d023"
+      },
+      "decision_needed": "Named final-use rights decision acknowledging illustrative boundaries and Orbital provenance/credit limitation. No video execution grant included."
+    },
+    {
+      "id": "timing",
+      "scope": "Full playback synchronization of current 1267-word machine timing draft against the exact approved WAV",
+      "alignment": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/alignment_draft.json",
+        "bytes": 599539,
+        "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+      },
+      "review_page": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.html",
+        "bytes": 103579,
+        "sha256": "e5a2925a06824e3972b07ed859d43add9a7854d512afc75a373a52a09aec958e"
+      },
+      "review_notes": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md",
+        "bytes": 2818,
+        "sha256": "f04483cd4084c2d81fbe762fba80ad2948eea55fe10ac196a6e610169754c63d"
+      },
+      "decision_needed": "Approve timing only after full synchronization playback, including flagged names/dates/numbers and ending. Prior audio-quality approval remains intact."
+    }
+  ]
+}

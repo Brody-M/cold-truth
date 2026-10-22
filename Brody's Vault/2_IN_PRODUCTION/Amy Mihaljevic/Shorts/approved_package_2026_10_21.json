@@ -1,0 +1,94 @@
+{
+  "schema_version": "cold_truth.approved_shorts_collection.v1",
+  "approved_on": "2026-10-21",
+  "decision": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/m6_review_approvals_2026_10_21.json",
+    "sha256": "15b00d89ae6c50437fe22e590d999ebce50c7d3b8ef44a708370d4099401ae23",
+    "bytes": 5512
+  },
+  "reviewed_collection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/review_packet.json",
+    "sha256": "aa6bdb21519882f97a9dcd15275310bea43b50984e1d5b01071ca5d994e68a94",
+    "bytes": 3600
+  },
+  "branches": [
+    {
+      "case_id": "amy-mihaljevic-short-01",
+      "approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+        "bytes": 2306
+      },
+      "final_script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+        "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+        "bytes": 2253
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+        "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+        "bytes": 619
+      },
+      "spoken_words": 102,
+      "characters": 617,
+      "check": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/script_approval_check.json",
+        "sha256": "95c9179063929ab2f3e3c5dd712489cea7ac9666c700d897c2abf579c37e2514",
+        "bytes": 972
+      }
+    },
+    {
+      "case_id": "amy-mihaljevic-short-02",
+      "approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "e6added62f368054d0fe5c55d5e5ab36b716c8f0801fc481175bad3a452248d0",
+        "bytes": 2316
+      },
+      "final_script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+        "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+        "bytes": 2327
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+        "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+        "bytes": 566
+      },
+      "spoken_words": 98,
+      "characters": 564,
+      "check": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/script_approval_check.json",
+        "sha256": "9899bdb1efbeb59c4e71cf5904aaaa118b38db6493a35b284036a5c55af671a5",
+        "bytes": 977
+      }
+    },
+    {
+      "case_id": "amy-mihaljevic-short-03",
+      "approval": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/script_approval_2026_10_21.json",
+        "sha256": "441ef8ec1bde801bdd74020fbdbcaa51e0e2462e9b06de5079033ee433065e7d",
+        "bytes": 2351
+      },
+      "final_script": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+        "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+        "bytes": 2467
+      },
+      "narration_text": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+        "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+        "bytes": 633
+      },
+      "spoken_words": 99,
+      "characters": 631,
+      "check": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/script_approval_check.json",
+        "sha256": "391f696267120b708864e7952fcb94478240a79f9dc44427a8e2e180cf677990",
+        "bytes": 998
+      }
+    }
+  ],
+  "all_paired_approvals_passed": true,
+  "narration_authorized": false,
+  "new_audio_exists": false
+}

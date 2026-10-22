@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-10-21T03:49:01.465Z",
+  "subscription": {
+    "status": "active",
+    "tier": "payg",
+    "used_credits": 61,
+    "credit_limit": 10000,
+    "remaining_credits": 9939,
+    "can_extend_character_limit": false,
+    "allowed_to_extend_character_limit": false,
+    "current_overage": {
+      "amount": "0",
+      "currency": "usd"
+    }
+  },
+  "voice": {
+    "id": "nPpkc230TdYdntJKFNby",
+    "name": "Mia - Clear & Emotive Female Narrator ",
+    "multilingual_v2_status": "fine_tuned"
+  },
+  "model": {
+    "id": "eleven_multilingual_v2",
+    "name": "Eleven Multilingual v2",
+    "english_supported": true
+  },
+  "input_limit": 10000,
+  "input_limit_source": "https://elevenlabs.io/docs/help-center/product/core-capabilities/text-to-speech/whats-the-maximum-amount-of-characters-and-text-i-can-generate",
+  "input_characters": 7835,
+  "exact_current_quote": null,
+  "generation_calls": 0
+}

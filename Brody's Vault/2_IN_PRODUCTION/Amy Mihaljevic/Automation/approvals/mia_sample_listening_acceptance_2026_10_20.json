@@ -1,0 +1,26 @@
+{
+  "schema_version": "cold_truth.neutral_audio_listening_acceptance.v1",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-20",
+  "recorded_at_utc": "2026-10-21T03:48:47.422720+00:00",
+  "user_quote": "its good enough proceed",
+  "scope": "Accept latest peak-controlled neutral Mia comparison as good enough and proceed to the next eligible M5 narration work.",
+  "master": {
+    "path": "voice_samples/elevenlabs_mia_trial_01/mia_normal_01_peak_control.wav",
+    "bytes": 2721894,
+    "sha256": "32d25d0e891fa47faa10776b83fca6490949364ab9189ab9e0d03b65a8164dd9"
+  },
+  "listened_preview": {
+    "path": "voice_samples/elevenlabs_mia_trial_01/mia_normal_01_peak_control.mp3",
+    "bytes": 495325,
+    "sha256": "ca29aa82394381056dbabcb8bfc4c66f6e5ef137d7485b5fd2eefd23b743ea71"
+  },
+  "processing_receipt": {
+    "path": "voice_samples/elevenlabs_mia_trial_01/mia_normal_01_peak_control_receipt.json",
+    "bytes": 6482,
+    "sha256": "2a608f31b20e99f9d820bfaf2158e8dd0f745e356f0ab7931c93ae624c70baa9"
+  },
+  "sample_is_episode_narration": false,
+  "no_inferred_episode_full_listen": true
+}

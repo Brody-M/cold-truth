@@ -1,0 +1,29 @@
+{
+  "case_id": "amy-mihaljevic-short-03",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+    "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+    "bytes": 2467
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+    "sha256": "e68da3e3dc2a9215d67173e826349ac92e32657b8f3f4d4a2c620ede04cbdbd0",
+    "bytes": 6549606
+  },
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Full playback pronunciation/completeness/levels for exact treated Short audio",
+  "full_listen_passed": false,
+  "technical_processing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_processing_01.json",
+    "sha256": "1ae25050665ecb22626cc07f15a18b559d4381566380e335a50452e5c6d45c52",
+    "bytes": 9391
+  },
+  "assembly_allowed": false,
+  "issues": [
+    "Actual human full-listen decision required; no listening approval inferred from text/sample acceptance."
+  ]
+}

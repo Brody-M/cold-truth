@@ -1,0 +1,85 @@
+{
+  "schema_version": "cold_truth.pexels_downloads.v1",
+  "started_at_utc": "2026-10-21T04:41:53.281762+00:00",
+  "selection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/pexels_selected_sources_2026_10_21.json",
+    "bytes": 18000,
+    "sha256": "e8c7bf8a2f46fb50704fd64b5747c326be41b7fb625166d5c7d57761443ad818"
+  },
+  "maximum_new_media_bytes": 2147483648,
+  "status": "STOPPED_REQUIRES_RECONCILIATION",
+  "automatic_retry": false,
+  "entries": [
+    {
+      "asset_id": "AMY-LF-PX-5835776",
+      "source_identity": "pexels:video:5835776",
+      "url": "https://videos.pexels.com/video-files/5835776/5835776-hd_1920_1080_30fps.mp4",
+      "requested_at_utc": "2026-10-21T04:41:53.284785+00:00",
+      "expected_bytes": 11242639,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+      "status": "DOWNLOADED",
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5835776_1080p.mp4",
+        "bytes": 11242639,
+        "sha256": "231e0da09bbb27310272b4991993a170c3d5e8e18abbb6e1ad9e86020c12663b"
+      },
+      "completed_at_utc": "2026-10-21T04:41:53.585506+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-PX-4203565",
+      "source_identity": "pexels:video:4203565",
+      "url": "https://videos.pexels.com/video-files/4203565/4203565-hd_1920_1080_24fps.mp4",
+      "requested_at_utc": "2026-10-21T04:41:53.588006+00:00",
+      "expected_bytes": 14997423,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_4203565_1080p.mp4",
+      "status": "DOWNLOADED",
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_4203565_1080p.mp4",
+        "bytes": 14997423,
+        "sha256": "706c2f1fa9af8a3d3410565e1e2c9351e0cc448ff3a5db086d3ac248dc4a3d4e"
+      },
+      "completed_at_utc": "2026-10-21T04:41:54.469848+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792244",
+      "source_identity": "pexels:video:5792244",
+      "url": "https://videos.pexels.com/video-files/5792244/5792244-hd_1920_1080_30fps.mp4",
+      "requested_at_utc": "2026-10-21T04:41:54.471862+00:00",
+      "expected_bytes": 9269670,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+      "status": "DOWNLOADED",
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792244_1080p.mp4",
+        "bytes": 9269670,
+        "sha256": "742dd9bbfe6eb8a65a01e69cb170287db56e03dd8f94c936f49bb6f0f9a22fe2"
+      },
+      "completed_at_utc": "2026-10-21T04:41:54.714116+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-PX-5792246",
+      "source_identity": "pexels:video:5792246",
+      "url": "https://videos.pexels.com/video-files/5792246/5792246-hd_1920_1080_30fps.mp4",
+      "requested_at_utc": "2026-10-21T04:41:54.716617+00:00",
+      "expected_bytes": 22867789,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+      "status": "DOWNLOADED",
+      "output": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_5792246_1080p.mp4",
+        "bytes": 22867789,
+        "sha256": "cba853d103d28dff0904e9a5fcf15453fdbcad3ee19e7fcf59cdc106c986947e"
+      },
+      "completed_at_utc": "2026-10-21T04:41:55.289113+00:00"
+    },
+    {
+      "asset_id": "AMY-LF-PX-14388669",
+      "source_identity": "pexels:video:14388669",
+      "url": "https://videos.pexels.com/video-files/14388669/14388669-hd_1920_1080_24fps.mp4",
+      "requested_at_utc": "2026-10-21T04:41:55.292630+00:00",
+      "expected_bytes": 23870967,
+      "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_14388669_1080p.mp4",
+      "status": "FAILED_NO_RETRY",
+      "error_type": "AssertionError",
+      "error": "Unexpected size for pexels_14388669_1080p.mp4: 23876209"
+    }
+  ]
+}

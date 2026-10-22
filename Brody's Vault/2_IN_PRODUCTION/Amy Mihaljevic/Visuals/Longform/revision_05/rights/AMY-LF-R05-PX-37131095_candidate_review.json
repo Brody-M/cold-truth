@@ -1,0 +1,51 @@
+{
+  "asset_id": "AMY-LF-R05-PX-37131095",
+  "source_identity": "pexels:video:37131095",
+  "provider_id": 37131095,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/aerial-view-of-modern-educational-facility-37131095/",
+  "creator": {
+    "id": 221715079,
+    "name": "Sergio Rivas",
+    "url": "https://www.pexels.com/@sergio-rivas-221715079"
+  },
+  "preview_image": "https://images.pexels.com/videos/37131095/bavts-bethlehem-building-dolly-37131095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 20,
+  "selected_file": {
+    "id": 15730280,
+    "quality": null,
+    "file_type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 29.97,
+    "link": "https://videos.pexels.com/video-files/37131095/15730280_1920_1080_30fps.mp4",
+    "size": 12577744
+  },
+  "candidate_paragraphs": [
+    "P04",
+    "P05"
+  ],
+  "depiction_boundary": "Generic school/campus context; no named actual Amy location or identifiable minors",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+  "human_rights_approved": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_37131095_revision05_hd.mp4",
+    "bytes": 12577744,
+    "sha256": "0209704ce86b5dbb1e8a4195972a2c5d28eb720a302b3fe937c66a9f8646ac15"
+  },
+  "actual_duration_seconds": 20.4204,
+  "actual_width": 1920,
+  "actual_height": 1080,
+  "editorial_decision": "EXCLUDE",
+  "content_note": "Visible BAVTS name, Pennsylvania flag and police vehicle identify an unrelated institution; unsuitable as Amy school context.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": null,
+  "human_use_approved": false,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  }
+}

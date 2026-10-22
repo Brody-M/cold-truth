@@ -1,0 +1,19 @@
+{
+  "schema_version": "cold_truth.audio_diagnostic_feedback.v1",
+  "recorded_at_utc": "2026-10-22T03:28:30.723082+00:00",
+  "date_local": "2026-10-21",
+  "reviewer": "Brody",
+  "user_quote": "shes jus very breathy and its still peaking. she needs pop filter immeditaley. see what a professional in this space would do.",
+  "reviewed_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_pacing_review_03.json",
+    "bytes": 2905,
+    "sha256": "01ffa1af5a54576a9e1bced981f98c662f6f3ac71ffa8637316df332e182066b"
+  },
+  "decision": "CHANGES_REQUESTED_BREATHINESS_AND_RESIDUAL_PEAKS",
+  "human_audio_approved": false,
+  "human_pacing_approved": false,
+  "master_approved": false,
+  "authority": "Professional-method research and local diagnosis/repair of existing audio. No new TTS, installs, paid processing, video rendering or publishing inferred.",
+  "current_local_scope": "One short exact-timing diagnostic before/after audition at matched baseline03 level, with measured evidence for any breath-gain, residual plosive-band and high-frequency de-essing treatment.",
+  "clarification_pending": "Asked for worst word/timestamp and whether breathiness occurs between phrases or through spoken words; analysis of existing opening can continue."
+}

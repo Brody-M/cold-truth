@@ -1,0 +1,2113 @@
+{
+  "schema_version": "cold_truth.vault_audit.v1",
+  "scope": "local_file_navigation_only",
+  "limitations": [
+    "No external URL or factual verification",
+    "No heading/block anchor validation",
+    "Personal notes, API_KEYS.md and hidden plugin data not read",
+    "Inline/fenced code examples excluded"
+  ],
+  "note_count": 88,
+  "edge_count": 487,
+  "canvas_count": 1,
+  "external_link_count": 102,
+  "template_link_count": 0,
+  "issues": [],
+  "orphan_notes": [],
+  "entry_note": "00_START_HERE.md",
+  "entry_note_exists": true,
+  "reachable_note_count": 88,
+  "unreachable_from_entry": [],
+  "notes_without_incoming_links": [],
+  "components": [
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/AUTOMATION_ARCHITECTURE_AUDIT.md",
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "0_ADMIN/MASTER_PLAN_ADOPTION_LEGACY_DOCUMENT_NORMALIZATION_REPORT.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md",
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "0_ADMIN/ROLE_EDITOR.md",
+      "0_ADMIN/ROLE_FILMER.md",
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md",
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Candidate_Scorecard.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Case_Risk_Notes.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Ledger_Draft.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Strategist_Viability_Assessment_v1.md",
+      "1_IDEAS/Candidates/Springfield Three/Candidate_Scorecard.md",
+      "1_IDEAS/Candidates/Springfield Three/Case_Risk_Notes.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Ledger_Draft.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Springfield Three/Strategist_Viability_Assessment_v1.md",
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Assembly/Assembly_Review.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_Failure_Analysis.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_QA_v3.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Story_Outline_v3.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial_Notes.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Jodi_Huisentruit_Script_v1.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Metadata.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft_v3.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final_v2.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Metadata.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Package.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Visual_Timeline.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v2.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v3.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v4.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Validation Case/Script_Final.md",
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "5_PRODUCTION/Asha_Degree_Shot_List.md"
+    ]
+  ],
+  "duplicate_basenames": {
+    "candidate_scorecard": [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Candidate_Scorecard.md",
+      "1_IDEAS/Candidates/Springfield Three/Candidate_Scorecard.md"
+    ],
+    "case_risk_notes": [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Case_Risk_Notes.md",
+      "1_IDEAS/Candidates/Springfield Three/Case_Risk_Notes.md"
+    ],
+    "production_summary": [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md"
+    ],
+    "research_source_ledger": [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Research_Source_Ledger.md"
+    ],
+    "script_draft": [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft.md"
+    ],
+    "script_final": [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final.md",
+      "2_IN_PRODUCTION/Validation Case/Script_Final.md"
+    ],
+    "source_ledger_draft": [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Ledger_Draft.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Ledger_Draft.md"
+    ],
+    "source_revalidation_2026_09_05": [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    "strategist_viability_assessment_v1": [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Strategist_Viability_Assessment_v1.md",
+      "1_IDEAS/Candidates/Springfield Three/Strategist_Viability_Assessment_v1.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ]
+  },
+  "folder_note_counts": {
+    "00_START_HERE.md": 1,
+    "0_ADMIN": 34,
+    "1_IDEAS": 12,
+    "2_CHANNEL_SYSTEM": 3,
+    "2_IN_PRODUCTION": 36,
+    "4_SCRIPTS": 1,
+    "5_PRODUCTION": 1
+  },
+  "edges": [
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "00_START_HERE.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_DASHBOARD.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_MEMORY.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/ROLE_EDITOR.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_EDITOR.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_EDITOR.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_EDITOR.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_EDITOR.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/ROLE_FILMER.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_FILMER.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_FILMER.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_FILMER.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_HUB.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "0_ADMIN/ROLE_STRATEGIST.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/ROLE_WRITER.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/AUTOMATION_ARCHITECTURE_AUDIT.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_APPROVAL_AND_ESCALATION_TEMPLATES.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_BRAND_GOVERNANCE_KIT.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_GOVERNANCE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_EDITORIAL_PILOT_SCOPE_AUTHORIZATION.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_LONG_FORM_EPISODE_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_MASTER_EXECUTION_PLAN.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_ORBITAL_SHORTS_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_INTAKE_AND_GATE_CHECKLIST.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/COLD_TRUTH_PILOT_SCOPE_DECISION_RECORD_TEMPLATE.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/MASTER_PLAN_ADOPTION_LEGACY_DOCUMENT_NORMALIZATION_REPORT.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Backlog.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Candidate_Scorecard.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Case_Risk_Notes.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Ledger_Draft.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Springfield Three/Candidate_Scorecard.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Springfield Three/Case_Risk_Notes.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Ledger_Draft.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/Candidates/Springfield Three/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Assembly/Assembly_Review.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_Failure_Analysis.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_QA_v3.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Story_Outline_v3.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial_Notes.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Jodi_Huisentruit_Script_v1.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Metadata.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Research_Source_Ledger.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft_v3.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final_v2.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Metadata.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Package.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Visual_Timeline.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v2.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v3.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v4.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Validation Case/Script_Final.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "4_SCRIPTS/Asha_Degree_Script_v1.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "5_PRODUCTION/Asha_Degree_Shot_List.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "0_ADMIN/GITHUB_TRENDING_REVIEW_2026_10_20.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "0_ADMIN/PROJECT_MEMORY.md"
+    ],
+    [
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Candidate_Scorecard.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Case_Risk_Notes.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Ledger_Draft.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Springfield Three/Candidate_Scorecard.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Springfield Three/Case_Risk_Notes.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Ledger_Draft.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "1_IDEAS/Candidates/Springfield Three/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "1_IDEAS/Backlog.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Ledger_Draft.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Ledger_Draft.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/Candidates/Springfield Three/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "1_IDEAS/Backlog.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "1_IDEAS/Candidates/Springfield Three/Case_Risk_Notes.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "1_IDEAS/Candidates/Springfield Three/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "1_IDEAS/RESEARCH_HUB.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_EDIT_SCRIPT.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_EXTRACT_SHORTS.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_GENERATE_IDEAS.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_PLAN_VISUALS.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_METADATA.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/PROMPTS/PROMPT_WRITE_SCRIPT.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "4_SCRIPTS/Asha_Degree_Script_v1.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md",
+      "5_PRODUCTION/Asha_Degree_Shot_List.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_HUB.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_SHORTS_EDITOR.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_STRATEGIST.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_UPLOAD_MANAGER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md"
+    ],
+    [
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "0_ADMIN/CONTENT_FORMAT_STANDARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Assembly/Assembly_Review.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_Failure_Analysis.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_QA_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Story_Outline_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Final_v2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Metadata.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Package.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Shorts_Visual_Timeline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/YouTube_Visual_Timeline_v4.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "0_ADMIN/VAULT_INDEX.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "1_IDEAS/RESEARCH_HUB.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_Failure_Analysis.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Narrative_QA_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Story_Outline_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Editorial/Strategist_Viability_Assessment_v1.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Jodi Huisentruit/Script_Draft_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "2_IN_PRODUCTION/Validation Case/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "4_SCRIPTS/Asha_Degree_Script_v1.md"
+    ],
+    [
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
+      "5_PRODUCTION/Asha_Degree_Shot_List.md"
+    ],
+    [
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "0_ADMIN/ROLE_EDITOR.md"
+    ],
+    [
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "0_ADMIN/ROLE_WRITER.md"
+    ],
+    [
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md"
+    ],
+    [
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "4_SCRIPTS/Asha_Degree_Script_v1.md",
+      "5_PRODUCTION/Asha_Degree_Shot_List.md"
+    ],
+    [
+      "5_PRODUCTION/Asha_Degree_Shot_List.md",
+      "0_ADMIN/ROLE_FILMER.md"
+    ],
+    [
+      "5_PRODUCTION/Asha_Degree_Shot_List.md",
+      "2_CHANNEL_SYSTEM/CHANNEL_SYSTEM.md"
+    ],
+    [
+      "5_PRODUCTION/Asha_Degree_Shot_List.md",
+      "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md"
+    ],
+    [
+      "5_PRODUCTION/Asha_Degree_Shot_List.md",
+      "4_SCRIPTS/Asha_Degree_Script_v1.md"
+    ]
+  ]
+}

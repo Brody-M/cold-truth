@@ -1,0 +1,481 @@
+{
+  "schema_version": "cold_truth.human_marked_onset_diagnostic.v1",
+  "status": "SHORT_DIAGNOSTIC_LISTENING_PENDING",
+  "started_at_utc": "2026-10-22T03:33:03.967584+00:00",
+  "completed_at_utc": "2026-10-22T03:33:05.207939+00:00",
+  "role": "Editor",
+  "case_id": "amy-mihaljevic",
+  "narration_branch": "youtube-longform",
+  "source": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\correction_03\\Amy_Mihaljevic_Mia_correction_03_gain_only.wav",
+    "bytes": 75485228,
+    "sha256": "094bfbeafc865b5941efbaae09755e8f2f98c8b0cd9d270418f8557f2d1aaa25"
+  },
+  "provider_source": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+    "bytes": 9129943,
+    "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02"
+  },
+  "approved_text": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\Narration_Text.txt",
+    "bytes": 7835,
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37"
+  },
+  "word_timing_reference": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\alignment_draft.json",
+    "bytes": 599539,
+    "sha256": "093fcbe477a006c46794e21086d9410128b39904c025f8b66451e26c60066f26"
+  },
+  "feedback_record": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\audio_feedback_revision03_2026_10_21.json",
+    "bytes": 1296,
+    "sha256": "559d18d8e996848321f1806153160e32be8928bc96141aa1afe822c8391060fd"
+  },
+  "parent_professional_research": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\professional_audio_reassessment_04.json",
+    "bytes": 3381,
+    "sha256": "e300b0da782dab0b0f646c9e1d2febd81e22b510e8d9adf0572b2cab1d0e7e8e"
+  },
+  "specific_human_diagnosis": {
+    "quote": "legit at2seconds when shes amy mahahvoici dissaeepared it peaks aroundthere. at the bggingin of the word dissapeared is when it spikes specifically. shes breathy between phrases but its not horrible imo",
+    "scope": "Human-marked onset of disappeared, aligned2.181–2.801 seconds; breathiness secondary"
+  },
+  "operations": [
+    {
+      "type": "manual_onset_clip_gain",
+      "justification": "Exact human-marked abrupt onset, not a generic plosive classifier or full-track peak threshold",
+      "start_seconds": 2.16,
+      "full_reduction_start_seconds": 2.175,
+      "full_reduction_end_seconds": 2.26,
+      "end_seconds": 2.32,
+      "start_sample": 95256,
+      "end_sample_exclusive": 102312,
+      "maximum_reduction_db": 8,
+      "envelope": "half cosine ramps in dB domain"
+    },
+    {
+      "type": "one_standalone_gap_noise_clip_gain",
+      "justification": "Noise-like event in protected interval after her. and before An; modest trial only",
+      "start_seconds": 6.05,
+      "full_reduction_start_seconds": 6.075,
+      "full_reduction_end_seconds": 6.26,
+      "end_seconds": 6.285,
+      "start_sample": 266805,
+      "end_sample_exclusive": 277168,
+      "maximum_reduction_db": 6,
+      "envelope": "half cosine ramps in dB domain"
+    }
+  ],
+  "spectral_repair_applied": false,
+  "deesser_applied": false,
+  "deesser_omission_reason": "Human-marked event is dominated by low/low-mid energy; no high-frequency causal link established. Preserved ordinary sibilants and voiced body.",
+  "additional_global_gain_db": 0,
+  "baseline03_global_gain_preserved": true,
+  "compression_or_limiting_applied": false,
+  "gating_applied": false,
+  "noise_generation_or_replacement": false,
+  "normalization": false,
+  "marked_onset_measurements": {
+    "before": {
+      "start_seconds": 2.18,
+      "end_seconds": 2.25,
+      "rms_dbfs": -35.99186630289902,
+      "peak_dbfs": -28.999767812779996,
+      "band_power_percent": {
+        "20-180_hz": 37.360011798216334,
+        "180-500_hz": 60.334678109969964,
+        "500-3500_hz": 2.2201399932567463,
+        "3500-12000_hz": 0.08517009855694743
+      }
+    },
+    "after": {
+      "start_seconds": 2.18,
+      "end_seconds": 2.25,
+      "rms_dbfs": -43.99186630289903,
+      "peak_dbfs": -36.99976781277999,
+      "band_power_percent": {
+        "20-180_hz": 37.360011798216334,
+        "180-500_hz": 60.33467810996997,
+        "500-3500_hz": 2.2201399932567467,
+        "3500-12000_hz": 0.08517009855694734
+      }
+    },
+    "actual_rms_change_db": -8.000000000000007,
+    "actual_peak_change_db": -7.9999999999999964,
+    "original_provider_region": {
+      "start_seconds": 2.18,
+      "end_seconds": 2.25,
+      "rms_dbfs": -7.2057671546936035,
+      "peak_dbfs": -2.295073986053467,
+      "band_power_percent": {
+        "20-180_hz": 46.043786996182845,
+        "180-500_hz": 52.49476008178714,
+        "500-3500_hz": 1.426378135802965,
+        "3500-12000_hz": 0.03507478622705765
+      }
+    },
+    "later_syllable_control_2p35_2p60_unchanged": true
+  },
+  "gap_noise_measurements": {
+    "before": {
+      "start_seconds": 6.1,
+      "end_seconds": 6.25,
+      "rms_dbfs": -53.83908477217662,
+      "peak_dbfs": -34.51826578000362,
+      "band_power_percent": {
+        "20-180_hz": 20.31567324718182,
+        "180-500_hz": 15.448437879912108,
+        "500-3500_hz": 59.689628370606954,
+        "3500-12000_hz": 4.546260502299127
+      }
+    },
+    "after": {
+      "start_seconds": 6.1,
+      "end_seconds": 6.25,
+      "rms_dbfs": -59.83908477217661,
+      "peak_dbfs": -40.51826578000362,
+      "band_power_percent": {
+        "20-180_hz": 20.315673247181813,
+        "180-500_hz": 15.448437879912106,
+        "500-3500_hz": 59.689628370606954,
+        "3500-12000_hz": 4.546260502299126
+      }
+    },
+    "next_word_start_seconds": 6.442,
+    "right_guard_seconds": 0.15700000000000003,
+    "actual_rms_change_db": -5.999999999999993
+  },
+  "timbre_and_distortion_assessment": {
+    "standalone_gap_noise": true,
+    "breathy_timbre_inside_words_not_conclusively_established": true,
+    "raw_fullscale_samples_in_excerpt": 0,
+    "no_fullscale_clip_does_not_rule_out_baked_provider_distortion": true,
+    "dense_onset_present_in_original_provider_audio": true,
+    "historical_processing": "Prior accepted profile includes compression/limiting; this cannot be undone and may influence perceived transient/tone character. This pilot does not claim to restore an unprocessed voice.",
+    "replacement_take_or_voice_may_be_preferable_if_audition_fails": true
+  },
+  "before": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.wav",
+    "bytes": 1746404,
+    "sha256": "9dab83ec9510a705e0e53e44257d3dea23eec1d750feaaab390ea553a57d76a2",
+    "sample_rate": 44100,
+    "channels": 1,
+    "pcm_subtype": "PCM_24",
+    "samples": 582120,
+    "duration_seconds": 13.2,
+    "sample_peak_dbfs": -28.999184195418984,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-39.59",
+      "input_tp": "-29.00",
+      "input_lra": "2.00",
+      "input_thresh": "-50.09"
+    }
+  },
+  "after": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.wav",
+    "bytes": 1746404,
+    "sha256": "de1fb1a812f676ec5072af2d71808e3288e543a351a36506717802e59d878b32",
+    "sample_rate": 44100,
+    "channels": 1,
+    "pcm_subtype": "PCM_24",
+    "samples": 582120,
+    "duration_seconds": 13.2,
+    "sample_peak_dbfs": -28.999184195418984,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-39.63",
+      "input_tp": "-29.00",
+      "input_lra": "1.90",
+      "input_thresh": "-50.14"
+    }
+  },
+  "removed_component": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.wav",
+    "bytes": 1746404,
+    "sha256": "eac2f9516cb2f70cfa6df843127ef77f0aac9fafd472125a2b6ce9b45a73434c",
+    "sample_rate": 44100,
+    "channels": 1,
+    "pcm_subtype": "PCM_24",
+    "samples": 582120,
+    "duration_seconds": 13.2,
+    "sample_peak_dbfs": -33.40941327162992,
+    "samples_at_or_above_full_scale": 0,
+    "loudness": {
+      "input_i": "-49.43",
+      "input_tp": "-33.41",
+      "input_lra": "0.00",
+      "input_thresh": "-61.81"
+    }
+  },
+  "mp3_preview_checks": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.mp3",
+      "bytes": 318529,
+      "sha256": "39dbd836c719173c74b53af1d4a3e5031b105c5ba26962d02d6483cce361917d",
+      "decoded_samples": 582120,
+      "decoded_duration_seconds": 13.2
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.mp3",
+      "bytes": 318529,
+      "sha256": "a51d2e5bb46720ccb5156a59123dfbf16e27e739be236054aec0ad4e1e0fb01d",
+      "decoded_samples": 582120,
+      "decoded_duration_seconds": 13.2
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.mp3",
+      "bytes": 318529,
+      "sha256": "bdbe210a1970b0713f08e39a5fe6eb2c9e6505acae7dc79d62d57c63c8b6f0c0",
+      "decoded_samples": 582120,
+      "decoded_duration_seconds": 13.2
+    }
+  ],
+  "timeline": {
+    "source_start_sample": 0,
+    "source_end_sample_exclusive": 582120,
+    "sample_rate": 44100,
+    "before_samples": 582120,
+    "after_samples": 582120,
+    "removed_component_samples": 582120,
+    "duration_seconds": 13.2,
+    "cuts": false,
+    "padding": false,
+    "speed_change": false,
+    "word_or_pause_timing_changed": false,
+    "outside_two_gain_windows_identical_before_pcm_quantization": true
+  },
+  "full_episode_processed": false,
+  "video_rendered": false,
+  "tts_calls": 0,
+  "downloads_or_installs": 0,
+  "human_listening_approved": false,
+  "assembly_allowed": false,
+  "commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.wav",
+      "-ar",
+      "44100",
+      "-ac",
+      "1",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+      "-t",
+      "13.2",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ],
+    [
+      "ffmpeg",
+      "-version"
+    ]
+  ],
+  "tool_versions": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "processor": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\repair_marked_onset_04.py",
+    "bytes": 13021,
+    "sha256": "9c2235167b9fe9752acabdf1db2963f8fade729bca08c46ceb334b319ba7539b"
+  },
+  "output_files": [
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.wav",
+      "bytes": 1746404,
+      "sha256": "9dab83ec9510a705e0e53e44257d3dea23eec1d750feaaab390ea553a57d76a2"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.wav",
+      "bytes": 1746404,
+      "sha256": "de1fb1a812f676ec5072af2d71808e3288e543a351a36506717802e59d878b32"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.wav",
+      "bytes": 1746404,
+      "sha256": "eac2f9516cb2f70cfa6df843127ef77f0aac9fafd472125a2b6ce9b45a73434c"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_before.mp3",
+      "bytes": 318529,
+      "sha256": "39dbd836c719173c74b53af1d4a3e5031b105c5ba26962d02d6483cce361917d"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_onset_repair.mp3",
+      "bytes": 318529,
+      "sha256": "a51d2e5bb46720ccb5156a59123dfbf16e27e739be236054aec0ad4e1e0fb01d"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\opening_13p2s_removed_component.mp3",
+      "bytes": 318529,
+      "sha256": "bdbe210a1970b0713f08e39a5fe6eb2c9e6505acae7dc79d62d57c63c8b6f0c0"
+    },
+    {
+      "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\diagnostic_04\\Diagnostic_04_Report.md",
+      "bytes": 2252,
+      "sha256": "61505273365acd6ce0266f8c626f77b7f2ef077af6fe1bf879a85ef97fcc3ddc"
+    }
+  ],
+  "receipt_self_hash_omitted": true,
+  "limitations": [
+    "Manual gain attenuates the intended consonant along with the burst; user listening must confirm clear diction and naturalness.",
+    "No subjective listening success is claimed.",
+    "Breath noise and breathy vocal timbre are different; limited spectral measurements cannot diagnose intrinsic voice suitability.",
+    "No claim of RX or professional proprietary de-plosive software use is made.",
+    "This exact13.2-second test does not approve or alter the full episode soundtrack."
+  ],
+  "precise_fault_locator_record": {
+    "path": "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\audio_fault_disappeared_2026_10_21.json",
+    "bytes": 1790,
+    "sha256": "e611dacb5a5707a8ac9ad04d4f44b057e460fad313984d04d0d70c5c56886c74"
+  },
+  "pcm_roundtrip_verification": {
+    "before_matches_exact_baseline03_excerpt": true,
+    "outside_two_gain_windows_max_absolute_difference": 0.0,
+    "sample_count": 582120,
+    "sample_rate": 44100
+  },
+  "post_processing_annotation": {
+    "recorded_at_utc": "2026-10-22T03:33:36.722863+00:00",
+    "action": "Bound precise human locator and verified persisted PCM outside-window identity after initial audio generation; no audio or processor edits."
+  }
+}

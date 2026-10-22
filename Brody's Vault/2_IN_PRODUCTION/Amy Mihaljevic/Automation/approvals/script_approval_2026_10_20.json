@@ -1,0 +1,42 @@
+{
+  "schema_version": "cold_truth.paired_script_approval.v1",
+  "review_id": "amy-script-review-2026-10-16-v1",
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-20",
+  "recorded_at_utc": "2026-10-20T21:29:49.854889+00:00",
+  "user_quote": "they look good cont",
+  "decision_context": "Direct response in this chat to the request to review and approve the full draft and source-bound reverse outline together. No message identifier supplied.",
+  "scope": "Paired approval of the exact full draft and reverse outline; canonical final creation and routine offline implementation.",
+  "review_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/review_packet.json",
+    "sha256": "7c5027780aeb4eed1ef1b814adb031de0010a8dcb438bb6703a786be269ab8d7",
+    "bytes": 2374
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
+    "sha256": "ff478c9681a96b8bfdb217bc8af75f177dbc85e5ff572d387690b519c27c0afa",
+    "bytes": 10126
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
+    "sha256": "6a4d1ff64d4cc2e3f366c1665d85b98a7310dab4c7c388de00c28758b3e7911d",
+    "bytes": 4563
+  },
+  "final_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "canonicalization": "Final title/status metadata updated only; marked narration text matches the reviewed draft exactly. Paragraph labels, headings and B-roll cues are excluded from Narration_Text.txt.",
+  "phase_2_authorized": false,
+  "narration_authorized": false,
+  "publishing_authorized": false
+}

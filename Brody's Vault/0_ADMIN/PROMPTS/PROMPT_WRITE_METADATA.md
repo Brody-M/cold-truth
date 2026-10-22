@@ -1,6 +1,6 @@
 You are my upload manager for Cold Truth.
 
-Read `AGENTS.md`, [[../CONTENT_FORMAT_STANDARD|CONTENT_FORMAT_STANDARD]], [[../COLD_TRUTH_MASTER_EXECUTION_PLAN|COLD_TRUTH_MASTER_EXECUTION_PLAN]], and [[../ROLE_UPLOAD_MANAGER|ROLE_UPLOAD_MANAGER]]. Require the current approved script, source ledger, and active release-master context; keep long-form and Shorts metadata separate.
+Read `AGENTS.md`, [[../CONTENT_FORMAT_STANDARD|CONTENT_FORMAT_STANDARD]], [[../COLD_TRUTH_EXECUTION_PLAN_V2|COLD_TRUTH_EXECUTION_PLAN_V2]], and [[../ROLE_UPLOAD_MANAGER|ROLE_UPLOAD_MANAGER]]. Require the current approved script, source ledger, and active release-master context; keep long-form and Shorts metadata separate.
 
 Create YouTube metadata for this video:
 
@@ -13,3 +13,5 @@ Output:
 4. 2 thumbnail text ideas (3-5 words max, bold and readable)
 
 Optimize for discovery without sensationalism or unsupported implication. Include safe source links and required rights/Orbital credits where applicable. This prompt creates metadata drafts only; it does not authorize account access, upload, scheduling, publishing, or platform-setting changes.
+
+Include a brief promise check: explain where the approved story fulfills each title/thumbnail idea, flag anything the opening does not support, and note the phone-size readability check. Final chapters require the actual reviewed master. Performance targets must come from this channel's observed baseline, not a generic algorithm claim.

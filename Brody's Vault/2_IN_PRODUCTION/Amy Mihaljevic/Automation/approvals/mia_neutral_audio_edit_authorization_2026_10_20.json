@@ -1,0 +1,21 @@
+{
+  "schema_version": "cold_truth.audio_editor_authorization.v1",
+  "recorded_at_utc": "2026-10-21T03:35:36.714230+00:00",
+  "approved_by": "Brody",
+  "human_approved": true,
+  "user_quote": "its pretty good just peaks like on p p's and stuff it peaks very loud audio needs to be maybe just by u on tyhe side so extract that audio then go editor agent using the obsidian vault job and make him take that file then apply like an audio filter that filters out that top range from the clip then will put it w the video\\",
+  "input": {
+    "path": "voice_samples/elevenlabs_mia_trial_01/mia_normal_01.mp3",
+    "bytes": 330230,
+    "sha256": "0779621067281135edf0fecc04337e6bbd576951440c2cc310096257b107fe97"
+  },
+  "scope": "Delegate to the vault Editor role; process this existing neutral Mia sample offline for loud consonants/peaks and harshness; retain raw original and deliver filtered copy. Record settings and technical QA for later audio-to-video handoff.",
+  "target_format": "youtube-longform",
+  "classification": "NEUTRAL_INTERNAL_SAMPLE_NOT_EPISODE_NARRATION",
+  "new_synthesis_authorized": false,
+  "episode_hold_lifted": false,
+  "video_assembly_authorized": false,
+  "assembly_allowed": false,
+  "approval_of_processed_audio": false,
+  "future_intent": "Use processed narration with video later; this neutral test is not an episode soundtrack."
+}

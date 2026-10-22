@@ -1,0 +1,76 @@
+{
+  "schema_version": "cold_truth.m6_preparation_scope_proposal.v1",
+  "prepared_on": "2026-10-21",
+  "status": "PREPARED_AWAITING_EXPLICIT_VISUAL_PREPARATION_SCOPE",
+  "human_approved": false,
+  "case_id": "amy-mihaljevic",
+  "target_format": "youtube-longform_plus_separate_shorts_visual_preparation",
+  "approved_script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "bytes": 10247,
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5"
+  },
+  "approved_audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "audio_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/amy_full_audio_listening_approval_2026_10_21.json",
+    "bytes": 1415,
+    "sha256": "416dee0dd860f293ff2566082951efa63c60cddf39cea4e07300901a95924058"
+  },
+  "passing_audio_preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json",
+    "bytes": 2580,
+    "sha256": "0e9cdaf0a0d92756e2f43cb1fef6589a027b1f2e9e7b0f2bfb161f6aef306d46"
+  },
+  "editorial_visual_brief": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Editorial_Visual_Brief.md",
+    "bytes": 5946,
+    "sha256": "b56b1d41b8fa9f9168a74640bef7ad186760b4c062749154ca86be64bd525426"
+  },
+  "shorts_review_collection": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/review_packet.json",
+    "bytes": 3600,
+    "sha256": "aa6bdb21519882f97a9dcd15275310bea43b50984e1d5b01071ca5d994e68a94"
+  },
+  "proposed_actions": [
+    "Prepare exact-current-audio caption/shot timing with installed tools; retain timing review as pending until actually reviewed",
+    "Search and download up to18 free Pexels1080p source clips; no account purchases",
+    "Create original text/date/evidence cards for the long-form track only",
+    "Hash/probe and bind existing purchased Orbital source in place; retain rights/credit evidence and record review before Shorts use",
+    "Create track-separated rights/asset records and a genuinely aligned shot list when timing is verified"
+  ],
+  "limits": {
+    "maximum_new_media_bytes": 2147483648,
+    "maximum_pexels_clips": 18,
+    "paid_spending_allowed": false,
+    "new_tts_or_asr_provider_calls": 0,
+    "new_software_or_model_downloads": false,
+    "duplicate_existing_12gb_gameplay": false,
+    "automatic_fallback": false
+  },
+  "planned_outputs": [
+    "Visuals/Longform/assets/",
+    "Visuals/Longform/graphics/",
+    "Visuals/Longform/rights/",
+    "Visuals/Longform/aligned_shot_list.json",
+    "Visuals/Shorts/rights/",
+    "Automation/alignment.json (only actual reviewed timing)",
+    "Automation/asset_registry.json (only actual bound files and rights reviews)",
+    "Automation/asset_readiness.json"
+  ],
+  "excluded_actions": [
+    "New narration (Shorts need paired script approval and separate exact generation scope)",
+    "Assembly or rendering of video previews or final masters",
+    "Uploading, scheduling or publishing",
+    "Paid asset purchases or subscription changes",
+    "Copying original third-party case photographs without applicable permission"
+  ],
+  "current_alignment_route": "Existing pilot contract supports manually reviewed JSON/SRT; no live WhisperX adapter or Amy alignment is claimed. Inspect reusable installed tooling before execution; if no usable route exists, prepare a reviewable timing sheet and report exact remaining work rather than fabricate sync.",
+  "shorts_scripts_approved": false,
+  "visual_assets_ready": false,
+  "assembly_allowed": false,
+  "next_after_preparation": "Actual timing/rights review, separate paired Shorts decisions and narration scope, then a concrete local assembly/render scope."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "cold_truth.professional_audio_repair_research.v1",
+  "retrieved_at_utc": "2026-10-22T03:28:30.723082+00:00",
+  "date_local": "2026-10-21",
+  "purpose": "Reassess persistent breathiness and perceived peaks after level/LF-only processing.",
+  "references": [
+    {
+      "title": "iZotope: How to remove plosives from a voice recording",
+      "url": "https://www.izotope.com/community/blog/removing-plosives-from-a-voice-recording",
+      "supports": [
+        "Physical air blasts create LF thumps; pop filters/windscreens help prevention at recording.",
+        "High-pass filtering can reduce LF energy but can remove voice body and leave distortion.",
+        "Target de-plosive or spectral repair at specific offending bands/events and audition."
+      ]
+    },
+    {
+      "title": "iZotope RX Breath Control documentation",
+      "url": "https://downloads.izotope.com/docs/rx6/18-breath-control/index.html",
+      "supports": [
+        "Breaths are distinguished from voiced speech by harmonic properties; amplitude alone is insufficient.",
+        "Reduce detected breaths selectively; preview detected/removed audio to identify speech damage.",
+        "Target-mode treatment can preserve quiet natural breaths."
+      ]
+    },
+    {
+      "title": "Apple: Reduce sibilance in Logic Pro",
+      "url": "https://support.apple.com/en-us/102006",
+      "supports": [
+        "Sibilance is distinct high-frequency S-type energy.",
+        "Use frequency-selective dynamics with chosen frequency, threshold and maximum reduction, guided by analysis and playback."
+      ]
+    },
+    {
+      "title": "iZotope Vocal Editing101 — adjust gain on vocals",
+      "url": "https://www.izotope.com/community/blog/vocal-editing-101",
+      "supports": [
+        "Use clip gain to turn down distracting loud individual words/phrases rather than flattening every word to the same level."
+      ]
+    }
+  ],
+  "local_inferences": [
+    "Existing03 reductions make the file quieter but cannot alone repair breathy tone, harsh relative transients or recorded intonation.",
+    "Software de-plosive processing is the relevant recorded-file treatment; it is not proof of a physical microphone problem in synthesized audio.",
+    "Between-phrase breath events may be attenuated; breathiness embedded in voice timbre or unsuitable phrasing can require a cleaner take.",
+    "Do not claim clipping or absence of perceived peak problems solely from low current true-peak measurements."
+  ],
+  "method_decision": [
+    "Review exact events and source before further processing.",
+    "Use no additional blanket gain decrease in the diagnostic, so any improvement tests targeted processing rather than loudness.",
+    "Separate gap-breath reduction, residual plosive treatment and high-frequency processing; apply only what evidence supports.",
+    "Compare at matched gain and inspect removed signal for vowels/consonants.",
+    "No full-episode processing or video render from an unreviewed experimental chain.",
+    "After Brody identified the start of disappeared at~2.2s, prioritize smooth local gain reduction on that marked onset. Between-phrase breathiness is a lower priority, so avoid aggressive broad processing."
+  ],
+  "rx_or_logic_installed_or_used": false,
+  "new_spending": 0,
+  "provider_calls": 0
+}

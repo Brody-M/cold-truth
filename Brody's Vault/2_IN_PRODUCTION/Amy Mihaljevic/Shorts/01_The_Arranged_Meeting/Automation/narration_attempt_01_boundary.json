@@ -1,0 +1,28 @@
+{
+  "case_id": "amy-mihaljevic-short-01",
+  "phase_2_scope": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+    "bytes": 3203
+  },
+  "tool": "mcp__elevenlabs__text_to_speech",
+  "settings": {
+    "voice_id": "nPpkc230TdYdntJKFNby",
+    "model_id": "eleven_multilingual_v2",
+    "language": "en",
+    "stability": 0.72,
+    "similarity_boost": 0.76,
+    "style": 0.05,
+    "speed": 1.0,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_128"
+  },
+  "text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "recorded_at_utc": "2026-10-22T02:20:57.966550+00:00",
+  "attempt_consumed": true,
+  "no_automatic_retry": true
+}

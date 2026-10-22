@@ -1,0 +1,42 @@
+{
+  "schema_version": "cold_truth.marked_onset_diagnostic_check.v1",
+  "checked_at_utc": "2026-10-22T03:36:34.890838+00:00",
+  "result": "TECHNICAL_PASS_ACTUAL_LISTENING_PENDING",
+  "receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/diagnostic_04/diagnostic_04_receipt.json",
+    "bytes": 18182,
+    "sha256": "bd7818e77572be88df133f070c84e646a813d81ceddbb3991dd97796b5621013"
+  },
+  "review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/audio_diagnostic_review_04.json",
+    "bytes": 2316,
+    "sha256": "fb6e1f1706496648485d3f28296b0c0c69831f677dd32f1c79ba0f1120b816aa"
+  },
+  "all_receipt_input_and_output_hashes_verified": true,
+  "independent_saved_pcm_check": {
+    "samples_each": 582120,
+    "duration_seconds": 13.2,
+    "baseline_excerpt_matches_exact_source03": true,
+    "outside_two_windows_exactly_unchanged": true,
+    "marked_onset_actual_rms_change_db": -7.9999961636359105,
+    "following_syllable_unchanged": true
+  },
+  "global_gain_change_db": 0,
+  "full_episode_processed": false,
+  "human_audio_approved": false,
+  "assembly_allowed": false,
+  "new_tts_or_downloads_or_video_renders": 0,
+  "new_diagnostic_folder_bytes": 6228254,
+  "conservative_entire_amy_bytes": 1211433172,
+  "production_output_cap_bytes": 5368709120,
+  "navigation_audit": {
+    "path": "docs/vault_audit_audio_diagnostic_04_2026_10_21.json",
+    "bytes": 86336,
+    "sha256": "76eec33fea754ab977c6fc407fc5a7a64bfe43980e0a2a085c7258ea217a4104"
+  },
+  "limitations": [
+    "Listener comfort and intact consonant require actual audition.",
+    "A thirteen-second diagnostic cannot approve or repair the full episode.",
+    "Professional guidance informs local gain editing; no RX/Logic install or execution claimed."
+  ]
+}

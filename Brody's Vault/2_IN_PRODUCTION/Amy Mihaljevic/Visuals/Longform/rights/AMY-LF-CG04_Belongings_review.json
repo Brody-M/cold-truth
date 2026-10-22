@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/graphics/CG04_Belongings.png",
+    "bytes": 48247,
+    "sha256": "b157a395df8d0e4702724415cced3a5d104b859b658a88599b6a938e19787bf0"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/original_case_graphics_01.json",
+    "bytes": 656,
+    "sha256": "e9a3e2dd3888f350b72b32b42e736e6a6df379bdd78a784afa372a8de8808961"
+  },
+  "source_identity": "coldtruth:amy:longform:CG04_Belongings",
+  "permitted_track": "youtube-longform",
+  "commercial_use_reviewed": false,
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Exact original text card in Amy long-form episode",
+  "credits": "Original Cold Truth typography; public source citations appear on card.",
+  "assistant_assessment": "Rendered card gallery checked for layout and source labels by Codex; factual/final-use human decision remains pending."
+}

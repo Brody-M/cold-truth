@@ -1,0 +1,29 @@
+{
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+    "bytes": 5898342
+  },
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Full playback pronunciation/completeness/levels for exact treated Short audio",
+  "full_listen_passed": false,
+  "technical_processing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+    "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7",
+    "bytes": 9220
+  },
+  "assembly_allowed": false,
+  "issues": [
+    "Actual human full-listen decision required; no listening approval inferred from text/sample acceptance."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_6577022_1080p.mp4",
+    "bytes": 19912109,
+    "sha256": "fb3fdc028b6b5ed4b9bb8b271f434b8ce520fdb747f682679fb353b3bc27976a"
+  },
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/rights/pexels_license_evidence_2026_10_21.json",
+    "bytes": 1249,
+    "sha256": "31d40c016346cd48c733566308a8272b664a4d708530c5bd72d2a09b0a87ec60"
+  },
+  "source_identity": "pexels:video:6577022",
+  "permitted_track": "youtube-longform",
+  "commercial_use_reviewed": false,
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Exact proposed illustrative stock use, subject to review of final trims",
+  "credits": "Al d'Vilas / Pexels",
+  "assistant_assessment": "Illustrative open landscape only; not the actual recovery site. Review timelapse motion.",
+  "assistant_review": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/visual_candidate_review_01.json",
+    "bytes": 14144,
+    "sha256": "4b89274302f9007d6590f7a12f8e7c5306c05aa484162d980f6190aa235db505"
+  }
+}

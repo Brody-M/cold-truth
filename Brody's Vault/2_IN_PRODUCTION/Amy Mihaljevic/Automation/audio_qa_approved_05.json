@@ -1,0 +1,44 @@
+{
+  "schema_version": "cold_truth.audio_qa.v1",
+  "status": "FULL_AUDIO_AND_SYNCHRONIZATION_APPROVED",
+  "human_approved": true,
+  "full_listen_passed": true,
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "scope": "Exact full 9:08.59 paced WAV: pronunciation, completeness, volume including disappeared, pacing, ending and synchronization across all19 paragraphs; not video-master approval.",
+  "assembly_allowed": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-22",
+  "recorded_at_utc": "2026-10-22T04:37:22.665820+00:00",
+  "user_quote": "Listened fully; approve audio and synchronization",
+  "question_item_id": "[\"request_user_input_async\",\"call_5be43ce33e404c8e806a9e6073f6a28f\",0]",
+  "reviewed_packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/candidate05_review_packet.json",
+    "sha256": "4a8419e4f15c7a6b8348f58b8d10c56eca12dabbc9015599f1585a4e8040f397",
+    "bytes": 11190
+  },
+  "word_timing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+    "bytes": 440322,
+    "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+  },
+  "visual_decision": {
+    "user_quote": "Approve proposed uses and recorded conditions",
+    "question_item_id": "[\"request_user_input_async\",\"call_5be43ce33e404c8e806a9e6073f6a28f\",1]",
+    "scope": "14 exact proposed new stock uses under recorded illustrative-use/crop conditions; actual motion/crops and final video playback still require review."
+  },
+  "publishing_authorized": false,
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+    "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666",
+    "bytes": 1686
+  }
+}

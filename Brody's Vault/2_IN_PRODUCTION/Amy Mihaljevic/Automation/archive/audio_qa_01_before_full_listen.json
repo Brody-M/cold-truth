@@ -1,0 +1,39 @@
+{
+  "schema_version": "cold_truth.audio_qa.v1",
+  "status": "PENDING_FULL_EPISODE_LISTEN",
+  "human_approved": false,
+  "approved_by": null,
+  "approved_on": null,
+  "user_quote": null,
+  "scope": "Full playback of exact processed Amy narration against approved script; neutral sample acceptance does not certify episode.",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b"
+  },
+  "full_listen_passed": false,
+  "reviewer": null,
+  "technical_checks": {
+    "clipped_samples": 0,
+    "decoded_samples": 25161728,
+    "duration_seconds": 570.560726,
+    "runtime_minimum_pass": true,
+    "sample_bound_treatment_applied": true,
+    "source_approval_bindings_pass": true
+  },
+  "review_checklist": [
+    "Listen through all 9:30.56 against approved narration text",
+    "Verify Amy Mihaljevic, Bay Village, Ashland County and other names/dates",
+    "Check missing/added/repeated words and sentence endings",
+    "Check peaks, pops, level, calm delivery, gaps and final ending"
+  ],
+  "unresolved": [
+    "Human full-episode listening review pending"
+  ],
+  "assembly_allowed": false
+}

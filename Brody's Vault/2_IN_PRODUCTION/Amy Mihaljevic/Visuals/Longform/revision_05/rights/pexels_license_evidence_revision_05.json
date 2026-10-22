@@ -1,0 +1,21 @@
+{
+  "schema_version": "cold_truth.stock_license_evidence.v1",
+  "checked_at_utc": "2026-10-22T03:52:05.776496+00:00",
+  "date_local": "2026-10-21",
+  "sources": [
+    {
+      "title": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    {
+      "title": "Pexels Terms of Service",
+      "url": "https://www.pexels.com/terms-of-service/",
+      "page_update_date": "2026-10-20"
+    }
+  ],
+  "summary": "Pexels permits free download and editing for commercial/noncommercial creative works subject to its prohibited uses. Do not imply endorsement or real case identity. Identifiable people must not be portrayed offensively; third-party people, brands, property and other rights may require separate assessment. Do not distribute unchanged stock as a standalone product.",
+  "commercial_use_human_reviewed": false,
+  "selected_source_pages_recorded_in": "pexels_broll_revision_05_selected.json",
+  "license_page_does_not_verify_specific_property_or_person_releases": true,
+  "provider_spending": 0
+}

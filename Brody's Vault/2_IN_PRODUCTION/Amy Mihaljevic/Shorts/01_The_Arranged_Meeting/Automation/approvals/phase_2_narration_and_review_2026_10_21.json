@@ -1,0 +1,64 @@
+{
+  "schema_version": "cold_truth.phase_2_short_narration_review_approval.v1",
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-21",
+  "recorded_at_utc": "2026-10-22T02:10:35.803632+00:00",
+  "user_quote": "Authorize this bounded production scope",
+  "scope": "This exact branch within the explicitly approved three-Short batch. One generation attempt at locked normal-speed Mia profile; shared2500-credit cap and5GiB output ceiling. Rendering conditional on actual full-listen audio QA, duration preflight and timing review.",
+  "parent_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4",
+    "bytes": 2292
+  },
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+    "bytes": 2306
+  },
+  "authorized_actions": [
+    "narration",
+    "accepted_audio_processing",
+    "review_video_after_actual_audio_QA_preflight_timing"
+  ],
+  "settings": {
+    "voice_id": "nPpkc230TdYdntJKFNby",
+    "model_id": "eleven_multilingual_v2",
+    "language": "en",
+    "stability": 0.72,
+    "similarity_boost": 0.76,
+    "style": 0.05,
+    "speed": 1.0,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_128"
+  },
+  "output_paths": [
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01.mp3",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.mp3",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_01.mp4",
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_02.mp4"
+  ],
+  "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/provider_attempt_01",
+  "maximum_attempts": 1,
+  "shared_batch_credit_cap": 2500,
+  "rate_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_current_bounded_rate_2026_10_21.json",
+    "sha256": "49345e58ca10ec8e26cc2e5b86b5ef7347d77b15915a9d265e37252c9096dc20",
+    "bytes": 1072
+  },
+  "automatic_retry": false,
+  "publishing_authorized": false
+}

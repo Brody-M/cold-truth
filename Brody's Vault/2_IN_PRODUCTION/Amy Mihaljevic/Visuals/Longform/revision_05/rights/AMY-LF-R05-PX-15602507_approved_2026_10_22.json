@@ -1,0 +1,76 @@
+{
+  "asset_id": "AMY-LF-R05-PX-15602507",
+  "source_identity": "pexels:video:15602507",
+  "provider_id": 15602507,
+  "asset_class": "pexels_broll",
+  "permitted_track": "youtube-longform",
+  "url": "https://www.pexels.com/video/aerial-view-of-a-road-with-a-car-driving-on-it-15602507/",
+  "creator": {
+    "id": 738843,
+    "name": "Matthias Groeneveld",
+    "url": "https://www.pexels.com/@matthiasgroeneveld"
+  },
+  "preview_image": "https://images.pexels.com/videos/15602507/4k-aerial-cloudy-drenthe-15602507.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "duration_reported_seconds": 44,
+  "selected_file": {
+    "id": 11360104,
+    "quality": "hd",
+    "file_type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 59.94,
+    "link": "https://videos.pexels.com/video-files/15602507/15602507-hd_1920_1080_60fps.mp4",
+    "size": 32487269
+  },
+  "candidate_paragraphs": [
+    "P08"
+  ],
+  "depiction_boundary": "One brief rural establishing shot; not actual recovery field",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+  "rights_review_pending": false,
+  "actual_content_review_pending": false,
+  "file": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+    "bytes": 32469103,
+    "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+  },
+  "actual_duration_seconds": 44.863333,
+  "actual_width": 1920,
+  "actual_height": 1080,
+  "editorial_decision": "CANDIDATE",
+  "content_note": "One short top-down rural-road/field establishing shot for discovery paragraph only; not actual Ashland recovery site.",
+  "proposed_crop": null,
+  "permitted_source_range_seconds": [
+    0,
+    44
+  ],
+  "human_use_approved": true,
+  "actual_trim_crop_playback_reviewed": false,
+  "license_evidence": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/pexels_license_evidence_revision_05.json",
+    "bytes": 1041,
+    "sha256": "315560117c16d2db659f9f1c57bd1f5f6041c4b7130ba91b410a4a53e816ecc5"
+  },
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-10-22",
+  "user_quote": "Approve proposed uses and recorded conditions",
+  "scope": "14 exact proposed new stock uses under recorded illustrative-use/crop conditions; actual motion/crops and final video playback still require review.",
+  "asset": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+    "bytes": 32469103,
+    "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+  },
+  "commercial_use_reviewed": true,
+  "credits": "Pexels permits use without attribution; creator and item URL preserved in this record.",
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/candidate05_approved_2026_10_22.json",
+    "sha256": "ec2db51a8c8cf05bea170f948d703a33817d2a65a0f7341f5ef11ac816c6d666",
+    "bytes": 1686
+  },
+  "reviewed_candidate": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+    "bytes": 2186,
+    "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+  }
+}

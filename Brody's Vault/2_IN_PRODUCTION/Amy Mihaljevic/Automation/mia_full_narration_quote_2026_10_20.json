@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-21T03:50:30.484Z",
+  "source": "Signed-in ElevenLabs quote for exact current narration text",
+  "voice_id": "nPpkc230TdYdntJKFNby",
+  "voice_name": "Mia - Clear & Emotive Female Narrator",
+  "model_id": "eleven_multilingual_v2",
+  "input_characters": 7835,
+  "displayed_quote": "Costs 7,834 credits. You have 9,939 credits left.Cost is based on length of the text, selected model, and voice's rate multiplier.",
+  "quoted_credits": 7834,
+  "remaining_credits": 9939,
+  "website_generation_disabled_over_5000": true,
+  "api_input_limit": 10000,
+  "ui_speed": 0.91,
+  "api_speed_to_submit": 1,
+  "rate_basis": "Displayed quote bases cost on text length, model and voice rate; no website generation clicked."
+}

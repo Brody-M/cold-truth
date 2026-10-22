@@ -1,0 +1,238 @@
+{
+  "schema_version": "cold_truth.full_candidate_review_packet.v1",
+  "prepared_at_utc": "2026-10-22T04:30:25.670381+00:00",
+  "status": "ACTUAL_HUMAN_REVIEW_PENDING",
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "alternate_original_timing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_original_timing.wav",
+    "bytes": 75485228,
+    "sha256": "62f9dc80d959ca2c67eafbb0f0519076e111e174177c98fbdf4a7484a9664faf"
+  },
+  "word_timing_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/remapped_word_timing_draft.json",
+    "bytes": 440322,
+    "sha256": "de5c8614b695e164d9df7ae2e47640ed55c4371963acdef922b9c8c0c28383f4"
+  },
+  "caption_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/captions_paced_draft.json",
+    "bytes": 30602,
+    "sha256": "620646985aa10c039b50663d3c7ceff9a8bee88af8fa338b9fa782b24a907437"
+  },
+  "player": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Candidate_05_Review.html",
+    "bytes": 439905,
+    "sha256": "1834462c89ce82dba093604a6c3435cd956631b37360c75fe0380d63aabc7a92"
+  },
+  "review_note": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Review_Package_05.md",
+    "bytes": 5249,
+    "sha256": "99c82a0a11e8d3435950050543e33b63589f27b637aa18a7617b05534753eeac"
+  },
+  "visual_gallery": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/Visual_Review.md",
+    "bytes": 7676,
+    "sha256": "793dbae986b37908e29a8ecc539d25d73cb7dee20841f7d94ddf361158db3e84"
+  },
+  "provisional_recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/candidate_render_recipe_05.json",
+    "bytes": 126157,
+    "sha256": "cd8d4362196614b2b81016740ffd6ef8832ec6073b06d84cf18933826f57c2fd"
+  },
+  "new_stock_uses": [
+    {
+      "source_identity": "pexels:video:32835503",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_32835503_hd.mp4",
+        "bytes": 10557891,
+        "sha256": "6b4b8c8e230151cc1714667ce1ff50269225d34c39630425973eeec5c0fe5c03"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-32835503_candidate_review.json",
+        "bytes": 2265,
+        "sha256": "b1ca7da5c3870014ed618c4a67c03c9034e49151b3b9be1643e16a2382d33ad7"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8371858",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371858_hd.mp4",
+        "bytes": 47980085,
+        "sha256": "1dc575a42ed9a709d06fb9459f83d653b68ddb5fcda98590e1da69ea30474a1e"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371858_candidate_review.json",
+        "bytes": 2207,
+        "sha256": "86bf093e3129e741bc078f07ec747c76745e4a507aacbf007a194774bfc3b731"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8371852",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8371852_hd.mp4",
+        "bytes": 21745348,
+        "sha256": "d5247dbd8d710102a1a1bf19640e0d70ddc6f64ca8a1f43ee11bced51485f148"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8371852_candidate_review.json",
+        "bytes": 2136,
+        "sha256": "d8db3456f4ddafd241cc98501f4dd44147dc1dda0673076399f8c16449c0eecd"
+      }
+    },
+    {
+      "source_identity": "pexels:video:4267248",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_4267248_hd.mp4",
+        "bytes": 3488458,
+        "sha256": "861caab8c10d9d3a82da5c465e859325c0ae32285ca2d79897f161b11ff9584d"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-4267248_candidate_review.json",
+        "bytes": 2156,
+        "sha256": "4cb6b9d6011f0d697d542643692d323dd54faf1563ea1d9d368d3e2e790e6cdb"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8326170",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8326170_hd.mp4",
+        "bytes": 6102484,
+        "sha256": "945f1be357bd5fcc644d922df7486f81dfdbba68fcf949d0352c85201ceb6c0a"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8326170_candidate_review.json",
+        "bytes": 2144,
+        "sha256": "a53bb0107d920fd109a2d8f8b63e3208bd10a6de9e15faac592dc8b677b2e6fe"
+      }
+    },
+    {
+      "source_identity": "pexels:video:14160089",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_14160089_hd.mp4",
+        "bytes": 33121639,
+        "sha256": "f57eee3059d9da1b3621fd246383e9c1d8af04e8dbc60089787503c84796055c"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-14160089_candidate_review.json",
+        "bytes": 2190,
+        "sha256": "517a4ada781d0b0b501147109281245be536793aac253df003e5a309f01fe463"
+      }
+    },
+    {
+      "source_identity": "pexels:video:15602507",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_15602507_hd.mp4",
+        "bytes": 32469103,
+        "sha256": "df7a7fe87ef4439d13df1a5921bf3004d059cf1898372e02b1c4a53aa55f146c"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-15602507_candidate_review.json",
+        "bytes": 2186,
+        "sha256": "f10e4a60b8fe80a8c7c114daa378162b019537f8bff178a07d36eb52b0eccd52"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8527274",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8527274_hd.mp4",
+        "bytes": 15061087,
+        "sha256": "31649d2ffc84148f2c1b4fb85347b964e9e214075e8703043789b1ee2cd186ab"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8527274_candidate_review.json",
+        "bytes": 2205,
+        "sha256": "400a63a9fbcb9d3545ad3c06a1a9dd850ea9f2092e319a0013365e04626d5f2d"
+      }
+    },
+    {
+      "source_identity": "pexels:video:6975995",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_6975995_hd.mp4",
+        "bytes": 14830567,
+        "sha256": "44355a7ff5ac0ce66d5d7ae8f15ea3a6321a8afc39c1016a9c02294224498ec7"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-6975995_candidate_review.json",
+        "bytes": 2285,
+        "sha256": "a3d75bd7e8983cbdfca13793a37ab5d6fdb8ddc01025b246f11c0f742607a2ab"
+      }
+    },
+    {
+      "source_identity": "pexels:video:3195394",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_3195394_revision05_hd.mp4",
+        "bytes": 2629786,
+        "sha256": "920a92979133a47fb6d9fff218a52c6e3fb2206ce19e0d2c209eefa328baad3f"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-3195394_candidate_review.json",
+        "bytes": 2124,
+        "sha256": "007b0435cd0753f2e6d7316483b54558f9912e3a871fd842d3ca67a6216df13b"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8381446",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/assets/pexels_8381446_revision05_hd.mp4",
+        "bytes": 6151622,
+        "sha256": "b80fd4533e2e7b87a3c6d1fd3ac75fd3c5c371032bfb7302487cdb4a08325af0"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8381446_candidate_review.json",
+        "bytes": 2106,
+        "sha256": "6204878fcc0ac780aeff325f7e12f507288e3df3f89237abda8e2812dcb3b7ce"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8888977",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8888977_hd.mp4",
+        "bytes": 12056792,
+        "sha256": "12f9337e9ffbf57e31c4a550a9559f41edcfdfd92211ea5fa5be6987b27e2d55"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8888977_candidate_review.json",
+        "bytes": 8238,
+        "sha256": "159e08dd60109156c926c7f39bccdb2e4909e3b016b0da673ea9a07e28a58131"
+      }
+    },
+    {
+      "source_identity": "pexels:video:17136728",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_17136728_hd.mp4",
+        "bytes": 14691653,
+        "sha256": "bca5d9d8492d7e7f8605f23006dbb90c0b21d4fe6bad1b049a461abd98cb22a3"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-17136728_candidate_review.json",
+        "bytes": 9635,
+        "sha256": "62501a7c913e80a8e5e043a68a887ee019ecfdb4164be281ad091834648ec52d"
+      }
+    },
+    {
+      "source_identity": "pexels:video:8085793",
+      "file": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/assets/pexels_8085793_hd.mp4",
+        "bytes": 14052576,
+        "sha256": "c81af9b41e6d06a3461fdbc5853ca42491a2b009d7d64886567d972d11b903ea"
+      },
+      "candidate_review": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/rights/AMY-LF-R05-PX-8085793_candidate_review.json",
+        "bytes": 8008,
+        "sha256": "240c97ba6563204fa0cf7c8ecc45a4ee4e0c1622a15d5b00361994bdb6b70b2b"
+      }
+    }
+  ],
+  "audio_approved": false,
+  "timing_approved": false,
+  "new_stock_use_approved": false,
+  "assembly_allowed": false,
+  "paid_spending": 0,
+  "tts_calls": 0,
+  "video_rendered": false,
+  "full_screen_cards_seconds": 0,
+  "source_reused_seconds_disclosed": 140.00000033333342
+}

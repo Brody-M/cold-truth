@@ -1,0 +1,393 @@
+{
+  "schema_version": "cold_truth.authorized_episode_offline_audio_processing.v1",
+  "status": "TECHNICALLY_VERIFIED_FULL_EPISODE_LISTENING_PENDING",
+  "started_at_utc": "2026-10-21T03:55:13.058888+00:00",
+  "completed_at_utc": "2026-10-21T03:56:09.546332+00:00",
+  "role": "Editor",
+  "case_id": "amy-mihaljevic",
+  "narration_branch": "youtube-longform",
+  "input_authority": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\approvals\\phase_2_narration_resumed_mia_normal_2026_10_20.json",
+    "bytes": 4345,
+    "sha256": "154d32612d651d0dddbfca1d75bfbc322dfe206da3ef44c60f219947904556db"
+  },
+  "audio_treatment_profile": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\mia_normal_audio_profile_2026_10_20.json",
+    "bytes": 1244,
+    "sha256": "584d4864c7d2634aea5f9feab9561119e4093a1b18fc87b10e1bbad5fe1ef20a"
+  },
+  "accepted_sample_binding": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/mia_sample_listening_acceptance_2026_10_20.json",
+    "bytes": 1146,
+    "sha256": "9ef833fbf41ae0a91d01419e9cd723e59f473b9e133466e711a9dc8a88af9ed8"
+  },
+  "provider_original": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\provider_attempt_01\\tts_On_th_20261020_235138.mp3",
+    "bytes": 9129943,
+    "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02"
+  },
+  "source": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+    "bytes": 9129943,
+    "sha256": "d328526697bae6d55cd3342edd9e01505aa8c6d8231ec138be832a0236c89f02",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "9129943"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -0.30941963345747736,
+    "samples_at_or_above_0dbfs": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-15.03",
+      "input_tp": "-0.28",
+      "input_lra": "3.60",
+      "input_thresh": "-25.88"
+    },
+    "loudness_measurement_command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    "pcm_measurement_command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ]
+  },
+  "stage_outputs": [
+    {
+      "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_editor_stage.wav",
+      "bytes": 75485286,
+      "sha256": "d9c02457648e0ba0ef2826a84a5d952d82010e21d86d8e38114848146d376640",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s24le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "570.560726",
+            "bits_per_raw_sample": "24"
+          }
+        ],
+        "format": {
+          "duration": "570.560726",
+          "size": "75485286"
+        }
+      }
+    },
+    {
+      "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_quieter_stage.wav",
+      "bytes": 75485286,
+      "sha256": "44ae7bd8d98513898bee27a1ed6dccedc4a226bb1f8d5a5b549c007df6927995",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s24le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "570.560726",
+            "bits_per_raw_sample": "24"
+          }
+        ],
+        "format": {
+          "duration": "570.560726",
+          "size": "75485286"
+        }
+      }
+    }
+  ],
+  "processed_master": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "bytes": 75485286,
+    "sha256": "4996c3afaaf3f728b694487256fa49beb036ed68daaf0b26a9f42829d6c25f9b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726",
+          "bits_per_raw_sample": "24"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "75485286"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -19.982712962024532,
+    "samples_at_or_above_0dbfs": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-30.89",
+      "input_tp": "-19.93",
+      "input_lra": "2.20",
+      "input_thresh": "-41.49"
+    },
+    "loudness_measurement_command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    "pcm_measurement_command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ]
+  },
+  "preview": {
+    "path": "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+    "bytes": 13694894,
+    "sha256": "96d2be0fd14f680b94909bf54bda8de8040481e2753ffd933f63258331d13e99",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1,
+          "duration": "570.560726"
+        }
+      ],
+      "format": {
+        "duration": "570.560726",
+        "size": "13694894"
+      }
+    },
+    "decoded_samples": 25161728,
+    "decoded_duration_seconds": 570.5607256235828,
+    "sample_peak_dbfs": -20.17887823262864,
+    "samples_at_or_above_0dbfs": 0,
+    "loudnorm_input_measurements": {
+      "input_i": "-31.15",
+      "input_tp": "-20.16",
+      "input_lra": "2.30",
+      "input_thresh": "-41.75"
+    },
+    "loudness_measurement_command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+      "-af",
+      "loudnorm=I=-20:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    "pcm_measurement_command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+      "-f",
+      "f32le",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "pipe:1"
+    ]
+  },
+  "processing_commands": [
+    {
+      "stage": "stage_1_filter",
+      "filtergraph": "highpass=f=80:p=2,acompressor=threshold=0.25:ratio=2:attack=2:release=100:makeup=1:knee=2.828427:detection=peak,volume=-0.5dB,aresample=176400,alimiter=limit=0.7943282347:attack=5:release=50:level=false:latency=true,aresample=44100",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01.mp3",
+        "-map",
+        "0:a:0",
+        "-af",
+        "highpass=f=80:p=2,acompressor=threshold=0.25:ratio=2:attack=2:release=100:makeup=1:knee=2.828427:detection=peak,volume=-0.5dB,aresample=176400,alimiter=limit=0.7943282347:attack=5:release=50:level=false:latency=true,aresample=44100",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_editor_stage.wav"
+      ]
+    },
+    {
+      "stage": "stage_2_filter",
+      "filtergraph": "volume=-4dB",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_editor_stage.wav",
+        "-map",
+        "0:a:0",
+        "-af",
+        "volume=-4dB",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_quieter_stage.wav"
+      ]
+    },
+    {
+      "stage": "stage_3_filter",
+      "filtergraph": "acompressor=threshold=0.07943282347:ratio=4:attack=1:release=100:makeup=1:knee=2.828427:detection=peak,aresample=176400,alimiter=limit=0.1258925412:attack=5:release=100:level=false:latency=true,aresample=44100,volume=-2dB",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_quieter_stage.wav",
+        "-map",
+        "0:a:0",
+        "-af",
+        "acompressor=threshold=0.07943282347:ratio=4:attack=1:release=100:makeup=1:knee=2.828427:detection=peak,aresample=176400,alimiter=limit=0.1258925412:attack=5:release=100:level=false:latency=true,aresample=44100,volume=-2dB",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "pcm_s24le",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav"
+      ]
+    },
+    {
+      "stage": "mp3_preview",
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+        "-map",
+        "0:a:0",
+        "-ar",
+        "44100",
+        "-ac",
+        "1",
+        "-c:a",
+        "libmp3lame",
+        "-b:a",
+        "192k",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.mp3"
+      ]
+    }
+  ],
+  "time_stretching": false,
+  "cuts": false,
+  "padding": false,
+  "new_speech": false,
+  "automatic_gain_boost": false,
+  "timeline": {
+    "sample_rate": 44100,
+    "source_decoded_samples": 25161728,
+    "master_decoded_samples": 25161728,
+    "preview_decoded_samples": 25161728,
+    "equal_sample_count": true,
+    "duration_seconds": 570.5607256235828
+  },
+  "runtime_observation": {
+    "minimum_seconds": 480.0,
+    "actual_decoded_seconds": 570.5607256235828,
+    "runtime_threshold_met": true,
+    "is_machine_preflight": false,
+    "note": "Root must create exact-current-audio preflight; this receipt does not authorize assembly."
+  },
+  "integrated_loudness_change_lu": -15.860000000000001,
+  "human_listening": {
+    "full_episode_listened": false,
+    "full_episode_approved": false,
+    "sample_acceptance_does_not_approve_unheard_episode": true
+  },
+  "new_provider_calls": 0,
+  "new_provider_credits": 0,
+  "assembly_allowed": false,
+  "video_rendered": false,
+  "tool_versions": {
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "2.2.6"
+  },
+  "output_paths": [
+    "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_editor_stage.wav",
+    "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_quieter_stage.wav",
+    "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.wav",
+    "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\Amy_Mihaljevic_Mia_attempt_01_processed.mp3",
+    "Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Automation\\audio_processing_01.json"
+  ],
+  "limitations": [
+    "Technical QA only; human full-episode listening, pronunciation and wording review remain pending.",
+    "Applied the accepted sample treatment exactly; no new loudness target or gain normalization was introduced.",
+    "PCM24 does not restore detail lost in original MP3 encoding.",
+    "Decoded sample count governs timeline equality; container durations can include codec framing."
+  ],
+  "receipt_self_hash_omitted": true
+}

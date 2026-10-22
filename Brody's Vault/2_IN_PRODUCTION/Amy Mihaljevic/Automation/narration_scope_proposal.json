@@ -1,0 +1,75 @@
+{
+  "schema_version": "cold_truth.narration_scope_proposal.v1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "prepared_on": "2026-10-20",
+  "case_id": "amy-mihaljevic",
+  "case_name": "Amy Mihaljevic",
+  "target_format": "youtube-longform",
+  "human_approved": false,
+  "phase_2_authorized": false,
+  "proposed_actions": [
+    "narration"
+  ],
+  "tool": "mcp__elevenlabs__text_to_speech",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json",
+    "sha256": "a83356765965d9baef5e1f6aabd19c6367798a4aa283ad411a1a37dc0cdd51f8",
+    "bytes": 2030
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+    "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5",
+    "bytes": 10247
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Narration_Text.txt",
+    "sha256": "00157d1ad4473c3dbd447073c71baf54053ff85e62344a1149e5d7a5640eed37",
+    "bytes": 7835
+  },
+  "input_characters": 7835,
+  "settings": {
+    "voice_id": "nPpkc230TdYdntJKFNby",
+    "model_id": "eleven_multilingual_v2",
+    "language": "en",
+    "stability": 0.72,
+    "similarity_boost": 0.76,
+    "style": 0.05,
+    "speed": 0.94,
+    "use_speaker_boost": true,
+    "output_format": "mp3_44100_128"
+  },
+  "limits": {
+    "maximum_generation_attempts": 1,
+    "maximum_existing_provider_credits": 8000,
+    "additional_spend_allowed": false,
+    "automatic_retry_allowed": false,
+    "fallback_allowed": false,
+    "voice_or_model_change_allowed": false,
+    "verify_current_balance_input_limit_and_charge_multiplier_before_call": true,
+    "stop_if_cost_cannot_be_confirmed_within_ceiling": true
+  },
+  "provider_output_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/provider_attempt_01",
+  "maximum_provider_output_files": 1,
+  "output_paths": [
+    "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/Amy_Mihaljevic_Mia_attempt_01.mp3"
+  ],
+  "canonicalization": "One byte-identical copy of the returned provider file to the canonical audio path; record both output paths and hashes.",
+  "later_local_evidence": [
+    "Automation/narration_attempt_01.json",
+    "Automation/audio_qa_01.json",
+    "Automation/audio_preflight_request.json",
+    "Automation/preflight.json"
+  ],
+  "excluded_actions": [
+    "visual_sourcing",
+    "alignment",
+    "assembly",
+    "render",
+    "upload",
+    "schedule",
+    "publish"
+  ],
+  "billing_quote": null,
+  "live_provider_or_account_readiness_verified": false,
+  "scope_note": "A concrete proposal only. Create a separate approval from actual Phase 2 consent; script approval does not approve this request."
+}

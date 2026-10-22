@@ -1,0 +1,49 @@
+{
+  "schema_version": "cold_truth.script_review_packet.v1",
+  "review_id": "amy-mihaljevic-short-02-review-2026-10-21-v1",
+  "case_id": "amy-mihaljevic-short-02",
+  "parent_case_id": "amy-mihaljevic",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Draft.md",
+    "bytes": 2235,
+    "sha256": "5f4470ddd88d48db911c98574f99925d56271bfe748db54db2e37891199cec7f"
+  },
+  "reverse_outline": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Reverse_Outline.md",
+    "bytes": 1633,
+    "sha256": "ffe84e8303dcdf009370057e5acc6b31b62b8ad07f640565a34970f151f830c6"
+  },
+  "supporting_inputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
+      "bytes": 9858,
+      "sha256": "7ebe62ec7e0b6a5da94ce8738d16613846367d28d184af6802c9533ba7b7a48b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md",
+      "bytes": 7269,
+      "sha256": "b475ffac1691ea0a113c7ffcd0d9e718915b596d6804c24afacfc0af0d955bbc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_source_check_2026_10_21.json",
+      "bytes": 1111,
+      "sha256": "9ab398b3688a70a1224d6a5509c7693a25a579606eab3aa98b8d5de27505f9d4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md",
+      "bytes": 10247,
+      "sha256": "694a1fb62ad817c173dfc893d44bce09a1b815701e2491746b18ddc85a2bfec5"
+    }
+  ],
+  "human_approved": false,
+  "script_final_created": false,
+  "spoken_word_count": 98,
+  "estimated_duration_seconds": [
+    35.64,
+    43.56
+  ],
+  "estimated_duration_is_not_preflight": true,
+  "visual_track": "separately_licensed_orbital_gameplay_only",
+  "new_generation_calls": 0
+}
