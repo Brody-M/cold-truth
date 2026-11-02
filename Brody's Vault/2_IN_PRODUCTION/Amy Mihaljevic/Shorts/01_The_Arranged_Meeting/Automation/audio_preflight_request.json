@@ -34,8 +34,8 @@
   },
   "generation_event_id": "amy-mihaljevic-short-01-narration-attempt-01",
   "audio_qa": {
-    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_qa_01.json",
-    "sha256": "04964849590da29483e4e02888d89994470b04b2f1a74d14546da763e9437eab",
-    "bytes": 1223
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_qa_approved_2026_11_02.json",
+    "sha256": "abe9a7af847d1a63c14f1c8df5ec9bfc7b34478468af0b51a60696f480d50886",
+    "bytes": 1863
   }
 }

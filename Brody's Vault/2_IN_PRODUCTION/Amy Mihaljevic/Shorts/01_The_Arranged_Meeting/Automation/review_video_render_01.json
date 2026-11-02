@@ -1,0 +1,156 @@
+{
+  "status": "REVIEW_VIDEO_RENDERED_TECHNICAL_PASS_HUMAN_PLAYBACK_PENDING",
+  "render_attempt": 1,
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "started_at_utc": "2026-11-02T05:16:09.317689+00:00",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4",
+    "bytes": 2292
+  },
+  "recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/review_video_recipe_01.json",
+    "sha256": "1601727fe6dc8c3a923901ff548e9e26b0dd9c8cba0f24ee69e2e540229731e2",
+    "bytes": 5630
+  },
+  "tool": "Installed FFmpeg/FFprobe8.1.1",
+  "settings": {
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "encoder": "libx264 fast CRF20 max8M",
+    "audio": "AAC192k; no filter or gain change",
+    "source_speed": 1,
+    "gameplay_audio": false,
+    "gameplay_loop": false
+  },
+  "isolation": {
+    "status": "PASS_FILE_RIGHTS_ISOLATION",
+    "registry": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+      "sha256": "723fa58811c0e7784a337673237bf66192618788a07e5392d4e6ee53c350284a",
+      "bytes": 33007
+    },
+    "counts": {
+      "youtube-longform": 32,
+      "shorts": 1
+    },
+    "media_content_or_legal_validity_certified": false
+  },
+  "component_commands": [
+    {
+      "label": "vertical_caption_mux",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "45",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Audio\\Amy_Short_01_Mia_attempt_01_processed.wav",
+        "-map",
+        "0:v:0",
+        "-map",
+        "1:a:0",
+        "-vf",
+        "crop=810:1440:875:0,fps=30,scale=1080:1920:flags=lanczos,setsar=1,subtitles=captions.ass,format=yuv420p",
+        "-frames:v",
+        "1338",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "20",
+        "-maxrate",
+        "8M",
+        "-bufsize",
+        "16M",
+        "-threads",
+        "2",
+        "-pix_fmt",
+        "yuv420p",
+        "-c:a",
+        "aac",
+        "-b:a",
+        "192k",
+        "-movflags",
+        "+faststart",
+        "-fs",
+        "268435456",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4"
+      ],
+      "started_at_utc": "2026-11-02T05:16:09.320695+00:00",
+      "returncode": 0,
+      "finished_at_utc": "2026-11-02T05:17:41.510823+00:00"
+    },
+    {
+      "label": "full_decode",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+        "-map",
+        "0:v:0",
+        "-map",
+        "0:a:0",
+        "-f",
+        "null",
+        "-"
+      ],
+      "started_at_utc": "2026-11-02T05:17:41.577108+00:00",
+      "returncode": 0,
+      "finished_at_utc": "2026-11-02T05:17:47.792291+00:00"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/work_short_01_review_01/captions.ass",
+      "sha256": "7c77b073a55688aa6cc7fb1d7c180341b0ea2fd7d0a612796b272ba2ce6b48a6",
+      "bytes": 3015
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/work_short_01_review_01/full_decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/work_short_01_review_01/vertical_caption_mux.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_01.mp4",
+      "sha256": "1c9d9aa214f06e109d617ce3cef32a522c3b661a8c8b337cc91fe6379add2bd3",
+      "bytes": 46219679
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/review_video_probe_01.json",
+      "sha256": "b6be3548e21824e1b6b14814e1985f66f53618bc9c8924f437ff0ae28e60e980",
+      "bytes": 3774
+    }
+  ],
+  "new_provider_calls": 0,
+  "publishing": false,
+  "human_master_playback_approved": false,
+  "completed_at_utc": "2026-11-02T05:17:47.792291+00:00",
+  "full_decode_passed": true,
+  "case_output_bytes": 2417847786,
+  "remaining_branch_renders": 1
+}

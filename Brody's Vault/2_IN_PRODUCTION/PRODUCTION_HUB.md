@@ -1,5 +1,5 @@
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 # Production and review hub
 
@@ -13,7 +13,7 @@
 
 [[2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary|Current summary]] → [[2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger|Base ledger]] + [[2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16|October addendum]] → [[2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3|Current viability]] → [[2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet|Paired review]]
 
-M1–M5 are complete. Brody approved the full **9:30.56** processed Mia narration on October 21; the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json|audio preflight]] passes. One full request used **1,722 existing credits**; no attempts remain. The separately [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_m6_preparation_2026_10_21.json|approved M6 preparation scope]] has produced exact-audio timing, local stock, original cards and verified existing Orbital provenance. The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|M6 review hub]] records the actual video/audio outputs and remaining playback gates. Video assembly/rendering, new narration and publishing are outside this grant. Kitten/Bella stays parked. Follow [[0_ADMIN/PROJECT_DASHBOARD|the queue]].
+M1–M5 are complete. The full9:08.59 repaired narration/timing and the resulting long-form corrective cut02 are approved. All three Short audio/timing pairs are approved; finish and review their separate Orbital videos. Use the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|current media evidence]] and [[0_ADMIN/PROJECT_DASHBOARD|queue]]. All narration attempts and both long-form render slots are consumed. Historical voice trials/provider holds remain preserved. No new paid services or publishing.
 
 ## Jodi Huisentruit — historical work, blocked rewrite
 

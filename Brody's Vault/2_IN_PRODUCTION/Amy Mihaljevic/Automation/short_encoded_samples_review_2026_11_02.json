@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-11-02T05:24:38.923634+00:00",
+  "reviewer": "Codex assistant",
+  "assistant_sample_review_passed": true,
+  "human_full_video_playback_approved": false,
+  "scope": "All19 factual-overlay midpoints plus opening/ending of all3 actual encoded Short videos,25frame samples on3contact sheets. Sampled captions/overlays/credits are readable and separated. Continuous motion, all-caption synchronization, audio and creative acceptance still require full human playback.",
+  "audit": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/short_video_export_audit_01_2026_11_02.json",
+    "bytes": 47864,
+    "sha256": "bce0080f671a2801d13fd4506acd15e0ddbfaa6b61c08ad9f31d629a6db55a6a"
+  },
+  "contact_sheets": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "913781d9711e13d2b4574724fa6119bd219a0fa81920670f2574007e3af74a58",
+      "bytes": 879658
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "482e8146f535a74002c6a08d16d9ffdd3d2e2fede2e819b8fe8d3171ac608234",
+      "bytes": 914091
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "9fb7b043dca92f7dc13f9d33818ca4ea57739e03b5ae048383f9bda5ebde61b0",
+      "bytes": 868017
+    }
+  ]
+}

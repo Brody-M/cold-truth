@@ -1,0 +1,219 @@
+{
+  "status": "STILL_PREVIEWS_READY_FOR_INSPECTION",
+  "recorded_at_utc": "2026-11-02T05:14:20.040967+00:00",
+  "recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/review_video_recipe_01.json",
+    "sha256": "846932419b176332114a20301504fa4e9d8d90071b48eb231b47b14372d4cde0",
+    "bytes": 5734
+  },
+  "tool": "Installed FFmpeg8.1.1",
+  "commands": [
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "303.68",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+3.6799999999999997/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_01.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "310.664",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+10.664000000000001/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_02.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "316.3965",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+16.3965/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_03.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "323.20799999999997",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+23.208/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_04.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "331.58299999999997",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+31.583/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_05.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "337.734",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+37.734/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\preview_review_01\\overlay_06.jpg"
+      ],
+      "returncode": 0
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/captions.ass",
+      "sha256": "86416f9104e25900c0b0ef483779ea6f62c51b3b60289312f1543c72540ed8c3",
+      "bytes": 2841
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_01.jpg",
+      "sha256": "837ab45e22496512e58e0c6cebb342b65bb47f9742a6fd3f175154260d6a4697",
+      "bytes": 78101
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_02.jpg",
+      "sha256": "d853081bbfdfc24c1eb5680c80b5c934a625121356a6334b64ae8acb362d05aa",
+      "bytes": 87777
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_03.jpg",
+      "sha256": "a6411f5af96fcc581ce88a2feb3085aced87700d65cf8cc4cac54e6646c9c57c",
+      "bytes": 91553
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_04.jpg",
+      "sha256": "afca82756a023a23a51def3fc65f5f75b5cfbaaa02c3667b9248f47805815cda",
+      "bytes": 101313
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_05.jpg",
+      "sha256": "b6d60e4122c64c7e8c73faac71521615de2927a19b9a9e294a2ef92ade4f32a1",
+      "bytes": 127116
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/overlay_06.jpg",
+      "sha256": "c7d3a3a92b716338e2776d7a05964966176d06ba1575282cb4b059f09f544bce",
+      "bytes": 117711
+    }
+  ],
+  "video_render": false,
+  "new_provider_calls": 0
+}

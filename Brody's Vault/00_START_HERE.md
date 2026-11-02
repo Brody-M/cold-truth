@@ -2,15 +2,14 @@
 tags: [cold-truth, navigation]
 ---
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
-
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
 
 # Cold Truth — Start here
 
 A calm, source-backed story first. Production follows approved editorial work.
 
-**October21 history:** Earlier audio/video revisions were rejected; the current October22 decision above supersedes their pending gates.
+**October21 history:** Earlier audio/video revisions were rejected; the current November2 decisions above supersede their pending gates.
 
 1. [[0_ADMIN/PROJECT_DASHBOARD|See what is current and next]].
 2. [[0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2|Read the working plan, revision 2.1]].

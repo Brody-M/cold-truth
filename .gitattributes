@@ -1,0 +1,2 @@
+# Preserve reviewed vault bytes: approvals bind exact file hashes and sizes.
+"Brody's Vault/**" -text

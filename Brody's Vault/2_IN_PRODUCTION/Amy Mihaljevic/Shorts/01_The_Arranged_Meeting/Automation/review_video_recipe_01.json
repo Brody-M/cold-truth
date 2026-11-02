@@ -1,0 +1,143 @@
+{
+  "schema_version": "cold_truth.short_review_recipe.v1",
+  "case_id": "amy-mihaljevic-short-01",
+  "id": 1,
+  "target_format": "shorts",
+  "created_at_utc": "2026-11-02T05:11:23.624761+00:00",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4",
+    "bytes": 2292
+  },
+  "branch_authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+    "bytes": 3203
+  },
+  "actual_audio_timing_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/review02_and_short_audio_approved_2026_11_02.json",
+    "sha256": "f97f8e9dde1b89bcdae74cbf646fc880f5aafeaba383d9d5dc4de70d98aed86d",
+    "bytes": 1830
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+    "bytes": 5898342
+  },
+  "preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/preflight.json",
+    "sha256": "0f779f90bb225eb8e6121c28a83322912405611f653c51d87f7a75abec0c4c0d",
+    "bytes": 2855
+  },
+  "audio_request": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_preflight_request.json",
+    "sha256": "cf9eb61e5c42df5bfcc0597f5b63dce29800658f9b9db54d1eba10862e85b542",
+    "bytes": 2033
+  },
+  "alignment": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/alignment.json",
+    "sha256": "4d1ab396c0ee1b64c14b239a4eedb9697284bb17e8a3ff39f306d9675ec52a23",
+    "bytes": 4282
+  },
+  "subtitles": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/review_01.ass",
+    "sha256": "7c77b073a55688aa6cc7fb1d7c180341b0ea2fd7d0a612796b272ba2ce6b48a6",
+    "bytes": 3015
+  },
+  "srt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01.srt",
+    "sha256": "b2a0a610df5198936ff5de3f0cee24c1391e615290195764a70c08275bc89bcb",
+    "bytes": 1186
+  },
+  "registry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+    "sha256": "723fa58811c0e7784a337673237bf66192618788a07e5392d4e6ee53c350284a",
+    "bytes": 33007
+  },
+  "gameplay": {
+    "asset_id": "AMY-SH-ORBITAL-01",
+    "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+    "asset_class": "orbital_gameplay",
+    "file": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+      "bytes": 12182660536,
+      "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+    },
+    "license_evidence": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+      "bytes": 3020,
+      "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+    },
+    "rights_review": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+      "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d",
+      "bytes": 2092
+    }
+  },
+  "source_in_seconds": 45,
+  "source_audio": false,
+  "source_speed": 1,
+  "source_looping": false,
+  "source_crop": {
+    "width": 810,
+    "height": 1440,
+    "x": 875,
+    "y": 0
+  },
+  "output_width": 1080,
+  "output_height": 1920,
+  "fps": 30,
+  "frames": 1338,
+  "audio_duration_seconds": 44.582313,
+  "caption_count": 15,
+  "overlays": [
+    {
+      "cue": "A gift for her mother",
+      "text": "Amy Mihaljevic — age 10",
+      "start": 0.08,
+      "end": 7.08
+    },
+    {
+      "cue": "October 27, 1989",
+      "text": "October 27, 1989 • Bay Village, Ohio",
+      "start": 9.585,
+      "end": 16.585
+    },
+    {
+      "cue": "weeks earlier",
+      "text": "Police: contact weeks earlier",
+      "start": 20.17,
+      "end": 24.392
+    },
+    {
+      "cue": "Bay Village Square",
+      "text": "Bay Village Square • apparently\nwaiting",
+      "start": 24.392,
+      "end": 31.392
+    },
+    {
+      "cue": "unidentified man",
+      "text": "Witness account: unidentified man",
+      "start": 33.617,
+      "end": 37.839
+    },
+    {
+      "cue": "No vehicle was seen",
+      "text": "Police: no vehicle seen",
+      "start": 37.839,
+      "end": 44.582313
+    }
+  ],
+  "required_gameplay_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_01.mp4",
+  "working_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/work_short_01_review_01",
+  "maximum_output_bytes": 5368709120,
+  "new_provider_calls": 0,
+  "publishing_authorized": false,
+  "render_ready": true
+}

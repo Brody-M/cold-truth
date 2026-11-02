@@ -1,0 +1,143 @@
+{
+  "schema_version": "cold_truth.short_review_recipe.v1",
+  "case_id": "amy-mihaljevic-short-02",
+  "id": 2,
+  "target_format": "shorts",
+  "created_at_utc": "2026-11-02T05:11:23.624761+00:00",
+  "authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_review_production_2026_10_21.json",
+    "sha256": "d1ab82b134ef47d88d8c7254db23999422d3b2cf6ec534fc0ef28374229b68c4",
+    "bytes": 2292
+  },
+  "branch_authority": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "7261349bc9559a3c403614ffe078979a75b1b34e179d86385dae08d0b54360a1",
+    "bytes": 3217
+  },
+  "actual_audio_timing_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/review02_and_short_audio_approved_2026_11_02.json",
+    "sha256": "f97f8e9dde1b89bcdae74cbf646fc880f5aafeaba383d9d5dc4de70d98aed86d",
+    "bytes": 1830
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+    "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+    "bytes": 2327
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+    "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+    "bytes": 5511270
+  },
+  "preflight": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/preflight.json",
+    "sha256": "58ceea1a7f73b73c47df836a4ed3270524fa624182cc7caac6638a6010ac1dc7",
+    "bytes": 2873
+  },
+  "audio_request": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/audio_preflight_request.json",
+    "sha256": "34d243278eef6533244127d50829a650992bc76e348048e7761e70f945f03fdc",
+    "bytes": 2047
+  },
+  "alignment": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/alignment.json",
+    "sha256": "014463be00d4aff3f974a029787a9266ad3dc04a449c356a651f1a490c32f22c",
+    "bytes": 4007
+  },
+  "subtitles": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/review_01.ass",
+    "sha256": "86416f9104e25900c0b0ef483779ea6f62c51b3b60289312f1543c72540ed8c3",
+    "bytes": 2841
+  },
+  "srt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02.srt",
+    "sha256": "4d63eaed9855da791035046ddb51a36a35a722551af89a3a556f44240545f367",
+    "bytes": 1020
+  },
+  "registry": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/asset_registry.json",
+    "sha256": "723fa58811c0e7784a337673237bf66192618788a07e5392d4e6ee53c350284a",
+    "bytes": 33007
+  },
+  "gameplay": {
+    "asset_id": "AMY-SH-ORBITAL-01",
+    "source_identity": "orbital:purchased:minecraft-parkour-30min-1440p60:2026-07-10",
+    "asset_class": "orbital_gameplay",
+    "file": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Jodi Huisentruit/shorts_gameplay/orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+      "bytes": 12182660536,
+      "sha256": "756339ba6b17582a00ad0ef4fbce1ced208354b91ea8c197086f89976b760245"
+    },
+    "license_evidence": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/orbital_license_evidence_2026_10_21.json",
+      "bytes": 3020,
+      "sha256": "08cb9ab6e7124ce93d40e47a490175f23cd8a901a8020ad0bb0cf4f6b8112f90"
+    },
+    "rights_review": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Shorts/rights/AMY-SH-ORBITAL-01_review_approved_2026_10_21.json",
+      "sha256": "c48725858b13bd3f7625e2e2a32aaf1263595149b8a9eee79ddcfc59be2e517d",
+      "bytes": 2092
+    }
+  },
+  "source_in_seconds": 300,
+  "source_audio": false,
+  "source_speed": 1,
+  "source_looping": false,
+  "source_crop": {
+    "width": 810,
+    "height": 1440,
+    "x": 875,
+    "y": 0
+  },
+  "output_width": 1080,
+  "output_height": 1920,
+  "fps": 30,
+  "frames": 1250,
+  "audio_duration_seconds": 41.656599,
+  "caption_count": 12,
+  "overlays": [
+    {
+      "cue": "turquoise horse earring",
+      "text": "FBI appeal: turquoise horse earring",
+      "start": 0.18,
+      "end": 7.18
+    },
+    {
+      "cue": "Amy was ten",
+      "text": "Amy Mihaljevic • age 10",
+      "start": 8.243,
+      "end": 13.085
+    },
+    {
+      "cue": "October 27, 1989",
+      "text": "Abducted October 27, 1989 • Bay\nVillage, Ohio",
+      "start": 13.085,
+      "end": 19.708
+    },
+    {
+      "cue": "February 8, 1990",
+      "text": "Body found February 8, 1990 •\nAshland County",
+      "start": 19.708,
+      "end": 26.708
+    },
+    {
+      "cue": "black ankle boots",
+      "text": "Unrecovered: earring • black ankle\nboots • black binder",
+      "start": 28.932,
+      "end": 34.234
+    },
+    {
+      "cue": "public request for information",
+      "text": "Public information appeal • no\nidentity established",
+      "start": 34.234,
+      "end": 41.234
+    }
+  ],
+  "required_gameplay_credit": "Gameplay footage by Orbital - No Copyright Gameplay",
+  "output_path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_02_review_01.mp4",
+  "working_directory": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/work_short_02_review_01",
+  "maximum_output_bytes": 5368709120,
+  "new_provider_calls": 0,
+  "publishing_authorized": false,
+  "render_ready": true
+}

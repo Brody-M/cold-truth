@@ -1,5 +1,5 @@
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 # Project dashboard
 
@@ -7,7 +7,7 @@
 
 [[00_START_HERE|Home]] → [[0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2|Plan]] → [[1_IDEAS/RESEARCH_HUB|Research]] → [[2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO|Episode workflow]]
 
-**Updated:** 2026-10-21. **Current milestone:** M6 — corrective review02 production and actual video playback review. **Editorial focus:** Amy Mihaljevic. **Timeline:** no fixed deadline; prioritize a reliable workflow.
+**Updated:** 2026-11-02. **Current milestone:** M6 — Short video full playback reviews; long-form master approved. **Editorial focus:** Amy Mihaljevic. **Timeline:** no fixed deadline; prioritize a reliable workflow.
 
 ## Current queue
 
@@ -19,16 +19,16 @@
 | M3 — paired review | Complete | [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json|Brody's paired approval]] and [[2_IN_PRODUCTION/Amy Mihaljevic/Script_Final|final script]] |
 | M4 — minimum production bridge | Complete offline | [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks|Check record]] and [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook|runbook]] |
 | M5 — narration | Complete: exact repaired9:08.59 audio/timing approved | [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|Approval and passing preflight]]; no TTS attempts remain. |
-| M6 — visual tracks/masters | Review01 changes requested; targeted audio/visual correction before remaining render | [[2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01|Video]] · [[2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01|Audio/timing]] |
+| M6 — visual tracks/masters | Long-form master and all Short audio/timing approved; Short video production/review | [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media status]] |
 | M7–M8 — release | Depends on pilot and exact publishing authority | Reviewed package, account/settings and verified platform result |
 | M9 — repeatability/cadence | After pilot evidence | Actual effort/cost record, next bottleneck and realistic buffer |
 
 ## What exists and what is missing
 
-- Amy: review01 remains rejected for audio and repetitive/slideshow visuals. Brody identifies the onset of “disappeared” near2.2seconds as the main spike and says between-phrase breaths are mild. The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Professional_Audio_Reassessment_04|Editor diagnostic]] targets that exact event. Three Short audio/timing reviews remain pending; all TTS attempts are used. One long-form corrective render remains.
+- Amy: full corrective long-form cut02 and all three Short audio/timing pairs approved November2. Finish and review the separate Orbital Short videos. Both long-form slots and all narration attempts are consumed; no publishing.
 - Springfield: September review defers it pending a documented Short-Format exception; none is approved.
 - Jodi: retained production history and blocked rewrite; later viability finds insufficient ledger depth.
-- Engineering: synthetic control-plane checks pass. The direct-route checker now covers measured-audio preflight, real-file rights/isolation and the JSON/SRT timing interface. Real audio and visual source files now exist; rights conditions and full timing are approved; actual review cuts and master playback remain incomplete. The configured automated route remains disabled.
+- Engineering: synthetic control-plane checks pass. The direct-route checker now covers measured-audio preflight, real-file rights/isolation and the JSON/SRT timing interface. Real audio and visual source files now exist; rights conditions and full timing are approved; actual review cuts exist; Short video full playback remains pending. The configured automated route remains disabled.
 
 ## Existing material
 
@@ -44,4 +44,4 @@
 
 The [[0_ADMIN/COLD_TRUTH_EXECUTION_STATE.json|channel state JSON]] records these planning boundaries. It is separate from an episode's orchestrator-owned run state.
 
-On “continue,” inspect the live review02 receipt and finish actual technical/video playback review; do not restart or duplicate its render. Shorts still require actual audio/timing decisions before their separate Orbital cuts. Existing bounded authority is retained; no new TTS or publishing.
+On “continue,” inspect the current Short video receipts and obtain full playback decisions for the resulting videos. The long-form video and all Short audio/timing decisions are already approved; do not repeat them. Finish only eligible work under the saved bounded grant. No new narration or publishing.

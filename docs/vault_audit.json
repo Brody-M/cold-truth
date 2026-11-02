@@ -7,16 +7,16 @@
     "Personal notes, API_KEYS.md and hidden plugin data not read",
     "Inline/fenced code examples excluded"
   ],
-  "note_count": 119,
-  "edge_count": 623,
+  "note_count": 124,
+  "edge_count": 656,
   "canvas_count": 1,
-  "external_link_count": 160,
+  "external_link_count": 164,
   "template_link_count": 0,
   "issues": [],
   "orphan_notes": [],
   "entry_note": "00_START_HERE.md",
   "entry_note_exists": true,
-  "reachable_note_count": 119,
+  "reachable_note_count": 124,
   "unreachable_from_entry": [],
   "notes_without_incoming_links": [],
   "components": [
@@ -82,10 +82,13 @@
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Media_Revision_02.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Next_Production_Scope.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Professional_Audio_Reassessment_04.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Review_Package_05.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md",
@@ -94,6 +97,7 @@
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v2.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md",
@@ -110,6 +114,7 @@
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Approved_Package.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Review_Packet.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Editorial_Visual_Brief.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Shot_List_Draft.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Video_Review_Cut_Plan.md",
@@ -207,7 +212,7 @@
     "0_ADMIN": 35,
     "1_IDEAS": 12,
     "2_CHANNEL_SYSTEM": 3,
-    "2_IN_PRODUCTION": 66,
+    "2_IN_PRODUCTION": 71,
     "4_SCRIPTS": 1,
     "5_PRODUCTION": 1
   },
@@ -262,7 +267,7 @@
     ],
     [
       "00_START_HERE.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "00_START_HERE.md",
@@ -390,7 +395,7 @@
     ],
     [
       "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md",
@@ -590,11 +595,11 @@
     ],
     [
       "0_ADMIN/PROJECT_DASHBOARD.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "0_ADMIN/PROJECT_DASHBOARD.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Professional_Audio_Reassessment_04.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
     ],
     [
       "0_ADMIN/PROJECT_DASHBOARD.md",
@@ -610,15 +615,7 @@
     ],
     [
       "0_ADMIN/PROJECT_DASHBOARD.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md"
-    ],
-    [
-      "0_ADMIN/PROJECT_DASHBOARD.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
-    ],
-    [
-      "0_ADMIN/PROJECT_DASHBOARD.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
     ],
     [
       "0_ADMIN/PROJECT_DASHBOARD.md",
@@ -670,7 +667,7 @@
     ],
     [
       "0_ADMIN/PROJECT_MEMORY.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "0_ADMIN/PROJECT_MEMORY.md",
@@ -1230,7 +1227,7 @@
     ],
     [
       "0_ADMIN/VAULT_INDEX.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "0_ADMIN/VAULT_INDEX.md",
@@ -1299,6 +1296,10 @@
     [
       "0_ADMIN/VAULT_INDEX.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Review_Packet.md"
+    ],
+    [
+      "0_ADMIN/VAULT_INDEX.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md"
     ],
     [
       "0_ADMIN/VAULT_INDEX.md",
@@ -1698,15 +1699,7 @@
     ],
     [
       "2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
-    ],
-    [
-      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md"
-    ],
-    [
-      "2_CHANNEL_SYSTEM/NARRATION_VOICE.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO.md",
@@ -1802,27 +1795,19 @@
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
       "0_ADMIN/PROJECT_DASHBOARD.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Approved_Package.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md",
@@ -1883,6 +1868,42 @@
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md",
@@ -1967,6 +1988,142 @@
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Shot_List_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Approved_Package.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/M6_Preparation_Handoff_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Editorial_Visual_Brief.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Media_Revision_02.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Source_Refresh_2026_10_16.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Strategist_Viability_Assessment_v3.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Final.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Approved_Package.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Shot_List_Draft.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Visual_Review.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md",
+      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md",
@@ -2121,6 +2278,26 @@
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
     ],
     [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/Visual_Review.md"
+    ],
+    [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
       "00_START_HERE.md"
     ],
@@ -2134,31 +2311,11 @@
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "0_ADMIN/VOICESTUDIO_CPU_TRIAL_2026_10_20.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "0_ADMIN/VOICESTUDIO_EVALUATION_2026_10_20.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "1_IDEAS/Candidates/Amy Mihaljevic/Source_Revalidation_2026_09_05.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M4_Offline_Checks.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Media_Revision_02.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
@@ -2166,23 +2323,7 @@
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Timing_Review.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Claim_Map.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Narrative_QA.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Reverse_Outline.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/Production_Summary_before_review02_closeout_2026_11_02.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
@@ -2198,11 +2339,11 @@
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Script_Draft.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
@@ -2215,18 +2356,6 @@
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Shot_List_Draft.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Visual_Review.md"
-    ],
-    [
-      "2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary.md",
-      "2_IN_PRODUCTION/PRODUCTION_HUB.md"
     ],
     [
       "2_IN_PRODUCTION/Amy Mihaljevic/Research_Source_Ledger.md",
@@ -2445,6 +2574,18 @@
       "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Draft.md"
     ],
     [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md",
+      "00_START_HERE.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md",
+      "0_ADMIN/PROJECT_DASHBOARD.md"
+    ],
+    [
+      "2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md",
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
+    ],
+    [
       "2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/Editorial_Visual_Brief.md",
       "0_ADMIN/ROLE_FILMER.md"
     ],
@@ -2602,11 +2743,7 @@
     ],
     [
       "2_IN_PRODUCTION/PRODUCTION_HUB.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff.md"
-    ],
-    [
-      "2_IN_PRODUCTION/PRODUCTION_HUB.md",
-      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05.md"
+      "2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md"
     ],
     [
       "2_IN_PRODUCTION/PRODUCTION_HUB.md",

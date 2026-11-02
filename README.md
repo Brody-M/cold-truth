@@ -6,6 +6,10 @@ Cold Truth brings together an Obsidian-friendly editorial workspace, reusable ro
 
 > **Project status:** local-first and safety-conscious. The repository documents and validates the workflow; it does not publish content or perform production actions automatically.
 
+**Pilot update — November 2, 2026:** Amy's corrective long-form video and all three Short audio/timing pairs are human-approved. Three separate Orbital Short review videos are rendered and technically checked; their full video playback review is pending. Follow the [current media status](<Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02.md>) and [Short video review page](<Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01.md>). Media files remain local and are excluded from Git; publishing requires separate authority.
+
+Vault files retain their exact line endings in Git so checkout preserves the bytes bound by approval receipts. Local media originals are still required to validate or play the production files.
+
 ## What it includes
 
 | | Area | What it does |
@@ -38,7 +42,7 @@ The system is built around a few simple principles:
 
 - [Start here in Obsidian](<Brody's Vault/00_START_HERE.md>) — ordered home, current tasks and a native workflow canvas.
 - [Maintained execution plan](<Brody's Vault/0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2.md>) — revision 2.1, ordered milestones and the no-deadline timeline chosen October 16.
-- [Current assessment](<Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md>) — actual editorial/engineering status and navigation verification.
+- [October 16 assessment](<Brody's Vault/0_ADMIN/PROJECT_REASSESSMENT_2026_10_16.md>) — dated editorial/engineering evidence; use the maintained plan and current media status for later progress.
 
 - [Architecture guide](docs/ARCHITECTURE.md) — a map of the vault, control plane, contracts, and safety boundaries.
 - [Editorial workflow](docs/CONTENT_WORKFLOW.md) — the path from a research package to an approved production plan.

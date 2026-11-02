@@ -1,0 +1,252 @@
+{
+  "status": "STILL_PREVIEWS_READY_FOR_INSPECTION",
+  "recorded_at_utc": "2026-11-02T05:14:23.999465+00:00",
+  "recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/review_video_recipe_01.json",
+    "sha256": "761b4e5b47c821f44f49adad2cf82af3e698f44fded33af62ffa02a5af4215d2",
+    "bytes": 5933
+  },
+  "tool": "Installed FFmpeg8.1.1",
+  "commands": [
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "905.101",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+5.100999999999999/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_01.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "913.965",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+13.965/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_02.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "919.94",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+19.939999999999998/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_03.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "923.232",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+23.232/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_04.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "928.753",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+28.753/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_05.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "936.3985",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+36.3985/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_06.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "940.659",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+40.659/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\preview_review_01\\overlay_07.jpg"
+      ],
+      "returncode": 0
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/captions.ass",
+      "sha256": "c75914ab12f85bfa2ba1712588d34fc389ea10c39d6e2ed45f3d9dc29022fa97",
+      "bytes": 3124
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_01.jpg",
+      "sha256": "b8bf2cbacad214300c9c18bdae221972fa9c30a9f7cc50730f52ae90ba5249fc",
+      "bytes": 117634
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_02.jpg",
+      "sha256": "5df1b74d132092c70a87e4ae6f84eeb9dce3dbd735df76a08a5274396d7689b7",
+      "bytes": 97152
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_03.jpg",
+      "sha256": "983767f489f1f81bd3cb7a5d27053758f27a64218f8a3637ef6f67e09e372deb",
+      "bytes": 77828
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_04.jpg",
+      "sha256": "6b3f34f343b8379fed9a37d17ba4d445c2da16d0c55e4bb93d9e71b6bb2249ba",
+      "bytes": 105665
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_05.jpg",
+      "sha256": "45c9372ba007d02ee173aba29b0c4f9cfdd7e660d1948616cd2ec610916b2a77",
+      "bytes": 105312
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_06.jpg",
+      "sha256": "a66a0a53529939b2aba5ae5e35cb804a597999ce45aa293bf37e91fb78b5ddb2",
+      "bytes": 43042
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/overlay_07.jpg",
+      "sha256": "aa35aed2a2b8f6f131fbb4c105ab9c5de6c428207bdc41d99b669b3f6fcf8221",
+      "bytes": 56802
+    }
+  ],
+  "video_render": false,
+  "new_provider_calls": 0
+}

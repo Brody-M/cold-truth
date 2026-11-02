@@ -1,5 +1,5 @@
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 # Cold Truth Vault Index
 
@@ -140,3 +140,5 @@ This is the complete reference catalog. Begin work at [[00_START_HERE|Home]] and
 - [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Audio_Pacing_Revision_03|Amy — current narration pacing and level pilot03]]
 
 - [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Professional_Audio_Reassessment_04|Amy — current professional audio diagnosis04]]
+
+[[2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Video_Reviews_01|Three current Short video reviews]] · [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/pending_short_video_review_01_2026_11_02.json|Exact pending video files]] · [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/media_closeout_validation_2026_11_02.json|November2 validation and resource checks]].

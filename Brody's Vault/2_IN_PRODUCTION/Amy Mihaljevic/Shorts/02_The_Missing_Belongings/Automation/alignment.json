@@ -1,0 +1,117 @@
+{
+  "schema_version": "cold_truth.reviewed_alignment.v1",
+  "case_id": "amy-mihaljevic-short-02",
+  "target_format": "shorts",
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+    "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+    "bytes": 5511270
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Script_Final.md",
+    "sha256": "e578833be521cd3e2e0d59dc22c8ffdd46f43117fbb067b7ca10f8b97156ec28",
+    "bytes": 2327
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/Narration_Text.txt",
+    "sha256": "cf9489adcf9bc73169efdcf3ba458af594540114841e4635b07ab15a7871d9a2",
+    "bytes": 566
+  },
+  "tool": "Existing reviewed offline word timing; lossless caption grouping from unchanged words/times",
+  "recorded_at_utc": "2026-11-02T05:11:23.624761+00:00",
+  "reviewed_machine_draft": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/alignment_draft.json",
+    "sha256": "5715624734dda849b67e730175f33d4077ae05b4aadaa9df2b78d1382609017b",
+    "bytes": 27763
+  },
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 3.041,
+      "text": "A turquoise horse earring is\none of the unrecovered"
+    },
+    {
+      "start": 3.081,
+      "end": 6.623,
+      "text": "belongings listed by the FBI\nin Amy Mihaljevic’s"
+    },
+    {
+      "start": 6.663,
+      "end": 10.324,
+      "text": "case. Amy was ten when she\nwas abducted from a"
+    },
+    {
+      "start": 10.384,
+      "end": 13.745,
+      "text": "shopping center in Bay\nVillage, Ohio, on October 27,"
+    },
+    {
+      "start": 13.806,
+      "end": 18.187,
+      "text": "1989. A jogger found her\nbody in rural"
+    },
+    {
+      "start": 18.347,
+      "end": 21.489,
+      "text": "Ashland County on February\n8, 1990."
+    },
+    {
+      "start": 22.229,
+      "end": 25.69,
+      "text": "The FBI says three items\nbelieved to have been with"
+    },
+    {
+      "start": 25.85,
+      "end": 29.552,
+      "text": "Amy were never recovered:\nthat earring, black ankle"
+    },
+    {
+      "start": 29.592,
+      "end": 31.633,
+      "text": "boots and a black leather\nbinder."
+    },
+    {
+      "start": 32.553,
+      "end": 35.274,
+      "text": "Those details are part of a\npublic request for"
+    },
+    {
+      "start": 35.334,
+      "end": 38.595,
+      "text": "information. They do not\nestablish what happened to"
+    },
+    {
+      "start": 38.635,
+      "end": 41.276,
+      "text": "the objects or identify the\nperson responsible."
+    }
+  ],
+  "timing_review": {
+    "human_approved": true,
+    "approved_by": "Brody",
+    "approved_on": "2026-11-02",
+    "user_quote": "Listened and checked; approve all three",
+    "scope": "All three exact existing processed Short WAVs: full pronunciation, completeness, volume and synchronization against matching word-timing drafts.",
+    "question_item_id": "[\"request_user_input_async\",\"call_691024e1ffa74797aaac42488502bda0\",1]",
+    "full_listen_passed": true,
+    "packet": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+      "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e",
+      "bytes": 8200
+    },
+    "decision_receipt": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/review02_and_short_audio_approved_2026_11_02.json",
+      "sha256": "f97f8e9dde1b89bcdae74cbf646fc880f5aafeaba383d9d5dc4de70d98aed86d",
+      "bytes": 1830
+    }
+  },
+  "caption_style": {
+    "font": "Segoe UI Bold54px",
+    "maximum_lines": 2,
+    "maximum_line_width_px": 760,
+    "position": [
+      490,
+      1160
+    ]
+  }
+}

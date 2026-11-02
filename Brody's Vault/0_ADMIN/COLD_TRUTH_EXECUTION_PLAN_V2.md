@@ -1,11 +1,11 @@
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 # Cold Truth — Working execution plan
 
 
 
-**Revision2.1 · assessed2026-10-16 · updated2026-10-21 · owner: Brody · execution: Codex.** No fixed deadline; prioritize a reliable workflow. M1-M4 complete. M5 is reopened for delivery/level correction; correction03 was rejected and a precise word-onset diagnostic is ready for listening. M6 review01 needs accepted audio and visual changes; Short audio/timing reviews remain pending. Use the [[0_ADMIN/PROJECT_DASHBOARD|live queue]] and [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|actual media handoff]].
+**Revision2.1 · assessed2026-10-16 · updated2026-11-02 · owner: Brody · execution: Codex.** No fixed deadline; prioritize a reliable workflow. M1–M5 complete. M6: corrective long-form cut02 and all three Short audio/timing pairs are approved; finish and review the separate Orbital Short videos. [[0_ADMIN/PROJECT_DASHBOARD|Live queue]] · [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|Actual media handoff]].
 
 
 [[00_START_HERE|Home]] · [[0_ADMIN/PROJECT_DASHBOARD|Live queue]] · [[0_ADMIN/PROJECT_REASSESSMENT_2026_10_16|Evidence and gaps]] · [[2_CHANNEL_SYSTEM/WORKFLOW_PER_VIDEO|Stage requirements]]
@@ -14,7 +14,7 @@
 
 | Area | Evidence-based status |
 |---|---|
-| Amy Mihaljevic | Paired writing/rights/long-form timing approvals preserved. Actual long-form cut01 and three processed Short audios exist. Short audio/timing and all final video playback decisions remain pending; no publishing. |
+| Amy Mihaljevic | Full repaired audio/timing and14new stock uses approved October22. Corrective cut02 completed and technically checked; long-form and Short audio/timing playback decisions are approved; Short video playback remains pending. No publishing. |
 | Springfield Three | September reassessment records `Short-Format exception — requires human approval`; deferred, with no exception approved. Its older standard-viability label is historical. |
 | Jodi Huisentruit | Historical production and blocked rewrite. Later viability says the existing ledger is insufficient; previous masters are creatively rejected/audit-only. |
 | Vault | Home/hubs/canvas exist. This revision repairs the three missing targets and exposes the four September notes that were unreachable by following links from Home. |
@@ -32,7 +32,7 @@ The [[0_ADMIN/PROJECT_REASSESSMENT_2026_10_16|dated assessment]] records verific
 | M2 | Finish the editorial packet — Writer then Editor | M1 passes | **Complete for review:** full original draft, claim map, reverse outline, exclusions and QA in the [[2_IN_PRODUCTION/Amy Mihaljevic/Editorial/Review_Packet|review packet]]. |
 | M3 | Paired human script review — Brody, then Codex | M2 | **Complete 2026-10-20:** exact paired decision/hash record and matching `Script_Final.md` exist. Revisions return to M2 and reapproval. |
 | M4 | Prepare the minimum pilot production path — Codex | M2; may run while M3 awaits review | **Complete offline 2026-10-20:** duration/binding checks, real-file asset/rights/isolation checks, tested timing/SRT interface, master QA procedure and bounded [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook|operator runbook]]. No provider call or media sourcing is part of this milestone. |
-| M5 | Finish audio QA — Brody/Editor/operator | M3 + M4 + current narration scope | **Reopened after actual video feedback:** the original570.560726-second audio approval/preflight is historical. Correction03 was rejected for breathiness and perceived spikes; diagnostic04 targets the human-marked word onset. Current full listening and exact timing are not approved. |
+| M5 | Finish audio QA — Brody/Editor/operator | M3 + M4 + current narration scope | **Complete October22:** exact548.592358-second repaired/paced WAV and full synchronization explicitly approved; current preflight passes. No narration attempts remain. |
 | M6 | Build the two visual tracks and local masters — operator/visual/Shorts roles | M5 + applicable Phase 2 scope | Current alignment; downloaded verified Pexels clips/case graphics; separate licensed Orbital source; 3–5 standalone Shorts for a standard episode, each with its own measured audio; rights/isolation/timing QA and reviewed local masters. |
 | M7 | Prepare release and channel package — Upload Manager/Brody | M6 | Exact masters, captions/credits, source/rights ledger, honest metadata, approved thumbnail and minimum channel branding; confirm actual account and current platform settings. All creative and technical defects resolved. |
 | M8 | Publish the exact approved package — Brody/operator | M7 + separate exact publish authority | Authorized account/files/visibility/schedule, verified platform result and recorded identifiers. Publishing implementation may remain manual; no preset weekday is assumed. |
@@ -47,8 +47,8 @@ Use work passes rather than invented launch dates:
 1. **This pass:** M0, assessment and plan consolidation.
 2. **M1 pass — complete:** targeted Amy source refresh and reconfirmed viability, preserving the prior evidence.
 3. **M2 passes — complete for review:** full draft and supporting editorial packet now exist.
-4. **Current M6 pass:** bounded execution is authorized. First long-form cut and three Short audios are produced; collect actual media playback decisions, then use the existing grant for conditional Short video production. All3 TTS attempts are consumed. No new permission is needed for work already within the grant.
-5. **Production interval:** M6 preparation is authorized; later narration/assembly/render scope remains separate. Actual audio, alignment, access to rights-cleared material and playback review determine how many passes this takes.
+4. **Current M6 pass:** corrective long-form cut02 and three Short audios exist. The full long-form and Short audio/timing decisions are approved. Finish/review the Orbital Short videos under the existing conditional grant. Both long-form render slots are used. All3 TTS attempts are consumed. No new permission is needed for work already within the grant.
+5. **Production interval:** the existing bounded production grant permits conditional Short renders after their exact audio/timing review. New narration and additional long-form renders are outside its remaining allowance. Actual audio, alignment, access to rights-cleared material and playback review determine how many passes this takes.
 6. **Release interval:** M7–M8 after the local pilot works. Derive cadence and buffer from M9's observed effort rather than from the old calendar.
 
 These are dependency commitments, not estimated completion dates. Research access, evidence depth, human review, paid generation and editing are the main variable waits. There is no background schedule or automatic future wakeup created by this plan.

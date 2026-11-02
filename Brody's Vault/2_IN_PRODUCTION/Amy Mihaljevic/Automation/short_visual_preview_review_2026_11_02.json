@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-11-02T05:15:47.495864+00:00",
+  "reviewer": "Codex assistant",
+  "assistant_sample_review_passed": true,
+  "human_final_video_review_passed": false,
+  "scope": "All19 factual-overlay still previews across three separate Orbital tracks; text inside reserved regions, captions/credits readable and separated, crop uses gameplay only. Static samples do not establish full motion or creative approval.",
+  "contact_sheets": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/contact.jpg",
+      "bytes": 693239,
+      "sha256": "8af5b7656ad68763e8310d42d85697974d8690dd7e4ec8dc6a30e949e89ffb5d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/preview_review_01/contact.jpg",
+      "bytes": 712145,
+      "sha256": "d84b1e6510fe15fb1913f15afe7db4bb7a7e97490992a7e8e433586c43ad360a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/preview_review_01/contact.jpg",
+      "bytes": 749303,
+      "sha256": "6401affa2ed56510d2ec3871b75b4959348e888b4d415ae956ef1aa2172814c9"
+    }
+  ],
+  "sampled_overlay_counts": [
+    6,
+    6,
+    7
+  ],
+  "longform_assets_used": false,
+  "preview_contact_tool": "Installed Pillow, 3 columns of unchanged540x960 proof images with filename labels"
+}

@@ -1,6 +1,6 @@
 # Amy — approved audio and corrective production05
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
+**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 rendered and decoded; full human video playback pending. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 [[00_START_HERE|Home]] · [[0_ADMIN/PROJECT_DASHBOARD|Dashboard]] · [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|Handoff]]
 
@@ -12,7 +12,7 @@ The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json|current preflight
 
 The [[2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/approved_render_recipe_02.json|corrective recipe]] has65shots,24stock sources, no full-screen cards, compact factual labels and captions limited to two lines. Some stock source intervals repeat; the recipe quantifies them. This consumes the second and final authorized long-form review render; component encodes belong to that single cut. The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_02.json|live render receipt]] records every command/output and actual completion or failure.
 
-Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry.
+Corrective review02 rendered and decoded; full human video playback pending.
 
 Next: inspect actual output motion/crops, captions, audio, ending and technical checks, then obtain full human video-playback approval. Both long-form render slots are consumed once review02 starts. Publishing remains separately unauthorized. The three [[2_IN_PRODUCTION/Amy Mihaljevic/Shorts/Audio_Review_01|Short audio/timing reviews]] remain pending; no Short video render or new narration is inferred. Recheck current case-source status before release; last editorial source refresh was October16.
 

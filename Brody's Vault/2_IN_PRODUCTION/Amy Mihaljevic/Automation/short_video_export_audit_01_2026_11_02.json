@@ -1,0 +1,1497 @@
+{
+  "status": "TECHNICAL_PASS_ENCODED_SAMPLE_REVIEW_PENDING",
+  "recorded_at_utc": "2026-11-02T05:21:59.797431+00:00",
+  "tool": "Installed FFmpeg/FFprobe8.1.1 and Python/numpy/scipy/Pillow",
+  "settings": {
+    "audio_measurement_only": true,
+    "gain_changes": false,
+    "frame_sample_size": [
+      540,
+      960
+    ],
+    "new_video_renders": 0
+  },
+  "entries": [
+    {
+      "id": 1,
+      "video": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_01_review_01.mp4",
+        "sha256": "1c9d9aa214f06e109d617ce3cef32a522c3b661a8c8b337cc91fe6379add2bd3",
+        "bytes": 46219679
+      },
+      "approved_audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+        "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+        "bytes": 5898342
+      },
+      "render_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/review_video_render_01.json",
+        "sha256": "868176dcd81b358fcfc593ee665c6c2dce4219e66e15241aaf14f66a46c76dcb",
+        "bytes": 5161
+      },
+      "video_seconds": 44.6,
+      "audio_seconds": 44.581995,
+      "frames": 1338,
+      "full_decode_passed": true,
+      "measured_encoded_audio": {
+        "input_i": -31.19,
+        "input_tp": -19.96,
+        "input_lra": 2.1
+      },
+      "audio_comparisons": [
+        {
+          "label": "opening",
+          "start_seconds": 0,
+          "rms_gain_db": -0.01100013792451671,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999780564378804
+        },
+        {
+          "label": "middle",
+          "start_seconds": 22.2911565,
+          "rms_gain_db": -0.010433506015905897,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999741667536153
+        },
+        {
+          "label": "ending",
+          "start_seconds": 41.582313,
+          "rms_gain_db": -0.010640072336502212,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999646738972746
+        }
+      ],
+      "frames_sampled": [
+        {
+          "label": "Opening",
+          "seconds": 0.5,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_00.jpg",
+            "sha256": "9b9ea1622bf7ec8bc3232ffbbea5cb67e9c601a5283e5b71877ea106fac7bd1b",
+            "bytes": 69446
+          }
+        },
+        {
+          "label": "Ending",
+          "seconds": 44.082313,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_01.jpg",
+            "sha256": "08712e263d939c5a926a05d07bea8117ea7f6e753dc22b574ee865d21b7b569a",
+            "bytes": 89938
+          }
+        },
+        {
+          "label": "Overlay1",
+          "seconds": 3.58,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_02.jpg",
+            "sha256": "95a4d8428f6c1711fc6ff37f482732b6f3a72c2ea4c9f5b178cbc984103a9509",
+            "bytes": 100119
+          }
+        },
+        {
+          "label": "Overlay2",
+          "seconds": 13.085,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_03.jpg",
+            "sha256": "1590b30fc3d6d1597defcd56e256190604f7dac4746c1593a3f291e5e86b0d5a",
+            "bytes": 91949
+          }
+        },
+        {
+          "label": "Overlay3",
+          "seconds": 22.281,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_04.jpg",
+            "sha256": "79d0cb1b0152072c59615ac9189fb166f5380094ecd7f41b772ccd22cb9392a2",
+            "bytes": 80261
+          }
+        },
+        {
+          "label": "Overlay4",
+          "seconds": 27.892,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_05.jpg",
+            "sha256": "530915a601bbba76fafa9a4b160b168a2b33d5644d157b58e31309c05c218a6e",
+            "bytes": 99043
+          }
+        },
+        {
+          "label": "Overlay5",
+          "seconds": 35.727999999999994,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_06.jpg",
+            "sha256": "dfaca47fb5bb8f6b802f044862f6bebc2b32f1af7a73eb5d97907aad18032214",
+            "bytes": 86137
+          }
+        },
+        {
+          "label": "Overlay6",
+          "seconds": 41.2106565,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_07.jpg",
+            "sha256": "d2711d9001a5b2f86fca1472f392740bff0e586a49a4ad7edcc3707c0d89f976",
+            "bytes": 91483
+          }
+        }
+      ],
+      "contact_sheet": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/contact.jpg",
+        "sha256": "913781d9711e13d2b4574724fa6119bd219a0fa81920670f2574007e3af74a58",
+        "bytes": 879658
+      },
+      "human_video_playback_approved": false
+    },
+    {
+      "id": 2,
+      "video": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_02_review_01.mp4",
+        "sha256": "2b0e25ccc1c02f0a2d666bb3bfaec264d96c842c78af1ba043098d8d753c318b",
+        "bytes": 43185277
+      },
+      "approved_audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Audio/Amy_Short_02_Mia_attempt_01_processed.wav",
+        "sha256": "2ca26ca10812a77534e6cfc0156812002d1f136432ff502746588ab7295ed0a7",
+        "bytes": 5511270
+      },
+      "render_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Automation/review_video_render_01.json",
+        "sha256": "43b3bb6b8e72fdc97ac7897294ade728e3ae66c43737ad400113bac5c1333c29",
+        "bytes": 5168
+      },
+      "video_seconds": 41.666667,
+      "audio_seconds": 41.656009,
+      "frames": 1250,
+      "full_decode_passed": true,
+      "measured_encoded_audio": {
+        "input_i": -31.21,
+        "input_tp": -19.97,
+        "input_lra": 2.2
+      },
+      "audio_comparisons": [
+        {
+          "label": "opening",
+          "start_seconds": 0,
+          "rms_gain_db": -0.011724349355955857,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999725628733759
+        },
+        {
+          "label": "middle",
+          "start_seconds": 20.8282995,
+          "rms_gain_db": -0.010594887288134233,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999756791823128
+        },
+        {
+          "label": "ending",
+          "start_seconds": 38.656599,
+          "rms_gain_db": -0.012552010285558983,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999687105134746
+        }
+      ],
+      "frames_sampled": [
+        {
+          "label": "Opening",
+          "seconds": 0.5,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_00.jpg",
+            "sha256": "c75255dccf47d6ddde54c184808197ce67d007a80e23a5cc23b41f606714bbf2",
+            "bytes": 71426
+          }
+        },
+        {
+          "label": "Ending",
+          "seconds": 41.156599,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_01.jpg",
+            "sha256": "956ffb7dd541be7dc44893c9d0e955cf827cd9df9454cf59293817ae87eddb43",
+            "bytes": 97463
+          }
+        },
+        {
+          "label": "Overlay1",
+          "seconds": 3.6799999999999997,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_02.jpg",
+            "sha256": "4fcb255c94b1f51a8df98c4a48972113eb32fe8d13be21e5b73aa6abc792369f",
+            "bytes": 75445
+          }
+        },
+        {
+          "label": "Overlay2",
+          "seconds": 10.664000000000001,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_03.jpg",
+            "sha256": "faed681581877e294083fce2c68a467fd21448ef123dcc835a45a22e936fa560",
+            "bytes": 85033
+          }
+        },
+        {
+          "label": "Overlay3",
+          "seconds": 16.3965,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_04.jpg",
+            "sha256": "a3130bb1fed3033b39a45ff23ca8151a5987e798b5d9d0cb3c97a617b36ae5f9",
+            "bytes": 86904
+          }
+        },
+        {
+          "label": "Overlay4",
+          "seconds": 23.208,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_05.jpg",
+            "sha256": "7c00cdf30b8a9e490671cd8aae9b104f3094d50b16eeedb44ae6532766f9a4cc",
+            "bytes": 96336
+          }
+        },
+        {
+          "label": "Overlay5",
+          "seconds": 31.583,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_06.jpg",
+            "sha256": "f3b61dfeee8081a835f2795df96e03795c3af330dd43c9d24db0a711898f5333",
+            "bytes": 123040
+          }
+        },
+        {
+          "label": "Overlay6",
+          "seconds": 37.734,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_07.jpg",
+            "sha256": "8e090bcc5fdd77128760c5c70a192518ef36c4b57975546c4771b6855a9ba044",
+            "bytes": 114256
+          }
+        }
+      ],
+      "contact_sheet": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/contact.jpg",
+        "sha256": "482e8146f535a74002c6a08d16d9ffdd3d2e2fede2e819b8fe8d3171ac608234",
+        "bytes": 914091
+      },
+      "human_video_playback_approved": false
+    },
+    {
+      "id": 3,
+      "video": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Shorts/Amy_Short_03_review_01.mp4",
+        "sha256": "15ee9cf8cf7ee8c4e68f1e907f09c5524e879710ca94ae8cc4b25e38e69d5761",
+        "bytes": 50603308
+      },
+      "approved_audio": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+        "sha256": "e68da3e3dc2a9215d67173e826349ac92e32657b8f3f4d4a2c620ede04cbdbd0",
+        "bytes": 6549606
+      },
+      "render_receipt": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/review_video_render_01.json",
+        "sha256": "5d480883879e4b19b8277a772b1c9e05649fe3d6445413418a889ad542cb1e78",
+        "bytes": 5189
+      },
+      "video_seconds": 49.533333,
+      "audio_seconds": 49.505011,
+      "frames": 1486,
+      "full_decode_passed": true,
+      "measured_encoded_audio": {
+        "input_i": -31.35,
+        "input_tp": -19.95,
+        "input_lra": 2.0
+      },
+      "audio_comparisons": [
+        {
+          "label": "opening",
+          "start_seconds": 0,
+          "rms_gain_db": -0.010382496988120549,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.9999678535992962
+        },
+        {
+          "label": "middle",
+          "start_seconds": 24.7524715,
+          "rms_gain_db": -0.007008598819329145,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.999975776378749
+        },
+        {
+          "label": "ending",
+          "start_seconds": 46.504943,
+          "rms_gain_db": -0.010533474067454635,
+          "best_lag_samples": 0,
+          "zero_lag_correlation": 0.999976929425634
+        }
+      ],
+      "frames_sampled": [
+        {
+          "label": "Opening",
+          "seconds": 0.5,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_00.jpg",
+            "sha256": "bfb81c120a4e0cce6ac3ddbf2d36032563645b330797747c72b56b4430bc1b19",
+            "bytes": 89040
+          }
+        },
+        {
+          "label": "Ending",
+          "seconds": 49.004943,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_01.jpg",
+            "sha256": "f34bdc06a87dced95cb5476a838863d595c639e119f13e49321b7f08012fa71b",
+            "bytes": 32657
+          }
+        },
+        {
+          "label": "Overlay1",
+          "seconds": 5.100999999999999,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_02.jpg",
+            "sha256": "7b9b65ebd2ca34ef47fa2086e6168d4dab40bc24665f524fc2f484a37f3e0c03",
+            "bytes": 111047
+          }
+        },
+        {
+          "label": "Overlay2",
+          "seconds": 13.965,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_03.jpg",
+            "sha256": "67e1a148b73dc4a98a37bf861704e3529d8af0d96bb9b2794f82071970253aea",
+            "bytes": 93425
+          }
+        },
+        {
+          "label": "Overlay3",
+          "seconds": 19.939999999999998,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_04.jpg",
+            "sha256": "a8fd1df5a6b890b097cf0fba07c7748a481a308a1272f789b64283f89640b658",
+            "bytes": 74566
+          }
+        },
+        {
+          "label": "Overlay4",
+          "seconds": 23.232,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_05.jpg",
+            "sha256": "606e643d94f826f0e1bda6e7e6d8dbfeea66cad6e320bdcc8c4a0d417f08e164",
+            "bytes": 101379
+          }
+        },
+        {
+          "label": "Overlay5",
+          "seconds": 28.753,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_06.jpg",
+            "sha256": "bf1d596f2fc2656adfc6b4d4ac191431a55a0793f838ec8dbefb9150b9c8c055",
+            "bytes": 101534
+          }
+        },
+        {
+          "label": "Overlay6",
+          "seconds": 36.3985,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_07.jpg",
+            "sha256": "0f3259b5970d77b2e389818a9df3bb5ff75a5a7d20ca9472b71a64f95f79b997",
+            "bytes": 41725
+          }
+        },
+        {
+          "label": "Overlay7",
+          "seconds": 40.659,
+          "file": {
+            "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_08.jpg",
+            "sha256": "b6b3322d401715ad3ceacaed81a6c0d4a6e7824b42a3592479650348c013cafe",
+            "bytes": 54308
+          }
+        }
+      ],
+      "contact_sheet": {
+        "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/contact.jpg",
+        "sha256": "9fb7b043dca92f7dc13f9d33818ca4ea57739e03b5ae048383f9bda5ebde61b0",
+        "bytes": 868017
+      },
+      "human_video_playback_approved": false
+    }
+  ],
+  "commands": [
+    [
+      "ffmpeg",
+      "-v",
+      "info",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-vn",
+      "-af",
+      "loudnorm=I=-23:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Audio\\Amy_Short_01_Mia_attempt_01_processed.wav",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Audio\\Amy_Short_01_Mia_attempt_01_processed.wav",
+      "-ss",
+      "22.2911565",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-ss",
+      "22.2911565",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Audio\\Amy_Short_01_Mia_attempt_01_processed.wav",
+      "-ss",
+      "41.582313",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-ss",
+      "41.582313",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "0.5",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_00.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "44.082313",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_01.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "3.58",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_02.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "13.085",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_03.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "22.281",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_04.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "27.892",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_05.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "35.727999999999994",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_06.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "41.2106565",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_01_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\encoded_review_01\\frame_07.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "info",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-vn",
+      "-af",
+      "loudnorm=I=-23:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Audio\\Amy_Short_02_Mia_attempt_01_processed.wav",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Audio\\Amy_Short_02_Mia_attempt_01_processed.wav",
+      "-ss",
+      "20.8282995",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-ss",
+      "20.8282995",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Audio\\Amy_Short_02_Mia_attempt_01_processed.wav",
+      "-ss",
+      "38.656599",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-ss",
+      "38.656599",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "0.5",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_00.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "41.156599",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_01.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "3.6799999999999997",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_02.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "10.664000000000001",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_03.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "16.3965",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_04.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "23.208",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_05.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "31.583",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_06.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "37.734",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_02_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\02_The_Missing_Belongings\\Visuals\\encoded_review_01\\frame_07.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "info",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-vn",
+      "-af",
+      "loudnorm=I=-23:TP=-2:LRA=7:print_format=json",
+      "-f",
+      "null",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-ss",
+      "0",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+      "-ss",
+      "24.7524715",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-ss",
+      "24.7524715",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Audio\\Amy_Short_03_Mia_attempt_01_processed.wav",
+      "-ss",
+      "46.504943",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-ss",
+      "46.504943",
+      "-t",
+      "3",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "0.5",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_00.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "49.004943",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_01.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "5.100999999999999",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_02.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "13.965",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_03.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "19.939999999999998",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_04.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "23.232",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_05.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "28.753",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_06.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "36.3985",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_07.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "40.659",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Shorts\\Amy_Short_03_review_01.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=540:960",
+      "-q:v",
+      "2",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\03_Two_Different_Testing_Results\\Visuals\\encoded_review_01\\frame_08.jpg"
+    ]
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/audio_analysis.txt",
+      "sha256": "91acd996e6acfc84064f2d06c799b641ad2d4ac6755ee9f8876166b713afd3aa",
+      "bytes": 4139
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_00.jpg",
+      "sha256": "9b9ea1622bf7ec8bc3232ffbbea5cb67e9c601a5283e5b71877ea106fac7bd1b",
+      "bytes": 69446
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_01.jpg",
+      "sha256": "08712e263d939c5a926a05d07bea8117ea7f6e753dc22b574ee865d21b7b569a",
+      "bytes": 89938
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_02.jpg",
+      "sha256": "95a4d8428f6c1711fc6ff37f482732b6f3a72c2ea4c9f5b178cbc984103a9509",
+      "bytes": 100119
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_03.jpg",
+      "sha256": "1590b30fc3d6d1597defcd56e256190604f7dac4746c1593a3f291e5e86b0d5a",
+      "bytes": 91949
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_04.jpg",
+      "sha256": "79d0cb1b0152072c59615ac9189fb166f5380094ecd7f41b772ccd22cb9392a2",
+      "bytes": 80261
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_05.jpg",
+      "sha256": "530915a601bbba76fafa9a4b160b168a2b33d5644d157b58e31309c05c218a6e",
+      "bytes": 99043
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_06.jpg",
+      "sha256": "dfaca47fb5bb8f6b802f044862f6bebc2b32f1af7a73eb5d97907aad18032214",
+      "bytes": 86137
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/frame_07.jpg",
+      "sha256": "d2711d9001a5b2f86fca1472f392740bff0e586a49a4ad7edcc3707c0d89f976",
+      "bytes": 91483
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "913781d9711e13d2b4574724fa6119bd219a0fa81920670f2574007e3af74a58",
+      "bytes": 879658
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/audio_analysis.txt",
+      "sha256": "9dd3fe2e5ce7712e482ac90090a51862406e83e53d11f3900a87d704f3e08a23",
+      "bytes": 4139
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_00.jpg",
+      "sha256": "c75255dccf47d6ddde54c184808197ce67d007a80e23a5cc23b41f606714bbf2",
+      "bytes": 71426
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_01.jpg",
+      "sha256": "956ffb7dd541be7dc44893c9d0e955cf827cd9df9454cf59293817ae87eddb43",
+      "bytes": 97463
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_02.jpg",
+      "sha256": "4fcb255c94b1f51a8df98c4a48972113eb32fe8d13be21e5b73aa6abc792369f",
+      "bytes": 75445
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_03.jpg",
+      "sha256": "faed681581877e294083fce2c68a467fd21448ef123dcc835a45a22e936fa560",
+      "bytes": 85033
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_04.jpg",
+      "sha256": "a3130bb1fed3033b39a45ff23ca8151a5987e798b5d9d0cb3c97a617b36ae5f9",
+      "bytes": 86904
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_05.jpg",
+      "sha256": "7c00cdf30b8a9e490671cd8aae9b104f3094d50b16eeedb44ae6532766f9a4cc",
+      "bytes": 96336
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_06.jpg",
+      "sha256": "f3b61dfeee8081a835f2795df96e03795c3af330dd43c9d24db0a711898f5333",
+      "bytes": 123040
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/frame_07.jpg",
+      "sha256": "8e090bcc5fdd77128760c5c70a192518ef36c4b57975546c4771b6855a9ba044",
+      "bytes": 114256
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/02_The_Missing_Belongings/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "482e8146f535a74002c6a08d16d9ffdd3d2e2fede2e819b8fe8d3171ac608234",
+      "bytes": 914091
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/audio_analysis.txt",
+      "sha256": "5557db3081c9014e54747b96f3464ae2a36d75087230d5558fb0580e084c6793",
+      "bytes": 4140
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_00.jpg",
+      "sha256": "bfb81c120a4e0cce6ac3ddbf2d36032563645b330797747c72b56b4430bc1b19",
+      "bytes": 89040
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_01.jpg",
+      "sha256": "f34bdc06a87dced95cb5476a838863d595c639e119f13e49321b7f08012fa71b",
+      "bytes": 32657
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_02.jpg",
+      "sha256": "7b9b65ebd2ca34ef47fa2086e6168d4dab40bc24665f524fc2f484a37f3e0c03",
+      "bytes": 111047
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_03.jpg",
+      "sha256": "67e1a148b73dc4a98a37bf861704e3529d8af0d96bb9b2794f82071970253aea",
+      "bytes": 93425
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_04.jpg",
+      "sha256": "a8fd1df5a6b890b097cf0fba07c7748a481a308a1272f789b64283f89640b658",
+      "bytes": 74566
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_05.jpg",
+      "sha256": "606e643d94f826f0e1bda6e7e6d8dbfeea66cad6e320bdcc8c4a0d417f08e164",
+      "bytes": 101379
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_06.jpg",
+      "sha256": "bf1d596f2fc2656adfc6b4d4ac191431a55a0793f838ec8dbefb9150b9c8c055",
+      "bytes": 101534
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_07.jpg",
+      "sha256": "0f3259b5970d77b2e389818a9df3bb5ff75a5a7d20ca9472b71a64f95f79b997",
+      "bytes": 41725
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/frame_08.jpg",
+      "sha256": "b6b3322d401715ad3ceacaed81a6c0d4a6e7824b42a3592479650348c013cafe",
+      "bytes": 54308
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Visuals/encoded_review_01/contact.jpg",
+      "sha256": "9fb7b043dca92f7dc13f9d33818ca4ea57739e03b5ae048383f9bda5ebde61b0",
+      "bytes": 868017
+    }
+  ],
+  "new_provider_calls": 0,
+  "publishing": false,
+  "human_video_playback_approved": false
+}

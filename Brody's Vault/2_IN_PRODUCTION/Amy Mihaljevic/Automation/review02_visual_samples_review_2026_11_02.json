@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-11-02T05:15:47.501510+00:00",
+  "reviewer": "Codex assistant",
+  "assistant_sample_review_passed": true,
+  "scope": "All65 shot midpoints plus early/late frames of cropped shots,75 exported-frame samples on5contact sheets; no sampled crop-edge or layout obstruction found. Full motion and all-caption listening are established only by the separate actual human approval.",
+  "export_audit": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/review02_export_audit_2026_11_02.json",
+    "bytes": 81214,
+    "sha256": "f76d2706ec6dab5e9fca71296a16885cd0685f459bf7c829de9ca19aadfbada9"
+  },
+  "actual_human_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/review02_and_short_audio_approved_2026_11_02.json",
+    "bytes": 1830,
+    "sha256": "f97f8e9dde1b89bcdae74cbf646fc880f5aafeaba383d9d5dc4de70d98aed86d"
+  }
+}

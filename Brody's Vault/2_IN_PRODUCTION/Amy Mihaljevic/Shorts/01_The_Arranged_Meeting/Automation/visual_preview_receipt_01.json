@@ -1,0 +1,219 @@
+{
+  "status": "STILL_PREVIEWS_READY_FOR_INSPECTION",
+  "recorded_at_utc": "2026-11-02T05:14:17.189821+00:00",
+  "recipe": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/review_video_recipe_01.json",
+    "sha256": "1601727fe6dc8c3a923901ff548e9e26b0dd9c8cba0f24ee69e2e540229731e2",
+    "bytes": 5630
+  },
+  "tool": "Installed FFmpeg8.1.1",
+  "commands": [
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "48.58",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+3.58/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_01.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "58.085",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+13.085/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_02.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "67.281",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+22.281/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_03.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "72.892",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+27.892/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_04.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "80.728",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+35.727999999999994/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_05.jpg"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "ffmpeg",
+        "-v",
+        "warning",
+        "-nostdin",
+        "-n",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "2",
+        "-ss",
+        "86.2106565",
+        "-i",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Jodi Huisentruit\\shorts_gameplay\\orbital-minecraft-parkour-30min-1440p60-purchased.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vf",
+        "crop=810:1440:875:0,scale=1080:1920:flags=lanczos,setsar=1,setpts=PTS-STARTPTS+41.2106565/TB,subtitles=captions.ass,scale=540:960",
+        "-frames:v",
+        "1",
+        "-q:v",
+        "2",
+        "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Shorts\\01_The_Arranged_Meeting\\Visuals\\preview_review_01\\overlay_06.jpg"
+      ],
+      "returncode": 0
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/captions.ass",
+      "sha256": "7c77b073a55688aa6cc7fb1d7c180341b0ea2fd7d0a612796b272ba2ce6b48a6",
+      "bytes": 3015
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_01.jpg",
+      "sha256": "031e392ed15f843e73928d47767f5fd2ccc7edb95456559362f9d988595039f1",
+      "bytes": 107862
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_02.jpg",
+      "sha256": "80fd87ed5fcc6e7cdd0c881b254dac2352a45474aa05c0da600c5e861ce88501",
+      "bytes": 94660
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_03.jpg",
+      "sha256": "4f74374bfc699cd20072ef81c327f7c523b23128f78478af96eeced9e9395824",
+      "bytes": 83765
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_04.jpg",
+      "sha256": "c1c65dd52b140298b9b822ff3c9b9833cd4acf7025767b48f2cd9cb0a711b325",
+      "bytes": 102544
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_05.jpg",
+      "sha256": "2d8a08d33cb3b243b690ae5e46f2ed1a5629e625f9c58f838916574716af53af",
+      "bytes": 88987
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Visuals/preview_review_01/overlay_06.jpg",
+      "sha256": "8f28cde79f7795f44311663c5153393cbccf90639ca47b626fdf757cb840ded2",
+      "bytes": 96706
+    }
+  ],
+  "video_render": false,
+  "new_provider_calls": 0
+}

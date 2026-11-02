@@ -1,5 +1,5 @@
+**Current — November 2, 2026:** Full long-form corrective cut02 is approved, including actual visuals/crops, captions, pacing, audio, synchronization and ending. All three Short audios and their word timing are approved. Three separate Orbital review videos are rendered; full Short video playback approval remains. No new narration or publishing. [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Status_2026_11_02|Current media decisions and next step]].
 
-**Current — October22,2026:** Full9:08.59 repaired/paced audio and synchronization explicitly approved;14new stock uses approved under recorded conditions. Exact-audio preflight passes. Corrective review02 is IN_PROGRESS; check the live render receipt before resuming. No automatic retry. Shorts still need actual audio/timing approval. No paid calls or publishing. See [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Production_Update_05|current production evidence and next steps]].
 
 # Cold Truth — project memory index
 
@@ -7,7 +7,7 @@
 
 [[00_START_HERE|Home]] · [[0_ADMIN/PROJECT_DASHBOARD|Live queue]] · [[0_ADMIN/COLD_TRUTH_EXECUTION_PLAN_V2|Working plan]]
 
-**Maintained context, 2026-10-21.** This compact index points to the durable records below. It is not a second execution queue, a research ledger, or an approval receipt. Read the live dashboard/state and exact evidence before acting; a remembered statement never grants authority.
+**Maintained context, 2026-11-02.** This compact index points to the durable records below. It is not a second execution queue, a research ledger, or an approval receipt. Read the live dashboard/state and exact evidence before acting; a remembered statement never grants authority.
 
 
 ## Start a continuation
@@ -27,7 +27,7 @@
 | Current editorial case | [[2_IN_PRODUCTION/Amy Mihaljevic/Production_Summary|Amy Mihaljevic]]. Other folders are candidates/history, not permission to start another production run. |
 | Paired approval | Full narration draft and source-bound reverse outline must be approved together. Amy's [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/script_approval_2026_10_20.json|exact paired approval]] binds the reviewed packet and final. |
 | Phase 2 | Media-production scope. Editorial approval, an available tool or a historical generation does not grant it. Each provider/profile/action must fit the actual decision. |
-| Historical narration direction | Brody approved the full **9:30.56** processed Mia narration on October 21; the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/preflight.json|audio preflight]] passes. One full request used **1,722 existing credits**; no attempts remain. The separately [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_m6_preparation_2026_10_21.json|approved M6 preparation scope]] has produced exact-audio timing, local stock, original cards and verified existing Orbital provenance. The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|M6 review hub]] records the completed script/rights/timing reviews and next execution scope. Video assembly/rendering, new narration and publishing are outside this grant. Kitten/Bella stays parked. The actual full-episode listening decision is saved separately from sample acceptance. |
+| Historical narration direction | Brody approved the full **9:30.56** processed Mia narration on October 21; the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/archive/before_candidate05_promotion/preflight.json|historical audio preflight]] passes. One full request used **1,722 existing credits**; no attempts remain. The separately [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/phase_2_m6_preparation_2026_10_21.json|approved M6 preparation scope]] has produced exact-audio timing, local stock, original cards and verified existing Orbital provenance. The [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/M6_Preparation_Handoff|M6 review hub]] records the completed script/rights/timing reviews and next execution scope. Video assembly/rendering, new narration and publishing are outside this grant. Kitten/Bella stays parked. The actual full-episode listening decision is saved separately from sample acceptance. |
 | Runtime | Actual current approved long-form audio must be at least **480.000 seconds** unless the exact Short-Format exception is approved. Word count is not a duration measurement. Never pad. |
 | Visual tracks | Long-form: case-appropriate B-roll/graphics. Shorts: separate licensed Orbital gameplay with factual overlays. No shared visual assets. Standard episodes require 3–5 standalone Shorts. |
 | Real vs fixture evidence | The orchestrator stays disabled. M4's direct checker is offline-tested; this does not prove a provider call, usable media, rights or creative quality. Use the [[2_IN_PRODUCTION/Amy Mihaljevic/Automation/Pilot_Runbook|runbook]] and actual receipts. |

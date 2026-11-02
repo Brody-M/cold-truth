@@ -1,0 +1,2565 @@
+{
+  "status": "TECHNICAL_PASS_EXPORT_CONTACT_REVIEW_PENDING",
+  "recorded_at_utc": "2026-11-02T05:06:25.969992+00:00",
+  "tool": "Installed Python/numpy/scipy/Pillow and FFmpeg/FFprobe8.1.1",
+  "video": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_02.mp4",
+    "bytes": 345595935,
+    "sha256": "e7dc6f589965aa0c37f6a766462d38256d042056088ef6fb5e99f5c8c581f612"
+  },
+  "approved_audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "render_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_02.json",
+    "bytes": 115970,
+    "sha256": "d09647e726c3df26efc35c2f531379ce6f678ce9d5347037cb19b41a9ea2d896"
+  },
+  "settings": {
+    "video_render": false,
+    "source_downloads": 0,
+    "provider_calls": 0,
+    "frame_sample_width": 640,
+    "shot_sampling": "Every shot midpoint; early/late samples of cropped shots"
+  },
+  "video_duration_seconds": 548.633008,
+  "audio_duration_seconds": 548.591995,
+  "frame_count": 16458,
+  "maximum_frame_timestamp_drift_seconds": 0.033333666666749195,
+  "audio_comparisons": [
+    {
+      "label": "opening",
+      "start_seconds": 0,
+      "duration_seconds": 8,
+      "encoded_rms_gain_db": -0.017707066290964052,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999298035663666
+    },
+    {
+      "label": "marked_onset",
+      "start_seconds": 2.16,
+      "duration_seconds": 0.16,
+      "encoded_rms_gain_db": -0.027350603958058144,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9995511938977212
+    },
+    {
+      "label": "middle",
+      "start_seconds": 270,
+      "duration_seconds": 8,
+      "encoded_rms_gain_db": -0.014394532453694386,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.99993068037927
+    },
+    {
+      "label": "ending",
+      "start_seconds": 535,
+      "duration_seconds": 8,
+      "encoded_rms_gain_db": -0.017389629092063666,
+      "best_lag_samples": 0,
+      "zero_lag_correlation": 0.9999406592024264
+    }
+  ],
+  "frame_samples": [
+    {
+      "label": "01 P01 AMY-LF-R05-PX-6975995",
+      "seconds": 4.366666666666666,
+      "name": "shot_001_middle.jpg"
+    },
+    {
+      "label": "01 crop early",
+      "seconds": 0.6986666666666667,
+      "name": "shot_001_early.jpg"
+    },
+    {
+      "label": "01 crop late",
+      "seconds": 8.034666666666666,
+      "name": "shot_001_late.jpg"
+    },
+    {
+      "label": "02 P01 AMY-LF-PX-854698",
+      "seconds": 13.099999999999998,
+      "name": "shot_002_middle.jpg"
+    },
+    {
+      "label": "03 P01 AMY-LF-R05-PX-14160089",
+      "seconds": 21.833333333333332,
+      "name": "shot_003_middle.jpg"
+    },
+    {
+      "label": "04 P02 AMY-LF-PX-14512668",
+      "seconds": 30.549999999999997,
+      "name": "shot_004_middle.jpg"
+    },
+    {
+      "label": "05 P02 AMY-LF-PX-5792244",
+      "seconds": 37.93333333333334,
+      "name": "shot_005_middle.jpg"
+    },
+    {
+      "label": "06 P02 AMY-LF-PX-5792246",
+      "seconds": 44.45,
+      "name": "shot_006_middle.jpg"
+    },
+    {
+      "label": "07 P02 AMY-LF-PX-5835776",
+      "seconds": 51.4,
+      "name": "shot_007_middle.jpg"
+    },
+    {
+      "label": "08 P03 AMY-LF-PX-854698",
+      "seconds": 59.3,
+      "name": "shot_008_middle.jpg"
+    },
+    {
+      "label": "09 P03 AMY-LF-R05-PX-6975995",
+      "seconds": 66.4,
+      "name": "shot_009_middle.jpg"
+    },
+    {
+      "label": "09 crop early",
+      "seconds": 64.16,
+      "name": "shot_009_early.jpg"
+    },
+    {
+      "label": "09 crop late",
+      "seconds": 68.64,
+      "name": "shot_009_late.jpg"
+    },
+    {
+      "label": "10 P03 AMY-LF-R05-PX-32835503",
+      "seconds": 71.71666666666667,
+      "name": "shot_010_middle.jpg"
+    },
+    {
+      "label": "10 crop early",
+      "seconds": 69.49066666666667,
+      "name": "shot_010_early.jpg"
+    },
+    {
+      "label": "10 crop late",
+      "seconds": 73.94266666666667,
+      "name": "shot_010_late.jpg"
+    },
+    {
+      "label": "11 P03 AMY-LF-R05-PX-14160089",
+      "seconds": 78.8,
+      "name": "shot_011_middle.jpg"
+    },
+    {
+      "label": "12 P04 AMY-LF-R05-PX-14160089",
+      "seconds": 89.28333333333333,
+      "name": "shot_012_middle.jpg"
+    },
+    {
+      "label": "13 P04 AMY-LF-R05-PX-32835503",
+      "seconds": 100.16666666666666,
+      "name": "shot_013_middle.jpg"
+    },
+    {
+      "label": "13 crop early",
+      "seconds": 96.10666666666667,
+      "name": "shot_013_early.jpg"
+    },
+    {
+      "label": "13 crop late",
+      "seconds": 104.22666666666666,
+      "name": "shot_013_late.jpg"
+    },
+    {
+      "label": "14 P04 AMY-LF-PX-5835776",
+      "seconds": 108.03333333333333,
+      "name": "shot_014_middle.jpg"
+    },
+    {
+      "label": "15 P05 AMY-LF-PX-5792244",
+      "seconds": 114.58333333333333,
+      "name": "shot_015_middle.jpg"
+    },
+    {
+      "label": "16 P05 AMY-LF-PX-5792246",
+      "seconds": 122.11666666666667,
+      "name": "shot_016_middle.jpg"
+    },
+    {
+      "label": "17 P05 AMY-LF-R05-PX-8371852",
+      "seconds": 131.15,
+      "name": "shot_017_middle.jpg"
+    },
+    {
+      "label": "18 P06 AMY-LF-R05-PX-8371858",
+      "seconds": 141.85,
+      "name": "shot_018_middle.jpg"
+    },
+    {
+      "label": "19 P06 AMY-LF-R05-PX-14160089",
+      "seconds": 152.08333333333331,
+      "name": "shot_019_middle.jpg"
+    },
+    {
+      "label": "20 P06 AMY-LF-R05-PX-8371852",
+      "seconds": 161.18333333333334,
+      "name": "shot_020_middle.jpg"
+    },
+    {
+      "label": "21 P07 AMY-LF-R05-PX-8888977",
+      "seconds": 170.06666666666666,
+      "name": "shot_021_middle.jpg"
+    },
+    {
+      "label": "21 crop early",
+      "seconds": 166.42666666666665,
+      "name": "shot_021_early.jpg"
+    },
+    {
+      "label": "21 crop late",
+      "seconds": 173.70666666666668,
+      "name": "shot_021_late.jpg"
+    },
+    {
+      "label": "22 P07 AMY-LF-R05-PX-17136728",
+      "seconds": 178.75,
+      "name": "shot_022_middle.jpg"
+    },
+    {
+      "label": "23 P07 AMY-LF-PX-6550428",
+      "seconds": 187.43333333333334,
+      "name": "shot_023_middle.jpg"
+    },
+    {
+      "label": "24 P08 AMY-LF-R05-PX-15602507",
+      "seconds": 196.73333333333335,
+      "name": "shot_024_middle.jpg"
+    },
+    {
+      "label": "25 P08 AMY-LF-PX-6577022",
+      "seconds": 205.16666666666666,
+      "name": "shot_025_middle.jpg"
+    },
+    {
+      "label": "26 P08 AMY-LF-R05-PX-8371858",
+      "seconds": 212.11666666666667,
+      "name": "shot_026_middle.jpg"
+    },
+    {
+      "label": "27 P09 AMY-LF-PX-6550428",
+      "seconds": 220.39999999999998,
+      "name": "shot_027_middle.jpg"
+    },
+    {
+      "label": "28 P09 AMY-LF-PX-7233562",
+      "seconds": 229.03333333333333,
+      "name": "shot_028_middle.jpg"
+    },
+    {
+      "label": "29 P09 AMY-LF-R05-PX-8371852",
+      "seconds": 237.66666666666669,
+      "name": "shot_029_middle.jpg"
+    },
+    {
+      "label": "30 P10 AMY-LF-PX-7233562",
+      "seconds": 246.4,
+      "name": "shot_030_middle.jpg"
+    },
+    {
+      "label": "31 P10 AMY-LF-R05-PX-8527274",
+      "seconds": 255.23333333333335,
+      "name": "shot_031_middle.jpg"
+    },
+    {
+      "label": "32 P10 AMY-LF-R05-PX-8371858",
+      "seconds": 265.04999999999995,
+      "name": "shot_032_middle.jpg"
+    },
+    {
+      "label": "33 P11 AMY-LF-PX-854698",
+      "seconds": 274.15,
+      "name": "shot_033_middle.jpg"
+    },
+    {
+      "label": "34 P11 AMY-LF-R05-PX-8085793",
+      "seconds": 283.54999999999995,
+      "name": "shot_034_middle.jpg"
+    },
+    {
+      "label": "35 P11 AMY-LF-R05-PX-17136728",
+      "seconds": 293.98333333333335,
+      "name": "shot_035_middle.jpg"
+    },
+    {
+      "label": "36 P12 AMY-LF-R05-PX-8085793",
+      "seconds": 304.15,
+      "name": "shot_036_middle.jpg"
+    },
+    {
+      "label": "37 P12 AMY-LF-R05-PX-17136728",
+      "seconds": 314.05,
+      "name": "shot_037_middle.jpg"
+    },
+    {
+      "label": "38 P12 AMY-LF-PX-5835776",
+      "seconds": 322.2166666666667,
+      "name": "shot_038_middle.jpg"
+    },
+    {
+      "label": "39 P12 AMY-LF-PX-8325857",
+      "seconds": 328.65,
+      "name": "shot_039_middle.jpg"
+    },
+    {
+      "label": "40 P13 AMY-LF-R05-PX-8527274",
+      "seconds": 337.48333333333335,
+      "name": "shot_040_middle.jpg"
+    },
+    {
+      "label": "41 P13 AMY-LF-PX-7233562",
+      "seconds": 347.3166666666667,
+      "name": "shot_041_middle.jpg"
+    },
+    {
+      "label": "42 P13 AMY-LF-R05-PX-8371852",
+      "seconds": 357.15,
+      "name": "shot_042_middle.jpg"
+    },
+    {
+      "label": "43 P14 AMY-LF-PX-8325857",
+      "seconds": 367.01666666666665,
+      "name": "shot_043_middle.jpg"
+    },
+    {
+      "label": "44 P14 AMY-LF-R05-PX-4267248",
+      "seconds": 375.5333333333333,
+      "name": "shot_044_middle.jpg"
+    },
+    {
+      "label": "45 P14 AMY-LF-R05-PX-8326170",
+      "seconds": 383.20000000000005,
+      "name": "shot_045_middle.jpg"
+    },
+    {
+      "label": "46 P14 AMY-LF-R05-PX-3195394",
+      "seconds": 390.0,
+      "name": "shot_046_middle.jpg"
+    },
+    {
+      "label": "47 P15 AMY-LF-PX-8325856",
+      "seconds": 397.51666666666665,
+      "name": "shot_047_middle.jpg"
+    },
+    {
+      "label": "48 P15 AMY-LF-R05-PX-8381446",
+      "seconds": 404.91666666666663,
+      "name": "shot_048_middle.jpg"
+    },
+    {
+      "label": "49 P15 AMY-LF-R05-PX-8371858",
+      "seconds": 412.31666666666666,
+      "name": "shot_049_middle.jpg"
+    },
+    {
+      "label": "50 P15 AMY-LF-R05-PX-8326170",
+      "seconds": 419.7166666666667,
+      "name": "shot_050_middle.jpg"
+    },
+    {
+      "label": "51 P16 AMY-LF-R05-PX-8371852",
+      "seconds": 427.4666666666667,
+      "name": "shot_051_middle.jpg"
+    },
+    {
+      "label": "52 P16 AMY-LF-R05-PX-3195394",
+      "seconds": 435.5,
+      "name": "shot_052_middle.jpg"
+    },
+    {
+      "label": "53 P16 AMY-LF-R05-PX-4267248",
+      "seconds": 442.6333333333333,
+      "name": "shot_053_middle.jpg"
+    },
+    {
+      "label": "54 P16 AMY-LF-R05-PX-8371858",
+      "seconds": 450.66666666666663,
+      "name": "shot_054_middle.jpg"
+    },
+    {
+      "label": "55 P17 AMY-LF-R05-PX-8085793",
+      "seconds": 460.29999999999995,
+      "name": "shot_055_middle.jpg"
+    },
+    {
+      "label": "56 P17 AMY-LF-R05-PX-3195394",
+      "seconds": 469.6,
+      "name": "shot_056_middle.jpg"
+    },
+    {
+      "label": "57 P17 AMY-LF-R05-PX-8371852",
+      "seconds": 478.8833333333333,
+      "name": "shot_057_middle.jpg"
+    },
+    {
+      "label": "58 P17 AMY-LF-R05-PX-8381446",
+      "seconds": 488.1666666666667,
+      "name": "shot_058_middle.jpg"
+    },
+    {
+      "label": "59 P18 AMY-LF-PX-854698",
+      "seconds": 495.51666666666665,
+      "name": "shot_059_middle.jpg"
+    },
+    {
+      "label": "60 P18 AMY-LF-R05-PX-14160089",
+      "seconds": 502.4,
+      "name": "shot_060_middle.jpg"
+    },
+    {
+      "label": "61 P18 AMY-LF-R05-PX-17136728",
+      "seconds": 510.65,
+      "name": "shot_061_middle.jpg"
+    },
+    {
+      "label": "62 P18 AMY-LF-PX-8325856",
+      "seconds": 518.9000000000001,
+      "name": "shot_062_middle.jpg"
+    },
+    {
+      "label": "63 P19 AMY-LF-PX-14512668",
+      "seconds": 527.2166666666667,
+      "name": "shot_063_middle.jpg"
+    },
+    {
+      "label": "64 P19 AMY-LF-PX-5792244",
+      "seconds": 535.5833333333333,
+      "name": "shot_064_middle.jpg"
+    },
+    {
+      "label": "65 P19 AMY-LF-PX-5835776",
+      "seconds": 543.95,
+      "name": "shot_065_middle.jpg"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_01.jpg",
+      "bytes": 319216,
+      "sha256": "0bad4978de6417fb910fd2eaf0e8e5fec850bae52d0a24ac572d4aac51214213"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_02.jpg",
+      "bytes": 336724,
+      "sha256": "057b16b15bea483846bf3196d44a184d8492d71412965f84197c45fb26b3b25a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_03.jpg",
+      "bytes": 274990,
+      "sha256": "15830ada1cbbe3050c7bb87cad15da04c7e594a167216a2440bc5950c28b2fff"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_04.jpg",
+      "bytes": 245825,
+      "sha256": "3e3a627bc8d8cd0cd97fac26e61bbd7c0f9f605981be613dc9b3091a36a756ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_05.jpg",
+      "bytes": 216052,
+      "sha256": "0c02fd76c224864e934ae4c83eb6a624cc65026cc465e56328f9b5cd751f8b0c"
+    }
+  ],
+  "commands": [
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-show_format",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4"
+    ],
+    [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_entries",
+      "frame=best_effort_timestamp_time",
+      "-of",
+      "json",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-ss",
+      "0",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-ss",
+      "0",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-ss",
+      "2.16",
+      "-t",
+      "0.16",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-ss",
+      "2.16",
+      "-t",
+      "0.16",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-ss",
+      "270",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-ss",
+      "270",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Audio\\full_repair_05\\Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+      "-ss",
+      "535",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-ss",
+      "535",
+      "-t",
+      "8",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "44100",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "4.366666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_001_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "0.6986666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_001_early.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "8.034666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_001_late.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "13.099999999999998",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_002_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "21.833333333333332",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_003_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "30.549999999999997",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_004_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "37.93333333333334",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_005_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "44.45",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_006_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "51.4",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_007_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "59.3",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_008_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "66.4",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_009_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "64.16",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_009_early.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "68.64",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_009_late.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "71.71666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_010_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "69.49066666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_010_early.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "73.94266666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_010_late.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "78.8",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_011_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "89.28333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_012_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "100.16666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_013_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "96.10666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_013_early.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "104.22666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_013_late.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "108.03333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_014_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "114.58333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_015_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "122.11666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_016_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "131.15",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_017_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "141.85",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_018_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "152.08333333333331",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_019_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "161.18333333333334",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_020_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "170.06666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_021_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "166.42666666666665",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_021_early.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "173.70666666666668",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_021_late.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "178.75",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_022_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "187.43333333333334",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_023_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "196.73333333333335",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_024_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "205.16666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_025_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "212.11666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_026_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "220.39999999999998",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_027_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "229.03333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_028_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "237.66666666666669",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_029_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "246.4",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_030_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "255.23333333333335",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_031_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "265.04999999999995",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_032_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "274.15",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_033_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "283.54999999999995",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_034_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "293.98333333333335",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_035_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "304.15",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_036_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "314.05",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_037_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "322.2166666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_038_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "328.65",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_039_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "337.48333333333335",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_040_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "347.3166666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_041_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "357.15",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_042_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "367.01666666666665",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_043_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "375.5333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_044_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "383.20000000000005",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_045_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "390.0",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_046_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "397.51666666666665",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_047_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "404.91666666666663",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_048_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "412.31666666666666",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_049_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "419.7166666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_050_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "427.4666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_051_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "435.5",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_052_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "442.6333333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_053_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "450.66666666666663",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_054_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "460.29999999999995",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_055_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "469.6",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_056_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "478.8833333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_057_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "488.1666666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_058_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "495.51666666666665",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_059_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "502.4",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_060_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "510.65",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_061_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "518.9000000000001",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_062_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "527.2166666666667",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_063_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "535.5833333333333",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_064_middle.jpg"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "1",
+      "-ss",
+      "543.95",
+      "-i",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Exports\\Longform\\Amy_Mihaljevic_review_02.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=640:360",
+      "-q:v",
+      "3",
+      "C:\\Youtube Automation Obsidian\\Brody's Vault\\2_IN_PRODUCTION\\Amy Mihaljevic\\Visuals\\Longform\\revision_05\\qc_export_2026_11_02\\shot_065_middle.jpg"
+    ]
+  ],
+  "outputs": [
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_01.jpg",
+      "bytes": 319216,
+      "sha256": "0bad4978de6417fb910fd2eaf0e8e5fec850bae52d0a24ac572d4aac51214213"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_02.jpg",
+      "bytes": 336724,
+      "sha256": "057b16b15bea483846bf3196d44a184d8492d71412965f84197c45fb26b3b25a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_03.jpg",
+      "bytes": 274990,
+      "sha256": "15830ada1cbbe3050c7bb87cad15da04c7e594a167216a2440bc5950c28b2fff"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_04.jpg",
+      "bytes": 245825,
+      "sha256": "3e3a627bc8d8cd0cd97fac26e61bbd7c0f9f605981be613dc9b3091a36a756ea"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/contact_05.jpg",
+      "bytes": 216052,
+      "sha256": "0c02fd76c224864e934ae4c83eb6a624cc65026cc465e56328f9b5cd751f8b0c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_001_early.jpg",
+      "bytes": 22065,
+      "sha256": "feb390158f1bfd7b973c1dac46c260ff8e83e17748a7592b8b0b51c0f3eef25b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_001_late.jpg",
+      "bytes": 18835,
+      "sha256": "5b9b09128565a7b34b5ffc968811f31aec734f44a1851a76d4469231c833bfbc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_001_middle.jpg",
+      "bytes": 20118,
+      "sha256": "20d0a3edf0721b59d60ea38174696e03caa9c072251feb51ded3f9d9eed8cd6a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_002_middle.jpg",
+      "bytes": 32759,
+      "sha256": "5536539f66c9df9c08c3bb2db20179b7e25c34f224a931a02024ee63a76d37dc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_003_middle.jpg",
+      "bytes": 74901,
+      "sha256": "27b410cdac33484fef1f5c6d00107d291ee37f181c58cff291fa0e0dda6653cf"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_004_middle.jpg",
+      "bytes": 41697,
+      "sha256": "dac0e8cb03c5d3398af43109eb5dbc6ce682509663dea3530cc774ae17912ccb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_005_middle.jpg",
+      "bytes": 52841,
+      "sha256": "f64e51c03cf679b07e8b1395575c16b6c8fa92e71f6515a51689a7128ac3e967"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_006_middle.jpg",
+      "bytes": 47426,
+      "sha256": "0aa7ba778ab359883de5a160c2c15924443af04ec5cc58c8517fe99a9dbd2400"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_007_middle.jpg",
+      "bytes": 62060,
+      "sha256": "20c2db5afd0b048a5239d71fae7c6e86894371bf78b21b0f5519cb5d0dd10e41"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_008_middle.jpg",
+      "bytes": 23745,
+      "sha256": "021607ead8aeb3e36cf098c3003ea2a8a3b8f4ef519675f973f88865532f7296"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_009_early.jpg",
+      "bytes": 21840,
+      "sha256": "d9a31134046772cf02efbf78aa56588aa64c4b4856a1ff9e49c5f6ec8614b5cb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_009_late.jpg",
+      "bytes": 19879,
+      "sha256": "c15d617bca95aa5ba4567f0e30b4d129622ff98c11539268b9c7d53f07d0fddd"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_009_middle.jpg",
+      "bytes": 21016,
+      "sha256": "44c0c00c2996f0ad44da46d1f2f321ab1a7afb2e12acb9f43cd9122cd300d810"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_010_early.jpg",
+      "bytes": 61195,
+      "sha256": "8636986045c671bc4404c07e708cbf1537301d55114d52bffde204de206677eb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_010_late.jpg",
+      "bytes": 62662,
+      "sha256": "502bf4bba95ebbb33408b7667f62450ea3c03ce931262ef98714f8fa40270093"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_010_middle.jpg",
+      "bytes": 59838,
+      "sha256": "0616b66303758fdd5110673cbad7356aec501ddf7ede1f69ce88bba7a2a0747e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_011_middle.jpg",
+      "bytes": 79216,
+      "sha256": "2b9b4d26b1aa9774a5da84a0009ac94d1e29fc6a5891e1673d299df32bb6789a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_012_middle.jpg",
+      "bytes": 65281,
+      "sha256": "299c0552e7652ad72cb136dbd591c947932a2342349366f6946b355c6bd4dbd1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_013_early.jpg",
+      "bytes": 61966,
+      "sha256": "0caf6141b0e527a9e7c0f9602b7dd9de0ba77beb1d4433fa20268f0e385c1ef2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_013_late.jpg",
+      "bytes": 62222,
+      "sha256": "52cdd842d2f7d709d7dd880a0a287783fd02736534d4e3ef7c30b885b1b9ccf3"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_013_middle.jpg",
+      "bytes": 62570,
+      "sha256": "5377a1f8948987efc0032b43e07a347251d59b3f670fc1b89836f8f0a6ef21d5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_014_middle.jpg",
+      "bytes": 61696,
+      "sha256": "57bebd7d869e1991d304c2b5d83d4fa934fc85132336534fe0dcede07e25e5f9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_015_middle.jpg",
+      "bytes": 51802,
+      "sha256": "493dc68291143b3b6368066b90e13c7a8c494de8d9acff4d342ee086f49a8ea4"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_016_middle.jpg",
+      "bytes": 48012,
+      "sha256": "58f941bb18ec6e8c1d3a2b08ef3069c0a24e05485ebddc139e5a9c509d578d52"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_017_middle.jpg",
+      "bytes": 21565,
+      "sha256": "969d3501234bd545e5aa7a2e8f353aa457c9e141bcad57d5878a0b1c39be4b0d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_018_middle.jpg",
+      "bytes": 19085,
+      "sha256": "8d861e4a1ae8639b126df07b1a572a25a63a10c986b95abade8598836f4c3b4b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_019_middle.jpg",
+      "bytes": 71682,
+      "sha256": "8dde2f88d97b93fb5cdd214d64f585cdbeb7bf6eb219c635dd9de1d470ba2911"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_020_middle.jpg",
+      "bytes": 21554,
+      "sha256": "c4de671507e45844a1ffe0eeae05e9dacbabaa9ed3b9adf20c2988ceeb99f021"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_021_early.jpg",
+      "bytes": 24234,
+      "sha256": "fc4f32061a05c6e55593c64d5c87182e01fb8e8a732751bfe7e512a5eaaf2104"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_021_late.jpg",
+      "bytes": 20744,
+      "sha256": "ab6a57e173611ab6ed05211c872a1862431483fcad187bcdd5ee4fd562d5c23d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_021_middle.jpg",
+      "bytes": 22858,
+      "sha256": "7a423688582caa6f47730ecdb8a05921ebf46d42f7753a741d9fb0508bc8412f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_022_middle.jpg",
+      "bytes": 21343,
+      "sha256": "47d08373a997f5961bdd58501fcf28bc1921e067f7f5a03b97f7fab3af60ff63"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_023_middle.jpg",
+      "bytes": 44849,
+      "sha256": "0dbae5057ec3d28be7189a59e6dd24a47bb12799fd5f494a79c2132ce9f5b2fb"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_024_middle.jpg",
+      "bytes": 34177,
+      "sha256": "6ec04b7884a77a6103b7e30086125a35717a4ffa84814298f0069271e2d49605"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_025_middle.jpg",
+      "bytes": 15867,
+      "sha256": "489716e5b47af0889ab2f2cd2b1b4a99e4804f970404dc52f5e6c674e7101c65"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_026_middle.jpg",
+      "bytes": 14276,
+      "sha256": "80cfe49952e8cba227cf59cfbbe05d7997ede3561490f9374ce8f6e435d73e89"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_027_middle.jpg",
+      "bytes": 46554,
+      "sha256": "d17476fdbb2737a9da17a32d5eee82794acaa303ae76d339b62b30a1b7ec9883"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_028_middle.jpg",
+      "bytes": 29474,
+      "sha256": "7806c4fa468317e2c0d2604c4f388b56f5c1e215064aba7545c78af80b7189af"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_029_middle.jpg",
+      "bytes": 22776,
+      "sha256": "2a46064e58da9daa40f8ae5ea774aabe8887e404e7f73f3ee4c7f699e8545c99"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_030_middle.jpg",
+      "bytes": 33667,
+      "sha256": "9f039956a5390d5e019e755b9401d705162690aeca10e657efe7f13b07564663"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_031_middle.jpg",
+      "bytes": 21348,
+      "sha256": "b1c8189228bbd762636c5f3d06413f897b3d6729fe4af3d87b2f3a5bccb9b41e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_032_middle.jpg",
+      "bytes": 17713,
+      "sha256": "84192c4c224bacecf813ab2d644ae71a1c1b762394fa1a5fee68da3843935a92"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_033_middle.jpg",
+      "bytes": 43517,
+      "sha256": "478d3656021fc782a17e0339302cfa2fe3be1e81c2957392af7fb792ac939b50"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_034_middle.jpg",
+      "bytes": 19815,
+      "sha256": "26860e5f503a4b493a35c11dd8835b6bba90af8290a89daeaa62891b910aa583"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_035_middle.jpg",
+      "bytes": 22396,
+      "sha256": "0b2a55b6c1566c11c2985a52c0db7d65b347b8750b7a770da604d0348eacda6d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_036_middle.jpg",
+      "bytes": 15472,
+      "sha256": "cf6d36c857209c4d0b78e326b408815f60fb4bfdb3e81d6291201592b123892a"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_037_middle.jpg",
+      "bytes": 21816,
+      "sha256": "123fcae05b04634a9a3ba158d052ce968e89b88d2d9237577462f6fb42a75f37"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_038_middle.jpg",
+      "bytes": 62266,
+      "sha256": "7cc46b6eccb071bbc38204bb1ba9ca419ea7add6d9321c2b89e35bf0d6c69f71"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_039_middle.jpg",
+      "bytes": 22740,
+      "sha256": "3462533c7ed1e234d34621297717c9c800259d8e8c071c552f285c61ff7e4d36"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_040_middle.jpg",
+      "bytes": 24570,
+      "sha256": "634a62e10ab89499c14dc25dfe5ab2890ac6a7f63da2c216bdd7cc612bf0c442"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_041_middle.jpg",
+      "bytes": 31505,
+      "sha256": "4c130fcf6f3f43d969accd3b69321d8fe4773a1ef6809ac0f77d6857c43e9310"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_042_middle.jpg",
+      "bytes": 19811,
+      "sha256": "416658654e6b1789557bf2855c11a37be28d4b0dbe490eeb9d1be2efc8d90ff2"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_043_middle.jpg",
+      "bytes": 22122,
+      "sha256": "372aea8f390dced2fc413c4f489062710f4fc7a9c85afa6e6a35838a8439d9a1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_044_middle.jpg",
+      "bytes": 17342,
+      "sha256": "06d4aac71e5c8f7428e5f1ae30a44b2ecc2d0d95241e3ccec63659f6f53aafe9"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_045_middle.jpg",
+      "bytes": 23064,
+      "sha256": "7331b0e6268ba5f64700a055de467a5e0e16adb3fc793b745ea27417e3d18dd1"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_046_middle.jpg",
+      "bytes": 14844,
+      "sha256": "67658e7282d8e21de05f75f0aa61b6f9d22102143b3eb289273d4bc78320df5b"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_047_middle.jpg",
+      "bytes": 25546,
+      "sha256": "edb883b798f9191a13e4c3cd17581da14349668711ae56bd6f1c2d2af7d9cbb5"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_048_middle.jpg",
+      "bytes": 22395,
+      "sha256": "290d7b07b08088a81133612ebabcfe934cc7c7f6d5ef07953c4b752548060345"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_049_middle.jpg",
+      "bytes": 21234,
+      "sha256": "d7c91eaf86d99b72b111fac08545d97601866571600f03cbcb946c3cef09cedc"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_050_middle.jpg",
+      "bytes": 24581,
+      "sha256": "c1a0d7fdb6c5f2220c18ee9e5011932ee6faf18df988b5ecd17e0e317192890f"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_051_middle.jpg",
+      "bytes": 21570,
+      "sha256": "0904a301f5236e97d974d90dad7fd274ca067c9ea0a4f310e83a36bf40e6884d"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_052_middle.jpg",
+      "bytes": 16344,
+      "sha256": "c4b1139f6d6be9e32748aa94a818c4c6a97252bef878d928cf32cceaf935df79"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_053_middle.jpg",
+      "bytes": 20346,
+      "sha256": "65f231789eb894ad1974ec1e9d79ed17ace485ae69f20d9d0acc1696916a2110"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_054_middle.jpg",
+      "bytes": 18055,
+      "sha256": "16e58d62919a31d04b425181b9fe926da244584c5aa52e9487fb8e6088dc3ff0"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_055_middle.jpg",
+      "bytes": 18393,
+      "sha256": "1c8f0e42940ffc5a71445ecfd583f4c24c9a06b7d00d5a40a04943023c3aff6c"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_056_middle.jpg",
+      "bytes": 14590,
+      "sha256": "05caea0820df617af7e75c814cbef39152eae46266e55485619651d065b816db"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_057_middle.jpg",
+      "bytes": 21707,
+      "sha256": "8b055706ac43616acd667c95939d0e11b6a784951eb32c2069d8b4a9b6504d88"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_058_middle.jpg",
+      "bytes": 24251,
+      "sha256": "86ea700d8d8c56c1f285327a943998abce78a6c361657447bfe8b4c965b88a92"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_059_middle.jpg",
+      "bytes": 32246,
+      "sha256": "89f2ae567af7ebf8cd8eef3e1bd92baf9a6e39b5c2260ce12c7beff0a3ce7bcf"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_060_middle.jpg",
+      "bytes": 79328,
+      "sha256": "fde32be80409dfff5c9394514fa4b0976b29df0d764263cdb8f10ff35b9fc869"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_061_middle.jpg",
+      "bytes": 21966,
+      "sha256": "83e972b176686c0cdb74c6d2929739c1a17cfa1e0569449d5bfd9bad145e868e"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_062_middle.jpg",
+      "bytes": 25521,
+      "sha256": "2b3c31148719237afd3def9179472129553c8252f1338f694639fc3829b15070"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_063_middle.jpg",
+      "bytes": 36209,
+      "sha256": "0df95e1157ed6dbfda959912415f27a0e963bfb8a3376bb33af692c5db123611"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_064_middle.jpg",
+      "bytes": 48611,
+      "sha256": "ece814c7905951516340702e9615181d061c4d2afca3c75fcb35a8e7aabef083"
+    },
+    {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Visuals/Longform/revision_05/qc_export_2026_11_02/shot_065_middle.jpg",
+      "bytes": 62188,
+      "sha256": "4c7a1b55f5d8b8461b9fc542242e5991afb735ca2e090bb1229a3d81cd2adc64"
+    }
+  ],
+  "human_full_video_playback_approved": false,
+  "limits": "Samples and technical checks do not certify uninterrupted motion, all captions, pronunciation or human creative approval."
+}

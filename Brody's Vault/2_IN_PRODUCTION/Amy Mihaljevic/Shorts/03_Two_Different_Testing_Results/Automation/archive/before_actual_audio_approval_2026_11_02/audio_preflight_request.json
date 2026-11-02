@@ -1,0 +1,41 @@
+{
+  "case_id": "amy-mihaljevic-short-03",
+  "case_name": "Amy Mihaljevic Short 03",
+  "target_format": "shorts",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "441ef8ec1bde801bdd74020fbdbcaa51e0e2462e9b06de5079033ee433065e7d",
+    "bytes": 2351
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Script_Final.md",
+    "sha256": "996f5473a9fd12fec8ef609921ee2283dfb41fd43662cf9789733292f188047a",
+    "bytes": 2467
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/Narration_Text.txt",
+    "sha256": "9cf291d367ea96550e663907ca626e42cccfdc0a899f4731ded288ac6e889839",
+    "bytes": 633
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Audio/Amy_Short_03_Mia_attempt_01_processed.wav",
+    "sha256": "e68da3e3dc2a9215d67173e826349ac92e32657b8f3f4d4a2c620ede04cbdbd0",
+    "bytes": 6549606
+  },
+  "phase_2_scope": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "f41db7334ee7cec2fce8b82cd0e17166594f642c9ea8e5b1d235f7aef6e0ac0d",
+    "bytes": 3266
+  },
+  "generation_manifest": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/narration_attempt_01.json",
+    "sha256": "bc097a3e6b4ebd32dc5200c110d3f86bd433bb0226407ee3c9a74ddc394e43f2",
+    "bytes": 3860
+  },
+  "generation_event_id": "amy-mihaljevic-short-03-narration-attempt-01",
+  "audio_qa": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/03_Two_Different_Testing_Results/Automation/audio_qa_01.json",
+    "sha256": "28b3be1bea98d7e4b00a922c7f9136e5b0796498381dec04a10d335d996ba6e5",
+    "bytes": 1250
+  }
+}

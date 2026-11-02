@@ -1,0 +1,39 @@
+{
+  "case_id": "amy-mihaljevic-short-01",
+  "target_format": "shorts",
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+    "bytes": 5898342
+  },
+  "human_approved": true,
+  "approved_by": "Brody",
+  "approved_on": "2026-11-02",
+  "user_quote": "Listened and checked; approve all three",
+  "scope": "All three exact existing processed Short WAVs: full pronunciation, completeness, volume and synchronization against matching word-timing drafts.",
+  "full_listen_passed": true,
+  "technical_processing": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_processing_01.json",
+    "sha256": "a8d3ccd618437fa6c16ee07a0897681d30db62af420994339240e688a65ddbf7",
+    "bytes": 9220
+  },
+  "assembly_allowed": true,
+  "issues": [],
+  "question_item_id": "[\"request_user_input_async\",\"call_691024e1ffa74797aaac42488502bda0\",1]",
+  "packet": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+    "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e",
+    "bytes": 8200
+  },
+  "decision_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/approvals/review02_and_short_audio_approved_2026_11_02.json",
+    "sha256": "f97f8e9dde1b89bcdae74cbf646fc880f5aafeaba383d9d5dc4de70d98aed86d",
+    "bytes": 1830
+  },
+  "status": "FULL_AUDIO_AND_TIMING_APPROVED"
+}

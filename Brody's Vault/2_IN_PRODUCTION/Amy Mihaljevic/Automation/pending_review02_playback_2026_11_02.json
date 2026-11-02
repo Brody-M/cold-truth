@@ -1,0 +1,48 @@
+{
+  "schema_version": "cold_truth.exact_video_review_request.v1",
+  "prepared_at_utc": "2026-11-02T05:08:09.695222+00:00",
+  "case_id": "amy-mihaljevic",
+  "video": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Amy_Mihaljevic_review_02.mp4",
+    "bytes": 345595935,
+    "sha256": "e7dc6f589965aa0c37f6a766462d38256d042056088ef6fb5e99f5c8c581f612"
+  },
+  "approved_audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Audio/full_repair_05/Amy_Mihaljevic_Mia_full_repair_05_pacing_candidate.wav",
+    "bytes": 72578814,
+    "sha256": "f958b43c9b6c4707426419b35295dc35ada338ad718efb5a67d016710f72e299"
+  },
+  "review_note": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.md",
+    "bytes": 2594,
+    "sha256": "cc80735d59555866c9792637ea2d7541ed33d3061fc1fa7324a9d9fe9d82e2fe"
+  },
+  "player": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Exports/Longform/Review_Cut_02.html",
+    "bytes": 3534,
+    "sha256": "80fbd0338b78796fe6ed173b7885e2db3bfe5219de266d8dce653fef2bf90acb"
+  },
+  "render_receipt": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/longform_review_render_02.json",
+    "bytes": 115970,
+    "sha256": "d09647e726c3df26efc35c2f531379ce6f678ce9d5347037cb19b41a9ea2d896"
+  },
+  "export_audit": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/review02_export_audit_2026_11_02.json",
+    "bytes": 81214,
+    "sha256": "f76d2706ec6dab5e9fca71296a16885cd0685f459bf7c829de9ca19aadfbada9"
+  },
+  "scope": "Full exact-video playback: visuals, actual crops/motion,131captions, pacing, audio, synchronization and ending; publishing excluded.",
+  "human_full_playback_approved": false,
+  "remaining_longform_renders": 0,
+  "shorts": {
+    "packet": {
+      "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Automation/shorts_audio_review_packet_01.json",
+      "bytes": 8200,
+      "sha256": "10a7daa2230796498cc4d559fae2fcbf55fee57961c03ac92fd1fc7d948a360e"
+    },
+    "human_audio_and_timing_approved": false
+  },
+  "new_generation_authorized": false,
+  "publishing_authorized": false
+}

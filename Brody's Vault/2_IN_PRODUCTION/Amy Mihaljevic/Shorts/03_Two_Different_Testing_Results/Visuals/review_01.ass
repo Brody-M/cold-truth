@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Segoe UI,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,3,1,5,100,220,0,1
+Style: Fact,Segoe UI,44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H60000000,-1,0,0,0,100,100,0,0,3,14,0,8,100,220,250,1
+Style: Credit,Segoe UI,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,0,0,0,0,100,100,0,0,1,2,0,2,100,220,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.08,0:00:03.96,Caption,,0,0,0,,{\pos(490,1160)}Two testing reports in Amy\NMihaljevic’s case concerned
+Dialogue: 1,0:00:04.02,0:00:07.78,Caption,,0,0,0,,{\pos(490,1160)}different evidence. Amy was\Nten when she was abducted
+Dialogue: 1,0:00:07.92,0:00:09.60,Caption,,0,0,0,,{\pos(490,1160)}in Ohio in 1989.
+Dialogue: 1,0:00:10.46,0:00:15.03,Caption,,0,0,0,,{\pos(490,1160)}In 2024, police said retesting\Nher clothing detected male
+Dialogue: 1,0:00:15.09,0:00:17.79,Caption,,0,0,0,,{\pos(490,1160)}DNA, but too little to create a\Nprofile.
+Dialogue: 1,0:00:18.67,0:00:20.35,Caption,,0,0,0,,{\pos(490,1160)}That did not identify a\Nperson.
+Dialogue: 1,0:00:21.21,0:00:24.27,Caption,,0,0,0,,{\pos(490,1160)}Separate hairs were sent for\Ntesting in California.
+Dialogue: 1,0:00:25.25,0:00:29.92,Caption,,0,0,0,,{\pos(490,1160)}In January 2026, Cleveland 19\Nreported that Astrea
+Dialogue: 1,0:00:29.96,0:00:33.54,Caption,,0,0,0,,{\pos(490,1160)}Forensics could not obtain a\Nprofile from those hairs,
+Dialogue: 1,0:00:34.14,0:00:37.14,Caption,,0,0,0,,{\pos(490,1160)}according to Detective\NSergeant Jay Elish.
+Dialogue: 1,0:00:37.16,0:00:39.04,Caption,,0,0,0,,{\pos(490,1160)}That outcome concerned the\Nhairs.
+Dialogue: 1,0:00:39.96,0:00:42.94,Caption,,0,0,0,,{\pos(490,1160)}It did not erase the separate\Nclothing-DNA finding.
+Dialogue: 1,0:00:43.88,0:00:46.16,Caption,,0,0,0,,{\pos(490,1160)}Investigators were continuing\NDNA work;
+Dialogue: 1,0:00:46.94,0:00:49.08,Caption,,0,0,0,,{\pos(490,1160)}neither report announced an\Nidentification.
+Dialogue: 2,0:00:01.60,0:00:08.60,Fact,,0,0,0,,Amy Mihaljevic • abducted in Ohio\Nin 1989 • age 10
+Dialogue: 2,0:00:10.46,0:00:17.46,Fact,,0,0,0,,2024 • clothing DNA: too little for a\Nprofile
+Dialogue: 2,0:00:18.67,0:00:21.21,Fact,,0,0,0,,Detection ≠ identification
+Dialogue: 2,0:00:21.21,0:00:25.25,Fact,,0,0,0,,Separate evidence: hairs tested in\NCalifornia
+Dialogue: 2,0:00:25.25,0:00:32.25,Fact,,0,0,0,,January 2026 • reported hair-test\Nsetback
+Dialogue: 2,0:00:35.64,0:00:37.16,Fact,,0,0,0,,Report attributed to Det. Sgt. Jay\NElish
+Dialogue: 2,0:00:37.16,0:00:44.16,Fact,,0,0,0,,Different samples • different results
+Dialogue: 0,0:00:00.00,0:00:49.50,Credit,,0,0,0,,Gameplay footage by Orbital -\NNo Copyright Gameplay

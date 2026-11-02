@@ -1,0 +1,41 @@
+{
+  "case_id": "amy-mihaljevic-short-01",
+  "case_name": "Amy Mihaljevic Short 01",
+  "target_format": "shorts",
+  "script_approval": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/script_approval_2026_10_21.json",
+    "sha256": "e8f8eb6436a752090af9393f0600ef7c4baa756aca401213c66a352de9cda395",
+    "bytes": 2306
+  },
+  "script": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Script_Final.md",
+    "sha256": "871c697b1ec14ae6be00aa9e9119c954e31c07ff9562e891481284a95fd0c71f",
+    "bytes": 2253
+  },
+  "narration_text": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/Narration_Text.txt",
+    "sha256": "ca51d89b575dfcce91ef4c6bf58408804fabaf76769f8e7e6a861ab830eb3ab2",
+    "bytes": 619
+  },
+  "audio": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Audio/Amy_Short_01_Mia_attempt_01_processed.wav",
+    "sha256": "a3ef326466e189e7c2975e259676ed8abd3146cf01b2cf7022be37fe4aa28079",
+    "bytes": 5898342
+  },
+  "phase_2_scope": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/approvals/phase_2_narration_and_review_2026_10_21.json",
+    "sha256": "553bb6c90c843dee030b7af1ec8e5a7ad38a1ceb526d07ff8f25628f1bd3ac3e",
+    "bytes": 3203
+  },
+  "generation_manifest": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/narration_attempt_01.json",
+    "sha256": "7f5fa346cb8d4ad76b7c812ad602bfd93838cf28e9a25ca086b21c0aba183832",
+    "bytes": 3770
+  },
+  "generation_event_id": "amy-mihaljevic-short-01-narration-attempt-01",
+  "audio_qa": {
+    "path": "Brody's Vault/2_IN_PRODUCTION/Amy Mihaljevic/Shorts/01_The_Arranged_Meeting/Automation/audio_qa_01.json",
+    "sha256": "04964849590da29483e4e02888d89994470b04b2f1a74d14546da763e9437eab",
+    "bytes": 1223
+  }
+}
